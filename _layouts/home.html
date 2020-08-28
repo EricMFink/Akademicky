@@ -2,10 +2,11 @@
 <html>
 {% include head.html %}
 
-<body class="profile">
+<body class="fullwidth">
 	<div class="profile-image">
 		{% include header.html %}
 		<div class="page-content">
+			<div class="profile">
 			<div class="profile-block">
 				{{ content }}
 				{% include social.html %}
@@ -15,6 +16,7 @@
 			{% include statcounter.html %}
 		</div>
 	</div>
+</div>
 </body>
 
 </html>

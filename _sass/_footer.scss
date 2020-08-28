@@ -4,7 +4,7 @@ footer {
 	background-color: $dark-grey;
 	border-top: thin solid $dark-grey;
 	color: $light-grey;
-	font-size: $h6;
+	font-size: $smaller-size;
 	font-weight: $normal-weight;
 	padding: .5rem;
 	position: fixed;
@@ -14,7 +14,7 @@ footer {
 }
 
 footer p {
-	font-size: $h6;
+	font-size: $smaller-size;
 	line-height: 1.1;
 	margin-top: 0;
 	margin-bottom: 0.2rem;
@@ -22,11 +22,10 @@ footer p {
 }
 
 footer a { 
-	color: $white !important; 
-}
-
-footer a:hover { 
-	color: $link-hover-color; 
+	color: $white !important;
+	&:hover {
+	color:darken($white, 50%) !important;
+	}
 }
 
 .footer-block {

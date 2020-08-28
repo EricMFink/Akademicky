@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: visual
 
-course: 'Civil Procedure'
-title: 'Civil Action Flowchart'
+course: "Civil Procedure"
+title: "Civil Action Flowchart"
+path: "materials/introduction/CivilAction.png"
   
 ---
 
-![Civil Action Flowchart]({{ site.baseurl }}/assets/materials/introduction/CivilAction.png)

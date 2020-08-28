@@ -19,15 +19,18 @@ nav_exclude: true
 
 @import "variables";
 @import "base";
+@import "bijou";
+@import "tufte";
 @import "media-queries";
 @import "syntax-highlighting";
 @import "code";
-@import "sidenotes";
 @import "pages";
 @import "header";
 @import "footer";
 @import "profile";
-@import "legal";
-@import "syllabus";
 @import "vita";
+@import "syllabus";
+@import "gallery";
+@import "outlines";
+@import "legal";
 @import "base-typography";

@@ -9,24 +9,31 @@ $url-font: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera S
 
 // Font Sizes 
 $base-size: 16px !default;
-$small-size:  .9rem !default;
-$smaller-size:  .8rem !default;
-$smallest-size:  .7rem !default;
-$tiny-size:  .6rem !default;
-$tinier-size:  .5rem !default;
-$tiniest-size:  .4rem !default;
+$small-size:  .8rem !default;
+$smaller-size:  .64rem !default;
+$smallest-size:  .512rem !default;
+$tiny-size: .41rem !default; 
 $medium-size:  1rem !default;
-$large-size:  1.1rem !default;
-$larger-size:  1.2rem !default;
-$largest-size:  1.3rem !default;
-$title-size: 2.618rem !default;
-$body-size: 1rem;
-$h1: 2rem !default;
-$h2: 1.618rem !default;
-$h3: 1.236rem !default;
-$h4: 1rem !default;
-$h5: .764rem !default;
-$h6: .618rem !default;
+$large-size:  1.125rem !default;
+$larger-size:  1.25rem !default;
+$largest-size:  1.4rem !default;
+$huge-size: 3.053rem !default;
+$huger-size: 3.815rem !default;
+$hugest-size: 4.768rem !default;
+$title-size: 3.053rem !default;
+$body-size: 1rem !default;
+$h1: 2.441rem !default;
+$h2: 1.953rem !default;
+$h3: 1.563rem !default;
+$h4: 1.25rem !default;
+$h5: 1rem !default;
+$h6: .8rem !default;
+$social-icons-large: 1.5rem;
+$social-icons-medium: 1.25rem;
+$social-icons-small: 1rem;
+$contacticon-large: 90px;
+$contacticon-medium: 60px;
+$contacticon-small: 30px;
 
 // font weights
 $bold-weight: 		700 !default;
@@ -87,7 +94,7 @@ $grey-green:        #424949 !default;
 
 // blacks 
 $black: 			#000000 !default;
-$off-black: 		#231F20 !default;
+$off-black: 		#191919 !default;
 
 // Theme Colors 
 $theme-color:       $dull-red;
@@ -98,6 +105,11 @@ $heading-color: 	$dull-red;
 $code-color:        $bright-cyan;
 $link-color:		$deep-orange;
 $link-hover-color:  $dull-orange;
+
+// Button Colors 
+$primary:			$theme-color;
+$success: 			#4DAF7C;
+$danger: 			#E6623C;
 
 // Borders
 $border-color: $light-grey !default;

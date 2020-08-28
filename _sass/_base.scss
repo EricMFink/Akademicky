@@ -43,6 +43,14 @@ body.centered {
 	padding: 0 2.5rem 0 2.5rem;
 }
 
+body.fullwidth {
+	width: 90%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
 body.sidenotes { 
 	width: 55%;
 	margin-left: 12.5%;

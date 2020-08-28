@@ -2,17 +2,6 @@
     padding-top: 0.5rem;
 }
 
-.download-link {
-	font-family: $heading-font;
-	background-color: #fc6;
-	width: 6rem;
-	text-align: center;
-    font-size: $h6;
-    padding: .5rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
-}
-
 .syllabus {
 	counter-reset: h2; 
 }
@@ -20,113 +9,65 @@
 .syllabus h1 {
 	font-family: $heading-font;
 	color: $theme-color;
-    font-size: $h1;
-    margin-bottom: 1rem !important;
-    padding: 0;
 }
 
 .syllabus h2 {
 	font-family: $heading-font;
 	color: $theme-color;
-    font-size: $h2;
-    line-height: $line-height;
-	font-weight: $normal-weight !important;
-    margin-bottom: 0 !important;
+	font-weight: $normal-weight;
 }
 
 .syllabus h3 {
 	font-family: $heading-font;
-    font-size: $h3;
-    line-height: $line-height;
-	font-weight: $normal-weight !important;
-    margin-top: 1.5rem;
-    margin-bottom: .5rem;
+	font-weight: $normal-weight;
 }
 
 .syllabus h4 {
 	font-family: $serif-font;
-    font-size: $h3;
 	font-style: italic;
-    line-height: $line-height;
-	font-weight: $normal-weight !important;
-	margin-top: 1rem !important;
-    margin-bottom: 0rem !important;
+	font-weight: $normal-weight;
 }
 
 .syllabus h5 {
 	font-family: $serif-font;
 	font-weight: normal;
-    font-size: $h3;
-    line-height: $line-height;
-	font-weight: $normal-weight !important;
-    margin-top: .5rem !important;
-    margin-bottom: 3rem !important;
+    font-size: $h4;
+	font-weight: $normal-weight;
+    margin-bottom: 3rem;
 }
 
 .syllabus h6 {
 	font-family: $sans-font;
-    font-size: $h5;
-	font-style: normal;
     font-weight: $light-weight;
-    line-height: $line-height;
-    margin-top: 0rem !important;
+    margin-top: .2em;
 }
 
-h2:first-child {
-	margin-top: 0 !important;
+.syllabus h2:first-child {
+	margin-top: 0;
 }
 
-h1 + h3 {
-    margin-top: 0 !important;
+.syllabus h1 + h3 {
+    margin-top: 0;
 }
 
-h2 + h3 {
-    margin-top: 0 !important;
+.syllabus h2 + h3 {
+    margin-top: 0;
 }
 
-h4 + h2 {
-    margin-top: .5rem !important;
+.syllabus h4 + h2 {
+    margin-top: 0rem;
 }
 
-/*
-h1 + h2 {
+.syllabus h4 + h3 {
     margin-top: 1.5rem;
 }
 
-h1 + h3 {
-    margin-top: 1rem;
-}
-
-h1 + h4 {
-    margin-top: .5rem;
-}
-
-h1 + h5 {
-    margin-top: 1rem;
-}
-
-h2 + h3 {
+.syllabus h4 + h5 {
     margin-top: 1.5rem;
 }
 
-h2 + h4 {
-    margin-top: .5rem;
-}
 
-h3 + h4 {
-    margin-top: 1rem;
-}
-
-h4 + h3 {
-    margin-top: 1rem;
-}
-
-h4 + h5 {
-    margin-top: -0.2rem;
-}
-*/
-
-/* --- Code --*/
+/* --- For Site Link --*/
 
 .syllabus pre {
 	width: 100%;
@@ -141,51 +82,3 @@ h4 + h5 {
 	margin-top: 1rem; 
 	margin-bottom: 1rem; 
 }
-
-
-
-/*
-
-@media only screen
-and (max-device-width:576px){
-    .syllabus {
-        padding-top: 1rem;
-    }
-    .syllabus p {
-        font-size: 1em;
-    }
-    .syllabus ul {
-        font-size: 1em;
-    }
-    .syllabus h1 {
-        font-size: $h1;
-        margin-top: 3.2rem;
-        margin-bottom: 1.3rem;
-    }
-    .syllabus h2 {
-        font-size: $h2;
-        margin-top: 2.6rem;
-        margin-bottom: 0.8125rem;
-    }
-    .syllabus h3 {
-        font-size: $h2;
-        margin-top: 2.4rem;
-        margin-bottom: 0.8125rem;
-    }
-    .syllabus h4 {
-        font-size: $h3;
-        margin-top: 2rem;
-        margin-bottom: 0.8125rem;
-    }
-    .syllabus h5 {
-        font-size: $h2;
-        margin-top: 1.6rem;
-        margin-bottom: 3rem;
-    }
-    .syllabus h6 {
-        font-size: $h5;
-        line-height: .8;
-    }
-}
-
-*/
