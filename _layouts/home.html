@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="profile">
+	<div class="profile-image">
+		{% include header.html %}
+		<div class="page-content">
+			<div class="profile-block">
+				{{ content }}
+				{% include social.html %}
+			</div>
+			{% include footer.html %}
+			{% include hemline.html %}
+			{% include statcounter.html %}
+		</div>
+	</div>
+</body>
+
+</html>

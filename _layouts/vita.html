@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="centered">
+    
+{% include vita-header.html %}
+
+<div class="page-content">
+    
+<div class="vita">
+
+<!-- vita head -->
+
+<header class="vita-header group">
+
+<div class="vita-contact">
+  <div class="row">
+    <div class="column vita-left">
+		<p class="vita-contact">{{ page.affiliation }}</p>
+		<p class="vita-contact">{{ page.address1 }}</p>
+		<p class="vita-contact">{{ page.address2 }}</p>
+	</div>
+    <div class="column vita-right">
+		<p class="vita-contact">{{ page.phone }} &nbsp; <i class="fas fa-phone"></i></p>
+		<p class="vita-contact"><a href="{{ page.email }}">{{ page.email }}</a> &nbsp; <i class="fa fa-envelope"></i></p>
+		<p class="vita-contact"><a href="https://www.emfink.net/ElonLaw">{{ page.web }}</a> &nbsp; <i class="fas fa-globe"></i></p>
+	</div>
+  </div>
+</div>
+
+</header>
+
+<div class="vita-author">
+{{ page.author }}
+</div> 
+
+<!-- cv body -->
+
+{{ content }}
+
+</div> 
+
+{% include footer.html %}
+
+{% include hemline.html %}
+
+{% include statcounter.html %}
+
+</body>
+
+</html>

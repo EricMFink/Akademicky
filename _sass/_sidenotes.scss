@@ -1,0 +1,83 @@
+/* SIDENOTES */
+
+.sidenote, .marginnote { 
+	float: right;
+	clear: right;
+	margin-right: -40%;
+	width: 35%;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+.sidenote { 
+	font-family: $serif-font;
+	font-size: $smallest-size;
+	font-weight: $light-weight;
+	line-height: 1.2; 
+	vertical-align: baseline;
+	position: relative; 
+}
+
+.marginnote { 
+	font-family: $sans-font;
+	font-size: $tiny-size;
+	font-weight: $light-weight;
+	line-height: 1.2; 
+	vertical-align: baseline;
+	position: relative; 
+}
+
+li .sidenote, li .marginnote{
+	margin-right: -80%; 
+} // allows for list indents in marginnotes and sidenotes
+
+blockquote .sidenote, blockquote .marginnote {
+	margin-right: -79% 
+}
+
+.sidenote-number {
+	counter-increment: sidenote-counter; 
+}
+
+.sidenote-number:after, .sidenote:before { 
+	content: counter(sidenote-counter) " ";
+	font-family: $body-font;
+	color: $contrast-color;
+	position: relative;
+	vertical-align: baseline; 
+}
+
+.sidenote-number:after { 
+	content: counter(sidenote-counter);
+	font-size: 1rem;
+	top: -0.5rem;
+	left: 0.1rem; 
+}
+
+.sidenote:before {
+	content: counter(sidenote-counter) ".\000a0"; // non-breaking space
+	color: $contrast-color;
+	top: 0rem; 
+} 
+
+.marginnote code, .sidenote code { 
+	font-size: 1rem; 
+}
+
+label.sidenote-number { 
+	display: inline; 
+}
+
+label.margin-toggle:not(.sidenote-number) { 
+	display: none; 
+}
+
+.full-width { 
+	.sidenote, .sidenote-number, .marginnote {
+		display: none; 
+	} 
+}
+
+input.margin-toggle { 
+	display: none; 
+}

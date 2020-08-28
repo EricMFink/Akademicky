@@ -1,0 +1,77 @@
+url: https://www.emfink.net
+baseurl: /akademicky
+title: Akademický
+description:  # leave blank if you don't want to display a description 
+name: Eric M. Fink
+
+last_updated: 27 August 2020 # leave blank if you don't want to display last updated
+
+author: Eric M. Fink
+position: Associate Professor
+institution: Elon Law School
+street: 201 North Greene Street
+city: Greensboro
+state: North Carolina
+zip: '27401'
+email: efink@elon.edu
+phone: 336-279-9334
+
+collections: 
+  cases: 
+    output: true 
+  exams:
+    output: true
+  notes: 
+    output: true 
+  outlines:
+    output: true
+  problems:
+    output: true 
+  questions:
+    output: true
+  readings: 
+    output: true 
+  statutes: 
+    output: true 
+  visuals:
+    output: true
+
+scholar:
+  style: american-sociological-association
+  source: ./_publications
+  bibliography: publications.bib 
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings
+
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /articles/:title
+timezone: America/New_York
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+include: ['_pages']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+plugins: ['jekyll/scholar']
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: atom
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/LuckyJimJD.github.com/
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+anchorjs_version: "3.2.2"

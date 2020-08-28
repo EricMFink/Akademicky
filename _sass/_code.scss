@@ -1,0 +1,14 @@
+/* --- Code --*/
+
+pre {
+	width: 52.5%;
+	padding-left: 2.5%;
+	overflow-x: auto; 
+}
+
+pre, pre code, p code, p pre code {
+	font-family: $code-font;
+	font-size: $medium-size;
+	line-height: $taller-line-height;
+	margin-top: 1.7rem;
+}

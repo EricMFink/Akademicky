@@ -1,0 +1,105 @@
+
+footer {
+	font-family: $serif-font;
+	background-color: $dark-grey;
+	border-top: thin solid $dark-grey;
+	color: $light-grey;
+	font-size: $h6;
+	font-weight: $normal-weight;
+	padding: .5rem;
+	position: fixed;
+		left: 0px;
+		bottom: 0px;
+	width: 100%;
+}
+
+footer p {
+	font-size: $h6;
+	line-height: 1.1;
+	margin-top: 0;
+	margin-bottom: 0.2rem;
+	padding: 0;
+}
+
+footer a { 
+	color: $white !important; 
+}
+
+footer a:hover { 
+	color: $link-hover-color; 
+}
+
+.footer-block {
+    position: relative;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-width: 350px){ 
+	.footer-block{
+ 		width: 80%;
+	} 
+}
+
+
+@media screen and (min-width: 400px){ 
+	.footer-block{
+ 		width: 70%;
+	} 
+}
+
+
+@media screen and (min-width: 450px){ 
+	.footer-block{
+ 		width: 60%;
+	} 
+}
+
+@media screen and (min-width: 550px){ 
+	.footer-block{
+ 		width: 50%;
+	} 
+}
+
+@media screen and (min-width: 650px){ 
+	.footer-block{
+ 		width: 45%;
+	} 
+}
+
+@media screen and (min-width: 750px){ 
+	.footer-block{
+ 		width: 40%;
+	} 
+}
+
+@media screen and (min-width: 900px){ 
+	.footer-block{
+ 		width: 35%;
+	} 
+}
+
+@media screen and (min-width: 1000px){ 
+		.footer-block{
+	 		width: 40%;
+		} 
+}
+
+@media screen and (min-width: 1100px){
+	.footer-block{
+ 		width: 35%;
+	} 
+}
+
+@media screen and (min-width: 1200px){
+	.footer-block{
+ 		width: 30%;
+	} 
+}
+
+@media screen and (min-width: 1600px){
+	.footer-block{
+ 		width: 25%;
+	} 
+}

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="page-content">
+<article class="group">
+
+			<div class="page-header group">
+				<h1 class="page-title">{{ page.title }}</h1>
+				{% if page.subtitle %}
+				<h2 class="page-subtitle">{{ page.subtitle }}</h2>
+				{% endif %}
+				<h6 class="download-link"><a href={{ site.baseurl }}/assets/materials/syllabus.pdf>Download Syllabus</a></h6>
+
+
+
+			</div>
+
+<div class="syllabus">
+	{{ content }}
+</div>

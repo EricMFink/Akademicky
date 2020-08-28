@@ -1,0 +1,10 @@
+<div class="social">
+<span class="contacticon center">
+<ul class="list-inline">
+{% for network in site.data.social %}
+<li><a href="{{ network.url }}" target="_blank"><i class="{{ network.title }}"></i></a>
+</li>
+{% endfor %}
+</ul>
+</span>
+</div>

@@ -1,0 +1,201 @@
+
+.page-content {
+    padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+}
+
+.center-screen {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header {
+	margin-bottom: 3rem;
+}
+
+.page-title {
+    color: $theme-color;
+    font-family: $heading-font; 
+    font-size: $title-size;
+    font-weight: $medium-weight;
+    font-style: normal;
+    line-height: 1;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.page-subtitle {
+    color: $text-color;
+    font-family: $serif-font; 
+    font-size: $h2;
+    font-weight: $normal-weight;
+    font-style: normal;
+    line-height: 1;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.page-cite {
+    font-family: $serif-font; 
+	color: $text-color;
+    font-size: $large-size;
+	line-height: 1;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.page-author {
+    font-family: $body-font; 
+	color: $text-color;
+    font-size: $larger-size;
+	line-height: 1;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.page-affiliation {
+	font-family: $body-font; 
+	color: $text-color;
+	font-size: $larger-size;
+    font-style: normal;
+	font-weight: $normal-weight;
+	line-height: 1;
+	margin-top: .5rem;
+	margin-bottom: 2rem;
+}
+
+
+/* OUTLINES */
+
+.outline h1 { 
+    font-size: $h1;
+    margin-top: 2em;
+    margin-bottom: .5em;
+}
+
+.outline h2 {
+    font-size: $h2;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+.outline h3 {
+    font-size: $h3;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+/* case names */
+.outline h4 {
+    font-size: $h3;
+    font-family: $serif-font;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+.outline h5 {
+    font-size: $h4;
+    font-family: $serif-font;
+    font-style: italic;
+    font-weight: $normal-weight;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.outline li { 
+	font-size: $small-size; 
+	max-width: 30rem; 
+}
+
+/* numbering headings */
+body.outline { 
+	counter-reset: H1; 
+}
+
+/* Create the counter for H1 */
+
+.outline h1:before {
+	content: counter(H1) ". "; 	/* Print the H1 number */
+	counter-increment: H1; 	/* Add 1 to next H1 */
+}
+
+.outline h1 { 
+	counter-reset: H2; 
+}
+
+.outline h2:before {
+	content: counter(H1) "." counter(H2) " ";
+	counter-increment: H2;
+}
+
+.outline h2 { 
+	counter-reset: H3; 
+}
+
+.outline h3:before {
+	content: counter(H1) "." counter(H2) "." counter(H3) " ";
+	counter-increment:H3;
+}
+
+/* adjust spacing for consecutive headings */
+
+.outline h1 + h2,
+.outline h2 + h3 {
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+.illustration {
+    padding-top: 2rem;
+    padding-top: 2rem;
+    height: auto;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+
+/* 404 PAGE */
+
+.gevalt img { 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	max-width: 70%; 
+}
+
+.gevalt h1 {
+	color: $theme-color;
+	font-weight: $medium-weight;
+}
+
+.gevalt h4 { 
+	height: 100%; 
+	color: $theme-color;
+	text-align: center; 
+	vertical-align: middle; 
+	font-family: serif-font; 
+	font-size: $medium-size; 
+	font-style: italic; 
+	margin-top: 1rem; 
+}
+
+
+@media only screen
+and (max-device-width:576px){
+    .page-content {
+        padding: 100px 0 150px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+    }
+}

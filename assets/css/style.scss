@@ -1,0 +1,33 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+nav_exclude: true
+---
+/*****************************************************************************/
+/*
+/* Tufte Jekyll blog theme
+/* Based on Tufte CSS by Dave Liepmann ( https://github.com/edwardtufte/tufte-css )
+/*
+/* The README.md will show you how to set up your site along with other goodies
+/*****************************************************************************/
+
+// Imports to create final
+
+@charset "utf-8";
+
+// List in hierachical order (later overrides earlier)
+
+@import "variables";
+@import "base";
+@import "media-queries";
+@import "syntax-highlighting";
+@import "code";
+@import "sidenotes";
+@import "pages";
+@import "header";
+@import "footer";
+@import "profile";
+@import "legal";
+@import "syllabus";
+@import "vita";
+@import "base-typography";

@@ -1,0 +1,272 @@
+
+
+h1 { 
+	font-family: $serif-font;
+	font-weight: $medium-weight;
+	line-height: $short-line-height;
+	margin-top: 1.5em;
+	margin-bottom: 1.5rem;
+	font-size: $h1;
+	line-height: 1; 
+}
+
+h2 {
+	font-family: $serif-font;
+	font-style: normal;
+	font-weight: $medium-weight;
+	line-height: $short-line-height;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	font-size: $h2;
+	line-height: 1; 
+}
+
+h3 {
+	font-family: $serif-font;
+	font-style: normal;
+	font-weight: $medium-weight;
+	line-height: $short-line-height;
+	font-size: $h3;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	line-height: 1; 
+}
+
+h4 {
+	font-family: $serif-font;
+	font-style: normal;
+	font-weight: $medium-weight;
+	line-height: $short-line-height;
+	font-size: $h4;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	line-height: 1; 
+}
+
+h5 {
+	font-family: $serif-font;
+	font-style: normal;
+	font-weight: $medium-weight;
+	font-size: $h5;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	line-height: 1; 
+}
+
+h6 {
+	font-family: $serif-font;
+	font-style: normal;
+	font-weight: $medium-weight;
+	font-size: $h6;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	line-height: 1; 
+}
+
+p { 
+	font-size: $body-size; 
+	line-height: $line-height; 
+	vertical-align: baseline; 
+	margin-top: 1rem; 
+	margin-bottom: 1rem; 
+}
+
+
+/* LISTS */
+
+ol, ul { 
+	font-size: $body-size; 
+	margin-top: .5rem; 
+	margin-bottom: .5rem; 
+	max-width: 40rem;
+	-webkit-padding-start: 5%;
+	-webkit-padding-end: 5%;
+}
+
+li {
+	line-height: $line-height;
+	margin-top: .2rem;
+	vertical-align: baseline; 
+}
+
+
+/* LINKS */
+
+a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $link_hover-color;
+        text-decoration: underline;
+    }
+}
+
+article a, .news a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+		color: $link_hover-color;
+        text-decoration: underline;
+    }
+}
+
+.social a {
+    color: $white;
+    &:hover { color: $link-hover-color; }
+}
+
+/* BLOCKQUOTES */
+
+blockquote { 
+	font-size: $smaller-size; 
+	display: block; 
+	border-left: 4px solid #b03a2e; 
+	padding: 0 0 0 1rem; 
+	margin-top: 2rem; 
+	margin-bottom: 2rem; 
+	margin-left: 1rem; 
+	margin-right: 0; 
+	position: relative; 
+}
+
+blockquote blockquote { 
+	border: none; 
+	margin-top: .5rem; 
+	margin-bottom: .5rem; 
+	margin-left: .5rem; 
+}
+
+
+blockquote p { 
+	font-size: $smaller-size; 
+	font-style: italic; 
+	margin-top: .5rem; 
+	margin-bottom: .5rem; 
+	max-width: 30rem; 
+	line-height: $short-line-height; 
+}
+
+/* EPIGRAPHS */
+
+div.epigraph { margin: 3.5636rem 0; }
+
+div.epigraph > blockquote { margin-top: 3rem; margin-bottom: 3rem; }
+
+div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
+
+div.epigraph > blockquote > footer { font-style: normal; width: 45%; padding-left: 2.5%; padding-right: 2.5%; padding-top: 0; margin-top: 0.4455rem; margin-bottom: 3.1182rem; }
+
+div.epigraph > blockquote > footer > cite { font-style: italic; }
+
+
+/* FIGURES */
+
+figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 3em; }
+
+figcaption { float: right; clear: right; margin-right: -50%; margin-top: 0; margin-bottom: 0; font-size: 1.0rem; line-height: 1.6; vertical-align: baseline; position: relative; max-width: 40%; }
+
+figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; max-width: 100%; }
+
+
+/* TABLES */
+
+div.table-wrapper, table { overflow-x: auto; }
+
+/*-- Table styling - booktabs style is default for Markdown tables  --*/
+
+table, table.booktabs { width: auto; margin: 0 auto; border-spacing: 0px; border-top: 2px solid #d5d8dc; border-bottom: 2px solid #d5d8dc; }
+
+.booktabs th, th { border-bottom: 1px solid #d5d8dc; padding: 0.65ex 0.5em 0.4ex 0.5em; font-weight: normal; text-align: center; }
+
+th, td { font-size: 1.2rem; line-height: 1.7; }
+
+.booktabs th.cmid, th { border-bottom: 1px solid white; }
+
+.booktabs th.nocmid { border-bottom: none; }
+
+.booktabs tbody tr:first-child td, tr:first-child td { padding-top: 0.65ex; }
+
+.booktabs td, td { padding-left: 0.5em; padding-right: 0.5em; text-align: left; }
+
+.booktabs caption, caption { font-size: 0.9rem; text-align: left; width: auto; margin-left: auto; margin-right: auto; margin-top: 1ex; caption-side: top; }
+
+.booktabs tbody tr, .booktabs thead tr th.l, .booktabs td.l { text-align: left !important; }
+
+.booktabs tbody tr, .booktabs thead tr th.c, .booktabs td.c { text-align: center !important; }
+
+.booktabs tbody tr, .booktabs thead tr th.r, .booktabs td.r { text-align: right !important; }
+
+.table-caption { float: right; clear: right; margin-right: -60%; width: 50%; margin-top: 0; margin-bottom: 0; font-size: 1rem; line-height: 2; }
+
+
+/* -- Jekyll specific styling --*/
+//helper classes
+
+.contrast {
+	color: $contrast-color;
+}
+
+.small {
+	font-size: #small-size;
+}
+
+.smaller {
+	font-size: #smaller-size;
+}
+
+.full-width article p {
+	width: 90%;
+}
+
+/* Basic Layout stuff --*/
+
+article { 
+	position: relative;
+	padding: 0 0 0 0; 
+} 
+
+section {
+	padding-top: 1rem;
+	padding-bottom: 1rem; 
+}
+
+img {
+	max-width: 100%; 
+}
+
+span.newthought {
+	font-variant: small-caps;
+	font-size: 1.2em;
+	letter-spacing: 0.05rem; 
+}
+
+
+/* LISTINGS */
+
+.fullwidth, li.listing div { max-width: 90%; }
+
+h1.content-listing-header { font-style: normal; text-transform: uppercase; letter-spacing: 0.2rem; font-size: 1.236rem; }
+
+li.listing hr { width: 100%; }
+
+.listing, .listing h3 { display: inline-block; margin: 0; }
+
+li.listing { margin: 0; }
+
+li.listing p { width: 100%; }
+
+li.listing:last-of-type { border-bottom: none; margin-bottom: 1.4rem; }
+
+li.listing h3.new { text-transform: uppercase; font-style: normal; }
+
+hr.slender { border: 0; height: 1px; margin-top: 1.4rem; margin-bottom: 1.4rem; background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+
+/* PRINTING */
+
+@media print { * { -webkit-transition: none !important; transition: none !important; } *, *:before, *:after { background: transparent !important; box-shadow: none !important; text-shadow: none !important; } @page { margin: 0.75in 0.5in 0.75in 0.5in;
+    orphans: 4;
+    widows: 2; } body { font-size: 12pt; } html body span.print-footer { font-family: "Lato", "Gill Sans", "Gill Sans MT", "Gotham Narrow", sans-serif; font-size: 9pt; margin-top: 22.4pt; padding-top: 4pt; border-top: 1px solid #000; } thead { display: table-header-group; } tr, img { page-break-inside: avoid; } img { max-width: 100% !important; } p, h2, h3 { orphans: 4; widows: 4; } article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 { page-break-after: avoid; } body header, body footer { display: none; } }
+
+/*# sourceMappingURL=style.css.map */
