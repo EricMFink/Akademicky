@@ -6,7 +6,7 @@ title: "Cain v. Abel"
 jurisdiction: "U.S."
 cite: '545 U.S. 546'
 published: "2005"
-author: "Justice Kennedy delivered the opinion of the Court."
+judge: "Justice Kennedy delivered the opinion of the Court."
     
 ---
 
