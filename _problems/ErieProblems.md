@@ -3,12 +3,9 @@ layout: page
 date: 2020-08-12T06:00:00
 permalink: /problems/Erie/
 
-term: Fall 2020
 course: Civil Procedure 
 title: Review Problems
 subtitle: 'Erie Doctrine'
-author: Prof. Fink
-affiliation: Elon Law School 
 
 ---
 

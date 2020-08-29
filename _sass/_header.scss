@@ -46,10 +46,11 @@
         position: absolute;
         top: 9px;
         right: 10%;
-        background-color: #fffff8;
+        background-color: $off-white;
         border: 1px solid $light-grey;
         border-radius: 5px;
         text-align: right;
+		margin-right: 0;
 
         label[for="nav-trigger"] {
             display: block;
