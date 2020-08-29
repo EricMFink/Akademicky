@@ -37,9 +37,28 @@ collections:
     output: true
 
 scholar:
-  style: american-sociological-association
-  source: ./_publications
-  bibliography: publications.bib 
+
+  last_name: Fink
+  first_name: Eric M. 
+
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
