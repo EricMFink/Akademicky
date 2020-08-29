@@ -1,13 +1,21 @@
-- title: Information
-  url: /information/
+- title: Publications
+  url: /publications/
 
-- title: Schedule
-  url: /schedule/
+- title: Teaching
+  url: /teaching/
 
-- title: Materials
-  url: /materials/
+# For teaching site: delete above and uncomment these:
 
-- title: Links
-  url: /links/
+# - title: Information
+#  url: /information/
+
+# - title: Schedule
+#  url: /schedule/
+
+# - title: Materials
+#  url: /materials/
+
+# - title: Links
+#  url: /links/
 
 

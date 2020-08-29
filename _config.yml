@@ -42,6 +42,11 @@ collections:
 
 # Build settings
 
+# deployment
+host: localhost
+port: 4000
+
+
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:title
