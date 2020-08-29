@@ -3,6 +3,11 @@
     padding-bottom: 20px;
 }
 
+.vita-button {
+	float:right;
+	padding-bottom: 2px;
+}
+
 .vita p {
     font-family: $serif-font;
 	margin-top: 0rem;
@@ -64,8 +69,7 @@
     font-size: $h2;
 	font-weight: $bold-weight;
     color: $theme-color;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     padding: 0 0 3px 0;
     border-bottom: 1px solid $text-color;
 }
@@ -74,8 +78,8 @@
     font-family: $serif-font;
     font-size: $h3;
 	font-weight: $bold-weight;
-    margin-top: 2rem;
-    margin-bottom: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 .vita h3 {
@@ -86,9 +90,11 @@
 
 .vita h4 {
     font-family: $serif-font;
-    font-size: $h3;
+    font-size: $h4;
 	font-weight: $normal-weight;
     font-style: oblique;
+	margin-bottom: 0;
+	margin-top: 1rem;
 }
 
 .vita h5 {
@@ -96,7 +102,6 @@
     font-size: $h4;
 	font-weight: $medium-weight;
     line-height: 1.5;
-    margin-top: .5rem;
 	margin-bottom: .5rem;
 }
 
@@ -109,10 +114,18 @@
     padding: 0;
 }
 
+.vita h1 + h3 {
+    margin-top: 0;
+}
+
+.vita h1 + h5 {
+    margin-top: 0;
+}
+
 .vita h2 + h3,
-.vita h2 + h4,
+.vita h2 + h4, 
 .vita h3 + h4 {
-    margin-top: 0.8rem;
+    margin-top: 0.5rem;
 }
 
 @media only screen
