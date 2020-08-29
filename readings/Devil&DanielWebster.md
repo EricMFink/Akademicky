@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sidenotes-page
 permalink: /readings/Devil&DanielWebster/
 
 course: Civil Procedure 

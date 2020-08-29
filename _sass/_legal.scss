@@ -1,21 +1,25 @@
 
 /* CASES */
 
+.case {
+	padding-top: 50px;
+}
+
 .case h3, h4, h5 {
 	margin-bottom: 1rem;
 }
 
 .case h1 {
-	font-size: $h2;
+	font-size: $h3;
 	font-family: $body-font; 
-	font-weight: bold;
+	font-weight: $medium-weight;
     margin-top: 2rem;
 }
 
 .case h2 {
-	font-size: $h3;
+	font-size: $h4;
 	font-family: $body-font; 
-	font-weight: bold;
+	font-weight: $medium-weight;
 	font-style: normal;
 }
 
@@ -26,12 +30,14 @@
 	font-style: italic;
 }
 
+/*
 .case h4 {
 	font-size: $larger-size;
 	font-family: $body-font; 
 	font-weight: bold;
 	font-style: normal;
 }
+*/
 
 .case blockquote {
     border: none;
@@ -58,7 +64,7 @@ blockquote p {
 	margin-top: 2rem;
     margin-bottom: 0rem;
 	font-family: $sans-font;
-	font-size: $smallest-size;
+	font-size: $small-size;
 	font-weight: $light-weight;
 	font-style: normal;
 }
@@ -66,7 +72,7 @@ blockquote p {
 .case-footer p {
 	font-family: $sans-font;
 	border: none;
-	font-size: $smallest-size;
+	font-size: $smaller-size;
 	font-weight: $light-weight;
 	font-style: normal;
 	margin-top: 0;
@@ -76,10 +82,10 @@ blockquote p {
 .case-footer h1 {
 	font-family: $sans-font;
 	border: none;
-	font-size: $smallest-size;
+	font-size: $smaller-size;
 	font-weight: $normal-weight;
 	font-style: normal;
-	padding-top: 1rem;
+	margin-top: 1rem; 
 	margin-bottom: .5rem;
 }
 

@@ -1,5 +1,5 @@
 
-.page-content {
+.page-container {
     padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 
@@ -62,6 +62,69 @@
 	line-height: 1;
 	margin-top: .5rem;
 	margin-bottom: 2rem;
+}
+
+.sidenotes-container {
+    padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+}
+
+.sidenotes-header {
+	margin-bottom: 0;
+}
+
+.sidenotes-title {
+    color: $theme-color;
+    font-family: $heading-font; 
+    font-size: $h3;
+    font-weight: $normal-weight;
+    font-style: normal;
+    line-height: 1;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.sidenotes-subtitle {
+    color: $text-color;
+    font-family: $serif-font; 
+    font-size: $h3;
+    font-weight: $normal-weight;
+    font-style: normal;
+    line-height: 1;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.sidenotes-cite {
+    font-family: $serif-font; 
+	color: $text-color;
+    font-size: $medium-size;
+	line-height: 1;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.sidenotes-author {
+    font-family: $body-font; 
+	color: $text-color;
+    font-size: $medium-size;
+	line-height: 1;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.sidenotes-jurisdiction {
+	font-family: $body-font; 
+	color: $text-color;
+	font-size: $larger-size;
+    font-style: normal;
+	font-weight: $normal-weight;
+	line-height: 1;
+	margin-top: .5rem;
+	margin-bottom: 2rem;
+}
+
+.sidenotes-page-content {
+    padding: 50px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 
 .illustration {

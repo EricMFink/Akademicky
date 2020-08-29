@@ -24,6 +24,15 @@
 	html{ font-size: 22px;} 
 }
 
+@media screen and (min-width: 1400px){ 
+	.sidenote { 
+		font-size: $smaller-size;
+	}
+	.marginnote { 
+		font-size: $smaller-size;
+	}
+}
+
 @media screen and (max-width: 760px){ 
 body.sidenotes { 
 	width: 85%;
