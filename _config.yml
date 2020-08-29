@@ -36,18 +36,6 @@ collections:
   visuals:
     output: true
 
-scholar:
-  style: _bibliography/custom
-  locale: en
-  sort_by: date
-  order: descending
-  source: ./_bibliography
-  repository: ./_bibliography/pdf
-  bibliography: papers.bib
-  bibliography_template: bib
-  replace_strings: true
-  query: "@*"
-
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
