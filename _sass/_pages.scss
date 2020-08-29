@@ -17,17 +17,18 @@
     color: $theme-color;
     font-family: $heading-font; 
     font-size: $title-size;
+    line-height: $line-height;
     font-weight: $normal-weight;
     font-style: normal;
-    line-height: 1;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
 .page-subtitle {
-    color: $text-color;
-    font-family: $serif-font; 
-    font-size: $h2;
+    color: $theme-color;
+    font-family: $heading-font; 
+    font-size: $subtitle-size;
+    line-height: $line-height;
     font-weight: $normal-weight;
     font-style: normal;
     line-height: 1;
@@ -39,92 +40,26 @@
     font-family: $serif-font; 
 	color: $text-color;
     font-size: $large-size;
+    line-height: $line-height;
 	line-height: 1;
 	margin-top: 1rem;
 	margin-bottom: 0;
 }
 
-.page-author {
-    font-family: $body-font; 
-	color: $text-color;
-    font-size: $larger-size;
-	line-height: 1;
-	margin-top: 1rem;
-	margin-bottom: 0;
+.sidenotes-page h1 {
+	font-size: $h2;
 }
 
-.page-affiliation {
-	font-family: $body-font; 
-	color: $text-color;
-	font-size: $larger-size;
-    font-style: normal;
-	font-weight: $normal-weight;
-	line-height: 1;
-	margin-top: .5rem;
-	margin-bottom: 2rem;
+.sidenotes-page h2 {
+	font-size: $h3;
 }
 
-.sidenotes-container {
-    padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+.sidenotes-page h3 {
+	font-size: $h4;
 }
 
-.sidenotes-header {
-	margin-bottom: 0;
-}
-
-.sidenotes-title {
-    color: $theme-color;
-    font-family: $heading-font; 
-    font-size: $h3;
-    font-weight: $normal-weight;
-    font-style: normal;
-    line-height: 1;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-.sidenotes-subtitle {
-    color: $text-color;
-    font-family: $serif-font; 
-    font-size: $h3;
-    font-weight: $normal-weight;
-    font-style: normal;
-    line-height: 1;
-	margin-top: 1rem;
-	margin-bottom: 0;
-}
-
-.sidenotes-cite {
-    font-family: $serif-font; 
-	color: $text-color;
-    font-size: $medium-size;
-	line-height: 1;
-	margin-top: 1rem;
-	margin-bottom: 0;
-}
-
-.sidenotes-author {
-    font-family: $body-font; 
-	color: $text-color;
-    font-size: $medium-size;
-	line-height: 1;
-	margin-top: 1rem;
-	margin-bottom: 0;
-}
-
-.sidenotes-jurisdiction {
-	font-family: $body-font; 
-	color: $text-color;
-	font-size: $larger-size;
-    font-style: normal;
-	font-weight: $normal-weight;
-	line-height: 1;
-	margin-top: .5rem;
-	margin-bottom: 2rem;
-}
-
-.sidenotes-page-content {
-    padding: 50px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+.sidenotes-page h4 {
+	font-size: $h5;
 }
 
 .illustration {
@@ -188,7 +123,6 @@
 	padding-right: 35%
 }
 
-
 @media screen and (max-width: 760px){ 
 .gevalt img { 
 	height: 350px; 
@@ -198,4 +132,3 @@
 	padding-right: 15%
 	}
 }
-

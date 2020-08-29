@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /materials/
-title: Study Aids
+title: Supplemental Material & Study Aids
 
 ---
 

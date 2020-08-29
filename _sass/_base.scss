@@ -25,11 +25,11 @@ html{
 }
 
 body { 
-	width: 90%;
+	width: 85%;
+	max-width: 40rem;
 	margin-left: 12.5%;
 	margin-right: 0;
-	padding: 0 0 0 0;
-	max-width: 50rem;
+	padding: 0 2.5rem 0 .5rem;
 	font-family: $body-font;
 	background-color: $background-color;
 	color: $text-color;
@@ -57,6 +57,7 @@ body.sidenotes {
 	margin-right: 0;
 	padding-left: 0;
 	padding-right: 0;
+    counter-reset: h1;  
 	counter-reset: sidenote-counter; 
 }
 
