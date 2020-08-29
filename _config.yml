@@ -37,7 +37,7 @@ collections:
     output: true
 
 scholar:
-  style: apa
+  style: law-and-society-review
   locale: en
   sort_by: date
   order: descending
