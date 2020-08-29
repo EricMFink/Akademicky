@@ -1,21 +1,10 @@
 ---
 ---
 <div class="text-justify">{{reference}}</div>
- 
-{% if entry.doi %}
-    <a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input class="button1" type="button" value="doi" /></a>
-{% endif %}
- 
-{% if entry.preprint %}
-    <a href="{{ entry.preprint }}"><input class="button2" type="button" value="preprint" /></a>
-{% endif %}
- 
+
 {% if entry.link %}
     <a href="{{ entry.link }}"><input class="button4" type="button" value="link" /></a>
 {% endif %}
- 
-{% if entry.code %}
-    <a href="{{ entry.code }}"><input class="button3" type="button" value="code" /></a>
-{% endif %}
+
 <div id="a{{entry.key}}" style="display: none;">
 <pre>{{entry.bibtex}}</pre>

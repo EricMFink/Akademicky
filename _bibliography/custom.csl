@@ -15,7 +15,8 @@
 
   <macro name="editor">
     <names variable="editor">
-      <name and="text" delimiter=", " initialize-with=". "/>
+      <name and="text" delimiter=", " initialize="false" />
+      <label form="short" prefix=" "/>
     </names>
   </macro>
   <macro name="anon">
@@ -23,7 +24,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" delimiter=", " delimiter-precedes-last="never" initialize="false" initialize-with=". "/>
+      <name and="text" delimiter=", " delimiter-precedes-last="never" initialize="false" />
       <label form="short" prefix=", "/>
       <substitute>
         <names variable="editor"/>
@@ -74,7 +75,7 @@
         <text variable="title" font-style="italic" text-case="title"/>
       </else-if>
       <else>
-        <text variable="title" quotes="true" text-case="title"/>
+        <text variable="title" quotes="false" text-case="title"/>
       </else>
     </choose>
   </macro>
@@ -171,7 +172,7 @@
       <key macro="year-sort"/>
       <key variable="title"/>
     </sort>
-    <layout suffix=".">
+    <layout suffix="">
       <group delimiter=" ">
         <text macro="author" suffix=","/>
       </group>
@@ -207,7 +208,6 @@
             <text macro="publisher"/>
           </group>
 			<text macro="year-date" prefix="(" suffix=")"/>
-		
           </group>
         </else-if>
         <else-if type="chapter paper-conference" match="any">
@@ -223,10 +223,7 @@
               </group>
               <text variable="collection-title" font-style="italic"/>
             <group delimiter=", " prefix="(" suffix=")">
-              <group delimiter=" ">
-            	<text macro="editor"/>
-            	<text term="ed." text-case="lowercase"/>
-			  </group>
+              <text macro="editor" />
   	          <text macro="year-date" />
 			</group>
             </group>
