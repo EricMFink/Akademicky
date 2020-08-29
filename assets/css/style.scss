@@ -20,6 +20,7 @@ nav_exclude: true
 @import "variables";
 @import "base";
 @import "academicons.css";
+@import "publications";
 @import "bijou";
 @import "tufte";
 @import "base-typography";
@@ -30,9 +31,9 @@ nav_exclude: true
 @import "header";
 @import "footer";
 @import "profile";
+@import "gallery";
+@import "publications";
 @import "vita";
 @import "syllabus";
-@import "gallery";
 @import "outlines";
 @import "legal";
-@import "base-typography";

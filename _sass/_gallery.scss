@@ -100,23 +100,26 @@ figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; m
                 top: 0;
                 left: 0;
                 bottom: 0;
-                right: 0;
-                background: rgba(0,0,0,0.4);
-                padding: 0 0 0 0;
+                right: 0;	
+				margin-top: 0;
+				margin-bottom: 0;
+				padding-top: 5%;
+				padding-bottom: 5%;
                 text-align: center;
+                background: rgba(0,0,0,0.4);
 
                 h1 {
-                    font-size: $h3;
-                    margin: 20% 30% 0 30%;
+                    font-size: $h4;
                     color: white;
-                    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+                    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);	
+					padding-top: 15%;
+					padding-bottom: 15%;
+					margin: 0;
                 }
-
                 p {
                     color: $light-grey;
                 }
             }
-
             &:hover {
                 span {
                     display: block;
@@ -125,136 +128,47 @@ figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; m
         }
     }
   }
+
   
-@media screen and (min-width: 467px) and (max-width: 576px) {
+@media screen and (min-width: 467px) {
   .project {
       height: 220px;
-      padding: 10px;
       width: 100%;
 
       .thumbnail {
           height: 200px;
-          width: 100%;
-
-          img {
-              height: auto;
-              width: 100%;
-          }
           a {
-              float: left;
               height: 200px;
-              position: relative;
-              width: 100%;
-
-              span {
-                  padding: 0 10% 0 10%;
-
-                  h1 {
-                      font-size: $h3;
-                      margin: 20% 0 0 0;
-                  }
-
               }
           }
       }
   }
-}
 
-@media screen and (min-width: 576px) and (max-width: 640px) {
+
+@media screen and (min-width: 576px) {
     .project {
-        height: 190px;
+        height: 170px;
         width: 50%;
 
         .thumbnail {
-            height: 170px;
-            width: 100%;
-
-            img {
-                height: auto;
-                width: 100%;
-            }
+            height: 150px;
             a {
-                float: left;
-                height: 180px;
-                position: relative;
-                width: 100%;
-
-                span {
-                    padding: 0 10% 0 10%;
-
-                    h1 {
-                        font-size: $h3;
-                        margin: 30% 20% 0 20%;
-                    }
-
+                height: 150px;
                 }
             }
         }
     }
-}
 
-@media screen and (min-width: 640px)  and (max-width: 768px) {
+
+@media screen and (min-width: 768px) {
     .project {
         height: 150px;
-        width: 33.33%;
-
-        .thumbnail {
-            height: 120px;
-            width: 100%;
-
-            img {
-                height: auto;
-                width: 100%;
-            }
-            a {
-                float: left;
-                height: 130px;
-                position: relative;
-                width: 100%;
-
-                span {
-                    padding: 0 10% 0 10%;
-
-                    h1 {
-                        font-size: $h3;
-                        margin: 20% 0% 0 0%;
-                    }
-
-                }
-            }
-        }
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 900px) {
-    .project {
-        height: 150px;
-        padding: 10px;
         width: 33.33%;
 
         .thumbnail {
             height: 130px;
-            width: 100%;
-
-            img {
-                height: auto;
-                width: 100%;
-            }
             a {
-                float: left;
                 height: 140px;
-                position: relative;
-                width: 100%;
-
-                span {
-                    padding: 0 10% 0 10%;
-
-                    h1 {
-                        font-size: $h3;
-                        margin: 20% 10% 0 10%;
-                    }
-
-                }
             }
         }
     }
@@ -263,33 +177,38 @@ figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; m
 
 @media (min-width: 900px){
     .project {
-        height: 185px;
-        padding: 10px;
-        width: 33.33%;
+        height: 165px;
 
         .thumbnail {
-            height: 165px;
-            width: 100%;
-
-            img {
-                height: auto;
-                width: 100%;
-            }
+            height: 145px;
             a {
-                float: left;
+                height: 145px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1000px){
+    .project {
+        height: 175px;
+
+        .thumbnail {
+            height: 160px;
+            a {
+                height: 160px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1400px){
+    .project {
+        height: 190px;
+
+        .thumbnail {
+            height: 175px;
+            a {
                 height: 175px;
-                position: relative;
-                width: 100%;
-
-                span {
-                    padding: 0 10% 0 10%;
-
-                    h1 {
-                        font-size: $h3;
-                        margin: 25% 10% 0 10%;
-                    }
-
-                }
             }
         }
     }

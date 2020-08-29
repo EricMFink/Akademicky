@@ -1,30 +1,149 @@
-- id: FinkJustWhenThought2018
-  type: article-journal
-  title: '"Just When I Thought I was Out …": Post-Employment Repayment Obligations'
-  container-title: Washington & Lee Journal of Civil Rights & Social Justice
-  page: '51'
-  volume: '25'
-  author: Eric M. Fink 
-  co-author: Stuart Lichten
-  date: 2018
-  pdf: Post-Employment_Repayment_Obligations.pdf
+- id: Fink2001
+  author:
+    - family: Fink
+      given: Eric M.
+    - family: Davidson
+      given: Stuart W.
+  container-title: 'The CyberUnion Handbook: Transforming Labor Through Computer Technology'
+  editor:
+    - family: Shostak
+      given: Arthur
+  event-place: New York
+  ISBN: 978-0-7656-0803-1
+  issued:
+    - year: 2001
+  page: 98-103
+  publisher: Routledge
+  publisher-place: New York
+  title: Union and Employee Access to Employer E-mail Systems Under Federal Labor Law
+  type: chapter
+  URL: 'https://doi.org/10.4324/9781315700038'
 
-- id: FinkUnionOrganizingCollective2016
+- id: Fink2004
+  author:
+    - family: Fink
+      given: Eric M.
+  container-title: Hastings Law Journal
+  container-title-short: Hastings Law J.
+  issued:
+    - year: 2004
+  page: '931'
+  title: >-
+    Post-Realism, or the Jurisprudential Logic of Late Capitalism: A Socio-Legal
+    Analysis of the Rise and Diffusion of Law and Economics
   type: article-journal
-  title: Union Organizing & Collective Bargaining for Incarcerated Workers
-  container-title: Idaho Law Review
-  page: '953'
-  volume: '52'
-  author: Eric M. Fink 
-  date: 2016
-  pdf: Unions_for_Incarcerated_Workers.pdf
+  volume: '55'
 
-- id: FinkSewerSyndicalismWorker2014
+- id: Fink2008
+  author:
+    - family: Fink
+      given: Eric M.
+  container-title: Notre Dame Law Review
+  container-title-short: Notre Dame Law Rev.
+  issued:
+    - year: 2008
+  page: '2019'
+  title: >-
+    Liars and Terrorists and Judges, Oh My: Moral Panic and the Symbolic
+    Politics of Appellate Review in Asylum Cases
   type: article-journal
-  title: 'Sewer Syndicalism: Worker Control in Public Services'
+  volume: '83'
+
+- id: Fink2010
+  author:
+    - family: Fink
+      given: Eric M.
+  container-title: John Marshall Journal of Computer and Information Law
+  container-title-short: John Marshall J. Comput. Inf. Law
+  issued:
+    - year: 2010
+  page: '325'
+  title: >-
+    Law School and The Web of Group Affiliation: Socializing, Socialization, and
+    Social Network Site Use Among Law Students
+  type: article-journal
+  volume: '27'
+
+- id: Fink2011
+  author:
+    - family: Fink
+      given: Eric M.
+  issue: '1'
+  issued:
+    - year: 2011
+  page: '89'
+  title: >-
+    The Virtual Construction of Legality: 'Griefing' and Normative Order in
+    Second Life
+  type: article-journal
+  volume: '21'
+
+- id: Fink2013
+  author:
+    - family: Fink
+      given: Eric M.
+  container-title: University of San Francisco Law Review
+  container-title-short: Univ. San Franc. Law Rev.
+  issued:
+    - year: 2013
+  page: '435'
+  title: >-
+    No Money, Mo’ Problems: Why Unpaid Law Firm Internships Are Illegal and
+    Unethical
+  type: article-journal
+  volume: '47'
+
+- id: Fink2014
+  author:
+    - family: Fink
+      given: Eric M.
   container-title: Nevada Law Journal
+  container-title-short: Nev. Law J.
+  issued:
+    - year: 2014
   page: '444'
+  title: 'Sewer Syndicalism: Worker Control in Public Services'
+  type: article-journal
   volume: '14'
-  author: Eric M. Fink 
-  date: 2014
-  pdf: Sewer_Syndicalism.pdf
+
+- id: Fink2014a
+  author:
+    - family: Fink
+      given: Eric M.
+    - family: Zullo
+      given: Roland
+  event-place: 'Washington, D.C.'
+  issued:
+    - year: 2014
+  publisher-place: 'Washington, D.C.'
+  title: 'Federal Student Loan Servicing: Contract Problems and Public Solutions'
+  type: report
+
+- id: Fink2016
+  author:
+    - family: Fink
+      given: Eric M.
+  container-title: Idaho Law Review
+  container-title-short: Ida. Law Rev.
+  issued:
+    - year: 2016
+  page: '953'
+  title: Union Organizing & Collective Bargaining for Incarcerated Workers
+  type: article-journal
+  volume: '52'
+
+- id: Fink2018
+  author:
+    - family: Fink
+      given: Eric M.
+    - family: Lichten
+      given: Stuart
+  container-title: Washington & Lee Journal of Civil Rights & Social Justice
+  container-title-short: Wash. Lee J. Civ. Rights Soc. Justice
+  issued:
+    - year: 2018
+  page: '51'
+  title: '"Just When I Thought I was Out …": Post-Employment Repayment Obligations'
+  type: article-journal
+  volume: '25'
+...
