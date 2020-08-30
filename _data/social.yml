@@ -7,13 +7,25 @@
   label: Appointment
 
 - title: ai ai-cv
-  url: https://www.emfink.net/ElonLaw/vita/
+  url: https://www.emfink.net/ElonLaw/vita
   label: CV
-
-- title: fa fa-briefcase
-  url: https://www.emfink.net/ElonLaw
-  label: Work
 
 - title: fab fa-github
   url: https://github.com/LuckyJimJD
   label: GitHub
+
+- title: ai ai-osf
+  url: https://osf.io/3a6j9/
+  label: OSF
+
+- title: ai ai-google-scholar
+  url: https://scholar.google.com/citations?user=TOHVdLgAAAAJ
+  label: Zotero
+
+- title: ai ai-orcid
+  url: https://orcid.org/0000-0002-9502-6347
+  label: Orcid
+
+- title: ai ai-zotero
+  url: https://www.zotero.org/emfink/items
+  label: Zotero
