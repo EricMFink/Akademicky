@@ -1,6 +1,10 @@
 
 /* CASES */
 
+.case p {
+	font-weight: $book-weight;
+}
+
 .case h3, h4, h5 {
 	margin-bottom: 1rem;
 }
@@ -15,25 +19,26 @@
 .case h2 {
 	font-size: $h4;
 	font-family: $body-font; 
-	font-weight: $medium-weight;
+	font-weight: $normal-weight;
 	font-style: normal;
 }
 
 .case h3 {
 	font-size: $h4;
 	font-family: $body-font; 
+	font-weight: $normal-weight;
 	font-weight: normal;
 	font-style: italic;
 }
 
-/*
+
 .case h4 {
-	font-size: $larger-size;
+	font-size: $h5;
 	font-family: $body-font; 
+	font-weight: $normal-weight;
 	font-weight: bold;
 	font-style: normal;
 }
-*/
 
 .case blockquote {
     border: none;

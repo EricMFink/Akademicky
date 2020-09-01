@@ -1,9 +1,9 @@
 /* This file contains all the constants for colors and font styles */
 
-$serif-font: "skolar-latin","Cormorant Garamond", "Chronicle Text G2", serif;
-$sans-font:  "skolar-sans-latin","Lato", "Gill Sans", "Gill Sans MT", "Gotham Narrow", sans-serif;
+$serif-font: "maiola","Cormorant Garamond", "Chronicle Text G2", serif;
+$sans-font:  "adele-sans","Lato", "Gill Sans", "Gill Sans MT", "Gotham Narrow", sans-serif;
 $body-font: $serif-font;
-$heading-font: "skolar-sans-latin",'Proza Libre',Lato,Helvetica, Verdana, sans-serif !default;
+$heading-font: "adele-sans",'Proza Libre',Lato,Helvetica, Verdana, sans-serif !default;
 $code-font: Inconsolate, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 $url-font: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 
@@ -37,11 +37,14 @@ $contacticon-medium: 60px;
 $contacticon-small: 30px;
 
 // font weights
+$black-weight: 		900 !default;
+$heavy-weight: 		800 !default;
 $bold-weight: 		700 !default;
 $medium-weight: 	600 !default;
+$book-weight: 		500 !default;
 $normal-weight: 	400 !default;
 $light-weight: 		300 !default;
-$thin-weight: 		300 !default;
+$thin-weight: 		200 !default;
 
 // line heights
 $line-height: 1.5 !default;

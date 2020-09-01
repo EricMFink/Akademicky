@@ -11,7 +11,8 @@
 
 .sidenote { 
 	font-family: $serif-font;
-	font-size: $smaller-size;
+	font-size: $small-size;
+	font-weight: $normal-weight;
 	line-height: 1.2; 
 	vertical-align: baseline;
 	position: relative; 
@@ -19,7 +20,7 @@
 
 .marginnote { 
 	font-family: $sans-font;
-	font-size: $smaller-size;
+	font-size: $smallest-size;
 	font-weight: $light-weight;
 	line-height: 1.2; 
 	vertical-align: baseline;
@@ -48,10 +49,9 @@ blockquote .sidenote, blockquote .marginnote {
 
 .sidenote-number:after { 
 	content: counter(sidenote-counter);
-	font-size: $small-size;
 	font-weight: $medium-weight;
 	top: -0.3rem;
-	left: -0.1rem; 
+	left: 0.1rem; 
 }
 
 .sidenote:before {
