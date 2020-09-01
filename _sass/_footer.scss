@@ -14,7 +14,7 @@ footer {
 }
 
 footer p {
-	font-size: $smaller-size;
+	font-size: $smallest-size;
 	line-height: 1.1;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -39,6 +39,7 @@ footer a {
 }
 
 .footer-block p {
+	font-size: $smallest-size;
     position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -47,14 +48,17 @@ footer a {
 }
 
 
-/*
-@media screen and (min-width: 350px){ 
-	.footer-block{
- 		width: 80%;
+
+@media screen and (min-width: 1000px){ 
+	.footer p {
+ 		font-size: $tiny-size !important;
+	} 
+	.footer-block p {
+ 		font-size: $tiny-size !important;
 	} 
 }
 
-
+/*
 @media screen and (min-width: 400px){ 
 	.footer-block{
  		width: 70%;

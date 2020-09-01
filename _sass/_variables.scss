@@ -1,9 +1,9 @@
 /* This file contains all the constants for colors and font styles */
 
-$serif-font: maiola,serif;
-$sans-font:  adele-sans,sans-serif;
+$serif-font: maiola, serif;
+$sans-font:  adelle-sans, sans-serif;
 $body-font: $serif-font;
-$heading-font: adele-sans,sans-serif !default;
+$heading-font: $sans-font;
 $code-font: Inconsolate, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 $url-font: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
 
