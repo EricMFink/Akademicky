@@ -1,11 +1,13 @@
 /* This file contains all the constants for colors and font styles */
 
-$serif-font: maiola, serif;
+$serif-font: portada, serif;
 $sans-font:  adelle-sans, sans-serif;
 $body-font: $serif-font;
+$text-font: portada-text, serif;
 $heading-font: $sans-font;
-$code-font: Inconsolate, Consolas, "Liberation Mono", Menlo, Courier, monospace;
-$url-font: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+$sidenotes-font: portada, serif;
+$marginnotes-font: adelle-sans-condensed, sans-serif;
+$code-font: lft-etica-mono,Inconsolata,Consolas,Courier, monospace;
 
 // Font Sizes 
 $base-size: 16px !default;
@@ -37,14 +39,15 @@ $contacticon-medium: 60px;
 $contacticon-small: 30px;
 
 // font weights
-$black-weight: 		900 !default;
-$heavy-weight: 		800 !default;
-$bold-weight: 		700 !default;
-$medium-weight: 	600 !default;
-$book-weight: 		500 !default;
-$normal-weight: 	400 !default;
-$light-weight: 		300 !default;
-$thin-weight: 		200 !default;
+$black-weight: 			900 !default;
+$heavy-weight: 			800 !default;
+$bold-weight: 			700 !default;
+$medium-weight: 		600 !default;
+$book-weight: 			500 !default;
+$normal-weight: 		400 !default;
+$light-weight: 			300 !default;
+$extra-light-weight: 	200 !default;
+$thin-weight: 			100 !default;
 
 // line heights
 $line-height: 1.5 !default;

@@ -1,5 +1,6 @@
 .vita {
     font-family: $serif-font;
+	font-weight: $light-weight;
     padding-bottom: 20px;
 }
 
@@ -33,6 +34,7 @@
 
 .vita-contact {
     font-family: $serif-font;
+	font-weight: $light-weight;
     margin: 0;
     padding: 0;
 }
@@ -67,7 +69,7 @@
 .vita h1 {
 	font-family: $heading-font;
     font-size: $h2;
-	font-weight: $bold-weight;
+	font-weight: $medium-weight;
     color: $theme-color;
     margin-bottom: 1rem;
     padding: 0 0 3px 0;
@@ -77,30 +79,31 @@
 .vita h2 {
     font-family: $serif-font;
     font-size: $h3;
-	font-weight: $bold-weight;
+	font-weight: $normal-weight;
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
 
 .vita h3 {
     font-family: $serif-font;
-    font-size: $h3;
-	font-weight: $medium-weight;
+    font-size: $h4;
+	font-weight: $normal-weight;
 }
 
 .vita h4 {
     font-family: $serif-font;
-    font-size: $h4;
+    font-size: $h5;
 	font-weight: $normal-weight;
-    font-style: oblique;
+    font-style: italic;
 	margin-bottom: 0;
 	margin-top: 1rem;
 }
 
 .vita h5 {
     font-family: $serif-font;
-    font-size: $h4;
-	font-weight: $medium-weight;
+    font-size: $h5;
+	font-weight: $normal-weight;
+    font-style: italic;
     line-height: 1.5;
 	margin-bottom: .5rem;
 }
