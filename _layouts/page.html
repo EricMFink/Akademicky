@@ -13,7 +13,7 @@ layout: default
 				<h3 class="page-cite">{{ page.author }}</h3>
 				{% endif %}
 				{% if page.cite %}
-				<h3 class="page-cite">{{ page.cite }} ({% if page.jurisdiction %}{{ page.jurisdiction }} {% endif %}{% if page.published %}{{ page.published }}){% endif %}</h3>
+				<h3 class="page-cite">{{ page.cite }} {% if page.published %}({% if page.jurisdiction %}{{ page.jurisdiction }}, {% endif %}{{ page.published }}){% endif %}</h3>
 				{% endif %}
 				{% if page.institution %}
 				<h4 class="page-cite">{{ page.institution }}</h4>
