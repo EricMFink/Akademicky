@@ -11,7 +11,7 @@
 
 .sidenote { 
 	font-family: $sidenotes-font;
-	font-size: $smaller-size;
+	font-size: $smallest-size;
 	font-weight: $light-weight;
 	line-height: 1.2; 
 	vertical-align: baseline;
@@ -20,7 +20,7 @@
 
 .marginnote { 
 	font-family: $marginnotes-font;
-	font-size: $smaller-size;
+	font-size: $smallest-size;
 	font-weight: $light-weight;
 	line-height: 1.2; 
 	vertical-align: baseline;
@@ -48,10 +48,10 @@ blockquote .sidenote, blockquote .marginnote {
 }
 
 .sidenote-number:after { 
-	content: counter(sidenote-counter);
+	content: '['counter(sidenote-counter)']' ;
 	font-weight: $normal-weight;
 	top: -0.3rem;
-	left: 0rem; 
+	left: 0.1rem; 
 }
 
 .sidenote:before {
@@ -66,7 +66,7 @@ blockquote .sidenote, blockquote .marginnote {
 
 label.sidenote-number { 
 	display: inline; 
-	font-size: $small-size; 
+	font-size: $smallest-size; 
 }
 
 label.margin-toggle:not(.sidenote-number) { 
@@ -84,21 +84,6 @@ input.margin-toggle {
 }
 
 
-@media screen and (min-width: 1400px){ 
-	.sidenote { 
-		font-size: $smaller-size;
-		line-height: 1.4; 
-	}
-	.marginnote { 
-		font-size: $smallest-size;
-	}
-}
-
-@media screen and (max-width: 760px){ 
-	body.sidenotes { 
-		width: 85%;
-	}
-}
 
 @media (max-width: 760px) { 
 	label.margin-toggle:not(.sidenote-number) { 

@@ -4,16 +4,17 @@ $serif-font: portada, serif;
 $sans-font:  adelle-sans, sans-serif;
 $body-font: $serif-font;
 $heading-font: $sans-font;
+$serif-heading-font: portada, serif;
 $sidenotes-font: portada, serif;
-$marginnotes-font: adelle-sans-condensed, sans-serif;
+$marginnotes-font: adelle-sans, sans-serif;
 $code-font: lft-etica-mono,Inconsolata,Consolas,Courier, monospace;
 
 // Font Sizes 
 $base-size: 16px !default;
 $small-size:  .8rem !default;
-$smaller-size:  .64rem !default;
-$smallest-size:  .512rem !default;
-$tiny-size: .41rem !default; 
+$smaller-size:  .7rem !default;
+$smallest-size:  .6rem !default;
+$tiny-size: .5rem !default; 
 $medium-size:  1rem !default;
 $large-size:  1.125rem !default;
 $larger-size:  1.25rem !default;

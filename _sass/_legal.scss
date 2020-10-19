@@ -6,7 +6,7 @@
 }
 
 .case h1, h2, h3, h4, h5 {
-	font-family: $serif-font;
+	font-family: $serif-heading-font;
 }
 
 .case h3, h4, h5 {
@@ -39,17 +39,16 @@
     border: none;
 }
 
-/*
 .case blockquote, 
 blockquote p {
-    font-size: $small-size;
-    line-height: $blockquote-line-height;
     font-style: normal;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+	margin-left: 1rem;
+	line-height: 1.5;
+	margin-right: .5rem;
     padding: 0;
 }
-*/
-
 
 .case-footer {
 	border-top: 1px solid $dark-grey;
@@ -90,7 +89,7 @@ blockquote p {
 
 
 .statute h1, h2, h3, h4, {
-	font-family: $serif-font;
+	font-family: $serif-heading-font;
 }
 
 .statute h3, h4, h5 { 
@@ -122,7 +121,7 @@ blockquote p {
 /* body of comments */
 .statute h5 {
 	font-family: $sans-font;
-	font-size: 0.8rem; 
+	font-size: $smaller-size; 
 	font-weight: $light-weight;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
@@ -131,7 +130,7 @@ blockquote p {
 /* body of illustrations */
 .statute h6 {  
 	font-family: $sans-font;
-	font-size: 0.8rem; 
+	font-size: $smaller-size;
 	font-weight: $light-weight;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
@@ -159,7 +158,7 @@ blockquote p {
 	margin-top: 1rem; 
 	margin-bottom: 1rem; 
     padding: 0;
-	width: 50rem;
+	max-width: 50rem;
 }
 
 

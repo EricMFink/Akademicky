@@ -27,14 +27,14 @@
 <div class="vita-contact">
   <div class="row">
     <div class="column vita-left">
-		<p class="vita-contact">{{ page.affiliation }}</p>
-		<p class="vita-contact">{{ page.address1 }}</p>
-		<p class="vita-contact">{{ page.address2 }}</p>
+		<p class="vita-contact">{{ site.institution }}</p>
+		<p class="vita-contact">{{ site.street }}</p>
+		<p class="vita-contact">{{ site.city }}, {{ site.state }} {{ site.zip }}</p>
 	</div>
     <div class="column vita-right">
-		<p class="vita-contact">{{ page.phone }} &nbsp; <a href="tel:{{ page.phone }}"><i class="fas fa-phone"></i></p></a>
-		<p class="vita-contact">{{ page.email }} &nbsp; <a href="mailto:{{ page.email }}"><i class="fa fa-envelope"></i></p></a>
-		<p class="vita-contact">{{ page.web }} &nbsp; <a href="https://www.emfink.net/ElonLaw"><i class="fas fa-globe"></i></p></a>
+		<p class="vita-contact">{{ site.phone }} &nbsp; <a href="tel:{{ page.phone }}"><i class="fas fa-phone"></i></p></a>
+		<p class="vita-contact">{{ site.email }} &nbsp; <a href="mailto:{{ page.email }}"><i class="fa fa-envelope"></i></p></a>
+		<p class="vita-contact">{{ site.web }} &nbsp; <a href="https://www.emfink.net/ElonLaw"><i class="fas fa-globe"></i></p></a>
 	</div>
   </div>
 </div>
@@ -42,7 +42,7 @@
 </div>
 
 <div class="vita-author group">
-{{ page.author }}
+{{ site.author }}
 </div> 
 
 <!-- cv body -->
