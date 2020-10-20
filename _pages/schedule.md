@@ -9,5 +9,5 @@ title: Schedule & Assignments
 
 #### October 31
 
-- [Mayo v. Satan](https://www.emfink.net/CivilProcedure/cases/Mosley)
-- [The Devil & Daniel Webster](https://www.emfink.net/CivilProcedure/readings/Devil&DanielWebster)
+- [Mayo v. Satan](https://www.emfink.net/CivilProcedure/cases/Mosley), 54 F.R.D. 282 (W.D. Pa. 1971)
+- Stephen Vincent Benet, [The Devil & Daniel Webster](https://www.emfink.net/CivilProcedure/readings/Devil&DanielWebster) (1936)
