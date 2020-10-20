@@ -57,5 +57,5 @@ The Law School [honor code](https://www.elon.edu/e/law/student-experience/honor-
 
 #### October 31
 
-- [Mayo v. Satan](https://www.emfink.net/CivilProcedure/cases/Mosley), 54 F.R.D. 282 (W.D. Pa. 1971)
+- [Mayo v. Satan](https://www.emfink.net/CivilProcedure/cases/Mayo_Satan), 54 F.R.D. 282 (W.D. Pa. 1971)
 - Stephen Vincent Benet, [The Devil & Daniel Webster](https://www.emfink.net/CivilProcedure/readings/Devil&DanielWebster) (1936)
