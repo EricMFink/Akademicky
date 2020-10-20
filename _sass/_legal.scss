@@ -84,9 +84,8 @@ blockquote p {
 
 .statute p {
 	font-family: $body-font;
-	font-weight: $normal-weight;
+	font-weight: $light-weight;
 }
-
 
 .statute h1, h2, h3, h4, {
 	font-family: $serif-heading-font;
@@ -137,10 +136,9 @@ blockquote p {
 	margin-left: 1rem;
 }
 
-
 .statute blockquote { 
     font-size: 1rem;
-	font-weight: $normal-weight;
+	font-weight: $light-weight;
 	font-style: normal;
 	line-height: $line-height;
 	border: none; 
@@ -149,7 +147,6 @@ blockquote p {
 	margin-bottom: 1rem; 
 	padding: 0;
 }
-
 
 .statute blockquote p {
     font-size: 1rem;
@@ -160,6 +157,3 @@ blockquote p {
     padding: 0;
 	max-width: 50rem;
 }
-
-
-
