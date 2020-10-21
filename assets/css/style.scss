@@ -7,15 +7,16 @@ nav_exclude: true
 
 @import "variables";
 @import "base";
-@import "academicons.css";
-@import "publications";
-@import "bijou";
-@import "tufte";
 @import "base-typography";
 @import "media-queries";
 @import "syntax-highlighting";
+@import "academicons-min";
+@import "academicons";
+@import "bijou";
+@import "tufte";
 @import "code";
 @import "pages";
+@import "publications";
 @import "header";
 @import "footer";
 @import "profile";
