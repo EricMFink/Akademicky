@@ -3,6 +3,8 @@
 # only Main files contain this front matter, not partials.
 nav_exclude: true
 ---
+@charset "utf-8";
+
 /*****************************************************************************/
 /*
 /* Akademicky Jekyll blog theme
@@ -12,9 +14,6 @@ nav_exclude: true
 /*****************************************************************************/
 
 // Imports to create final
-
-@charset "utf-8";
-
 // List in hierachical order (later overrides earlier)
 
 @import "variables";
