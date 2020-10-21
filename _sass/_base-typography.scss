@@ -1,5 +1,3 @@
-/* TYPE SIZES */
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: $body-font;
 	font-style: normal;
@@ -53,8 +51,6 @@ p {
 }
 
 
-/* LISTS */
-
 ol, ul { 
 	font-size: $body-size; 
 	font-weight: $light-weight;
@@ -71,7 +67,6 @@ li {
 	vertical-align: baseline; 
 }
 
-/* LINKS */
 
 a {
     color: $theme-color;
@@ -100,7 +95,6 @@ article a, .news a {
 	}
 }
 
-/* BLOCKQUOTES */
 
 blockquote { 
 	font-size: $small-size; 
@@ -132,8 +126,6 @@ blockquote p {
 	line-height: $short-line-height; 
 }
 
-/* BUTTON */
-
 button {
     display: inline-block;
 	border: 0;
@@ -152,8 +144,6 @@ button {
 		background:darken($theme-color, 20%)
 	}
 }
-
-/* MISC */
 
 .contrast {
 	color: $contrast-color;
@@ -180,5 +170,3 @@ section {
 	padding-top: 1rem;
 	padding-bottom: 1rem; 
 }
-
-

@@ -1,13 +1,9 @@
 @charset "UTF-8";
 
-// Global Resets
-//
-
 * {
 	margin: 0; padding: 0; 
 }
 
-/* Clearfix hack after Cederholm (group class name) */
 .group:after {
   content: "";
   display: table;
@@ -80,32 +76,6 @@ body.sidenotes {
 			-ms-flex: 1 0 auto;
 					flex: 1 0 auto;
 }
-
-/*
-html{
-    margin-left: calc(100vw - 100%);
-    margin-right: 0;
-}
-
-html, body {
-  height: auto;
-  min-height: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-    background-color: $background-color;
-}
-
-*/
-
-/*
-body {
-          box-sizing: border-box;
-     -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-*/
 
 .wrapper {
     max-width: -webkit-calc(90%);

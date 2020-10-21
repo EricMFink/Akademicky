@@ -5,17 +5,6 @@ nav_exclude: true
 ---
 @charset "utf-8";
 
-/*****************************************************************************/
-/*
-/* Akademicky Jekyll blog theme
-/* Based on Tufte CSS by Dave Liepmann ( https://github.com/edwardtufte/tufte-css )
-/*
-/* The README.md will show you how to set up your site along with other goodies
-/*****************************************************************************/
-
-// Imports to create final
-// List in hierachical order (later overrides earlier)
-
 @import "variables";
 @import "base";
 @import "academicons.css";

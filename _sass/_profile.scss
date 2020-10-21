@@ -1,5 +1,3 @@
-
-
 .profile-image {
 	background-color: #cccccc;
 	height: 100%;
@@ -140,24 +138,3 @@
     font-size: $contacticon-medium;
     margin: 10px;
 }
-
-/*
-@media screen
-and (max-width:599px){
-    .profile h4 {
-	    font-size: $h4;
-    }
-	.list-inline>li {
-	    font-size: $social-icons-medium;
-	    padding-left: 6px;
-	    padding-right: 6px;
-	}
-	.social-icons {
-	  font-size: $social-icons-small;
-	}
-	.contacticon {
-	    font-size: $contacticon-small;
-	    margin: 10px;
-	}
-}
-*/
