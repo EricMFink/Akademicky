@@ -12,7 +12,7 @@ Created by [Eric M. Fink](https://github.com/LuckyJimJD), based on [alshedivat/a
 
 ### License 
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/LuckyJimJD/CourseSiteTheme/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/LuckyJimJD/akademicky/blob/master/LICENSE)
 
 ### Demos 
 
