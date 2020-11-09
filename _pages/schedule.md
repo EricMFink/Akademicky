@@ -1,5 +1,5 @@
 ---
-layout: schedule 
+layout: syllabus 
 permalink: /schedule/
 title: Schedule & Assignments
   
