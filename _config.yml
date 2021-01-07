@@ -70,7 +70,7 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/LuckyJimJD.github.com/
+  destination: ~/Git/EricM.Fink.github.com/
 
 # -----------------------------------------------------------------------------
 # Other settings
