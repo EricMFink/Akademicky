@@ -3,20 +3,20 @@
 {% include head.html %}
 
 <body class="fullwidth">
-	<div class="profile-image" style="background-image: url('cover.png');">
+	<div class="profile-image contrast-bg" style="background-image: url('cover.png');">
 		{% include header.html %}
 		<div class="page-container">
 			<div class="profile">
-			<div class="profile-block">
-				{{ content }}
-				{% include social.html %}
-			</div>
+				<div class="profile-block">
+					{{ content }}
+					{% include social.html %}
+				</div>
 			{% include footer.html %}
 			{% include hemline.html %}
 			{% include statcounter.html %}
+			</div>
 		</div>
 	</div>
-</div>
 </body>
 
 </html>
