@@ -18,8 +18,8 @@ Created by [Eric M. Fink](https://github.com/LuckyJimJD), based on [alshedivat/a
 
 #### Personal site with pages for publications and courses taught
 
-[![demo 1](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://LuckyJimJD.github.io/ElonLaw/)
+[![demo 1](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://www.emfink.net/ElonLaw/)
 
 #### Course site with pages for syllabus, course materials, and links to external resources
 
-[![demo 2](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://LuckyJimJD.github.io/CivilProcedure/)
+[![demo 2](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://www.emfink.net/CivilProcedure/)
