@@ -1,0 +1,448 @@
+/* Casebook Cover Page */
+.cover-image {
+	background-color: #cccccc;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+
+.cover-block {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.cover a {
+	color: $medium-grey;
+	text-decoration: none;
+
+	&:hover {
+		color: darken($medium-grey, 20%);
+	}
+}
+
+.cover ul,
+ol {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cover h1 {
+	font-size: $huge;
+	color: $theme-color;
+	line-height: 1;
+	font-weight: $bold-weight !important;
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.cover h1 + h2 {
+	margin-top: 3rem;
+}
+
+.cover h2 {
+	font-size: $h1;
+	color: $theme-color;
+	line-height: $line-height;
+	color: white;
+	font-weight: $bold-weight !important;
+	margin: 1rem 0 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.cover h3 {
+	font-size: $h2;
+	line-height: $line-height;
+	color: white;
+	font-weight: $bold-weight !important;
+	margin: 1rem 0 0 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.cover h4 {
+	font-weight: $bold-weight !important;
+	font-style: normal;
+	color: white;
+	line-height: $line-height;
+	margin: 3rem 0 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.toc-button {
+	padding-top: 2rem;
+	padding-bottom: 2px;
+}
+
+/* Casebook Chapter Pages */
+.casebook-container {
+	padding: 100px 0;
+	/* VERTICAL PADDING FOR TITLE */
+}
+
+.center-screen {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.casebook-header {
+	margin-bottom: 3rem;
+}
+
+.casebook-header h1 {
+	color: $theme-color;
+	font-family: $sans-font;
+	font-size: $title;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.casebook-header h2 {
+	font-size: $h3;
+	font-weight: $medium-weight;
+	color: $theme-color;
+	font-family: $sans-font;
+	font-size: $subtitle;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.casebook h3 {
+	font-size: $h4;
+	font-style: italic;
+}
+
+.casebook h4 {
+	font-size: $h5;
+	font-style: italic;
+}
+
+.casebook-epigraph {
+	font-family: $sans-font;
+	border-bottom: 2px solid $dull-red;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.casebook-epigraph p {
+	font-size: $smaller;
+}
+
+.casebook-epigraph blockquote, blockquote p {
+	font-size: $smaller;
+	font-style: italic;
+	color: $dull-red;
+}
+
+.casebook hr {
+    border: none;
+    border-top: 2px solid $theme-color;
+    color: $theme-color;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.illustration {
+	padding-top: 2rem;
+	padding-top: 2rem;
+	height: auto;
+	width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Casebook Primary Legal Authorities (Cases, Rules, Statutes & Restatement) */
+
+.rule {
+	font-family: $sans-font;
+	background-color: $rule-color;
+	padding: 20px;
+	margin-bottom: 2rem;
+}
+
+.rule h1 {
+	margin-top: 0;
+	font-size: $h2;
+}
+
+.rule h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $serif-font;
+	font-weight: $normal-weight;
+}
+
+.rule h2, h3 {
+	font-style: normal;
+}
+
+.rule h2 {
+	font-size: $h3;
+}
+
+.rule h3 {
+	font-size: $h4;
+	margin-bottom: 1rem;
+}
+
+
+/* heading for comments */
+.rule h4 {
+	font-size: $h5;
+	font-style: italic;
+	font-weight: $normal-weight;
+	margin-bottom: 1rem;
+}
+
+/* body of comments */
+.rule h5 {
+	font-size: $small;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+/* body of illustrations */
+.rule h6 {
+	font-size: $smaller;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 1rem;
+}
+
+.rule p {
+	font-size: $body;
+}
+
+.rule blockquote {
+	font-size: $body;
+	font-style: normal;
+	line-height: $line-height;
+	border: none;
+	margin-left: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 0;
+}
+
+.rule blockquote p {
+	font-size: $body;
+	line-height: $line-height;
+	font-style: normal;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 0;
+	max-width: 50rem;
+}
+
+.statute {
+	font-family: $sans-font;
+	background-color: $statute-color;
+	padding: 20px;
+	margin-bottom: 2rem;
+}
+
+.statute h1 {
+	margin-top: 0;
+	font-size: $h2;
+}
+
+.statute h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $serif-font;
+	font-weight: $normal-weight;
+}
+
+.statute h2, h3 {
+	font-style: normal;
+}
+
+.statute h2 {
+	font-size: $h3;
+}
+
+.statute h3 {
+	font-size: $h4;
+	margin-bottom: 1rem;
+}
+
+
+/* heading for comments */
+.statute h4 {
+	font-size: $h5;
+	font-style: italic;
+	font-weight: $normal-weight;
+	margin-bottom: 1rem;
+}
+
+/* body of comments */
+.statute h5 {
+	font-size: $small;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+/* body of illustrations */
+.statute h6 {
+	font-size: $smaller;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 1rem;
+}
+
+.statute p {
+	font-size: $small;
+}
+
+.statute blockquote {
+	font-size: $small;
+	font-style: normal;
+	line-height: $line-height;
+	border: none;
+	margin-left: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 0;
+}
+
+.statute blockquote p {
+	font-size: $small;
+	line-height: $line-height;
+	font-style: normal;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 0;
+	max-width: 50rem;
+}
+
+.case {
+	font-family: $sans-font;
+	background-color: $case-color;
+	padding: 20px;
+	margin-bottom: 3rem;
+}
+
+.case p {
+	font-family: $serif-font;
+	font-size: $small;
+	margin-top: 0;
+}
+
+/* case name */
+.case h1 {
+	font-family: $sans-font;
+	font-size: $h2;
+	margin: 0 0 1rem 0;
+}
+
+/* case cite */
+.case h2 {
+	font-family: $serif-font;
+	font-style: normal;
+	font-size: $h3;
+	margin-bottom: 1rem;
+}
+
+
+.case h3,
+h4,
+h5 {
+	font-family: $serif-font;
+	margin-bottom: 1rem;
+}
+
+.case h3 {
+	font-weight: $medium-weight;
+	font-style: normal;
+	font-size: $h4;
+}
+
+.case h4 {
+	font-weight: $normal-weight;
+	font-style: italic;
+	font-size: $h5;
+}
+
+.case h5 {
+	font-weight: $normal-weight;
+	font-style: normal;
+	font-size: $h6;
+}
+
+.case blockquote {
+	border: none;
+}
+
+.case blockquote,
+blockquote p {
+	font-size: $small;
+	font-style: normal;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	margin-left: 1rem;
+	line-height: 1.5;
+	margin-right: 0.5rem;
+	padding: 0;
+}
+
+
+.case-summary {
+	font-family: $sans-font;
+	border-top: 2px solid $theme-color;
+	border-bottom: 2px solid $theme-color;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.case-summary p {
+	font-family: $sans-font;
+	font-size: $smaller;
+}
+
+.casebook-questions {
+	background-color: $question-color;
+	padding: 20px;
+	margin-bottom: 3rem; 
+}
+
+.casebook-questions h1 {
+	font-family: $sans-font;
+	font-size: $h3;
+	margin: 0 0 1rem 0;
+}
+
+.casebook-questions p {
+	font-family: $serif-font;
+	font-size: $small;
+}
+
+.casebook td {
+	vertical-align: top;
+	padding-bottom: 10px;
+}
+
+.casebook th {
+	text-align: left;
+	padding-bottom: 15px;
+}
