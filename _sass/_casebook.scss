@@ -85,7 +85,8 @@ ol {
 	padding-bottom: 2px;
 }
 
-/* Casebook Chapter Pages */
+/* Casebook Pages */
+
 .casebook-container {
 	padding: 100px 0;
 	/* VERTICAL PADDING FOR TITLE */
@@ -155,6 +156,16 @@ ol {
     height: 5px;
 }
 
+.casebook td {
+	vertical-align: top;
+	padding-bottom: 10px;
+}
+
+.casebook th {
+	text-align: left;
+	padding-bottom: 15px;
+}
+
 .illustration {
 	padding-top: 2rem;
 	padding-top: 2rem;
@@ -166,7 +177,7 @@ ol {
 	text-align: center;
 }
 
-/* Casebook Primary Legal Authorities (Cases, Rules, Statutes & Restatement) */
+/* FRCP */
 
 .rule {
 	font-family: $sans-font;
@@ -263,6 +274,8 @@ h6 {
 	font-size: $h2;
 }
 
+/* Statutes & Restatement */
+
 .statute h2,
 h3,
 h4,
@@ -334,6 +347,8 @@ h6 {
 	max-width: 50rem;
 }
 
+/* Cases */
+
 .case {
 	font-family: $sans-font;
 	background-color: $case-color;
@@ -404,7 +419,6 @@ blockquote p {
 	padding: 0;
 }
 
-
 .case-summary {
 	font-family: $sans-font;
 	border-top: 2px solid $theme-color;
@@ -419,6 +433,8 @@ blockquote p {
 	font-family: $sans-font;
 	font-size: $smaller;
 }
+
+/* Questions */
 
 .casebook-questions {
 	background-color: $question-color;
@@ -437,12 +453,3 @@ blockquote p {
 	font-size: $small;
 }
 
-.casebook td {
-	vertical-align: top;
-	padding-bottom: 10px;
-}
-
-.casebook th {
-	text-align: left;
-	padding-bottom: 15px;
-}
