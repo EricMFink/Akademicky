@@ -77,20 +77,27 @@
         text-shadow: none !important;
     }
     @page {
-        margin: .75in .5in .5in .75in;
+        margin: .5in .5in .5in .5in;
         orphans:4; widows:2;
     }
 
     body {
-        font-size:  11pt;
+        font-size:  10pt;
 
     }
+	.print-footer{
+	  font-family: $sans-font;
+	  font-size: 8pt;
+	  margin-top: 20px;
+	  padding-top: 5px;
+	  border-top: 1px solid $off-black;
+	}
     html body span.print-footer{
       font-family: $sans-font;
       font-size: 9pt;
       margin-top: 20px;
       padding-top: 5px;
-      border-top: 1px solid $off-black;
+      border-top: 2px solid $off-black;
     }
 
     thead {
