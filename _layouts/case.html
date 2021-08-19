@@ -1,6 +1,28 @@
----
-layout: sidenotes
----
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="sidenotes">
+	{% include header.html %}
+
+<div class="page-container">
+<article class="group">
+
+			<div class="page-header group">
+				<h1 class="page-title">{{ page.title }}</h1>
+				{% if page.subtitle %}
+				<h2 class="page-subtitle">{{ page.subtitle }}</h2>
+				
+				<h3 class="page-cite">{{ page.cite }} ({% if page.jurisdiction %}{{ page.jurisdiction }} {% endif %}{% if page.published %}{{ page.published }}){% endif %}</h3>
+				{% if page.panel %}
+				<h3 class="page-cite">{{ page.panel }}</h3>
+				{% endif %}
+				{% if page.judge %}
+				<h3 class="page-cite">{{ page.judge }}</h3>
+				{% endif %}
+			</div>
+
+<div class="sidenotes-page">
 
 <div class="case">
 	{{ content }}
@@ -8,4 +30,19 @@ layout: sidenotes
 		<h1 class="case-footer"> Editor's Note:</h1>
 		<p class="case-footer">Most internal citations and footnotes have been omitted. Other omissions are indicated by [ * * * ]. Where the court's footnotes are included, the original footnote number is indicated in parentheses. Editor's margin notes appear in sans-serif type.</p>
 	</div>
+
 </div>
+
+
+</div>
+
+<article>
+</div>
+
+	{% include footer.html %}
+	{% include print-footer.html %}
+	{% include hemline.html %}
+
+</body>
+
+</html>

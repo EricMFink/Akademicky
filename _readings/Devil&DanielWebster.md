@@ -5,7 +5,7 @@ permalink: /readings/Devil&DanielWebster/
 course: Civil Procedure 
 title: "The Devil & Daniel Webster"
 author: 'Stephen Vincent Benet'
-cite: 'Saturday Evening Post'
+publisher: 'Saturday Evening Post'
 published: 'Oct. 24, 1936'
 
 ---
