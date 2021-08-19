@@ -47,7 +47,7 @@
 	}
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .wrapper {
         max-width: -webkit-calc(900px - (#{50px} * 2));
         max-width:         calc(900px - (#{50px} * 2));
@@ -59,13 +59,15 @@
 }
 
 // Does not display a print-footer for screen display
-@media screen{
-  .print-footer{
+
+@media screen {
+  .print-footer {
     display: none;
   }
 }
 
 //printing stuff
+
 @media print {
 
     * {
