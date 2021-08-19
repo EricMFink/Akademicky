@@ -42,6 +42,14 @@
         }
     }
     // added for hamburger
+
+	@mixin media-query($device) {
+	    @media screen and (max-width: $device) {
+	        @content;
+	    }
+	}
+
+
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
