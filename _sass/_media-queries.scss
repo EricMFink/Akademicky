@@ -64,11 +64,11 @@
 //printing stuff
 
 @media print {
-
     * {
     -webkit-transition: none !important;
     transition: none !important;
     }
+
     *,
     *:before,
     *:after {
@@ -76,6 +76,7 @@
         box-shadow: none !important;
         text-shadow: none !important;
     }
+
     @page {
         margin: .5in .5in .5in .3in;
         orphans:4; widows:2;
@@ -85,12 +86,14 @@
         font-size:  10pt;
 
     }
+
 	.print-footer{
 	  font-family: $sans-font;
 	  font-size: 8pt;
 	  margin-top: 20px;
 	  padding-top: 5px;
 	  border-top: 1px solid $off-black;
+	}
 
     thead {
         display: table-header-group;
@@ -111,6 +114,7 @@
         orphans: 4;
         widows: 4;
     }
+
     article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
         page-break-after: avoid;
     }
@@ -124,4 +128,3 @@
       display: block;
     }
 }
-
