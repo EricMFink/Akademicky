@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: page 
 permalink: /materials/
-title: Supplemental Material & Study Aids
-
+title: Supplemental Material
+  
 ---
 
 # Outlines

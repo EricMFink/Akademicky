@@ -1,10 +1,9 @@
 ---
-layout: syllabus
+layout: syllabus 
 permalink: /information/
-title: Course Information 
+title: Information
   
 ---
-
 
 # Description
 

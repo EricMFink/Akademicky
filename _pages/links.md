@@ -1,7 +1,8 @@
 ---
-layout: page-centered
+layout: page-centered 
 permalink: /links/
 title: Links
+  
 ---
 
 # Statutes & Rules 
