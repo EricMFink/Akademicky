@@ -86,6 +86,16 @@
         font-size:  11pt;
     }
 
+	body.sidenotes { 
+		width: 60%;
+		margin-left: 10%;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	    counter-reset: h1;  
+		counter-reset: sidenote-counter; 
+	}
+
 	footer {
 		font-family: $sans-font;
 		border-top: thin solid $off-black;
