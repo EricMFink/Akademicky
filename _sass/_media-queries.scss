@@ -77,7 +77,7 @@
         text-shadow: none !important;
     }
     @page {
-        margin: .5in .5in .5in .5in;
+        margin: .5in .5in .5in .3in;
         orphans:4; widows:2;
     }
 
@@ -91,14 +91,6 @@
 	  margin-top: 20px;
 	  padding-top: 5px;
 	  border-top: 1px solid $off-black;
-	}
-    html body span.print-footer{
-      font-family: $sans-font;
-      font-size: 9pt;
-      margin-top: 20px;
-      padding-top: 5px;
-      border-top: 2px solid $off-black;
-    }
 
     thead {
         display: table-header-group;
@@ -125,6 +117,11 @@
 
     body header {
       display:none;
+    }
+
+
+    body footer {
+      display: block;
     }
 }
 

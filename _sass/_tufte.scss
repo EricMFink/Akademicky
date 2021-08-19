@@ -1,8 +1,8 @@
 .sidenote, .marginnote { 
 	float: right;
 	clear: right;
-	margin-right: -40%;
-	width: 35%;
+	margin-right: -45%;
+	width: 30%;
 	margin-top: 0;
 	margin-bottom: 0.5rem;
 }
@@ -132,6 +132,24 @@ input.margin-toggle {
 	figure.fullwidth figcaption { 
 		margin-left: 0; 
 	}
+}
+
+@media print { 
+	.sidenote, .marginnote { 
+		float: right;
+		clear: right;
+		margin-right: -45%;
+		width: 30%;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+	}
+	.sidenote { 
+		font-size: 7pt;
+	}
+	.marginnote { 
+		font-size: 7pt;
+	}
+
 }
 
 
