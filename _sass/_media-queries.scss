@@ -100,6 +100,7 @@
 		font-family: $sans-font;
 		border-top: thin solid $off-black;
 		font-size: 8pt;
+		color: $off-black;
 		padding: 0;
 		position: fixed;
 			left: 0px;
@@ -109,7 +110,8 @@
 
 	footer p {
 		font-size: 8pt;
-		margin-top: 0;
+		color: $off-black;
+		margin-top: 20px;
 		margin-bottom: 0;
 	}
 
@@ -125,6 +127,7 @@
 
 	.print-footer p {
 		font-size: 8pt;
+		color: $off-black;
 	    position: relative;
 		margin-left: auto;
 		margin-right: auto;
