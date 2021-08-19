@@ -87,12 +87,39 @@
 
     }
 
-	.print-footer{
-	  font-family: $sans-font;
-	  font-size: 8pt;
-	  margin-top: 20px;
-	  padding-top: 5px;
-	  border-top: 1px solid $off-black;
+	footer {
+		font-family: $sans-font;
+		border-top: thin solid $off-black;
+		font-size: 8pt;
+		padding: 0;
+		position: fixed;
+			left: 0px;
+			bottom: 0px;
+		width: 100%;
+	}
+
+	footer p {
+		font-size: 8pt;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.print-footer {
+	    position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 5px 0;
+		height: 100%;
+	}
+
+	.print-footer p {
+		font-size: 8pt;
+	    position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 
     thead {
