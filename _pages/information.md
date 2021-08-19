@@ -30,7 +30,7 @@ Elon Law School has adopted the following attendance policy for all courses:
 
 ### Disability Accommodations 
 
-For disability accommodation requests, contact the Elon Law [Registrar's Office](https://www.elon.edu/e/law/academics/registrar-office/index.html).  
+For disability accommodation requests, contact the Elon Law [Registrar's Office](https://www.elon.edu/u/law/academics/registrar/).  
 
 ### Honor Code 
 
