@@ -83,7 +83,11 @@
 	margin-bottom: 1rem; 
 }
 
-
-div.footnote {
-   font-size: 8pt;
+.syllabus a {
+    color: $theme-color;
+    text-decoration: none;
+    &:hover {
+		color:darken($theme-color, 50%);
+	    text-decoration: underline;
+    }
 }
