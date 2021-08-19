@@ -91,9 +91,9 @@
     html body span.print-footer{
       font-family: $sans-font;
       font-size: 9pt;
-      margin-top: 22.4pt;
-      padding-top: 4pt;
-      border-top: 1px solid #000;
+      margin-top: 20px;
+      padding-top: 5px;
+      border-top: 1px solid $off-black;
     }
 
     thead {
