@@ -54,7 +54,7 @@
 }
 
 
-//printing stuff
+//Printing 
 
 @media print {
     * {
@@ -71,13 +71,19 @@
     }
 
     @page {
-        margin: .5in .5in .5in .5in;
+        margin: 1in .5in 1in .5in;
         orphans:4; 
 		widows:2;
+	    @bottom-left {
+	    	content: "{{ site.title }} — Elon Law — Prof. Fink ";
+	    }
+	    @bottom-right {
+	    	content: {{ page.title }};
     }
 
     body {
-        font-size:  11pt;
+        font-size:  10pt;
+		padding-top: 50px;
     }
 
 	body.sidenotes { 
@@ -85,23 +91,36 @@
 		margin-left: 10%;
 	}
 
-	footer {
-		background-color: $background-color;
-		border: none;
-		color: $off-black;
-		font-size: 8pt;
+	.custom-page-start {
+		margin-top: 50px;
+	}
+	
+	.page-container {
+		padding: 0 0 0 0;
 	}
 
-	footer p {
-		font-size: 8pt;
+	#header {
+	  position: fixed;
+	  width: 100%;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	}
+
+    body header {
+      display:none;
+    }
+
+	#footer {
+	  position: fixed;
+	  width: 100%;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
 	}
 
 	.footer-block {
 		display: none;
-	}
-
-	.print-footer {
-		display: block;
 	}
 
     thead {
@@ -128,8 +147,5 @@
         page-break-after: avoid;
     }
 
-    body header {
-      display:none;
-    }
 
 }
