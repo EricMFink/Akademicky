@@ -45,13 +45,34 @@ footer a {
 	margin-bottom: 0;
 }
 
-
-
-@media screen and (min-width: 1000px){ 
-	.footer p {
- 		font-size: $tiny-size !important;
-	} 
-	.footer-block p {
- 		font-size: $tiny-size !important;
-	} 
+.print-footer {
+    position: relative;
+	border-top: 1px solid $off-black;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1% 0;
+	height: 100%;
+	display: none;
 }
+
+.print-footer p {
+	font-size: 8pt;
+	color: $off-black;
+    position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+// Display print-footer for printing
+
+@media screen {
+  .print-footer {
+    display: block;
+  }
+}
+

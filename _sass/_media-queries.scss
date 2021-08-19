@@ -53,13 +53,6 @@
     }
 }
 
-// Does not display a print-footer for screen display
-
-@media screen {
-  .print-footer {
-    display: none;
-  }
-}
 
 //printing stuff
 
@@ -79,7 +72,8 @@
 
     @page {
         margin: .5in .5in .5in .5in;
-        orphans:4; widows:2;
+        orphans:4; 
+		widows:2;
     }
 
     body {
@@ -89,53 +83,25 @@
 	body.sidenotes { 
 		width: 60%;
 		margin-left: 10%;
-		margin-right: 0;
-		padding-left: 0;
-		padding-right: 0;
-	    counter-reset: h1;  
-		counter-reset: sidenote-counter; 
 	}
 
 	footer {
-		font-family: $sans-font;
-		border-top: 1px solid $off-black;
-		font-size: 8pt;
+		background-color: $background-color;
+		border: none;
 		color: $off-black;
-		padding: 0;
-		position: fixed;
-			left: 0px;
-			bottom: 0px;
-		width: 100%;
-		margin-left: 10%;
-		margin-right: 10%;
-		margin-top: 20px;
+		font-size: 8pt;
 	}
 
 	footer p {
 		font-size: 8pt;
-		color: $off-black;
-		margin-top: 20px;
-		margin-bottom: 0;
+	}
+
+	.footer-block {
+		display: none;
 	}
 
 	.print-footer {
-	    position: relative;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0;
-		margin-bottom: 0;
-		padding: 5px 0;
-		height: 100%;
-	}
-
-	.print-footer p {
-		font-size: 8pt;
-		color: $off-black;
-	    position: relative;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0;
-		margin-bottom: 0;
+		display: block;
 	}
 
     thead {
@@ -166,8 +132,4 @@
       display:none;
     }
 
-
-    body footer {
-      display: block;
-    }
 }
