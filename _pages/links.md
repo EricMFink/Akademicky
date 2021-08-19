@@ -1,5 +1,5 @@
 ---
-layout: page-centered 
+layout: page
 permalink: /links/
 title: Links
   
