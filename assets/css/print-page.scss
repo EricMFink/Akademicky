@@ -55,20 +55,7 @@ nav_exclude: true
 	    max-width: 100% !important;
 	}
 
-	p,
-	h2,
-	h3 {
-	    orphans: 4;
-	    widows: 4;
-	}
 
-	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
-	    page-break-after: avoid;
-	}
-
-	.custom-page-start {
-		margin-top: 50px;
-	}
 
 	.page-container {
 		padding: 0 0 0 0;
@@ -77,22 +64,6 @@ nav_exclude: true
 	.print-footer {
 		font-family: $sans-font;
 		size: .8rem;
-	}
-
-	#header {
-	  position: fixed;
-	  width: 100%;
-	  top: 0;
-	  left: 0;
-	  right: 0;
-	}
-
-	#footer {
-	  position: fixed;
-	  width: 100%;
-	  bottom: 0;
-	  left: 0;
-	  right: 0;
 	}
 
 	body header {
