@@ -19,7 +19,6 @@
 	html{ font-size: 22px;} 
 }
 
-
 @media screen and (max-width: 760px) { 
 
 	pre code { 
@@ -55,6 +54,13 @@
 
 // Hide print footer in screen display
 
+@media screen {
+	.print-footer {
+		display: none;
+	}
+
+}
+
 
 // For printing: Hide header & footer; show print-footer
 
@@ -70,17 +76,16 @@
 		margin: 0in 0in .5in 0in 
 	} 
 
-	#print-footer {
-        display: block;
+	header {
+        display: none;
     }
 
-	header, footer {
+	.footer {
         display: none;
     }
 
 	body {
 	    font-size:  10pt;
-		padding-top: 0;
 	}
 
 }
