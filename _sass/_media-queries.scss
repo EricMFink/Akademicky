@@ -61,10 +61,14 @@
 @media print {
 
 	@page {
-	    margin: .3in 0in .3in 0in;
+	    margin: 1in 0in .5in 0in;
 	    orphans:4; 
 		widows:2;
 	}
+
+	@page :first {
+		margin: 0in 0in .5in 0in 
+	} 
 
 	#print-footer {
         display: block;
