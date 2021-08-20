@@ -4,14 +4,11 @@
 nav_exclude: true
 ---
 
-
-@media print {
-	@import "../_sass/variables";
-    * {
+@import "../_sass/variables";
+        * {
     -webkit-transition: none !important;
     transition: none !important;
     }
-
     *,
     *:before,
     *:after {
@@ -19,10 +16,11 @@ nav_exclude: true
         box-shadow: none !important;
         text-shadow: none !important;
     }
+    *{transition:none!important}
 
-    @page {
-        margin: 1in .5in 1in .5in;
-        orphans:4; 
+	@page {
+	    margin: 1in .5in 1in .5in;
+	    orphans:4; 
 		widows:2;
 	    @bottom-left {
 	    	content: "{{ site.title }} — Elon Law — Prof. Fink ";
@@ -30,22 +28,49 @@ nav_exclude: true
 	    @bottom-right {
 	    	content: {{ page.title }};
 		}
-    }
+	}
 
-    body {
-        font-size:  10pt;
+	body {
+	    font-size:  10pt;
 		padding-top: 50px;
-    }
+	}
 
 	body.sidenotes { 
 		width: 60%;
 		margin-left: 10%;
 	}
 
+	thead {
+	    display: table-header-group;
+	}
+
+	tr,
+	img {
+	    page-break-inside: avoid;
+	}
+
+	img {
+	    max-width: 100% !important;
+	}
+
+	p,
+	h2,
+	h3 {
+	    orphans: 4;
+	    widows: 4;
+	}
+
+	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
+	    page-break-after: avoid;
+
+	body header , body footer {
+	      display:none;
+	    }
+
 	.custom-page-start {
 		margin-top: 50px;
 	}
-	
+
 	.page-container {
 		padding: 0 0 0 0;
 	}
@@ -57,10 +82,6 @@ nav_exclude: true
 	  left: 0;
 	  right: 0;
 	}
-
-    body header {
-      display:none;
-    }
 
 	#footer {
 	  position: fixed;
@@ -74,29 +95,7 @@ nav_exclude: true
 		display: none;
 	}
 
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 4;
-        widows: 4;
-    }
-
-    article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
-        page-break-after: avoid;
-    }
-
-
+	.print-footer {
+		font-family: $sans-font;
+		size: .8rem;
 }
