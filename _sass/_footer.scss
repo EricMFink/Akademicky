@@ -47,24 +47,19 @@ footer a {
 
 
 #print-footer {
-	font-family: $sans-font;
 	border-top: thin solid $dark-grey;
-	font-size: 6pt;
-	padding: 0;
 	position: fixed;
 		left: 0px;
 		bottom: 0px;
 	width: 100%;
+	margin: 10px 10% 0 10%; 
+	padding: 0 0 0 0;
 	display: none;
 }
 
 #print-footer-text {
-	font-size: 6pt;
 	display: flex; 
 	flex-flow: row wrap;
-	border-top: 1px solid black; 
-	margin: 10px 10% 0 10%; 
-	padding-top: 3px;
 }
 
 .print-footer-alignleft {
