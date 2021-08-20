@@ -9,7 +9,7 @@ phone: '336-279-9334'
 address1: 201 North Greene Street
 address2: Greensboro, North Carolina 27401
 course: "Devil's Advocacy"
-term: 'Fall 2020'
+term: 'Fall 2021'
 days: 'Monday, Wednesday, & Friday 8:00–9:45 am'
 room: 'Room 204'
 

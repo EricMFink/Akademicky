@@ -56,42 +56,17 @@
 // Hide print footer in screen display
 
 
-// For printing: Hide header, change footer, font size, margins
+// For printing: Hide header & footer; show print-footer
 
 @media print {
 
-	footer {
-		font-family: $sans-font;
-		background-color: $white;
-		border-top: thin solid $dark-grey;
-		color: $off-black;
-		font-size: 6pt;
-		padding: 0;
-		position: fixed;
-			left: 0px;
-			bottom: 0px;
-		width: 100%;
+	@page {
+	    margin: .3in 0in .3in 0in;
+	    orphans:4; 
+		widows:2;
 	}
 
-	footer p {
-		font-size: 6pt;
-		font-weight: 300;
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-
-	footer a { 
-		color: $theme-color !important;
-		&:hover {
-		color:darken($theme-color, 50%) !important;
-		}
-	}
-
-	.footer-block {
-		display: none;
-	}
-
-	.footer-block-print {
+	#print-footer {
         display: block;
     }
 
@@ -102,17 +77,6 @@
 	body {
 	    font-size:  10pt;
 		padding-top: 0;
-	}
-
-	body.sidenotes { 
-		width: 60%;
-		margin-left: 10%;
-	}
-
-	@page {
-	    margin: 0in 0in 0in 0in;
-	    orphans:4; 
-		widows:2;
 	}
 
 }

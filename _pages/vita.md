@@ -1,8 +1,11 @@
 ---
 layout: vita
-permalink: /vita/
+
+updated: '19 August 2021'
+
 title: Vita
-pdf: "_pages/vita.pdf"
+permalink: /vita/
+pdf: "assets/pdf/vita.pdf"
 
 author: Eric M. Fink
 affiliation: Elon University School of Law
@@ -16,6 +19,7 @@ output:
   pdf_document:
     latex_engine: xelatex
     template: vita.tex
+    path: /assets/pdf/vita.pdf
   
 ---
 
@@ -26,11 +30,11 @@ output:
 - Tenure awarded 2012
 - Jennings Professor and Emerging Scholar, 2010-2012
 
-##### Teaching: 2020-21
+##### Teaching: 2021-22
 
-- [Civil Procedure](https://www.emfink.net/CivilProcedure/) (Fall 2020)
-- [Professional Responsibility](https://www.emfink.net/ProfessionalResponsibility/) (Fall 2020)
-- [Employment Law](https://www.emfink.net/EmploymentLaw/) (Winter 2021)
+- [Civil Procedure](https://www.emfink.net/CivilProcedure/) (Fall 2021)
+- [Professional Responsibility](https://www.emfink.net/ProfessionalResponsibility/) (Fall 2021)
+- [Employment Law](https://www.emfink.net/EmploymentLaw/) (Winter 2022)
 - [Residency-in-Practice](https://www.emfink.net/Residency/) (Spring 2021)
 
 ##### Other Courses Taught
