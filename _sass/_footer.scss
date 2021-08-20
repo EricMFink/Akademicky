@@ -45,12 +45,11 @@ footer a {
 	margin-bottom: 0;
 }
 
-
-
 .footer-block-print {
     position: relative;
 	width: 100%;
 	margin: 0 10% 0 10%;
+	display: none;
 }
 
 .footer-block-print p {
@@ -58,4 +57,11 @@ footer a {
 	color: $off-black;
     position: relative;
 	margin: 0 0 0 0;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
 }

@@ -55,11 +55,6 @@
 
 // Hide print footer in screen display
 
-@media screen {
-	footer-block-print {
-        display: none;
-    }
-}
 
 // For printing: Hide header, change footer, font size, margins
 
@@ -95,6 +90,10 @@
 	.footer-block {
 		display: none;
 	}
+
+	.footer-block-print {
+        display: block;
+    }
 
 	header {
         display: none;
