@@ -45,31 +45,34 @@ footer a {
 	margin-bottom: 0;
 }
 
-#footer-block-print {
-	display: flex; 
-	flex-flow: row wrap;
-    position: relative;
+
+#print-footer {
+	font-family: $sans-font;
+	border-top: thin solid $dark-grey;
+	font-size: 6pt;
+	padding: 0;
+	position: fixed;
+		left: 0px;
+		bottom: 0px;
 	width: 100%;
-	margin: 0 10% 0 10%;
-	display: none;
 }
 
-.footer-block-print p {
+#print-footer-text {
 	font-size: 6pt;
-	color: $off-black;
-    position: relative;
-	margin: 0 0 0 0;
+	display: flex; 
+	flex-flow: row wrap;
+	border-top: 1px solid black; 
+	margin: 10px 10% 0 10%; 
+	padding-top: 3px;
+	display: none:
 }
 
 .alignleft {
-	width:33.33333%;
-	text-align:left;
+width:50%;
+text-align:left;
 }
-.aligncenter {
-	width:33.33333%;
-	text-align:center;
-}
+
 .alignright {
-	width:33.33333%;
-	text-align:right;
+width:50%;
+text-align:right;
 }
