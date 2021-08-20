@@ -25,7 +25,7 @@ footer a {
 	}
 }
 
-.footer-block {
+#footer-block {
     position: relative;
 	max-width: 20rem;
 	margin-left: auto;
@@ -36,7 +36,7 @@ footer a {
 	height: 100%;
 }
 
-.footer-block p {
+#footer-block p {
 	font-size: $smallest-size;
     position: relative;
 	margin-left: auto;
@@ -67,12 +67,14 @@ footer a {
 	padding-top: 3px;
 }
 
-.alignleft {
+.print-footer-alignleft {
+	font-size: 6pt;
 	width:50%;
 	text-align:left;
 }
 
-.alignright {
+.print-footer-alignright {
+	font-size: 6pt;
 	width:50%;
 	text-align:right;
 }
