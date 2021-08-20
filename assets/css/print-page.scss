@@ -23,7 +23,7 @@ nav_exclude: true
 	    orphans:4; 
 		widows:2;
 	    @bottom-left {
-	    	content: {{ site.title }} — Elon Law — Prof. Fink ;
+	    	content: {{ site.title }} {{ site.institution }} {{ site.author }} ;
 	    }
 	    @bottom-right {
 	    	content: {{ page.title }};
