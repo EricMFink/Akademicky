@@ -45,18 +45,17 @@ footer a {
 	margin-bottom: 0;
 }
 
-.print-footer {
-    position: fixed;
-	left: 10%;
-	bottom: 0;
-	border-top: 1px solid $off-black;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-	display: none;
+
+
+.footer-block-print {
+    position: relative;
+	width: 100%;
+	margin: 0 10% 0 10%;
 }
 
-.print-footer p {
-	font-size: 8pt;
+.footer-block-print p {
+	font-size: 6pt;
 	color: $off-black;
+    position: relative;
 	margin: 0 0 0 0;
 }
