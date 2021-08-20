@@ -45,7 +45,9 @@ footer a {
 	margin-bottom: 0;
 }
 
-.footer-block-print {
+#footer-block-print {
+	display: flex; 
+	flex-flow: row wrap;
     position: relative;
 	width: 100%;
 	margin: 0 10% 0 10%;
@@ -60,8 +62,14 @@ footer a {
 }
 
 .alignleft {
-	float: left;
+	width:33.33333%;
+	text-align:left;
+}
+.aligncenter {
+	width:33.33333%;
+	text-align:center;
 }
 .alignright {
-	float: right;
+	width:33.33333%;
+	text-align:right;
 }
