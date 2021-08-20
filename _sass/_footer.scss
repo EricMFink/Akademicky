@@ -68,13 +68,17 @@ footer a {
 }
 
 .print-footer-alignleft {
+	font-family: $sans-font;
 	font-size: 6pt;
+	font-weight: 300;
 	width:50%;
 	text-align:left;
 }
 
 .print-footer-alignright {
+	font-family: $sans-font;
 	font-size: 6pt;
+	font-weight: 300;
 	width:50%;
 	text-align:right;
 }
