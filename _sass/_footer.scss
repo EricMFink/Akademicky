@@ -47,11 +47,11 @@
 }
 
 .print-footer {
-	border-top: thin solid $dark-grey;
 	position: fixed;
 		left: 0px;
 		bottom: 0px;
 	width: 100%;
+	height: .5in;
 }
 
 .print-footer-text {
