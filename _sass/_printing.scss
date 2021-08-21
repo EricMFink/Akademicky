@@ -4,10 +4,22 @@
 	top: 0px;
 }
 
+.print-header p {
+	font-family: $sans-font;
+	font-size: 9pt;
+	font-weight: 400;
+}
+
 .print-footer {
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
+}
+
+.print-footer p {
+	font-family: $sans-font;
+	font-size: 9pt;
+	font-weight: 400;
 }
 
 .print-headfoot-block {
@@ -18,7 +30,7 @@
 	border-bottom: 1px solid $off-black	;
 }
 
-.print-headfoot p {
+.print-header p {
 	font-family: $sans-font;
 	font-size: 9pt;
 	font-weight: 400;
@@ -75,11 +87,16 @@
 // Hide print header/footer in screen display
 
 @media screen {
+
+	.print-header {
+		display: none;
+	}
+
 	.print-footer {
 		display: none;
 	}
 
-	.print-header {
+	.print-headfoot-block {
 		display: none;
 	}
 
