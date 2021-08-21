@@ -191,3 +191,41 @@ and (max-device-width:576px){
         margin-bottom: 1rem;
     }
 }
+
+.vita-print-footer {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.vita-print-footer p {
+	font-family: $sans-font;
+	font-size: 8pt;
+	font-weight: 300;
+}
+
+.vita-print-footer-block {
+	display: flex; 
+	flex-flow: row wrap;
+	width: 100%;
+	margin: 0 10% 0 10%;
+}
+
+.alignleft {
+	width:50%;
+	text-align:left;
+}
+
+.alignright {
+	width:50%;
+	text-align:right;
+}
+
+
+// Hide print footer in screen display
+
+@media screen {
+	.vita-print-footer {
+		display: none;
+	}
+}

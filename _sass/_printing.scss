@@ -37,7 +37,7 @@
 @media print {
 
 	@page {
-	    margin: 1in 0in .5in 0in;
+	    margin: 1in 0in 1in 0in;
 	    orphans:4; 
 		widows:2;
 	}
@@ -46,7 +46,7 @@
         display: none;
     }
 
-	.footer {
+	footer {
         display: none;
     }
 
@@ -72,7 +72,7 @@
 }
 
 
-// Hide print footer in screen display
+// Hide print header/footer in screen display
 
 @media screen {
 	.print-footer {
