@@ -134,23 +134,7 @@ input.margin-toggle {
 	}
 }
 
-@media print { 
-	.sidenote, .marginnote { 
-		float: right;
-		clear: right;
-		margin-right: -45%;
-		width: 30%;
-		margin-top: 0;
-		margin-bottom: 0.5rem;
-	}
-	.sidenote { 
-		font-size: 8pt;
-	}
-	.marginnote { 
-		font-size: 8pt;
-	}
 
-}
 
 
 span.newthought {

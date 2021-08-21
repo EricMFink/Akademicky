@@ -51,37 +51,3 @@
         padding-left: 50px;
     }
 }
-
-// Hide print footer in screen display
-
-@media screen {
-	.print-footer {
-		display: none;
-	}
-
-}
-
-
-// For printing: Hide header & footer; show print-footer; set base font size
-
-@media print {
-
-	@page {
-	    margin: 1in 0in .5in 0in;
-	    orphans:4; 
-		widows:2;
-	}
-
-	header {
-        display: none;
-    }
-
-	.footer {
-        display: none;
-    }
-
-	body {
-	    font-size:  10pt;
-	}
-
-}
