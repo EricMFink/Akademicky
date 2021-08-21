@@ -1,4 +1,8 @@
-.footer {
+footer {
+	height: 100px;
+}
+
+.home-footer {
 	font-family: $sans-font;
 	background-color: $dark-grey;
 	border-top: thin solid $dark-grey;
@@ -11,14 +15,14 @@
 	width: 100%;
 }
 
-.footer p {
+.home-footer p {
 	font-size: $smallest-size;
 	font-weight: $normal-weight;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-.footer a { 
+.home-footer a { 
 	color: $white !important;
 	&:hover {
 	color:darken($white, 50%) !important;
@@ -26,7 +30,7 @@
 }
 
 
-.footer-block {
+.home-footer-block {
     position: relative;
 	max-width: 20rem;
 	margin-left: auto;
@@ -37,7 +41,7 @@
 	height: 100%;
 }
 
-.footer-block p {
+.home-footer-block p {
 	font-size: $smallest-size;
     position: relative;
 	margin-left: auto;
@@ -51,7 +55,6 @@
 		left: 0px;
 		bottom: 0px;
 	width: 100%;
-	height: .5in;
 }
 
 .print-footer-text {
