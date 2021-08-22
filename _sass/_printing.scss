@@ -48,6 +48,8 @@
 	text-align:right;
 }
 
+// Set page layout and hide screen elements for printing
+
 @media print {
 
 	@page {
@@ -55,14 +57,6 @@
 	    orphans:4; 
 		widows:2;
 	}
-
-	header {
-        display: none;
-    }
-
-	footer {
-        display: none;
-    }
 
 	body {
 	    font-size:  10pt;
@@ -81,6 +75,18 @@
 	}
 	.marginnote { 
 		font-size: 8pt;
+	}
+
+	header {
+        display: none;
+    }
+
+	footer {
+        display: none;
+    }
+
+	.button {
+		display: none;
 	}
 
 }
