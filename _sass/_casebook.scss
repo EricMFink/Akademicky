@@ -181,7 +181,7 @@ ol {
 
 .rule {
 	font-family: $sans-font;
-	background-color: $rule-color;
+	border-top: 1px solid $dark-grey;
 	padding: 20px;
 	margin-bottom: 2rem;
 }
@@ -264,7 +264,7 @@ h6 {
 
 .statute {
 	font-family: $sans-font;
-	background-color: $statute-color;
+	border-top: 1px solid $dark-grey;
 	padding: 20px;
 	margin-bottom: 2rem;
 }
@@ -351,7 +351,7 @@ h6 {
 
 .case {
 	font-family: $sans-font;
-	background-color: $case-color;
+	border-top: 1px solid $dark-grey;
 	padding: 20px;
 	margin-bottom: 3rem;
 }
@@ -431,6 +431,15 @@ blockquote p {
 .case-summary p {
 	font-family: $sans-font;
 	font-size: $smaller;
+}
+
+/* Other Readings */
+
+.reading {
+	font-family: $sans-font;
+	border-top: 1px solid $dark-grey;
+	padding: 20px;
+	margin-bottom: 2rem;
 }
 
 /* Questions */
