@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sidenotes
 date: 2020-08-12T06:00:00
 permalink: /problems/Erie/
 
