@@ -19,6 +19,8 @@
 	font-family: $heading-font; 
 	font-weight: $normal-weight;
     font-size: $h4;
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
 }
 
 /* case names */
@@ -60,8 +62,8 @@
 }
 
 .outline h3:before {
-    content: "\27A2" "\0020";
-    font-size: 1.5rem;
+    content: "\27A2" " ";
+    font-size: 1.4rem;
 }
 
 // .outline h3:before {
