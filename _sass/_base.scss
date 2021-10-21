@@ -27,6 +27,7 @@ body {
 	font-family: $body-font;
 	background-color: $background-color;
 	color: $text-color;
+    counter-reset: h1 sidenote-counter; 
 }
 
 body.centered {
