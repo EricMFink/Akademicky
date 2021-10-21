@@ -58,7 +58,12 @@ body {
 .outline h2 {
     counter-reset: h3;    
 }
+
 .outline h3:before {
-    content: counter(h1) "." counter(h2) "." counter(h3) " ";
-    counter-increment: h3;
+    content: "\27A2" "\0020";
+    font-size: 1.5rem;
 }
+// .outline h3:before {
+//     content: counter(h1) "." counter(h2) "." counter(h3) " ";
+//     counter-increment: h3;
+// }
