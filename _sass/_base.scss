@@ -51,8 +51,7 @@ body.sidenotes {
 	margin-right: 0;
 	padding-left: 0;
 	padding-right: 0;
-    counter-reset: h1;  
-	counter-reset: sidenote-counter; 
+    counter-reset: h1 sidenote-counter; 
 }
 
 .site {
