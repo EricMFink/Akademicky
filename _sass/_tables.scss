@@ -1,0 +1,29 @@
+table {
+	width: 80%;
+	font-family: $sans-font;
+	font-size: $small-size;
+	margin: 0 auto 4rem auto;
+}
+
+table,th,td {
+	border-collapse:collapse;
+	padding:10px;
+	vertical-align: top;
+}
+
+table,th,td {
+	border: 1px solid #93a1a1;
+}
+
+noheader th {
+	display: none;
+}
+
+th {
+	background: #eee8d5;
+	border-bottom: 4px double #93a1a1;
+}
+
+tbody tr:nth-child(even) {
+	background: #eee8d5;
+}
