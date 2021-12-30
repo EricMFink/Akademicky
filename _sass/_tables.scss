@@ -21,9 +21,11 @@ noheader th {
 
 th {
 	background: #eee8d5;
-	border-bottom: 4px double #93a1a1;
+	border-bottom: 3px #93a1a1 solid;
 }
 
+/* UNCOMMENT FOR ALTERNATING ROW COLORS
 tbody tr:nth-child(even) {
 	background: #eee8d5;
 }
+*/
