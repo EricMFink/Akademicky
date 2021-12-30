@@ -1,11 +1,12 @@
 ---
-layout: page 
-permalink: /materials/
-title: Supplemental Material
-  
+layout: page
+permalink: /study-aids/
+title: Study Aids
+
 ---
 
 # Outlines
+
 <ul>
 {% for outline in site.outlines %}
 <li><a href="{{ site.baseurl }}{{ outline.url }}">{{ outline.title }}</a></li>
@@ -27,4 +28,3 @@ title: Supplemental Material
 <li><a href="{{ site.baseurl }}{{ exam.url }}">{{ exam.title }}</a></li>
 {% endfor %}
 </ul>
-

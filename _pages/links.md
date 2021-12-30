@@ -2,12 +2,12 @@
 layout: page
 permalink: /links/
 title: Links
-  
+
 ---
 
-# Statutes & Rules 
+# Statutes & Rules
 
-## Federal 
+## Federal
 
 [Federal Judicial Statutes](https://www.law.cornell.edu/uscode/text/28)
 
@@ -30,7 +30,3 @@ title: Links
 ## State
 
 [North Carolina Courts](https://www.nccourts.gov/)
-
-# Other Resources
-
-[CALI Lessons for Civil Procedure](https://www.cali.org/category/1l-first-year-lesson-topics/civil-procedure)
