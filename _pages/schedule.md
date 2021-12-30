@@ -9,15 +9,15 @@ title: Schedule & Assignments
 
 Week  | Date    |  Assignment
 :-----|:--------|:------------------------
- 1    | Jan. 3  | Mayo v. Satan; 28 U.S.C. § 1332; International Shoe Co. v. Washington; The Devil & Daniel Webster
- 2    | Jan. 10 | Chapter 2
- 3    | Jan. 17 | Chapter 3
- 4    | Jan. 24 | Chapter 4
- 5    | Jan. 31 | Chapter 5
- 6    | Feb. 7  | Chapter 6
- 7    | Feb. 14 | Chapter 7
- 8    | Feb. 21 | Chapter 8
- 9    | Feb. 28 | Chapter 9
+ 1    | January 3  | Mayo v. Satan; 28 U.S.C. § 1332; International Shoe Co. v. Washington; The Devil & Daniel Webster
+ 2    | January 10 | Chapter 2
+ 3    | January 17 | Chapter 3
+ 4    | January 24 | Chapter 4
+ 5    | January 31 | Chapter 5
+ 6    | February 7  | Chapter 6
+ 7    | February 14 | Chapter 7
+ 8    | February 21 | Chapter 8
+ 9    | February 28 | Chapter 9
  10   | March 7 | Chapter 10
 
 
