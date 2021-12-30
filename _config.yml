@@ -1,11 +1,11 @@
 url: https://www.emfink.net
 baseurl: /akademicky
 title: Akademický
-description:  # leave blank if you don't want to display a description 
+description:  # leave blank if you don't want to display a description
 name: 'Eric M. Fink'
-course:   # enter course name to display on home page 
+course:   # enter course name to display on home page
 
-last_updated: 21 December 2021 # leave blank if you don't want to display last updated
+last_updated: 30 December 2021 # leave blank if you don't want to display last updated
 
 author: 'Eric M. Fink'
 position: Associate Professor
@@ -18,23 +18,23 @@ email: efink@elon.edu
 phone: 336-279-9334
 web: emfink.net/ElonLaw
 
-collections: 
-  cases: 
-    output: true 
+collections:
+  cases:
+    output: true
   exams:
     output: true
-  notes: 
-    output: true 
+  notes:
+    output: true
   outlines:
     output: true
   problems:
-    output: true 
+    output: true
   questions:
     output: true
-  readings: 
-    output: true 
-  statutes: 
-    output: true 
+  readings:
+    output: true
+  statutes:
+    output: true
   visuals:
     output: true
 
