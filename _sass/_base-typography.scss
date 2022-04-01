@@ -1,11 +1,11 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: $body-font;
 	font-style: normal;
-	font-weight: $book-weight;
+	font-weight: $medium-weight;
 	line-height: $short-line-height;
 }
 
-h1 { 
+h1 {
 	margin-top: 1.5em;
 	margin-bottom: 1.5rem;
 	font-size: $h1;
@@ -14,7 +14,7 @@ h1 {
 h2 {
 	margin-top: 2rem;
 	margin-bottom: 0;
-	font-size: $h2; 
+	font-size: $h2;
 }
 
 h3 {
@@ -41,21 +41,21 @@ h6 {
 	margin-bottom: 0;
 }
 
-p { 
-	font-size: $body-size; 
-	font-weight: $light-weight;
-	line-height: $line-height; 
-	vertical-align: baseline; 
-	margin-top: 1rem; 
-	margin-bottom: 1rem; 
+p {
+	font-size: $body-size;
+	font-weight: $normal-weight;
+	line-height: $line-height;
+	vertical-align: baseline;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 
-ol, ul { 
-	font-size: $body-size; 
-	font-weight: $light-weight;
-	margin-top: .5rem; 
-	margin-bottom: .5rem; 
+ol, ul {
+	font-size: $body-size;
+	font-weight: $normal-weight;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
 	padding-left: 1rem;
 	max-width: 40rem;
 	-webkit-padding-start: 5%;
@@ -65,7 +65,7 @@ ol, ul {
 li {
 	line-height: $line-height;
 	margin-top: .2rem;
-	vertical-align: baseline; 
+	vertical-align: baseline;
 }
 
 
@@ -97,34 +97,34 @@ article a, .news a {
 }
 
 
-blockquote { 
-	font-size: $small-size; 
-	font-weight: $thin-weight;
-	display: block; 
-	border-left: 4px solid #b03a2e; 
-	padding: 0 0 0 0rem; 
-	margin-top: 2rem; 
-	margin-bottom: 2rem; 
-	margin-left: 1rem; 
-	margin-right: 0; 
-	position: relative; 
+blockquote {
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	display: block;
+	border-left: 4px solid #b03a2e;
+	padding: 0 0 0 0rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	margin-left: 1rem;
+	margin-right: 0;
+	position: relative;
 }
 
-blockquote blockquote { 
-	border: none; 
-	margin-top: .5rem; 
-	margin-bottom: .5rem; 
-	margin-left: .5rem; 
+blockquote blockquote {
+	border: none;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	margin-left: .5rem;
 }
 
-blockquote p { 
-	font-size: $small-size; 
-	font-weight: $extra-light-weight;
-	font-style: italic; 
-	margin-top: .5rem; 
-	margin-bottom: .8rem; 
-	max-width: 35rem; 
-	line-height: $short-line-height; 
+blockquote p {
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	font-style: italic;
+	margin-top: .5rem;
+	margin-bottom: .8rem;
+	max-width: 35rem;
+	line-height: $short-line-height;
 }
 
 button {
@@ -162,12 +162,12 @@ button {
 	width: 90%;
 }
 
-article { 
+article {
 	position: relative;
-	padding: 0 0 0 0; 
-} 
+	padding: 0 0 0 0;
+}
 
 section {
 	padding-top: 1rem;
-	padding-bottom: 1rem; 
+	padding-bottom: 1rem;
 }

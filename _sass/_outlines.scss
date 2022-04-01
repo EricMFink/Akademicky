@@ -2,21 +2,21 @@
 	margin-bottom: 3rem;
 }
 
-.outline h1 { 
+.outline h1 {
     color: $theme-color;
-	font-family: $heading-font; 
+	font-family: $heading-font;
 	font-weight: $normal-weight;
     font-size: $h2;
 }
 
 .outline h2 {
-	font-family: $heading-font; 
+	font-family: $heading-font;
 	font-weight: $normal-weight;
     font-size: $h3;
 }
 
 .outline h3 {
-	font-family: $heading-font; 
+	font-family: $heading-font;
 	font-weight: $normal-weight;
     font-size: $h4;
     padding-left: 1.5rem;
@@ -27,7 +27,7 @@
 .outline h4 {
     font-size: $h4;
     font-family: $serif-font;
-    font-weight: bold;
+    font-weight: $bold-weight;
     font-style: normal;
     margin-top: 1.5em;
     margin-bottom: .5em;
@@ -44,21 +44,21 @@
 
 
 // body {
-//     counter-reset: h1;  
+//     counter-reset: h1;
 // }
 .outline h1:before {
     content: counter(h1) ". ";
     counter-increment: h1;
 }
 .outline h1 {
-    counter-reset: h2;    
+    counter-reset: h2;
 }
 .outline h2:before {
     content: counter(h1) "." counter(h2) " ";
     counter-increment: h2;
 }
 .outline h2 {
-    counter-reset: h3;    
+    counter-reset: h3;
 }
 
 .outline h3:before {

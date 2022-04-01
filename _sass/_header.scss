@@ -11,7 +11,7 @@
 
 .site-title {
 	font-family: $heading-font;
-	font-weight: $medium-weight;
+	font-weight: $bold-weight;
     font-size: $medium-size;
     color: $theme-color;
     line-height: $header-height;
@@ -25,7 +25,7 @@
     float: right;
     line-height: $header-height;
 	margin-right: 12.5%;
-    
+
     .nav-trigger {
         display: none;
     }
@@ -33,7 +33,7 @@
     .menu-icon {
         display: none;
     }
-    
+
     .page-link{
         line-height: $line-height;
         // Gaps between nav items, but not on the first one

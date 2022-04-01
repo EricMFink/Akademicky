@@ -1,5 +1,5 @@
 .case p {
-	font-weight: $light-weight;
+	font-weight: $normal-weight;
 }
 
 .case h1, h2, h3, h4, h5 {
@@ -22,13 +22,13 @@
 
 .case h3 {
 	font-size: $h4;
-	font-weight: normal;
+	font-weight: $normal-weight;
 	font-style: italic;
 }
 
 .case h4 {
 	font-size: $h5;
-	font-weight: bold;
+	font-weight: $bold-weight;
 	font-style: normal;
 }
 
@@ -36,7 +36,7 @@
     border: none;
 }
 
-.case blockquote, 
+.case blockquote,
 blockquote p {
     font-style: normal;
     margin-top: 0;
@@ -73,41 +73,41 @@ blockquote p {
 	font-size: $smaller-size;
 	font-weight: $normal-weight;
 	font-style: normal;
-	margin-top: 1rem; 
+	margin-top: 1rem;
 	margin-bottom: .5rem;
 }
 
 .statute p {
 	font-family: $body-font;
-	font-weight: $light-weight;
+	font-weight: $normal-weight;
 }
 
 .statute h1, h2, h3, h4, {
 	font-family: $serif-heading-font;
 }
 
-.statute h3, h4, h5 { 
-	margin-bottom: 1rem; 
+.statute h3, h4, h5 {
+	margin-bottom: 1rem;
 }
 
-.statute h1 { 
-	font-size: 1.618rem; 
-	margin-top: 4rem; 
+.statute h1 {
+	font-size: 1.618rem;
+	margin-top: 4rem;
 }
 
-.statute h2 {  
-	font-size: 1.236rem; 
-	margin-top: 3rem; 
+.statute h2 {
+	font-size: 1.236rem;
+	margin-top: 3rem;
 }
 
-.statute h3 {  
-	font-size: 1rem; 
+.statute h3 {
+	font-size: 1rem;
 }
 
 
 /* heading for comments */
-.statute h4 {  
-	font-size: 0.8rem; 
+.statute h4 {
+	font-size: 0.8rem;
 	font-style: italic;
 	font-weight: $normal-weight;
 }
@@ -115,31 +115,31 @@ blockquote p {
 /* body of comments */
 .statute h5 {
 	font-family: $sans-font;
-	font-size: $smaller-size; 
-	font-weight: $light-weight;
+	font-size: $smaller-size;
+	font-weight: $normal-weight;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
 
 /* body of illustrations */
-.statute h6 {  
+.statute h6 {
 	font-family: $sans-font;
 	font-size: $smaller-size;
-	font-weight: $light-weight;
+	font-weight: $normal-weight;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 	margin-left: 1rem;
 }
 
-.statute blockquote { 
+.statute blockquote {
     font-size: 1rem;
-	font-weight: $light-weight;
+	font-weight: $normal-weight;
 	font-style: normal;
 	line-height: $line-height;
-	border: none; 
+	border: none;
     margin-left: 1.5rem;
-	margin-top: 1rem; 
-	margin-bottom: 1rem; 
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	padding: 0;
 }
 
@@ -147,8 +147,8 @@ blockquote p {
     font-size: 1rem;
 	line-height: $line-height;
 	font-style: normal;
-	margin-top: 1rem; 
-	margin-bottom: 1rem; 
+	margin-top: 1rem;
+	margin-bottom: 1rem;
     padding: 0;
 	max-width: 50rem;
 }

@@ -39,17 +39,6 @@ $container-width: 1000px;
 			background:darken($theme-color, 20%);
 		}
 	}
-	&.casebook-cover{
-		padding:15px 45px;
-		font-size: $larger-size;
-		font-weight: $medium-weight;
-		margin-top: 1rem;
-		color: $off-white;
-		background: $theme-color;
-		&:hover{
-			background:darken($theme-color, 20%);
-		}
-	}
 	&.success{
 		color:#FFF;
 		background:$success;

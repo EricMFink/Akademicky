@@ -28,7 +28,7 @@
         span { display: block; }
         .title { font-weight: $normal-weight; }
         .author {
-            a { 
+            a {
                 border-bottom: 1px dashed;
                 &:hover {
                     border-bottom-style: solid;
@@ -38,11 +38,11 @@
             > em {
                 border-bottom: 1px solid;
                 font-style: normal;
-                font-weight: bold;
+                font-weight: $normal-weight;
             }
         }
         .coauthor {
-            font-weight: normal;
+            font-weight: $normal-weight;
         }
         a.abstract, a.bibtex { cursor: pointer; }
         .hidden {
@@ -83,7 +83,7 @@
 
         span.notes {
             color: $grey;
-        }       
+        }
     }
     abbr {
         position: absolute;

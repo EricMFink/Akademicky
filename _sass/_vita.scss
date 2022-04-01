@@ -1,6 +1,6 @@
 .vita {
     font-family: $serif-font;
-	font-weight: $light-weight;
+	font-weight: $normal-weight;
     padding-bottom: 20px;
 }
 
@@ -34,7 +34,7 @@
 
 .vita-contact {
     font-family: $serif-font;
-	font-weight: $light-weight;
+	font-weight: $normal-weight;
     margin: 0;
     padding: 0;
 }
@@ -126,14 +126,14 @@
 }
 
 .vita h2 + h3,
-.vita h2 + h4, 
+.vita h2 + h4,
 .vita h3 + h4 {
     margin-top: 0.5rem;
 }
 
 @media only screen
 and (max-device-width:576px){
-    
+
     .vita {
         .left {
             width: 55%;
@@ -201,11 +201,11 @@ and (max-device-width:576px){
 .vita-print-footer p {
 	font-family: $sans-font;
 	font-size: 8pt;
-	font-weight: 300;
+	font-weight: $light-weight;
 }
 
 .vita-print-footer-block {
-	display: flex; 
+	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
 	margin: 0 10% 0 10%;

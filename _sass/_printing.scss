@@ -8,7 +8,7 @@
 .print-header p {
 	font-family: $sans-font;
 	font-size: 9pt;
-	font-weight: 400;
+	font-weight: $normal-weight;
 }
 
 .print-footer {
@@ -21,11 +21,11 @@
 .print-footer p {
 	font-family: $sans-font;
 	font-size: 9pt;
-	font-weight: 400;
+	font-weight: $normal-weight;
 }
 
 .print-headfoot-block {
-	display: flex; 
+	display: flex;
 	flex-flow: row wrap;
 	width: 75%;
 	margin: 0 0 0 12.5%;
@@ -35,7 +35,7 @@
 .print-header p {
 	font-family: $sans-font;
 	font-size: 9pt;
-	font-weight: 400;
+	font-weight: $normal-weight;
 }
 
 .alignleft {
@@ -54,7 +54,7 @@
 
 	@page {
 	    margin: 1in 0in 1in 0in;
-	    orphans:4; 
+	    orphans:4;
 		widows:2;
 	}
 
@@ -62,7 +62,7 @@
 	    font-size:  10pt;
 	}
 
-	.sidenote, .marginnote { 
+	.sidenote, .marginnote {
 		float: right;
 		clear: right;
 		margin-right: -45%;
@@ -70,10 +70,10 @@
 		margin-top: 0;
 		margin-bottom: 0.5rem;
 	}
-	.sidenote { 
+	.sidenote {
 		font-size: 8pt;
 	}
-	.marginnote { 
+	.marginnote {
 		font-size: 8pt;
 	}
 

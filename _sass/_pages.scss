@@ -14,7 +14,7 @@
 
 .page-title {
     color: $theme-color;
-    font-family: $heading-font; 
+    font-family: $heading-font;
     font-size: $title-size;
     line-height: $line-height;
     font-weight: $medium-weight;
@@ -25,7 +25,7 @@
 
 .page-subtitle {
     color: $theme-color;
-    font-family: $heading-font; 
+    font-family: $heading-font;
     font-size: $subtitle-size;
     line-height: $line-height;
     font-weight: $normal-weight;
@@ -36,11 +36,11 @@
 }
 
 .page-cite {
-    font-family: $serif-font; 
+    font-family: $serif-font;
 	color: $text-color;
     font-size: $body-size;
     line-height: $line-height;
-    font-weight: $light-weight;
+    font-weight: $normal-weight;
 	margin-top: 1rem;
 	margin-bottom: 0;
 }
@@ -93,12 +93,12 @@
 	margin-right: 0;
 }
 
-.gevalt img { 
-	display: block; 
-	margin-left: auto; 
-	margin-right: auto; 
+.gevalt img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0;
-	height: 500px; 
+	height: 500px;
 }
 
 .gevalt h1 {
@@ -106,28 +106,28 @@
 	font-weight: $medium-weight;
 }
 
-.gevalt h2 { 
-	height: 100%; 
+.gevalt h2 {
+	height: 100%;
 	color: $theme-color;
-	text-align: center; 
-	vertical-align: middle; 
-	font-family: serif-font; 
-	font-size: $h5; 
+	text-align: center;
+	vertical-align: middle;
+	font-family: serif-font;
+	font-size: $h5;
 	font-weight: $normal-weight;
-	font-style: italic; 
-	margin-top: 1rem; 
-	margin-left: auto; 
-	margin-right: auto; 
-	padding-left: 35%; 
+	font-style: italic;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 35%;
 	padding-right: 35%
 }
 
-@media screen and (max-width: 760px){ 
-.gevalt img { 
-	height: 350px; 
+@media screen and (max-width: 760px){
+.gevalt img {
+	height: 350px;
 	}
-.gevalt h2 { 
-	padding-left: 15%; 
+.gevalt h2 {
+	padding-left: 15%;
 	padding-right: 15%
 	}
 }
