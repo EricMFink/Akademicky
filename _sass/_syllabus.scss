@@ -11,16 +11,22 @@
 	color: $theme-color;
 }
 
+/* --- Unit --*/
+
 .syllabus h2 {
 	font-family: $heading-font;
 	color: $theme-color;
 	font-weight: $normal-weight;
 }
 
+/* --- Topic --*/
+
 .syllabus h3 {
 	font-family: $heading-font;
 	font-weight: $normal-weight;
 }
+
+/* --- Date --*/
 
 .syllabus h4 {
 	font-family: $serif-font;
