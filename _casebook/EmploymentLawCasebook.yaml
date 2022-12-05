@@ -1,0 +1,502 @@
+---
+references:
+- id: andersonPrivateGovernmentHow2017
+  abstract: >-
+    Why our workplaces are authoritarian private governments-and why we can't
+    see it   One in four American workers says their workplace is a
+    "dictatorship." Yet that number probably would be even higher if we
+    recognized most employers for what they are-private governments with
+    sweeping authoritarian power over our lives, on duty and off. We normally
+    think of government as something only the state does, yet many of us are
+    governed far more-and far more obtrusively-by the private government of the
+    workplace. In this provocative and compelling book, Elizabeth Anderson
+    argues that the failure to see this stems from long-standing confusions.
+    These confusions explain why, despite all evidence to the contrary, we still
+    talk as if free markets make workers free-and why so many employers advocate
+    less government even while they act as dictators in their businesses.   In
+    many workplaces, employers minutely regulate workers' speech, clothing, and
+    manners, leaving them with little privacy and few other rights. And
+    employers often extend their authority to workers' off-duty lives. Workers
+    can be fired for their political speech, recreational activities, diet, and
+    almost anything else employers care to govern. Yet we continue to talk as if
+    early advocates of market society-from John Locke and Adam Smith to Thomas
+    Paine and Abraham Lincoln-were right when they argued that it would free
+    workers from oppressive authorities. That dream was shattered by the
+    Industrial Revolution, but the myth endures.    *Private Government*  offers
+    a better way to talk about the workplace, opening up space for discovering
+    how workers can enjoy real freedom.   Based on the prestigious Tanner
+    Lectures delivered at Princeton University's Center for Human Values,
+    *Private Government*  is edited and introduced by Stephen Macedo and
+    includes commentary by cultural critic David Bromwich, economist Tyler
+    Cowen, historian Ann Hughes, and philosopher Niko Kolodny.
+  accessed:
+    - year: 2022
+      month: 12
+      day: 5
+  author:
+    - family: Anderson
+      given: Elizabeth
+  citation-key: andersonPrivateGovernmentHow2017
+  DOI: 10.2307/j.ctvc775n0
+  ISBN: 978-0-691-19224-6
+  issued:
+    - year: 2017
+  publisher: Princeton University Press
+  source: JSTOR
+  title: >-
+    Private Government: How Employers Rule Our Lives (and Why We Don't Talk
+    about It)
+  title-short: Private Government
+  type: book
+  URL: https://www.jstor.org/stable/j.ctvc775n0
+
+- id: buchterTellMeYour2020
+  author:
+    - family: Buchter
+      given: Lisa
+  citation-key: buchterTellMeYour2020
+  container-title: Law & Social Inquiry
+  DOI: 10.1017/lsi.2019.79
+  ISSN: 0897-6546
+  issue: '4'
+  issued:
+    - literal: 2020-03-0025
+  note: 'Saved from BrowZine: https://thirdiron.com/download'
+  page: 902 - 934
+  title: >-
+    Tell Me Your Story: How Recruitment Practices Implementing Affirmative
+    Action Laws May Undermine the Laws’ Goals
+  type: article-journal
+  URL: https://browzine.com/articles/377662183
+  volume: '45'
+
+- id: casebeerItNotJust2017
+  author:
+    - family: Casebeer
+      given: Kenneth M.
+  citation-key: casebeerItNotJust2017
+  container-title: Employee Rights and Employment Policy Journal
+  container-title-short: Emp. Rts. & Emp. Pol'y J.
+  issue: '2'
+  issued:
+    - year: 2017
+  language: eng
+  page: 325-334
+  source: HeinOnline
+  title: >-
+    It's Not Just the Contract, It's Capitalism: Inequality and the Restatement
+    of Employment Law Chapter on Termination
+  title-short: It's Not Just the Contract, It's Capitalism
+  type: article-journal
+  URL: https://heinonline.org/HOL/P?h=hein.journals/emplrght21&i=331
+  volume: '21'
+
+- id: CaseNoncompetesUniversity
+  abstract: >-
+    Scholars and other commentators widely assert that enforcement of
+    contractual and other limitations on labor mobility deters innovation. Based
+    on this view, federal and state legislators have taken, and continue to
+    consider, actions to limit the enforcement of covenants not to compete in
+    employment agreements. These actions would discard the centuries-old
+    reasonableness standard that governs the enforcement of these provisions,
+    often termed “noncompetes,” in all but four states (notably, California). We
+    argue that this zero-enforcement position lacks a sound basis in theory or
+    empirics. As a matter of theory, it overlooks the complex effects of
+    contractual limitations on labor mobility in innovation markets. While it is
+    frequently asserted that noncompetes may impede knowledge spillovers that
+    foster innovation, it is frequently overlooked that noncompetes may
+    encourage firms to invest in cultivating intellectual and human capital. As
+    a matter of empirics, we show that two commonly referenced bodies of
+    evidence fail to support zero enforcement. First, we revisit the
+    conventional account of the rise of Silicon Valley and the purported fall of
+    the Boston area as innovation centers, showing that this divergence cannot
+    suitably be explained by differences in state law regarding noncompetes.
+    Second, we show that widely cited empirical studies fail to support a causal
+    relationship between noncompetes, reduced labor mobility, and reduced
+    innovation. Given these theoretical and empirical complexities, we propose
+    an error-cost approach that provides an economic rationale for the common
+    law’s reasonableness approach toward contractual constraints on the
+    circulation of human capital.
+  author:
+    - family: Barnett
+      given: Jonathan M.
+    - family: Sichelman
+      given: Ted
+  citation-key: CaseNoncompetesUniversity
+  container-title: The University of Chicago Law Review
+  issued:
+    - year: 202
+  page: '953'
+  title: The Case for Noncompetes
+  type: article-journal
+  URL: https://lawreview.uchicago.edu/publication/case-noncompetes
+  volume: '87'
+
+- id: doughertyHowNoncompeteClauses2017
+  abstract: >-
+    Restrictions once limited to executives are now spreading across the labor
+    landscape — making it tougher for Americans to get a raise.
+  author:
+    - family: Dougherty
+      given: Conor
+  citation-key: doughertyHowNoncompeteClauses2017
+  container-title: The New York Times
+  ISSN: 0362-4331
+  issued:
+    - literal: 2017-05-0013
+  language: en-US
+  section: Business
+  source: NYTimes.com
+  title: How Noncompete Clauses Keep Workers Locked In
+  type: article-newspaper
+  URL: https://www.nytimes.com/2017/05/13/business/noncompete-clauses.html
+
+- id: dukesLabourConstitutionsOccupational2020
+  author:
+    - family: Dukes
+      given: Ruth
+    - family: Streeck
+      given: Wolfgang
+  citation-key: dukesLabourConstitutionsOccupational2020
+  container-title: Journal of Law and Society
+  DOI: 10.1111/jols.12254
+  ISSN: 0263-323X
+  issue: '4'
+  issued:
+    - literal: 2020-11-0012
+  note: 'Saved from BrowZine: https://thirdiron.com/download'
+  page: 612 - 638
+  title: >-
+    Labour Constitutions and Occupational Communities: Social Norms and Legal
+    Norms at Work
+  type: article-journal
+  URL: https://browzine.com/articles/422081742
+  volume: '47'
+
+- id: epsteinDefenseContractWill1984
+  author:
+    - family: Epstein
+      given: Richard A.
+  citation-key: epsteinDefenseContractWill1984
+  container-title: The University of Chicago Law Review
+  DOI: 10.2307/1599554
+  ISSN: 0041-9494
+  issue: '4'
+  issued:
+    - year: 1984
+  page: 947-982
+  publisher: University of Chicago Law Review
+  source: JSTOR
+  title: In Defense of the Contract at Will
+  type: article-journal
+  URL: https://www.jstor.org/stable/1599554
+  volume: '51'
+
+- id: estlundHowWrongAre2002
+  author:
+    - family: Estlund
+      given: Cynthia L.
+  citation-key: estlundHowWrongAre2002
+  container-title: New York University Law Review
+  container-title-short: N.Y.U. L. Rev.
+  issue: '1'
+  issued:
+    - year: 2002
+  language: eng
+  page: 6-35
+  source: HeinOnline
+  title: >-
+    How Wrong Are Employees about Their Rights, and Why Does It Matter
+    Symposium: Research Conference on Behavioral Law and Economics in the
+    Workplace
+  title-short: How Wrong Are Employees about Their Rights, and Why Does It Matter Symposium
+  type: article-journal
+  URL: https://heinonline.org/HOL/P?h=hein.journals/nylr77&i=20
+  volume: '77'
+
+- id: hertel-fernandezHowEmployersRecruit2016
+  abstract: >-
+    In the wake of the Citizens United Supreme Court decision, many American
+    private-sector employers now have the legal right to recruit their workers
+    into politics and to fire or discipline employees who refuse to participate.
+    How many firms and workers are engaged in this kind of political recruitment
+    and why? And how have the opportunities for the political recruitment of
+    workers by their employers changed over time? Drawing on national surveys of
+    top corporate managers and workers, as well as a review of the legal
+    literature, I provide initial answers to these questions and illustrate the
+    implications of employer political recruitment for a range of substantive
+    and normative issues in American politics. My findings invite further
+    research and discussion about this feature of the American workplace and its
+    effects on politics and policy.
+  author:
+    - family: Hertel-Fernandez
+      given: Alexander
+  citation-key: hertel-fernandezHowEmployersRecruit2016
+  container-title: Perspectives on Politics
+  DOI: 10.1017/S1537592716000098
+  ISSN: 1537-5927, 1541-0986
+  issue: '2'
+  issued:
+    - year: 2016
+      month: 6
+  language: en
+  page: 410-421
+  publisher: Cambridge University Press
+  source: Cambridge University Press
+  title: >-
+    How Employers Recruit Their Workers into Politics—And Why Political
+    Scientists Should Care
+  type: article-journal
+  URL: >-
+    https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/how-employers-recruit-their-workers-into-politicsand-why-political-scientists-should-care/778AD469C15C4100DB0C29DB8C858C4B
+  volume: '14'
+
+- id: klepsRaceGenderPlace2022
+  abstract: >-
+    While federal anti-employment discrimination laws have helped diminish
+    inequality at work, discrimination persists, in part perhaps due to unequal
+    handling of equal employment lawsuits. Prior research demonstrates that the
+    definition of discrimination can vary based on local normative ideas, while
+    another line shows that a judge's race or gender can shape how related
+    lawsuits are handled. In this article, I draw on a set of EEOC workplace
+    discrimination cases prosecuted in Federal Court and combine it with
+    locality data, to analyze: (1) the impact of local context, specifically
+    rurality, local political context, and southerness and; (2) how judges' race
+    and gender interact with the local cultural-milieu. Findings reveal that
+    plaintiffs of colour in race discrimination cases fair worse in rural courts
+    or before white judges. Meanwhile, white judges in conservative areas are
+    more defendant friendly than those outside the in more liberal areas. Black
+    judges, in comparison, are more plaintiff friendly in conservative areas
+    when compared to black judges in more liberal areas. While female judges are
+    generally more plaintiff friendly than male judges in sex cases, location
+    has no discernible effect.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 7
+  author:
+    - family: Kleps
+      given: Christopher
+  citation-key: klepsRaceGenderPlace2022
+  container-title: Law & Society Review
+  DOI: 10.1111/lasr.12606
+  ISSN: 1540-5893
+  issue: '2'
+  issued:
+    - year: 2022
+  language: en
+  page: 188-212
+  source: Wiley Online Library
+  title: >-
+    Race, gender, and place: How judicial identity and local context shape
+    anti-discrimination decisions
+  title-short: Race, gender, and place
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/lasr.12606
+  volume: '56'
+
+- id: kruegerProposalProtectingLow2018
+  author:
+    - family: Krueger
+      given: Alan B
+    - family: Posner
+      given: Eric A
+  citation-key: kruegerProposalProtectingLow2018
+  issued:
+    - year: 2018
+      month: 2
+  language: en
+  publisher: The Hamilton Project
+  source: Zotero
+  title: A Proposal for Protecting Low‑Income Workers from Monopsony and Collusion
+  type: article
+  URL: >-
+    https://www.hamiltonproject.org/papers/a_proposal_for_protecting_low_income_workers_from_monopsony_and_collusion
+
+- id: marshallIdleRightsEmployees2014
+  abstract: >-
+    Many significant law and society studies have documented patterns of legal
+    mobilization among average people confronting conflict in their daily lives.
+    These studies have demonstrated that although legal rights and entitlements
+    may be formally available, they are rarely invoked. There can be
+    considerable difference between what people are entitled to under law and
+    what they actually receive. Thus, this article fits into a long tradition of
+    exploring this gap between the law on the books and the law in action, but
+    it builds on this tradition by including in the “law in action” the
+    meaning-making activities of ordinary women confronting
+  archive: JSTOR
+  author:
+    - family: Marshall
+      given: Anna-Maria
+  citation-key: marshallIdleRightsEmployees2014
+  container-title: The Law and Society Reader II
+  editor:
+    - family: Larson
+      given: Erik
+    - family: Schmidt
+      given: Patrick
+  ISBN: 978-0-8147-7081-8
+  issued:
+    - year: 2014
+  page: 243-252
+  publisher: NYU Press
+  source: JSTOR
+  title: >-
+    Idle Rights: Employees’ Rights Consciousness and the Construction of Sexual
+    Harassment Policies
+  title-short: Idle Rights
+  type: chapter
+  URL: https://www.jstor.org/stable/j.ctt9qg0dk.34
+
+- id: orrenBelatedFeudalismLabor1992a
+  abstract: >-
+    Contrary to the idea that the United States was liberal from its inception,
+    Orren argues that both capitalism and constitutionalism proceeded upon a
+    remnant of ancient feudalism. This was the common law of master and servant,
+    embedded in the judiciary, cutting off the fundamental area of labor
+    governance from democratic politics. The fully legislative polity that
+    defines the modern liberal state was brought on through the industrial
+    actions of trade unions in the late nineteenth and early twentieth
+    centuries, and was established with the institutions of collective
+    bargaining under the New Deal. The book represents a reinterpertation of
+    American political development and of the role of the labor movement as a
+    creator of liberalism, not a spoiler of socialism.
+  author:
+    - family: Orren
+      given: Karen
+  citation-key: orrenBelatedFeudalismLabor1992a
+  edition: First Printing edition
+  event-place: Cambridge England ; New York
+  ISBN: 978-0-521-42254-3
+  issued:
+    - literal: 1992-01-0031
+  language: English
+  number-of-pages: '252'
+  publisher: Cambridge University Press
+  publisher-place: Cambridge England ; New York
+  source: Amazon
+  title: >-
+    Belated Feudalism: Labor, the Law, and Liberal Development in the United
+    States
+  title-short: Belated Feudalism
+  type: book
+
+- id: pedullaRaceNetworksJob2019
+  author:
+    - family: Pedulla
+      given: David S.
+    - family: Pager
+      given: Devah
+  citation-key: pedullaRaceNetworksJob2019
+  container-title: American Sociological Review
+  DOI: 10.1177/0003122419883255
+  ISSN: 0003-1224
+  issue: '6'
+  issued:
+    - literal: 2019-11-0007
+  note: 'Saved from BrowZine: https://thirdiron.com/download'
+  page: 983 - 1012
+  title: Race and Networks in the Job Search Process
+  type: article-journal
+  URL: https://browzine.com/articles/356623798
+  volume: '84'
+
+- id: sacksEyesRight2021
+  author:
+    - family: Sacks
+      given: Oliver
+  citation-key: sacksEyesRight2021
+  container-title: 'The Man Who Mistook His Wife for a Hat: And Other Clinical Tales'
+  edition: Reissue edition
+  ISBN: 978-0-593-46667-4
+  issued:
+    - year: 2021
+      month: 9
+      day: 14
+  language: English
+  page: '90'
+  publisher: Vintage
+  title: Eyes Right
+  type: chapter
+
+- id: sacksManWhoMistook2021
+  author:
+    - family: Sacks
+      given: Oliver
+  citation-key: sacksManWhoMistook2021
+  edition: Reissue edition
+  ISBN: 978-0-593-46667-4
+  issued:
+    - year: 2021
+      month: 9
+      day: 14
+  language: English
+  number-of-pages: '320'
+  publisher: Vintage
+  title: 'The Man Who Mistook His Wife for a Hat: And Other Clinical Tales'
+  title-short: The Man Who Mistook His Wife for a Hat
+  type: book
+
+- id: silver-greenbergArbitrationPrivatizationJustice2015
+  abstract: >-
+    Forced individual arbitration often bears little resemblance to court: The
+    rules tend to favor businesses, and judges and juries are replaced by
+    arbitrators whose rulings are difficult to appeal.
+  author:
+    - family: Silver-Greenberg
+      given: Jessica
+    - family: Corkery
+      given: Michael
+  citation-key: silver-greenbergArbitrationPrivatizationJustice2015
+  container-title: The New York Times
+  ISSN: 0362-4331
+  issued:
+    - literal: 2015-11-0001
+  language: en-US
+  section: Business
+  source: NYTimes.com
+  title: In Arbitration, a ‘Privatization of the Justice System’
+  type: article-newspaper
+  URL: >-
+    https://www.nytimes.com/2015/11/02/business/dealbook/in-arbitration-a-privatization-of-the-justice-system.html
+
+- id: stoneKnowledgeWorkDisputes2001
+  author:
+    - family: Stone
+      given: Katherine V. W.
+  citation-key: stoneKnowledgeWorkDisputes2001
+  container-title: Connecticut Law Review
+  container-title-short: Conn. L. Rev.
+  issued:
+    - year: 2001
+    - year: 2002
+  language: eng
+  page: 721-764
+  source: HeinOnline
+  title: >-
+    Knowledge at Work: Disputes over the Ownership of Human Capital in the
+    Changing Workplace Commentary
+  title-short: Knowledge at Work
+  type: article-journal
+  volume: '34'
+
+- id: summersEmploymentWillUnited2000
+  author:
+    - family: Summers
+      given: Clyde W.
+  citation-key: summersEmploymentWillUnited2000
+  container-title: University of Pennsylvania Journal of Labor and Employment Law
+  container-title-short: U. Pa. J. Lab. & Emp. L.
+  issue: '1'
+  issued:
+    - year: 2000
+    - year: 2001
+  language: eng
+  page: 65-86
+  source: HeinOnline
+  title: 'Employment at Will in the United States: The Divine Right of Employers'
+  title-short: Employment at Will in the United States
+  type: article-journal
+  URL: https://heinonline.org/HOL/P?h=hein.journals/upjlel3&i=77
+  volume: '3'
+...
