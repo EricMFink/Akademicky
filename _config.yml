@@ -77,3 +77,6 @@ transfer:
 # -----------------------------------------------------------------------------
 jquery_version: "1.12.4"
 anchorjs_version: "3.2.2"
+
+plugins:
+  - jekyll-spaceship
