@@ -16,6 +16,15 @@
 	position: relative; 
 }
 
+.sidenote p { 
+	font-family: $sidenotes-font;
+	font-size: $smallest-size;
+	font-weight: $light-weight;
+	line-height: 1.2; 
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 .marginnote { 
 	font-family: $marginnotes-font;
 	font-size: $smallest-size;
@@ -23,7 +32,19 @@
 	line-height: 1.2; 
 	vertical-align: baseline;
 	position: relative; 
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
+
+.marginnote p { 
+	font-family: $marginnotes-font;
+	font-size: $smallest-size;
+	font-weight: $light-weight;
+	line-height: 1.2; 
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 
 li .sidenote, li .marginnote{
 	margin-right: -80%; 
