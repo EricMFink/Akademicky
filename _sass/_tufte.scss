@@ -16,13 +16,21 @@
 	position: relative; 
 }
 
-.sidenote p { 
-	font-family: $sidenotes-font;
+.sidenote hr { 
+	border: none;
+	opacity: 0;
+	height: 6px;
+}
+
+.sidenote blockquote {
+	border-left: none;
 	font-size: $smallest-size;
 	font-weight: $light-weight;
-	line-height: 1.2; 
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	margin-left: .5rem;
+	margin-right: .5rem;
+	font-style: italic;
 }
 
 .marginnote { 
@@ -36,15 +44,22 @@
 	margin-bottom: 1rem;
 }
 
-.marginnote p { 
-	font-family: $marginnotes-font;
-	font-size: $smallest-size;
-	font-weight: $light-weight;
-	line-height: 1.2; 
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+.marginnote hr { 
+	border: none;
+	opacity: 0;
+	height: 6px;
 }
 
+.marginnote blockquote {
+	border-left: none;
+	font-size: $smallest-size;
+	font-weight: $light-weight;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	margin-left: .5rem;
+	margin-right: .5rem;
+	font-style: italic;
+}
 
 li .sidenote, li .marginnote{
 	margin-right: -80%; 
