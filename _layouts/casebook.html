@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="sidenotes">
+{% include header.html %}
+{% include print-header.html %}
+
+<div class="page-container">
+
+    <div class="page-header group">
+    	{% if page.chapter %}
+        <h2 class="page-subtitle">{{ page.chapter }}</h2>
+        {% endif %}
+        <h1 class="page-title">{{ page.title }}</h1>
+    </div>
+
+    <article class="sidenotes-page">
+        {{ content }}
+    </article>
+
+</div>
+	
+{% include hemline.html %}
+
+</body>
+
+</html>

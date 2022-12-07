@@ -7,4 +7,4 @@ title: Casebook
 
 # Contents 
 
-[Part 1: Foundation of Employment Law](./casebook/part1)
+[Part 1: Foundation of Employment Law](./part1)

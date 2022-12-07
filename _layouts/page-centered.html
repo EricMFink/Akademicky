@@ -4,22 +4,24 @@ layout: centered
 
 <div class="page-container">
 
-			<div class="page-header group">
-				<h1 class="page-title">{{ page.title }}</h1>
-				{% if page.subtitle %}
-				<h2 class="page-subtitle">{{ page.subtitle }}</h2>
-				{% endif %}
-				{% if page.author %}
-				<h3 class="page-cite">{{ page.author }}</h3>
-				{% endif %}
-				{% if page.cite %}
-				<h3 class="page-cite">{{ page.cite }} ({% if page.jurisdiction %}{{ page.jurisdiction }} {% endif %}{% if page.published %}{{ page.published }}){% endif %}</h3>
-				{% endif %}
-				{% if page.institution %}
-				<h4 class="page-cite">{{ page.institution }}</h4>
-				{% endif %}
-			</div>
+	<div class="page-header group">
+		<h1 class="page-title">{{ page.title }}</h1>
+		{% if page.subtitle %}
+		<h2 class="page-subtitle">{{ page.subtitle }}</h2>
+		{% endif %}
+		{% if page.author %}
+		<h3 class="page-cite">{{ page.author }}</h3>
+		{% endif %}
+		{% if page.cite %}
+		<h3 class="page-cite">{{ page.cite }} {% if page.published %}({% if page.jurisdiction %}{{ page.jurisdiction }}, {% endif %}{{ page.published }}){% endif %}</h3>
+		{% endif %}
+		{% if page.institution %}
+		<h4 class="page-cite">{{ page.institution }}</h4>
+		{% endif %}
+	</div>
 
-{{ content }}
+    <article class="post-content">
+	{{ content }}
+    </article>
 
 </div>

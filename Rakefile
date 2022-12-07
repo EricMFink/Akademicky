@@ -5,6 +5,7 @@ require 'date'
 require 'yaml'
 require 'tmpdir'
 require 'jekyll'
+require 'jekyll-pandoc'
 
 desc "Generate blog files"
 task :generate do
@@ -26,7 +27,7 @@ task :publish => [:generate] do
     system "git add ."
     system "git commit -am #{message.shellescape}"
     system "git push origin gh-pages --force"
-    system "git checkout master"
+    system "git checkout main"
     system "echo yolo"
   end
 end

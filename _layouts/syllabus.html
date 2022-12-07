@@ -4,13 +4,14 @@ layout: default
 
 <div class="page-container">
 
-			<div class="page-header group">
-				<h1 class="page-title">{{ page.title }}</h1>
-				{% if page.subtitle %}
-				<h2 class="page-subtitle">{{ page.subtitle }}</h2>
-				{% endif %}
-			<a href='{{ site.baseurl }}/assets/pdf/syllabus.pdf'><button class='button syllabus smaller'>PDF</button></a>
-			</div>
+<!-- syllabus header -->
+	<div class="page-header group">
+		<h1 class="page-title">{{ page.title }}</h1>
+		{% if page.subtitle %}
+		<h2 class="page-subtitle">{{ page.subtitle }}</h2>
+		{% endif %}
+		<a href='{{ site.baseurl }}/assets/pdf/syllabus.pdf'><button class='button syllabus smaller'>PDF</button></a>
+	</div>
 
 <div class="syllabus">
 
@@ -26,6 +27,7 @@ layout: default
 	<h6>{{ site.data.author.phone }}</h6>
 	<h6>Office hours <a href=https://calendly.com/emfink />by appointment</a></h6>
 
+<!-- syllabus body -->
 	{{ content }}
 
 </div> 
