@@ -5,7 +5,7 @@ title: Colophon
 
 ---
 
-[Akademický](https://github.com/LuckyJimJD/akademicky) theme for [Jekyll](https://jekyllrb.com/), created by [Eric M. Fink](https://www.emfink.net).
+[Akademický](https://github.com/EricMFink/akademicky) theme for [Jekyll](https://jekyllrb.com/), created by [Eric M. Fink](https://www.emfink.net).
 
 Based on [al-folio](https://github.com/alshedivat/al-folio), with elements from [tufte-jekyll](https://github.com/clayh53/tufte-jekyll) and [tufte-pandoc-jekyll](https://github.com/jez/tufte-pandoc-jekyll) (sidenotes, marginnotes and figures in the style of [Edward Tufte](https://www.edwardtufte.com/tufte/)), and [bijou](https://github.com/andhart/bijou) (table and button styles). 
 

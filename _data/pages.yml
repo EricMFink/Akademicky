@@ -1,19 +1,26 @@
+# Default pages for teaching site
+
 - title: Information
   url: /information/
 
 - title: Schedule
   url: /schedule/
-  
+
 - title: Casebook
   url: /casebook/
 
-- title: Colophon
-  url: /colophon/
 
-# For personal site, delete above and uncomment these:
+# Additional pages
 
 # - title: Publications
 #   url: /publications/
 
 # - title: Teaching
 #   url: /teaching/
+
+# - title: Colophon
+#   url: /colophon/
+
+
+  
+

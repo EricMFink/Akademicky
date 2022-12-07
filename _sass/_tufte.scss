@@ -37,11 +37,10 @@
 	font-family: $marginnotes-font;
 	font-size: $smallest-size;
 	font-weight: $light-weight;
+	color: $dark-green;
 	line-height: 1.2; 
 	vertical-align: baseline;
 	position: relative; 
-	margin-top: 1rem;
-	margin-bottom: 1rem;
 }
 
 .marginnote hr { 
