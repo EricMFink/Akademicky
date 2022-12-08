@@ -5,14 +5,6 @@ title: Study Aids
 
 ---
 
-# Outlines
-
-<ul>
-{% for outline in site.outlines %}
-<li><a href="{{ site.baseurl }}{{ outline.url }}">{{ outline.title }}</a></li>
-{% endfor %}
-</ul>
-
 # Review Problems
 
 <ul>

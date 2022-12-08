@@ -2,23 +2,6 @@ img {
 	max-width: 100%; 
 }
 
-
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-size;
-}
-
-
-figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 3em; }
-
-figcaption { float: right; clear: right; margin-right: -50%; margin-top: 0; margin-bottom: 0; font-size: 1.0rem; line-height: 1.6; vertical-align: baseline; position: relative; max-width: 40%; }
-
-figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; max-width: 100%; }
-
-
 .blankbox {
     background: $theme-color;
 }

@@ -1,6 +1,5 @@
 table {
-	width: 80%;
-	font-family: $sans-font;
+	width: 85%;
 	font-size: $small-size;
 	margin: 2rem auto 4rem auto;
 }
@@ -20,6 +19,7 @@ noheader th {
 }
 
 th {
+	font-family: $heading-font;
 	background: #eee8d5;
 	border-bottom: 3px #93a1a1 solid;
 }

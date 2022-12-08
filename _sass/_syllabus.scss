@@ -6,45 +6,57 @@
 	counter-reset: h2;
 }
 
+.syllabus-header {
+	margin-bottom: 2rem;
+}
+
 .syllabus h1 {
 	font-family: $heading-font;
 	color: $theme-color;
+	margin-top: 1.5rem;
+    margin-bottom: 0rem;
 }
 
 /* --- Unit --*/
 
 .syllabus h2 {
 	font-family: $heading-font;
-	color: $theme-color;
-	font-weight: $normal-weight;
+    font-style: normal;
+	margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 /* --- Topic --*/
 
 .syllabus h3 {
 	font-family: $heading-font;
-	font-weight: $normal-weight;
+    font-style: normal;
+	margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 /* --- Date --*/
 
 .syllabus h4 {
-	font-family: $serif-font;
-	font-style: italic;
-	font-weight: $normal-weight;
+	font-family: $heading-font;
+    font-style: italic;
+	margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 .syllabus h5 {
-	font-family: $serif-font;
-    font-size: $h4;
-	font-weight: $normal-weight;
-    margin-bottom: 3rem;
+	font-family: $heading-font;
+    font-style: italic;
+	margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 .syllabus h6 {
 	font-family: $sans-font;
     font-weight: $light-weight;
+    font-style: normal;
     margin-top: .2em;
+    margin-bottom: 0rem;
 }
 
 .syllabus h2:first-child {
@@ -52,11 +64,11 @@
 }
 
 .syllabus h1 + h3 {
-    margin-top: 0;
+    margin-top: 0rem;
 }
 
 .syllabus h2 + h3 {
-    margin-top: 0;
+    margin-top: 0rem;
 }
 
 .syllabus h4 + h2 {
@@ -72,22 +84,6 @@
 }
 
 
-/* --- For Site Link --*/
-
-.syllabus pre {
-	width: 100%;
-	padding: 0;
-	overflow-x: auto;
-}
-
-.syllabus pre, pre code, p code, p pre code {
-	font-size: $small-size;
-	line-height: $line-height;
-	vertical-align: baseline;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-}
-
 .syllabus a {
     color: $theme-color;
     text-decoration: none;
@@ -95,4 +91,18 @@
 		color:darken($theme-color, 50%);
 	    text-decoration: underline;
     }
+}
+
+
+.syllabus table {
+	width: 100%;
+}
+
+
+.syllabus th {
+	font-size: $medium-size;
+}
+
+.syllabus td {
+	font-size: $small-size;
 }

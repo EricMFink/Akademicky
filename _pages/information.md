@@ -15,11 +15,12 @@ Cases, statutes, rules, and other assigned readings (see "Schedule & Assignments
 
 # Policies
 
-### Grading
+## Grading
 
 Your final grade for the term will be based on unit quizzes (40% total) and a final exam (60%).
 
-### Attendance
+
+## Attendance
 
 Elon Law School has adopted the following attendance policy for all courses:
 
@@ -29,10 +30,10 @@ Elon Law School has adopted the following attendance policy for all courses:
 
 Excessive absences (more than 2 classes) may result in a reduction of your grade.
 
-### Disability Accommodations
+## Disability Accommodations
 
 For disability accommodation requests, contact the Elon Law [Registrar's Office](https://www.elon.edu/e/law/academics/registrar-office/index.html).
 
-### Honor Code
+## Honor Code
 
 The Law School [honor code](https://www.elon.edu/e/law/student-experience/honor-code.html) applies to all activities related to your law school study, including conduct during class and examinations.

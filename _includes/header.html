@@ -22,7 +22,14 @@
             <a class="page-link" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
         {% endfor %}
         
+		{% if site.bookurl %}
+			<a class="page-link" href="{{ site.url }}{{ site.bookurl }}">Casebook</a>
+		{% endif %}
+        
       </div>
+      
+
+      
     </nav>
 
 </header>
