@@ -2,7 +2,8 @@
 layout: page
 
 course: Civil Procedure 
-title: Practice Exam Question 7 (Joinder; SMJ)
+title: Practice Exam Question 7 
+subtitle: Joinder & SUbject Matter Jurisdiction
   
 ---
 

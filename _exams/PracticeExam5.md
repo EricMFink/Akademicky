@@ -2,7 +2,8 @@
 layout: page
 
 course: Civil Procedure 
-title: Practice Exam Question 5 (Personal Jurisdiction)
+title: Practice Exam Question 5 
+subtitle: Personal Jurisdiction
  
 ---
 

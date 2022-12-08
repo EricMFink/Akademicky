@@ -2,7 +2,8 @@
 layout: page
 
 course: Civil Procedure 
-title: Practice Exam Question 1 (Pleadings)
+title: Practice Exam Question 1 
+subtitle: Pleadings
 ---
 
 ## Part A

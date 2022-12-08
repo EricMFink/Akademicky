@@ -2,7 +2,8 @@
 layout: page
 
 course: Civil Procedure 
-title: Practice Exam Question 6 (Pleadings; Preclusion)
+title: Practice Exam Question 6 
+subtitle: Pleadings & Preclusion
 
 ---
 

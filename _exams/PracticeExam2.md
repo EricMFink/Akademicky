@@ -2,7 +2,8 @@
 layout: page
 
 course: Civil Procedure 
-title: Practice Exam Question 2 (Joinder; SMJ)
+title: Practice Exam Question 2 
+subtitle: Joinder & SMJ
 
 ---
 

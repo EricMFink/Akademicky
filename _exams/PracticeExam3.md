@@ -2,7 +2,8 @@
 layout: page
 
 course: Civil Procedure 
-title: Practice Exam Question 3 (SMJ; Personal Jurisdiction)
+title: Practice Exam Question 3 
+subtitle: SMJ; Personal Jurisdiction
 
 ---
 

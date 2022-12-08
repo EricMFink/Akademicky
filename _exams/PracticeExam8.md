@@ -2,7 +2,8 @@
 layout: page
 
 course: Civil Procedure 
-title: Practice Exam Question 8 (Erie Doctrine)
+title: Practice Exam Question 8 
+subtitle: Erie Doctrine
   
 ---
 

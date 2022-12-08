@@ -42,7 +42,7 @@
 }
 
 .profile h1 {
-    font-size: $huge-size;
+    font-size: $title-size;
     line-height: 1;
     font-weight: $bold-weight !important;
     color: white;
@@ -51,7 +51,6 @@
 }
 
 .profile h2 {
-    font-size: $h1;
     font-style: normal;
     line-height: $line-height;
     color: white;
@@ -65,7 +64,6 @@
 }
 
 .profile h3 {
-    font-size: $h2;
     line-height: $line-height;
     color: white;
     font-weight: $bold-weight !important;
@@ -78,7 +76,6 @@
 }
 
 .profile h4 {
-    font-size: $h3;
     font-weight: $bold-weight !important;
 	font-style: normal;
     color: white;
@@ -91,9 +88,11 @@
     margin-top: 1rem;
 }
 
+/*
 .profile h3 + h4 {
     margin-top: 1rem;
 }
+*/
 
 .social {
     border-top: 0px solid $light-grey;

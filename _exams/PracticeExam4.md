@@ -2,7 +2,8 @@
 layout: page
 
 course: Civil Procedure 
-title: Practice Exam Question 4 (Joinder; Personal Jurisdiction; SMJ)
+title: Practice Exam Question 4 
+subtitle: Joinder, Personal Jurisdiction, & Subject Matter Jurisdiction
 
 ---
 
