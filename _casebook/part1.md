@@ -1,14 +1,18 @@
 ---
 layout: casebook
-chapter: Part 1
+chapter: Chapter 1
 title: Foundations of Employment Law
 ---
 
 # Employment as a Socio-Legal Relationship
 
-### Karen Orren, Belated Feudalism (1991)
+## Employment as Status and Contract
+
+### Karen Orren, _Belated Feudalism_ (1991)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac tincidunt justo. Curabitur suscipit orci nec lacus maximus, a eleifend elit laoreet. Donec quis porttitor nunc. Etiam non enim nisi. Maecenas posuere odio ut ipsum sollicitudin, interdum dapibus diam tincidunt. Integer nisl est, tincidunt a velit non, fringilla luctus velit. Nam tortor ipsum, iaculis ut nulla et, consectetur lobortis orci.
+
+## Employer Control
 
 ### Elizabeth Anderson, Private Government (2017)
 
