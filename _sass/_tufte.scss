@@ -22,17 +22,6 @@
 	height: 6px;
 }
 
-.sidenote blockquote {
-	border-left: none;
-	font-size: $smallest-size;
-	font-weight: $light-weight;
-	margin-top: .5rem;
-	margin-bottom: .5rem;
-	margin-left: .5rem;
-	margin-right: .5rem;
-	font-style: italic;
-}
-
 .marginnote { 
 	font-family: $marginnotes-font;
 	font-size: $smallest-size;
@@ -41,6 +30,7 @@
 	line-height: 1.2; 
 	vertical-align: baseline;
 	position: relative; 
+    text-indent: 0em;
 }
 
 .marginnote hr { 
@@ -49,16 +39,20 @@
 	height: 6px;
 }
 
-.marginnote blockquote {
-	border-left: none;
-	font-size: $smallest-size;
-	font-weight: $light-weight;
-	margin-top: .5rem;
-	margin-bottom: .5rem;
-	margin-left: .5rem;
-	margin-right: .5rem;
+span.blockquote{
 	font-style: italic;
+    display: block;
+    float: left;
+    left: 0rem;
+	text-indent: 0;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    clear: both;
+    width: 90%;
+    position: relative;
+    padding: 0.25rem 0.75rem
 }
+
 
 li .sidenote, li .marginnote{
 	margin-right: -80%; 

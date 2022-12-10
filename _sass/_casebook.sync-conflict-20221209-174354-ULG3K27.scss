@@ -11,7 +11,8 @@ body.casebookbody {
 
 .casebook-page-header {
 	margin-bottom: 1rem;
-	padding: 10px 0 0 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
     border-left: 2px solid $theme-color;
     border-top: 2px solid $theme-color;
 }
@@ -20,7 +21,7 @@ body.casebookbody {
 .chapter-pretitle {
     color: $theme-color;
     font-family: $heading-font;
-    font-size: $h3;
+    font-size: $h2;
     line-height: $line-height;
     font-weight: $normal-weight;
     font-style: normal;
@@ -31,17 +32,21 @@ body.casebookbody {
 .chapter-title {
     color: $theme-color;
     font-family: $heading-font;
-    font-size: $h2;
+    font-size: $h1;
     line-height: $line-height;
     font-weight: $normal-weight;
     font-style: normal;
+    line-height: 1;
 	margin-top: 1rem;
 	margin-bottom: 0;
 }
 
 
-/* For auto-numbered headings */
-/*
+.casebook h1 {
+	counter-increment: h1;
+    counter-reset: h2 h3;
+}
+
 .casebook h1::before {
 	content: counter(h1) ".";
 	float: left;
@@ -51,8 +56,11 @@ body.casebookbody {
 .casebook h1 {
     color: $theme-color;
 	margin-left: 2.5rem;
-	counter-increment: h1;
-    counter-reset: h2 h3;
+}
+
+.casebook h2 {
+	counter-increment: h2;
+    counter-reset: h3;
 }
 
 .casebook h2::before {
@@ -65,19 +73,6 @@ body.casebookbody {
 	font-style: normal;
     color: $theme-color;
 	margin-left: 3rem;
-	counter-increment: h2;
-    counter-reset: h3;
-}
-*/
-
-.casebook h1 {
-    color: $theme-color;
-}
-
-
-.casebook h2 {
-	font-style: normal;
-    color: $theme-color;
 }
 
 .casebook h3 {
@@ -118,41 +113,37 @@ body.casebookbody {
 /* Table of Contents */
 
 #table-of-contents {
-    float: left;
+    float: right;
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
     display: table;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 20px -45% 1em 0em;
+    padding: 10px;
     width: auto;
+    max-width: 30%;
 }
 
 #toc-header {
 	font-family: $sans-font;
-    font-weight: $medium-weight;
+    font-weight: $normal-weight;
     font-size: $smaller-size;
 }
 
-#table-of-contents li, #table-of-contents ul, #table-of-contents ul li {
+#table-of-contents li, #table-of-contents ul, #table-of-contents ol, #table-of-contents ul ol li {
 	font-family: $sans-font;
 	font-size: $smallest-size;
-    list-style: outside none none !important;
-	padding: 0 0 0 0;
-	line-height: 1;
 }
 
-
-
 li.toc-li-H1 {
-    margin: 0 0 0 0;
+    margin-left: 0em;    
 }
 
 li.toc-li-H2 {
-    margin: 0 0 0 1em;
+    margin-left: 1em;    
 }
 
 li.toc-li-H3 {
-    margin: 0 0 0 2em;
+    margin-left: 2em;
 }
 
  /* "Back to Top" Button */

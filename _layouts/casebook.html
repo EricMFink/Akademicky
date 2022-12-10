@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
+{% include head-casebook.html %}
 
-<body class="sidenotes">
-{% include header.html %}
+<body class="casebookbody">
+{% include header-casebook.html %}
 {% include print-header.html %}
 
 <div class="page-container">
 
-    <div class="page-header group">
+    <div class="casebook-page-header group">
     	{% if page.chapter %}
-        <h1 class="chapter-pretitle">{{ page.chapter }}</h1>
+        <p class="chapter-pretitle">{{ page.chapter }}</p>
         {% endif %}
-        <h1 class="chapter-title">{{ page.title }}</h1>
+        <p class="chapter-title">{{ page.title }}</p>
     </div>
 
     <article class="casebook">
@@ -20,7 +20,17 @@
     </article>
 
 </div>
-	
+
+    <!-- Code for "Back to Top" Button -->
+    <div class="container-top">
+        <a href="#" class="top"></a>
+    </div>
+
+<!-- Load Anchor JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/{{ site.anchorjs_version }}/anchor.min.js"></script>
+
+<script src="{{ site.baseurl }}/assets/js/toc.js"></script>
+
 {% include hemline.html %}
 
 </body>

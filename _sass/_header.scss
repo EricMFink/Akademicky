@@ -123,3 +123,62 @@
         font-size: $h2;
     }
 }
+
+
+
+/* Header for Casebook Pages */
+
+.casebook-header {
+    border-bottom: 0.5px solid $light-grey;
+    background-color: $off-white;
+    opacity: 1;
+    position:fixed;
+    left:calc((100vw - 100%)/2);
+    top:0px;
+	width: 100%;
+    z-index: 50;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+  
+/* Dropdown button */
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: $theme-color;
+    background: transparent;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0 0 0 30px; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: $text-color;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
