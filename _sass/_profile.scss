@@ -28,19 +28,6 @@
 	margin-right: auto;
 }
 
-.list-inline {
-    padding: 0;
-    list-style: none;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-}
-
-.list-inline>li {
-    display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: $social-icons-large;
-}
-
 .profile h1 {
     font-size: $title-size;
     line-height: 1;
@@ -98,16 +85,26 @@
     border-top: 0px solid $light-grey;
     margin-top: 2rem;
     line-height: 2.5;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.list-inline {
+    padding: 0;
+    list-style: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: $icons-medium;
 }
 
 .list-inline-item {
     display: inline-block;
-}
-
-.social{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .social-icons-left, .social-icons-right {
@@ -116,7 +113,7 @@
 }
 
 .social-icons {
-  font-size: $social-icons-medium;
+  font-size: $icons-medium;
   padding: 0.5em 0 0 0;
   width: 100%;
 }
@@ -138,6 +135,6 @@
 
 .contacticon {
     display: block;
-    font-size: $contacticon-medium;
+    font-size: $icons-large;
     margin: 10px;
 }

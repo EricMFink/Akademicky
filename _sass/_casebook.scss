@@ -1,21 +1,27 @@
-body.casebookbody { 
-	width: 55%;
-	margin-left: 12.5%;
-	margin-right: 0;
-	padding-left: 0;
-	padding-right: 0;
-	display: grid;
-	grid-template-columns: auto 0px; 
-    counter-reset: h1 sidenote-counter; 
+.casebook hr {
+	border-top: 2px solid $theme-color;
+	width:50%;
+	margin:0 auto;
 }
 
-.casebook-page-header {
-	margin-bottom: 1rem;
+.book-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $h1;
+    line-height: $line-height;
+    font-weight: $bold-weight;
+    font-style: normal;
+	margin-top: 0;
+	margin-bottom: 2rem;
+
+}
+
+.chapter-heading {
+	margin-bottom: 4rem;
 	padding: 10px 0 0 10px;
     border-left: 2px solid $theme-color;
     border-top: 2px solid $theme-color;
 }
-
 
 .chapter-pretitle {
     color: $theme-color;
@@ -78,34 +84,62 @@ body.casebookbody {
 .casebook h2 {
 	font-style: normal;
     color: $theme-color;
+	padding-top: 3rem;
 }
 
 .casebook h3 {
     color: $theme-color;
 	margin-top: 2rem;
+	border-bottom: 2px solid $theme-color;
 }
 
 .casebook h4 {
+	font-style: normal;
 }
 
 .casebook h5 {
 	font-style: normal;
 	font-weight: 700;
+	margin-top: 1.5rem;
 }
 
 .casebook h6 {
-	font-size: $body-size;
+	font-size: $h5;
 	font-style: italic;
+	font-weight: $normal-weight;
+	margin-top: 1.5rem;
 }
 
 .casebook p {
 	margin-bottom: 0;
   }
 
+
+/* For indented paragraphs in statutes, etc. */
+
+.casebook pre {
+	width: 100%;
+	padding-left: 1em; 
+	white-space: pre-wrap;
+	background: transparent;
+	border: none;
+}
+
+.casebook pre, pre code, p code, p pre code {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: $text-color;
+	background: transparent;
+}
+
+/* 
 .casebook p + p {
 	text-indent: 1em;
 	margin-top: 0.2em;
   }
+
+*/
 
 .illustration {
     padding-top: 2rem;
@@ -113,7 +147,6 @@ body.casebookbody {
     height: auto;
     width: 100%;
 }
-
 
 /* Table of Contents */
 
@@ -141,8 +174,6 @@ body.casebookbody {
 	padding: 0 0 0 0;
 }
 
-
-
 li.toc-li-H1 {
     margin: 0 0 0 0;
 }
@@ -152,7 +183,11 @@ li.toc-li-H2 {
 }
 
 li.toc-li-H3 {
-    margin: 0 0 0 2em;
+    margin: 0 0 0 2.5em;
+}
+
+:target {
+	scroll-margin-top: 80px;
 }
 
  /* "Back to Top" Button */
@@ -191,3 +226,72 @@ li.toc-li-H3 {
   }
 
 
+/* Casebook cover page */ 
+.cover-image {
+	background-color: #cccccc;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+
+.cover-block {
+	width: 100%;
+    text-align: left;
+	position: absolute;
+    top: 0;
+    left: 0;
+	margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 0;
+}
+
+.cover-title {
+	font-family: $heading-font;
+    font-size: $h1;
+	font-style: normal;
+	font-weight: $bold-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.cover-subtitle {
+	font-family: $heading-font;
+    font-size: $h2;
+	font-style: normal;
+	font-weight: $medium-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.cover-author {
+	font-family: $heading-font;
+    font-size: $h3;
+	font-style: normal;
+	font-weight: $normal-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.cover-institution {
+	font-family: $heading-font;
+    font-size: $h3;
+	font-style: normal;
+	font-weight: $normal-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}

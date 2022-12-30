@@ -110,17 +110,11 @@ input.margin-toggle {
 	display: none; 
 }
 
-
-
-
-
-
 span.newthought {
 	font-variant: small-caps;
 	font-size: 1.2em;
 	letter-spacing: 0.05rem; 
 }
-
 
 div.epigraph { margin: 3.5636rem 0; }
 
@@ -133,8 +127,6 @@ div.epigraph > blockquote > footer { font-style: normal; width: 45%; padding-lef
 div.epigraph > blockquote > footer > cite { font-style: italic; }
 
 /* Figures */
-
-
 figure {
     padding: 0;
     border: 0;
@@ -175,7 +167,6 @@ figure.fullwidth table {
   width: 90%;
 }
 
-
 /*
 figure.fullwidth figcaption {
     margin-right: 24%;
@@ -185,7 +176,6 @@ figure.fullwidth figcaption {
 figure > img {
     display: block;
 }
-
 
 @media screen and (max-width: 700px) { 
 	label.margin-toggle:not(.sidenote-number) { 
