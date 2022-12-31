@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-{% include head-casebook.html %}
+{% include head.html %}
 
-<body class="casebookbody">
-{% include header-casebook.html %}
-{% include print-header.html %}
+<body class="sidenotes">
+{% include casebook-header.html %}
 
 <div class="page-container">
 
-    <div class="casebook-page-header group">
+    <p class="book-title">{{ site.title }}</p>
+
+    <div class="chapter-heading group">
     	{% if page.chapter %}
         <p class="chapter-pretitle">{{ page.chapter }}</p>
         {% endif %}
@@ -22,14 +23,17 @@
 </div>
 
     <!-- Code for "Back to Top" Button -->
-    <div class="container-top">
+    <!-- <div class="container-top">
         <a href="#" class="top"></a>
-    </div>
+    </div>-->
 
 <!-- Load Anchor JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/{{ site.anchorjs_version }}/anchor.min.js"></script>
 
+<!-- Table of Contents JS -->
 <script src="{{ site.baseurl }}/assets/js/toc.js"></script>
+
+
 
 {% include hemline.html %}
 
