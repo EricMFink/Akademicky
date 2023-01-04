@@ -110,16 +110,30 @@
 	margin-top: 1.5rem;
 }
 
-.casebook p {
-	margin-bottom: 0;
-  }
+.casebook blockquote {
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	display: block;
+	border-left: none;
+	padding: 0 0 0 0rem;
+	margin: 1rem .5rem 1rem 1rem;
+}
 
+.casebook blockquote p {
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	font-style: normal;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	max-width: 40rem;
+	line-height: $line-height;
+}
 
 /* For indented paragraphs in statutes, etc. */
 
 .casebook pre {
-	width: 100%;
-	padding-left: 1em; 
+	padding: 0 0 0 0;
+	margin-left: 2em; 
 	white-space: pre-wrap;
 	background: transparent;
 	border: none;
