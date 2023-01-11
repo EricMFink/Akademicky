@@ -58,6 +58,7 @@
 		margin: 0.75in 0.5in 0.5in 0.5in;
 		orphans: 4;
 		widows: 2;
+		@rightnote { width: 40vw }
 	}
 
 	html {
@@ -79,6 +80,11 @@
 	blockquote p {
 		font-size: 85%;
 	}
+
+	aside {
+		-prince-float: sidenote;
+		background: beige;
+	  }
 
 	.site-title {
 		font-size: 20pt;
