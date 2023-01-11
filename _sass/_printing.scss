@@ -54,11 +54,11 @@
 	@page {
 		size: letter portrait;
 		background-color: transparent;
-		width: 85%;
+		width: 100%;
 		margin: 0.75in 0.5in 0.5in 0.5in;
 		orphans: 4;
 		widows: 2;
-		@rightnote { width: 40vw }
+		@rightnote { width: 30vw }
 	}
 
 	html {
