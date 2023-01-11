@@ -149,7 +149,6 @@
 
 	.sidenote { 
 		font-size: 70%;
-		-prince-float: sidenote align-bottom;
 		background-color: beige;
 	}
 	
@@ -188,6 +187,10 @@
 	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
 	  page-break-after: avoid;
 	}
+
+	@page body {
+        border-top: thin black solid;
+    }
   
 	@page :left {
 		@top-left {
@@ -251,6 +254,7 @@
 	  		content: normal;
 	  		margin: 0;
 		}
+        border-: none;
 	}
    
 }
