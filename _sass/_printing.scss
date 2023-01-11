@@ -200,11 +200,13 @@
 	.sidenote { 
 		font-size: 70%;
         -prince-float-reference: sidenote;
-        -prince-float-placement: align-bottom;
+        -prince-float-placement: align-top;
 	}
 	
 	.marginnote {
 		font-size: 65%;
+        -prince-float-reference: sidenote;
+        -prince-float-placement: align-top;
 	}
 
 	thead {
