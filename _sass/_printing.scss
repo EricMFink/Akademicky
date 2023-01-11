@@ -188,6 +188,15 @@
 		margin-top: 1rem;
 	}
 
+	.sidenote, .marginnote { 
+		float: right;
+		clear: right;
+		margin-right: -45%;
+		width: 30%;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+	}
+	
 	.sidenote { 
 		font-size: 70%;
         -prince-float-reference: sidenote;
