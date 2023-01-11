@@ -117,8 +117,8 @@
 	.sidenote, .marginnote { 
 		float: none;
 		clear: none;
-		margin-right: -45%;
-		width: 30%;
+		margin-right: 0;
+		width: inherit;
 		margin-top: 0;
 		margin-bottom: 0.5rem;
 	}
