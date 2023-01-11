@@ -54,6 +54,7 @@
   
 @media print {
 	@page {
+		width: 100%;
 		size: letter portrait;
 		background-color: transparent;
 		orphans: 4;
