@@ -114,6 +114,30 @@
         border: none;
     }
 
+	.sidenote, .marginnote { 
+		float: right;
+		clear: right;
+		margin-right: -45%;
+		width: 30%;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+	}
+
+	/*
+	.sidenote, .marginnote { 
+        -prince-float-reference: sidenote;
+        -prince-float-placement: align-top;
+	}
+	*/
+	.sidenote { 
+		font-size: 70%;
+        -prince-float: rightnote;
+	}
+	
+	.marginnote {
+		font-size: 65%;
+	}
+
 	html {
 		font-size: 10pt;
 	}
@@ -186,22 +210,6 @@
 		font-size: 10pt;
 		font-style: italic;
 		margin-top: 1rem;
-	}
-
-	/*
-	.sidenote, .marginnote { 
-        -prince-float-reference: sidenote;
-        -prince-float-placement: align-top;
-	}
-	*/
-	.sidenote { 
-		font-size: 70%;
-        -prince-float-reference: sidenote;
-        -prince-float-placement: align-top;
-	}
-	
-	.marginnote {
-		font-size: 65%;
 	}
 
 	thead {
