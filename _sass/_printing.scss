@@ -54,11 +54,10 @@
 	@page {
 		size: letter portrait;
 		background-color: transparent;
-		width: 100%;
+		width: 85%;
 		margin: 0.75in 0.5in 0.5in 0.5in;
 		orphans: 4;
 		widows: 2;
-		@rightnote { width: 30vw }
 	}
 
 	html {
@@ -83,7 +82,7 @@
 
 	aside {
 		-prince-float: sidenote;
-		background: beige;
+		background-color: beige;
 	  }
 
 	.site-title {
