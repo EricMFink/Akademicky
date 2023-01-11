@@ -196,6 +196,8 @@
 	*/
 	.sidenote { 
 		font-size: 70%;
+        -prince-float-reference: sidenote;
+        -prince-float-placement: align-top;
 	}
 	
 	.marginnote {
