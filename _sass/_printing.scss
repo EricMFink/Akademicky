@@ -73,6 +73,7 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal; }
+		border-top: thin black solid;
 	}
 
 	@page :right {
@@ -92,6 +93,7 @@
 			content: counter(page);
             vertical-align: bottom;
 		}
+        border-top: thin black solid;
 	}
 
 	@page body {
@@ -100,7 +102,6 @@
 
 
   	@page :first {
-		margin-top: 25%;
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
