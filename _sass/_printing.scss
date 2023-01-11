@@ -81,8 +81,7 @@
 	}
 
 	aside {
-		-prince-float: sidenote align-bottom;
-		background-color: beige;
+        -prince-float-placement: align-bottom;
 	  }
 
 	.site-title {
@@ -150,8 +149,7 @@
 
 	.sidenote { 
 		font-size: 70%;
-		background-color: beige;
-		-prince-float: align-bottom;
+        -prince-float-placement: align-bottom;
 	}
 	
 	.marginnote {
