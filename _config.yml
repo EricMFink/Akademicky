@@ -97,38 +97,11 @@ jekyll-spaceship:
   # default enabled processors
   processors:
     - table-processor
-    - plantuml-processor
     - mermaid-processor
     - polyfill-processor
     - media-processor
     - emoji-processor
     - element-processor
-  mathjax-processor:
-    src:
-      - https://polyfill.io/v3/polyfill.min.js?features=es6
-      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    config:
-      tex:
-        inlineMath:
-          - ['$$','$$']
-          - ['\(','\)']
-        displayMath:
-          - ['$$$','$$$']
-          - ['\[','\]']
-      svg:
-        fontCache: 'global'
-    optimize: # optimization on building stage to check and add mathjax scripts
-      enabled: true # value `false` for adding to all pages
-      include: []   # include patterns for math expressions checking (regexp)
-      exclude: []   # exclude patterns for math expressions checking (regexp)
-  plantuml-processor:
-    mode: default  # mode value 'pre-fetch' for fetching image at building stage
-    css:
-      class: plantuml
-    syntax:
-      code: 'plantuml!'
-      custom: ['@startuml', '@enduml']
-    src: http://www.plantuml.com/plantuml/svg/
   mermaid-processor:
     mode: default  # mode value 'pre-fetch' for fetching image at building stage
     css:
