@@ -78,13 +78,17 @@
 
 .casebook h1 {
     color: $theme-color;
+	margin-top: 5rem;
 }
-
 
 .casebook h2 {
 	font-style: normal;
     color: $theme-color;
-	padding-top: 3rem;
+	margin-top: 3rem;
+}
+
+.casebook h1+h2 {
+	margin-top: 1rem;
 }
 
 .casebook h3 {
