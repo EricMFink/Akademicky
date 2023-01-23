@@ -54,8 +54,8 @@
   
 @media print {
 	@page {
-		margin-top: 2mm;
-		margin-bottom: 2mm;
+		margin-top: 20mm;
+		margin-bottom: 20mm;
 		margin-left: 10mm;
 		margin-right: 10mm;
 		size: letter portrait;
@@ -103,7 +103,6 @@
 	}
 
 	@page body {
-		width: 100%;
         border-top: thin black solid;
     }
 
@@ -125,7 +124,7 @@
 	.sidenote, .marginnote { 
 		float: none;
 		clear: none;
-		margin: 0 0 0.5 0;
+		margin: 0 10mm 12pt 0;
 		width: inherit;
 	}
 
@@ -152,8 +151,8 @@
 	body {
 		width: 100%;
 		max-width: 100%;
-		margin-top: 2mm;
-		margin-bottom: 2mm;
+		margin-top: 20mm;
+		margin-bottom: 20mm;
 		margin-left: 10mm;
 		margin-right: 10mm;
 		padding: 0;
