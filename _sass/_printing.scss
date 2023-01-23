@@ -58,6 +58,7 @@
 		margin-bottom: 20mm;
 		margin-left: 10mm;
 		margin-right: 10mm;
+		padding: 0;
 		size: letter portrait;
 		background-color: transparent;
 		orphans: 4;
@@ -124,7 +125,7 @@
 	.sidenote, .marginnote { 
 		float: none;
 		clear: none;
-		margin: 0 10mm 12pt 0;
+		margin: 0 5mm 12pt 0;
 		width: inherit;
 	}
 
@@ -151,10 +152,10 @@
 	body {
 		width: 100%;
 		max-width: 100%;
-		margin-top: 20mm;
-		margin-bottom: 20mm;
-		margin-left: 10mm;
-		margin-right: 10mm;
+		margin-top: 5mm;
+		margin-bottom: 5mm;
+		margin-left: 5mm;
+		margin-right: 5mm;
 		padding: 0;
 		background-color: transparent;
 	}
