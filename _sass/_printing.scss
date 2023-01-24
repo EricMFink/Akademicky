@@ -68,7 +68,7 @@
         @leftnote { width: 0vw; }
 	}
 	 
-	@page :left {}
+	@page :left {
 		border-top: thin black solid;
 		@top-left { 
 			font-size: 10pt; 
@@ -81,6 +81,7 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
+	}
 
 	@page :right {
         border-top: thin black solid;
