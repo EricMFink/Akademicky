@@ -56,8 +56,8 @@
 	@page {
 		margin-top: 20mm;
 		margin-bottom: 20mm;
-		margin-left: 10mm;
-		margin-right: 10mm;
+		margin-left: 15mm;
+		margin-right: 15mm;
 		padding: 0;
 		size: letter portrait;
 		background-color: transparent;
@@ -68,7 +68,8 @@
         @leftnote { width: 0vw; }
 	}
 	 
-	@page :left {
+	@page :left {}
+		border-top: thin black solid;
 		@top-left { 
 			font-size: 10pt; 
 			content: counter(page); 
@@ -79,11 +80,10 @@
 			content: string(book_title); 
 			vertical-align: bottom; 
 		}
-	  	@top-right { content: normal; }
-		border-top: thin black solid;
-	}
+	  	@top-right { content: normal;}
 
 	@page :right {
+        border-top: thin black solid;
 		@top-left {
 			font-size: 10pt;
 			content: string(chapter_pretitle);
@@ -94,38 +94,31 @@
 			content: string(chapter_title);
             vertical-align: bottom;
 	  	}
-
 		@top-right {
 			font-size: 10pt;
 			content: counter(page);
             vertical-align: bottom;
 		}
-        border-top: thin black solid;
 	}
 
-	@page body {
-        border-top: thin black solid;
-    }
-
-
   	@page :first {
+        border: none;
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-        border: none;
 	}
 
 	@page :blank {
+        border: none;
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-        border: none;
     }
 
 	.sidenote, .marginnote { 
 		float: none;
 		clear: none;
-		margin: 0 5mm 12pt 0;
+		margin: 0 0 12pt 0;
 		width: inherit;
 	}
 
@@ -152,13 +145,29 @@
 	body {
 		width: 100%;
 		max-width: 100%;
-		margin-top: 5mm;
-		margin-bottom: 5mm;
-		margin-left: 5mm;
-		margin-right: 5mm;
+		margin-top: 0mm;
+		margin-bottom: 0mm;
+		margin-left: 0mm;
+		margin-right: 0mm;
 		padding: 0;
 		background-color: transparent;
 	}
+
+	body.sidenotes {
+		width: 65%;
+		max-width: 40em;
+		margin-top: 0mm;
+		margin-bottom: 0mm;
+		margin-left: 0mm;
+		margin-right: 0mm;
+		padding: 0;
+		background-color: transparent;
+	}
+
+	page-container {
+		padding: 0;
+	}
+
 
 	section {
 		padding: 0;
