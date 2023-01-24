@@ -182,6 +182,7 @@
 	}
 
 	.site-title {
+		hyphens: none;
 		font-size: 20pt;
 		line-height: $line-height;
 		margin-left: 10mm;
@@ -189,21 +190,27 @@
 	}
 
 	.book-title {
+		hyphens: none;
 		string-set: book_title content();
 		font-size: 14pt;
 
 	}
 
 	.chapter-pretitle {
+		hyphens: none;
 		string-set: chapter_pretitle content();
 		font-size: 14pt;
 	}
 
 	.chapter-title {
+		hyphens: none;
 		string-set: chapter_title content();
 		font-size: 16pt;
 	}
 
+	h1, h2, h3, h4, h5 {
+		hyphens: none;
+	}
 
 	.casebook h1 {
 		font-size: 18pt;
