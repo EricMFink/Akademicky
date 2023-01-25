@@ -66,8 +66,8 @@
 		orphans: 4;
 		widows: 2;
 		font-size: 10pt;
-        @leftnote { width: 15vw; }
-        @rightnote { width: 15vw; }
+        @leftnote { width: 20vw; }
+        @rightnote { width: 20vw; }
 	}
 	 
 	@page :left {
@@ -83,7 +83,7 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
-		@leftnote { width: 15vw; }
+		@leftnote { width: 20vw; }
 		@rightnote { width: 0vw; }
 	}
 
@@ -105,7 +105,7 @@
             vertical-align: bottom;
 		}
 		@leftnote { width: 0vw; }
-		@rightnote { width: 15vw; }
+		@rightnote { width: 20vw; }
 	}
 
   	@page :first {
