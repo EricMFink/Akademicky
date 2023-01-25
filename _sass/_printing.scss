@@ -67,7 +67,6 @@
 		widows: 2;
 		font-size: 10pt;
         @outsidenote { width: 20vw; }
-        @insidenote { width: 0vw; }
 	}
 	 
 	@page :left {
@@ -123,16 +122,17 @@
 		clear: none;
 		margin: 0 0 12pt 0;
 		width: inherit;
-		-prince-float: outsidenote;
 	}
 
 	
 	.sidenote { 
 		font-size: 70%;
+		-prince-float: outsidenote;
 	}
 	
 	.marginnote {
 		font-size: 65%;
+		-prince-float: outsidenote;
 	}
 
 	html {
