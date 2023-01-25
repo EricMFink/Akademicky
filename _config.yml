@@ -60,7 +60,6 @@ markdown: Pandoc
 pandoc:
   extensions:
     - section-divs
-    - fancy_lists
     - from: 'markdown+tex_math_single_backslash'
     - filter: 'pandoc-sidenote'
 
