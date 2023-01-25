@@ -66,8 +66,8 @@
 		orphans: 4;
 		widows: 2;
 		font-size: 10pt;
-        @leftnote { width: 20vw; padding-right: 2em;}
-        @rightnote { width: 20vw; padding-left: 2em;}
+        @leftnote { width: 20vw; padding-right: 3em;}
+        @rightnote { width: 20vw; padding-left: 3em;}
 	}
 	 
 	@page :left {
@@ -157,7 +157,7 @@
 	}
 
 	body.sidenotes {
-		width: 90%;
+		width: 100%;
 		margin-top: 0mm;
 		margin-bottom: 0mm;
 		margin-left: 0mm;
