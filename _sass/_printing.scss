@@ -56,6 +56,8 @@
 	@page {
 		margin-top: 30mm;
 		margin-bottom: 30mm;
+		margin-left: 0;
+		margin-right: 0;
 		margin-inside: 15mm;
 		margin-outside: 30mm;
 		padding: 0;
@@ -64,8 +66,6 @@
 		orphans: 4;
 		widows: 2;
 		font-size: 10pt;
-        @rightnote { width: 20vw; }
-        @leftnote { width: 20vw; }
 	}
 	 
 	@page :left {
@@ -74,6 +74,8 @@
 			font-size: 10pt; 
 			content: counter(page); 
 			vertical-align: bottom; 
+			@rightnote { width: 20vw; }
+			@leftnote { width: 20vw; }
 		}
 	  	@top-center { 
 			font-size: 10pt; 
@@ -81,6 +83,8 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
+        @rightnote { width: 0vw; }
+        @leftnote { width: 20vw; }
 		.sidenote {-prince-float: lefttnote;}
 		.marginnote {-prince-float: lefttnote;}
 	}
@@ -102,6 +106,8 @@
 			content: counter(page);
             vertical-align: bottom;
 		}
+        @rightnote { width: 20vw; }
+        @leftnote { width: 0vw; }
 		.sidenote {-prince-float: righttnote;}
 		.marginnote {-prince-float: righttnote;}
 	}
