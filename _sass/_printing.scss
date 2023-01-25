@@ -127,6 +127,8 @@
 		clear: none;
 		margin: 0 0 12pt 0;
 		width: inherit;
+		hyphens: auto;
+		hyphenate-lines: 1;
 		-prince-float: outsidenote;
 	}
 
@@ -248,6 +250,25 @@
 		margin-top: 1rem;
 	}
 
+	.casebook pre {
+		padding: 0 0 0 0;
+		margin-left: 2em; 
+		white-space: pre-wrap;
+		background: transparent;
+		border: none;
+	}
+	
+	.casebook pre, pre code, p code, p pre code {
+		font-family: inherit;
+		font-size: inherit;
+		line-height: inherit;
+		margin: inherit;
+		padding: inherit;
+		color: $text-color;
+		background: transparent;
+		text-align: justify;
+	}
+	
 	thead {
 		display: table-header-group;
 	}
