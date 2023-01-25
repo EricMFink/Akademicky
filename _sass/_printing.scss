@@ -83,8 +83,10 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
-		@leftnote { width: 20vw; }
-		@rightnote { width: 0vw; }
+		@leftnote { width: 20vw; 
+			padding-right: 2em;}
+		@rightnote { width: 0vw; 
+			padding-leftt: 2em; }
 	}
 
 	@page :right {
