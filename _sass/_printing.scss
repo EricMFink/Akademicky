@@ -83,7 +83,7 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
-		@leftnote { width: 20vw; }
+		@leftnote { width: 15vw; }
 		@rightnote { width: 0vw; }
 	}
 
@@ -105,7 +105,7 @@
             vertical-align: bottom;
 		}
 		@leftnote { width: 0vw; }
-		@rightnote { width: 20vw; }
+		@rightnote { width: 15vw; }
 	}
 
   	@page :first {
