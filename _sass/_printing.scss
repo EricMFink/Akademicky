@@ -83,8 +83,8 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
-		.sidenote {-prince-float: lefttnote;
-		.marginnote {-prince-float: lefttnote;
+		.sidenote {-prince-float: lefttnote;}
+		.marginnote {-prince-float: lefttnote;}
 		}
 	}
 
@@ -105,8 +105,8 @@
 			content: counter(page);
             vertical-align: bottom;
 		}
-		.sidenote {-prince-float: righttnote;
-		.marginnote {-prince-float: righttnote;
+		.sidenote {-prince-float: righttnote;}
+		.marginnote {-prince-float: righttnote;}
 	}
 
   	@page :first {
@@ -114,8 +114,8 @@
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-		.sidenote {-prince-float: righttnote;
-		.marginnote {-prince-float: righttnote;
+		.sidenote {-prince-float: righttnote;}
+		.marginnote {-prince-float: righttnote;}
 	}
 
 	@page :blank {
