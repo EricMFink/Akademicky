@@ -256,13 +256,13 @@
 		white-space: pre-wrap;
 		background: transparent;
 		border: none;
+		text-align: justify;
 	}
 	
 	.casebook pre, pre code, p code, p pre code {
 		font-family: inherit;
 		font-size: inherit;
 		line-height: inherit;
-		margin: inherit;
 		padding: inherit;
 		color: $text-color;
 		background: transparent;
@@ -288,6 +288,11 @@
 
 	img {
 		max-width: 100% !important;
+	}
+
+	hr {
+		margin-top: 4em;
+		margin-bottom: 4em;
 	}
 	
 	p,
