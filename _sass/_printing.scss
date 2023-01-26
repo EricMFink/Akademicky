@@ -74,7 +74,7 @@
 		border-top: thin black solid;
 		@top-left { 
 			font-size: 10pt; 
-			content: counter(page); 
+			content: string(chapter_pretitle) "-" counter(page); 
 			vertical-align: bottom; 
 		}
 	  	@top-center { 
@@ -89,11 +89,7 @@
 
 	@page :right {
         border-top: thin black solid;
-		@top-left {
-			font-size: 10pt;
-			content: string(chapter_pretitle);
-            vertical-align: bottom;
-		}
+		@top-left { content: normal;}
 	  	@top-center {
 			font-size: 10pt;
 			content: string(chapter_title);
@@ -101,7 +97,7 @@
 	  	}
 		@top-right {
 			font-size: 10pt;
-			content: counter(page);
+			content: string(chapter_pretitle) "-" counter(page);
             vertical-align: bottom;
 		}
 		@leftnote { width: 0vw; }
@@ -211,6 +207,10 @@
 		string-set: chapter_pretitle content();
 		font-size: 14pt;
         text-align: left;
+	}
+
+	.chapter-pretitle::before {
+		content: "Chapter ";
 	}
 
 	.chapter-title {
