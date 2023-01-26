@@ -34,6 +34,10 @@
 	margin-bottom: 0;
 }
 
+.chapter-pretitle::before {
+	content: "Chapter ";
+}
+
 .chapter-title {
     color: $theme-color;
     font-family: $heading-font;

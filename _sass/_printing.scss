@@ -203,14 +203,7 @@
 	}
 
 	.chapter-pretitle {
-		hyphens: none;
 		string-set: chapter_pretitle content();
-		font-size: 14pt;
-        text-align: left;
-	}
-
-	.chapter-pretitle::before {
-		content: "Chapter ";
 	}
 
 	.chapter-title {
