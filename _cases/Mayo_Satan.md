@@ -1,5 +1,5 @@
 ---
-layout: case
+layout: sidenotes
 
 course: Civil Procedure 
 title: 'U.S. ex rel. Mayo v. Satan and His Staff'

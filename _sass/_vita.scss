@@ -17,9 +17,6 @@
 
 .vita li {
     font-family: $serif-font;
-	margin-top: .2rem;
-	margin-bottom: 0;
-	padding: 0;
 }
 
 .vita ul, ol {
@@ -50,9 +47,8 @@
 
 .vita-contact p {
     font-size: $smaller-size;
-    line-height: $line-height;
 	text-align: right;
-	margin-bottom: .4rem;
+	margin-bottom: .2rem;
 }
 
 .vita-author {
@@ -80,7 +76,6 @@
     font-family: $serif-font;
     font-size: $h3;
 	font-weight: $normal-weight;
-    margin-top: 0;
     margin-bottom: 0.5rem;
 }
 
@@ -92,16 +87,14 @@
 
 .vita h4 {
     font-family: $serif-font;
-    font-size: $h5;
 	font-weight: $normal-weight;
     font-style: italic;
-	margin-bottom: 0;
-	margin-top: 1rem;
+	margin-top: .2rem;
 }
 
 .vita h5 {
     font-family: $serif-font;
-    font-size: $h5;
+    font-size: $h4;
 	font-weight: $normal-weight;
     font-style: italic;
     line-height: 1.5;
@@ -208,15 +201,18 @@ and (max-device-width:576px){
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
-	margin: 0 10% 0 10%;
 }
 
 .alignleft {
+    font-family: $mono-font;
+    font-size: $smaller-size;
 	width:50%;
 	text-align:left;
 }
 
 .alignright {
+    font-family: $mono-font;
+    font-size: $smaller-size;
 	width:50%;
 	text-align:right;
 }
