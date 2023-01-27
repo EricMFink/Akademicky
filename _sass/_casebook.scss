@@ -115,7 +115,7 @@
 }
 
 .casebook blockquote {
-	font-size: $small-size;
+	font-size: $blockquote-size;
 	font-weight: $normal-weight;
 	display: block;
 	border-left: none;
@@ -124,7 +124,7 @@
 }
 
 .casebook blockquote p {
-	font-size: $small-size;
+	font-size: $blockquote-size;
 	font-weight: $normal-weight;
 	font-style: normal;
 	margin-top: 1rem;
