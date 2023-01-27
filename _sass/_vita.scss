@@ -24,7 +24,7 @@
 
 .vita ul, ol {
     font-family: $serif-font;
-	font-size: $medium-size;
+	font-size: $body-size;
 }
 
 .vita-header {
@@ -49,7 +49,7 @@
 }
 
 .vita-contact p {
-    font-size: $small-size;
+    font-size: $smaller-size;
     line-height: $line-height;
 	text-align: right;
 	margin-bottom: .4rem;
@@ -110,7 +110,7 @@
 
 .vita h6 {
     font-family: $serif-font;
-    font-size: $small-size;
+    font-size: $smaller-size;
 	font-weight: $normal-weight;
     line-height: $short-line-height;
     margin: 0 0 .5rem 0;

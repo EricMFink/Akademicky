@@ -1,53 +1,3 @@
-.print-header {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-}
-
-.print-header p {
-	font-family: $sans-font;
-	font-size: 9pt;
-	font-weight: $normal-weight;
-}
-
-.print-footer {
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	width: 100%;
-}
-
-.print-footer p {
-	font-family: $sans-font;
-	font-size: 9pt;
-	font-weight: $normal-weight;
-}
-
-.print-headfoot-block {
-	display: flex;
-	flex-flow: row wrap;
-	width: 75%;
-	margin: 0 0 0 12.5%;
-	border-bottom: 1px solid $off-black	;
-}
-
-.print-header p {
-	font-family: $sans-font;
-	font-size: 9pt;
-	font-weight: $normal-weight;
-}
-  
-.alignleft {
-	width: 50%;
-	text-align: left;
-}
-  
-.alignright {
-	width: 50%;
-	text-align: right;
-} 
-
 // Set page layout and hide screen elements for printing
 
 // For printing with Prince XML
@@ -118,25 +68,6 @@
 		@top-right { content: normal; }
     }
 
-	.sidenote, .marginnote {
-		float: none;
-		clear: none;
-		margin: 0 0 12pt 0;
-		width: inherit;
-		hyphens: auto;
-		hyphenate-lines: 1;
-		-prince-float: outsidenote;
-	}
-
-	
-	.sidenote { 
-		font-size: 70%;
-	}
-	
-	.marginnote {
-		font-size: 65%;
-	}
-
 	html {
 		font-size: 10pt;
 	}
@@ -171,7 +102,6 @@
 		padding: 0;
 	}
 
-
 	section {
 		padding: 0;
 	}
@@ -180,10 +110,6 @@
 		font-size: 10pt;
         text-align-all: justify;
         text-align-last: left;
-	}
-  
-	blockquote p {
-		font-size: 90%;
 	}
 
 	.site-title {
@@ -250,23 +176,24 @@
 		text-align: justify;
 	}
 
-	.casebook pre {
-		padding: 0 0 0 0;
-		margin-left: 2em; 
-		white-space: pre-wrap;
-		background: transparent;
-		border: none;
-		text-align: justify;
+	.sidenote, .marginnote {
+		float: none;
+		clear: none;
+		margin: 0 0 12pt 0;
+		width: inherit;
+		hyphens: auto;
+		hyphenate-lines: 1;
+		-prince-float: outsidenote;
 	}
 	
-	.casebook pre, pre code, p code, p pre code {
-		font-family: inherit;
-		font-size: inherit;
-		line-height: inherit;
-		padding: inherit;
-		color: $text-color;
-		background: transparent;
-		text-align: justify;
+	.sidenote { 
+		font-size: $smaller-size;
+		font-weight: $normal-weight;
+	}
+	
+	.marginnote {
+		font-size: $smaller-size;
+		font-weight: $normal-weight;
 	}
 	
 	thead {

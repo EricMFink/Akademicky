@@ -8,12 +8,12 @@ $container-width: 1000px;
 	cursor:pointer;
 	&.smaller{
 		padding:7px 10px;
-		font-size: $smaller-size;
+		font-size: $smallest-size;
 		font-weight: $medium-weight;
 	}
 	&.small{
 		padding:7px 20px;
-		font-size: $small-size;
+		font-size: $smaller-size;
 		font-weight: $medium-weight;
 	}
 	&.large{

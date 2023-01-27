@@ -93,7 +93,7 @@ blockquote .sidenote, blockquote .marginnote {
 
 label.sidenote-number { 
 	display: inline; 
-	font-size: $smallest-size; 
+	font-size: $tiny-size; 
 }
 
 label.margin-toggle:not(.sidenote-number) { 
@@ -142,7 +142,7 @@ figure {
 /*
 figcaption {
 	font-family: $sans-font;
-    font-size: $small-size;
+    font-size: $smaller-size;
     float: right;
     clear: right;
     margin-top: 0;
@@ -155,7 +155,7 @@ figcaption {
 
 figcaption {
 	font-family: $sans-font;
-    font-size: $medium-size;
+    font-size: $body-size;
     margin: 0;
     text-align: center;
     line-height: 1.6;
