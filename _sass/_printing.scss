@@ -15,7 +15,7 @@
 		background-color: transparent;
 		orphans: 4;
 		widows: 2;
-		font-size: 10pt;
+		font-size: 9pt;
         @leftnote { width: 20vw; padding-right: 3em;}
         @rightnote { width: 20vw; padding-left: 3em;}
 	}
@@ -23,12 +23,12 @@
 	@page :left {
 		border-top: thin black solid;
 		@top-left { 
-			font-size: 10pt; 
+			font-size: 9pt; 
 			content: string(chapter_pretitle) "-" counter(page); 
 			vertical-align: bottom; 
 		}
 	  	@top-center { 
-			font-size: 10pt; 
+			font-size: 9pt; 
 			content: string(book_title); 
 			vertical-align: bottom; 
 		}
@@ -41,12 +41,12 @@
         border-top: thin black solid;
 		@top-left { content: normal;}
 	  	@top-center {
-			font-size: 10pt;
+			font-size: 9pt;
 			content: string(chapter_title);
             vertical-align: bottom;
 	  	}
 		@top-right {
-			font-size: 10pt;
+			font-size: 9pt;
 			content: string(chapter_pretitle) "-" counter(page);
             vertical-align: bottom;
 		}
@@ -69,7 +69,7 @@
     }
 
 	html {
-		font-size: 10pt;
+		font-size: 9pt;
 	}
 
 	body {
@@ -107,7 +107,7 @@
 	}
 
 	p {
-		font-size: 10pt;
+		font-size: 9pt;
         text-align-all: justify;
         text-align-last: left;
 	}
@@ -124,18 +124,19 @@
 	.book-title {
 		hyphens: none;
 		string-set: book_title content();
-		font-size: 14pt;
+		font-size: 17pt;
         text-align: left;
 	}
 
 	.chapter-pretitle {
 		string-set: chapter_pretitle content();
+		font-size: 13pt;
 	}
 
 	.chapter-title {
 		hyphens: none;
 		string-set: chapter_title content();
-		font-size: 16pt;
+		font-size: 17pt;
         text-align: left;
 	}
 
@@ -145,19 +146,19 @@
 	}
 
 	h1 {
-		font-size: 18pt;
+		font-size: 17pt;
 	}
 
 	h2 {
-		font-size: 16pt;
+		font-size: 15pt;
 	}
 
 	h3 {
-		font-size: 14pt;
+		font-size: 13pt;
 	}
 
 	h4 {
-		font-size: 12pt;
+		font-size: 11pt;
 	}
 	
 	h5 {
@@ -165,6 +166,8 @@
 	}
 
 	h6 {
+		margin-top: 1.5rem;
+		margin-left: 8mm;
 		font-size: 10pt;
 	}
 
@@ -187,12 +190,12 @@
 	}
 	
 	.sidenote { 
-		font-size: $smaller-size;
+		font-size: 7pt;
 		font-weight: $normal-weight;
 	}
 	
 	.marginnote {
-		font-size: $smaller-size;
+		font-size: 7pt;
 		font-weight: $normal-weight;
 	}
 	
@@ -231,6 +234,11 @@
 
 	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
 	  page-break-after: avoid;
+	}
+
+	.leftalign {
+		hyphens: none;
+        text-align: left;
 	}
    
 }

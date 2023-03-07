@@ -44,7 +44,7 @@
 }
 
 /* Auto-Numbered Headings */
-/*
+
 .casebook h1::before {
 	content: counter(h1) ".";
 	float: left;
@@ -71,7 +71,7 @@
 	counter-increment: h2;
     counter-reset: h3;
 }
-*/
+
 
 .casebook h1 {
     color: $theme-color;
@@ -107,6 +107,10 @@
 	margin-bottom: 1rem;
 	max-width: 40rem;
 	line-height: $line-height;
+}
+
+.sidenote { 
+	font-size: $tiny-size;
 }
 
 .illustration {
