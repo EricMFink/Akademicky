@@ -23,28 +23,35 @@
 
 .syllabus h3 {
 	font-family: $heading-font;
+    font-size: $larger-size;
+	color: $theme-color;
+    font-weight: $medium-weight;
     font-style: normal;
-	margin-top: 0rem;
-    margin-bottom: 0rem;
+	margin-top: 2rem;
+    margin-bottom: .5rem;
 }
 
 .syllabus h4 {
-	font-family: $heading-font;
+	font-family: $body-font;
+    font-size: $large-size;
+    font-weight:$normal-weight;
     font-style: italic;
-	margin-top: 0rem;
-    margin-bottom: 0rem;
+	margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .syllabus h5 {
-	font-family: $heading-font;
-    font-style: italic;
-	margin-top: 0rem;
-    margin-bottom: 0rem;
+	font-family: $body-font;
+    font-size: $body-size;
+    font-style: normal;
+    font-weight: $medium-weight;
+	margin-top: 1rem;
+    margin-bottom: .5rem;
 }
 
 .syllabus h6 {
 	font-family: $sans-font;
-    font-weight: $light-weight;
+    font-weight: $normal-weight;
     font-style: normal;
     margin-top: .2em;
     margin-bottom: 0rem;
