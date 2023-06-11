@@ -127,11 +127,11 @@
 }
 
 
-/* Statutes & Rules */
+/* Legal Code */
 
 /* indented subsections */
 
-.statute blockquote {
+.legal-code blockquote {
     font-size: $body-size;
 	font-weight: $normal-weight;
 	font-style: normal;
@@ -143,7 +143,7 @@
 	padding: 0;
 }
 
-.statute blockquote p {
+.legal-code blockquote p {
     font-size: $body-size;
 	line-height: $line-height;
 	font-style: normal;
@@ -155,7 +155,7 @@
 
 /* comments & illustrations */
 
-.statute h6 {
+.legal-code h6 {
 	font-family: $sans-font;
 	font-size: $smallest-size;
 	font-weight: $normal-weight;
