@@ -1,11 +1,9 @@
 ---
-layout: sidenotes
+layout: case
 
 course: Civil Procedure 
 title: 'U.S. ex rel. Mayo v. Satan and His Staff'
-cite: '54 F.R.D. 282'
-jurisdiction: 'W.D. Pa.'
-published: '1971'
+cite: '54 F.R.D. 282 (W.D. Pa. 1971)'
 judge: "Weber, District Judge"
     
 ---

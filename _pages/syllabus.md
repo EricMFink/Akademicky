@@ -3,6 +3,7 @@
 date: Fall 2023
 layout: syllabus
 title: Syllabus
+permalink: /syllabus/
 
 ---
 
@@ -42,10 +43,9 @@ The Law School [honor code](https://www.elon.edu/e/law/student-experience/honor-
 --|---|--
  &nbsp; | &nbsp; | &nbsp;
  &nbsp; | **Introduction** | &nbsp; 
- August 28 | Disputes & Lawsuits | Felstiner, Abel, & Sarat, [The Emergence and Transformation of Disputes](https://www.emfink.net/akademicky/readings/Mayo_Satan), 15 L. & Soc'y Rev. 630 (1981)
+ August 28 | Disputes & Lawsuits | Felstiner, Abel, & Sarat, [The Emergence and Transformation of Disputes](../readings/Felstiner_Abel_Sarat/), 15 L. & Soc'y Rev. 630 (1981)
  &nbsp; | **Difficult Clients** | &nbsp; 
- August 30 | The Devil's Advocate | [Mayo v. Satan](https://www.emfink.net/akademicky/cases/Mayo_Satan), 54 F.R.D. 282 (W.D. Pa. 1971)
-
+ August 30 | The Devil's Advocate | [Mayo v. Satan](../cases/Mayo_Satan), 54 F.R.D. 282 (W.D. Pa. 1971)
  &nbsp; |  &nbsp; |  &nbsp;
  November ? | **Final Review** | &nbsp;
  November ? | **Final Exam** | &nbsp;

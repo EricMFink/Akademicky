@@ -1,16 +1,13 @@
 # Default pages for teaching site
 
-- title: Information
-  url: /information/
-
-- title: Schedule
-  url: /schedule/
+- title: Syllabus
+  url: /syllabus/
 
 - title: Links
   url: /links/
 
-- title: Study Aids
-  url: /study-aids/
+- title: Vita
+  url: /vita/
 
 # Additional pages
 
