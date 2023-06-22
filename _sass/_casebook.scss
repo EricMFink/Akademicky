@@ -140,6 +140,17 @@
 }
 
 
+.casebook figcaption {
+	font-family: $sans-font;
+    font-size: $smaller-size;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+    vertical-align: baseline;
+    position: relative;
+}
+
+
 /* Legal Code */
 
 /* indented subsections */
