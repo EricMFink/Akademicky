@@ -92,12 +92,25 @@
 	border-bottom: 2px solid $theme-color;
 }
 
+.casebook h4 {
+	font-style: normal;
+}
+
+.casebook h5 {
+	font-style: normal;
+}
+
+.casebook h6 {
+	font-size: $h5;
+	font-style: italic;
+}
+
 .casebook blockquote {
 	font-weight: $normal-weight;
 	display: block;
 	border-left: none;
 	padding: 0 0 0 0rem;
-	margin: 1rem .5rem 1rem 1rem;
+	margin: 1rem 1rem 1rem 1.5rem;
 }
 
 .casebook blockquote p {
@@ -106,7 +119,6 @@
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	max-width: 40rem;
-	line-height: $line-height;
 }
 
 
@@ -135,7 +147,7 @@
 
 .legal-code p {
     font-size: $small-size;
-	line-height: $line-height;
+	margin-bottom: 0;
 }
 
 .legal-code blockquote {
@@ -144,7 +156,7 @@
 	font-style: normal;
 	line-height: $line-height;
 	border: none;
-	margin: 1rem 0 1rem 2rem;
+	margin: 0rem 0 0rem 1.5rem;
 	padding: 0;
 }
 

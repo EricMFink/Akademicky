@@ -3,7 +3,7 @@ baseurl: /akademicky
 title: Akademický
 description:  # leave blank if you don't want to display a description
 
-last_updated: 21 June 2023 # leave blank if you don't want to display last updated
+last_updated: 22 June 2023 # leave blank if you don't want to display last updated
 
 author:
   name: Eric M. Fink
@@ -18,6 +18,7 @@ author:
 ta:
   name: TA Name
   email: ta123@elon.edu
+
 course:
   subject: Trials & Tribulations
   term: Fall 2023
@@ -70,7 +71,7 @@ pandoc:
     - filter: 'pandoc-sidenote'
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink: /articles/:title
+permalink: /:categories/:year/:month/:day/:title/
 timezone: America/New_York
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 include: ['_pages']
