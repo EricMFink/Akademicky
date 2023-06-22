@@ -158,18 +158,21 @@
 .legal-code {
 	font-family: $sans-font;
 	font-size: $small-size;
-	background: $light-grey;
-	padding: 1rem;
+	background: $lighter-grey;
+	padding: 1px 1rem 1rem 1rem;
+	margin: 1rem 0rem;
 }
 
 .legal-code h4 {
 	font-size: $h5;
 	font-family: $sans-font;
+	margin-top: 1rem;
 }
 
 .legal-code h5 {
 	font-size: $h6;
 	font-family: $sans-font;
+	margin-top: 1rem;
 }
 
 .legal-code h6 {
