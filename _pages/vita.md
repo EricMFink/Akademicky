@@ -1,26 +1,8 @@
 ---
 layout: vita
-
-updated: '19 August 2021'
-
+updated: '21 June 2023'
 title: Vita
-permalink: /vita/
-pdf: "assets/pdf/vita.pdf"
 
-author: Eric M. Fink
-affiliation: Elon University School of Law
-email: efink@elon.edu
-phone: 336-279-9334
-address1: 201 North Greene Street
-address2: Greensboro, North Carolina 27401
-web: emfink.net/ElonLaw
-
-output: 
-  pdf_document:
-    latex_engine: xelatex
-    template: vita.tex
-    path: /assets/pdf/vita.pdf
-  
 ---
 
 # Elon University School of Law
@@ -30,52 +12,51 @@ output:
 - Tenure awarded 2012
 - Jennings Professor and Emerging Scholar, 2010-2012
 
-##### Teaching: 2021-22
+##### Teaching (2022-23)
 
-- [Civil Procedure](https://www.emfink.net/CivilProcedure/) (Fall 2021)
-- [Professional Responsibility](https://www.emfink.net/ProfessionalResponsibility/) (Fall 2021)
-- [Employment Law](https://www.emfink.net/EmploymentLaw/) (Winter 2022)
-- [Residency-in-Practice](https://www.emfink.net/Residency/) (Spring 2021)
+- [Civil Procedure](https://www.emfink.net/CivilProcedure/) 
+- [Professional Responsibility](https://www.emfink.net/ProfessionalResponsibility/) 
+- [Employment Law](https://www.emfink.net/EmploymentLaw/) 
+- [Residency-in-Practice](https://www.emfink.net/Residency/) 
 
 ##### Other Courses Taught
 
 - Administrative Law
 - Business Associations
-- [Cause Lawyering](https://www.emfink.net/CauseLawyering/)
-- [Consumer Protection](https://www.emfink.net/ConsumerProtection/)
-- [Labor Law](https://www.emfink.net/LaborLaw/)
+- Cause Lawyering
+- Consumer Protection
+- Labor Law
 - Socio-Legal Perspectives
 
 ##### Service
 
-- Admissions Committee
 - Elon Law Review, Faculty Co-Advisor
 
 # Publications
 
 ##### Journal Articles
 
-["Just When I Thought I was Out …": Post-Employment Repayment Obligations](https://www.emfink.net/assets/publications/Post-Employment_Repayment_Obligations.pdf), with Stuart Lichten, 25 _Washington & Lee Journal of Civil Rights & Social Justice_ 51 (2018)
+["Just When I Thought I was Out …": Post-Employment Repayment Obligations](https://www.emfink.net/assets/pdf/Fink2018.pdf), with Stuart Lichten, 25 _Washington & Lee Journal of Civil Rights & Social Justice_ 51 (2018)
 
-[Union Organizing & Collective Bargaining for Incarcerated Workers](https://www.emfink.net/assets/publications/Unions_for_Incarcerated_Workers.pdf), 52 _Idaho Law Review_ 953 (2016)
+[Union Organizing & Collective Bargaining for Incarcerated Workers](https://www.emfink.net/assets/pdf/Fink2016.pdf), 52 _Idaho Law Review_ 953 (2016)
 
-[Sewer Syndicalism: Worker Control in Public Services](https://www.emfink.net/assets/publications/Sewer_Syndicalism.pdf), 14 _Nevada Law Journal_ 444 (2014)
+[Sewer Syndicalism: Worker Control in Public Services](https://www.emfink.net/assets/pdf/Fink2014.pdf), 14 _Nevada Law Journal_ 444 (2014)
 
-[No Money, Mo’ Problems: Why Unpaid Law Firm Internships Are Illegal and Unethical](https://www.emfink.net/assets/publications/Unpaid_Law_Firm_Internships.pdf), 47 _University of San Francisco Law Review_ 435 (2013)
+[No Money, Mo’ Problems: Why Unpaid Law Firm Internships Are Illegal and Unethical](https://www.emfink.net/assets/pdf/Fink2013.pdf), 47 _University of San Francisco Law Review_ 435 (2013)
 
-[The Virtual Construction of Legality: "Griefing" and Normative Order in Second Life](https://www.emfink.net/assets/publications/Law_in_Second_Life.pdf), 21 _Journal of Law, Information, and Science_ 89 (2011)
+[The Virtual Construction of Legality: "Griefing" and Normative Order in Second Life](https://www.emfink.net/assets/pdf/Fink2011.pdf), 21 _Journal of Law, Information, and Science_ 89 (2011)
 
-[Law School and The Web of Group Affiliation: Socializing, Socialization, and Social Network Site Use Among Law Students](https://www.emfink.net/assets/publications/Law_Students_&_Facebook.pdf), 27 _John Marshall Journal of Computer and Information Law_ 325 (2010)
+[Law School and The Web of Group Affiliation: Socializing, Socialization, and Social Network Site Use Among Law Students](https://www.emfink.net/assets/pdf/Fink2010.pdf), 27 _John Marshall Journal of Computer and Information Law_ 325 (2010)
 
-[Liars and Terrorists and Judges, Oh My: Moral Panic and the Symbolic Politics of Appellate Review in Asylum Cases](https://www.emfink.net/assets/publications/Adverse_Credibility_in_Immigration_Court.pdf), 83 _Notre Dame Law Review_ 2019 (2008); reprinted in 29 _Immigration and Nationality Law Review_ 45 (2008); cited in Djadjou v. Holder, 662 F.3d 265 (4th Cir. 2011) and Zuh v. Mukasey, 547 F.3d 504, 513 (4th Cir. 2008)
+[Liars and Terrorists and Judges, Oh My: Moral Panic and the Symbolic Politics of Appellate Review in Asylum Cases](https://www.emfink.net/assets/pdf/Fink2008.pdf), 83 _Notre Dame Law Review_ 2019 (2008); reprinted in 29 _Immigration and Nationality Law Review_ 45 (2008); cited in Djadjou v. Holder, 662 F.3d 265 (4th Cir. 2011) and Zuh v. Mukasey, 547 F.3d 504, 513 (4th Cir. 2008)
 
-[Post-Realism, or the Jurisprudential Logic of Late Capitalism: A Socio-Legal Analysis of the Rise and Diffusion of Law and Economics](https://www.emfink.net/assets/publications/Diffusion_of_Law_&_Econ.pdf), 55 _Hastings Law Journal_ 931 (2004)
+[Post-Realism, or the Jurisprudential Logic of Late Capitalism: A Socio-Legal Analysis of the Rise and Diffusion of Law and Economics](https://www.emfink.net/assets/pdf/Fink2004.pdf), 55 _Hastings Law Journal_ 931 (2004)
 
 Book Note, The Caribbean: New Dynamics in Trade and Political Economy, 28 _NYU Journal of International Law and Politics_ 644 (1996)
 
 ##### Chapters, Reports, & Other Publications
 
-[Federal Student Loan Servicing: Contract Problems and Public Solutions](https://www.emfink.net/assets/publications/Student_Loan_Servicing.pdf), with Roland Zullo, Jobs With Justice Education Fund (2014)
+[Federal Student Loan Servicing: Contract Problems and Public Solutions](https://www.emfink.net/assets/pdf/Fink2014a.pdf), with Roland Zullo, Jobs With Justice Education Fund (2014)
 
 Union and Employee Access to Employer E-mail Systems Under Federal Labor Law, with Stuart W. Davidson, in _The CyberUnion Handbook: Transforming Labor Through Computer Technology_ (A. Shostak, ed., 2002)
 
@@ -120,7 +101,7 @@ Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
 - Worker Self-Management in Public Services (July 2011)
 
-### Southeastern Association of Law Schools 
+### Southeastern Association of Law Schools
 
 #### Annual Meeting
 
@@ -144,7 +125,7 @@ Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
 ### UNC-Greensboro
 
-#### Alpha Kappa Delta (Sociology Honors Society), 
+#### Alpha Kappa Delta (Sociology Honors Society),
 
 - Sociology in Legal Practice and Legal Scholarship (April 21, 2017)
 
@@ -152,7 +133,7 @@ Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
 - The Place of Place in Law: Law and Geography (April 24, 2008)
 
-### Elon Law School 
+### Elon Law School
 
 #### National Lawyers Guild
 
@@ -196,19 +177,19 @@ Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
 ### Stanford Law School, Palo Alto, CA
 
-#### Lecturer in Law, 2004-2006 
+#### Lecturer in Law, 2004-2006
 
 - Legal Research and Writing
 
 ### St. Joseph’s University/Comey Institute, Philadelphia, PA
 
-#### Instructor, 1997-2003 
+#### Instructor, 1997-2003
 
 - Labor Law; Negotiations; Arbitration; History and Sociology of the U.S. Labor Movement
 
 ### Anglo-American College, Prague, Czech Republic
 
-#### Lecturer, February- October 1992 
+#### Lecturer, February- October 1992
 
 - Introduction to Sociology; Economic Sociology; Sociology of Law
 
@@ -216,19 +197,19 @@ Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
 ### Leonard Carder, LLP, Oakland and San Francisco, CA
 
-#### Associate, 2006-2007 
+#### Associate, 2006-2007
 
 - Labor and employment law
 
 ### Eckert Seamans Cherin and Mellott, Philadelphia, PA
 
-#### Associate, 2002-2004 
+#### Associate, 2002-2004
 
 - Civil litigation
 
 ### Willig, Williams and Davidson, Philadelphia, PA
 
-#### Associate, 1997-2002 
+#### Associate, 1997-2002
 
 - Labor and employment law
 
@@ -236,7 +217,7 @@ Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
 ### New York University School of Law, New York, NY
 
-#### J.D., magna cum laude, 1997 
+#### J.D., magna cum laude, 1997
 
 - Arthur Garfield Hays Civil Liberties Fellow
 - Journal of International Law and Politics, Symposium Editor
@@ -244,13 +225,13 @@ Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
 ### University of Chicago, Chicago, IL
 
-#### Doctoral Student in Sociology (ABD), 1987-1992 
+#### Doctoral Student in Sociology (ABD), 1987-1992
 
 - Special Fields: Organizations (honors); Economic Sociology
 
 ### London School of Economics, London, England
 
-#### M.Sc., Sociology, 1985 
+#### M.Sc., Sociology, 1985
 
 - Thesis: Policing and Riots in the U.S. and U.K.
 
@@ -258,7 +239,7 @@ Contributing Editor, _The Developing Labor Law_ (P. Hardin, ed., 4th ed. 2001)
 
 #### B.A., Sociology, 1984  
 
-# Professional Associations 
+# Professional Associations
 
 Law and Society Association
 

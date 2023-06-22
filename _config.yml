@@ -2,22 +2,29 @@ url: https://www.emfink.net
 baseurl: /akademicky
 title: Akademický
 description:  # leave blank if you don't want to display a description
-name: 'Eric M. Fink'
-course:   # enter course name to display on home page
-bookurl: /EmploymentCasebook # enter casebook repo for header link
 
-last_updated: 11 June 2023 # leave blank if you don't want to display last updated
+last_updated: 21 June 2023 # leave blank if you don't want to display last updated
 
-author: 'Eric M. Fink'
-position: Associate Professor
-institution: Elon Law School
-street: 201 North Greene Street
-city: Greensboro
-state: North Carolina
-zip: '27401'
-email: efink@elon.edu
-phone: 336-279-9334
-web: emfink.net/ElonLaw
+author:
+  name:  Eric M. Fink
+  positition: Associate Professor
+  affiliation: Elon Law School 
+  address: "201 North Greene Street"
+  city-state-zip: "Greensboro, North Carolina 27408
+  email: efink@elon.edu
+  phone: 336-279-9334
+  web: emfink.net/ElonLaw
+
+ta: 
+  name: TA Name
+  email: ta123@elon.edu
+
+course: 
+  subject: Trials & Tribulations
+  term: Fall 2023
+  room: Room 207 
+  meets: "Monday & Wednesday 10:00–11:30 am"
+  repository: /akademicky 
 
 collections:
   casebook:

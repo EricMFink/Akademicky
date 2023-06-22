@@ -109,6 +109,7 @@
 	line-height: $line-height;
 }
 
+
 .sidenote { 
 	font-size: $tiny-size;
 }
@@ -131,20 +132,24 @@
 
 /* indented subsections */
 
+
+.legal-code p {
+    font-size: $small-size;
+	line-height: $line-height;
+}
+
 .legal-code blockquote {
-    font-size: $body-size;
+    font-size: $small-size;
 	font-weight: $normal-weight;
 	font-style: normal;
 	line-height: $line-height;
 	border: none;
-    margin-left: 1.5rem;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+	margin: 1rem 0 1rem 2rem;
 	padding: 0;
 }
 
 .legal-code blockquote p {
-    font-size: $body-size;
+    font-size: $small-size;
 	line-height: $line-height;
 	font-style: normal;
 	margin-top: 1rem;

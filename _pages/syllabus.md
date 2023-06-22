@@ -1,22 +1,8 @@
 ---
 
+date: Fall 2023
+layout: syllabus
 title: Syllabus
-
-course: "Trials and Tribulations"
-term: 'Winter 2022'
-days: 'Monday & Wednesday, & Friday 10:00–11:30 am'
-room: 'Room 105'
-
-author: Eric M. Fink
-affiliation: Elon Law School
-email: efink@elon.edu
-phone: '336-279-9334'
-
-output:
-  pdf_document:
-    latex_engine: xelatex
-    template: syllabus.tex
-    path: /assets/pdf/syllabus.pdf
 
 ---
 
@@ -42,8 +28,6 @@ Elon Law School has adopted the following attendance policy for all courses:
 >
 > In case of illness or emergency, students may contact the Office of Student and Professional Life, which will then notify the student’s instructors. A student may notify the faculty member directly of a planned absence and should refer to individual faculty members regarding any policy that may apply. In the case of prolonged illness or incapacity, the student should contact the Office of Student and Professional Life.
 
-Excessive absences (more than 2 classes) may result in a reduction of your grade.
-
 ### Disability Accommodations
 
 For disability accommodation requests, contact the Elon Law [Registrar's Office](https://www.elon.edu/e/law/academics/registrar-office/index.html).
@@ -54,27 +38,15 @@ The Law School [honor code](https://www.elon.edu/e/law/student-experience/honor-
 
 # Schedule & Assignments
 
-## Summary of Assignments
+ **Date** | **Topic**  | **Assignment**
+--|---|--
+ &nbsp; | &nbsp; | &nbsp;
+ &nbsp; | **Introduction** | &nbsp; 
+ August 28 | Disputes & Lawsuits | Felstiner, Abel, & Sarat, [The Emergence and Transformation of Disputes](https://www.emfink.net/akademicky/readings/Mayo_Satan), 15 L. & Soc'y Rev. 630 (1981)
+ &nbsp; | **Difficult Clients** | &nbsp; 
+ August 30 | The Devil's Advocate | [Mayo v. Satan](https://www.emfink.net/akademicky/cases/Mayo_Satan), 54 F.R.D. 282 (W.D. Pa. 1971)
 
-Week  | Date    |  Assignment
-:-----|:--------|:------------------------
- 1    | Jan. 3  | Chapter 1
- 2    | Jan. 10 | Chapter 2
- 3    | Jan. 17 | Chapter 3
- 4    | Jan. 24 | Chapter 4
- 5    | Jan. 31 | Chapter 5
- 6    | Feb. 7  | Chapter 6
- 7    | Feb. 14 | Chapter 7
- 8    | Feb. 21 | Chapter 8
- 9    | Feb. 28 | Chapter 9
- 10   | March 7 | Chapter 10
+ &nbsp; |  &nbsp; |  &nbsp;
+ November ? | **Final Review** | &nbsp;
+ November ? | **Final Exam** | &nbsp;
 
-
-## Famous Trials
-
-#### 3 January
-
-### A Devilish Action
-
-- [Mayo v. Satan](https://www.emfink.net/akademicky/cases/Mayo_Satan), 54 F.R.D. 282 (W.D. Pa. 1971)
-- Stephen Vincent Benet, [The Devil & Daniel Webster](https://www.emfink.net/akademicky/readings/Devil&DanielWebster) (1936)
