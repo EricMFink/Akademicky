@@ -155,6 +155,31 @@
 
 /* indented subsections */
 
+.legal-code {
+	font-family: $sans-font;
+	font-size: $small-size;
+	background: $light-grey;
+	padding: 1rem;
+}
+
+.legal-code h4 {
+	font-size: $h5;
+	font-family: $sans-font;
+}
+
+.legal-code h5 {
+	font-size: $h6;
+	font-family: $sans-font;
+}
+
+.legal-code h6 {
+	font-family: $sans-font;
+	font-size: $smaller-size;
+	font-weight: $normal-weight;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 1rem;
+}
 
 .legal-code p {
     font-size: $small-size;
@@ -183,14 +208,7 @@
 
 /* comments & illustrations */
 
-.legal-code h6 {
-	font-family: $sans-font;
-	font-size: $smallest-size;
-	font-weight: $normal-weight;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	margin-left: 1rem;
-}
+
 
 /* Table of Contents */
 
