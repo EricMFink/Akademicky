@@ -153,6 +153,25 @@
 
 /* indented subsections */
 
+.legal-code blockquote {
+	font-size: $body-size;
+	font-weight: $normal-weight;
+	font-style: normal;
+	line-height: $line-height;
+	border: none;
+	margin: 0rem 0 0rem 1.5rem;
+	padding: 0;
+}
+
+.legal-code blockquote p {
+	font-size: $body-size;
+	line-height: $line-height;
+	font-style: normal;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+    padding: 0;
+	max-width: 50rem;
+}
 
 .legal-code h6 {
 	font-family: $sans-font;
@@ -163,36 +182,11 @@
 	margin-left: 1rem;
 }
 
-.legal-code p {
-	margin-bottom: 0;
-}
-
-.legal-code blockquote {
-	font-weight: $normal-weight;
-	font-style: normal;
-	line-height: $line-height;
-	border: none;
-	margin: 0rem 0 0rem 1.5rem;
-	padding: 0;
-}
-
-.legal-code blockquote p {
-	line-height: $line-height;
-	font-style: normal;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-    padding: 0;
-	max-width: 50rem;
-}
-
 /* comments & illustrations */
 
 .comment {
 	font-family: $sans-font;
 	font-size: $small-size;
-	background: $lighter-grey;
-	padding: 1px 1rem 1rem 1rem;
-	margin: 1rem 0rem;
 }
 
 /* Table of Contents */
