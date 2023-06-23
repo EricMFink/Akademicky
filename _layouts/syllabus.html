@@ -25,14 +25,14 @@ layout: default
 
 	<br>
 	<h6>Professor: {{ site.author.name }}</h6>
-	<h6><a href="{{ site.author.email }}">{{ site.author.email }}</a></h6>
+	<h6><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></h6>
 	<h6>{{ site.author.phone }}</h6>
 	<h6>Office hours <a href=https://calendly.com/emfink />by appointment</a></h6>
 
 	{% if site.ta %}
 	<br>
 	<h6>Teaching Assistant: {{ site.ta.name }}</h6>
-	<h6><a href="{{ site.ta.email }}">{{ site.ta.email }}</a></h6>
+	<h6><a href="mailto:{{ site.ta.email }}">{{ site.ta.email }}</a></h6>
 	{% endif %}
 
 </div>
