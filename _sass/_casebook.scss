@@ -72,7 +72,6 @@
     counter-reset: h3;
 }
 
-
 .casebook h1 {
     color: $theme-color;
 }
@@ -121,7 +120,6 @@
 	max-width: 40rem;
 }
 
-
 .sidenote { 
 	font-size: $tiny-size;
 }
@@ -155,25 +153,6 @@
 
 /* indented subsections */
 
-.legal-code {
-	font-family: $sans-font;
-	font-size: $small-size;
-	background: $lighter-grey;
-	padding: 1px 1rem 1rem 1rem;
-	margin: 1rem 0rem;
-}
-
-.legal-code h4 {
-	font-size: $h5;
-	font-family: $sans-font;
-	margin-top: 1rem;
-}
-
-.legal-code h5 {
-	font-size: $h6;
-	font-family: $sans-font;
-	margin-top: 1rem;
-}
 
 .legal-code h6 {
 	font-family: $sans-font;
@@ -185,12 +164,10 @@
 }
 
 .legal-code p {
-    font-size: $small-size;
 	margin-bottom: 0;
 }
 
 .legal-code blockquote {
-    font-size: $small-size;
 	font-weight: $normal-weight;
 	font-style: normal;
 	line-height: $line-height;
@@ -200,7 +177,6 @@
 }
 
 .legal-code blockquote p {
-    font-size: $small-size;
 	line-height: $line-height;
 	font-style: normal;
 	margin-top: 1rem;
@@ -211,7 +187,13 @@
 
 /* comments & illustrations */
 
-
+.comment {
+	font-family: $sans-font;
+	font-size: $small-size;
+	background: $lighter-grey;
+	padding: 1px 1rem 1rem 1rem;
+	margin: 1rem 0rem;
+}
 
 /* Table of Contents */
 
