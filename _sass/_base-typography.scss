@@ -1,8 +1,8 @@
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
 	font-family: $body-font;
 	line-height: $short-line-height;
 }
-
 h1 {
 	font-size: $h1;
 	margin-top: 5rem;
@@ -10,7 +10,6 @@ h1 {
 	font-style: normal;
 	font-weight: $medium-weight;
 }
-
 h2 {
 	font-size: $h2;
 	margin-top: 3rem;
@@ -18,7 +17,6 @@ h2 {
 	font-style: italic;
 	font-weight: $medium-weight;
 }
-
 h3 {
 	font-size: $h3;
 	margin-top: 1.5rem;
@@ -26,7 +24,6 @@ h3 {
 	font-style: normal;
 	font-weight: $medium-weight;
 }
-
 h4 {
 	font-size: $h4;
 	margin-top: 1.5rem;
@@ -34,7 +31,6 @@ h4 {
 	font-style: normal;
 	font-weight: $medium-weight;
 }
-
 h5 {
 	font-size: $h5;
 	margin-top: 1.5rem;
@@ -42,7 +38,6 @@ h5 {
 	font-style: italic;
 	font-weight: $medium-weight;
 }
-
 h6 {
 	font-size: $h6;
 	margin-top: .5rem;
@@ -51,6 +46,7 @@ h6 {
 	font-weight: $medium-weight;
 }
 
+/* Body Text */
 p {
 	font-size: $body-size;
 	font-weight: $normal-weight;
@@ -60,7 +56,7 @@ p {
 	margin-bottom: 1rem;
 }
 
-
+/* Lists */
 ol, ul {
 	font-size: $body-size;
 	font-weight: $normal-weight;
@@ -71,13 +67,13 @@ ol, ul {
 	-webkit-padding-start: 5%;
 	-webkit-padding-end: 5%;
 }
-
 li {
 	line-height: $line-height;
 	margin-top: .2rem;
 	vertical-align: baseline;
 }
 
+/* Links */
 a {
     color: $theme-color;
     text-decoration: none;
@@ -85,11 +81,6 @@ a {
 		color:darken($theme-color, 20%);
     }
 }
-
-
-/* LINKS */
-
-
 article a, .news a {
     color: $theme-color;
     text-decoration: none;
@@ -97,7 +88,6 @@ article a, .news a {
 		color:darken($theme-color, 50%);
     }
 }
-
 .social a {
     color: $white;
     &:hover {
@@ -105,7 +95,11 @@ article a, .news a {
 	}
 }
 
+/* Smart Quotes */
+q { quotes: "“" "”" "‘" "’"; }
 
+
+/* Blockquotes */
 blockquote {
 	font-size: $small-size;
 	font-weight: $normal-weight;
@@ -115,14 +109,12 @@ blockquote {
 	margin: 2rem 0 2rem 1rem;
 	position: relative;
 }
-
 blockquote blockquote {
 	border: none;
 	margin-top: .5rem;
 	margin-bottom: .5rem;
 	margin-left: .5rem;
 }
-
 blockquote p {
 	font-size: $small-size;
 	font-weight: $normal-weight;
@@ -133,6 +125,7 @@ blockquote p {
 	line-height: $short-line-height;
 }
 
+/* Buttons */
 button {
     display: inline-block;
 	border: 0;
@@ -152,36 +145,43 @@ button {
 	}
 }
 
-.contrast {
-	color: $contrast-color;
-}
-
-.small {
-	font-size: $small-size;
-}
-
-.smaller {
-	font-size: $smaller-size;
-}
-
+/* Sections */
 .full-width article p {
 	width: 90%;
 }
-
 article {
 	position: relative;
 	padding: 0 0 0 0;
 }
-
 section {
 	padding: 0 0 0 0;
 }
 
+/* Text Styling */
+.small {
+	font-size: $small-size;
+}
+.smaller {
+	font-size: $smaller-size;
+}
+.contrast {
+	color: $contrast-color;
+}
 .sans-green {
 	font-family: $sans-font;
 	color: $dark-green;
 }
-
 .dullred {
 	color: $dull-red;
+}
+
+/* Math formatting */
+.katex {
+	font-size: inherit !important;
+}
+  
+/* Wrap long URLs in references */
+#refs a {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }

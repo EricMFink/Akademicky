@@ -1,0 +1,261 @@
+.page-container {
+    padding: 75px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+}
+
+.center-screen {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header {
+	margin-bottom: 1rem;
+}
+
+.page-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $title-size;
+    line-height: $line-height;
+    font-weight: $medium-weight;
+    font-style: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.page-subtitle {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $huge-size;
+    line-height: $line-height;
+    font-weight: $normal-weight;
+    font-style: normal;
+    line-height: 1;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.page-cite {
+    font-family: $serif-font;
+	color: $text-color;
+    font-size: $body-size;
+    line-height: $line-height;
+    font-weight: $normal-weight;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.book-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $h1;
+    line-height: $line-height;
+    font-weight: $bold-weight;
+    font-style: normal;
+	margin-top: 0;
+	margin-bottom: 2rem;
+
+}
+.chapter-heading {
+	margin-bottom: 4rem;
+	padding: 10px 0 0 10px;
+    border-left: 2px solid $theme-color;
+    border-top: 2px solid $theme-color;
+}
+.chapter-pretitle {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $h3;
+    line-height: $line-height;
+    font-weight: $normal-weight;
+    font-style: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.chapter-pretitle::before {
+	content: "Chapter ";
+}
+.chapter-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $h2;
+    line-height: $line-height;
+    font-weight: $normal-weight;
+    font-style: normal;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.illustration {
+    padding-top: 2rem;
+    padding-top: 2rem;
+    height: auto;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+/* Cover Page */ 
+.cover-image {
+	background-color: #cccccc;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+.cover-block {
+	width: 100%;
+    text-align: left;
+	position: absolute;
+    top: 0;
+    left: 0;
+	margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 0;
+}
+.cover-title {
+	font-family: $heading-font;
+    font-size: $h1;
+	font-style: normal;
+	font-weight: $bold-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+.cover-subtitle {
+	font-family: $heading-font;
+    font-size: $h2;
+	font-style: normal;
+	font-weight: $medium-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+.cover-author {
+	font-family: $heading-font;
+    font-size: $h3;
+	font-style: normal;
+	font-weight: $normal-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+.cover-institution {
+	font-family: $heading-font;
+    font-size: $h3;
+	font-style: normal;
+	font-weight: $normal-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+/* Table of Contents */
+#table-of-contents {
+    float: left;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: auto;
+}
+#toc-header {
+	font-family: $sans-font;
+    font-weight: $medium-weight;
+    font-size: $smallest-size;
+}
+#table-of-contents li, #table-of-contents ul, #table-of-contents ul li {
+	font-family: $sans-font;
+	font-size: $tiny-size;
+    list-style: outside none none !important;
+	width: auto;
+	padding: 0 0 0 0;
+}
+li.toc-li-H1 {
+    margin: 0 0 0 0;
+}
+li.toc-li-H2 {
+    margin: 0 0 0 1em;
+}
+li.toc-li-H3 {
+    margin: 0 0 0 2.5em;
+}
+:target {
+	scroll-margin-top: 80px;
+}
+
+
+/* 404 PAGE */
+
+.gevalt {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+
+.gevalt-header {
+	margin-bottom: .5rem;
+	margin-left: 12.5%
+}
+
+.gevalt p {
+    text-align: center;
+	max-width: 90%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.gevalt img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	height: 500px;
+}
+
+.gevalt h1 {
+	color: $theme-color;
+	font-weight: $medium-weight;
+}
+
+.gevalt h2 {
+	height: 100%;
+	color: $theme-color;
+	text-align: center;
+	vertical-align: middle;
+	font-family: serif-font;
+	font-size: $h5;
+	font-weight: $normal-weight;
+	font-style: italic;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 35%;
+	padding-right: 35%
+}
+
+@media screen and (max-width: 760px){
+.gevalt img {
+	height: 350px;
+	}
+.gevalt h2 {
+	padding-left: 15%;
+	padding-right: 15%
+	}
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+{% include casebook-head.html %}
+
+<body class="fullwidth">
+	<div class="cover-image" style="background-image: url('img/cover.png');">
+
+		<div class="page-container">
+		
+			<div class="cover">
+				<div class="cover-block">
+					<p class="cover-title">{{ site.course.subject }}</p>
+					<p class="cover-subtitle">An Open-Source Casebook</p>
+					<br>
+					<p class="cover-author">{{ site.author.name }}</p>
+					<p class="cover-institution">{{ site.author.affiliation }}</p>
+
+					{{ content }}
+
+				<div class="social">
+					<span class="contacticon">
+					<a title="Table of Contents"href="{{ site.baseurl }}/casebook/contents/"><i class="fa-solid fa-book-bookmark"></i></a>
+					</span>
+				</div>
+
+				</div>
+
+			{% include footer.html %}
+			{% include hemline.html %}
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

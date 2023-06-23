@@ -1,10 +1,8 @@
 ---
-
 date: Fall 2023
 layout: syllabus
 title: Syllabus
 permalink: /syllabus/
-
 ---
 
 # Description

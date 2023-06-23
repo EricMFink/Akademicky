@@ -1,8 +1,7 @@
 ---
 layout: home
+title: Home
 permalink: /
-title: home
-
 ---
 
 <h1 class="profile">{{ site.title }}</h1>

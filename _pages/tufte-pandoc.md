@@ -1,10 +1,10 @@
 ---
+date: 'November 3, 2016'
 layout: page
 title: Tufte Pandoc CSS
 subtitle: Starter files for Pandoc Markdown with Tufte CSS
-permalink: /tufte-pandoc/
 author: Jake Zimmerman
-date: 'November 3, 2016'
+permalink: /tufte-pandoc/
 ---
 
 <section>

@@ -1,7 +1,7 @@
 ---
 layout: centered
-permalink: /teaching/
 title: Teaching
+permalink: /teaching/
 ---
 
 <div class="gallery">

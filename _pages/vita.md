@@ -3,7 +3,6 @@ layout: vita
 updated: '21 June 2023'
 title: Vita
 permalink: /vita/
-
 ---
 
 # Elon University School of Law

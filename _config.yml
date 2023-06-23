@@ -3,7 +3,7 @@ baseurl: /akademicky
 title: Akademický
 description:  # leave blank if you don't want to display a description
 
-last_updated: 22 June 2023 # leave blank if you don't want to display last updated
+last_updated: 23 June 2023 # leave blank if you don't want to display last updated
 
 author:
   name: Eric M. Fink
@@ -25,6 +25,12 @@ course:
   room: Room 207
   meets: 'Monday & Wednesday 10:00–11:30 am'
   repository: /akademicky
+
+coursebook:
+  title: Trials & Tribulations
+  subtitle: An Open-Source Casebook
+  version: '1.0'
+  date: June 2023
 
 collections:
   casebook:

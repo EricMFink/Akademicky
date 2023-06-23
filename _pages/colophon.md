@@ -1,8 +1,7 @@
 ---
 layout: page
-permalink: /colophon/
 title: Colophon
-
+permalink: /colophon/
 ---
 
 [Akademický](https://github.com/EricMFink/akademicky) theme for [Jekyll](https://jekyllrb.com/), created by [Eric M. Fink](https://www.emfink.net).
