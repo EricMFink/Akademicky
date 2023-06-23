@@ -1,6 +1,5 @@
 ---
-layout: case
-
+layout: page
 course: Civil Procedure 
 title: 'U.S. ex rel. Mayo v. Satan and His Staff'
 cite: '54 F.R.D. 282 (W.D. Pa. 1971)'
