@@ -1,43 +1,54 @@
-// Set page layout and hide screen elements for printing
-
-// For printing with Prince XML
   
 @media print {
 	@page {
 		margin-top: 15mm;
-		margin-bottom: 15mm;
-		margin-left: 30mm;
-		margin-right: 30mm;
+		margin-bottom: 8mm;
+		margin-left: 0;
+		margin-right: 0;
+		margin-inside: 15mm;
+		margin-outside: 30mm;
 		padding: 0;
 		size: letter portrait;
 		background-color: transparent;
 		orphans: 4;
 		widows: 2;
-		font-size: 12pt;
+		font-size: 9pt;
+        @leftnote { width: 20vw; padding-right: 3em;}
+        @rightnote { width: 20vw; padding-left: 3em;}
 	}
 	 
 	@page :left {
 		border-top: thin black solid;
-		@top-left { content: normal;}
-	  	@top-center { content: normal;}
-	  	@top-right { content: normal;}
-	  	@bottom-center { 
-			font-size: 10pt; 
-			content: counter(page); 
+		@top-left { 
+			font-size: 9pt; 
+			content: string(chapter_pretitle) "-" counter(page); 
 			vertical-align: bottom; 
 		}
+	  	@top-center { 
+			font-size: 9pt; 
+			content: string(book_title); 
+			vertical-align: bottom; 
+		}
+	  	@top-right { content: normal;}
+		@leftnote { width: 20vw;}
+		@rightnote { width: 0vw;}
 	}
 
 	@page :right {
-		border-top: thin black solid;
+        border-top: thin black solid;
 		@top-left { content: normal;}
-	  	@top-center { content: normal;}
-	  	@top-right { content: normal;}
-	  	@bottom-center { 
-			font-size: 10pt; 
-			content: counter(page); 
-			vertical-align: bottom; 
+	  	@top-center {
+			font-size: 9pt;
+			content: string(chapter_title);
+            vertical-align: bottom;
+	  	}
+		@top-right {
+			font-size: 9pt;
+			content: string(chapter_pretitle) "-" counter(page);
+            vertical-align: bottom;
 		}
+		@leftnote { width: 0vw; }
+		@rightnote { width: 20vw; }
 	}
 
   	@page :first {
@@ -45,7 +56,6 @@
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-		@bottom-center { content: normal; }
 	}
 
 	@page :blank {
@@ -53,11 +63,10 @@
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-		@bottom-center { content: normal; }
     }
 
 	html {
-		font-size: 12pt;
+		font-size: 9pt;
 	}
 
 	body {
@@ -67,6 +76,8 @@
 		margin-bottom: 0mm;
 		margin-left: 0mm;
 		margin-right: 0mm;
+		margin-inside: 0;
+		margin-outside: 0;
 		padding: 0;
 		background-color: transparent;
 	}
@@ -78,6 +89,8 @@
 		margin-bottom: 0mm;
 		margin-left: 0mm;
 		margin-right: 0mm;
+		margin-inside: 0;
+		margin-outside: 0;
 		padding: 0;
 		background-color: transparent;
 	}
@@ -91,8 +104,9 @@
 	}
 
 	p {
-		font-size: 12pt;
-        text-align: left;
+		font-size: 9pt;
+        text-align-all: justify;
+        text-align-last: left;
 	}
 
 	.site-title {
@@ -104,21 +118,40 @@
         text-align: left;
 	}
 
+	.book-title {
+		hyphens: none;
+		string-set: book_title content();
+		font-size: 17pt;
+        text-align: left;
+	}
+
+	.chapter-pretitle {
+		string-set: chapter_pretitle content();
+		font-size: 13pt;
+	}
+
+	.chapter-title {
+		hyphens: none;
+		string-set: chapter_title content();
+		font-size: 17pt;
+        text-align: left;
+	}
+
 	h1, h2, h3, h4, h5, h6{
 		hyphens: none;
         text-align: left;
 	}
 
 	h1 {
-		font-size: 16pt;
+		font-size: 17pt;
 	}
 
 	h2 {
-		font-size: 14pt;
+		font-size: 15pt;
 	}
 
 	h3 {
-		font-size: 12pt;
+		font-size: 13pt;
 	}
 
 	h4 {
@@ -126,7 +159,7 @@
 	}
 	
 	h5 {
-		font-size: 10pt;
+		font-size: 11pt;
 	}
 
 	h6 {
@@ -136,14 +169,34 @@
 	}
 
 	ol, ul {
-		text-align: left;
+		text-align: justify;
 	}
 	
 	li {
-		text-align: left;
+		text-align: justify;
 	}
 
-		thead {
+	.sidenote, .marginnote {
+		float: none;
+		clear: none;
+		margin: 0 0 12pt 0;
+		width: inherit;
+		hyphens: auto;
+		hyphenate-lines: 1;
+		-prince-float: outsidenote;
+	}
+	
+	.sidenote { 
+		font-size: 7pt;
+		font-weight: $normal-weight;
+	}
+	
+	.marginnote {
+		font-size: 7pt;
+		font-weight: $normal-weight;
+	}
+	
+	thead {
 		display: table-header-group;
 	}
 
