@@ -6,6 +6,5 @@ tags
 .sass-cache
 _site
 .jekyll-cache
-Gemfile.lock
 .DS\_Store
 config.codekit
