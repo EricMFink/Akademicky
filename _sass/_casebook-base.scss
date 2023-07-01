@@ -335,6 +335,33 @@ button {
 /* Smart Quotes */
 q { quotes: "“" "”" "‘" "’"; }
 
+
+/* code blocks */
+
+
+pre {
+	overflow-x: auto; 
+}
+pre, pre code, p code, p pre code {
+	font-family: $mono-font;
+	font-size: $smallest-size;
+	line-height: $line-height;
+}
+
+/* Unset the tufte-css defaults that we'd like to overwrite */
+pre > code {
+	margin-left: initial;
+	overflow-x: initial;
+	display: initial;
+}
+  
+.sourceCode.numberLines a:link {
+	text-decoration: initial;
+	background: initial;
+	text-shadow: initial;
+}
+  
+
 /* Math formatting */
 .katex {
   font-size: inherit !important;
