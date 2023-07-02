@@ -401,6 +401,469 @@ pre > code {
   overflow-wrap: break-word;
 }
 
-.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
-    margin-left: 5px;
+
+/* Page */
+
+.page-container {
+    padding: 75px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+}
+
+.center-screen {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header {
+	margin-bottom: 1rem;
+}
+
+.page-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $title-size;
+    line-height: $line-height;
+    font-weight: $medium-weight;
+    font-style: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.page-subtitle {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $huge-size;
+    line-height: $line-height;
+    font-weight: $normal-weight;
+    font-style: normal;
+    line-height: 1;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.page-cite {
+    font-family: $serif-font;
+	color: $text-color;
+    font-size: $body-size;
+    line-height: $line-height;
+    font-weight: $normal-weight;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.book-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $h1;
+    line-height: $line-height;
+    font-weight: $bold-weight;
+    font-style: normal;
+	margin-top: 0;
+	margin-bottom: 2rem;
+
+}
+.chapter-heading {
+	margin-bottom: 4rem;
+	padding: 10px 0 0 10px;
+    border-left: 2px solid $theme-color;
+    border-top: 2px solid $theme-color;
+}
+.chapter-pretitle {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $h3;
+    line-height: $line-height;
+    font-weight: $normal-weight;
+    font-style: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.chapter-pretitle::before {
+	content: "Chapter ";
+}
+.chapter-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $h2;
+    line-height: $line-height;
+    font-weight: $normal-weight;
+    font-style: normal;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.illustration {
+    padding-top: 2rem;
+    padding-top: 2rem;
+    height: auto;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+/* sidenotes */
+.sidenote, .marginnote { 
+	float: right;
+	clear: right;
+	margin-right: -45%;
+	hyphens: none;
+	width: 30%;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+.sidenote:before {
+	content: counter(sidenote-counter) ".\000a0"; // non-breaking space
+	color: $contrast-color;
+	top: 0rem; 
+    left: -0.4rem;
+}
+.sidenote { 
+	font-family: $sidenotes-font;
+	font-size: $tiny-size;
+	font-weight: $light-weight;
+	line-height: 1.2; 
+	vertical-align: baseline;
+	position: relative; 
+    text-indent: -0.4rem;
+}
+.sidenote hr { 
+	border: none;
+	opacity: 0;
+	height: 6px;
+}
+.marginnote { 
+	font-family: $marginnotes-font;
+	font-size: $tiny-size;
+	font-weight: $light-weight;
+	color: $dark-green;
+	line-height: 1.2; 
+	vertical-align: baseline;
+	position: relative; 
+    text-indent: 0em;
+}
+.marginnote code, .sidenote code {
+    font-size: 0.6rem;
+}
+.marginnote hr { 
+	border: none;
+	opacity: 0;
+	height: 6px;
+}
+span.blockquote{
+	font-style: italic;
+    display: block;
+    float: left;
+    left: 0rem;
+	text-indent: 0;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    clear: both;
+    width: 90%;
+    position: relative;
+    padding: 0.25rem 0.75rem
+}
+li .sidenote, li .marginnote{
+	margin-right: -80%; 
+} // allows for list indents in marginnotes and sidenotes
+blockquote .sidenote, blockquote .marginnote {
+	margin-right: -79% 
+}
+.sidenote-number {
+	counter-increment: sidenote-counter; 
+}
+.sidenote-number:after, .sidenote:before { 
+	content: counter(sidenote-counter) " ";
+	font-family: $body-font;
+	color: $contrast-color;
+	position: relative;
+	vertical-align: baseline; 
+}
+.sidenote-number:after { 
+	content: '['counter(sidenote-counter)']' ;
+	font-weight: $normal-weight;
+	top: -0.3rem;
+	left: 0.1rem; 
+}
+label.sidenote-number { 
+	display: inline; 
+	font-size: $tiny-size; 
+}
+label.margin-toggle:not(.sidenote-number) { 
+	display: none; 
+}
+.full-width { 
+	.sidenote, .sidenote-number, .marginnote {
+		display: none; 
+	} 
+}
+input.margin-toggle { 
+	display: none; 
+}
+
+span.newthought {
+	font-variant: small-caps;
+	font-size: 1.2em;
+	letter-spacing: 0.05rem; 
+}
+
+div.epigraph { margin: 3.5636rem 0; }
+
+div.epigraph > blockquote { margin-top: 3rem; margin-bottom: 3rem; }
+
+div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
+
+div.epigraph > blockquote > footer { font-style: normal; width: 45%; padding-left: 2.5%; padding-right: 2.5%; padding-top: 0; margin-top: 0.4455rem; margin-bottom: 3.1182rem; }
+
+div.epigraph > blockquote > footer > cite { font-style: italic; }
+
+
+/* To get spacing between lists, use paragraphs.
+ * 0.25rem of spacing between list elements looks bad. */
+ li:not(:first-child) {
+    margin-top: initial;
+}
+
+/* Prevent superscripts and subscripts from affecting line-height */
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+sub {
+    top: 0.4em;
+}
+
+/* Replicate styling from sidenote numbers to footnote numbers */
+a.footnote-ref {
+    background: unset;
+    text-shadow: unset;
+    font-size: 1rem;
+    position: relative;
+    top: -0.1rem;
+    left: 0.1rem;
+    display: inline;
+}
+.footnote-ref sup {
+    font-family: $serif-font;
+    font-size: inherit;
+    vertical-align: inherit;
+    line-height: inherit;
+}
+
+@media screen and (max-width: 700px) { 
+	label.margin-toggle:not(.sidenote-number) { 
+		display: inline; color: $contrast-color; 
+	}
+	.sidenote, .marginnote { display: none; }
+	.margin-toggle:checked + .sidenote, .margin-toggle:checked + .marginnote {
+		display: block;
+		float: left;
+		left: 1rem;
+		clear: both;
+		width: 95%;
+		margin: 1rem 2.5%;
+		vertical-align: baseline;
+		position: relative; 
+	}
+	label { 
+		cursor: pointer; 
+	}
+	pre, pre code, p code, p pre code { 
+		width: 90%;
+		padding: 0; 
+	}
+	table-caption { 
+		display: block;		
+		float: right;
+		clear: both;
+		width: 98%;
+		margin-top: 1rem;
+		margin-bottom: 0.5rem;
+		margin-left: 1%;
+		margin-right: 1%;
+		vertical-align: baseline;
+		position: relative; 
+	}
+	div.table-wrapper, table, table.booktabs { 
+		width: 85%; 
+	}
+	div.table-wrapper { 
+		border-right: 1px solid #efefef; 
+	}
+	img { 
+		max-width: 100%; 
+	} 
+	figcaption.maincolumn-figure, figure.fullwidth figcaption { 
+		float:none; text-align: center;
+	}
+	figure.fullwidth figcaption { 
+		margin-left: 0; 
+	}
+}
+
+
+/* Cover Page */ 
+.cover-image {
+	background-color: #cccccc;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+.cover-block {
+	width: 100%;
+    text-align: left;
+	position: absolute;
+    top: 0;
+    left: 0;
+	margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 0;
+}
+.cover-title {
+	font-family: $heading-font;
+    font-size: $h1;
+	font-style: normal;
+	font-weight: $bold-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+.cover-subtitle {
+	font-family: $heading-font;
+    font-size: $h2;
+	font-style: normal;
+	font-weight: $medium-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+.cover-author {
+	font-family: $heading-font;
+    font-size: $h3;
+	font-style: normal;
+	font-weight: $normal-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+.cover-institution {
+	font-family: $heading-font;
+    font-size: $h3;
+	font-style: normal;
+	font-weight: $normal-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+/* Table of Contents */
+#table-of-contents {
+    float: left;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 0;
+    width: auto;
+}
+#toc-header {
+	font-family: $sans-font;
+    font-weight: $medium-weight;
+    font-size: $smallest-size;
+}
+#table-of-contents li, #table-of-contents ul, #table-of-contents ul li {
+	font-family: $sans-font;
+	font-size: $tiny-size;
+    list-style: outside none none !important;
+	width: auto;
+	padding: 0 0 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: $shorter-line-height;
+}
+li.toc-li-H1 {
+    margin: 0 0 0 0;
+    font-weight: $bold-weight;
+}
+li.toc-li-H2 {
+    margin: 0 0 0 1em;
+    font-style: italic;
+}
+li.toc-li-H3 {
+    margin: 0 0 0 2.5em;
+}
+:target {
+	scroll-margin-top: 80px;
+}
+
+/* 404 Page */
+
+.gevalt {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+.gevalt-header {
+	margin-bottom: .5rem;
+	margin-left: 12.5%
+}
+
+.gevalt p {
+    text-align: center;
+	max-width: 90%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.gevalt img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	height: 500px;
+}
+
+.gevalt h1 {
+	color: $theme-color;
+	font-weight: $medium-weight;
+}
+
+.gevalt h2 {
+	height: 100%;
+	color: $theme-color;
+	text-align: center;
+	vertical-align: middle;
+	font-family: serif-font;
+	font-size: $h5;
+	font-weight: $normal-weight;
+	font-style: italic;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 35%;
+	padding-right: 35%
+}
+
+@media screen and (max-width: 760px){
+.gevalt img {
+	height: 350px;
+	}
+.gevalt h2 {
+	padding-left: 15%;
+	padding-right: 15%
+	}
 }
