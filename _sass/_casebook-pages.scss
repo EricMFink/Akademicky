@@ -185,12 +185,17 @@
     list-style: outside none none !important;
 	width: auto;
 	padding: 0 0 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: shorter-line-height;
 }
 li.toc-li-H1 {
     margin: 0 0 0 0;
+    font-weight: $bold-weight;
 }
 li.toc-li-H2 {
     margin: 0 0 0 1em;
+    font-style: italic;
 }
 li.toc-li-H3 {
     margin: 0 0 0 2.5em;

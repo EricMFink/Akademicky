@@ -176,17 +176,45 @@ figure > img {
 /* explanatory comments */
 .comment {
 	font-family: $sans-font;
-	font-size: $small-size;
+	font-size: $smaller-size;
 }
 
 .comment p {
 	font-family: $sans-font;
-	font-size: $small-size;
+	font-size: $smaller-size;
 }
 
 .comment h3 {
     color: $text-color;
 	border: none;
+}
+
+.comment h5 {
+	font-family: $sans-font;
+	margin-top: 1rem;
+}
+
+.comment h6 {
+	font-family: $sans-font;
+	font-size: $smaller-size;
+	margin-top: 1rem;
+}
+
+/* Lists */
+.comment ol, ul {
+	font-size: $smaller-size;
+	font-weight: $normal-weight;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	padding-left: 1rem;
+	max-width: 40rem;
+	-webkit-padding-start: 5%;
+	-webkit-padding-end: 5%;
+}
+.comment li {
+	line-height: $line-height;
+	margin-top: .2rem;
+	vertical-align: baseline;
 }
 
 /* Legal Code */
