@@ -4,12 +4,9 @@
 <!-- Load Common JS -->
 <script src="https://www.emfink.net/akademicky/assets/js/common.js"></script>
 
-{% if site.enable_anchorjs %}
 <!-- Load Anchor JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/{{ site.anchorjs_version }}/anchor.min.js"></script>
-<script>
-  anchors.options.visible = 'hover';
-  anchors.add('article1, article h2, article h3, article h4, article h5, article h6');
-</script>
-{% endif %}
+<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+
+<!-- Table of Contents JS -->
+<script src="{{ site.baseurl }}/assets/js/toc.js"></script>
 

@@ -9,8 +9,8 @@
 		
 			<div class="cover">
 				<div class="cover-block">
-					<p class="cover-title">{{ site.course.subject }}</p>
-					<p class="cover-subtitle">An Open-Source Casebook</p>
+					<p class="cover-title">{{ site.coursebook.title }}</p>
+					{% if site.coursebook.subtitle %}<p class="cover-subtitle">{{ site.coursebook.subtitle }}</p>{% endif %}
 					<br>
 					<p class="cover-author">{{ site.author.name }}</p>
 					<p class="cover-institution">{{ site.author.affiliation }}</p>
