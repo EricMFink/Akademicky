@@ -1,71 +1,222 @@
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body { 
+	height: 100%; 
+}
+
+html{
+	font-size: $base-size;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body { 
+	width: 85%;
+	max-width: 40rem;
+	margin-left: 12.5%;
+	margin-right: 0;
+	padding: 0 2.5rem 0 .5rem;
+	font-family: $body-font;
+	background-color: $background-color;
+	color: $text-color;
+    counter-reset: chapter sidenote-counter; 
+}
+
+body.centered {
+	width: 85%;
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 2.5rem 0 2.5rem;
+}
+
+body.fullwidth {
+	width: 90%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+body.sidenotes { 
+	width: 55%;
+	margin-left: 12.5%;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+    counter-reset: chapter sidenote-counter; 
+}
+
+.site {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+					flex-direction: column;
+	min-height: 100vh;
+}
+
+.site-wrap {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+			-ms-flex: 1 0 auto;
+					flex: 1 0 auto;
+}
+
+.wrapper {
+    max-width: -webkit-calc(90%);
+    max-width:         calc(90%);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.book-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $h1;
+    line-height: $line-height;
+    font-weight: $bold-weight;
+    font-style: normal;
+	margin-top: 0;
+	margin-bottom: 2rem;
+
+}
+.chapter {
+	padding: 75px 0; /* VERTICAL PADDING FOR NEW CHAPTER */
+}
+
+.chapter-pretitle {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $h3;
+    line-height: $line-height;
+    font-weight: $normal-weight;
+    font-style: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 10px 0 0 10px;
+    border-left: 2px solid $theme-color;
+    border-top: 2px solid $theme-color;
+}
+.chapter-pretitle::before {
+	content: "Chapter ";
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	font-family: $body-font;
 	line-height: $short-line-height;
 }
+
+h1 {
+	color: $dull-red;
+	font-family: $sans-font;
+	font-size: $h1-casebook;
+	font-weight: $medium-weight;
+	font-style: normal;
+	margin: 0 0 0 0rem;
+	padding: 5px 0 0 10px;
+    border-left: 2px solid $theme-color;
+}
+
+h2 {
+	font-size: $h2-casebook;
+	font-weight: $medium-weight;
+	font-style: normal;
+	color: $dull-red;
+	margin: 5rem 0 0 2.5rem;
+    counter-reset: subsection;
+}
+
+h2 + h3 {
+  margin-top: 1rem;
+}
+
+h3 {
+	font-size: $h3-casebook;
+	font-weight: $medium-weight;
+	font-style: normal;
+	color: $dull-red;
+	margin: 3rem 0 0 3rem;
+}
+
+/* title and cite of incorporated materials */
+
+h4 {
+	font-size: $h4-casebook;
+	font-weight: $medium-weight;
+	font-style: normal;
+	color: $dull-red;
+	margin: 2rem 0 0.5rem 0;
+	border-bottom: 2px solid $dull-red;
+}
+
+/* internal subheadings for incorporated materials */
+
+h5 {
+  font-size: $h5-casebook;
+  font-weight: $medium-weight;
+  font-style: normal;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+h6 {
+	font-size: $h6-casebook;
+	font-weight: $medium-weight;
+	font-style: normal;
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+
+
 /* auto-numbered section & subsections */
-h1::before {
-	content: counter(h1) ".";
+H1:before {
+    counter-increment: chapter;  /* Add 1 to chapter */
+}
+
+H1 {
+    counter-reset: section;      /* Set section to 0 */
+}
+H2:before {
+    content: counter(section) ". ";
+    counter-increment: section;
 	float: left;
 	margin-left: -2.5rem;
 }
-h1 {
-	font-size: $h1;
-	font-weight: $medium-weight;
-	font-style: normal;
-    color: $theme-color;
-	margin: 5rem 0 0 2.5rem;
-	counter-increment: h1;
-    counter-reset: h2 h3;
+
+h2 {
+    counter-reset: subsection;
 }
-h2::before {
-	content: counter(h1) "."counter(h2) "";
+
+h3::before {
+    counter-increment: subsection;
+    content: counter(section) '.' counter(subsection);
 	float: left;
 	margin-left: -3rem;
 }
-h2 {
-	font-size: $h2;
-	font-weight: $medium-weight;
-	font-style: normal;
-    color: $theme-color;
-	margin: 3rem 0 0 3rem;
-	counter-increment: h2;
-    counter-reset: h3;
-}
-h1+h2 {
-	margin-top: 1rem;
-}
-/* title and cite of incorporated materials */
+
 h3 {
-	font-size: $h3;
-	font-weight: $medium-weight;
-	font-style: normal;
-    color: $theme-color;
-	margin: 2rem 0 0.5rem 0;
-	border-bottom: 2px solid $theme-color;
+    counter-reset: subsubsection;
 }
-/* internal subheadings for incorporated materials */
-h4 {
-	font-size: $h4;
-	font-weight: $medium-weight;
-	font-style: normal;
-	margin-top: 1.5rem;
-	margin-bottom: 0rem;
-}
-h5 {
-	font-size: $h5;
-	font-weight: $medium-weight;
-	font-style: normal;
-	margin-top: 1.5rem;
-	margin-bottom: 0rem;
-}
-h6 {
-	font-size: $body-size;
-	font-weight: $medium-weight;
-	font-style: italic;
-	margin-top: .5rem;
-	margin-bottom: 0rem;
-}
+
 
 /* Body Text */
 p {
@@ -447,47 +598,6 @@ pre > code {
     font-size: $body-size;
     line-height: $line-height;
     font-weight: $normal-weight;
-	margin-top: 1rem;
-	margin-bottom: 0;
-}
-
-.book-title {
-    color: $theme-color;
-    font-family: $heading-font;
-    font-size: $h1;
-    line-height: $line-height;
-    font-weight: $bold-weight;
-    font-style: normal;
-	margin-top: 0;
-	margin-bottom: 2rem;
-
-}
-.chapter-heading {
-	margin-bottom: 4rem;
-	padding: 10px 0 0 10px;
-    border-left: 2px solid $theme-color;
-    border-top: 2px solid $theme-color;
-}
-.chapter-pretitle {
-    color: $theme-color;
-    font-family: $heading-font;
-    font-size: $h3;
-    line-height: $line-height;
-    font-weight: $normal-weight;
-    font-style: normal;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-.chapter-pretitle::before {
-	content: "Chapter ";
-}
-.chapter-title {
-    color: $theme-color;
-    font-family: $heading-font;
-    font-size: $h2;
-    line-height: $line-height;
-    font-weight: $normal-weight;
-    font-style: normal;
 	margin-top: 1rem;
 	margin-bottom: 0;
 }

@@ -44,7 +44,7 @@
 	  	}
 		@top-right {
 			font-size: 9pt;
-			content: string(chapter_pretitle) "-" counter(page);
+			content: counter(page);
             vertical-align: bottom;
 		}
 		@leftnote { width: 0vw; }
@@ -104,7 +104,7 @@
 	}
 
 	p {
-		font-size: 9pt;
+		font-size: 10pt;
         text-align-all: justify;
         text-align-last: left;
 	}
@@ -121,21 +121,23 @@
 	.book-title {
 		hyphens: none;
 		string-set: book_title content();
-		font-size: 17pt;
+		font-size: 18pt;
         text-align: left;
 	}
 
 	.chapter-pretitle {
 		string-set: chapter_pretitle content();
-		font-size: 13pt;
+		font-size: 14pt;
 	}
 
+/*
 	.chapter-title {
 		hyphens: none;
 		string-set: chapter_title content();
 		font-size: 17pt;
         text-align: left;
 	}
+*/
 
 	h1, h2, h3, h4, h5, h6{
 		hyphens: none;
@@ -143,28 +145,29 @@
 	}
 
 	h1 {
-		font-size: 17pt;
+		font-size: 20pt;
+		string-set: chapter_title content();
 	}
 
 	h2 {
-		font-size: 15pt;
+		font-size: 18pt;
 	}
 
 	h3 {
-		font-size: 13pt;
+		font-size: 16pt;
 	}
 
 	h4 {
-		font-size: 11pt;
+		font-size: 14pt;
 	}
 	
 	h5 {
-		font-size: 11pt;
+		font-size: 12pt;
 	}
 
 	h6 {
 		margin-top: 1.5rem;
-		font-size: 10pt;
+		font-size: 11pt;
 	}
 
 	ol, ul {
