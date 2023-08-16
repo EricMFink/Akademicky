@@ -82,6 +82,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  gemoji
   jekyll
   jekyll-spaceship
   rake

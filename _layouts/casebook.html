@@ -1,27 +1,24 @@
 <!DOCTYPE html>
+
 <html>
+
 {% include casebook-head.html %}
 
 <body class="sidenotes">
-{% include casebook-header.html %}
+
+	{% include casebook-header.html %}
 
 <div class="page-container">
 
     <article class="casebook">
-		{% if page.chapter %}
-        <p class="chapter-pretitle">{{ page.chapter }}</p>
-        {% endif %}
-        <h1>{{ page.title }}</h1>
+		
+        <h1>{% if page.chapter %}Chapter {{ page.chapter }}. {% endif %}{{ page.title }}</h1>
+
         {{ content }}
+		
     </article>
 
 </div>
-
-    <!-- Code for "Back to Top" Button -->
-    <!-- <div class="container-top">
-        <a href="#" class="top"></a>
-    </div>-->
-
 
 {% include hemline.html %}
 
