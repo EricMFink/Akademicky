@@ -7,14 +7,11 @@
 
 <div class="page-container">
 
-    <div class="chapter-heading group">
-    	{% if page.chapter %}
+    <article class="casebook">
+		{% if page.chapter %}
         <p class="chapter-pretitle">{{ page.chapter }}</p>
         {% endif %}
-        <p class="chapter-title">{{ page.title }}</p>
-    </div>
-
-    <article class="casebook">
+        <h1>{{ page.title }}</h1>
         {{ content }}
     </article>
 
