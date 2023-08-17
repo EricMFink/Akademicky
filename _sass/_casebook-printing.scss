@@ -16,12 +16,11 @@
         @leftnote { width: 20vw; padding-right: 3em;}
         @rightnote { width: 20vw; padding-left: 3em;}
 	}
-	 
 	@page :left {
 		border-top: thin black solid;
 		@top-left { 
 			font-size: 9pt; 
-			content: string(chapter_pretitle) "-" counter(page); 
+			content: counter(page); 
 			vertical-align: bottom; 
 		}
 	  	@top-center { 
@@ -33,7 +32,6 @@
 		@leftnote { width: 20vw;}
 		@rightnote { width: 0vw;}
 	}
-
 	@page :right {
         border-top: thin black solid;
 		@top-left { content: normal;}
@@ -50,14 +48,12 @@
 		@leftnote { width: 0vw; }
 		@rightnote { width: 20vw; }
 	}
-
   	@page :first {
         border: none;
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
 	}
-
 	@page :blank {
         border: none;
 		@top-left { content: normal; }
@@ -124,47 +120,56 @@
 		font-size: 18pt;
         text-align: left;
 	}
-
-	.chapter-pretitle {
-		string-set: chapter_pretitle content();
-		font-size: 14pt;
-	}
-
-/*
-	.chapter-title {
+	.book-subtitle {
 		hyphens: none;
-		string-set: chapter_title content();
-		font-size: 17pt;
+		string-set: book_subtitle content();
+		font-size: 16pt;
         text-align: left;
 	}
-*/
+	.book-author {
+		hyphens: none;
+		string-set: book_author content();
+		font-size: 14pt;
+        text-align: left;
+	}
+	.book-affiliation {
+		hyphens: none;
+		string-set: book_affiliation content();
+		font-size: 12pt;
+        text-align: left;
+	}
+	.book-date {
+		hyphens: none;
+		string-set: book_date content();
+		font-size: 12pt;
+        text-align: left;
+	}
+
+	.chapter {
+		padding: 0 0 0 0; 
+	}
 
 	h1, h2, h3, h4, h5, h6{
 		hyphens: none;
         text-align: left;
 	}
-
 	h1 {
 		font-size: 20pt;
 		string-set: chapter_title content();
+		break-before: recto
 	}
-
 	h2 {
 		font-size: 18pt;
 	}
-
 	h3 {
 		font-size: 16pt;
 	}
-
 	h4 {
 		font-size: 14pt;
 	}
-	
 	h5 {
 		font-size: 12pt;
 	}
-
 	h6 {
 		margin-top: 1.5rem;
 		font-size: 11pt;
@@ -173,7 +178,6 @@
 	ol, ul {
 		text-align: justify;
 	}
-	
 	li {
 		text-align: justify;
 	}
@@ -187,12 +191,10 @@
 		hyphenate-lines: 1;
 		-prince-float: outsidenote;
 	}
-	
 	.sidenote { 
 		font-size: 7pt;
 		font-weight: $normal-weight;
 	}
-	
 	.marginnote {
 		font-size: 7pt;
 		font-weight: $normal-weight;
@@ -201,7 +203,6 @@
 	thead {
 		display: table-header-group;
 	}
-
 	tr,
 	img {
 		page-break-inside: avoid;

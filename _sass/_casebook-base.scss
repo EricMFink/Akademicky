@@ -133,7 +133,8 @@ body.sidenotes {
     font-style: normal;
 	position: relative;
 
-}.book-author {
+}
+.book-author {
     color: $theme-color;
     font-family: $heading-font;
     font-size: $larger-size;
@@ -166,8 +167,18 @@ body.sidenotes {
 
 }
 
+.colophon {
+	font-size: $smaller-size;
+}
+.colophon p {
+	font-size: $smaller-size;
+}
+.colophon li {
+	font-size: $smaller-size;
+}
+
 .chapter {
-	padding: 120vh 0 0 0; /* VERTICAL PADDING FOR NEW CHAPTER */
+	padding: 100px 0 0 0; /* VERTICAL PADDING FOR NEW CHAPTER */
 }
 
 /* Headings */
@@ -182,7 +193,7 @@ h1 {
 	font-size: $h1-casebook;
 	font-weight: $medium-weight;
 	font-style: normal;
-	margin: 0 0 0 0rem;
+	margin: 0 0 0 0;
 	padding: 10px 0 0 10px;
     border-left: 2px solid $theme-color;
     border-top: 2px solid $theme-color;
@@ -531,12 +542,13 @@ button {
 }
 
 /* Smart Quotes */
+/*
 q { quotes: "“" "”" "‘" "’"; }
-
+*/
 
 /* code blocks */
 
-
+/*
 pre {
 	overflow-x: auto; 
 }
@@ -545,14 +557,15 @@ pre, pre code, p code, p pre code {
 	font-size: $smallest-size;
 	line-height: $line-height;
 }
-
+*/
 /* Unset the tufte-css defaults that we'd like to overwrite */
+/*
 pre > code {
 	margin-left: initial;
 	overflow-x: initial;
 	display: initial;
 }
-  
+*/ 
 .sourceCode.numberLines a:link {
 	text-decoration: initial;
 	background: initial;
@@ -841,7 +854,6 @@ a.footnote-ref {
     margin: 0 0 0 0;
     padding: 10px 10px 10px 0;
     width: auto;
-	overflow-y: scroll;
 }
 #toc-header {
 	font-family: $sans-font;
