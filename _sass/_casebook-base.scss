@@ -87,13 +87,18 @@ body.sidenotes {
 
 /* Book Cover */ 
 
+.cover-block {
+	width: 100%;
+	color: white;
+	padding: 20px 20px;
+}
+
 .book-cover {
     position: relative; 
     height: 85lvh;
     width: 100%;
 	padding: 10px 20px 10px 20px;
 }
-
 .book-cover::before {    
 	content: "";
 	background-image: url("../img/cover.png");
@@ -131,7 +136,7 @@ body.sidenotes {
 }.book-author {
     color: $theme-color;
     font-family: $heading-font;
-    font-size: $large-size;
+    font-size: $larger-size;
 	text-transform: uppercase;
     line-height: 1;
 	font-weight: $normal-weight;
@@ -160,6 +165,7 @@ body.sidenotes {
 	position: relative;
 
 }
+
 .chapter {
 	padding: 120vh 0 0 0; /* VERTICAL PADDING FOR NEW CHAPTER */
 }

@@ -3,17 +3,17 @@
 {% include casebook-head.html %}
 
 <body class="fullwidth">
-	<div class="cover-image" style="background-image: url('img/cover.png');">
+	<div class="profile-image" style="background-image: url('img/cover.png');">
 
 		<div class="page-container">
 		
 			<div class="cover">
 				<div class="cover-block">
-					<p class="cover-title">{{ site.coursebook.title }}</p>
-					<p class="cover-subtitle">{{ site.coursebook.subtitle }}</p>
+					<p class="book-title">{{ site.coursebook.title }}</p>
+					<p class="book-subtitle">{{ site.coursebook.subtitle }}</p>
 					<br>
-					<p class="cover-author">{{ site.author.name }}</p>
-					<p class="cover-institution">{{ site.author.affiliation }}</p>
+					<p class="book-author">{{ site.author.name }}</p>
+					<p class="book-affiliation">{{ site.author.affiliation }}</p>
 
 					{{ content }}
 
