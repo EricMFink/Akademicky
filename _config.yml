@@ -35,24 +35,6 @@ coursebook:
 collections:
   casebook:
     output: true
-  cases:
-    output: true
-  exams:
-    output: true
-  notes:
-    output: true
-  outlines:
-    output: true
-  problems:
-    output: true
-  questions:
-    output: true
-  readings:
-    output: true
-  statutes:
-    output: true
-  visuals:
-    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
