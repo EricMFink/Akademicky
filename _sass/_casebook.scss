@@ -1,0 +1,423 @@
+.casebook {
+    padding: 75px 0; 
+}
+
+.chapter {
+	padding: 100px 0 0 0; /* VERTICAL PADDING FOR NEW CHAPTER */
+}
+
+/* Headings */
+
+.casebook h1 {
+	color: $dull-red;
+	font-family: $sans-font;
+	font-size: $h1;
+	font-weight: $medium-weight;
+	font-style: normal;
+	margin: 0 0 0 0;
+	padding: 2rem 0 0 10px;
+    border-left: 2px solid $theme-color;
+}
+.casebook h2 {
+	font-size: $h2;
+	font-weight: $medium-weight;
+	font-style: normal;
+	color: $dull-red;
+	margin: 5rem 0 0 2.5rem;
+}
+.casebook h2 + h3 {
+  margin-top: 1rem;
+}
+.casebook h3 {
+	font-size: $h3;
+	font-weight: $normal-weight;
+	color: $dull-red;
+	margin: 3rem 0 0 3rem;
+}
+/* title and cite of incorporated materials */
+.casebook h4 {
+	font-size: $h4;
+	font-weight: $medium-weight;
+	font-style: normal;
+	color: $dull-red;
+	margin: 2rem 0 0.5rem 0;
+	border-bottom: 2px solid $dull-red;
+}
+/* internal subheadings for incorporated materials */
+.casebook h5 {
+  font-size: $h5;
+  font-weight: $medium-weight;
+  font-style: normal;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+.casebook h6 {
+	font-size: $h6;
+	font-weight: $normal-weight;
+	font-style: italic;
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+/* auto-numbered section & subsections */
+.casebook H1:before {
+    counter-increment: chapter;  /* Add 1 to chapter */
+}
+.casebook H1 {
+    counter-reset: section;      /* Set section to 0 */
+}
+.casebook H2:before {
+    content: counter(section) ". ";
+    counter-increment: section;
+	float: left;
+	margin-left: -2.5rem;
+}
+.casebook h2 {
+    counter-reset: subsection;
+}
+.casebook h3::before {
+	font-style: normal;
+    counter-increment: subsection;
+    content: counter(section) '.' counter(subsection);
+	float: left;
+	margin-left: -3rem;
+}
+.casebook h3 {
+    counter-reset: subsubsection;
+}
+
+/* Lists */
+.casebook ol, ul {
+	font-size: $body-size;
+	font-weight: $normal-weight;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	padding-left: 1rem;
+	max-width: 40rem;
+	-webkit-padding-start: 5%;
+	-webkit-padding-end: 5%;
+}
+.casebook li {
+	line-height: $line-height;
+	margin-top: .2rem;
+	vertical-align: baseline;
+}
+
+/* Blockquotes */
+.casebook blockquote {
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	display: block;
+	border-left: none;
+	padding: 0 0 0 0;
+	margin: 1rem 1rem 1rem 1.5rem;
+	position: relative;
+}
+.casebook blockquote blockquote {
+	border: none;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	margin-left: .5rem;
+}
+.casebook blockquote p {
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	font-style: normal;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	max-width: 40rem;
+	line-height: $short-line-height;
+}
+
+/* Divider */
+.casebook hr {
+	border-top: 2px solid $theme-color;
+	width:50%;
+	margin:3rem auto;
+}
+
+/* explanatory comments */
+.comment {
+	font-family: $sans-font;
+	font-size: $smaller-size;
+	width: 90%;
+	margin: 2rem 0 2rem 0;
+	padding: 1px 1px 10px 20px;
+    background-color: $text-box-color;
+	border: 1px solid $theme-color;
+}
+
+.comment p {
+	font-family: $sans-font;
+	font-size: $smaller-size;
+}
+
+.comment h4 {
+	font-family: $sans-font;
+	border: none;
+}
+
+.comment h5 {
+	font-family: $sans-font;
+	font-size: $h6;
+	margin-top: 1rem;
+}
+
+.comment h6 {
+	font-family: $sans-font;
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	font-style: italic;
+	margin-top: 1rem;
+}
+
+/* Lists in Comment */
+.comment ol, ul {
+	font-size: $smaller-size;
+	font-weight: $normal-weight;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	padding-left: 1rem;
+	max-width: 40rem;
+	-webkit-padding-start: 5%;
+	-webkit-padding-end: 5%;
+}
+.comment li {
+	line-height: $line-height;
+	margin-top: .2rem;
+	vertical-align: baseline;
+}
+
+/* Legal Code */
+/* indented subsections */
+.legal-code blockquote {
+	font-size: $body-size;
+	font-weight: $normal-weight;
+	font-style: normal;
+	line-height: $line-height;
+	border: none;
+	margin: 0rem 0 0rem 1.5rem;
+	padding: 0;
+}
+.legal-code blockquote p {
+	font-size: $body-size;
+	line-height: $line-height;
+	font-style: normal;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+    padding: 0;
+	max-width: 50rem;
+}
+/* official comments & illustrations */
+.legal-code h6 {
+	font-family: $sans-font;
+	font-size: $smaller-size;
+	font-weight: $normal-weight;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 1rem;
+}
+
+/* Images */
+
+.casebook figure {
+    padding: 0;
+    border: 0;
+    max-width: 90%;
+    margin: 4em 0 4em 0;
+}
+.casebook figcaption {
+	font-family: $sans-font;
+    font-size: $smaller-size;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+    vertical-align: baseline;
+    position: relative;
+}
+.casebook figure > img {
+	  display: block;
+  }
+  
+.casebook figure.fullwidth figcaption { 
+	float: none;
+	margin: 1rem 0 4em 0; 
+	max-width: 90%; }
+
+.casebook img {
+	max-width: 90%;
+}
+
+/* Buttons */
+button {
+    display: inline-block;
+	border: 0;
+	border-radius:4px;
+	outline: 0;
+    padding: .5rem .5rem;
+    margin: 0;
+    text-decoration: none;
+    background: $theme-color;
+    color: $off-white;
+    font-family: $sans-font;
+    font-size: $body-size;
+    cursor: pointer;
+    text-align: center;
+	&:hover{
+		background:darken($theme-color, 20%)
+	}
+}
+
+/* Table of Contents */
+#table-of-contents {
+    float: left;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 0;
+    width: auto;
+}
+#toc-header {
+	font-family: $sans-font;
+    font-weight: $medium-weight;
+    font-size: $smallest-size;
+}
+#table-of-contents li, #table-of-contents ul, #table-of-contents ul li {
+	font-family: $sans-font;
+	font-size: $micro-size;
+    list-style: outside none none !important;
+	width: auto;
+	padding: 0 0 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: $shorter-line-height;
+}
+li.toc-li-H1 {
+    margin: 0 0 0 0;
+    font-weight: $bold-weight;
+}
+li.toc-li-H2 {
+    margin: 0 0 0 1em;
+    font-style: italic;
+}
+li.toc-li-H3 {
+    margin: 0 0 0 2em;
+}
+li.toc-li-H4 {
+    margin: 0 0 0 3em;
+}
+:target {
+	scroll-margin-top: 80px;
+}
+
+
+/* Casebook Cover Page */ 
+
+.cover-block {
+	width: 100%;
+	color: white;
+	padding: 20px 20px;
+}
+
+.book-cover {
+    position: relative; 
+    height: 85lvh;
+    width: 100%;
+	padding: 10px 20px 10px 20px;
+}
+.book-cover::before {    
+	content: "";
+	background-image: url("../img/cover.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.7;
+}
+
+.book-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $title-size;
+	text-transform: uppercase;
+    line-height: 1;
+	font-weight: $normal-weight;
+    font-style: normal;
+	position: relative;
+
+}
+.book-subtitle {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $subtitle-size;
+	text-transform: uppercase;
+    line-height: 1;
+	font-weight: $normal-weight;
+    font-style: normal;
+	position: relative;
+
+}
+.book-author {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $larger-size;
+	text-transform: uppercase;
+    line-height: 1;
+	font-weight: $normal-weight;
+    font-style: normal;
+	position: relative;
+	margin-top: 3rem;
+
+}.book-affiliation {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $large-size;
+	text-transform: uppercase;
+	font-weight: $normal-weight;
+    line-height: 1;
+    font-style: normal;
+	position: relative;
+
+}
+.book-date {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $large-size;
+	text-transform: uppercase;
+    line-height: 1;
+    font-style: normal;
+	position: relative;
+
+}
+
+.chapter-number {
+	color: $dull-red;
+	font-family: $sans-font;
+	font-size: $h3;
+	font-weight: $medium-weight;
+	line-height: $single-line-height;
+	font-style: normal;
+	margin-bottom: 0;
+	padding: 10px 0 0 10px;
+    border-left: 2px solid $theme-color;
+    border-top: 2px solid $theme-color;
+	}
+
+.chapter-number p {
+	margin-bottom: 0;
+	}
+
+/* Publication and design information */
+
+.colophon {
+	font-size: $smaller-size;
+}
+.colophon p {
+	font-size: $smaller-size;
+}
+.colophon li {
+	font-size: $smaller-size;
+}

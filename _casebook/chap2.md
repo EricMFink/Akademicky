@@ -441,7 +441,7 @@ Although the Federal Rules do not themselves address when a co-defendant becomes
 
 ***
 
-![Third Party Claims Under Rule 14](../img/Rule14.png)
+![Third Party Claims Under Rule 14](casebook/img/Rule14.png)
 
 <div class="comment">
 
@@ -459,7 +459,7 @@ _Rule 14(a)_
 
 These provisions refer to claims for _indemnification_ and _contribution_. They arise where a party to a suit (D1) seeks to hold someone else (D2) responsible for all (indemnification) or part (contribution) of the amount of a judgment against D1 in favor of another party (P1).
 
-![Indemnification & Contribution](../img/Indemnification_Contribution.png)
+![Indemnification & Contribution](casebook/img/Indemnification_Contribution.png)
 
 In this illustration, P1 asserts a claim against D1. D1 then asserts a claim against D2, contending that, if P1 prevails against D1, D2 must cover all or part of D1's liability to P1.
 
@@ -924,7 +924,7 @@ Fed.R. Civ. P. 22 and 28 U.S.C. § 1335 provide two alternate ways of bringing 
 
 But there are some procedural differences between rule interpleader and statutory interpleader (see Fig. 2.1). An interpleader plaintiff may proceed under either Rule 22 or  § 1335, provided they meet the applicable jurisdictional and other requirements. 
 
-![Fig. 2.1](../img/Interpleader.png "Rule and Statutory Interpleader")
+![Fig. 2.1](casebook/img/Interpleader.png "Rule and Statutory Interpleader")
 
 </div>
 
@@ -942,7 +942,7 @@ Deutsch seeks to interplead a sculpture[^Deutsch1]---_Industrial Forms_ (aka _Au
   {-} The sculpture was one of several related pieces by Storrs, two of which are in the [National Gallery of Art(https://www.nga.gov/collection/art-object-page.140328.html) See Fig. 2.4
 
 
-![_Auto Tower, Industrial Forms_, John Storrs (ca. 1922)](../img/AutoTower.jpg "# Auto Tower, Industrial Forms (part A)_, c. 1922")
+![_Auto Tower, Industrial Forms_, John Storrs (ca. 1922)](/casebook/img/AutoTower.jpg "# Auto Tower, Industrial Forms (part A)_, c. 1922")
 
 In the late 1970s,[^Deutsch2] John Storrs' estate (represented by his daughter, Monique Storrs Booz) consigned _Industrial Forms_ to the Robert Schoelkopf Gallery in New York City. The Schoelkopf Gallery maintained a long-term business relationship with the Storrs estate through this period, selling several of the artist's works.
 
@@ -1062,5 +1062,5 @@ For each of the following additional claims, explain whether joinder is proper u
 
 *** 
 
-[**Diagram of Claims & Applicable Joinder Rules**](../img/JoinderProblem.png)
+![Diagram of Claims & Applicable Joinder Rules](../img/JoinderProblem.png)
 

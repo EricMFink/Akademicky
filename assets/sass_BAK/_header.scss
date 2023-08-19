@@ -1,0 +1,188 @@
+.site-header {
+    border-bottom: 1px solid $light-grey;
+    background-color: $off-white;
+    opacity: 1;
+    position:fixed;
+    left:calc((100vw - 100%)/2);
+    top:0px;
+	width: 100%;
+    z-index: 50;
+}
+
+.site-title {
+	font-family: $heading-font;
+	font-weight: $bold-weight;
+    font-size: $body-size;
+    color: $theme-color;
+    line-height: $header-height;
+	margin-left: 12.5%;
+    margin-bottom: 0;
+}
+
+.site-nav {
+	font-family: $heading-font;
+	font-size: $body-size;
+    float: right;
+    line-height: $header-height;
+	margin-right: 12.5%;
+
+    .nav-trigger {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link{
+        line-height: $line-height;
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 30px;
+        }
+    }
+    // added for hamburger
+
+	@mixin media-query($device) {
+	    @media screen and (max-width: $device) {
+	        @content;
+	    }
+	}
+
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 10%;
+        background-color: $off-white;
+        border: 1px solid $light-grey;
+        border-radius: 5px;
+        text-align: right;
+		margin-right: 0;
+
+        label[for="nav-trigger"] {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 36px;
+            z-index: 2;
+            cursor: pointer;
+        }
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg path {
+                fill: $dark-grey;
+            }
+        }
+
+        input ~ .trigger {
+            clear: both;
+            display: none;
+        }
+
+        input:checked ~ .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 10px;
+        }
+    }
+}
+
+.header-bar{
+    border-bottom: 1px solid $light-grey;
+    font-size: $h3;
+    display: block;
+    opacity: 0.75;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 4rem;
+    line-height: 3em;
+    z-index: 25;
+    h1{
+        color: $theme-color;
+        font-size: $title-size;
+    }
+    h2{
+        font-size: $h2;
+    }
+}
+
+
+
+/* Header for Casebook Pages */
+
+.casebook-header {
+    border-bottom: 0.5px solid $light-grey;
+    background-color: $off-white;
+    opacity: 1;
+    position:fixed;
+    left:calc((100vw - 100%)/2);
+    top:0px;
+	width: 100%;
+    z-index: 50;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+  
+/* Dropdown button */
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: $theme-color;
+    background: transparent;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0 0 0 30px; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown Arrow Icon */
+.fa-caret-down {
+  margin-left: 5px; }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: $text-color;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

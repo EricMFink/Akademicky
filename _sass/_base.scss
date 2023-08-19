@@ -1,86 +1,588 @@
-* {
+// Global Resets
+
+* { 
 	margin: 0; 
 	padding: 0; 
 }
 
+/* clearfix hack */
 .group:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 html, body { 
 	height: 100%; 
-}
+	}
 
 html{
-	font-size: $base-size;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    font-size: $base-size;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+a {
+	color: $contrast-color;
+	text-decoration: none;
 }
+
+p > a, cite > a, span > a {
+    color: $contrast-color;
+    text-decoration: none;
+    }
 
 body { 
-	width: 85%;
-	max-width: 40rem;
-	margin-left: 12.5%;
-	margin-right: 0;
-	padding: 0 2.5rem 0 .5rem;
-	font-family: $body-font;
-	background-color: $background-color;
-	color: $text-color;
-    counter-reset: h1 sidenote-counter; 
-}
-
-body.centered {
-	width: 85%;
-	max-width: 40rem;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0 2.5rem 0 2.5rem;
-}
-
-body.fullwidth {
-	width: 90%;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
-}
-
-body.sidenotes { 
-	width: 55%;
-	margin-left: 12.5%;
-	margin-right: 0;
-	padding-left: 0;
-	padding-right: 0;
-    counter-reset: h1 sidenote-counter; 
-}
-
-.site {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-			-ms-flex-direction: column;
-					flex-direction: column;
-	min-height: 100vh;
-}
-
-.site-wrap {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-			-ms-flex: 1 0 auto;
-					flex: 1 0 auto;
-}
-
-.wrapper {
-    max-width: -webkit-calc(90%);
-    max-width:         calc(90%);
-    margin-right: auto;
+	width: 87.5%;
     margin-left: auto;
-    padding-right: 0;
-    padding-left: 0;
+    margin-right: auto;
+    padding-left: 12.5%;
+    font-family: $body-font;
+    background-color: $background-color;
+    color: $text-color;
+    max-width: 1400px;
+    counter-reset: chapter sidenote-counter; 
+	}
+
+
+/* Headings */
+
+h1 { 
+	color: $dull-red;
+	font-family: $sans-font;
+	font-size: $h1;
+	margin: 0 0 0 0;
+	font-style: normal;
+	font-weight: $medium-weight;
+	}
+h2, h3, h4, h5, h6 {
+	font-family: $body-font;
+	}
+h2 {
+	font-size: $h2;
+	margin-top: 3rem;
+	margin-bottom: 0rem;
+	font-weight: $medium-weight;
+    }
+h2 + h3 {
+	margin-top: 1rem;
+	}
+h3 { 
+	font-size: $h3;
+	margin-top: 1.5rem;
+	margin-bottom: 0rem;
+	font-style: italic;
+	font-weight: $medium-weight;
+	}
+h4 {
+	width: 55%;
+	font-size: $h4;
+	margin-top: 1.5rem;
+	margin-bottom: 0rem;
+	font-style: normal;
+	font-weight: $medium-weight;
 }
+h5 {
+	width: 55%;
+	font-size: $h5;
+	margin-top: 1.5rem;
+	margin-bottom: 0rem;
+	font-style: italic;
+	font-weight: $medium-weight;
+	}
+h6 {
+	font-size: $h6;
+	margin-top: .5rem;
+	margin-bottom: 0rem;
+	font-style: italic;
+	font-weight: $medium-weight;
+	}
+
+/* Body Text */
+p {
+	font-size: $body-size;
+	font-weight: $normal-weight;
+	line-height: $line-height;
+	width: 55%; 
+	vertical-align: baseline;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	}
+
+.small {
+	font-size: $small-size;
+}
+.smaller {
+	font-size: $smaller-size;
+}
+.contrast {
+	color: $contrast-color;
+}
+.sans-green {
+	font-family: $sans-font;
+	color: $dark-green;
+}
+.dullred {
+	color: $dull-red;
+}
+	
+/* For date in post heading */
+p .subtitle { 
+	font-style: italic;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    display: block;
+    line-height: $single-line-height; 
+	}
+
+/* Lists */
+ol, ul { 
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	padding-left: 1rem;
+	width: 45%;
+	-webkit-padding-start: 5%;
+	-webkit-padding-end: 5%;
+	}
+
+li { 
+	font-size: $small-size;
+	line-height: $line-height;
+	margin-top: .2rem;
+	vertical-align: baseline;
+}
+
+/* Tufte Blockquotes*/
+
+/*
+blockquote p, blockquote footer{  width: 45%;
+                                  padding-left: 2.5%;
+                                  padding-right: 2.5%;}
+
+blockquote footer {  font-size: 1.1rem;
+                line-height: 1.78181818;
+                margin-top: 1.78181818rem;
+                margin-bottom: 1.78181818rem;
+                text-align: right;
+                 }
+
+*/
+
+/* Blockquotes */
+blockquote {
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	display: block;
+	border-left: 4px solid $theme-color;
+	padding: 0 0 0 1rem;
+	margin: 2rem 0 2rem 1rem;
+	position: relative;
+}
+blockquote blockquote {
+	border: none;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	margin-left: .5rem;
+}
+blockquote p {
+	font-size: $small-size;
+	font-weight: $normal-weight;
+	font-style: italic;
+	margin-top: .5rem;
+	margin-bottom: .8rem;
+	max-width: 35rem;
+	line-height: $short-line-height;
+}
+
+/* Buttons */
+button {
+    display: inline-block;
+	border: 0;
+	border-radius:4px;
+	outline: 0;
+    padding: .5rem .5rem;
+    margin: 0;
+    text-decoration: none;
+    background: $theme-color;
+    color: $off-white;
+    font-family: $sans-font;
+    font-size: $body-size;
+    cursor: pointer;
+    text-align: center;
+	&:hover{
+		background:darken($theme-color, 20%)
+	}
+}
+
+
+/* Basic Layout stuff --*/
+
+article { position: relative;
+          padding: 1
+
+          rem 0rem 2.5rem 0rem; } // reduced top and bottom padding by 50%
+
+section { 
+	padding: 0 0 0 0;
+	}
+/*
+ul,ol { width: 45%;
+     -webkit-padding-start: 5%;
+     -webkit-padding-end: 5%;
+     list-style-type: none; }
+*/
+
+//li { padding: 0.5em 0; } //vertical padding on list items screws up vertical rhythym
+
+figure, figure img.maincolumn { max-width: 55%;
+         -webkit-margin-start: 0;
+         -webkit-margin-end: 0;
+         margin-bottom: 3em; }
+
+figcaption { float: right;
+             clear: right;
+             margin-right: -50%;
+             margin-top: 0;
+             margin-bottom: 0;
+             font-size: 1.0rem;
+             line-height: 1.6;
+             vertical-align: baseline;
+             position: relative;
+             max-width: 40%; }
+
+figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; max-width: 100%; }
+
+img { max-width: 100%; }
+
+.sidenote, .marginnote { 
+	float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+	}
+
+.sidenote { 
+	font-family: $sidenotes-font;
+	font-size: $smallest-size;
+	font-weight: $light-weight;
+	line-height: 1.2; 
+	vertical-align: baseline;
+	position: relative; 
+	}
+
+.sidenote hr { 
+	border: none;
+	opacity: 0;
+	height: 6px;
+	}
+
+.marginnote { 
+	font-family: $marginnotes-font;
+	font-size: $smallest-size;
+	font-weight: $light-weight;
+	color: $dark-green;
+	line-height: 1.2; 
+	vertical-align: baseline;
+	position: relative; 
+	text-indent: 0em;
+	}
+
+.marginnote hr { 
+	border: none;
+	opacity: 0;
+	height: 6px;
+	}
+
+
+li .sidenote, li .marginnote{ 
+	margin-right: -80%; 
+	} 
+
+blockquote .sidenote, blockquote .marginnote { 
+	margin-right: -79% 
+	}
+
+.sidenote-number { 
+	counter-increment: sidenote-counter; 
+	}
+
+.sidenote-number:after, .sidenote:before { 
+	content: counter(sidenote-counter) " ";
+	font-family: et-bembo-roman-old-style;
+    color: $contrast-color; //added color
+    position: relative;
+    vertical-align: baseline; 
+	}
+
+.sidenote-number:after { 
+	content: counter(sidenote-counter);
+    font-size: 1rem;
+    top: -0.5rem;
+    left: 0.1rem; 
+	}
+
+.sidenote:before { 
+	content: counter(sidenote-counter) ".\000a0"; 
+	color: $contrast-color;
+	top: 0rem; 
+	}
+
+p, div.table-wrapper { 
+	width: 55%; 
+	}
+
+div.table-wrapper, table {
+	overflow-x: auto; 
+	}
+
+.marginnote code, .sidenote code { 
+	font-size: 1rem; 
+	}
+
+pre { 
+	width: 52.5%;
+	padding-left: 2.5%;
+	overflow-x: auto; 
+	}
+
+.fullwidth, li.listing div{ 
+	max-width: 90%; 
+	}
+
+.full-width { 
+	.sidenote, .sidenote-number, .marginnote { display: none; } 
+	}
+
+span.newthought { 
+	font-variant: small-caps;
+	font-size: 1.2em;
+	letter-spacing: 0.05rem; 
+	}
+
+input.margin-toggle { 
+	display: none; 
+	}
+
+label.sidenote-number { 
+	display: inline; 
+	}
+
+label.margin-toggle:not(.sidenote-number) { 
+	display: none; 
+	}
+
+@media (max-width: 760px) { 
+	label.margin-toggle:not(.sidenote-number) { display: inline; color: $contrast-color; }
+	.sidenote, .marginnote { display: none; }
+	.margin-toggle:checked + .sidenote,
+	.margin-toggle:checked + .marginnote { display: block;
+	float: left;
+	left: 1rem;
+	clear: both;
+	width: 95%;
+	margin: 1rem 2.5%;
+	vertical-align: baseline;
+	position: relative; }
+	label { cursor: pointer; }
+	pre, pre code, p code, p pre code { width: 90%;
+	padding: 0; }
+	.table-caption { display: block;
+	float: right;
+	clear: both;
+	width: 98%;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+	margin-left: 1%;
+	margin-right: 1%;
+	vertical-align: baseline;
+	position: relative; }
+	div.table-wrapper, table, table.booktabs { width: 85%; }
+	div.table-wrapper { border-right: 1px solid #efefef; }
+	img { max-width: 100%; } 
+	figcaption.maincolumn-figure, figure.fullwidth figcaption { float:none; text-align: center;}
+	figure.fullwidth figcaption { margin-left: 0; }
+	}
+/*--- End of Basic Layout stuff from tufte.css ---*/
+
+/* -- Jekyll specific styling --*/
+//helper classes
+
+.contrast { color: $contrast-color;}
+.smaller { font-size: 80%;}
+
+//Full width page styling stuff
+
+body.full-width, .content-listing, ul.content-listing li.listing{ width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 0% 5%;
+
+}
+.full-width article p{
+  width: 90%;
+}
+
+
+h1.content-listing-header{
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.8rem;
+}
+
+li.listing hr{
+  width:100%;
+}
+.listing, .listing h3
+{
+  display: inline-block;
+  margin:0;
+}
+li.listing {
+  margin:0;
+  & p{
+    width: 100%
+  }
+}
+
+
+li.listing:last-of-type{
+  border-bottom: none;
+  margin-bottom: 1.4rem;
+}
+li.listing h3.new {
+  text-transform: uppercase;
+  font-style: normal;
+}
+hr.slender {
+    border: 0;
+    height: 1px;
+    margin-top: 1.4rem;
+    margin-bottom:1.4rem;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+// End of front listing page stuff
+
+
+
+/* Tufte Epigraphs */
+/*
+div.epigraph { margin: 3.5636rem 0; }
+
+div.epigraph > blockquote { margin-top: 3rem;
+                            margin-bottom: 3rem;
+                             }
+
+div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
+
+
+div.epigraph > blockquote > footer {  font-style: normal;
+                                      width: 45%;
+                                      padding-left: 2.5%;
+                                      padding-right: 2.5%;
+                                      padding-top: 0;
+                                      margin-top: 0.4455rem;
+                                      margin-bottom: 3.1182rem }
+
+div.epigraph > blockquote > footer > cite { font-style: italic; }
+*/
+
+
+/* Tufte Printing Styles */
+
+// Does not display a print-footer for screen display
+/*
+@media screen{
+  .print-footer{
+    display: none;
+  }
+}
+
+
+@media print {
+
+    * {
+    -webkit-transition: none !important;
+    transition: none !important;
+    }
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    @page {
+        margin: 0.75in 0.5in 0.75in 0.5in;
+        orphans:4; widows:2;
+    }
+
+    body {
+        font-size:  12pt;
+
+    }
+    html body span.print-footer{
+      font-family: $sans-font;
+      font-size: 9pt;
+      margin-top: 22.4pt;
+      padding-top: 4pt;
+      border-top: 1px solid #000;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 4;
+        widows: 4;
+    }
+    article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
+        page-break-after: avoid;
+    }
+
+    body header , body footer {
+      display:none;
+    }
+}
+*/
+
+/* Tufte Media Queries */
+/*
+@media screen and (min-width: 800px){ html{ font-size: 12px;} }
+
+@media screen and (min-width: 900px){ html{ font-size: 13px;} }
+
+@media screen and (min-width: 1000px){ html{ font-size: 14px;} }
+
+@media screen and (min-width: 1100px){ html{ font-size: 15px; } }
+
+@media screen and (min-width: 1200px){ html{ font-size: 16px; } }
+
+@media screen and (min-width: 1300px){ html{ font-size: 17px; } }
+*/
+
+// Mathjax 
+/*
+.mjx-math{
+	*/
+  

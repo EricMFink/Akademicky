@@ -1,0 +1,204 @@
+// Set page layout and hide screen elements for printing
+
+// For printing with Prince XML
+  
+@media print {
+	@page {
+		margin-top: 15mm;
+		margin-bottom: 15mm;
+		margin-left: 30mm;
+		margin-right: 30mm;
+		padding: 0;
+		size: letter portrait;
+		background-color: transparent;
+		orphans: 4;
+		widows: 2;
+		font-size: 12pt;
+	}
+	 
+	@page :left {
+		border-top: thin black solid;
+		@top-left { content: normal;}
+	  	@top-center { content: normal;}
+	  	@top-right { content: normal;}
+	  	@bottom-center { 
+			font-size: 10pt; 
+			content: counter(page); 
+			vertical-align: bottom; 
+		}
+	}
+
+	@page :right {
+		border-top: thin black solid;
+		@top-left { content: normal;}
+	  	@top-center { content: normal;}
+	  	@top-right { content: normal;}
+	  	@bottom-center { 
+			font-size: 10pt; 
+			content: counter(page); 
+			vertical-align: bottom; 
+		}
+	}
+
+  	@page :first {
+        border: none;
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+		@bottom-center { content: normal; }
+	}
+
+	@page :blank {
+        border: none;
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+		@bottom-center { content: normal; }
+    }
+
+	html {
+		font-size: 12pt;
+	}
+
+	body {
+		width: 100%;
+		max-width: 100%;
+		margin-top: 0mm;
+		margin-bottom: 0mm;
+		margin-left: 0mm;
+		margin-right: 0mm;
+		padding: 0;
+		background-color: transparent;
+	}
+
+	body.sidenotes {
+		width: 100%;
+		max-width: 100%;
+		margin-top: 0mm;
+		margin-bottom: 0mm;
+		margin-left: 0mm;
+		margin-right: 0mm;
+		padding: 0;
+		background-color: transparent;
+	}
+
+	page-container {
+		padding: 0;
+	}
+
+	section {
+		padding: 0;
+	}
+
+	p {
+		font-size: 12pt;
+        text-align: left;
+	}
+
+	.site-title {
+		hyphens: none;
+		font-size: 20pt;
+		line-height: $line-height;
+		margin-left: 10mm;
+		margin-bottom: 10pt;
+        text-align: left;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		hyphens: none;
+        text-align: left;
+	}
+
+	h1 {
+		font-size: 16pt;
+	}
+
+	h2 {
+		font-size: 14pt;
+	}
+
+	h3 {
+		font-size: 12pt;
+	}
+
+	h4 {
+		font-size: 11pt;
+	}
+	
+	h5 {
+		font-size: 10pt;
+	}
+
+	h6 {
+		margin-top: 1.5rem;
+		font-size: 8pt;
+	}
+
+	ol, ul {
+		text-align: left;
+	}
+	
+	li {
+		text-align: left;
+	}
+
+		thead {
+		display: table-header-group;
+	}
+
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+
+	header {
+		display: none;
+	}
+
+	.button {
+		display: none;
+	}
+
+	img {
+		max-width: 100% !important;
+	}
+
+	hr {
+		margin-top: 4em;
+		margin-bottom: 4em;
+	}
+	
+	p,
+	h2,
+	h3 {
+	  orphans: 4;
+	  widows: 4;
+	}
+
+	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
+	  page-break-after: avoid;
+	}
+
+	.leftalign {
+		hyphens: none;
+        text-align: left;
+	}
+   
+}
+// Hide print header/footer in screen display
+
+@media screen {
+
+	.print-header {
+		display: none;
+	}
+
+	.print-footer {
+		display: none;
+	}
+
+	.print-headfoot-block {
+		display: none;
+	}
+
+}

@@ -1,6 +1,6 @@
 ---
 layout: casebook
-title: Introduction
+title: Parties & Claims
 chapter: 1
 
 ---
@@ -31,7 +31,7 @@ There are two special trial courts that have nationwide jurisdiction over certai
 
 Three territories of the United States— the Virgin Islands, Guam, and the Northern Mariana Islands—have U.S. district courts that hear federal cases, including bankruptcy cases.
 
-![Federal Judicial Districts and Circuits](../img/FedCourts.png){ width=100% }
+{% fullwidth "casebook/img/FederalCourtsMap.png" "Fig. 1.3" %}
 
 ###### Appellate Courts
 
@@ -88,7 +88,9 @@ Within state judicial systems, original jurisdiction over certain types of cases
 
 ## Civil Litigation
 
-####  William L.F. Felstiner, Richard L. Abel, & Austin Sarat, The Emergence \& Transformation of Disputes, 15 Law & Society Review 631 (1980)
+### Turning Disputes into Lawsuits
+
+####  William L.F. Felstiner, Richard L. Abel, & Austin Sarat, "The Emergence \& Transformation of Disputes: Naming, Blaming, Claiming ...", 15 Law & Society Review 631 (1980)
 
 ##### I. Introduction
 
@@ -178,10 +180,18 @@ The nature and potential transformational effects of courts can be seen best if 
 
 In between courts and psychotherapy there are many other dispute institutions---arbitration, mediation, administrative hearings, and investigations---that use ingredients of each process in different combinations but always effect a transformation.
 
-<div class="comment">
-
 ### Stages of a Civil Suit
 
-![Stages of a Civil Suit](../img/CivilAction-rotated.png)
+Figures 1 and 2 illustrate the stages of a civil suit. 
 
-</div>
+Before commencing a suit, a lawyer (in consultation with the client) must decide who will be named as the plaintiff(s) and defendant(s) (Party Joinder), what claims the plaintiff(s) will assert (Claim Joinder), and where to file the suit (Subject Matter Jurisdiction, Personal Jurisdiction, & Venue). Decisions about party and claim joinder may constrain the choice of forum, and vice versa. At some point, it may also be necessary for the court to determine which law---state or federal, and if state law, which state---should apply to the various issues in the case. 
+
+The lawyer must then file a complaint with the court and serve a copy of the complaint and summons on the defendant(s). The defendant(s) must then respond, either by admitting or denying the allegations in the complaint (Answer, which may also include claims by the defendant(s) against plaintiffs, co-defendants, or additional parties not named in the complaint), or asking the court to  dismiss the complaint on procedural grounds (Rule 12 Motions). 
+
+If the case is not dismissed at the pleadings stage, the parties will then produce evidence through the discovery process. The parties may also ask the court to decide all or part of the suit based on the evidence in the pre-trial record (Summary Judgment). 
+
+If the case is not fully decided on summary judgment, it will then proceed to trial, at the end of which the court will enter judgment in favor of the plaintiff(s) or defendant(s). After a final judgment has been entered, the losing party may appeal to a higher court. A final judgment may also have consequences for other lawsuits involving the same parties (Claim and Issue Preclusion). 
+
+{% fullwidth "casebook/img/CivilAction1.png" "Fig. 1.2" %}
+
+{% fullwidth "casebook/img/CivilAction2.png" "Fig. 1.3" %}

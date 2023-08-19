@@ -1,0 +1,70 @@
+/*
+pre {
+	width: 52.5%;
+	padding-left: 2.5%;
+	overflow-x: auto; 
+}
+pre {
+	padding-left: 2.5%;
+	overflow-x: auto; 
+}
+*/
+
+pre {
+	overflow-x: auto; 
+}
+pre, pre code, p code, p pre code {
+	font-family: $mono-font;
+	font-size: $smaller-size;
+	line-height: $taller-line-height;
+}
+
+/* Unset the tufte-css defaults that we'd like to overwrite */
+pre > code {
+	margin-left: initial;
+	overflow-x: initial;
+	display: initial;
+}
+  
+.sourceCode.numberLines a:link {
+	text-decoration: initial;
+	background: initial;
+	text-shadow: initial;
+}
+  
+/*
+div.sourceCode,
+pre:not(.sourceCode) {
+	padding: 1.4rem;
+	margin: -0.7rem -1.4rem;
+	width: 55%;
+	overflow-x: auto;
+}
+div.sourceCode,
+pre:not(.sourceCode) {
+	padding: 1.4rem;
+	width: 75%;
+	overflow-x: auto;
+}
+div.sourceCode,
+pre:not(.sourceCode) {
+	padding: 1.4rem;
+	overflow-x: auto;
+}
+.fullwidth div.sourceCode,
+.fullwidth pre:not(.sourceCode) {
+	width: 100%;
+}
+*/
+  
+@media (max-width: 760px) {
+	div.sourceCode,
+	pre:not(.sourceCode) {
+	  padding: 1.4rem 8vw;
+	  margin: -0.7rem -8vw;
+	  width: 100%;
+	}
+	.fullwidth {
+	  max-width: 100%;
+	}
+}

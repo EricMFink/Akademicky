@@ -29,8 +29,8 @@ course:
 coursebook:
   title: Trials & Tribulations
   subtitle: An Open-Source Casebook
-  version: '1.0'
-  date: June 2023
+  version: '2.0'
+  date: August 2023
 
 collections:
   casebook:
@@ -63,7 +63,7 @@ permalink: /:categories/:year/:month/:day/:title/
 timezone: America/New_York
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 include: ['_pages']
-exclude: ['Gemfile.lock', admin, .admin]
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 keep_files: [.admin]
 post:
   template: _post.txt

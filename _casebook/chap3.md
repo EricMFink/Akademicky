@@ -65,9 +65,6 @@ It is true that, in a strict sense, a proceeding in rem is one taken directly ag
 
 It follows from the views expressed that the personal judgment recovered in the State court of Oregon against the plaintiff herein, then a non-resident of the State, was without any validity, and did not authorize a sale of the property in controversy. 
 
-
-*** 
-
 <div class="comment">
 
 #### Note on _Pennoyer_ 

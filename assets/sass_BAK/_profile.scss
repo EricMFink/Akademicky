@@ -24,59 +24,63 @@
 }
 
 .profile ul, ol {
-	width: 100%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-
-.profile1 {
+.profile h1 {
     font-size: $title-size;
-    line-height: $line-height;
+    line-height: 1;
     font-weight: $bold-weight !important;
     color: white;
-	width: 100%;
-    margin: 0 auto 0 auto;
+    margin: 0 0 0 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
-.profile2 {
-    font-size: $h2;
+
+.profile h2 {
     font-style: normal;
     line-height: $line-height;
-    font-weight: $bold-weight !important;
     color: white;
-	width: 100%;
-    margin: 1rem auto 0 auto;
+    font-weight: $bold-weight !important;
+    margin: 1rem 0 0 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
-.profile3 {
-    font-size: $h3;
+
+.profile h1 + h3 {
+    margin-top: 1rem;
+}
+
+.profile h3 {
     line-height: $line-height;
-    font-weight: $bold-weight !important;
     color: white;
-	width: 100%;
-    margin: 1rem auto 0 auto;
+    font-weight: $bold-weight !important;
+    margin: 0 0 0 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
-.profile4 {
-    font-size: $h4;
-    line-height: $line-height;
+
+.profile h2 + h3 {
+    margin-top: 1rem;
+}
+
+.profile h4 {
     font-weight: $bold-weight !important;
 	font-style: normal;
     color: white;
-	width: 100%;
-    margin: 1rem auto 0 auto;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-}
-.profile4 p {
     line-height: $line-height;
-    font-weight: $bold-weight !important;
-	font-style: normal;
-    color: white;
-	width: 100%;
-    margin: 0 auto 0 auto;
+    margin: 0 0 0 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
+
+.profile h2 + h4 {
+    margin-top: 1rem;
+}
+
+/*
+.profile h3 + h4 {
+    margin-top: 1rem;
+}
+*/
 
 .social {
     border-top: 0px solid $light-grey;
