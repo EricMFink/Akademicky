@@ -1,5 +1,5 @@
 ---
-layout: sidenotes 
+layout: page 
 permalink: /readings/Felstiner_Abel_Sarat/
 
 course: Civil Procedure 
