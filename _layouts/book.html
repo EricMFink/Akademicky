@@ -1,35 +1,17 @@
-<!DOCTYPE html>
-
-<html>
-
-{% include casebook-head.html %}
-
-<body class="sidenotes">
+---
+layout: default
+---
 
 {% include casebook-header.html %}
 
-<div class="page-container">
+<article class="group">
 
-    <article class="casebook">
-		
-		<!--
-		<div class="book-cover">
-		<p class="book-title">{{ page.title }}</p>
-		<p class="book-subtitle">{{ page.subtitle }}</p>
-		<p class="book-author">{{ page.author }}</p>
-		<p class="book-affiliation">{{ page.affiliation }}</p>
-		<p class="book-date">{{ page.term }}</p>
-		</div>
-		-->
+<div class="casebook">
 
-        {{ content }}
+{{ content }}
 
-    </article>
+</article>
 
 </div>
 
 {% include hemline.html %}
-
-</body>
-
-</html>

@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
+{% include header.html %}
 
+<article class="group">
 <div class="page-container">
 
 <!-- syllabus header -->
@@ -13,32 +15,33 @@ layout: default
 		<a href='{{ site.baseurl }}/assets/pdf/syllabus.pdf'><button class='button syllabus smaller'>PDF</button></a>
 	</div>
 
-<div class="syllabus">
+	<div class="syllabus">
 
-<div class="syllabus-header">
+		<div class="syllabus-header">
 
-	<h6>{{ site.course.subject }}</h6>
-	<h6>{{ site.author.affiliation }}</h6>
-	<h6>{{ site.course.term }}</h6>
-	<h6>{{ site.course.room }}</h6>
-	<h6>{{ site.course.meets }}</h6>
+			<h6>{{ site.course.subject }}</h6>
+			<h6>{{ site.author.affiliation }}</h6>
+			<h6>{{ site.course.term }}</h6>
+			<h6>{{ site.course.room }}</h6>
+			<h6>{{ site.course.meets }}</h6>
 
-	<br>
-	<h6>Professor: {{ site.author.name }}</h6>
-	<h6><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></h6>
-	<h6>{{ site.author.phone }}</h6>
-	<h6>Office hours <a href=https://calendly.com/emfink />by appointment</a></h6>
+			<br>
+			<h6>Professor: {{ site.author.name }}</h6>
+			<h6><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></h6>
+			<h6>{{ site.author.phone }}</h6>
+			<h6>Office hours <a href=https://calendly.com/emfink />by appointment</a></h6>
 
-	{% if site.ta %}
-	<br>
-	<h6>Teaching Assistant: {{ site.ta.name }}</h6>
-	<h6><a href="mailto:{{ site.ta.email }}">{{ site.ta.email }}</a></h6>
-	{% endif %}
+			{% if site.ta %}
+			<br>
+			<h6>Teaching Assistant: {{ site.ta.name }}</h6>
+			<h6><a href="mailto:{{ site.ta.email }}">{{ site.ta.email }}</a></h6>
+			{% endif %}
 
-</div>
+		</div>
 
-<!-- syllabus body -->
-	{{ content }}
+	<!-- syllabus body -->
+		{{ content }}
+	</div> 
 
-</div> 
+</article>
 </div> 

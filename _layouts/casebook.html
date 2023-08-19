@@ -1,27 +1,20 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<html>
+{% include casebook-header.html %}
 
-{% include casebook-head.html %}
+<article class="group">
 
-<body class="sidenotes">
+<div class="casebook">
 
-	{% include casebook-header.html %}
+<p class="chapter-number">Chapter {{ page.chapter}}</p>
+<h1>{{ page.title}}</h1>
 
-<div class="page-container">
+{{ content }}
 
-    <article class="casebook">
-		
-        <h1>{% if page.chapter %}Chapter {{ page.chapter }}. {% endif %}{{ page.title }}</h1>
-
-        {{ content }}
-		
-    </article>
+</article>
 
 </div>
 
 {% include hemline.html %}
-
-</body>
-
-</html>
