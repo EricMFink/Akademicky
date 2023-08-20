@@ -7,11 +7,9 @@ chapter: 8
 
 ## Standard for Summary Judgment 
 
-#### Fed. R. Civ. P. Rule 56 {#rule56a}
-
 <div class="legal-code">
 
-##### Summary Judgment
+#### Fed. R. Civ. P. Rule 56 {#rule56a}
 
 (a) Motion for Summary Judgment or Partial Summary Judgment. A party may move for summary judgment, identifying each claim or defense — or the part of each claim or defense — on which summary judgment is sought. The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law. The court should state on the record the reasons for granting or denying the motion.
 
@@ -111,11 +109,9 @@ The Court today sets forth a _per se_ rule that presumes its own version of the 
 
 ## Burden of Production 
 
-#### Fed. R. Civ. P. Rule 56 {#rule56c}
-
 <div class="legal-code">
 
-##### Summary Judgment
+#### Fed. R. Civ. P. Rule 56 {#rule56c}
 
 (c) Procedures.
 
@@ -151,11 +147,9 @@ The Court today sets forth a _per se_ rule that presumes its own version of the 
 
 </div>
 
-*** 
-
 <div class="comment">
 
-#### Note on Discovery 
+#### "Materials in the Record": Discovery 
 
 Rule 56(c) requires that "A party asserting that a fact cannot be or is genuinely disputed must support the assertion by citing to particular parts of materials in the record" or "showing that the materials cited do not establish the absence or presence of a genuine dispute, or that an adverse party cannot produce admissible evidence to support the fact." The "materials in the record" are produced in the discovery process, governed by FRCP Rules 26-32. 
 
@@ -198,8 +192,6 @@ The discovery methods authorized under the FRCP include depositions (i.e. examin
 The record may also include stipulations by the parties, i.e. agreements as to certain facts. The parties may stipulate to facts provisionally, for the purpose of summary judgment only, while reserving the right to contest the facts at trial if the court does not grant summary judgment. 
 
 </div>
-
-***
 
 #### Stout v. Vincent, 717 Fed. Appx. 468 (5th Cir. 2018)
 

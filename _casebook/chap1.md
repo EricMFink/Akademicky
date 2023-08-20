@@ -1,6 +1,6 @@
 ---
 layout: casebook
-title: Parties & Claims
+title: Introduction
 chapter: 1
 
 ---

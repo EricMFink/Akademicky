@@ -57,10 +57,11 @@ Since the adoption of the Fourteenth Amendment to the Federal Constitution, the 
 
 Except in cases affecting the personal status of the plaintiff, and cases in which that mode of service may be considered to have been assented to in advance, as hereinafter mentioned, the substituted service of process by publication, allowed by the law of Oregon and by similar laws in other States, where actions are brought against non-residents, is effectual only where, in connection with process against the person for commencing the action, property in the State is brought under the control of the court, and subjected to its disposition by process adapted to that purpose, or where the judgment is sought as a means of reaching such property or affecting some interest therein; in other words, where the action is in the nature of a proceeding _in rem_.
 
-It is true that, in a strict sense, a proceeding in rem is one taken directly against property, and has for its object the disposition of the property, without reference to the title of individual claimants; but, in a larger and more general sense, the terms are applied to actions between parties, where the direct object is to reach and dispose of property owned by them, or of some interest therein. Such are cases commenced by attachment against the property of debtors, or instituted to partition real estate, foreclose a mortgage, or enforce a lien. So far as they affect property in the State, they are substantially proceedings in rem in the broader sense which we have mentioned.[^Pennoyer5]
+[^Pennoyer5]
+
+It is true that, in a strict sense, a proceeding in rem is one taken directly against property, and has for its object the disposition of the property, without reference to the title of individual claimants; but, in a larger and more general sense, the terms are applied to actions between parties, where the direct object is to reach and dispose of property owned by them, or of some interest therein. Such are cases commenced by attachment against the property of debtors, or instituted to partition real estate, foreclose a mortgage, or enforce a lien. So far as they affect property in the State, they are substantially proceedings in rem in the broader sense which we have mentioned.
 
 [^Pennoyer5]:
-
   {-} In an omitted portion of the opinion, the Court notes some limits to its holding. In suits "to determine the civil status and capacities of" state residents (e.g. divorce cases) judgments may bind non-residents even "without personal service of process or personal notice". States may also require that non-residents appoint in-state agents to receive service, or consent to alternative forms of service, in cases involving business dealings or contracts within the state.
 
 It follows from the views expressed that the personal judgment recovered in the State court of Oregon against the plaintiff herein, then a non-resident of the State, was without any validity, and did not authorize a sale of the property in controversy. 
@@ -81,7 +82,7 @@ The [Donation Land Claims Act of 1850](https://www.historylink.org/File/9501) wa
 
 The questions for decision are (1) whether, within the limitations of the due process clause of the Fourteenth Amendment, appellant, a Delaware corporation, has by its activities in the State of Washington rendered itself amenable to proceedings in the courts of that state to recover unpaid contributions to the state unemployment compensation fund exacted by state statutes, and (2) whether the state can exact those contributions consistently with the due process clause of the Fourteenth Amendment.
 
-In this case notice of assessment[for unpaid contributions] for the years in question was personally served upon a sales solicitor employed by appellant in the State of Washington, and a copy of the notice was mailed by registered mail to appellant at its address in St. Louis, Missouri. Appellant appeared specially before the office of unemployment and moved to set aside the order and notice of assessment on the ground that the service upon appellant's salesman was not proper service upon appellant; that appellant was not a corporation of the State of Washington and was not doing business within the state; that it had no agent within the state upon whom service could be made; and that appellant is not an employer and does not furnish employment within the meaning of the statute.
+In this case notice of assessment for unpaid contributions for the years in question was personally served upon a sales solicitor employed by appellant in the State of Washington, and a copy of the notice was mailed by registered mail to appellant at its address in St. Louis, Missouri. {% marginfigure "intl-shoe" "casebook/img/IntlShoeBldg2.jpg" "International Shoe Co., St. Louis, Missouri" %} Appellant appeared specially before the office of unemployment and moved to set aside the order and notice of assessment on the ground that the service upon appellant's salesman was not proper service upon appellant; that appellant was not a corporation of the State of Washington and was not doing business within the state; that it had no agent within the state upon whom service could be made; and that appellant is not an employer and does not furnish employment within the meaning of the statute.
 
 The facts as found by the appeal tribunal and accepted by the state Superior Court and Supreme Court, are not in dispute. Appellant is a Delaware corporation, having its principal place of business in St. Louis, Missouri, and is engaged in the manufacture and sale of shoes and other footwear. It maintains places of business in several states, other than Washington, at which its manufacturing is carried on and from which its merchandise is distributed interstate through several sales units or branches located outside the State of Washington.
 
@@ -113,13 +114,6 @@ We are likewise unable to conclude that the service of the process within the st
 
 Appellant having rendered itself amenable to suit upon obligations arising out of the activities of its salesmen in Washington, the state may maintain the present suit _in personam_ to collect the tax laid upon the exercise of the privilege of employing appellant's salesmen within the state. For Washington has made one of those activities, which taken together establish appellant's "presence" there for purposes of suit, the taxable event by which the state brings appellant within the reach of its taxing power. The state thus has constitutional power to lay the tax and to subject appellant to a suit to recover it. The activities which establish its "presence" subject it alike to taxation by the state and to suit to recover the tax.
 
-![International Shoe Headquarters, St. Louis](../img/IntlShoeBldg1.jpg)
-
-![International Shoe Headquarters, St. Louis (detail)](../img/IntlShoeBldg2.jpg)
-
-
-*** 
-
 <div class="comment">
 
 #### Note on _International Shoe_ 
@@ -134,17 +128,17 @@ Suppose that Dan, who lives in Ohio, rents a beach house in the Outer Banks from
 
 The suit arises out of Dan's conduct in North Carolina, satisfying the minimum contacts requirement for personal jurisdiction. But there has been no service of process, so the court's power is not yet activated (Fig. 4.1).
 
-![Fig. 4.1](../img/PJ-NoService.png)
+![Fig. 4.1](../img/PJ-NoService.png){width="55%"}
 
 After filing the suit, Pat serves Dan with a copy of the summons and complaint, in a manner authorized, and within the time allowed, under Rule 4. The court's power is now active (Fig. 4.2).
 
-![Fig. 4.2](../img/PJ-Service.png)
+![Fig. 4.2](../img/PJ-Service.png){width="55%"}
 
 Suppose instead that Pat travels from North Carolina to Ohio for a football game between the Carolina Panthers and the Cleveland Browns. Dan, a diehard Browns fan, was sitting behind Pat. Throughout the game, Pat vociferously cheers for the visiting team and mercilessly heckles the Cleveland quarterback. Annoyed with Pat's taunts, Dan pours a large cup of beer over Pat's head, provoking a brawl in which Pat is badly injured. After returning home, having vowed never to return to Ohio again, Pat sues Dan for battery, filing the case in the U.S. District Court for the Eastern District of North Carolina.
 
 In this case, there has been service of process, but the suit does not arise out of any contacts between Dan and North Carolina. So the switch is not connected and the court has no power at all  (Fig. 4.3).
 
-![Fig. 4.3](../img/NoPJ-Service.png)
+![Fig. 4.3](../img/NoPJ-Service.png){width="55%"}
 
 </div>
 
@@ -315,8 +309,6 @@ The plaintiff's residence is not, of course, completely irrelevant to the jurisd
 It is undoubtedly true that the bulk of the harm done to petitioner occurred outside New Hampshire. But that will be true in almost every libel action brought somewhere other than the plaintiff's domicile. There is no justification for restricting libel actions to the plaintiff's home forum. The victim of a libel, like the victim of any other tort, may choose to bring suit in any forum with which the defendant has "certain minimum contacts such that the maintenance of the suit does not offend 'traditional notions of fair play and substantial justice."
 
 Where, as in this case, respondent Hustler Magazine, Inc., has continuously and deliberately exploited the New Hampshire market, it must reasonably anticipate being haled into court there in a libel action based on the contents of its magazine. And, since respondent can be charged with knowledge of the "single publication rule," it must anticipate that such a suit will seek nationwide damages. Respondent produces a national publication aimed at a nationwide audience. There is no unfairness in calling it to answer for the contents of that publication wherever a substantial number of copies are regularly sold and distributed.
-
-***
 
 <div class="comment">
 
@@ -943,22 +935,22 @@ Critics of Daimler and Goodyear may be happy to see them go. And make no mistake
 
 ### Synthesis: Analyzing a Personal Jurisdiction Problem 
 
-![Fig. 4.4](../img/personal-jurisdiction.png)
+![FIg. 4.4](../img/personal-jurisdiction.png)
 
 ## Statutory Authorization: Long-Arm Statutes
 
 Within the outer bounds allowed under the constitutional due process standard, the exercise of personal jurisdiction are subject to additional limits under state "long-arm" statutes. There are two types of long-arm statute.
 
-![Robert Wadlow, the tallest human in history, visiting Folsom Prison in 1939 as a spokesman for the International Shoe Company. ](../img/Long-Arm.jpg)
+![Robert Wadlow, the tallest human in history, visiting Folsom Prison in 1939 as a spokesman for the International Shoe Company. ](../img/Long-Arm.jpg){width="60%"}
 
 ### Enumerated Statutes 
 
 _Enumerated_ long-arm statutes identify particular circumstances in which a state's courts may exercise jurisdiction over a non-resident. The New York long-arm statute is an example:
 
 
-#### NY CPLR § 302
-
 <div class="legal-code">
+
+#### NY CPLR § 302
 
 ##### Personal jurisdiction by acts of non-domiciliaries.
 
@@ -988,22 +980,20 @@ _Enumerated_ long-arm statutes identify particular circumstances in which a stat
 
 </div>
 
-***
+Under an enumerated long-arm statute, determining whether the court may exercise personal jurisdiction requires a two-step analysis: 
 
-<div class="comment">
+(1) Does the case fall within one (or more) of the circumstances enumerated in the statute? 
 
-Under an enumerated long-arm statute, determining whether the court may exercise personal jurisdiction requires a two-step analysis: (1) Does the case fall within one (or more) of the circumstances enumerated in the statute? (2) If so, does the defendant have the requisite contacts with the forum state to satisfy the constitutional due process standard? 
+(2) If so, does the defendant have the requisite contacts with the forum state to satisfy the constitutional due process standard? 
 
-</div>
 
 ### Constitutional Limit Statutes 
 
 _Constitutional limit_ long-arm statutes grant a state's courts jurisdiction to the full extent permitted under the Constitution. California was the first state to adopt this type of long-arm statute:
 
+<div class="legal-code">
 
 #### Cal. Code Civ. Proc § 410.10
-
-<div class="legal-code">
 
 ##### Jurisdiction exercisable.
  
@@ -1011,15 +1001,9 @@ A court of this state may exercise jurisdiction on any basis not inconsistent wi
 
 </div>
 
-***
-
-<div class="comment">
-
 Under this type of long-arm statute, the same analysis (i.e. does the defendant have minimum contacts with the forum state?) answers both the statutory and constitutional question.
 
 Some enumerated long-arm statutes have been interpreted as authorizing the exercise of jurisdiction to the full extent permitted under the constitution. See, e.g., _Dillon v. Numismatic Funding Corp._, 291 N.C. 674, 676 (1977). ("By the enactment of [G.S. 1-75.4(1)(d)](https://bit.ly/3Li9KAB), it is apparent that the General Assembly intended to make available to the North Carolina courts the full jurisdictional powers permissible under federal due process.")
-
-</div>
 
 ## Review Questions
 

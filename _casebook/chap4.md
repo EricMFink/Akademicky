@@ -9,17 +9,17 @@ chapter: 4
 
 ### Constitutional & Statutory Basis 
 
-#### U.S. Constitution, art.III, § 2
-
 <div class="legal-code">
+
+#### U.S. Constitution, art.III, § 2
 
 The judicial power shall extend to all cases, in law and equity, arising under this Constitution, the laws of the United States, and treaties made, or which shall be made, under their authority; 
 
 </div>
 
-#### 28 U.S.C. § 1331
-
 <div class="legal-code">
+
+#### 28 U.S.C. § 1331
 
 The district courts shall have original jurisdiction of all civil actions arising under the Constitution, laws, or treaties of the United States.
 
@@ -106,11 +106,11 @@ The classic example is [_Smith v. Kansas City Title \& Trust Co._](https://schol
 
   {-} Recall that, in _Louisville & Nashville R. Co. v. Mottley_, the Court held there was no federal question jurisdiction even though the principal issue in that case was the legality of the Mottleys' free passes under the 1906 federal statute. How is _Mottley_ distinguishable from _Smith v. Kansas City Title & Trust_?
 
-The _Smith_ statement has been subject to some trimming to fit earlier and later cases recognizing the vitality of the basic doctrine, but shying away from the expansive view that mere need to apply federal law in a state-law claim will suffice to open the "arising under" door. [ ... ] It has in fact become a constant refrain in such cases that federal jurisdiction demands not only a contested federal issue, but a substantial one, indicating a serious federal interest in claiming the advantages thought to be inherent in a federal forum.
+The _Smith_ statement has been subject to some trimming to fit earlier and later cases recognizing the vitality of the basic doctrine, but shying away from the expansive view that mere need to apply federal law in a state-law claim will suffice to open the "arising under" door. It has in fact become a constant refrain in such cases that federal jurisdiction demands not only a contested federal issue, but a substantial one, indicating a serious federal interest in claiming the advantages thought to be inherent in a federal forum.
 
 But even when the state action discloses a contested and substantial federal question, the exercise of federal jurisdiction is subject to a possible veto. For the federal issue will ultimately qualify for a federal forum only if federal jurisdiction is consistent with congressional judgment about the sound division of labor between state and federal courts governing the application of § 1331. Because arising-under jurisdiction to hear a state-law claim always raises the possibility of upsetting the state-federal line drawn (or at least assumed) by Congress, the presence of a disputed federal issue and the ostensible importance of a federal forum are never necessarily dispositive; there must always be an assessment of any disruptive portent in exercising federal jurisdiction.
 
-These considerations have kept us from stating a "single, precise, all-embracing" test for jurisdiction over federal issues embedded in state-law claims between nondiverse parties. We have not kept them out simply because they appeared in state raiment, [ ... ] but neither have we treated "federal issue" as a password opening federal courts to any state action embracing a point of federal law. Instead, the question is, does a state-law claim necessarily raise a stated federal issue, actually disputed and substantial, which a federal forum may entertain without disturbing any congressionally approved balance of federal and state judicial responsibilities.
+These considerations have kept us from stating a "single, precise, all-embracing" test for jurisdiction over federal issues embedded in state-law claims between nondiverse parties. We have not kept them out simply because they appeared in state raiment, but neither have we treated "federal issue" as a password opening federal courts to any state action embracing a point of federal law. Instead, the question is, does a state-law claim necessarily raise a stated federal issue, actually disputed and substantial, which a federal forum may entertain without disturbing any congressionally approved balance of federal and state judicial responsibilities.
 
 ##### III
 
@@ -234,17 +234,17 @@ _Not Substantial: Gunn v. Minton_
 
 ### Constitutional & Statutory Basis 
 
-#### U.S. Constitution, art.III, § 2
-
 <div class="legal-code">
+
+#### U.S. Constitution, art.III, § 2
 
 The judicial power shall extend to all cases;--between citizens of different states; and between a state, or the citizens thereof, and foreign states, citizens or subjects.
 
 </div>
 
-#### 28 U.S.C. §  1332
-
 <div class="legal-code">
+
+#### 28 U.S.C. §  1332
 
 (a) The district courts shall have original jurisdiction of all civil actions where the matter in controversy exceeds the sum or value of $75,000, exclusive of interest and costs, and is between---
 
@@ -261,8 +261,6 @@ The judicial power shall extend to all cases;--between citizens of different sta
 > (1) a corporation shall be deemed to be a citizen of every State and foreign state by which it has been incorporated and of the State or foreign state where it has its principal place of business,
 
 > (2) the legal representative of the estate of a decedent shall be deemed to be a citizen only of the same State as the decedent, and the legal representative of an infant or incompetent shall be deemed to be a citizen only of the same State as the infant or incompetent.
-
-(d) [ ... ]
 
 (e) The word "States", as used in this section, includes the Territories, the District of Columbia, and the Commonwealth of Puerto Rico.
 
@@ -290,7 +288,7 @@ Plaintiff asserts that since she is a citizen of Utah and Defendants are citizen
 
 For purposes of establishing diversity jurisdiction, "a natural person's citizenship is determined by domicile. Although a person may have more than one residence, she may have only one domicile at any one time."
 
-Moreover, the court recognizes that "an individual ... acquires a ‘domicile of origin' at birth, which continues until a new one is acquired." There is a presumption that a person "retains the domicile with which he was born unless it can be shown that he has established a new domicile."
+Moreover, the court recognizes that "an individual acquires a ‘domicile of origin' at birth, which continues until a new one is acquired." There is a presumption that a person "retains the domicile with which he was born unless it can be shown that he has established a new domicile."
 
 When a person's domicile is in dispute, the court must consider the following two factors in determining a person's domicile: "(1) the party's physical presence in the state; (2) the intent to remain in that state indefinitely." In addition, it is the party asserting federal court jurisdiction, which in this case is the plaintiff, who shoulders the burden of proving by a preponderance of the evidence that diversity exists.
 
@@ -304,7 +302,7 @@ Furthermore, the case law makes it clear that in determining domicile for purpos
 
 > current residence, voting registration and voting practices, location of personal and real property; location of brokerage and bank accounts; memberships in unions, fraternal organizations, churches, clubs, and other associations; place of employment or business; driver's license and automobile registration; payment of taxes, as well as several others.
 
-Courts faced with the identical jurisdictional issue have also considered "the location of a person's physician, lawyer, accountant, dentist, stockbroker, etc." While the court recognizes that a person's own statement of intent with respect to acquiring or retaining a domicile may be relevant, it "is not conclusive ... and is to be accepted with considerable reserve."
+Courts faced with the identical jurisdictional issue have also considered "the location of a person's physician, lawyer, accountant, dentist, stockbroker, etc." While the court recognizes that a person's own statement of intent with respect to acquiring or retaining a domicile may be relevant, it "is not conclusive and is to be accepted with considerable reserve."
 
 In the instant action, Plaintiff was born and reared in North Carolina. Plaintiff attended Wake Forest University and the University of North Carolina at Chapel Hill. For the past year, Plaintiff has resided at 135 East Devonshire Street, Winston–Salem, North Carolina. Plaintiff also alleges that she owns the contents of the East Devonshire Street residence and Plaintiff has petitioned the court for injunctive relief permitting her to continue to reside there. The court finds that these actions standing alone indicate that Plaintiff's residence is located in North Carolina and that Plaintiff intends to remain in North Carolina.
 
@@ -316,7 +314,7 @@ Other factors clearly demonstrate that Plaintiff is a citizen of North Carolina.
 
 The court also finds the case of _Webb v. Nolan_, 361 F.Supp. 418 (M.D.N.C.1972), _aff'd_, 484 F.2d 1049 (4th Cir.1973) to be analogous to the present case. While the court recognizes that it is not binding precedent, the court nevertheless affords the Webb decision substantial weight. In Webb, the court held that the plaintiff was a citizen of North Carolina and not California for purposes of determining if diversity of citizenship existed between the parties. The court made the following findings of fact:
 
-> Plaintiff has regularly returned to North Carolina during the vacations and holidays from her teaching job in California. For years she considered a Winston–Salem physician her regular or family doctor.... The plaintiff admits that ... she was not employed in California on the date this action was instituted ... and that she owns personal property in California and it is in storage there.
+> Plaintiff has regularly returned to North Carolina during the vacations and holidays from her teaching job in California. For years she considered a Winston–Salem physician her regular or family doctor. The plaintiff admits that she was not employed in California on the date this action was instituted and that she owns personal property in California and it is in storage there.
 
 The court also found that "the fact that she was registered to vote in California (though she has not exercised her franchise there since returning to North Carolina in July 1971) and is not registered to vote [in North Carolina]  is immaterial under the circumstances."
 
@@ -382,7 +380,7 @@ As some district courts have noted, however, the Sixth Circuit has "referred app
 
 Ultimately, the Circuit decided the Sanford case on the ground that the plaintiffs admitted that the amount in controversy exceeded $75,000, so its endorsement in dicta of the "traditional rule" is just one piece of persuasive authority to weigh, rather than binding authority to follow.
 
-At the district-court level, "the majority of Sixth Circuit district courts to confront the question have held that counterclaims should not be considered when determining the amount in controversy for purposes of removal jurisdiction[.]"
+At the district-court level, "the majority of Sixth Circuit district courts to confront the question have held that counterclaims should not be considered when determining the amount in controversy for purposes of removal jurisdiction."
 
 These cases make three points that persuade me that I ought not consider the defendants' counterclaim damages in deciding the amount in controversy.
 
@@ -390,13 +388,13 @@ First, because removal jurisdiction is a creature of statute rather than based i
 
 Second, this approach is consistent with the rule that a defendant cannot remove a case to federal court on the basis of a defense or counterclaim that arises under federal law.
 
-Third, it also comports "with the well-pleaded-complaint rule, which provides that federal jurisdiction exists only when a federal question is presented on the face of the plaintiff['s] properly pleaded complaint. The competing approach of not requiring the jurisdictional amount to be met in the complaint flies in the face of the ... rule."
+Third, it also comports "with the well-pleaded-complaint rule, which provides that federal jurisdiction exists only when a federal question is presented on the face of the plaintiff['s] properly pleaded complaint. The competing approach of not requiring the jurisdictional amount to be met in the complaint flies in the face of the rule."
 
 I therefore hold that a defendants' counterclaim damages cannot satisfy the amount-in-controversy requirement. But even assuming that counterclaim damages could count toward the amount in controversy, I would not be able to consider STC and New Par's damages in any event.
 
 As already noted, courts determine the existence of jurisdiction at the time of removal.
 
-Here, STC and New Par did not file their counterclaim until after they removed the case to federal court. Accordingly, "considering the damages sought by the counterclaim ... would violate the rule that whether an action could have been brought in federal court originally is determined by the amount in controversy at the time of removal."
+Here, STC and New Par did not file their counterclaim until after they removed the case to federal court. Accordingly, "considering the damages sought by the counterclaim would violate the rule that whether an action could have been brought in federal court originally is determined by the amount in controversy at the time of removal."
 
 For these reasons, defendants' counterclaim damages cannot and do not satisfy the amount-in-controversy requirement.2
 
@@ -404,9 +402,9 @@ For these reasons, defendants' counterclaim damages cannot and do not satisfy th
 
 "In actions seeking declaratory or injunctive relief, it is well established that the amount in controversy is measured by the value of the object of the litigation." "Where a party seeks a declaratory judgment, the amount in controversy is not necessarily the money judgment sought or recovered, but rather the value of the consequences which may result from the litigation."
 
-The Trustees contend that their complaint "does not put any amount in controversy" because it "does not seek monetary damages." That argument doesn't hold much water [ ... ].
+The Trustees contend that their complaint "does not put any amount in controversy" because it "does not seek monetary damages." That argument doesn't hold much water.
 
-In their reply brief, the Trustees contend that "the object of the ... litigation ... is to require compliance with Ottawa Township's Zoning Resolution---a procedure which should not cost the Defendants anywhere near $75,000." But the Trustees provide no explanation---let alone evidence---to support their position that the cost of complying with the proposed declaratory judgment is $75,000 or less.
+In their reply brief, the Trustees contend that "the object of the litigation is to require compliance with Ottawa Township's Zoning Resolution---a procedure which should not cost the Defendants anywhere near $75,000." But the Trustees provide no explanation---let alone evidence---to support their position that the cost of complying with the proposed declaratory judgment is $75,000 or less.
 
 The defendants contend that "the construction of the wireless telecommunications facility itself is valued in excess of $250,000 and the damages that will be or have been incurred by the Defendants as a result of the Plaintiff's conduct go upwards from there."
 
@@ -548,11 +546,9 @@ The question of power will ordinarily be resolved on the pleadings. But the issu
 
 ### Statutory Basis 
 
-#### 28 U.S.C. §  1367
-
 <div class="legal-code">
 
-##### Supplemental Jurisdiction
+#### 28 U.S.C. §  1367
 
 (a) Except as provided in subsections (b) and (c) or as expressly provided otherwise by Federal statute, in any civil action of which the district courts have original jurisdiction, the district courts shall have supplemental jurisdiction over all other claims that are so related to claims in the action within such original jurisdiction that they form part of the same case or controversy under Article III of the United States Constitution. Such supplemental jurisdiction shall include claims that involve the joinder or intervention of additional parties.
 
@@ -588,9 +584,9 @@ Plaintiffs-Appellees Joyce Jones, Martha L. Edwards, Lou Cooper, and Vincent E. 
 
 In its Answer, Ford Credit denied the charges of racial discrimination and also asserted state-law counterclaims against Jones, Edwards, and Cooper for the amounts of their unpaid car loans. Ford Credit alleged that Jones was in default on her obligations under her contract for the purchase of a 1995 Ford Windstar, and that Edwards and Cooper were in default on payments for their joint purchase of a 1995 Mercury Cougar. Additionally, in the event that a class was certified, Ford Credit asserted conditional counterclaims against any member of that class who was in default on a car loan from Ford Credit. The Plaintiffs moved to dismiss Ford Credit's counterclaims for lack of subject matter jurisdiction, lack of personal jurisdiction, improper venue, and failure to state a claim upon which relief could be granted.
 
-The District Court granted the Plaintiffs' motion and dismissed Ford Credit's counterclaims, summarizing its reasons for doing so as follows: "Defendant's counterclaims do not meet the standard for compulsory counterclaims[, and] ... pursuant to § 1367(c)(4), ... there are compelling reasons to decline to exercise jurisdiction over the counterclaims."
+The District Court granted the Plaintiffs' motion and dismissed Ford Credit's counterclaims, summarizing its reasons for doing so as follows: "Defendant's counterclaims do not meet the standard for compulsory counterclaims, and pursuant to § 1367(c)(4), there are compelling reasons to decline to exercise jurisdiction over the counterclaims."
 
-In reaching these conclusions, Judge McKenna acknowledged some uncertainty. After determining that the counterclaims were permissive, he expressed doubt as to the jurisdictional consequence of that determination. On the one hand, he believed, as the Plaintiffs maintain, that permissive counterclaims must be dismissed if they lack an independent basis of federal jurisdiction. On the other hand, he acknowledged that "there was some authority to suggest that ... the court should determine, based on the particular circumstances of the case, whether it had authority to exercise supplemental jurisdiction under § 1367(a)" over a counterclaim, regardless of whether it was compulsory or permissive.
+In reaching these conclusions, Judge McKenna acknowledged some uncertainty. After determining that the counterclaims were permissive, he expressed doubt as to the jurisdictional consequence of that determination. On the one hand, he believed, as the Plaintiffs maintain, that permissive counterclaims must be dismissed if they lack an independent basis of federal jurisdiction. On the other hand, he acknowledged that "there was some authority to suggest that the court should determine, based on the particular circumstances of the case, whether it had authority to exercise supplemental jurisdiction under § 1367(a)" over a counterclaim, regardless of whether it was compulsory or permissive.
 
 To resolve his uncertainty, Judge McKenna initially ruled that the counterclaims, being permissive, "must be dismissed for lack of an independent basis of federal jurisdiction." He then ruled that, if he was wrong and if supplemental jurisdiction under section 1367 was available, he would still dismiss the counterclaims in the exercise of the discretion subsection 1367(c) gives district courts. 
 
@@ -628,7 +624,7 @@ We have indicated that, where at least one of the subsection 1367(c) factors is 
 
 Clearly the exception set forth in subsection 1367(c)(1) does not apply since Ford Credit's counterclaims do not raise a novel or complex issue of state law, but merely a standard contract question. Nor does subsection 1367(c)(3) apply since the District Court has not dismissed all claims over which it has original jurisdiction. That leaves subsections 1367(c)(2), permitting declination of supplemental jurisdiction where "the counterclaim substantially predominates over the claim or claims over which the district court has original jurisdiction," and 1367(c)(4), permitting declination "in exceptional circumstances, where there are other compelling reasons for declining jurisdiction." The District Court apparently based its decision on subsection 1367(c)(4), since it cited only that subsection in its opinion, but some of the concerns it discussed implicate the substantial predomination analysis of subsection 1367(c)(2) as well.
 
-Whether Ford Credit's counterclaims "predominate[ ]" over the Plaintiffs' claims and whether there are "exceptional circumstances" for declining jurisdiction cannot properly be determined until a decision has been made on the Plaintiffs' motion for class certification. Both the applicability of subsections 1367(c)(2) and (4), and the exercise of a district court's discretion in the event either or both are ruled applicable will be significantly influenced by the existence of a large class as sought by the Plaintiffs. The District Court's conclusions that it would be "unfair and inexpedient" to require out-of-state class members to litigate Ford's state law debt claims in New York, and that allowing the counterclaims might dissuade potential plaintiffs from joining the class, were therefore premature.
+Whether Ford Credit's counterclaims "predominate" over the Plaintiffs' claims and whether there are "exceptional circumstances" for declining jurisdiction cannot properly be determined until a decision has been made on the Plaintiffs' motion for class certification. Both the applicability of subsections 1367(c)(2) and (4), and the exercise of a district court's discretion in the event either or both are ruled applicable will be significantly influenced by the existence of a large class as sought by the Plaintiffs. The District Court's conclusions that it would be "unfair and inexpedient" to require out-of-state class members to litigate Ford's state law debt claims in New York, and that allowing the counterclaims might dissuade potential plaintiffs from joining the class, were therefore premature.
 
 Accordingly, we remand this case with directions to rule on the class certification motion, and then, in light of that ruling, to proceed to determine whether to exercise or decline supplemental jurisdiction.
 
@@ -714,7 +710,7 @@ The district courts of the United States, as we have said many times, are "court
 
 Although the district courts may not exercise jurisdiction absent a statutory basis, it is well established---in certain classes of cases---that, once a court has original jurisdiction over some claims in the action, it may exercise supplemental jurisdiction over additional claims that are part of the same case or controversy. The leading modern case for this principle is _Mine Workers v. Gibbs_. In _Gibbs,_ the plaintiff alleged the defendant's conduct violated both federal and state law. The District Court, _Gibbs_ held, had original jurisdiction over the action based on the federal claims. _Gibbs_ confirmed that the District Court had the additional power (though not the obligation) to exercise supplemental jurisdiction over related state claims that arose from the same Article III case or controversy. 
 
-We have not, however, applied _Gibbs'_ expansive interpretive approach to other aspects of the jurisdictional statutes. For instance, we have consistently interpreted § 1332 as requiring complete diversity: In a case with multiple plaintiffs and multiple defendants, the presence in the action of a single plaintiff from the same State as a single defendant deprives the district court of original diversity jurisdiction over the entire action. The complete diversity requirement is not mandated by the Constitution, or by the plain text of § 1332(a). The Court, nonetheless, has adhered to the complete diversity rule in light of the purpose of the diversity requirement, which is to provide a federal forum for important disputes where state courts might favor, or be perceived as favoring, home-state litigants. The presence of parties from the same State on both sides of a case dispels this concern, eliminating a principal reason for conferring § 1332 jurisdiction over any of the claims in the action. [ ... ] In order for a federal court to invoke supplemental jurisdiction under _Gibbs,_ it must first have original jurisdiction over at least one claim in the action. Incomplete diversity destroys original jurisdiction with respect to all claims, so there is nothing to which supplemental jurisdiction can adhere.
+We have not, however, applied _Gibbs'_ expansive interpretive approach to other aspects of the jurisdictional statutes. For instance, we have consistently interpreted § 1332 as requiring complete diversity: In a case with multiple plaintiffs and multiple defendants, the presence in the action of a single plaintiff from the same State as a single defendant deprives the district court of original diversity jurisdiction over the entire action. The complete diversity requirement is not mandated by the Constitution, or by the plain text of § 1332(a). The Court, nonetheless, has adhered to the complete diversity rule in light of the purpose of the diversity requirement, which is to provide a federal forum for important disputes where state courts might favor, or be perceived as favoring, home-state litigants. The presence of parties from the same State on both sides of a case dispels this concern, eliminating a principal reason for conferring § 1332 jurisdiction over any of the claims in the action. In order for a federal court to invoke supplemental jurisdiction under _Gibbs,_ it must first have original jurisdiction over at least one claim in the action. Incomplete diversity destroys original jurisdiction with respect to all claims, so there is nothing to which supplemental jurisdiction can adhere.
 
 ###### B
 
@@ -726,11 +722,11 @@ We now conclude the answer must be yes. When the well-pleaded complaint contains
 
 Section 1367(a) commences with the direction that §§ 1367(b) and (c), or other relevant statutes, may provide specific exceptions, but otherwise § 1367(a) is a broad jurisdictional grant, with no distinction drawn between pendent-claim and pendent-party cases. In fact, the last sentence of § 1367(a) makes clear that the provision grants supplemental jurisdiction over claims involving joinder or intervention of additional parties. The terms of § 1367 do not acknowledge any distinction between pendent jurisdiction and the doctrine of so-called ancillary jurisdiction. Though the doctrines of pendent and ancillary jurisdiction developed separately as a historical matter, the Court has recognized that the doctrines are "two species of the same generic problem". Nothing in § 1367 indicates a congressional intent to recognize, preserve, or create some meaningful, substantive distinction between the jurisdictional categories we have historically labeled pendent and ancillary.
 
-If § 1367(a) were the sum total of the relevant statutory language, our holding would rest on that language alone. The statute, of course, instructs us to examine § 1367(b) to determine if any of its exceptions apply, so we proceed to that section. While § 1367(b) qualifies the broad rule of § 1367(a), it does not withdraw supplemental jurisdiction over the claims of the additional parties at issue here. The specific exceptions to § 1367(a) contained in § 1367(b), moreover, provide additional support for our conclusion that § 1367(a) confers supplemental jurisdiction over these claims. Section 1367(b), which applies only to diversity cases, withholds supplemental jurisdiction over the claims of plaintiffs proposed to be joined as indispensable parties under Federal Rule of Civil Procedure 19, or who seek to intervene pursuant to Rule 24. Nothing in the text of § 1367(b), however, withholds supplemental jurisdiction over the claims of plaintiffs permissively joined under Rule 20 (like the additional plaintiffs in [_Rosario Ortega_]) [ ... ]. The natural, indeed the necessary, inference is that §  1367 confers supplemental jurisdiction over claims by Rule 20 and Rule 23 plaintiffs. This inference, at least with respect to Rule 20 plaintiffs, is strengthened by the fact that § 1367(b) explicitly excludes supplemental jurisdiction over claims against defendants joined under Rule 20.
+If § 1367(a) were the sum total of the relevant statutory language, our holding would rest on that language alone. The statute, of course, instructs us to examine § 1367(b) to determine if any of its exceptions apply, so we proceed to that section. While § 1367(b) qualifies the broad rule of § 1367(a), it does not withdraw supplemental jurisdiction over the claims of the additional parties at issue here. The specific exceptions to § 1367(a) contained in § 1367(b), moreover, provide additional support for our conclusion that § 1367(a) confers supplemental jurisdiction over these claims. Section 1367(b), which applies only to diversity cases, withholds supplemental jurisdiction over the claims of plaintiffs proposed to be joined as indispensable parties under Federal Rule of Civil Procedure 19, or who seek to intervene pursuant to Rule 24. Nothing in the text of § 1367(b), however, withholds supplemental jurisdiction over the claims of plaintiffs permissively joined under Rule 20 (like the additional plaintiffs in [_Rosario Ortega_]). The natural, indeed the necessary, inference is that §  1367 confers supplemental jurisdiction over claims by Rule 20 and Rule 23 plaintiffs. This inference, at least with respect to Rule 20 plaintiffs, is strengthened by the fact that § 1367(b) explicitly excludes supplemental jurisdiction over claims against defendants joined under Rule 20.
 
 We cannot accept the view, urged by some of the parties, commentators, and Courts of Appeals, that a district court lacks original jurisdiction over a civil action unless the court has original jurisdiction over every claim in the complaint. As we understand this position, it requires assuming either that all claims in the complaint must stand or fall as a single, indivisible "civil action" as a matter of definitional necessity ---what we will refer to as the "indivisibility theory"---or else that the inclusion of a claim or party falling outside the district court's original jurisdiction somehow contaminates every other claim in the complaint, depriving the court of original jurisdiction over any of these claims---what we will refer to as the "contamination theory."
 
-The indivisibility theory is easily dismissed, as it is inconsistent with the whole notion of supplemental jurisdiction. If a district court must have original jurisdiction over every claim in the complaint in order to have "original jurisdiction" over a "civil action," then in _Gibbs_ there was no civil action of which the district court could assume original jurisdiction under § 1331, and so no basis for exercising supplemental jurisdiction over any of the claims. The indivisibility theory is further belied by our practice---in both federal-question and diversity cases---of allowing federal courts to cure jurisdictional defects by dismissing the offending parties rather than dismissing the entire action. [ ... ]If the presence of jurisdictionally problematic claims in the complaint meant the district court was without original jurisdiction over the single, indivisible civil action before it, then the district court would have to dismiss the whole action rather than particular parties.
+The indivisibility theory is easily dismissed, as it is inconsistent with the whole notion of supplemental jurisdiction. If a district court must have original jurisdiction over every claim in the complaint in order to have "original jurisdiction" over a "civil action," then in _Gibbs_ there was no civil action of which the district court could assume original jurisdiction under § 1331, and so no basis for exercising supplemental jurisdiction over any of the claims. The indivisibility theory is further belied by our practice---in both federal-question and diversity cases---of allowing federal courts to cure jurisdictional defects by dismissing the offending parties rather than dismissing the entire action. If the presence of jurisdictionally problematic claims in the complaint meant the district court was without original jurisdiction over the single, indivisible civil action before it, then the district court would have to dismiss the whole action rather than particular parties.
 
 We also find it unconvincing to say that the definitional indivisibility theory applies in the context of diversity cases but not in the context of federal-question cases. The broad and general language of the statute does not permit this result. The contention is premised on the notion that the phrase "original jurisdiction of all civil actions" means different things in §§ 1331 and 1332. It is implausible, however, to say that the identical phrase means one thing (original jurisdiction in all actions where at least one claim in the complaint meets the following requirements) in § 1331 and something else (original jurisdiction in all actions where every claim in the complaint meets the following requirements) in § 1332.
 
@@ -738,7 +734,7 @@ The contamination theory, as we have noted, can make some sense in the special c
 
 It is fallacious to suppose, simply from the proposition that § 1332 imposes both the diversity requirement and the amount-in-controversy requirement, that the contamination theory germane to the former is also relevant to the latter. There is no inherent logical connection between the amount-in-controversy requirement and § 1332 diversity jurisdiction. After all, federal-question jurisdiction once had an amount-in-controversy requirement as well. If such a requirement were revived under § 1331, it is clear beyond peradventure that § 1367(a) provides supplemental jurisdiction over federal-question cases where some, but not all, of the federal-law claims involve a sufficient amount in controversy. In other words, § 1367(a) unambiguously overrules the holding and the result in _Clark._ If that is so, however, it would be quite extraordinary to say that § 1367 did not also overrule _Zahn,_ a case that was premised in substantial part on the holding in _Clark.
 
-We also reject the argument [ ... ] that while the presence of additional claims over which the district court lacks jurisdiction does not mean the civil action is outside the purview of § 1367(a), the presence of additional parties does. The basis for this distinction is not altogether clear, and it is in considerable tension with statutory text. Section 1367(a) applies by its terms to any civil action of which the district courts have original jurisdiction, and the last sentence of § 1367(a) expressly contemplates that the court may have supplemental jurisdiction over additional parties. So it cannot be the case that the presence of those parties destroys the court's original jurisdiction, within the meaning of § 1367(a), over a civil action otherwise properly before it. Also, § 1367(b) expressly withholds supplemental jurisdiction in diversity cases over claims by plaintiffs joined as indispensable parties under Rule 19. If joinder of such parties were sufficient to deprive the district court of original jurisdiction over the civil action within the meaning of § 1367(a), this specific limitation on supplemental jurisdiction in § 1367(b) would be superfluous. The argument that the presence of additional parties removes the civil action from the scope of § 1367(a) also would mean that § 1367 left the _Finley_ result undisturbed. _Finley,_ after all, involved a Federal Tort Claims Act suit against a federal defendant and state-law claims against additional defendants not otherwise subject to federal jurisdiction. Yet all concede that one purpose of § 1367 was to change the result reached in _Finley.
+We also reject the argument that while the presence of additional claims over which the district court lacks jurisdiction does not mean the civil action is outside the purview of § 1367(a), the presence of additional parties does. The basis for this distinction is not altogether clear, and it is in considerable tension with statutory text. Section 1367(a) applies by its terms to any civil action of which the district courts have original jurisdiction, and the last sentence of § 1367(a) expressly contemplates that the court may have supplemental jurisdiction over additional parties. So it cannot be the case that the presence of those parties destroys the court's original jurisdiction, within the meaning of § 1367(a), over a civil action otherwise properly before it. Also, § 1367(b) expressly withholds supplemental jurisdiction in diversity cases over claims by plaintiffs joined as indispensable parties under Rule 19. If joinder of such parties were sufficient to deprive the district court of original jurisdiction over the civil action within the meaning of § 1367(a), this specific limitation on supplemental jurisdiction in § 1367(b) would be superfluous. The argument that the presence of additional parties removes the civil action from the scope of § 1367(a) also would mean that § 1367 left the _Finley_ result undisturbed. _Finley,_ after all, involved a Federal Tort Claims Act suit against a federal defendant and state-law claims against additional defendants not otherwise subject to federal jurisdiction. Yet all concede that one purpose of § 1367 was to change the result reached in _Finley.
 
 Finally, it is suggested that our interpretation of § 1367(a) creates an anomaly regarding the exceptions listed in § 1367(b): It is not immediately obvious why Congress would withhold supplemental jurisdiction over plaintiffs joined as parties "needed for just adjudication" under Rule 19 but would allow supplemental jurisdiction over plaintiffs permissively joined under Rule 20. The omission of Rule 20 plaintiffs from the list of exceptions in § 1367(b) may have been an "unintentional drafting gap". If that is the case, it is up to Congress rather than the courts to fix it. The omission may seem odd, but it is not absurd. An alternative explanation for the different treatment of Rules 19 and 20 is that Congress was concerned that extending supplemental jurisdiction to Rule 19 plaintiffs would allow circumvention of the complete diversity rule: A nondiverse plaintiff might be omitted intentionally from the original action, but joined later under Rule 19 as a necessary party. The contamination theory described above, if applicable, means this ruse would fail, but Congress may have wanted to make assurance double sure. More generally, Congress may have concluded that federal jurisdiction is only appropriate if the district court would have original jurisdiction over the claims of all those plaintiffs who are so essential to the action that they could be joined under Rule 19.
 
@@ -760,9 +756,9 @@ It follows from this conclusion that the threshold requirement of § 1367(a) is
 
 ## Removal Jurisdiction
 
-#### 28 U.S.C. §  1441
-
 <div class="legal-code">
+
+#### 28 U.S.C. §  1441
 
 ##### Removal of civil actions
 
@@ -772,9 +768,9 @@ It follows from this conclusion that the threshold requirement of § 1367(a) is
 
 </div>
 
-#### 28 U.S.C. §  1447
-
 <div class="legal-code">
+
+#### 28 U.S.C. §  1447
 
 ##### Procedure after removal generally
 
@@ -786,9 +782,9 @@ It follows from this conclusion that the threshold requirement of § 1367(a) is
 
 </div>
 
-#### 28 U.S.C. §  1445
-
 <div class="legal-code">
+
+#### 28 U.S.C. §  1445
 
 ##### Nonremovable actions [^Removal1]
 

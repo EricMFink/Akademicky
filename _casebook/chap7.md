@@ -7,23 +7,41 @@ chapter: 7
 
 ## General Principles
 
-#### Rest. (2d) of Judgments
-
 <div class="legal-code">
 
-##### § 13. Requirement of Finality
+#### Rest. (2d) of Judgments § 13
+
+##### Requirement of Finality
 
 The rules of res judicata are applicable only when a final judgment is rendered. However, for purposes of issue preclusion (as distinguished from merger and bar), "final judgment" includes any prior adjudication of an issue in another action that is determined to be sufficiently firm to be accorded conclusive effect.
 
-##### § 14. Effective Date of Final Judgment
+</div>
+
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 14
+
+##### Effective Date of Final Judgment
 
 For purposes of res judicata, the effective date of a final judgment is the date of its rendition, without regard to the date of commencement of the action in which it is rendered or the action in which it is to be given effect.
 
-##### § 15. Inconsistent Judgments
+</div>
+
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 15
+
+##### Inconsistent Judgments
 
 When in two actions inconsistent final judgments are rendered, it is the later, not the earlier, judgment that is accorded conclusive effect in a third action under the rules of res judicata.
 
-##### § 16. Judgment Based Upon a Judgment That Is Subsequently Reversed
+</div>
+
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 16
+
+##### Judgment Based Upon a Judgment That Is Subsequently Reversed
 
 A judgment based on an earlier judgment is not nullified automatically by reason of the setting aside, or reversal on appeal, or other nullification of that earlier judgment; but the later judgment may be set aside, in appropriate proceedings, with provision for any suitable restitution of benefits received under it.
 
@@ -31,11 +49,11 @@ A judgment based on an earlier judgment is not nullified automatically by reason
 
 ## Claim Preclusion
 
-#### Rest. (2d) of Judgments
-
 <div class="legal-code">
 
-##### § 17. Effects of Former Adjudication—General Rules
+#### Rest. (2d) of Judgments § 17
+
+##### Effects of Former Adjudication—General Rules
 
 A valid and final personal judgment is conclusive between the parties, except on appeal or other direct review, to the following extent:
 
@@ -43,19 +61,36 @@ A valid and final personal judgment is conclusive between the parties, except on
 
 (2) If the judgment is in favor of the defendant, the claim is extinguished and the judgment bars a subsequent action on that claim (see §19);
 
+</div>
 
-##### § 18. Judgment for Plaintiff—The General Rule of Merger
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 18
+
+##### Judgment for Plaintiff—The General Rule of Merger
 
 When a valid and final personal judgment is rendered in favor of the plaintiff:
 
 (1) The plaintiff cannot thereafter maintain an action on the original claim or any part thereof, although he may be able to maintain an action upon the judgment; and
 (2) In an action upon the judgment, the defendant cannot avail himself of defenses he might have interposed, or did interpose, in the first action.
 
-##### § 19. Judgment for Defendant—The General Rule of Bar
+</div>
+
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 19
+
+##### Judgment for Defendant—The General Rule of Bar
 
 A valid and final personal judgment rendered in favor of the defendant bars another action by the plaintiff on the same claim.
 
-##### § 20. Judgment for Defendant—Exceptions to the General Rule of Bar
+</div>
+
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 20
+
+##### Judgment for Defendant—Exceptions to the General Rule of Bar
 
 (1) A personal judgment for the defendant, although valid and final, does not bar another action by the plaintiff on the same claim:
 
@@ -67,13 +102,25 @@ A valid and final personal judgment rendered in favor of the defendant bars anot
 
 (2) A valid and final personal judgment for the defendant, which rests on the prematurity of the action or on the plaintiff’s failure to satisfy a precondition to suit, does not bar another action by the plaintiff instituted after the claim has matured, or the precondition has been satisfied, unless a second action is precluded by operation of the substantive law.
 
-##### § 21. Judgment for Defendant on His Counterclaim
+</div>
+
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 21
+
+##### Judgment for Defendant on His Counterclaim
 
 (1) Where the defendant interposes a counterclaim on which judgment is rendered in his favor, the rules of merger are applicable to the claim stated in the counterclaim, except as stated in Subsection (2).
 
 (2) Where judgment on a counterclaim is rendered in favor of the defendant, but he is unable to obtain full recovery in the action because of the inability of the court to render such a judgment and the unavailability of such devices as removal to another court or consolidation with another action in the same court, the defendant is not precluded from subsequently maintaining an action for the balance due on the claim stated in the counterclaim.
 
-##### § 22. Effect of Failure to Interpose Counterclaim
+</div>
+
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 22
+
+##### Effect of Failure to Interpose Counterclaim
 
 (1) Where the defendant may interpose a claim as a counterclaim but he fails to do so, he is not thereby precluded from subsequently maintaining an action on that claim, except as stated in Subsection (2).
 
@@ -83,8 +130,13 @@ A valid and final personal judgment rendered in favor of the defendant bars anot
 
 > (b) The relationship between the counterclaim and the plaintiff’s claim is such that successful prosecution of the second action would nullify the initial judgment or would impair rights established in the initial action.
 
+</div>
 
-##### § 23. Judgment for Plaintiff on Defendant’s Counterclaim
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 23
+
+##### Judgment for Plaintiff on Defendant’s Counterclaim
 
 Where the defendant interposes a claim as a counterclaim and a valid and final judgment is rendered against him on the counterclaim, the rules of bar are applicable to the judgment.
 
@@ -257,11 +309,11 @@ We acknowledge the terrible reality that Mr. Johnson must have faced during the 
 
 ### Same Claim
 
-#### Rest. (2d) of Judgments
-
 <div class="legal-code">
 
-##### § 24. Dimensions of "Claim" for Purposes of Merger or Bar—General Rule Concerning "Splitting"
+#### Rest. (2d) of Judgments § 24
+
+##### Dimensions of "Claim" for Purposes of Merger or Bar—General Rule Concerning "Splitting"
 
 (1) When a valid and final judgment rendered in an action extinguishes the plaintiff’s claim pursuant to the rules of merger or bar (see §§18, 19), the claim extinguished includes all rights of the plaintiff to remedies against the defendant with respect to all or any part of the transaction, or series of connected transactions, out of which the action arose.
 
@@ -269,8 +321,13 @@ We acknowledge the terrible reality that Mr. Johnson must have faced during the 
 
 The general rule of this Section is exemplified in §25, and is subject to the exceptions stated in §26.
 
+</div>
 
-##### § 25. Exemplifications of General Rule Concerning Splitting
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 25
+
+##### § Exemplifications of General Rule Concerning Splitting
 
 The rule of §24 applies to extinguish a claim by the plaintiff against the defendant even though the plaintiff is prepared in the second action
 
@@ -337,35 +394,35 @@ On April 6, one week after the Fifth Circuit's decision, petitioners, a group of
 
 The District Court subsequently received stipulations from the parties and depositions from the parties' experts. The court conducted a 4-day bench trial. It heard, among other testimony, the opinions from expert witnesses for both sides. On the basis of the stipulations, depositions, and testimony, that court reached the following conclusions:
 
-1. Of Texas' population of more than 25 million people, "approximately 5.4 million" are "women" of "reproductive age," living within a geographical area of "nearly 280,000 square miles."
+1. Of Texas' population of more than 25 million people, "approximately 5.4 million" are "women" of "reproductive age," living within a geographical area of "nearly 280,000 square miles."
 
-2. "In recent years, the number of abortions reported in Texas has stayed fairly consistent at approximately 15-16% of the reported pregnancy rate, for a total number of approximately 60,000-72,000 legal abortions performed annually."
+2. "In recent years, the number of abortions reported in Texas has stayed fairly consistent at approximately 15-16% of the reported pregnancy rate, for a total number of approximately 60,000-72,000 legal abortions performed annually."
 
-3. Prior to the enactment of H.B. 2, there were more than 40 licensed abortion facilities in Texas, which "number dropped by almost half leading up to and in the wake of enforcement of the admitting-privileges requirement that went into effect in late-October 2013." 
+3. Prior to the enactment of H.B. 2, there were more than 40 licensed abortion facilities in Texas, which "number dropped by almost half leading up to and in the wake of enforcement of the admitting-privileges requirement that went into effect in late-October 2013." 
 
-4. If the surgical-center provision were allowed to take effect, the number of abortion facilities, after September 1, 2014, would be reduced further, so that "only seven facilities and a potential eighth will exist in Texas." 
+4. If the surgical-center provision were allowed to take effect, the number of abortion facilities, after September 1, 2014, would be reduced further, so that "only seven facilities and a potential eighth will exist in Texas." 
 
-5. Abortion facilities "will remain only in Houston, Austin, San Antonio, and the Dallas/Fort Worth metropolitan region." These include "one facility in Austin, two in Dallas, one in Fort Worth, two in Houston, and either one or two in San Antonio." 
+5. Abortion facilities "will remain only in Houston, Austin, San Antonio, and the Dallas/Fort Worth metropolitan region." These include "one facility in Austin, two in Dallas, one in Fort Worth, two in Houston, and either one or two in San Antonio." 
 
-6. "Based on historical data pertaining to Texas's average number of abortions, and assuming perfectly equal distribution among the remaining seven or eight providers, this would result in each facility serving between 7,500 and 10,000 patients per year. Accounting for the seasonal variations in pregnancy rates and a slightly unequal distribution of patients at each clinic, it is foreseeable that over 1,200 women per month could be vying for counseling, appointments, and follow-up visits at some of these facilities." 
+6. "Based on historical data pertaining to Texas's average number of abortions, and assuming perfectly equal distribution among the remaining seven or eight providers, this would result in each facility serving between 7,500 and 10,000 patients per year. Accounting for the seasonal variations in pregnancy rates and a slightly unequal distribution of patients at each clinic, it is foreseeable that over 1,200 women per month could be vying for counseling, appointments, and follow-up visits at some of these facilities." 
 
-7. The suggestion "that these seven or eight providers could meet the demand of the entire state stretches credulity." 
+7. The suggestion "that these seven or eight providers could meet the demand of the entire state stretches credulity." 
 
-8. "Between November 1, 2012 and May 1, 2014," that is, before and after enforcement of the admitting-privileges requirement, "the decrease in geographical distribution of abortion facilities" has meant that the number of women of reproductive age living more than 50 miles from a clinic has doubled (from 800,000 to over 1.6 million); those living more than 100 miles has increased by 150% (from 400,000 to 1 million); those living more than 150 miles has increased by more than 350% (from 86,000 to 400,000); and those living more than 200 miles has increased by about 2,800% (from 10,000 to 290,000). After September 2014, should the surgical-center requirement go into effect, the number of women of reproductive age living significant distances from an abortion provider will increase as follows: 2 million women of reproductive age will live more than 50 miles from an abortion provider; 1.3 million will live more than 100 miles from an abortion provider; 900,000 will live more than 150 miles from an abortion provider; and 750,000 more than 200 miles from an abortion provider. 
+8. "Between November 1, 2012 and May 1, 2014," that is, before and after enforcement of the admitting-privileges requirement, "the decrease in geographical distribution of abortion facilities" has meant that the number of women of reproductive age living more than 50 miles from a clinic has doubled (from 800,000 to over 1.6 million); those living more than 100 miles has increased by 150% (from 400,000 to 1 million); those living more than 150 miles has increased by more than 350% (from 86,000 to 400,000); and those living more than 200 miles has increased by about 2,800% (from 10,000 to 290,000). After September 2014, should the surgical-center requirement go into effect, the number of women of reproductive age living significant distances from an abortion provider will increase as follows: 2 million women of reproductive age will live more than 50 miles from an abortion provider; 1.3 million will live more than 100 miles from an abortion provider; 900,000 will live more than 150 miles from an abortion provider; and 750,000 more than 200 miles from an abortion provider. 
 
-9. The "two requirements erect a particularly high barrier for poor, rural, or disadvantaged women." 
+9. The "two requirements erect a particularly high barrier for poor, rural, or disadvantaged women." 
 
-10. "The great weight of evidence demonstrates that, before the act's passage, abortion in Texas was extremely safe with particularly low rates of serious complications and virtually no deaths occurring on account of the procedure." 
+10. "The great weight of evidence demonstrates that, before the act's passage, abortion in Texas was extremely safe with particularly low rates of serious complications and virtually no deaths occurring on account of the procedure." 
 
-11. "Abortion, as regulated by the State before the enactment of House Bill 2, has been shown to be much safer, in terms of minor and serious complications, than many common medical procedures not subject to such intense regulation and scrutiny."
+11. "Abortion, as regulated by the State before the enactment of House Bill 2, has been shown to be much safer, in terms of minor and serious complications, than many common medical procedures not subject to such intense regulation and scrutiny."
 
-12. "Additionally, risks are not appreciably lowered for patients who undergo abortions at ambulatory surgical centers as compared to nonsurgical-center facilities." 
+12. "Additionally, risks are not appreciably lowered for patients who undergo abortions at ambulatory surgical centers as compared to nonsurgical-center facilities." 
 
-13. "Women will not obtain better care or experience more frequent positive outcomes at an ambulatory surgical center as compared to a previously licensed facility."
+13. "Women will not obtain better care or experience more frequent positive outcomes at an ambulatory surgical center as compared to a previously licensed facility."
 
-14. "There are 433 licensed ambulatory surgical centers in Texas," of which "336 are apparently either 'grandfathered' or enjoy the benefit of a waiver of some or all" of the surgical-center "requirements."
+14. "There are 433 licensed ambulatory surgical centers in Texas," of which "336 are apparently either 'grandfathered' or enjoy the benefit of a waiver of some or all" of the surgical-center "requirements."
 
-15. The "cost of coming into compliance" with the surgical-center requirement "for existing clinics is significant," "undisputedly approaching 1 million dollars," and "most likely exceeding 1.5 million dollars," with "some clinics" unable to "comply due to physical size limitations of their sites." The "cost of acquiring land and constructing a new compliant clinic will likely exceed three million dollars." 
+15. The "cost of coming into compliance" with the surgical-center requirement "for existing clinics is significant," "undisputedly approaching 1 million dollars," and "most likely exceeding 1.5 million dollars," with "some clinics" unable to "comply due to physical size limitations of their sites." The "cost of acquiring land and constructing a new compliant clinic will likely exceed three million dollars." 
 
 On the basis of these and other related findings, the District Court determined that the surgical-center requirement "imposes an undue burden on the right of women throughout Texas to seek a previability abortion," and that the "admitting-privileges requirement, in conjunction with the ambulatory-surgical-center requirement, imposes an undue burden on the right of women in the Rio Grande Valley, El Paso, and West Texas to seek a previability abortion." The District Court concluded that the "two provisions" would cause "the closing of almost all abortion clinics in Texas that were operating legally in the fall of 2013," and thereby create a constitutionally "impermissible obstacle as applied to all women seeking a previability abortion" by "restricting access to previously available legal facilities." On August 29, 2014, the court enjoined the enforcement of the two provisions. 
 
@@ -629,11 +686,11 @@ As POW has established all three factors, the Court finds that all claims in thi
 
 ### Exceptions
 
-#### Rest. (2d) of Judgments
-
 <div class="legal-code">
 
-##### § 26. Exceptions to the General Rule Concerning Splitting
+#### Rest. (2d) of Judgments § 26
+
+##### Exceptions to the General Rule Concerning Splitting
 
 (1) When any of the following circumstances exists, the general rule of §24 does not apply to extinguish the claim, and part or all of the claim subsists as a possible basis for a second action by the plaintiff against the defendant:
 
@@ -713,21 +770,33 @@ That does not necessarily mean giving litigants like Passaro a second bite at th
 
 ## Issue Preclusion
 
-#### Rest. (2d) of Judgments 
-
 <div class="legal-code">
 
-##### §17. Effects of Former Adjudication—General Rules
+#### Rest. (2d) of Judgments § 17
+
+##### Effects of Former Adjudication—General Rules
 
 A valid and final personal judgment is conclusive between the parties, except on appeal or other direct review, to the following extent:
 
 (3) A judgment in favor of either the plaintiff or the defendant is conclusive, in a subsequent action between them on the same or a different claim, with respect to any issue actually litigated and determined if its determination was essential to that judgment (see §27).
 
-##### § 27. Issue Preclusion—General Rule
+</div>
+
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 27
+
+##### Issue Preclusion—General Rule
 
 When an issue of fact or law is actually litigated and determined by a valid and final judgment, and the determination is essential to the judgment, the determination is conclusive in a subsequent action between the parties, whether on the same or a different claim.
 
-##### § 28. Exceptions to the General Rule of Issue Preclusion
+</div>
+
+<div class="legal-code">
+
+#### Rest. (2d) of Judgments § 28
+
+##### Exceptions to the General Rule of Issue Preclusion
 
 Although an issue is actually litigated and determined by a valid and final judgment, and the determination is essential to the judgment, relitigation of the issue in a subsequent action between the parties is not precluded in the following circumstances:
 
@@ -795,9 +864,9 @@ The district court granted Time Warner's motion for summary judgment in the _Coa
 
 > With regard to the ruling, NSS has failed to state a claim pursuant to the terms of the contracts at issue in this case as well as 47 United States Code Section 605.
 >  
-> Paragraph 14(e) of the Television Licensing Agreement provides for the enforcement of unauthorized display of the closed circuit television feed. That also provides that Joe Hand Promotions the licensor of the event could not assert any piracy claim without prior notice.
+> > Paragraph 14(e) of the Television Licensing Agreement provides for the enforcement of unauthorized display of the closed circuit television feed. That also provides that Joe Hand Promotions the licensor of the event could not assert any piracy claim without prior notice.
 > 
-> The agreement provides that a sublicensee NSS has no rights to enforceability, quote, "It being understood that your sublicensee shall have no right to commence or settle any claim or litigation hereunder."
+> > > The agreement provides that a sublicensee NSS has no rights to enforceability, quote, "It being understood that your sublicensee shall have no right to commence or settle any claim or litigation hereunder."
 > 
 > The other relevant agreement is the March 12, 1996 Closed Circuit Television Agreement entered into between the licensor and NSS.
 > 
@@ -809,7 +878,7 @@ Time Warner now argues that the district court below should have given preclusiv
 
 Our circuit has held that a prior decision shall have preclusive effect on an issue raised in a later case if four elements are met:
 
-> (1) the precise issue raised in the present case must have been raised and actually litigated in the prior proceeding; (2) determination of the issue must have been necessary to the outcome of the prior proceeding; (3) the prior proceeding must have resulted in a final judgment on the merits; and (4) the party against whom estoppel is sought must have had a full and fair opportunity to litigate the issue in the prior proceeding.
+> (1) the precise issue raised in the present case must have been raised and actually litigated in the prior proceeding; (2) determination of the issue must have been necessary to the outcome of the prior proceeding; (3) the prior proceeding must have resulted in a final judgment on the merits; and (4) the party against whom estoppel is sought must have had a full and fair opportunity to litigate the issue in the prior proceeding.
 
 In the present case, the district court concluded that Time Warner had failed to establish the second and fourth elements of this test. Because Time Warner and NSS disagree as to whether these four elements were met, an analysis of each is necessary in order to decide if the district court erred by failing to give preclusive effect to the _Coach's Corner_ decision.
 
@@ -1005,11 +1074,11 @@ For the foregoing reasons, we hold that an issue is "actually litigated" for pur
 
 ### Non-Mutual Issue Preclusion
 
-#### Rest. (2d) of Judgments
-
 <div class="legal-code">
 
-##### §29. Issue Preclusion in Subsequent Litigation with Others
+#### Rest. (2d) of Judgments § 29
+
+##### Issue Preclusion in Subsequent Litigation with Others
 
 A party precluded from relitigating an issue with an opposing party, in accordance with §§27 and 28, is also precluded from doing so with another person unless the fact that he lacked full and fair opportunity to litigate the issue in the first action or other circumstances justify affording him an opportunity to relitigate the issue. The circumstances to which considerations should be given include those enumerated in §28 and also whether:
 
@@ -1083,7 +1152,7 @@ In the present case, however, none of the circumstances that might justify reluc
 
 We conclude, therefore, that none of the considerations that would justify a refusal to allow the use of offensive collateral estoppel is present in this case. Since the petitioners received a "full and fair" opportunity to litigate their claims in the SEC action, the contemporary law of collateral estoppel leads inescapably to the conclusion that the petitioners are collaterally estopped from relitigating the question of whether the proxy statement was materially false and misleading.
 
-### Review Questions 
+## Review Questions 
 
 ##### Question 1
 

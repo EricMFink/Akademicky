@@ -6,11 +6,11 @@ permalink: /casebook/contents
 
 ---
 
-## Contents
+<p class="largest-italic">Contents</p>
 
 <a href='{{ site.baseurl }}/assets/pdf/CivProBook.pdf'><button class='button syllabus smaller'>PDF</button></a>
 
-[Preface](preface) 
+[Preface]({{ site.baseurl }}/casebook/preface) 
 
 [Chapter 1: Introduction]({{ site.baseurl }}/casebook/chap1) 
 

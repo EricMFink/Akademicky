@@ -2,30 +2,35 @@
 layout: page
 title: Links
 permalink: /links/
+
 ---
 
-# Statutes & Rules
+## Statutes & Rules
 
-## Federal
+### Federal
 
-[Federal Judicial Statutes](https://www.law.cornell.edu/uscode/text/28)
+- [Federal Judicial Statutes](https://www.law.cornell.edu/uscode/text/28)
 
-[Federal Rules of Civil Procedure](https://www.law.cornell.edu/rules/frcp)
+- [Federal Rules of Civil Procedure](https://www.law.cornell.edu/rules/frcp)
 
-## State
+### State
 
-[North Carolina Civil Procedure Statutes](https://www.ncleg.gov/Laws/GeneralStatuteSections/Chapter1)
+- [North Carolina Civil Procedure Statutes](https://www.ncleg.gov/Laws/GeneralStatuteSections/Chapter1)
 
-[North Carolina Rules of Civil Procedure](https://www.ncleg.gov/Laws/GeneralStatuteSections/Chapter1A)
+- [North Carolina Rules of Civil Procedure](https://www.ncleg.gov/Laws/GeneralStatuteSections/Chapter1A)
 
-# Courts
+## Courts
 
-## Federal
+### Federal
 
-[U.S. Courts](https://www.uscourts.gov/)
+- [U.S. Courts](https://www.uscourts.gov/)
 
-[Federal Judicial Center](https://www.fjc.gov/)
+- [Federal Judicial Center](https://www.fjc.gov/)
 
-## State
+### State
 
-[North Carolina Courts](https://www.nccourts.gov/)
+- [North Carolina Courts](https://www.nccourts.gov/)
+
+## Study Aids
+
+- [CALI Civil Procedure](https://www.cali.org/category/1l-first-year-lesson-topics/civil-procedure)

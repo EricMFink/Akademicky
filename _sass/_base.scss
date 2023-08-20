@@ -75,16 +75,16 @@ h3 {
 	font-weight: $medium-weight;
 	}
 h4 {
-	width: 55%;
 	font-size: $h4;
+	width: 70%;
 	margin-top: 1.5rem;
 	margin-bottom: 0rem;
 	font-style: normal;
 	font-weight: $medium-weight;
 }
 h5 {
-	width: 55%;
 	font-size: $h5;
+	width: 70%;
 	margin-top: 1.5rem;
 	margin-bottom: 0rem;
 	font-style: italic;
@@ -92,6 +92,7 @@ h5 {
 	}
 h6 {
 	font-size: $h6;
+	width: 70%;
 	margin-top: .5rem;
 	margin-bottom: 0rem;
 	font-style: italic;
@@ -103,10 +104,36 @@ p {
 	font-size: $body-size;
 	font-weight: $normal-weight;
 	line-height: $line-height;
-	width: 55%; 
+	width: 70%; 
 	vertical-align: baseline;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	}
+
+/* Use for No-section Heading at Top of Page */
+.largest  {
+	font-size: $largest-size;
+	font-weight: $normal-weight;
+	line-height: $line-height;
+	width: 90%; 
+	margin: 3rem 0 1rem 0;
+	}
+
+.largest-bold {
+	font-size: $largest-size;
+	font-weight: $medium-weight;
+	line-height: $line-height;
+	width: 90%; 
+	margin: 3rem 0 1rem 0;
+	}
+
+.largest-italic {
+	font-size: $largest-size;
+	font-weight: $normal-weight;
+	font-style: italic;
+	line-height: $line-height;
+	width: 90%; 
+	margin: 3rem 0 1rem 0;
 	}
 
 .small {
@@ -140,60 +167,36 @@ p .subtitle {
 ol, ul { 
 	font-size: $small-size;
 	font-weight: $normal-weight;
-	margin-top: .5rem;
-	margin-bottom: .5rem;
-	padding-left: 1rem;
-	width: 45%;
-	-webkit-padding-start: 5%;
-	-webkit-padding-end: 5%;
+	margin: .5rem 0 .5rem 2rem; 
+	padding: 0 0 0 0;
+	max-width: 35rem;
 	}
 
 li { 
 	font-size: $small-size;
 	line-height: $line-height;
-	margin-top: .2rem;
-	vertical-align: baseline;
 }
-
-/* Tufte Blockquotes*/
-
-/*
-blockquote p, blockquote footer{  width: 45%;
-                                  padding-left: 2.5%;
-                                  padding-right: 2.5%;}
-
-blockquote footer {  font-size: 1.1rem;
-                line-height: 1.78181818;
-                margin-top: 1.78181818rem;
-                margin-bottom: 1.78181818rem;
-                text-align: right;
-                 }
-
-*/
 
 /* Blockquotes */
 blockquote {
 	font-size: $small-size;
 	font-weight: $normal-weight;
 	display: block;
-	border-left: 4px solid $theme-color;
-	padding: 0 0 0 1rem;
-	margin: 2rem 0 2rem 1rem;
-	position: relative;
+	margin: 0 1.5rem 0 1.5rem;
+	padding: 0 0 0 0;
 }
 blockquote blockquote {
 	border: none;
-	margin-top: .5rem;
-	margin-bottom: .5rem;
-	margin-left: .5rem;
-}
+	margin: 0 1.5rem 0 1.5rem;
+	padding: 0 0 0 0;
+	}
+
 blockquote p {
-	font-size: $small-size;
+	font-size: $smaller-size;
 	font-weight: $normal-weight;
 	font-style: italic;
-	margin-top: .5rem;
-	margin-bottom: .8rem;
-	max-width: 35rem;
+	padding: 0 0 0 0;
+	margin: 0 0 1rem 0;
 	line-height: $short-line-height;
 }
 
@@ -237,38 +240,46 @@ ul,ol { width: 45%;
 
 //li { padding: 0.5em 0; } //vertical padding on list items screws up vertical rhythym
 
-figure, figure img.maincolumn { max-width: 55%;
-         -webkit-margin-start: 0;
-         -webkit-margin-end: 0;
-         margin-bottom: 3em; }
+figure, figure img.maincolumn { 
+	max-width: 70%;
+    margin-bottom: 3em; 
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+	}
 
-figcaption { float: right;
-             clear: right;
-             margin-right: -50%;
-             margin-top: 0;
-             margin-bottom: 0;
-             font-size: 1.0rem;
-             line-height: 1.6;
-             vertical-align: baseline;
-             position: relative;
-             max-width: 40%; }
+figcaption { 
+    font-size: $small-size;
+    text-align: center;
+    line-height: $line-height;
+    margin: 1rem auto 0 auto;
+    position: relative;
+    max-width: 85%; 
+	}
 
-figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; max-width: 100%; }
+figure.fullwidth figcaption { 
+	float: left; 
+	margin-right: 0%; 
+	margin-left: 33%; 
+	max-width: 100%; 
+	}
 
-img { max-width: 100%; }
+img { 
+	max-width: 100%; 
+	margin: 0 auto;
+	}
 
 .sidenote, .marginnote { 
 	float: right;
     clear: right;
-    margin-right: -60%;
-    width: 50%;
+    margin-right: -40%;
+    width: 30%;
     margin-top: 0;
     margin-bottom: 0.5rem;
 	}
 
 .sidenote { 
 	font-family: $sidenotes-font;
-	font-size: $smallest-size;
+	font-size: $tiny-size;
 	font-weight: $light-weight;
 	line-height: 1.2; 
 	vertical-align: baseline;
@@ -283,7 +294,7 @@ img { max-width: 100%; }
 
 .marginnote { 
 	font-family: $marginnotes-font;
-	font-size: $smallest-size;
+	font-size: $tiny-size;
 	font-weight: $light-weight;
 	color: $dark-green;
 	line-height: 1.2; 
@@ -313,15 +324,15 @@ blockquote .sidenote, blockquote .marginnote {
 
 .sidenote-number:after, .sidenote:before { 
 	content: counter(sidenote-counter) " ";
-	font-family: et-bembo-roman-old-style;
+	font-family: $body-font;
     color: $contrast-color; //added color
     position: relative;
     vertical-align: baseline; 
 	}
 
 .sidenote-number:after { 
-	content: counter(sidenote-counter);
-    font-size: 1rem;
+	content: "["counter(sidenote-counter)"]\000a0";
+	font-size: $smallest-size;
     top: -0.5rem;
     left: 0.1rem; 
 	}
@@ -332,7 +343,7 @@ blockquote .sidenote, blockquote .marginnote {
 	top: 0rem; 
 	}
 
-p, div.table-wrapper { 
+div.table-wrapper { 
 	width: 55%; 
 	}
 
@@ -341,7 +352,7 @@ div.table-wrapper, table {
 	}
 
 .marginnote code, .sidenote code { 
-	font-size: 1rem; 
+	font-size: $tiny-size; 
 	}
 
 pre { 
@@ -354,7 +365,7 @@ pre {
 	max-width: 90%; 
 	}
 
-.full-width { 
+.fullwidth { 
 	.sidenote, .sidenote-number, .marginnote { display: none; } 
 	}
 

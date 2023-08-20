@@ -156,7 +156,7 @@
 	h1 {
 		font-size: 20pt;
 		string-set: chapter_title content();
-		break-before: recto
+		break-before: recto;
 	}
 	h2 {
 		font-size: 18pt;
@@ -234,6 +234,11 @@
 
 	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
 	  page-break-after: avoid;
+	}
+
+	.break {
+		margin: 0 0 0 0;
+		break-before: page;
 	}
 
 	.leftalign {

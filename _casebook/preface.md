@@ -1,5 +1,5 @@
 ---
-layout: casebook
+layout: casebook-frontmatter
 title: Preface
 ---
 
@@ -30,8 +30,6 @@ Links to cross-referenced pages or external online material are indicated by red
 ##### PDF Version 
 
 A PDF version is available for downloading from the [Table of Contents](../contents) page. 
-
----
 
 <section id="colophon" class="level5">
 <div class="colophon">

@@ -7,9 +7,9 @@ chapter: 5
 
 ## The Rules of Decision Act
 
-#### 28 U.S.C. § 1652
-
 <div class="legal-code">
+
+#### 28 U.S.C. § 1652
 
 ##### State laws as rules of decision
 
@@ -95,7 +95,7 @@ _Southern Pacific Co. v. Jensen_, 244 U.S. 205 (1917) (Holmes, J. dissenting):
 
 _Kuhn v. Fairmont Coal Co._, 215 US 349, 370-372 (1910) (Holmes, J., dissenting):
 
-> I admit that plenty of language can be found in the earlier cases to support the present decision. That is not surprising in view of the uncertainty and vacillation of the theory upon which _Swift v. Tyson_, and the later extensions of its doctrine have proceeded. But I suppose it will be admitted on the other side that even the independent jurisdiction of the Circuit Courts of the United States is a jurisdiction only to declare the law, at least in a case like the present, and only to declare the law of the State. It is not an authority to make it. _Swift v. Tyson_ was justified on the ground that that was all that the state courts did. But as has been pointed out by a recent accomplished and able writer, that fiction had to be abandoned and was abandoned when this court came to decide the municipal bond cases, beginning with _Gelpcke v. Dubuque_. In those cases the court recogniz[ed] the fact that decisions of state courts of last resort make law for the State. The principle is that a change of judicial decision after a contract has been made on the faith of an earlier one the other way is a change of the law.
+> I admit that plenty of language can be found in the earlier cases to support the present decision. That is not surprising in view of the uncertainty and vacillation of the theory upon which _Swift v. Tyson_, and the later extensions of its doctrine have proceeded. But I suppose it will be admitted on the other side that even the independent jurisdiction of the Circuit Courts of the United States is a jurisdiction only to declare the law, at least in a case like the present, and only to declare the law of the State. It is not an authority to make it. _Swift v. Tyson_ was justified on the ground that that was all that the state courts did. But as has been pointed out by a recent accomplished and able writer, that fiction had to be abandoned and was abandoned when this court came to decide the municipal bond cases, beginning with _Gelpcke v. Dubuque_. In those cases the court recognized the fact that decisions of state courts of last resort make law for the State. The principle is that a change of judicial decision after a contract has been made on the faith of an earlier one the other way is a change of the law.
 > 
 > The cases of the class to which I refer have not stood on the ground that this court agreed with the first decision, but on the ground that the state decision made the law for the State, and therefore should be given only a prospective operation when contracts had been entered into under the law as earlier declared. In various instances this court has changed its decision or rendered different decisions on similar facts arising in different States in order to conform to what is recognized as the local law.
 > 
@@ -206,9 +206,9 @@ Rather than mechanically applying the labels "substance" and "procedure", the Co
 
 > And so the question is not whether a statute of limitations is deemed a matter of "procedure" in some sense. The question is whether such a statute concerns merely the manner and the means by which a right to recover, as recognized by the State, is enforced, or whether such statutory limitation is a matter of substance in the aspect that alone is relevant to our problem, namely, does it significantly affect the result of a litigation for a federal court to disregard a law of a State that would be controlling in an action upon the same claim by the same parties in a State court?
 
-> It is therefore immaterial whether statutes of limitation are characterized either as "substantive" or "procedural" in State court opinions in any use of those terms unrelated to the specific issue before us. _Erie R. Co. v. Tompkins_ was not an endeavor to formulate scientific legal terminology. It expressed a policy that touches vitally the proper distribution of judicial power between State and federal courts. In essence, the intent of that decision was to insure that, in all cases where a federal court is exercising jurisdiction solely because of the diversity of citizenship of the parties, the outcome of the litigation in the federal court should be substantially the same, so far as legal rules determine the outcome of a litigation, as it would be if tried in a State court. The nub of the policy that underlies _Erie R. Co. v. Tompkins_ is that for the same transaction the accident of a suit by a non-resident litigant in a federal court instead of in a State court a block away should not lead to a substantially different result. [ ]
+> It is therefore immaterial whether statutes of limitation are characterized either as "substantive" or "procedural" in State court opinions in any use of those terms unrelated to the specific issue before us. _Erie R. Co. v. Tompkins_ was not an endeavor to formulate scientific legal terminology. It expressed a policy that touches vitally the proper distribution of judicial power between State and federal courts. In essence, the intent of that decision was to insure that, in all cases where a federal court is exercising jurisdiction solely because of the diversity of citizenship of the parties, the outcome of the litigation in the federal court should be substantially the same, so far as legal rules determine the outcome of a litigation, as it would be if tried in a State court. The nub of the policy that underlies _Erie R. Co. v. Tompkins_ is that for the same transaction the accident of a suit by a non-resident litigant in a federal court instead of in a State court a block away should not lead to a substantially different result.
 
-> Plainly enough, a statute that would completely bar recovery in a suit if brought in a State court bears on a State-created right vitally and not merely formally or negligibly. As to consequences that so intimately affect recovery or non-recovery a federal court in a diversity case should follow State law. [ ]
+> Plainly enough, a statute that would completely bar recovery in a suit if brought in a State court bears on a State-created right vitally and not merely formally or negligibly. As to consequences that so intimately affect recovery or non-recovery a federal court in a diversity case should follow State law.
 
 ##### Ragan v. Merchants Transfer & Warehouse Co., 337 U.S. 530 (1949)
 
@@ -271,9 +271,9 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 ## The Rules Enabling Act
 
-#### 28 U.S.C. § 2071
-
 <div class="legal-code">
+
+#### 28 U.S.C. § 2071
 
 ##### Rule-making power generally
 
@@ -295,9 +295,9 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 </div>
 
-#### 28 U.S.C. § 2072
-
 <div class="legal-code">
+
+#### 28 U.S.C. § 2072
 
 ##### Rules of procedure and evidence; power to prescribe
 
@@ -309,9 +309,9 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 </div>
 
-#### 28 U.S.C. § 2073
-
 <div class="legal-code">
+
+#### 28 U.S.C. § 2073
 
 ##### Rules of procedure and evidence; method of prescribing
 
@@ -335,9 +335,9 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 </div>
 
-#### 28 U.S.C. § 2074
-
 <div class="legal-code">
+
+#### 28 U.S.C. § 2074
 
 ##### Rules of procedure and evidence; submission to Congress; effective date
 
@@ -505,7 +505,7 @@ Courts in the District of Minnesota have historically applied the state statute,
 
 Indeed, courts have recently taken another look at the practice and analyzed whether Rule 15 or Minn. Stat. § 549.191 should be applied in view of the 2010 United States Supreme Court's decision in _Shady Grove Assocs., P.A. v. Allstate Ins. Co._, 559 U.S. 393 (2010). The large majority of these courts now apply Rule 15 instead of Minn. Stat. § 549.191 when considering motions to add punitive damage claims.
 
-"_Shady Grove_ instructs that 'a federal court exercising diversity jurisdiction should not apply a state law or rule if (1) a Federal Rule of Civil Procedure 'answer[s] the same question' as the state law or rule and (2) the Federal Rule does not violate the Rules Enabling Act.'" Five of the Supreme Court justices in _Shady Grove_ concluded that the first step in the analysis looks to whether the federal rule directly conflicts with the state law, which occurs where the federal rule "answers the question in dispute." If it does, Rule 15 applies---Minn. Stat. § 549.191 notwithstanding--- "unless it exceeds statutory authorization or Congress's rulemaking power."
+"_Shady Grove_ instructs that 'a federal court exercising diversity jurisdiction should not apply a state law or rule if (1) a Federal Rule of Civil Procedure 'answers the same question' as the state law or rule and (2) the Federal Rule does not violate the Rules Enabling Act.'" Five of the Supreme Court justices in _Shady Grove_ concluded that the first step in the analysis looks to whether the federal rule directly conflicts with the state law, which occurs where the federal rule "answers the question in dispute." If it does, Rule 15 applies---Minn. Stat. § 549.191 notwithstanding--- "unless it exceeds statutory authorization or Congress's rulemaking power."
 
 In _Shady Grove_, the Supreme Court examined the applicability in a diversity action of N.Y. Civ. Prac. Law § 901(b), which precluded a suit to recover a "penalty" from proceeding as a class action, versus Rule 23 of the Federal Rules of Civil Procedure, which allows all class action cases to be maintained as long as the requirements of Rule 23 are met. The Court concluded that "Rule 23 provides a one-size-fits-all formula for deciding the class-action question. Because § 901(b) attempts to answer the same question---i.e., it states that Shady Grove's suit 'may _not_ be maintained as a class action' because of the relief it seeks---it cannot apply in diversity suits unless Rule 23 is ultra vires."
 

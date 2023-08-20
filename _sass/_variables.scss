@@ -62,9 +62,11 @@ $footer-height: 40px;
 
 // COLORS
 
-// reds 
+// reds & pinks 
 $red:               #FF3636 !default;
 $dull-red:          #b03a2e !default;
+$pastel-pink1: 		#F0DDF0 !default;
+$pastel-pink2: 		#FEF1EB !default;
 
 // oranges
 $orange:            #F29105 !default;
@@ -73,11 +75,16 @@ $dull-orange: 		#B16032 !default;
 
 // yellows 
 $yellow:            #efcc00 !default;
+$pastel-yellow: 	#FBE7C5 !default;
+$cornsilk: 			#FFF8DC !default;
+$ivory: 			#FFFFF0 !default;
 
 // greens
 $green:             #00ab37 !default;
 $dark-green:        #006400 !default;
 $light-green:       #ddffdd !default;
+$nyanza: 			#ECFFDC !default;
+$pastel-green: 		#E8F5DF !default;
 
 // blues
 $blue:              #2698BA !default;
@@ -85,6 +92,10 @@ $dark-blue:         #00369f !default;
 $bright-blue:       #3498db !default;
 $bright-cyan:       #2EA4B0 !default;
 $bright-navy:       #2E55B0 !default;
+$pastel-blue1: 		#9FD2F7 !default;
+$pastel-blue2: 		#AAE8FC !default;
+$azure: 			#F0FFFF !default;
+$aliceblue: 		#F0F8FF !default;
 
 // whites
 $white:             #ffffff !default;
@@ -97,6 +108,10 @@ $medium-grey:       #2c3e50 !default;
 $light-grey:        #d5d8dc !default;
 $lighter-grey:      #eeeeee !default;
 $grey-green:        #424949 !default;
+$platinum:			#EBE6E5 !default;
+$gainsboro: 		#DFD8DC !default;
+$pastel-grey1: 		#D4CFBD !default;
+$pastel-grey2: 		#EDEAF2 !default;
 
 // blacks 
 $black: 			#000000 !default;
@@ -111,7 +126,8 @@ $heading-color: 	$dull-red;
 $code-color:        $bright-cyan;
 $link-color:		$deep-orange;
 $link-hover-color:  $dull-orange;
-$text-box-color:	$lighter-grey;
+$text-box-color:	$ivory;
+$code-box-color:	$aliceblue;
 
 // Button Colors 
 $primary:			$theme-color;

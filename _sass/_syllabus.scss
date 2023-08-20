@@ -6,14 +6,12 @@
 	margin-bottom: 2rem;
 }
 
-
 .syllabus h1 {
 	font-family: $sans-font;
 	color: $theme-color;
 	margin-top: 1.5rem;
     margin-bottom: 0rem;
 }
-
 .syllabus h2 {
 	font-family: $sans-font;
 	color: $theme-color;
@@ -22,27 +20,23 @@
     font-weight:$normal-weight;
 	margin: 2rem 0 0 0;
 }
-
 .syllabus h3 {
     font-size: $h4;
 	font-weight: $normal-weight;
 	margin: 2rem 0 .5rem 0;
 }
-
 .syllabus h4 {
     font-size: $h5;
     font-weight:$normal-weight;
     font-style: italic;
 	margin: .5rem 0 .5rem 0;
 }
-
 .syllabus h5 {
     font-size: $h6;
     font-style: normal;
-    font-weight: $normal-weight;
-	margin: 1rem 0 .5rem .5rem;
+    font-weight: $medium-weight;
+	margin: 1rem 0 .5rem 0;
 }
-
 .syllabus h6 {
     font-size: $smaller-size;
 	font-family: $sans-font;
@@ -51,23 +45,6 @@
     margin: .2rem 0 0rem 0;
 }
 
-
-.syllabus ol, ul { 
-	font-size: $small-size;
-	font-weight: $normal-weight;
-	margin-top: .5rem;
-	margin-bottom: .5rem;
-	padding-left: 1rem;
-	width: 45%;
-	-webkit-padding-start: 5%;
-	-webkit-padding-end: 5%;
-	}
-
-.syllabus li { 
-	line-height: $line-height;
-	margin-top: .2rem;
-	vertical-align: baseline;
-}
 .syllabus a {
     color: $theme-color;
     text-decoration: none;
@@ -78,15 +55,11 @@
 }
 
 .syllabus table {
-	width: 90%;
 	margin: 2rem 0 4rem 0;
 }
-
-
 .syllabus th {
 	font-size: $body-size;
 }
-
 .syllabus td {
 	font-size: $smaller-size;
 }

@@ -7,13 +7,17 @@ chapter: 2
 
 ## Permissive Joinder of Claims
 
-#### Fed. R. Civ. P. Rule 18 {#rule18}
-
 <div class="legal-code">
+
+#### Fed. R. Civ. P. Rule 18 {#rule18}
 
 (a) In General. A party asserting a claim, counterclaim, crossclaim, or third-party claim may join, as independent or alternative claims, as many claims as it has against an opposing party.
 
 (b) Joinder of Contingent Claims. A party may join two claims even though one of them is contingent on the disposition of the other; but the court may grant relief only in accordance with the parties' relative substantive rights. In particular, a plaintiff may state a claim for money and a claim to set aside a conveyance that is fraudulent as to that plaintiff, without first obtaining a judgment for the money.
+
+</div>
+
+<div class="legal-code">
 
 #### Fed. R. Civ. P. Rule 42 {#rule42}
 
@@ -72,9 +76,9 @@ In sum, Ms. Burdine has properly joined her claims, which sound in contract, aga
 
 ## Permissive Joinder of Parties
 
-#### Fed. R. Civ. P. Rule 20 {#rule20}
-
 <div class="legal-code">
+
+#### Fed. R. Civ. P. Rule 20 {#rule20}
 
 (a) Persons Who May Join or Be Joined.
 
@@ -148,9 +152,9 @@ The judgment of the district court disallowing joinder of the plaintiffs' indivi
 
 ## Counterclaims
 
-#### Fed. R. Civ. P. Rule 13 {#rule13a}
-
 <div class="legal-code">
+
+#### Fed. R. Civ. P. Rule 13 {#rule13a}
 
 (a) Compulsory Counterclaim.
 
@@ -188,7 +192,7 @@ In its Answer, Ford Credit denied the charges of racial discrimination and also 
 
 The District Court granted the Plaintiffs' motion and dismissed Ford Credit's counterclaims, summarizing its reasons for doing so as follows: "Defendant's counterclaims do not meet the standard for compulsory counterclaims[, and] pursuant to § 1367(c)(4), there are compelling reasons to decline to exercise jurisdiction over the counterclaims."
 
-In reaching these conclusions, Judge McKenna acknowledged some uncertainty. After determining that the counterclaims were permissive, he expressed doubt as to the jurisdictional consequence of that determination. On the one hand, he believed, as the Plaintiffs maintain, that permissive counterclaims must be dismissed if they lack an independent basis of federal jurisdiction. On the other hand, he acknowledged […] that "there was some authority to suggest that the court should determine, based on the particular circumstances of the case, whether it had authority to exercise supplemental jurisdiction under § 1367(a)" over a counterclaim, regardless of whether it was compulsory or permissive.
+In reaching these conclusions, Judge McKenna acknowledged some uncertainty. After determining that the counterclaims were permissive, he expressed doubt as to the jurisdictional consequence of that determination. On the one hand, he believed, as the Plaintiffs maintain, that permissive counterclaims must be dismissed if they lack an independent basis of federal jurisdiction. On the other hand, he acknowledged that "there was some authority to suggest that the court should determine, based on the particular circumstances of the case, whether it had authority to exercise supplemental jurisdiction under § 1367(a)" over a counterclaim, regardless of whether it was compulsory or permissive.
 
 To resolve his uncertainty, Judge McKenna initially ruled that the counterclaims, being permissive, "must be dismissed for lack of an independent basis of federal jurisdiction." He then ruled that, if he was wrong and if supplemental jurisdiction under section 1367 was available, he would still dismiss the counterclaims in the exercise of the discretion subsection 1367(c) gives district courts.
 
@@ -206,7 +210,7 @@ Such counterclaims are compulsory in the sense that if they are not raised, they
 
 Whether a counterclaim is compulsory or permissive turns on whether the counterclaim "arises out of the transaction or occurrence that is the subject matter of the opposing party's claim," and this Circuit has long considered this standard met when there is a "logical relationship" between the counterclaim and the main claim.
 
-Although the "logical relationship" test does not require "an absolute identity of factual backgrounds," […] the "'essential facts of the claims [must be] so logically connected that considerations of judicial economy and fairness dictate that all the issues be resolved in one lawsuit.'"
+Although the "logical relationship" test does not require "an absolute identity of factual backgrounds," the "'essential facts of the claims [must be] so logically connected that considerations of judicial economy and fairness dictate that all the issues be resolved in one lawsuit.'"
 
 We agree with the District Court that the debt collection counterclaims were permissive rather than compulsory. The Plaintiffs' ECOA claim centers on Ford Credit's mark-up policy, based on subjective factors, which allegedly resulted in higher finance charges on their purchase contracts than on those of similarly situated White customers. Ford Credit's debt collection counterclaims are related to those purchase contracts, but not to any particular clause or rate. Rather, the debt collection counterclaims concern the individual Plaintiffs' non-payment after the contract price was set. Thus, the relationship between the counterclaims and the ECOA claim is "logical" only in the sense that the sale, allegedly on discriminatory credit terms, was the "but for" cause of the non-payment. That is not the sort of relationship contemplated by our case law on compulsory counterclaims. The essential facts for proving the counterclaims and the ECOA claim are not so closely related that resolving both sets of issues in one lawsuit would yield judicial efficiency. Indeed, Ford Credit does not even challenge the ruling that its counterclaims are permissive.
 
@@ -248,7 +252,7 @@ Second, because the legal and factual issues are different, the evidence would n
 
 Third, _res judicata_ would not bar a subsequent suit on the breach of contract counterclaim. "The preclusive effect of a federal-court judgment is determined by federal common law." An action is precluded when:
 
-> 1.) the prior judgment was final and on the merits, and rendered by a court of competent jurisdiction in accordance with the requirements of due process; 2) the parties are identical, or in privity, in the two actions; and, 3) the claim[ ] in the second matter is based upon the same cause of action involved in the earlier proceeding.
+> 1\) the prior judgment was final and on the merits, and rendered by a court of competent jurisdiction in accordance with the requirements of due process; 2) the parties are identical, or in privity, in the two actions; and, 3) the claim in the second matter is based upon the same cause of action involved in the earlier proceeding.
 
 Claims "based upon the same cause of action" are those which "arise out of the same transaction or series of transactions, or the same core of operative facts." As discussed above, Exeter's counterclaim, which is associated with the sales agreement for a vehicle, derives from a different core set of facts than Ginwright's TCPA claim, which is based on numerous phone calls placed to his cellular phone from December 2014 to July 2015. Thus, _res judicata_ would not bar a subsequent breach of contract claim by Exeter.
 
@@ -321,9 +325,9 @@ Federal Rule of Civil Procedure 13 governs compulsory counterclaims. Rule 13(a)(
 
 > _In General._ A pleading must state as a counterclaim any claim that---at the time of its service---the pleader has against an opposing party if the claim:
 >
-> _(A)_ arises out of the transaction or occurrence that is the subject matter of the opposing party's claim; and
+> (A) arises out of the transaction or occurrence that is the subject matter of the opposing party's claim; and
 >
-> _(B)_ does not require adding another party over whom the court cannot acquire jurisdiction.
+> (B) does not require adding another party over whom the court cannot acquire jurisdiction.
 
 The text of this subsection limits the definition of compulsory counterclaim to those claims that the pleader has against _an opposing party;_ it does _not_ provide for the joinder of parties. Instead, in a later subsection, it expressly incorporates the standards set out for the required joinder of parties under Rule 19 and the permissive joinder of parties under Rule 20. Specifically, subsection 13(h) provides: "Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim."
 
@@ -355,9 +359,9 @@ We conclude that the district court erred in dismissing the Paces' 2013 complain
 
 ## Crossclaims
 
-#### Fed. R. Civ. P. Rule 13 {#rule13g}
-
 <div class="legal-code">
+
+#### Fed. R. Civ. P. Rule 13 {#rule13g}
 
 (g) Crossclaim Against a Coparty. A pleading may state as a crossclaim any claim by one party against a coparty if the claim arises out of the transaction or occurrence that is the subject matter of the original action or of a counterclaim, or if the claim relates to any property that is the subject matter of the original action. The crossclaim may include a claim that the coparty is or may be liable to the crossclaimant for all or part of a claim asserted in the action against the crossclaimant.
 
@@ -411,9 +415,9 @@ Although the Federal Rules do not themselves address when a co-defendant becomes
 
 ## Third-Party Claims
 
-#### Fed. R. Civ. P. Rule 14 {#rule14}
-
 <div class="legal-code">
+
+#### Fed. R. Civ. P. Rule 14 {#rule14}
 
 (a) When a Defending Party May Bring in a Third Party.
 
@@ -439,9 +443,7 @@ Although the Federal Rules do not themselves address when a co-defendant becomes
 
 </div>
 
-***
-
-![Third Party Claims Under Rule 14](casebook/img/Rule14.png)
+{% fullwidth "casebook/img/Rule14.png" "Fig. 2.1: Third Party Claims Under Rule 14" %}
 
 <div class="comment">
 
@@ -459,9 +461,9 @@ _Rule 14(a)_
 
 These provisions refer to claims for _indemnification_ and _contribution_. They arise where a party to a suit (D1) seeks to hold someone else (D2) responsible for all (indemnification) or part (contribution) of the amount of a judgment against D1 in favor of another party (P1).
 
-![Indemnification & Contribution](casebook/img/Indemnification_Contribution.png)
+{% fullwidth "casebook/img/Indemnification_Contribution.png" "Fig. 2.2: Indemnification & Contribution" %}
 
-In this illustration, P1 asserts a claim against D1. D1 then asserts a claim against D2, contending that, if P1 prevails against D1, D2 must cover all or part of D1's liability to P1.
+In Fig. 2.2, P1 asserts a claim against D1. D1 then asserts a claim against D2, contending that, if P1 prevails against D1, D2 must cover all or part of D1's liability to P1.
 
 D2 may already be a party to the lawsuit (i.e. P1 has joined D2 as a co-defendant under Rule 20), in which case D2 would assert a crossclaim for indemnification or contribution under Rule 13(g). Or D2 may not yet be a party, in which case D1 would join D2 as a third-party defendant and assert a claim for indemnification or contribution under Rule 14(a).
 
@@ -518,11 +520,11 @@ This appeal grows out of a triangular 1987 financial transaction that involved t
 
 The historical facts are not seriously disputed. On or about October 19, 1987, the Trust, acting through its trustee, executed a promissory note for $2,800,000 in favor of the Bank in order to fund the purchase of property in Dover, Massachusetts. Lehman and Roffman, each of whom enjoyed a 50% beneficial interest in the Trust, personally guaranteed the note, and Lehman proffered two parcels of real estate as additional collateral. In short order, the Trust defaulted on the loan and the Bank foreclosed on Lehman's properties. Lehman responded by suing the Bank seeking restraint or rescission of the imminent sale of his real estate. The gravamen of his suit was a claim that Roffman had fraudulently introduced a sham investor to the Bank in order to gull it into making the loan, and that the Bank, in swallowing this spurious bait hook, line, and sinker, had failed to exercise due diligence.
 
-[The Bank failed and was placed in receivership. The FDIC, in its role as receiver, replaced the Bank as defendant and asserted a counterclaim against Lehman, as guarantor on the loan, to collect the outstanding balance owed. The FDIC also joined Roffman as a third-party defendant.]
+[_The Bank failed and was placed in receivership. The FDIC, in its role as receiver, replaced the Bank as defendant and asserted a counterclaim against Lehman, as guarantor on the loan, to collect the outstanding balance owed. The FDIC also joined Roffman as a third-party defendant._]
 
 The FDIC's third-party complaint contained three counts. The first two sought indemnification and contribution, respectively, in regard to the claims advanced by Lehman. The third sought judgment against Roffman, _qua_ guarantor, for the outstanding loan balance.
 
-[Roffman moved to strike the third-party complaint. The trial court denied that motion and Roffman appealed. Meanwhile, Revolution Portfolio LLC ("RP"), to which the FDIC had assigned its interest in the Farm Street Trust debt, replaced the FDIC as the real party in interest.]
+[_Roffman moved to strike the third-party complaint. The trial court denied that motion and Roffman appealed. Meanwhile, Revolution Portfolio LLC ("RP"), to which the FDIC had assigned its interest in the Farm Street Trust debt, replaced the FDIC as the real party in interest._]
 
 ##### II. Discussion
 
@@ -534,7 +536,7 @@ We conclude, without serious question, that the FDIC was entitled to implead Rof
 
 A defendant, acting as a third-party plaintiff, may implead any non-party "who is or _may be_ liable to the third-party plaintiff for all or part of the plaintiff's claim against the third-party plaintiff." Fed.R.Civ.P. 14(a) (emphasis supplied). If the defendant acts within ten days of submitting his answer, he may bring a third party into the suit without leave of court. Otherwise, the court's permission must be obtained. In that event, the determination is left to the informed discretion of the district court, which should allow impleader on any colorable claim of derivative liability that will not unduly delay or otherwise prejudice the ongoing proceedings. Under this liberal standard, a party accused of passive negligence (here, the FDIC) assuredly is entitled to implead the party who allegedly committed the relevant active conduct (here, Roffman) on a theory of indemnification.
 
-The FDIC's third-party claim for contribution against Roffman similarly passes muster because Roffman and the Bank (the FDIC's predecessor in interest) were putative joint tortfeasors (i.e., according to the complaint, Roffman's fraudulent acts combined with the Bank's negligent omissions to create harm). _See_ Mass. Gen. Laws ch. 231B, § 1(a) (1986) (providing a right of contribution among persons who are jointly liable in tort for the same injury)[.]
+The FDIC's third-party claim for contribution against Roffman similarly passes muster because Roffman and the Bank (the FDIC's predecessor in interest) were putative joint tortfeasors (i.e., according to the complaint, Roffman's fraudulent acts combined with the Bank's negligent omissions to create harm). _See_ Mass. Gen. Laws ch. 231B, § 1(a) (1986) (providing a right of contribution among persons who are jointly liable in tort for the same injury).
 
 To be sure, Roffman argues that because Lehman's complaint sought only restraint or rescission of the property sales, and not damages, a third-party claim for contribution should not lie. But this argument gains him no ground. Even though Lehman's complaint did not explicitly seek money damages, that omission did not eliminate the possibility that damages might be awarded to him. As long as damages may be awarded in lieu of rescission, impleader properly may be used to seek contribution toward those potential damages. It follows inexorably that the district court did not err in denying Roffman's motion to strike and allowing the FDIC's Rule 14(a) claims to stand.
 
@@ -580,9 +582,9 @@ In light of the Court's holding that Smith has not satisfied the third-party pra
 
 ## Required Parties
 
-#### Fed. R. Civ. P. Rule 19 {#rule19}
-
 <div class="legal-code">
+
+#### Fed. R. Civ. P. Rule 19 {#rule19}
 
 (a) Persons Required to Be Joined if Feasible.
 
@@ -594,7 +596,7 @@ In light of the Court's holding that Smith has not satisfied the third-party pra
 
 > > > (i) as a practical matter impair or impede the person's ability to protect the interest; or
 
-> > > (ii) leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest.
+> > > (ii) leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest.
 
 > (2) Joinder by Court Order. If a person has not been joined as required, the court must order that the person be made a party. A person who refuses to join as a plaintiff may be made either a defendant or, in a proper case, an involuntary plaintiff.
 
@@ -642,11 +644,11 @@ On April 1, 2010, Mr. Gonzalez entered into an "Exclusive Agency Contract" with 
 
 On February 17, 2012, the Boston Red Sox invited Mr. Pesqueira to train with the team for spring training in Fort Meyers, Florida. Then on March 6, 2012, a scout for the Boston Red Sox notified Mr. Gonzalez that Mr. Pesqueira would be returned to Mexico "based upon the direction of Major League Baseball" because Mr. Pesqueira "belonged to a Mexican league team and could not play in the major leagues without the consent of the Mexican league team." Plaintiffs dispute the validity of this explanation, which they describe as a "completely false" premise. Major League Baseball also advised Mr. Gonzalez that Mr. Pesqueira "was and is on the reserve list of the Association of Professional Baseball Teams of the Mexican Leagues, therefore, he was ineligible to play for the Boston Red Sox."
 
-At Mr. Gonzalez's request, Major League Baseball forwarded a copy of the "contractual documentation" between Mr. Pesqueira and the Mexican League team called the Diablos Rojos ("Red Devils"). Plaintiffs describe the documentation as containing "two preprinted, form pages, each prepared in Spanish[,]" without any contractual terms. One page---titled "Contract for Professional Services"---includes Mr. Pesqueira's signature from January 1, 2010 with a start date of March 22, 2009, and a second page with the same title includes Mr. Pesqueira's signature from and with a start date of March 21, 2011. The former purportedly covers the 2009 Mexican baseball season, and the latter covers the 2011 season. Plaintiffs allege that at both times Mr. Pesqueira was under 18 years old, having been born on April 6, 1994. They also note that the earlier contract bears Mr. Pesqueira's father signature, though the later one does not.
+At Mr. Gonzalez's request, Major League Baseball forwarded a copy of the "contractual documentation" between Mr. Pesqueira and the Mexican League team called the Diablos Rojos ("Red Devils"). Plaintiffs describe the documentation as containing "two preprinted, form pages, each prepared in Spanish," without any contractual terms. One page---titled "Contract for Professional Services"---includes Mr. Pesqueira's signature from January 1, 2010 with a start date of March 22, 2009, and a second page with the same title includes Mr. Pesqueira's signature from and with a start date of March 21, 2011. The former purportedly covers the 2009 Mexican baseball season, and the latter covers the 2011 season. Plaintiffs allege that at both times Mr. Pesqueira was under 18 years old, having been born on April 6, 1994. They also note that the earlier contract bears Mr. Pesqueira's father signature, though the later one does not.
 
 According to Plaintiffs, Mr. Pesqueira and his father confirmed that they did not sign either of the documents provided by Major League Baseball. They believe that "either or both signatures of Pesqueira on each document has or have been fraudulently lifted from another document and transferred onto these documents, and that these documents are not authentic."
 
-Sometime thereafter, Mr. Gonzalez made a legal request to produce "any and all contracts or documents signed by Pesqueira, his parents or legal representatives binding him in any way to the Red Devils, to any other baseball team and/or to the Association of Professional Baseball Teams of the Mexican Leagues." On February 23, 2011, the Association of Professional Baseball Teams of the Mexican Leagues timely complied, and produced a contract similar to the aforementioned ones. However, this contract contained a signature of Mr. Pesqueira dated January 1, 2010 with a March 22, 2010 start date, covering the 2010 Mexican baseball season. Plaintiffs allege that Mr. Pesqueira's signature on this contract is the "exact same signature[]" as contained in the earlier documents meant to cover the 2009 baseball season. Two other documents were also produced: a document "purported to be a Mexican Federal Institute of Elections ID Card of Alberto Pesqueira Corrales, the biological father of Pesqueira," and a "purported copy of Pesqueira's birth certificate." Plaintiffs allege that no documentation was produced at the time pertaining to Mr. Pesqueira and the 2011 Mexican baseball season.
+Sometime thereafter, Mr. Gonzalez made a legal request to produce "any and all contracts or documents signed by Pesqueira, his parents or legal representatives binding him in any way to the Red Devils, to any other baseball team and/or to the Association of Professional Baseball Teams of the Mexican Leagues." On February 23, 2011, the Association of Professional Baseball Teams of the Mexican Leagues timely complied, and produced a contract similar to the aforementioned ones. However, this contract contained a signature of Mr. Pesqueira dated January 1, 2010 with a March 22, 2010 start date, covering the 2010 Mexican baseball season. Plaintiffs allege that Mr. Pesqueira's signature on this contract is the "exact same signature" as contained in the earlier documents meant to cover the 2009 baseball season. Two other documents were also produced: a document "purported to be a Mexican Federal Institute of Elections ID Card of Alberto Pesqueira Corrales, the biological father of Pesqueira," and a "purported copy of Pesqueira's birth certificate." Plaintiffs allege that no documentation was produced at the time pertaining to Mr. Pesqueira and the 2011 Mexican baseball season.
 
 Plaintiffs continued their investigation. Either during or after the investigation, Mr. Gonzalez "encouraged and facilitated efforts of Major League Baseball to communicate and work with the Association of Professional Baseball Teams of the Mexican Leagues and the Red Devils of Mexico to verify that in fact Pesqueira was free to train and contract with the Boston Red Sox or any other team." Plaintiffs allege that Major League Baseball did indeed communicate with the Mexican League and "confirmed that Pesqueira in fact was not committed to in any way, nor under contract with, the Association of Professional Baseball Teams of the Mexican Leagues and the Red Devils of Mexico."
 
@@ -680,7 +682,7 @@ Alternatively, under Rule 19(a)(1)(B)(ii), an absent party is also necessary if 
 
 > "inconsistent obligations" are not the same as inconsistent adjudications or results. Inconsistent obligations occur when a party is unable to comply with one court's order without breaching another court's order concerning the same incident. Inconsistent adjudications or results, by contrast, occur when a defendant successfully defends a claim in one forum, yet loses on another claim arising from the same incident in another forum.
 
-Defendants argue that "the Red Devils could still sue others in the Mexican courts and elsewhere for wrongfully interfering with its contract with Mr. Pesqueira[,]" and "this action will not have any binding effect on the Red Devils unless the team is made a party to this case." (Defs.' Mot. 11:10-19.) The concern that Defendants suggest is important, but for the purposes of Rule 19, the paramount concern is a Mexican court or another in the United States determining that the Red Devils contracts are valid if this Court finds that they are not, or vice versa. That would produce inconsistent obligations for all of the parties in this action in addition to the Red Devils because operating under one court's determination would then necessarily cause the parties to breach another court's determination regarding the same issue, i.e., the validity of the Red Devils contracts. Therefore, because of the risk of inconsistent obligations, the Red Devils are a necessary party to this action.
+Defendants argue that "the Red Devils could still sue others in the Mexican courts and elsewhere for wrongfully interfering with its contract with Mr. Pesqueira," and "this action will not have any binding effect on the Red Devils unless the team is made a party to this case." (Defs.' Mot. 11:10-19.) The concern that Defendants suggest is important, but for the purposes of Rule 19, the paramount concern is a Mexican court or another in the United States determining that the Red Devils contracts are valid if this Court finds that they are not, or vice versa. That would produce inconsistent obligations for all of the parties in this action in addition to the Red Devils because operating under one court's determination would then necessarily cause the parties to breach another court's determination regarding the same issue, i.e., the validity of the Red Devils contracts. Therefore, because of the risk of inconsistent obligations, the Red Devils are a necessary party to this action.
 
 Swing and a miss---strike one.
 
@@ -701,9 +703,9 @@ Rather, in seeking a determination that the Red Devils contracts are invalid, Pl
 
 ## Intervention
 
-#### Fed. R. Civ. P. Rule 24 {#rule24}
-
 <div class="legal-code">
+
+#### Fed. R. Civ. P. Rule 24 {#rule24}
 
 (a) Intervention of Right. On timely motion, the court must permit anyone to intervene who:
 
@@ -737,7 +739,7 @@ This appeal deals not with the merits of the underlying constitutional dispute, 
 
 The Michigan Department of Health and Human Services (MDHHS) is responsible for the care of more than 13,000 children within the state foster-care system due to abandonment or neglect. It has opted to contract out the majority of its fostering and adoption services to private child-placing agencies (CPAs). The State presently licenses and holds contracts with more than 50 private CPAs.
 
-Before becoming eligible as a foster or adoptive parent in Michigan, a person must first obtain a license from the State. Private CPAs play a significant role in the licensing process by performing a home evaluation of the prospective parent(s). The home evaluation is "an exhaustive review of the family's eligibility" to act as foster or adoptive parents and requires the agency to assess "the relationships between all of the adults living in the home[.]" It includes both objective and subjective components and requires the CPA to make a final recommendation on whether or not the State should grant a license.
+Before becoming eligible as a foster or adoptive parent in Michigan, a person must first obtain a license from the State. Private CPAs play a significant role in the licensing process by performing a home evaluation of the prospective parent(s). The home evaluation is "an exhaustive review of the family's eligibility" to act as foster or adoptive parents and requires the agency to assess "the relationships between all of the adults living in the home." It includes both objective and subjective components and requires the CPA to make a final recommendation on whether or not the State should grant a license.
 
 Some of the State's contracted CPAs are faith-based organizations, including plaintiff St. Vincent Catholic Charities. Affiliated with the Catholic Diocese of Lansing, Michigan, St. Vincent is a Michigan non-profit corporation organized for charitable and religious purposes. It has provided fostering and adoption services for more than 70 years. St. Vincent shares the religious beliefs and teachings of the Roman Catholic Church regarding same-sex marriage. Therefore, it asserts that it "cannot provide a written recommendation to the State evaluating and endorsing a family situation that would conflict with its religious beliefs." It thus refers out home evaluations for same-sex or unmarried couples to other CPAs that do not share its religious beliefs.
 
@@ -791,7 +793,7 @@ Having determined that the Dumonts' motion was timely and that it presented a co
 
 We begin with the risk of undue delay or prejudice to the existing parties. But this is precisely where the district court went astray; it made no apparent effort to weigh the benefits of resolving the common question of law presented by the Dumonts against the risk of undue delay or prejudice to the original parties. This failure constitutes an abuse of discretion.
 
-A "district court operates within a 'zone of discretion' when deciding whether to allow intervention under Rule 24(b)[.]" But that discretion has bounds—unless the basis for the decision is obvious from the record, the court must "provide enough of an explanation for its decision to enable us to conduct meaningful review." Here, the district court's departure from Federal Rule of Civil Procedure 24(b)'s "must consider" language leaves us with a "definite and firm conviction that the trial court committed a clear error of judgment" warranting reversal. And this is because the relevant factors weigh substantially in favor of permissive intervention.
+A "district court operates within a 'zone of discretion' when deciding whether to allow intervention under Rule 24(b)." But that discretion has bounds—unless the basis for the decision is obvious from the record, the court must "provide enough of an explanation for its decision to enable us to conduct meaningful review." Here, the district court's departure from Federal Rule of Civil Procedure 24(b)'s "must consider" language leaves us with a "definite and firm conviction that the trial court committed a clear error of judgment" warranting reversal. And this is because the relevant factors weigh substantially in favor of permissive intervention.
 
 Consider the benefits of resolving the legal question presented by the Dumonts in the same action as St. Vincent's claim. The core dispute between the Dumonts and St. Vincent has spawned at least three actions in federal district court, two appeals to our court, and one motion for certification of a question to the Michigan Supreme Court. No case has yet reached a final judgment on the merits. Absent intervention, these numbers are likely to increase. Strong interest in judicial economy and desire to avoid multiplicity of litigation wherever and whenever possible therefore supports permissive intervention.
 
@@ -836,19 +838,19 @@ Following this court's remand, the district court ordered the parties to file a 
 
 Intervention of right as sought by appellant is governed by Federal Rule of Civil Procedure 24. That rule provides:
 
-> (a) Intervention of Right. On timely motion, the court must permit anyone to intervene who:
+> (a) Intervention of Right. On timely motion, the court must permit anyone to intervene who:
 
-> (1) is given an unconditional right to intervene by a federal statute; or
+> (1) is given an unconditional right to intervene by a federal statute; or
 
-> (2) claims an interest relating to the property or transaction that is the subject of the action, and is so situated that disposing of the action may as a practical matter impair or impede the movant's ability to protect its interest, unless existing parties adequately represent that interest.
+> (2) claims an interest relating to the property or transaction that is the subject of the action, and is so situated that disposing of the action may as a practical matter impair or impede the movant's ability to protect its interest, unless existing parties adequately represent that interest.
 
 Under that rule, a district court must grant a motion to intervene if the motion is timely, and the prospective intervenor claims a legally protected interest in the action, and the action threatens to impair that interest, unless that interest is adequately represented by existing parties. At the threshold, however, the motion to intervene must be timely. If the motion is untimely, the explicit language of the rule dictates that "intervention must be denied."
 
-Timeliness "is to be judged in consideration of all the circumstances, especially weighing the factors of time elapsed since the inception of the suit, the purpose for which intervention is sought, the need for intervention as a means of preserving the applicant's rights, and the probability of prejudice to those already parties in the case." We review the district court's denial of intervention for untimeliness under the abuse of discretion standard. _Id._ A district court abuses its discretion when it applies the wrong legal standard or relies on clearly erroneous findings of fact.
+Timeliness "is to be judged in consideration of all the circumstances, especially weighing the factors of time elapsed since the inception of the suit, the purpose for which intervention is sought, the need for intervention as a means of preserving the applicant's rights, and the probability of prejudice to those already parties in the case." We review the district court's denial of intervention for untimeliness under the abuse of discretion standard. A district court abuses its discretion when it applies the wrong legal standard or relies on clearly erroneous findings of fact.
 
 In this case, after setting forth the timeliness test, the district court found that the Tribe's motion for intervention was untimely. The district court found that the Tribe, from the outset of this litigation, both knew that the suit could adversely affect its rights, and questioned the adequacy of the United States' representation. The district court reasoned that regardless of whether it measured the elapsed time from the time when the prospective intervenor "'knew or should have known that any of its rights would be directly affected by the litigation,'" or when the "'potential inadequacy of representation came into existence,'" timeliness weighs against the The district court also considered the Tribe's purpose for intervention, namely to file a Rule 19 motion, and noted that the Tribe's need to intervene to maintain its sovereign immunity was a "significant factor" weighing in favor of allowing intervention. Lastly, the district court found that granting the Tribe's motion will "further delay resolution of the merits to the detriment of the existing parties," since the case was otherwise ready for a decision on the merits. Weighing all these factors, the district court found that the Tribe's motion was untimely. Having considered "all the circumstances," we conclude that the district court did not abuse its discretion.
 
-Nevertheless, the Tribe offers multiple arguments for reversing the judgment. First, the Tribe asserts that the district court "undervalued" the Tribe's purpose for intervention, that is, to seek dismissal of the action on the basis of the Tribe's sovereign immunity. The Tribe, argues that because sovereign immunity is jurisdictional, or at least quasi-jurisdictional, the district court had a "heightened duty" to "weigh[] heavily" the Tribe's purpose for intervention.
+Nevertheless, the Tribe offers multiple arguments for reversing the judgment. First, the Tribe asserts that the district court "undervalued" the Tribe's purpose for intervention, that is, to seek dismissal of the action on the basis of the Tribe's sovereign immunity. The Tribe, argues that because sovereign immunity is jurisdictional, or at least quasi-jurisdictional, the district court had a "heightened duty" to "weigh heavily" the Tribe's purpose for intervention.
 
 The Tribe's argument fails. We have never held that a district court must give extra weight or special consideration to a sovereign's purpose for intervention. We have held that a decision maker abuses its discretion if it fails to consider a relevant factor. Such is the holding of _Acree,_ where this court reversed a district court's finding of untimeliness because it "failed to weigh the purposes for which the Government sought to intervene." In this case, the district court considered all the relevant factors, including the Tribe's purpose for intervention, and we will not disturb its judgment.
 
@@ -860,7 +862,7 @@ The Tribe seeks to avoid this conclusion by arguing that it was not until 2011 t
 
 Lastly, the Tribe argues that even if the district court used the correct date in the elapsed time analysis, the district court erred because it treated the elapsed time analysis as determinative. According to the Tribe, the district court conflated the elapsed time with the prejudice analysis by focusing exclusively on the delay the motion for intervention will cause, instead of further analyzing how the delay will prejudice the parties.
 
-As we recently stated, the length of time passed "'is not in itself the determinative test.'" This is because "we do not require timeliness for its own sake." Rather, "the requirement of timeliness is aimed primarily at preventing potential intervenors from unduly disrupting litigation, to the unfair detriment of the existing parties." Accordingly, in assessing timeliness, a district court must weigh whether the intervention will "'_unfairly_ disadvantage[] the original parties.'"
+As we recently stated, the length of time passed "'is not in itself the determinative test.'" This is because "we do not require timeliness for its own sake." Rather, "the requirement of timeliness is aimed primarily at preventing potential intervenors from unduly disrupting litigation, to the unfair detriment of the existing parties." Accordingly, in assessing timeliness, a district court must weigh whether the intervention will "'_unfairly_ disadvantage the original parties.'"
 
 The district court in this case found that the case was ready for a decision on the merits, and that the Tribe's intervention would delay resolution of the merits. We have previously concluded that the delay caused by a potential intervenor was sufficient to constitute prejudice where a decision on the merits was pending. 
 
@@ -886,9 +888,9 @@ The strategy was clever but it would not have worked. The Tribe's interest in it
 
 ## Interpleader
 
-#### Fed. R. Civ. P. Rule 22 {#rule22}
-
 <div class="legal-code">
+
+#### Fed. R. Civ. P. Rule 22 {#rule22}
 
 (a) Grounds.
 
@@ -904,9 +906,9 @@ The strategy was clever but it would not have worked. The Tribe's interest in it
 
 </div>
 
-#### 28 U.S.C. § 1335
-
 <div class="legal-code">
+
+#### 28 U.S.C. § 1335
 
 (a) The district courts shall have original jurisdiction of any civil action of interpleader or in the nature of interpleader filed by any person, firm, or corporation, association, or society having in his or its custody or possession money or property of the value of $500 or more, or having issued a note, bond, certificate, policy of insurance, or other instrument of value or amount of $500 or more, or providing for the delivery or payment or the loan of money or property of such amount or value, or being under any obligation written or unwritten to the amount of $500 or more, if
 
@@ -922,9 +924,11 @@ The strategy was clever but it would not have worked. The Tribe's interest in it
 
 Fed.R. Civ. P. 22 and 28 U.S.C. § 1335 provide two alternate ways of bringing an interpleader suit. Both involve the same type of dispute, where one party (the interpleader plaintiff) has possession of money or property in which two or more other parties (the interpleader defendants) assert adverse claims of ownership or other legal interest.
 
-But there are some procedural differences between rule interpleader and statutory interpleader (see Fig. 2.1). An interpleader plaintiff may proceed under either Rule 22 or  § 1335, provided they meet the applicable jurisdictional and other requirements. 
+But there are some procedural differences between rule interpleader and statutory interpleader (see Fig. 2.3). An interpleader plaintiff may proceed under either Rule 22 or  § 1335, provided they meet the applicable jurisdictional and other requirements. 
 
-![Fig. 2.1](casebook/img/Interpleader.png "Rule and Statutory Interpleader")
+{% fullwidth "casebook/img/Interpleader.png" "Fig. 2.3: Rule & Statutory Interpleader" %}
+
+
 
 </div>
 
@@ -941,10 +945,7 @@ Deutsch seeks to interplead a sculpture[^Deutsch1]---_Industrial Forms_ (aka _Au
 [^Deutsch1]:
   {-} The sculpture was one of several related pieces by Storrs, two of which are in the [National Gallery of Art(https://www.nga.gov/collection/art-object-page.140328.html) See Fig. 2.4
 
-
-![_Auto Tower, Industrial Forms_, John Storrs (ca. 1922)](/casebook/img/AutoTower.jpg "# Auto Tower, Industrial Forms (part A)_, c. 1922")
-
-In the late 1970s,[^Deutsch2] John Storrs' estate (represented by his daughter, Monique Storrs Booz) consigned _Industrial Forms_ to the Robert Schoelkopf Gallery in New York City. The Schoelkopf Gallery maintained a long-term business relationship with the Storrs estate through this period, selling several of the artist's works.
+In the late 1970s,[^Deutsch2] John Storrs' estate (represented by his daughter, Monique Storrs Booz) consigned _Industrial Forms_ {% marginfigure "auto-tower" "casebook/img/AutoTower.jpg" "_Auto Tower, Industrial Forms_, John Storrs (ca. 1922)" %} to the Robert Schoelkopf Gallery in New York City. The Schoelkopf Gallery maintained a long-term business relationship with the Storrs estate through this period, selling several of the artist's works.
 
 [^Deutsch2]:
   {-} “late 1970s” appears to be a clerical error. [The Complaint](https://bit.ly/3MODhmA) indicates that the consignment was made in 1969.
@@ -1004,11 +1005,11 @@ Defendants provide further context to Meyer's request in their response. They ex
 
 There are two types of interpleader: statutory and rule-based. A statutory interpleader exists pursuant to 28 U.S.C. § 1335, which provides that:
 
-> (a) The district courts shall have original jurisdiction of any civil action of interpleader or in the nature of interpleader filed by any person, firm, or corporation, association, or society having in his or its custody or possession money or property of the value of $500 or more if
+> (a) The district courts shall have original jurisdiction of any civil action of interpleader or in the nature of interpleader filed by any person, firm, or corporation, association, or society having in his or its custody or possession money or property of the value of $500 or more if
 >
-> > (1) Two or more adverse claimants, of diverse citizenship as defined in subsection (a) or (d) of section 1332 of this title, are claiming or may claim to be entitled to such money or property; and if (2) the plaintiff has deposited such money or property into the registry of the court, there to abide the judgment of the court, conditioned upon the compliance by the plaintiff with the future order or judgment of the court with respect to the subject matter of the controversy.
+> > (1) Two or more adverse claimants, of diverse citizenship as defined in subsection (a) or (d) of section 1332 of this title, are claiming or may claim to be entitled to such money or property; and if (2) the plaintiff has deposited such money or property into the registry of the court, there to abide the judgment of the court, conditioned upon the compliance by the plaintiff with the future order or judgment of the court with respect to the subject matter of the controversy.
 >
-> (b) Such an action may be entertained although the titles or claims of the conflicting claimants do not have a common origin, or are not identical, but are adverse to and independent of one another.
+> (b) Such an action may be entertained although the titles or claims of the conflicting claimants do not have a common origin, or are not identical, but are adverse to and independent of one another.
 
 Rule 22 of the Federal Rules of Civil Procedure also allows interpleader, permitting "persons with claims that may expose a plaintiff to double or multiple liability" to "be joined as defendants and required to interplead." Rule 22 goes on to clarify that "joinder for interpleader is proper even though the claims of several claimants lack common origin or are adverse." Here, Meyer seeks to establish an interpleader action under both § 1335 and Rule 22. The statute and Rule 22 "differ in jurisdictional requirements but not in substance." Therefore, the substantive requirements for interpleader, namely, a risk of multiple or inconsistent judgments and adverse claimants, are the same under § 1335 and Rule 22.
 
@@ -1026,11 +1027,7 @@ Mrs. Claypool, an aspiring society matron, hears that the director of the New Yo
 
 Driftwood goes to meet Lassparri, intending to sign him to a contract with the Opera Company to close the deal between Claypool & Gottlieb. Along the way, he meets Fiorello, a genial con artist, who tricks Driftwood into signing Lassparri's rival, Baroni, instead. When Gottlieb discovers what has happened, he renegs on his agreement to name the Opera House after Claypool. 
 
-A furious Claypool sues Gottlieb for breach of contract, seeking restitution of the $500,000 she donated to the Opera Company. She also sues Driftwood for breach of contract & fraud over his role in the failure of the Opera Company deal, seeking $50,000 (the amount she paid Driftwood for his services as her agent) plus punitive damages. Claypool brings her suit in federal court.[^Opera1]
-
-[^Opera1]:
-
-  {-} Assume that the court would have personal jurisdiction over all parties and subject matter jurisdiction over all claims. 
+A furious Claypool sues Gottlieb for breach of contract, seeking restitution of the $500,000 she donated to the Opera Company. She also sues Driftwood for breach of contract & fraud over his role in the failure of the Opera Company deal, seeking $50,000 (the amount she paid Driftwood for his services as her agent) plus punitive damages. Claypool brings her suit in federal court (assume that the court would have personal jurisdiction over all parties and subject matter jurisdiction over all claims).
 
 ##### Part A
 
@@ -1060,7 +1057,10 @@ For each of the following additional claims, explain whether joinder is proper u
 
 7. A claim by Baroni against Driftwood for failure to pay Baroni in accordance with the contract that Driftwood signed. 
 
-*** 
+<div class="break">
 
-![Diagram of Claims & Applicable Joinder Rules](../img/JoinderProblem.png)
+{% fullwidth "casebook/img/JoinderProblem.png" "Fig. 2.4: Claims & Applicable Joinder Rules" %}
 
+</details>
+
+</div>

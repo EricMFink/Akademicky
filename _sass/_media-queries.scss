@@ -21,6 +21,9 @@
 
 @media screen and (max-width: 760px) { 
 
+	p {
+		width: 85%;
+	}
 	pre code { 
 		width: 87.5%; 
 	}
@@ -36,8 +39,28 @@
 	}
 	blockquote p, blockquote footer, div.epigraph > blockquote > footer,.MJXc-display {  
 		width: 80%;
-		padding-left: 5%;
-		padding-right: 5%;
+		padding: 0 0 0 0;
+	}
+	.colophon {
+		width: 85%;
+	}
+	h1 {
+		width: 85%;
+	}
+	h2 {
+		width: 85%;
+	}
+	h3 {
+		width: 85%;
+	}
+	h4 {
+		width: 85%;
+	}
+	h5 {
+		width: 85%;
+	}
+	h6 {
+		width: 85%;
 	}
 }
 
