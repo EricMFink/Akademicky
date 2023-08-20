@@ -1,5 +1,4 @@
 // Global Resets
-
 * { 
 	margin: 0; 
 	padding: 0; 
@@ -12,41 +11,26 @@
 	clear: both;
 }
 
+/* HTML & Body */
 html, body { 
 	height: 100%; 
 	}
-
 html{
     font-size: $base-size;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-
-a {
-	color: $contrast-color;
-	text-decoration: none;
-}
-
-p > a, cite > a, span > a {
-    color: $contrast-color;
-    text-decoration: none;
-    }
-
 body { 
-	width: 87.5%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12.5%;
+    padding-left: 3rem;
     font-family: $body-font;
     background-color: $background-color;
     color: $text-color;
-    max-width: 1400px;
     counter-reset: chapter sidenote-counter; 
 	}
 
-
 /* Headings */
-
 h1 { 
 	color: $dull-red;
 	font-family: $sans-font;
@@ -104,56 +88,13 @@ p {
 	font-size: $body-size;
 	font-weight: $normal-weight;
 	line-height: $line-height;
-	width: 70%; 
+	width: 40rem; 
 	vertical-align: baseline;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	}
 
-/* Use for No-section Heading at Top of Page */
-.largest  {
-	font-size: $largest-size;
-	font-weight: $normal-weight;
-	line-height: $line-height;
-	width: 90%; 
-	margin: 3rem 0 1rem 0;
-	}
-
-.largest-bold {
-	font-size: $largest-size;
-	font-weight: $medium-weight;
-	line-height: $line-height;
-	width: 90%; 
-	margin: 3rem 0 1rem 0;
-	}
-
-.largest-italic {
-	font-size: $largest-size;
-	font-weight: $normal-weight;
-	font-style: italic;
-	line-height: $line-height;
-	width: 90%; 
-	margin: 3rem 0 1rem 0;
-	}
-
-.small {
-	font-size: $small-size;
-}
-.smaller {
-	font-size: $smaller-size;
-}
-.contrast {
-	color: $contrast-color;
-}
-.sans-green {
-	font-family: $sans-font;
-	color: $dark-green;
-}
-.dullred {
-	color: $dull-red;
-}
-	
-/* For date in post heading */
+/* Date in post heading */
 p .subtitle { 
 	font-style: italic;
     margin-top: 2rem;
@@ -161,6 +102,18 @@ p .subtitle {
     font-size: 1.8rem;
     display: block;
     line-height: $single-line-height; 
+	}
+
+
+/* Links */
+a {
+	color: $contrast-color;
+	text-decoration: none;
+}
+
+p > a, cite > a, span > a {
+	color: $contrast-color;
+	text-decoration: none;
 	}
 
 /* Lists */
@@ -190,7 +143,6 @@ blockquote blockquote {
 	margin: 0 1.5rem 0 1.5rem;
 	padding: 0 0 0 0;
 	}
-
 blockquote p {
 	font-size: $smaller-size;
 	font-weight: $normal-weight;
@@ -200,53 +152,23 @@ blockquote p {
 	line-height: $short-line-height;
 }
 
-/* Buttons */
-button {
-    display: inline-block;
-	border: 0;
-	border-radius:4px;
-	outline: 0;
-    padding: .5rem .5rem;
-    margin: 0;
-    text-decoration: none;
-    background: $theme-color;
-    color: $off-white;
-    font-family: $sans-font;
-    font-size: $body-size;
-    cursor: pointer;
-    text-align: center;
-	&:hover{
-		background:darken($theme-color, 20%)
-	}
-}
+/* Sectioning */
 
-
-/* Basic Layout stuff --*/
-
-article { position: relative;
-          padding: 1
-
-          rem 0rem 2.5rem 0rem; } // reduced top and bottom padding by 50%
+article { 
+	position: relative;
+    padding: 1rem 0 1rem 0; } 
 
 section { 
 	padding: 0 0 0 0;
 	}
-/*
-ul,ol { width: 45%;
-     -webkit-padding-start: 5%;
-     -webkit-padding-end: 5%;
-     list-style-type: none; }
-*/
 
-//li { padding: 0.5em 0; } //vertical padding on list items screws up vertical rhythym
-
+/* Figures & Images */
 figure, figure img.maincolumn { 
 	max-width: 70%;
     margin-bottom: 3em; 
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
 	}
-
 figcaption { 
     font-size: $small-size;
     text-align: center;
@@ -255,28 +177,26 @@ figcaption {
     position: relative;
     max-width: 85%; 
 	}
-
 figure.fullwidth figcaption { 
 	float: left; 
 	margin-right: 0%; 
 	margin-left: 33%; 
 	max-width: 100%; 
 	}
-
 img { 
 	max-width: 100%; 
 	margin: 0 auto;
 	}
 
+/* Sidenotes */
 .sidenote, .marginnote { 
 	float: right;
     clear: right;
     margin-right: -40%;
-    width: 30%;
+    width: 10rem;
     margin-top: 0;
     margin-bottom: 0.5rem;
 	}
-
 .sidenote { 
 	font-family: $sidenotes-font;
 	font-size: $tiny-size;
@@ -285,13 +205,32 @@ img {
 	vertical-align: baseline;
 	position: relative; 
 	}
-
 .sidenote hr { 
 	border: none;
 	opacity: 0;
 	height: 6px;
 	}
-
+.sidenote-number { 
+	counter-increment: sidenote-counter; 
+	}
+.sidenote-number:after, .sidenote:before { 
+	content: counter(sidenote-counter) " ";
+	font-family: $body-font;
+	color: $contrast-color; //added color
+	position: relative;
+	vertical-align: baseline; 
+	}
+.sidenote-number:after { 
+	content: "["counter(sidenote-counter)"]\000a0";
+	font-size: $smallest-size;
+	top: -0.5rem;
+	left: 0.1rem; 
+	}
+.sidenote:before { 
+	content: counter(sidenote-counter) ".\000a0"; 
+	color: $contrast-color;
+	top: 0rem; 
+	}
 .marginnote { 
 	font-family: $marginnotes-font;
 	font-size: $tiny-size;
@@ -302,46 +241,18 @@ img {
 	position: relative; 
 	text-indent: 0em;
 	}
-
 .marginnote hr { 
 	border: none;
 	opacity: 0;
 	height: 6px;
 	}
-
-
 li .sidenote, li .marginnote{ 
 	margin-right: -80%; 
 	} 
-
 blockquote .sidenote, blockquote .marginnote { 
 	margin-right: -79% 
 	}
 
-.sidenote-number { 
-	counter-increment: sidenote-counter; 
-	}
-
-.sidenote-number:after, .sidenote:before { 
-	content: counter(sidenote-counter) " ";
-	font-family: $body-font;
-    color: $contrast-color; //added color
-    position: relative;
-    vertical-align: baseline; 
-	}
-
-.sidenote-number:after { 
-	content: "["counter(sidenote-counter)"]\000a0";
-	font-size: $smallest-size;
-    top: -0.5rem;
-    left: 0.1rem; 
-	}
-
-.sidenote:before { 
-	content: counter(sidenote-counter) ".\000a0"; 
-	color: $contrast-color;
-	top: 0rem; 
-	}
 
 div.table-wrapper { 
 	width: 55%; 
@@ -418,7 +329,125 @@ label.margin-toggle:not(.sidenote-number) {
 	figcaption.maincolumn-figure, figure.fullwidth figcaption { float:none; text-align: center;}
 	figure.fullwidth figcaption { margin-left: 0; }
 	}
-/*--- End of Basic Layout stuff from tufte.css ---*/
+
+
+/* Tables */
+
+table {
+	width: 85%;
+	font-size: $smaller-size;
+	margin: 2rem auto 4rem auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+th {
+	font-family: $heading-font;
+	background: #eee8d5;
+	border-bottom: 1px solid black;
+}
+td, th {
+  font-size: $smaller-size;
+  padding: 10px;
+  text-align: left;
+}
+table,th,td {
+	border-collapse:collapse;
+	padding:10px;
+	vertical-align: top;
+}
+table,th,td {
+	border: 1px solid #93a1a1;
+}
+noheader th {
+	display: none;
+}
+
+/* UNCOMMENT FOR ALTERNATING ROW COLORS
+tbody tr:nth-child(even) {
+	background: #eee8d5;
+}
+*/
+
+/* Allow tables to be full width if they're wrapped in a figure.fullwidth */
+/*
+figure.fullwidth table {
+  width: 90%;
+}
+*/
+
+@media (max-width: 760px) {
+  figure.fullwidth table {
+    width: 100%;
+  }
+}
+
+
+/* Buttons */
+button {
+    display: inline-block;
+	border: 0;
+	border-radius:4px;
+	outline: 0;
+    padding: .5rem .5rem;
+    margin: 0;
+    text-decoration: none;
+    background: $theme-color;
+    color: $off-white;
+    font-family: $sans-font;
+    font-size: $body-size;
+    cursor: pointer;
+    text-align: center;
+	&:hover{
+		background:darken($theme-color, 20%)
+	}
+}
+
+/* Special Styles */
+
+/* Use for No-section Heading at Top of Page */
+.largest  {
+	font-size: $largest-size;
+	font-weight: $normal-weight;
+	line-height: $line-height;
+	width: 90%; 
+	margin: 3rem 0 1rem 0;
+	}
+
+.largest-bold {
+	font-size: $largest-size;
+	font-weight: $medium-weight;
+	line-height: $line-height;
+	width: 90%; 
+	margin: 3rem 0 1rem 0;
+	}
+
+.largest-italic {
+	font-size: $largest-size;
+	font-weight: $normal-weight;
+	font-style: italic;
+	line-height: $line-height;
+	width: 90%; 
+	margin: 3rem 0 1rem 0;
+	}
+
+.small {
+	font-size: $small-size;
+}
+.smaller {
+	font-size: $smaller-size;
+}
+.contrast {
+	color: $contrast-color;
+}
+.sans-green {
+	font-family: $sans-font;
+	color: $dark-green;
+}
+.dullred {
+	color: $dull-red;
+}
+	
+
 
 /* -- Jekyll specific styling --*/
 //helper classes

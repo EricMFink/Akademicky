@@ -28,8 +28,7 @@ output:
 <!-- PREFACE -->
 
 <div class="chapter">
-
-# Preface
+<h1 class="frontmatter">Preface</h1>
 
 This book presents material for use in a law school course on the perils and pitfalls of legal practice. Topics covered include representing difficult clients, dealing with vexatious adversaries, and negotiating favorable terms for the sale of your soul.
 
@@ -39,83 +38,58 @@ Most of the materials reproduced here are in the public domain; excerpts from co
 
 </div>
 
-
 <!-- CHAPTER 1 -->
-
 <div class="chapter">
-
-# Chapter 1. Introduction
-
+<p class="chapter-number">Chapter 1</p>
+<h1>Introduction</h1>
 {% include_relative chap1.md %}
-
 </div>
-
 
 <!-- CHAPTER 2 -->
 <div class="chapter">
-
-# Chapter 2. Parties & Claims
-
+<p class="chapter-number">Chapter 2</p>
+<h1>Parties & Claims</h1>
 {% include_relative chap2.md %}
-
 </div>
-
 
 <!-- CHAPTER 3 -->
 <div class="chapter">
-
-# Chapter 3. Personal Jurisdiction
-
+<p class="chapter-number">Chapter 3</p>
+<h1>Personal Jurisdiction</h1>
 {% include_relative chap3.md %}
-
 </div>
-
 
 <!-- CHAPTER 4 -->
 <div class="chapter">
-
-# Chapter 4. Subject Matter Jurisdiction
-
+<p class="chapter-number">Chapter 4</p>
+<h1>Subject Matter Jurisdiction</h1>
 {% include_relative chap4.md %}
-
 </div>
-
 
 <!-- CHAPTER 5 -->
 <div class="chapter">
-
-# Chapter 5. Choice of Law in Federal Court
-
+<p class="chapter-number">Chapter 5</p>
+<h1>Choice of Law in Federal Court</h1>
 {% include_relative chap5.md %}
-
 </div>
-
 
 <!-- CHAPTER 6 -->
 <div class="chapter">
-
-# Chapter 6. Pleading
-
+<p class="chapter-number">Chapter 6</p>
+<h1>Pleading</h1>
 {% include_relative chap6.md %}
-
 </div>
-
 
 <!-- CHAPTER 7 -->
 <div class="chapter">
-
-# Chapter 7. Claim & Issue Preclusion
-
+<p class="chapter-number">Chapter 7</p>
+<h1>Claim & Issue Preclusion</h1>
 {% include_relative chap7.md %}
-
 </div>
-
 
 <!-- CHAPTER 8 -->
 <div class="chapter">
-
-# Chapter 8. Summary Judgment
-
+<p class="chapter-number">Chapter 8</p>
+<h1>Summary Judgment</h1>
 {% include_relative chap8.md %}
-
 </div>

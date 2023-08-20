@@ -2,12 +2,7 @@
     padding: 75px 0; 
 }
 
-.chapter {
-	padding: 100px 0 0 0; /* VERTICAL PADDING FOR NEW CHAPTER */
-}
-
 /* Headings */
-
 .casebook h1 {
 	color: $dull-red;
 	font-family: $sans-font;
@@ -85,31 +80,29 @@
     counter-reset: subsubsection;
 }
 
+/* Chapter Headings */
 .frontmatter {
 	width: 70%;
     border-top: 2px solid $theme-color;
 }
-
-/* Lists */
-
-/*
-.casebook ol, ul {
-	font-size: $body-size;
-	font-weight: $normal-weight;
-	width: 70%;
-	margin-top: .5rem;
-	margin-bottom: .5rem;
-	padding-left: 1rem;
-}
-.casebook li {
-	line-height: $line-height;
-	margin-top: .2rem;
-	vertical-align: baseline;
-}
-*/
+.chapter-number {
+	color: $dull-red;
+	font-family: $sans-font;
+	font-size: $h3;
+	font-weight: $medium-weight;
+	line-height: $single-line-height;
+	font-style: normal;
+	margin-bottom: 0;
+	padding: 10px 0 0 10px;
+    border-left: 2px solid $theme-color;
+    border-top: 2px solid $theme-color;
+	}
+.chapter-number p {
+	margin-bottom: 0;
+	}
+	
 
 /* Blockquotes */
-
 .casebook blockquote {
 	margin: 0 0 0 1.5rem;
 }
@@ -121,12 +114,11 @@
 	font-style: normal;
 }
 
-
 /* Divider */
 .casebook hr {
 	border-top: 2px solid $theme-color;
-	width:30%;
-	margin:3rem 25% 3rem 15%;
+	width:1rem;
+	margin:3rem auto 3rem auto;
 }
 
 /* explanatory comments */
@@ -139,25 +131,21 @@
     background-color: $text-box-color;
 	border: 1px solid $yellow;
 }
-
 .comment p {
 	font-family: $sans-font;
 	font-size: $smaller-size;
 	width: 100%;
 }
-
 .comment h4 {
 	font-family: $sans-font;
 	border: none;
 }
-
 .comment h5 {
 	font-family: $sans-font;
 	font-size: $h6;
 	width: 100%;
 	margin-top: 1rem;
 }
-
 .comment h6 {
 	font-family: $sans-font;
 	font-size: $small-size;
@@ -167,26 +155,7 @@
 	margin-top: 1rem;
 }
 
-/* Lists in Comment */
-
-/*
-.comment ol, ul {
-	font-size: $smaller-size;
-	font-weight: $normal-weight;
-	margin-top: .5rem;
-	margin-bottom: .5rem;
-	padding-left: 1rem;
-}
-.comment li {
-	line-height: $line-height;
-	margin-top: .2rem;
-	vertical-align: baseline;
-}
-*/
-
-/* Legal Code */
-/* indented subsections */
-
+/* Legal Code: Indented subsections in statutes, etc. */
 .legal-code {
 	background-color: $code-box-color;
 	width: 66%;
@@ -194,56 +163,37 @@
 	padding: 1px 2% 10px 2%;
 	border: 1px solid $pastel-blue1;
 }
+.legal-code p {
+	font-size: $small-size;
+}
 .legal-code h4 {
-	width: 100%;
 	border: none;
 }
 .legal-code h5 {
-	width: 100%;
+	font-style: normal;
 }
+/* Heading for Official Comments */
 .legal-code h6 {
-	width: 100%;
-}
-.legal-code p {
-	font-size: $small-size;
-	width: 100%;
+	font-style: normal;
 }
 
 /*
 .legal-code blockquote {
 	margin: 0rem 0 0rem 1.5rem;
 }
-
 .legal-code blockquote blockquote {
-	width: 97%;
 	margin: 0rem 0 0rem 1.5rem;
 }
-
 .legal-code blockquote blockquote blockquote {
-	width: 97%;
 	margin: 0rem 0 0rem 1.5rem;
 }
-
 .legal-code blockquote p {
 	font-size: $small-size;
-	width: 95%;
 	margin: 1rem 0 1rem 0;
 }
-
 */
 
-/* official comments & illustrations */
-.legal-code h6 {
-	font-family: $sans-font;
-	font-size: $smaller-size;
-	font-weight: $normal-weight;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	margin-left: 1rem;
-}
-
-/* Images */
-
+/* Figures & Images */
 .casebook figure {
     padding: 0;
     border: 0;
@@ -263,6 +213,7 @@
 	margin: 1rem 0 4em 0; 
 	}
 
+/* Force Page Break in Printing */
 .break {
 	margin: 500px 0 0 0;
 }
@@ -287,7 +238,7 @@ button {
 	}
 }
 
-/* Table of Contents */
+/* Table of Contents Dropdown */
 #table-of-contents {
     float: left;
     background: #f9f9f9 none repeat scroll 0 0;
@@ -330,15 +281,12 @@ li.toc-li-H4 {
 	scroll-margin-top: 80px;
 }
 
-
 /* Casebook Cover Page */ 
-
 .cover-block {
 	width: 100%;
 	color: white;
 	padding: 20px 20px;
 }
-
 .book-cover {
     position: relative; 
     height: 85lvh;
@@ -357,7 +305,6 @@ li.toc-li-H4 {
 	left: 0px;
 	opacity: 0.7;
 }
-
 .book-title {
     color: $theme-color;
     font-family: $heading-font;
@@ -367,7 +314,6 @@ li.toc-li-H4 {
 	font-weight: $normal-weight;
     font-style: normal;
 	position: relative;
-
 }
 .book-subtitle {
     color: $theme-color;
@@ -378,7 +324,6 @@ li.toc-li-H4 {
 	font-weight: $normal-weight;
     font-style: normal;
 	position: relative;
-
 }
 .book-author {
     color: $theme-color;
@@ -390,7 +335,6 @@ li.toc-li-H4 {
     font-style: normal;
 	position: relative;
 	margin-top: 3rem;
-
 }.book-affiliation {
     color: $theme-color;
     font-family: $heading-font;
@@ -400,7 +344,6 @@ li.toc-li-H4 {
     line-height: 1;
     font-style: normal;
 	position: relative;
-
 }
 .book-date {
     color: $theme-color;
@@ -410,28 +353,8 @@ li.toc-li-H4 {
     line-height: 1;
     font-style: normal;
 	position: relative;
-
 }
-
-.chapter-number {
-	color: $dull-red;
-	font-family: $sans-font;
-	font-size: $h3;
-	font-weight: $medium-weight;
-	line-height: $single-line-height;
-	font-style: normal;
-	margin-bottom: 0;
-	padding: 10px 0 0 10px;
-    border-left: 2px solid $theme-color;
-    border-top: 2px solid $theme-color;
-	}
-
-.chapter-number p {
-	margin-bottom: 0;
-	}
-
 /* Publication and design information */
-
 .colophon {
 	font-size: $smaller-size;
 	width: 70%;
@@ -445,4 +368,8 @@ li.toc-li-H4 {
 .colophon li {
 	font-size: $smaller-size;
 	width: 60%;
+}
+/* White space between chapters */
+.chapter {
+	padding: 100px 0 0 0;
 }
