@@ -929,8 +929,6 @@ The express power of attorney in _Pennsylvania Fire_ “made service on the insu
 
 By now, it should be clear that the plurality’s primary approach to this case is to look past our personal jurisdiction precedent. Relying on a factsheet downloaded from the internet, for instance, the plurality argues that Norfolk Southern is such a “part of ‘the Pennsylvania Community,’ ” and does so much business there, that its “presence” in Pennsylvania is enough to require it to stand for suits having nothing to do with the Commonwealth. In Daimler, however, we roundly rejected the plaintiff’s request that we “approve the exercise of general jurisdiction in every State in which a corporation ‘engages in a substantial, continuous, and systematic course of business.’” The established test—which the plurality barely acknowledges—is whether the corporation is “at home” in the State. “A corporation that operates in many places,” and must therefore register in just as many, “can scarcely be deemed at home in all of them.” 
 
-##### ***
-
 Critics of Daimler and Goodyear may be happy to see them go. And make no mistake: They are halfway out the door. If States take up the Court’s invitation to manipulate registration, Daimler and Goodyear will be obsolete, and, at least for corporations, specific jurisdiction will be “superfluous.” Because I would not work this sea change, I respectfully dissent.
 
 ### Synthesis: Analyzing a Personal Jurisdiction Problem 
@@ -945,7 +943,7 @@ Within the outer bounds allowed under the constitutional due process standard, t
 
 ### Enumerated Statutes 
 
-_Enumerated_ long-arm statutes identify particular circumstances in which a state's courts may exercise jurisdiction over a non-resident. The New York long-arm statute is an example:
+Enumerated long-arm statutes identify particular circumstances in which a state's courts may exercise jurisdiction over a non-resident. The New York long-arm statute is an example:
 
 
 <div class="legal-code">
@@ -989,7 +987,7 @@ Under an enumerated long-arm statute, determining whether the court may exercise
 
 ### Constitutional Limit Statutes 
 
-_Constitutional limit_ long-arm statutes grant a state's courts jurisdiction to the full extent permitted under the Constitution. California was the first state to adopt this type of long-arm statute:
+This type of long-arm statute grants a state's courts jurisdiction to the full extent permitted under the Constitution. The California long-arm statute is an example:
 
 <div class="legal-code">
 
@@ -1003,7 +1001,7 @@ A court of this state may exercise jurisdiction on any basis not inconsistent wi
 
 Under this type of long-arm statute, the same analysis (i.e. does the defendant have minimum contacts with the forum state?) answers both the statutory and constitutional question.
 
-Some enumerated long-arm statutes have been interpreted as authorizing the exercise of jurisdiction to the full extent permitted under the constitution. See, e.g., _Dillon v. Numismatic Funding Corp._, 291 N.C. 674, 676 (1977). ("By the enactment of [G.S. 1-75.4(1)(d)](https://bit.ly/3Li9KAB), it is apparent that the General Assembly intended to make available to the North Carolina courts the full jurisdictional powers permissible under federal due process.")
+Some enumerated long-arm statutes have been interpreted as authorizing the exercise of jurisdiction to the full extent permitted under the constitution. See, e.g., _Dillon v. Numismatic Funding Corp._, 291 N.C. 674, 676 (1977) ("By the enactment of [G.S. 1-75.4(1)(d)](https://bit.ly/3Li9KAB), it is apparent that the General Assembly intended to make available to the North Carolina courts the full jurisdictional powers permissible under federal due process.") 
 
 ## Review Questions
 

@@ -16,6 +16,12 @@ epigraph: Jarndyce and Jarndyce drones on. This scarecrow of a suit has, in cour
 epigraph-author: Charles Dickens
 epigraph-source: Bleak House
 
+casebook: true
+output:
+  pdf_document:
+    latex_engine: xelatex
+    template: master.tex
+    path: /assets/pdf/syllabus.pdf
 
 ---
 
@@ -25,9 +31,11 @@ epigraph-source: Bleak House
 
 # Preface
 
-This book presents judicial opinions, statutes and regulations, and other material for use in a first year Civil Procedure course. Most of the materials reproduced here are in the public domain; excerpts from copyrighted materials are included for teaching purposes under the fair use doctrine. Materials have been redacted to omit passages not pertinent to the learning objectives. Judicial opinions have also been "cleaned up" for ease of reading.[^Preface1] 
+This book presents material for use in a law school course on the perils and pitfalls of legal practice. Topics covered include representing difficult clients, dealing with vexatious adversaries, and negotiating favorable terms for the sale of your soul.
 
-[^Preface1]: _See_ Jack Metzler, [Cleaning Up Quotations](https://lawrepository.ualr.edu/cgi/viewcontent.cgi?article=1405&context=appellatepracticeprocess), 18 J. App. Prac. & Process 143, 154 (2017) (proposing "cleaned up" parenthetical for quotations from judicial opinions, to indicate the author “has removed extraneous, non-substantive material like brackets, quotation marks, ellipses, footnote reference numbers, and internal citations; may have changed capitalization without using brackets to indicate that change; and affirmatively represents that the alterations were made solely to enhance readability and that the quotation otherwise faithfully reproduces the quoted text.”)
+Most of the materials reproduced here are in the public domain; excerpts from copyrighted materials are included for teaching purposes under the fair use doctrine. Materials have been redacted to omit passages not pertinent to the learning objectives. Judicial opinions have also been "cleaned up" for ease of reading.[^Preface1] 
+
+[^Preface1]: _See_ Jack Metzler, [Cleaning Up Quotations](https://lawrepository.ualr.edu/cgi/viewcontent.cgi?article=1405&context=appellatepracticeprocess), 18 J. App. Prac. & Process 143, 154 (2017) (proposing "cleaned up" parenthetical for quotations from judicial opinions, to indicate the author “has removed extraneous, non-substantive material like brackets, quotation marks, ellipses, footnote reference numbers, and internal citations; may have changed capitalization without using brackets to indicate that change; and affirmatively represents that the alterations were made solely to enhance readability and that the quotation otherwise faithfully reproduces the quoted text.”) 
 
 </div>
 
