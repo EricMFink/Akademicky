@@ -550,7 +550,7 @@ q { quotes: "“" "”" "‘" "’"; }
 
 /*
 pre {
-	overflow-x: auto; 
+	overflow: auto; 
 }
 pre, pre code, p code, p pre code {
 	font-family: $mono-font;
@@ -562,7 +562,7 @@ pre, pre code, p code, p pre code {
 /*
 pre > code {
 	margin-left: initial;
-	overflow-x: initial;
+	overflow: initial;
 	display: initial;
 }
 */ 

@@ -250,7 +250,7 @@ div.table-wrapper {
 	width: 55%; 
 	}
 div.table-wrapper, table {
-	overflow-x: auto; 
+	overflow: auto; 
 	}
 
 .marginnote code, .sidenote code { 
@@ -259,7 +259,7 @@ div.table-wrapper, table {
 pre { 
 	width: 52.5%;
 	padding-left: 2.5%;
-	overflow-x: auto; 
+	overflow: auto; 
 	}
 .fullwidth, li.listing div{ 
 	max-width: 90%; 

@@ -2,16 +2,16 @@
 pre {
 	width: 52.5%;
 	padding-left: 2.5%;
-	overflow-x: auto; 
+	overflow: auto; 
 }
 pre {
 	padding-left: 2.5%;
-	overflow-x: auto; 
+	overflow: auto; 
 }
 */
 
 pre {
-	overflow-x: auto; 
+	overflow: auto; 
 }
 pre, pre code, p code, p pre code {
 	font-family: $mono-font;
@@ -22,7 +22,7 @@ pre, pre code, p code, p pre code {
 /* Unset the tufte-css defaults that we'd like to overwrite */
 pre > code {
 	margin-left: initial;
-	overflow-x: initial;
+	overflow: initial;
 	display: initial;
 }
   
@@ -38,18 +38,18 @@ pre:not(.sourceCode) {
 	padding: 1.4rem;
 	margin: -0.7rem -1.4rem;
 	width: 55%;
-	overflow-x: auto;
+	overflow: auto;
 }
 div.sourceCode,
 pre:not(.sourceCode) {
 	padding: 1.4rem;
 	width: 75%;
-	overflow-x: auto;
+	overflow: auto;
 }
 div.sourceCode,
 pre:not(.sourceCode) {
 	padding: 1.4rem;
-	overflow-x: auto;
+	overflow: auto;
 }
 .fullwidth div.sourceCode,
 .fullwidth pre:not(.sourceCode) {
