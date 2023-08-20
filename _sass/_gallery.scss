@@ -30,42 +30,35 @@
     vertical-align: middle;
     font-size: .8rem;
 }
-
 .center-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
-
 .project {
       box-sizing: border-box;
       float: left;
-      height: 200px;
+      height: 165px;
       padding: 10px;
       vertical-align: middle;
       width: 100%;
-
     .thumbnail {
         overflow: hidden;
-        height: 180px;
+        height: 145px;
         width: 100%;
-
         img {
             height: auto;
             position: relative;
             left: 0;
             top: 0;
-            width: 100%;
+            width: 33.3%;
         }
-
         a {
             float: left;
-            height: 180px;
+            height: 145px;
             position: relative;
             width: 100%;
-
             span {
                 display: block;
                 position: absolute;
@@ -79,7 +72,6 @@
 				padding-bottom: 5%;
                 text-align: center;
                 background: rgba(0,0,0,0.4);
-
                 h1 {
                     font-size: $h4;
                     color: white;
@@ -100,43 +92,11 @@
         }
     }
   }
-
   
-@media screen and (min-width: 467px) {
-  .project {
-      height: 220px;
-      width: 100%;
-
-      .thumbnail {
-          height: 200px;
-          a {
-              height: 200px;
-              }
-          }
-      }
-  }
-
-
-@media screen and (min-width: 576px) {
-    .project {
-        height: 170px;
-        width: 50%;
-
-        .thumbnail {
-            height: 150px;
-            a {
-                height: 150px;
-                }
-            }
-        }
-    }
-
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 799px) {
     .project {
         height: 150px;
-        width: 33.33%;
-
+        width: 100%;
         .thumbnail {
             height: 130px;
             a {
@@ -145,25 +105,9 @@
         }
     }
 }
-
-
-@media (min-width: 900px){
-    .project {
-        height: 165px;
-
-        .thumbnail {
-            height: 145px;
-            a {
-                height: 145px;
-            }
-        }
-    }
-}
-
-@media (min-width: 1000px){
+@media screen and (min-width: 1000px){
     .project {
         height: 175px;
-
         .thumbnail {
             height: 160px;
             a {
@@ -172,8 +116,7 @@
         }
     }
 }
-
-@media (min-width: 1400px){
+@media screen and (min-width: 1400px){
     .project {
         height: 190px;
 

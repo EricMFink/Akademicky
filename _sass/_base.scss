@@ -89,7 +89,6 @@ p {
 	font-weight: $normal-weight;
 	line-height: $line-height;
 	width: 45rem; 
-	vertical-align: baseline;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	}
@@ -122,7 +121,7 @@ ol, ul {
 	font-weight: $normal-weight;
 	margin: .5rem 0 .5rem 2rem; 
 	padding: 0 0 0 0;
-	max-width: inherit;
+	width: inherit;
 	}
 
 li { 
@@ -199,7 +198,6 @@ img {
 	font-size: $tiny-size;
 	font-weight: $light-weight;
 	line-height: 1.2; 
-	vertical-align: baseline;
 	position: relative; 
 	}
 .sidenote hr { 
@@ -215,7 +213,6 @@ img {
 	font-family: $body-font;
 	color: $contrast-color; //added color
 	position: relative;
-	vertical-align: baseline; 
 	}
 .sidenote-number:after { 
 	content: "["counter(sidenote-counter)"]\000a0";
@@ -234,7 +231,6 @@ img {
 	font-weight: $light-weight;
 	color: $dark-green;
 	line-height: 1.2; 
-	vertical-align: baseline;
 	position: relative; 
 	text-indent: 0em;
 	}

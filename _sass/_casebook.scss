@@ -158,9 +158,9 @@
 /* Legal Code: Indented subsections in statutes, etc. */
 .legal-code {
 	background-color: $code-box-color;
-	width: 66%;
+	width: inherit;
 	margin: 2rem 0 3rem 0;
-	padding: 1px 2% 10px 2%;
+	padding: 1px 1rem 10px 1rem;
 	border: 1px solid $pastel-blue1;
 }
 .legal-code p {

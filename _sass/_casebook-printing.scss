@@ -12,7 +12,7 @@
 		background-color: transparent;
 		orphans: 4;
 		widows: 2;
-		font-size: 9pt;
+		font-size: 10pt;
         @leftnote { width: 20vw; padding-right: 3em;}
         @rightnote { width: 20vw; padding-left: 3em;}
 	}
@@ -60,11 +60,9 @@
 		@top-center { content: normal; }
 		@top-right { content: normal; }
     }
-
 	html {
-		font-size: 9pt;
+		font-size: 10pt;
 	}
-
 	body {
 		width: 100%;
 		max-width: 100%;
@@ -77,24 +75,9 @@
 		padding: 0;
 		background-color: transparent;
 	}
-
-	body.sidenotes {
-		width: 100%;
-		max-width: 100%;
-		margin-top: 0mm;
-		margin-bottom: 0mm;
-		margin-left: 0mm;
-		margin-right: 0mm;
-		margin-inside: 0;
-		margin-outside: 0;
-		padding: 0;
-		background-color: transparent;
-	}
-
 	page-container {
 		padding: 0;
 	}
-
 	section {
 		padding: 0;
 	}
@@ -113,7 +96,6 @@
 		margin-bottom: 10pt;
         text-align: left;
 	}
-
 	.book-title {
 		hyphens: none;
 		string-set: book_title content();
@@ -144,11 +126,9 @@
 		font-size: 12pt;
         text-align: left;
 	}
-
 	.chapter {
 		padding: 0 0 0 0; 
 	}
-
 	h1, h2, h3, h4, h5, h6{
 		hyphens: none;
         text-align: left;
@@ -174,14 +154,12 @@
 		margin-top: 1.5rem;
 		font-size: 11pt;
 	}
-
 	ol, ul {
 		text-align: justify;
 	}
 	li {
 		text-align: justify;
 	}
-
 	.sidenote, .marginnote {
 		float: none;
 		clear: none;
@@ -199,7 +177,6 @@
 		font-size: 7pt;
 		font-weight: $normal-weight;
 	}
-	
 	thead {
 		display: table-header-group;
 	}
@@ -207,60 +184,47 @@
 	img {
 		page-break-inside: avoid;
 	}
-
 	header {
 		display: none;
 	}
-
 	.button {
 		display: none;
 	}
-
 	img {
-		max-width: 100% !important;
+		max-width: 90% !important;
 	}
-
 	hr {
 		margin-top: 4em;
 		margin-bottom: 4em;
 	}
-	
 	p,
 	h2,
 	h3 {
 	  orphans: 4;
 	  widows: 4;
 	}
-
 	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
 	  page-break-after: avoid;
 	}
-
 	.break {
 		margin: 0 0 0 0;
 		break-before: page;
 	}
-
 	.leftalign {
 		hyphens: none;
         text-align: left;
 	}
-   
 }
 // Hide print header/footer in screen display
-
 @media screen {
 
 	.print-header {
 		display: none;
 	}
-
 	.print-footer {
 		display: none;
 	}
-
 	.print-headfoot-block {
 		display: none;
 	}
-
 }

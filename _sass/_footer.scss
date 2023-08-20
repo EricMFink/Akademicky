@@ -4,7 +4,6 @@ footer {
 	bottom: 0;
 	width: 100%;
 }
-
 .home-footer {
 	font-family: $sans-font;
 	background-color: $dark-grey;
@@ -17,21 +16,18 @@ footer {
 	bottom: 0px;
 	width: 100%;
 }
-
 .home-footer p {
 	font-size: $tiny-size;
 	font-weight: $normal-weight;
 	margin-top: 0;
 	margin-bottom: 0;
 }
-
 .home-footer a { 
 	color: $white !important;
 	&:hover {
 	color:darken($white, 50%) !important;
 	}
 }
-
 .home-footer-block {
     position: relative;
 	max-width: 20rem;
@@ -42,7 +38,6 @@ footer {
 	padding: 1% 0;
 	height: 100%;
 }
-
 .home-footer-block p {
 	font-size: $tiny-size;
     position: relative;
