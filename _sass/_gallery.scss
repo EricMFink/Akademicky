@@ -39,24 +39,24 @@
 .project {
       box-sizing: border-box;
       float: left;
-      height: 165px;
+      height: auto;
       padding: 10px;
       vertical-align: middle;
-      width: 100%;
+      width: 50%;
     .thumbnail {
         overflow: hidden;
-        height: 145px;
+        height: auto;
         width: 100%;
         img {
             height: auto;
             position: relative;
             left: 0;
             top: 0;
-            width: 33.3%;
+            width: auto;
         }
         a {
             float: left;
-            height: 145px;
+            height: auto;
             position: relative;
             width: 100%;
             span {
@@ -93,37 +93,14 @@
     }
   }
   
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 800px) {
     .project {
-        height: 150px;
+        height: auto;
         width: 100%;
         .thumbnail {
-            height: 130px;
+            height: auto;
             a {
-                height: 140px;
-            }
-        }
-    }
-}
-@media screen and (min-width: 1000px){
-    .project {
-        height: 175px;
-        .thumbnail {
-            height: 160px;
-            a {
-                height: 160px;
-            }
-        }
-    }
-}
-@media screen and (min-width: 1400px){
-    .project {
-        height: 190px;
-
-        .thumbnail {
-            height: 175px;
-            a {
-                height: 175px;
+                height: auto;
             }
         }
     }

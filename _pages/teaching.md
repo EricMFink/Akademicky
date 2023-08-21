@@ -10,14 +10,8 @@ permalink: /teaching/
 
 <div class="project">
 <div class="thumbnail">
-<a href="{{ site.url }}/{{ class.url }}">
-<img class="thumbnail" src="{{ site.baseurl }}/assets/img/teaching/{{ class.img }}" alt="{{ class.title }}" size="100%" />
-
-<span>
-<h1>{{ class.title }}</h1>
-</span>
-
-</a>
+<span><h2>{{ class.title }}</h2></span></a>
+<a href="{{ site.url }}/{{ class.url }}"><img class="thumbnail" src="{{ site.baseurl }}/assets/img/teaching/{{ class.img }}" alt="{{ class.title }}" size="100%" />
 </div>
 </div>
 
