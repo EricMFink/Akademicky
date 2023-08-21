@@ -1,5 +1,6 @@
 .casebook {
     padding: 75px 0; 
+	width: 45rem;
 }
 
 /* Headings */
@@ -103,13 +104,7 @@
 	
 
 /* Blockquotes */
-.casebook blockquote {
-	margin: 0 0 0 1.5rem;
-}
-.casebook blockquote blockquote {
-	border: none;
-	margin: 0 0 0 1.5rem;
-	}
+
 .casebook blockquote p {
 	font-style: normal;
 }
@@ -125,7 +120,7 @@
 .comment {
 	font-family: $sans-font;
 	font-size: $smaller-size;
-	width: 66%;
+	width: inherit;
 	margin: 2rem 0 2rem 0;
 	padding: 1px 2% 10px 2%;
     background-color: $text-box-color;
@@ -157,17 +152,7 @@
 
 /* Legal Code: Indented subsections in statutes, etc. */
 .legal-code {
-	background-color: $code-box-color;
-	width: inherit;
-	margin: 2rem 0 3rem 0;
-	padding: 1px 1rem 10px 1rem;
-	border: 1px solid $pastel-blue1;
-}
-.legal-code p {
-	font-size: $small-size;
-}
-.legal-code h4 {
-	border: none;
+	width: 45rem;
 }
 .legal-code h5 {
 	font-style: normal;
@@ -176,22 +161,19 @@
 .legal-code h6 {
 	font-style: normal;
 }
-
-/*
 .legal-code blockquote {
-	margin: 0rem 0 0rem 1.5rem;
+	font-size: $body-size;
 }
+.legal-code blockquote p {
+	font-size: $body-size;
+}
+/*
 .legal-code blockquote blockquote {
 	margin: 0rem 0 0rem 1.5rem;
 }
 .legal-code blockquote blockquote blockquote {
 	margin: 0rem 0 0rem 1.5rem;
-}
-.legal-code blockquote p {
-	font-size: $small-size;
-	margin: 1rem 0 1rem 0;
-}
-*/
+} */
 
 /* Figures & Images */
 .casebook figure {
@@ -212,7 +194,9 @@
 	float: none;
 	margin: 1rem 0 4em 0; 
 	}
-
+.casebook img {
+	max-width: 100%;
+	}
 /* Force Page Break in Printing */
 .break {
 	margin: 500px 0 0 0;
