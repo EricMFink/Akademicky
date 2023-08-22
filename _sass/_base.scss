@@ -29,7 +29,6 @@ body {
     padding: 0 5rem 0 5rem;
     counter-reset: sidenote-counter; 
 	}
-
 body.casebook {
 	font-family: $body-font;
 	background-color: $white;
@@ -38,6 +37,12 @@ body.casebook {
 	margin: 0 auto 0 auto;
 	padding: 0 0 0 0; 
 	counter-reset: chapter sidenote-counter;
+}
+body.fullwidth {
+	width: 90%;
+	max-width: 100%;
+	margin: 0 auto 0auto;
+	padding: 0;
 }
 
 /* Headings */
