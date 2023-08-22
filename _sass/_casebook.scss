@@ -1,6 +1,6 @@
 .casebook {
     padding: 75px 0; 
-	width: 45rem;
+	width: 66%;
 }
 
 /* Headings */
@@ -83,7 +83,6 @@
 
 /* Chapter Headings */
 .frontmatter {
-	width: 70%;
     border-top: 2px solid $theme-color;
 }
 .chapter-number {
@@ -120,7 +119,6 @@
 .comment {
 	font-family: $sans-font;
 	font-size: $smaller-size;
-	width: inherit;
 	margin: 2rem 0 2rem 0;
 	padding: 1px 2% 10px 2%;
     background-color: $text-box-color;
@@ -129,7 +127,6 @@
 .comment p {
 	font-family: $sans-font;
 	font-size: $smaller-size;
-	width: 100%;
 }
 .comment h4 {
 	font-family: $sans-font;
@@ -138,7 +135,6 @@
 .comment h5 {
 	font-family: $sans-font;
 	font-size: $h6;
-	width: 100%;
 	margin-top: 1rem;
 }
 .comment h6 {
@@ -146,14 +142,10 @@
 	font-size: $small-size;
 	font-weight: $normal-weight;
 	font-style: italic;
-	width: 100%;
 	margin-top: 1rem;
 }
 
 /* Legal Code: Indented subsections in statutes, etc. */
-.legal-code {
-	width: 45rem;
-}
 .legal-code h5 {
 	font-style: normal;
 }
@@ -163,6 +155,7 @@
 }
 .legal-code blockquote {
 	font-size: $body-size;
+	padding: 0 0 0 1.5rem;
 }
 .legal-code blockquote p {
 	font-size: $body-size;
@@ -347,11 +340,11 @@ li.toc-li-H4 {
 }
 .colophon p {
 	font-size: $smaller-size;
-	width: 60%;
+	width: inherit;
 }
 .colophon li {
 	font-size: $smaller-size;
-	width: 60%;
+	width: inherit;
 }
 /* White space between chapters */
 .chapter {
