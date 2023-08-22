@@ -31,11 +31,11 @@ body {
 	}
 body.casebook {
 	font-family: $body-font;
-	background-color: $white;
+	background-color: $off-white;
 	color: $text-color;
 	width: 100%;
 	margin: 0 auto 0 auto;
-	padding: 0 0 0 0; 
+	padding: 0 0 0 12.5%; 
 	counter-reset: chapter sidenote-counter;
 }
 body.fullwidth {
@@ -173,6 +173,12 @@ figcaption {
     margin: 1rem auto 0 auto;
     position: relative;
     max-width: 75%; 
+	}
+.marginnote figcaption { 
+    font-size: $smaller-size;
+	}
+.sidenote figcaption { 
+	font-size: $smaller-size;
 	}
 figure.fullwidth figcaption { 
 	margin-left: auto;

@@ -3,32 +3,37 @@
     background-color: $off-white;
     opacity: 1;
     position:fixed;
-    left: 0px;
-    top: 0px;
+    left:calc((100vw - 100%)/2);
+    top:0px;
 	width: 100%;
     z-index: 50;
 }
+
 .site-title {
 	font-family: $heading-font;
 	font-weight: $bold-weight;
     font-size: $body-size;
     color: $theme-color;
     line-height: $header-height;
-	margin-left: 5rem;
+	margin-left: 12.5%;
     margin-bottom: 0;
 }
+
 .site-nav {
 	font-family: $heading-font;
 	font-size: $body-size;
     float: right;
     line-height: $header-height;
-	margin-right: 5rem;
+	margin-right: 12.5%;
+
     .nav-trigger {
         display: none;
     }
+
     .menu-icon {
         display: none;
     }
+
     .page-link{
         line-height: $line-height;
         // Gaps between nav items, but not on the first one
@@ -37,6 +42,7 @@
         }
     }
     // added for hamburger
+
 	@mixin media-query($device) {
 	    @media screen and (max-width: $device) {
 	        @content;
@@ -89,6 +95,7 @@
         }
     }
 }
+
 .header-bar{
     border-bottom: 1px solid $light-grey;
     font-size: $h3;
@@ -110,21 +117,24 @@
 }
 
 /* Header for Casebook Pages */
+
 .casebook-header {
-    border-bottom: 1px solid $light-grey;
+    border-bottom: 0.5px solid $light-grey;
     background-color: $off-white;
     opacity: 1;
     position:fixed;
-    left: 0px;
-    top: 0px;
+    left:calc((100vw - 100%)/2);
+    top:0px;
 	width: 100%;
     z-index: 50;
 }
+
 /* The dropdown container */
 .dropdown {
     float: right;
     overflow: hidden;
-} 
+}
+  
 /* Dropdown button */
 .dropdown .dropbtn {
     border: none;
@@ -134,16 +144,19 @@
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0 0 0 30px; /* Important for vertical align on mobile phones */
 }
+
 /* Dropdown Arrow Icon */
 .fa-caret-down {
   margin-left: 5px; }
+
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
     min-width: 160px;
     z-index: 1;
-} 
+}
+  
 /* Links inside the dropdown */
 .dropdown-content a {
     float: none;
@@ -153,10 +166,12 @@
     display: block;
     text-align: left;
 }
+
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
+  
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
