@@ -1,5 +1,23 @@
+/* ALERTS */
+.alert{
+	padding:15px;
+	margin:10px 0;
+	border-radius:3px;
+	&.primary{
+		background:lighten($primary, 40%);
+		border:1px lighten($primary, 30%) solid;
+	}
+	&.success{
+		background:lighten($success, 40%);
+		border:1px lighten($success, 30%) solid;
+	}
+	&.danger{
+		background:lighten($danger, 40%);
+		border:1px lighten($danger, 30%) solid;
+	}
+}
 
-$container-width: 1000px;
+/* BUTTONS */
 
 .button {
 	border:0;
@@ -55,25 +73,24 @@ $container-width: 1000px;
 	}
 }
 
+
+/* GRID */
+
 .container{
 	width: 90%;
 	margin:0 auto;
 }
-
 .pull-left{
 	float:left;
 }
-
 .pull-right{
 	float:right;
 }
-
 .row{
 	min-height: 2em;
 	line-height:2em;
 	width:100%;
 }
-
 .span{
 	float:left;
 	display:inline;
@@ -86,55 +103,42 @@ $container-width: 1000px;
 		margin-right:0;
 	}
 }
-
 .one{
 	width:8%;
 }
-
 .two{
 	width:16%;
 }
-
 .three{
 	width:24%;
 }
-
 .four{
 	width:32%;
 }
-
 .five{
 	width:40%;
 }
-
 .six{
 	width:48%;
 }
-
 .seven{
 	width:56%;
 }
-
 .eight{
 	width:64%;
 }
-
 .nine{
 	width:72%;
 }
-
 .ten{
 	width:80%;
 }
-
 .eleven{
 	width:88%;
 }
-
 .twelve{
 	width:100%
 }
-
 .container:after {
 	content: "\0020";
 	display: block;
@@ -142,7 +146,6 @@ $container-width: 1000px;
 	clear: both;
 	visibility: hidden;
 }
-
 .row:before,.row:after {
 	content: '\0020';
 	display: block;
@@ -151,25 +154,20 @@ $container-width: 1000px;
 	width: 0;
 	height: 0;
 }
-
 .row:after {
 	clear: both;
 }
-
 .row {
 	zoom: 1;
 }
 
-
 /* RESPONSIVE */
-
-@media only screen and (min-width: 768px) and (max-width: 999px) {
+@media only screen and (min-width: 800px) and (max-width: 999px) {
 	.container{
-		width:768px;
+		width:800px;
 	}
 }
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 799px) {
 	.container{
 	   width:300px;
 	   .table{
@@ -179,8 +177,7 @@ $container-width: 1000px;
 	   }
 	}
 }
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 799px) {
 	.container{
 		width:420px;
 		.table{
@@ -189,9 +186,7 @@ $container-width: 1000px;
 	}
 }
 
-
-/* TO USE BIJOU TABLE STYLES, UNCOMMENT HERE & EXCLUDE _tables.scss FROM /assets/CSS/main.scss
-
+/* TABLE */
 .table {
 	width:100%;
 	border-spacing: 0;
@@ -212,25 +207,5 @@ $container-width: 1000px;
 		td,th{
 			border:1px #CCC solid;
 		}
-	}
-}
-
-*/
-
-.alert{
-	padding:15px;
-	margin:10px 0;
-	border-radius:3px;
-	&.primary{
-		background:lighten($primary, 40%);
-		border:1px lighten($primary, 30%) solid;
-	}
-	&.success{
-		background:lighten($success, 40%);
-		border:1px lighten($success, 30%) solid;
-	}
-	&.danger{
-		background:lighten($danger, 40%);
-		border:1px lighten($danger, 30%) solid;
 	}
 }

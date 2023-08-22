@@ -1,0 +1,159 @@
+
+/* Sidenotes */
+.sidenote, .marginnote {
+	float: right;
+	clear: right;
+	margin-right: -40%;
+	width: 20vw;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	}
+  .sidenote {
+	font-family: portada, serif;
+	font-size: 0.7rem;
+	font-weight: 300;
+	line-height: 1.2;
+	position: relative;
+	}
+  .sidenote hr {
+	border: none;
+	opacity: 0;
+	height: 2px;
+	}
+  .sidenote-number {
+	counter-increment: sidenote-counter;
+	}
+  .sidenote-number:after, .sidenote:before {
+	content: counter(sidenote-counter) " ";
+	font-family: portada, serif;
+	color: #b03a2e;
+	position: relative;
+	}
+  .sidenote-number:after {
+	content: "[" counter(sidenote-counter) "] ";
+	font-size: 0.7rem;
+	top: -0.5rem;
+	left: 0.1rem;
+	}
+  .sidenote:before {
+	content: counter(sidenote-counter) ". ";
+	color: #b03a2e;
+	top: 0rem;
+	}
+  .marginnote {
+	font-family: adelle-sans, sans-serif;
+	font-size: 0.7rem;
+	font-weight: 300;
+	color: #006400;
+	line-height: 1.2;
+	position: relative;
+	text-indent: 0em;
+	}
+  .marginnote hr {
+	border: none;
+	opacity: 0;
+	height: 2px;
+	}
+  li .sidenote, li .marginnote {
+	margin-right: -80%;
+	}
+  blockquote .sidenote, blockquote .marginnote {
+	margin-right: -79%;
+	}
+  div.table-wrapper {
+	width: 55%;
+	}
+  div.table-wrapper, table {
+	overflow: auto;
+	}
+.marginnote code, .sidenote code {
+	font-size: 0.6rem;
+	}
+pre {
+	width: 52.5%;
+	padding-left: 2.5%;
+	overflow: auto;
+	}
+.fullwidth, li.listing div {
+	max-width: 90%;
+	}
+.fullwidth .sidenote, .fullwidth .sidenote-number, .fullwidth .marginnote {
+	display: none;
+	}
+span.newthought {
+	font-variant: small-caps;
+	font-size: 1.2em;
+	letter-spacing: 0.05rem;
+	}
+input.margin-toggle {
+	display: none;
+	}
+label.sidenote-number {
+	display: inline;
+	}
+label.margin-toggle:not(.sidenote-number) {
+	display: none;
+	}
+
+/* Epigraphs */
+div.epigraph { 
+	margin: 3.5636rem 0; 
+	}
+div.epigraph > blockquote { 
+	margin-top: 3rem;
+    margin-bottom: 3rem;
+  	}
+div.epigraph > blockquote, div.epigraph > blockquote > p { 
+	font-style: italic; 
+	}
+div.epigraph > blockquote > footer {  
+	font-style: normal;
+    width: 45%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 0;
+    margin-top: 0.4455rem;
+    margin-bottom: 3.1182rem 
+	}
+div.epigraph > blockquote > footer > cite { 
+	font-style: italic; 
+	}
+
+/* Listings */
+h1.content-listing-header{
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 1.8rem;
+	}
+li.listing hr{
+	width:100%;
+	}
+.listing, .listing h3 {
+	display: inline-block;
+	margin:0;
+	}
+li.listing {
+	margin:0;
+	& p{
+		width: 100%
+		}
+	}
+li.listing:last-of-type {
+	border-bottom: none;
+	margin-bottom: 1.4rem;
+	}
+li.listing h3.new {
+	text-transform: uppercase;
+	font-style: normal;
+	}
+hr.slender {
+	border: 0;
+	height: 1px;
+	margin-top: 1.4rem;
+	margin-bottom:1.4rem;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	}

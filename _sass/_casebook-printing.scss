@@ -5,16 +5,16 @@
 		margin-bottom: 8mm;
 		margin-left: 0;
 		margin-right: 0;
-		margin-inside: 15mm;
-		margin-outside: 30mm;
+		margin-inside: 10mm;
+		margin-outside: 20mm;
 		padding: 0;
 		size: letter portrait;
 		background-color: transparent;
 		orphans: 4;
 		widows: 2;
 		font-size: 10pt;
-        @leftnote { width: 20vw; padding-right: 3em;}
-        @rightnote { width: 20vw; padding-left: 3em;}
+        @leftnote { width: 20vw; padding-right: 1em;}
+        @rightnote { width: 20vw; padding-left: 1em;}
 	}
 	@page :left {
 		border-top: thin black solid;
@@ -77,6 +77,10 @@
 	}
 	page-container {
 		padding: 0;
+	}
+	.casebook {
+		padding: 0; 
+		width: 70vw;
 	}
 	section {
 		padding: 0;
