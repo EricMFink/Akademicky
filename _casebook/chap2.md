@@ -443,25 +443,25 @@ Although the Federal Rules do not themselves address when a co-defendant becomes
 
 </div>
 
-{% fullwidth "casebook/img/Rule14.png" "Fig. 2.1: Third Party Claims Under Rule 14" %}
+![Fig. 2.1: Third Party Claims Under Rule 14](../img/Rule14.png){width="100%"}
 
 <div class="comment">
 
-#### Note: Contribution & Indemnification
+#### Contribution & Indemnification
 
 FRCP Rules 13(g) and 14(a) both permit joinder of claims by a party seeking to hold someone else liable for all or part of a claim against them:
 
-_Rule 13(g)_
+- Rule 13(g)
 
 > \[A\] crossclaim may include a claim that the coparty _is or may be liable to the crossclaimant for all or part of a claim asserted in the action against the crossclaimant_.
 
-_Rule 14(a)_
+- Rule 14(a)
 
 > A defending party may, as third-party plaintiff, serve a summons and complaint on a nonparty who _is or may be liable to it for all or part of the claim against it_.
 
 These provisions refer to claims for _indemnification_ and _contribution_. They arise where a party to a suit (D1) seeks to hold someone else (D2) responsible for all (indemnification) or part (contribution) of the amount of a judgment against D1 in favor of another party (P1).
 
-{% fullwidth "casebook/img/Indemnification_Contribution.png" "Fig. 2.2: Indemnification & Contribution" %}
+![Fig. 2.2: Indemnification & Contribution](../img/Indemnification_Contribution.png){width="100%"}
 
 In Fig. 2.2, P1 asserts a claim against D1. D1 then asserts a claim against D2, contending that, if P1 prevails against D1, D2 must cover all or part of D1's liability to P1.
 
@@ -920,15 +920,77 @@ The strategy was clever but it would not have worked. The Tribe's interest in it
 
 <div class="comment">
 
-#### Note: Rule and Statutory Interpleader
+#### Rule and Statutory Interpleader
 
-Fed.R. Civ. P. 22 and 28 U.S.C. § 1335 provide two alternate ways of bringing an interpleader suit. Both involve the same type of dispute, where one party (the interpleader plaintiff) has possession of money or property in which two or more other parties (the interpleader defendants) assert adverse claims of ownership or other legal interest.
+Rule 22 and 28 U.S.C. § 1335 provide two alternate ways of bringing an interpleader suit. Both involve the same type of dispute, where one party (the interpleader plaintiff) has possession of money or property in which two or more other parties (the interpleader defendants) assert adverse claims of ownership or other legal interest.
 
-But there are some procedural differences between rule interpleader and statutory interpleader (see Fig. 2.3). An interpleader plaintiff may proceed under either Rule 22 or  § 1335, provided they meet the applicable jurisdictional and other requirements. 
+But there are some procedural differences between rule interpleader and statutory interpleader (see Fig. 2.3). An interpleader plaintiff may proceed under either Rule 22 or § 1335, provided they meet the applicable jurisdictional and other requirements.
 
-{% fullwidth "casebook/img/Interpleader.png" "Fig. 2.3: Rule & Statutory Interpleader" %}
-
-
+<table>
+<tbody>
+<tr>
+<th style="width:20%" coli="1" rowspan="1"></th>
+<th style="width:40%" coli="1" rowspan="1">Rule 22</th>
+<th style="width:40%" coli="1" rowspan="1">28 U.S.C. § 1335</th>
+</tr>
+<tr>
+<td coli="1" rowspan="1">Diversity Jurisdiction</td>
+<td coli="1" rowspan="1">Normal standard 
+<ul>
+<li>Complete diversity between plaintiff (stakeholder) and defendants (claimants);</li>
+<li>Sum or value greater than $75,000</li>
+</ul>
+</td>
+<td coli="1" rowspan="1">Relaxed standard 
+<ul>
+<li>Minimal diversity among defendants (claimants);</li>
+<li>plaintiff’s citizenship doesn’t matterSum or value of $500 or more</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td coli="1" rowspan="1">Personal Jurisdiction</td>
+<td coli="1" rowspan="1">Normal standard 
+<ul>
+<li>Minimum contacts with forum state</li>
+</ul>
+</td>
+<td coli="1" rowspan="1">Relaxed standard 
+<ul>
+<li>Minimum contacts with the U.S.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td coli="1" rowspan="1">Service of Process</td>
+<td coli="1" rowspan="1">Normal standard under Rule 4(k)</td>
+<td coli="1" rowspan="1">Relaxed standard under 28 U.S.C. § 2361
+<ul>
+<li>Nationwide service authorized</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td coli="1" rowspan="1">Venue</td>
+<td coli="1" rowspan="1">Normal standard under 28 U.S.C. § 1391</td>
+<td coli="1" rowspan="1">Relaxed standard under 28 U.S.C. § 1397
+<ul>
+<li>Any judicial district where any claimant resides</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td coli="1" rowspan="1">Deposit Funds or Property with the Court</td>
+<td coli="1" rowspan="1">Not required</td>
+<td coli="1" rowspan="1">Required</td>
+</tr>
+<tr>
+<td coli="1" rowspan="1">Enjoining Other Actions Affecting Funds or Property</td>
+<td coli="1" rowspan="1">Subject to restrictions under FRCP Rule 65 &amp; 28 U.S.C. § 2283 (Anti-Injunction Act)</td>
+<td coli="1" rowspan="1">Authorized by 28 U.S.C. § 2361</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
@@ -943,9 +1005,9 @@ This matter is before the Court on Defendants' Motion to Dismiss Plaintiff Deuts
 Deutsch seeks to interplead a sculpture[^Deutsch1]---_Industrial Forms_ (aka _Auto Tower_)---by well known American artist John Storrs. She received the sculpture from the estate of her father who previously owned an art gallery in New York City. The ownership history of sculpture, while somewhat circuitous, is relevant to the motion.
 
 [^Deutsch1]:
-  {-} The sculpture was one of several related pieces by Storrs, two of which are in the [National Gallery of Art(https://www.nga.gov/collection/art-object-page.140328.html) See Fig. 2.4
-
-In the late 1970s,[^Deutsch2] John Storrs' estate (represented by his daughter, Monique Storrs Booz) consigned _Industrial Forms_ {% marginfigure "auto-tower" "casebook/img/AutoTower.jpg" "_Auto Tower, Industrial Forms_, John Storrs (ca. 1922)" %} to the Robert Schoelkopf Gallery in New York City. The Schoelkopf Gallery maintained a long-term business relationship with the Storrs estate through this period, selling several of the artist's works.
+  {-} The sculpture was one of several related pieces by Storrs, two of which are in the [National Gallery of Art](https://www.nga.gov/collection/art-object-page.140328.html). 
+  
+In the late 1970s,[^Deutsch2] John Storrs' estate (represented by his daughter, Monique Storrs Booz) consigned _Industrial Forms_{% marginfigure "auto-tower" "casebook/img/AutoTower.jpg" "_Auto Tower, Industrial Forms_, John Storrs (ca. 1922)" %} to the Robert Schoelkopf Gallery in New York City. The Schoelkopf Gallery maintained a long-term business relationship with the Storrs estate through this period, selling several of the artist's works.
 
 [^Deutsch2]:
   {-} “late 1970s” appears to be a clerical error. [The Complaint](https://bit.ly/3MODhmA) indicates that the consignment was made in 1969.
@@ -979,9 +1041,6 @@ Michelle Storrs Booz is the sole remaining heir of Storr's artwork. She has reno
 In an effort to save her interpleader claim in the face of overwhelming evidence that there is only one actual or potential claimant, Deutsch next argues interpleader is proper based on alleged adversity at the time she filed this complaint. Once interpleader jurisdiction has been _properly established_ it will continue even if the original claimants are no longer adverse. As emphasized above, jurisdiction must first be properly established before it will continue in absence of adverse parties. Here, no adverse claims are present at the outset, therefore there is no jurisdiction. Deutsch filed her initial complaint on June 24, 2016. On May 17, 2016, Andrew Schoelkopf notified her in writing that the Storrs estate agreed he was the legitimate owner of the sculpture. At the outset of this action defendants all submitted declarations attesting to the lack of adversity before the court ruled on the existence of interpleader jurisdiction. Therefore, Deutsch cannot maintain her interpleader claim based on perceived adversity at the outset of her claim.
 
 Therefore, defendants' motion is GRANTED and plaintiff's complaint and request for deposit is DISMISSED without prejudice.
-
-
-
 
 #### Meyer v. Anderson, No. 2:19-cv-640-DCN (D.S.C. May 14, 2019)
 
@@ -1059,7 +1118,7 @@ For each of the following additional claims, explain whether joinder is proper u
 
 <div class="break">
 
-{% fullwidth "casebook/img/JoinderProblem.png" "Fig. 2.4: Claims & Applicable Joinder Rules" %}
+![Claims & Applicable Joinder Rules](../img/JoinderProblem.png)
 
 </details>
 

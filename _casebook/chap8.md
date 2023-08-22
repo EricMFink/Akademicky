@@ -17,7 +17,7 @@ chapter: 8
 
 </div>
 
-#### Scott v. Harris, 550 U.S. 372 (2007)
+#### Scott v. Harris, 550 U.S. 372 (2007){#scott-v-harris}
 
 ##### Justice SCALIA delivered the opinion of the Court.
 

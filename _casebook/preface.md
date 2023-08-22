@@ -3,7 +3,7 @@ layout: casebook
 title: Preface
 ---
 
-This book presents material for use in a law school course on the perils and pitfalls of legal practice. Topics covered include representing difficult clients, dealing with vexatious adversaries, and negotiating favorable terms for the sale of your soul.
+This book presents material for use in a first-year law school Civil Procedure course. Topics covered include the scope of a lawsuit (Party & Claim Joinder), selection of an appropriate forum (Personal & Subject Matter Jurisdiction), presentation of claims and defenses (Pleadings), choice of applicable law (the _Erie_ doctrine & the Rules Enabling Act), disposition without a trial (Summary Judgment), and the effect of judgments on future litigation (Claim & Issue Preclusion).
 
 Most of the materials reproduced here are in the public domain; excerpts from copyrighted materials are included for teaching purposes under the fair use doctrine. Materials have been redacted to omit passages not pertinent to the learning objectives. Judicial opinions have also been "cleaned up" for ease of reading.[^Preface1] 
 
@@ -13,7 +13,7 @@ Most of the materials reproduced here are in the public domain; excerpts from co
 
 At the top of the page for each chapter, there is a drop-down "Page Navigation" menu. Hovering over this will reveal a list of the page contents, and clicking on an item will scroll to the appropriate location on the page. On mobile devices, click on the menu icon (<img src="../img/menu.png" width="16">) to reveal the Page Navigation menu.
 
-##### Sidenotes & Margin Notes{#notes}
+##### Sidenotes & Margin Notes
 
 Following the typographical style of [Edward Tufte](https://www.edwardtufte.com/tufte/), this site uses sidenotes and margin notes in place of traditional footnotes or endnotes. These appear in the right-hand margin, avoiding the need to jump through hyperlinks or scroll to the note text. Numbered sidenotes[^sidenote] are used for footnotes in the source materials (with original note numbering indicated in parentheses). Unnumbered margin notes,[^marginnote] in <span class="sans-green">green sans-serif typeface</span>, are used for editor's comments. On mobile devices, sidenotes and margin notes may initially be hidden; clicking on the indicator for a sidenote (<span class="dullred">[1]</span>) or margin note (&#8853;) will reveal the note. 
 

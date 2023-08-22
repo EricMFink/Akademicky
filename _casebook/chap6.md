@@ -1327,3 +1327,31 @@ Under Hudson state law, the elements of a claim for wrongful termination in brea
 Sterling Cooper moves to dismiss for failure to state a claim under FRCP Rule 12(b)(6), asserting that the allegations in the complaint are insufficient to state a claim for breach of contract. 
 
 _Should the court grant the motion to dismiss?_
+
+
+##### Question 3
+
+Frank Sobotka, a dockworker at the Port of Baltimore, was injured in a collision with a forklift operated by another dockworker, Vernon Motley. Sobotka sued Baltimore Piers, Inc. (BPI), contending that the company was liable because it owned the forklift and that Motley was their employee. 
+
+Sobotka filed a Complaint, which included the following paragraph: 
+
+> ¶5. A motor-driven vehicle known as a forklift or chisel, owned, operated and controlled by the defendant, its agents, servants and employees, was so negligently and carelessly managed that the same did come into contact with the plaintiff causing him to sustain the injuries more fully hereinafter set forth.
+
+Sobotka and his attorney based these allegations on the fact that the forklift was marked "B.P.I." and that Motley told Sobotka he was employed by BPI. In fact, BPI had sold its freight-moving operations to another company, Charm City Contractors (CCC), several months before the accident. BPI continued to own the forklift, but leased it to CCC. Following the sale of operations, BPI's freight-moving employees, including Motley, became CCC's employees. However, for some reason, Motley was unaware of that change. 
+
+BPI and CCC were insured by the same company, Harbor Liability, Inc. (HLI). CCC had reported the accident to HLI, which opened a claim. Upon receiving the complaint, BPI forwarded it to HLI, noting that Motley was employed by CCC at the time of the accident and suggesting that CCC, rather than BPI, should be the proper defendant. 
+
+BPI then filed an Answer, in which it responded as follows: 
+
+> ¶5. Defendant denies the averments of paragraph 5.
+
+In the course of discovery, Sobotka first learned about the sale of BPI's operations to CCC, the lease of the forklift, and the change in Motley's employment status. By this time, the statute of limitations on any claims against CCC had run out. 
+
+Sobotka files a motion under FRCP Rule 11,[^rule12f] on the grounds that BPI's general denial in response to ¶5 of the Complaint was not warranted by the evidence, since BPI knew it owned the forklift. As a sanction, Sobotka requests that the court strike BPI's denial and rule that, for purposes of the suit, BPI is deemed to admit each of the facts alleged in that paragraph.
+
+BPI objects, and files its own motion for leave to amend its answer to admit that it owned the forklift and that Sobotka's injuries resulted from the collosion, but deny that Motley was operating the forklift as BPI's employee. 
+
+[^rule12f]:
+  {-} Because more than 21 days have passed since BPI served its answer, it is too late for a motion to strike under FRCP Rule 12(f): "Motion to Strike. The court may strike from a pleading an insufficient defense or any redundant, immaterial, impertinent, or scandalous matter. The court may act: (1) on its own; or (2) on motion made by a party either before responding to the pleading or, if a response is not allowed, within 21 days after being served with the pleading." 
+
+_How should the court rule?_

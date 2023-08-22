@@ -7,6 +7,20 @@ chapter: 3
 
 ## Constitutional Limits: Due Process 
 
+<div class="legal-code">
+
+####  U.S. Constitution 
+
+##### Amendment V
+
+No person shall ... be deprived of life, liberty, or property, without due process of law; ....
+
+##### Amendment XIV, sec. 1
+
+... nor shall any state deprive any person of life, liberty, or property, without due process of law; ....
+
+</div>
+
 ### Foundations
 
 #### Pennoyer v. Neff, 95 U.S. 714 (1877) 
@@ -82,7 +96,9 @@ The [Donation Land Claims Act of 1850](https://www.historylink.org/File/9501) wa
 
 The questions for decision are (1) whether, within the limitations of the due process clause of the Fourteenth Amendment, appellant, a Delaware corporation, has by its activities in the State of Washington rendered itself amenable to proceedings in the courts of that state to recover unpaid contributions to the state unemployment compensation fund exacted by state statutes, and (2) whether the state can exact those contributions consistently with the due process clause of the Fourteenth Amendment.
 
-In this case notice of assessment for unpaid contributions for the years in question was personally served upon a sales solicitor employed by appellant in the State of Washington, and a copy of the notice was mailed by registered mail to appellant at its address in St. Louis, Missouri. {% marginfigure "intl-shoe" "casebook/img/IntlShoeBldg2.jpg" "International Shoe Co., St. Louis, Missouri" %} Appellant appeared specially before the office of unemployment and moved to set aside the order and notice of assessment on the ground that the service upon appellant's salesman was not proper service upon appellant; that appellant was not a corporation of the State of Washington and was not doing business within the state; that it had no agent within the state upon whom service could be made; and that appellant is not an employer and does not furnish employment within the meaning of the statute.
+In this case notice of assessment for unpaid contributions for the years in question was personally served upon a sales solicitor employed by appellant in the State of Washington, and a copy of the notice was mailed by registered mail to appellant at its address in St. Louis, Missouri. Appellant appeared specially before the office of unemployment and moved to set aside the order and notice of assessment on the ground that the service upon appellant's salesman was not proper service upon appellant; that appellant was not a corporation of the State of Washington and was not doing business within the state; that it had no agent within the state upon whom service could be made; and that appellant is not an employer and does not furnish employment within the meaning of the statute.
+
+![International Shoe Co., St. Louis, Missouri](../img/IntlShoeBldg2.jpg){width="100%"}
 
 The facts as found by the appeal tribunal and accepted by the state Superior Court and Supreme Court, are not in dispute. Appellant is a Delaware corporation, having its principal place of business in St. Louis, Missouri, and is engaged in the manufacture and sale of shoes and other footwear. It maintains places of business in several states, other than Washington, at which its manufacturing is carried on and from which its merchandise is distributed interstate through several sales units or branches located outside the State of Washington.
 
@@ -943,8 +959,11 @@ Within the outer bounds allowed under the constitutional due process standard, t
 
 ### Enumerated Statutes 
 
-Enumerated long-arm statutes identify particular circumstances in which a state's courts may exercise jurisdiction over a non-resident. The New York long-arm statute is an example:
+<div class="comment">
 
+Enumerated long-arm statutes identify particular circumstances in which a state's courts may exercise jurisdiction over a non-resident. The New York long-arm statute is an example.
+
+</div>
 
 <div class="legal-code">
 
@@ -978,16 +997,24 @@ Enumerated long-arm statutes identify particular circumstances in which a state'
 
 </div>
 
+<div class="comment">
+
 Under an enumerated long-arm statute, determining whether the court may exercise personal jurisdiction requires a two-step analysis: 
 
 (1) Does the case fall within one (or more) of the circumstances enumerated in the statute? 
 
 (2) If so, does the defendant have the requisite contacts with the forum state to satisfy the constitutional due process standard? 
 
+</div>
+
 
 ### Constitutional Limit Statutes 
 
-This type of long-arm statute grants a state's courts jurisdiction to the full extent permitted under the Constitution. The California long-arm statute is an example:
+<div class="comment">
+
+This type of long-arm statute grants a state's courts jurisdiction to the full extent permitted under the Constitution. The California long-arm statute is an example.
+
+</div>
 
 <div class="legal-code">
 
@@ -999,9 +1026,13 @@ A court of this state may exercise jurisdiction on any basis not inconsistent wi
 
 </div>
 
+<div class="comment">
+
 Under this type of long-arm statute, the same analysis (i.e. does the defendant have minimum contacts with the forum state?) answers both the statutory and constitutional question.
 
 Some enumerated long-arm statutes have been interpreted as authorizing the exercise of jurisdiction to the full extent permitted under the constitution. See, e.g., _Dillon v. Numismatic Funding Corp._, 291 N.C. 674, 676 (1977) ("By the enactment of [G.S. 1-75.4(1)(d)](https://bit.ly/3Li9KAB), it is apparent that the General Assembly intended to make available to the North Carolina courts the full jurisdictional powers permissible under federal due process.") 
+
+</div>
 
 ## Review Questions
 
