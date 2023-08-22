@@ -334,17 +334,16 @@ li.toc-li-H4 {
 /* Publication and design information */
 .colophon {
 	font-size: $smaller-size;
-	width: 70%;
 	margin: 3rem 0 0 0;
-    border-top: 2px solid $theme-color;
+    border-top: 1px solid $theme-color;
 }
 .colophon p {
 	font-size: $smaller-size;
-	width: inherit;
+	width: 50%;
 }
 .colophon li {
 	font-size: $smaller-size;
-	width: inherit;
+	width: 50%;
 }
 /* White space between chapters */
 .chapter {

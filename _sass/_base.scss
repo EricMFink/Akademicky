@@ -179,163 +179,105 @@ img {
 	}
 
 /* Sidenotes */
-.sidenote, .marginnote { 
+.sidenote, .marginnote {
 	float: right;
-    clear: right;
-    margin-right: -20rem;
-    width: 12rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-	}
-.sidenote { 
-	font-family: $sidenotes-font;
-	font-size: $smallest-size;
-	font-weight: $light-weight;
-	line-height: 1.2; 
-	position: relative; 
-	}
-.sidenote hr { 
-	border: none;
-	opacity: 0;
-	height: 2px;
-	}
-.sidenote-number { 
-	counter-increment: sidenote-counter; 
-	}
-.sidenote-number:after, .sidenote:before { 
-	content: counter(sidenote-counter) " ";
-	font-family: $body-font;
-	color: $contrast-color; //added color
+	clear: right;
+	margin-right: -40%;
+	width: 30%;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+  }
+  .sidenote {
+	font-family: portada, serif;
+	font-size: 0.7rem;
+	font-weight: 300;
+	line-height: 1.2;
 	position: relative;
-	}
-.sidenote-number:after { 
-	content: "["counter(sidenote-counter)"]\000a0";
-	font-size: $smallest-size;
-	top: -0.5rem;
-	left: 0.1rem; 
-	}
-.sidenote:before { 
-	content: counter(sidenote-counter) ".\000a0"; 
-	color: $contrast-color;
-	top: 0rem; 
-	}
-.marginnote { 
-	font-family: $marginnotes-font;
-	font-size: $smallest-size;
-	font-weight: $light-weight;
-	color: $dark-green;
-	line-height: 1.2; 
-	position: relative; 
-	text-indent: 0em;
-	}
-.marginnote hr { 
+  }
+  .sidenote hr {
 	border: none;
 	opacity: 0;
 	height: 2px;
-	}
-li .sidenote, li .marginnote{ 
-	margin-right: -80%; 
-	} 
-blockquote .sidenote, blockquote .marginnote { 
-	margin-right: -79% 
-	}
-
-div.table-wrapper { 
-	width: 55%; 
-	}
-div.table-wrapper, table {
-	overflow: auto; 
-	}
-
-.marginnote code, .sidenote code { 
-	font-size: $tiny-size; 
-	}
-pre { 
+  }
+  .sidenote-number {
+	counter-increment: sidenote-counter;
+  }
+  .sidenote-number:after, .sidenote:before {
+	content: counter(sidenote-counter) " ";
+	font-family: portada, serif;
+	color: #b03a2e;
+	position: relative;
+  }
+  .sidenote-number:after {
+	content: "[" counter(sidenote-counter) "] ";
+	font-size: 0.7rem;
+	top: -0.5rem;
+	left: 0.1rem;
+  }
+  .sidenote:before {
+	content: counter(sidenote-counter) ". ";
+	color: #b03a2e;
+	top: 0rem;
+  }
+  .marginnote {
+	font-family: adelle-sans, sans-serif;
+	font-size: 0.7rem;
+	font-weight: 300;
+	color: #006400;
+	line-height: 1.2;
+	position: relative;
+	text-indent: 0em;
+  }
+  .marginnote hr {
+	border: none;
+	opacity: 0;
+	height: 2px;
+  }
+  li .sidenote, li .marginnote {
+	margin-right: -80%;
+  }
+  blockquote .sidenote, blockquote .marginnote {
+	margin-right: -79%;
+  }
+  div.table-wrapper {
+	width: 55%;
+  }
+  div.table-wrapper, table {
+	overflow: auto;
+  }
+  .marginnote code, .sidenote code {
+	font-size: 0.6rem;
+  }
+  pre {
 	width: 52.5%;
 	padding-left: 2.5%;
-	overflow: auto; 
-	}
-.fullwidth, li.listing div{ 
-	max-width: 90%; 
-	}
-.fullwidth { 
-	.sidenote, .sidenote-number, .marginnote { 
-		display: none; } 
-		}
-
-span.newthought { 
+	overflow: auto;
+  }
+  .fullwidth, li.listing div {
+	max-width: 90%;
+  }
+  .fullwidth .sidenote, .fullwidth .sidenote-number, .fullwidth .marginnote {
+	display: none;
+  }
+  span.newthought {
 	font-variant: small-caps;
 	font-size: 1.2em;
-	letter-spacing: 0.05rem; 
-	}
-
-input.margin-toggle { 
-	display: none; 
-	}
-
-label.sidenote-number { 
-	display: inline; 
-	}
-
-label.margin-toggle:not(.sidenote-number) { 
-	display: none; 
-	}
-
-@media (max-width: 760px) { 
-	label.margin-toggle:not(.sidenote-number) { 
-		display: inline; color: $contrast-color; 
-		}
-	.sidenote, .marginnote { 
-		display: none; 
-		}
-	.margin-toggle:checked + .sidenote, .margin-toggle:checked + .marginnote { 
-		display: block;
-		float: left;
-		left: 1rem;
-		clear: both;
-		width: 95%;
-		margin: 1rem 2.5%;
-		position: relative; 
-		}
-	label { 
-		cursor: pointer; 
-		}
-	pre, pre code, p code, p pre code { 
-		width: 90%;
-		padding: 0; 
-		}
-	.table-caption { 
-		display: block;
-		float: right;
-		clear: both;
-		width: 98%;
-		margin-top: 1rem;
-		margin-bottom: 0.5rem;
-		margin-left: 1%;
-		margin-right: 1%;
-		position: relative; 
-		}
-	div.table-wrapper, table, table.booktabs { 
-		width: 85%; 
-		}
-	div.table-wrapper { 
-		border-right: 1px solid #efefef; 
-		}
-	img { 
-		max-width: 100%; 
-		} 
-	figcaption.maincolumn-figure, figure.fullwidth figcaption { 
-		float:none; text-align: center;
-		}
-	figure.fullwidth figcaption { 
-		margin-left: 0; 
-		}
-	}
-
+	letter-spacing: 0.05rem;
+  }
+  input.margin-toggle {
+	display: none;
+  }
+  label.sidenote-number {
+	display: inline;
+  }
+  label.margin-toggle:not(.sidenote-number) {
+	display: none;
+  }
+  
 /* Tables */
 table {
-	font-family: $body-font;
-	font-size: $smallest-size;
+	font-family: portada, serif;
+	font-size: .7rem;
 	max-width: 90%;
 	margin: 2rem auto 4rem auto;
 	border-top: 2px solid black;
@@ -351,20 +293,20 @@ table li {
 	margin: 0 0 0 0; 
 }
 th {
-	font-family: $heading-font;
-	font-size: $smaller-size;
+	font-family: adelle-sans, sans-serif;
+	font-size: .8rem;
 	padding: 10px;
 	text-align: left;
 	background: #eee8d5;
 	border-bottom: 1px solid black;
 }
 td {
-  font-size: $smallest-size;
+  font-size: .7rem;
   padding: 10px;
   text-align: left;
 }
 tr td:first-child {
-	font-family: $heading-font;
+	font-family: adelle-sans, sans-serif;
 	font-weight: 400;
 }
 table,th,td {
@@ -372,12 +314,9 @@ table,th,td {
 	padding:10px;
 	vertical-align: top;
 }
-/* Uncomment to include borders between rows and columns*/
-/*
 table,th,td {
-	border: 1px solid #93a1a1;
+	/* border: 1px solid #93a1a1; */
 }
-*/
 noheader th {
 	display: none;
 }
