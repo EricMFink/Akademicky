@@ -29,7 +29,7 @@ output:
 
 <div class="chapter">
 
-# Preface
+<p class="chapter-name">Preface</p>
 
 This book presents material for use in a first-year law school Civil Procedure course. Topics covered include the scope of a lawsuit (Party & Claim Joinder), selection of an appropriate forum (Personal & Subject Matter Jurisdiction), presentation of claims and defenses (Pleadings), choice of applicable law (the _Erie_ doctrine & the Rules Enabling Act), disposition without a trial (Summary Judgment), and the effect of judgments on future litigation (Claim & Issue Preclusion).
 
@@ -37,7 +37,7 @@ Most of the materials reproduced here are in the public domain; excerpts from co
 
 [^Preface1]: _See_ Jack Metzler, [Cleaning Up Quotations](https://lawrepository.ualr.edu/cgi/viewcontent.cgi?article=1405&context=appellatepracticeprocess), 18 J. App. Prac. & Process 143, 154 (2017) (proposing "cleaned up" parenthetical for quotations from judicial opinions, to indicate the author “has removed extraneous, non-substantive material like brackets, quotation marks, ellipses, footnote reference numbers, and internal citations; may have changed capitalization without using brackets to indicate that change; and affirmatively represents that the alterations were made solely to enhance readability and that the quotation otherwise faithfully reproduces the quoted text.”) 
 
-##### Sidenotes & Margin Notes
+#### Sidenotes & Margin Notes
 
 Following the typographical style of [Edward Tufte](https://www.edwardtufte.com/tufte/), this casebook uses sidenotes and margin notes in place of traditional footnotes or endnotes. These appear in the right-hand margin, avoiding the need to jump through hyperlinks or scroll to the note text. Numbered sidenotes[^sidenote] are used for footnotes in the source materials (with original note numbering indicated in parentheses). Unnumbered margin notes,[^marginnote] in <span class="sans-green">green sans-serif typeface</span>, are used for editor's comments. 
 
@@ -46,15 +46,18 @@ Following the typographical style of [Edward Tufte](https://www.edwardtufte.com/
 [^marginnote]: 
   {-} This is an example of a margin note. 
 
-##### Links 
+#### Links 
 
 The PDF version of this casebook contains links (indicated by red-colored text, e.g. [U.S. Department of Labor](https://www.dol.gov/)) to cross-referenced pages or external online material. 
+
+</div>
 
 <!-- CHAPTER 1 -->
 
 <div class="chapter">
 
-# Chapter 1. Introduction
+<p class="chapter-number">Chapter 1</p>
+<p class="chapter-name">Introduction</p>
 
 {% include_relative chap1.md %}
 
@@ -64,7 +67,9 @@ The PDF version of this casebook contains links (indicated by red-colored text, 
 <!-- CHAPTER 2 -->
 <div class="chapter">
 
-# Chapter 2. Parties & Claims
+
+<p class="chapter-number">Chapter 2</p>
+<p class="chapter-name">Parties & Claims</p>
 
 {% include_relative chap2.md %}
 
@@ -74,7 +79,8 @@ The PDF version of this casebook contains links (indicated by red-colored text, 
 <!-- CHAPTER 3 -->
 <div class="chapter">
 
-# Chapter 3. Personal Jurisdiction
+<p class="chapter-number">Chapter 3</p>
+<p class="chapter-name">Personal Jurisdiction</p>
 
 {% include_relative chap3.md %}
 
@@ -84,7 +90,8 @@ The PDF version of this casebook contains links (indicated by red-colored text, 
 <!-- CHAPTER 4 -->
 <div class="chapter">
 
-# Chapter 4. Subject Matter Jurisdiction
+<p class="chapter-number">Chapter 4</p>
+<p class="chapter-name">Subject Matter Jurisdiction</p>
 
 {% include_relative chap4.md %}
 
@@ -94,7 +101,8 @@ The PDF version of this casebook contains links (indicated by red-colored text, 
 <!-- CHAPTER 5 -->
 <div class="chapter">
 
-# Chapter 5. Choice of Law in Federal Court
+<p class="chapter-number">Chapter 5</p>
+<p class="chapter-name">Choice of Law in Federal Court</p>
 
 {% include_relative chap5.md %}
 
@@ -104,7 +112,8 @@ The PDF version of this casebook contains links (indicated by red-colored text, 
 <!-- CHAPTER 6 -->
 <div class="chapter">
 
-# Chapter 6. Pleading
+<p class="chapter-number">Chapter 6</p>
+<p class="chapter-name">Pleading</p>
 
 {% include_relative chap6.md %}
 
@@ -114,7 +123,8 @@ The PDF version of this casebook contains links (indicated by red-colored text, 
 <!-- CHAPTER 7 -->
 <div class="chapter">
 
-# Chapter 7. Claim & Issue Preclusion
+<p class="chapter-number">Chapter 7</p>
+<p class="chapter-name">Claim & Issue Preclusion</p>
 
 {% include_relative chap7.md %}
 
@@ -124,7 +134,8 @@ The PDF version of this casebook contains links (indicated by red-colored text, 
 <!-- CHAPTER 8 -->
 <div class="chapter">
 
-# Chapter 8. Summary Judgment
+<p class="chapter-number">Chapter 8</p>
+<p class="chapter-name">Summary Judgment</p>
 
 {% include_relative chap8.md %}
 
