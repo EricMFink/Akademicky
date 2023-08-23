@@ -1,58 +1,52 @@
+.vita-container {
+    padding: 75px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+}
 .vita {
-    font-family: $serif-font;
+    font-family: $vita-font;
 	font-weight: $normal-weight;
     padding-bottom: 20px;
 }
-
 .vita-button {
 	float:right;
 	padding-bottom: 2px;
 }
-
 .vita p {
-    font-family: $serif-font;
-	margin-top: 0rem;
-	margin-bottom: 1rem;
+    font-family: $vita-font;
 }
-
 .vita li {
-    font-family: $serif-font;
+    font-family: $vita-font;
 }
-
 .vita ul, ol {
-    font-family: $serif-font;
+    font-family: $vita-font;
 	font-size: $body-size;
 }
-
 .vita-header {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-
 .vita-contact {
-    font-family: $serif-font;
+    font-family: $vita-font;
 	font-weight: $normal-weight;
     margin: 0;
     padding: 0;
 }
-
+.vita-contact p {
+    font-size: $smaller-size;
+	text-align: right;
+	margin: 0 0 .2rem 0;
+}
 .vita-left {
 	float: left;
 	width: 60%;
 }
-
 .vita-right {
   float: right;
 }
-
-.vita-contact p {
-    font-size: $smaller-size;
-	text-align: right;
-	margin-bottom: .2rem;
-}
-
 .vita-author {
-    font-family: $serif-font;
+    font-family: $vita-font;
     color: $text-color;
     font-size: $h1;
 	font-weight: $normal-weight;
@@ -61,48 +55,45 @@
     padding: 0;
     border-bottom: none;
 }
-
 .vita h1 {
 	font-family: $heading-font;
-    font-size: $h2;
+    font-size: 2.2rem;
 	font-weight: $medium-weight;
     color: $theme-color;
-    margin-bottom: 1rem;
+    margin: 4rem 0 1rem 0;
     padding: 0 0 3px 0;
     border-bottom: 1px solid $text-color;
 }
-
 .vita h2 {
-    font-family: $serif-font;
-    font-size: $h3;
+    font-family: $vita-font;
+    font-size: 1.5rem;
 	font-weight: $normal-weight;
-    margin-bottom: 0.5rem;
+    margin: 1.5rem 0 0.5rem 0;
 }
-
 .vita h3 {
-    font-family: $serif-font;
-    font-size: $h4;
+    font-family: $vita-font;
+    font-size: 1.25rem;
 	font-weight: $normal-weight;
+	font-style: italic;
+	margin: .5rem 0 0 0;
 }
-
 .vita h4 {
-    font-family: $serif-font;
+    font-family: $vita-font;
 	font-weight: $normal-weight;
+	font-size: 1.25rem;
     font-style: italic;
-	margin-top: .2rem;
+	margin: 1.5rem 0 0 0;
 }
-
 .vita h5 {
-    font-family: $serif-font;
-    font-size: $h4;
+    font-family: $vita-font;
+    font-size: 1.1rem;
 	font-weight: $normal-weight;
     font-style: italic;
     line-height: 1.5;
-	margin-bottom: .5rem;
+	margin-bottom: 0;
 }
-
 .vita h6 {
-    font-family: $serif-font;
+    font-family: $vita-font;
     font-size: $smaller-size;
 	font-weight: $normal-weight;
     line-height: $short-line-height;
@@ -110,23 +101,8 @@
     padding: 0;
 }
 
-.vita h1 + h3 {
-    margin-top: 0;
-}
-
-.vita h1 + h5 {
-    margin-top: 0;
-}
-
-.vita h2 + h3,
-.vita h2 + h4,
-.vita h3 + h4 {
-    margin-top: 0.5rem;
-}
-
 @media only screen
 and (max-device-width:576px){
-
     .vita {
         .left {
             width: 55%;
@@ -190,13 +166,11 @@ and (max-device-width:576px){
 	left: 0px;
 	bottom: 0px;
 }
-
 .vita-print-footer p {
 	font-family: $sans-font;
 	font-size: 8pt;
 	font-weight: $light-weight;
 }
-
 .vita-print-footer-block {
 	display: flex;
 	flex-flow: row wrap;
@@ -209,7 +183,6 @@ and (max-device-width:576px){
 	width:50%;
 	text-align:left;
 }
-
 .alignright {
     font-family: $mono-font;
     font-size: $smaller-size;
@@ -217,9 +190,7 @@ and (max-device-width:576px){
 	text-align:right;
 }
 
-
 // Hide print footer in screen display
-
 @media screen {
 	.vita-print-footer {
 		display: none;
