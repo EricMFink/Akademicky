@@ -6,7 +6,7 @@
 /* Headings */
 .casebook h1 {
 	font-size: $h1casebook;
-	font-weight: $medium-weight;
+	font-weight: $normal-weight;
 	font-style: normal;
 	color: $dull-red;
 	margin: 5rem 0 0 2.5rem;
@@ -23,34 +23,40 @@
 /* title and cite of incorporated materials */
 .casebook h3 {
 	font-size: $h3casebook;
-	font-weight: $medium-weight;
+	font-weight: $normal-weight;
 	font-style: normal;
 	color: $dull-red;
-	margin: 2rem 0 0.5rem 0;
-	border-bottom: 2px solid $dull-red;
+	margin: 2rem 0 0rem 0;
+	border-bottom: 1px solid $dull-red;
 }
 /* internal subheadings for incorporated materials */
 .casebook h4 {
   font-size: $h4casebook;
   font-weight: $medium-weight;
   font-style: normal;
-  margin-top: 1.5rem;
-  margin-bottom: 0rem;
+  margin: 2rem 0 0 0;
 }
+.casebook h4 + p {
+	margin: 0.5rem 0 1rem 0;
+  }
 .casebook h5 {
 	font-size: $h5casebook;
 	font-weight: $medium-weight;
 	font-style: normal;
-	margin-top: 1.5rem;
-	margin-bottom: 0.5rem;
+	margin: 1.5rem 0 0 0;
 }
+.casebook h5 + p {
+	margin: 0.5rem 0 1rem 0;
+  }
 .casebook h6 {
 	font-size: $h6casebook;
 	font-weight: $normal-weight;
 	font-style: italic;
-	margin-top: 1.25rem;
-	margin-bottom: 0.5rem;
+	margin: 1.5rem 0 0 0;
 }
+.casebook h6 + p {
+	margin: 0.5rem 0 1rem 0;
+  }
 /* auto-numbered section & subsections */
 .casebook h1:before {
 	content: counter(section) ". ";
@@ -76,32 +82,26 @@
     border-top: 2px solid $theme-color;
 }
 
-.chapter-title {
-	padding: 10px 0 0 10px;
-	margin: 0 0 3rem 0;
-    border-left: 2px solid $theme-color;
-    border-top: 2px solid $theme-color;
-	}
 .chapter-number {
 	color: $dull-red;
 	font-family: $sans-font;
 	font-size: $subtitle-size;
-	font-weight: $medium-weight;
+	font-weight: $normal-weight;
 	line-height: $single-line-height;
 	font-style: normal;
-	margin-bottom: 0;
+	margin: 0 0 2rem 0;
 	}
 .chapter-number p {
 	margin-bottom: 0;
 	}
-.chapter-name {
+.chapter-title {
 	color: #b03a2e;
 	font-family: adelle-sans, sans-serif;
 	font-size: $title-size;
-	font-weight: 600;
+	font-weight: 400;
+	line-height: $single-line-height;
 	font-style: normal;
 	margin: 0 0 0 0;
-	padding: 2rem 0 0 0;
 }
 	
 /* Blockquotes */
@@ -226,7 +226,7 @@
 }
 li.toc-li-H1 {
     margin: 0 0 0 0;
-    font-weight: $bold-weight;
+    font-weight: $medium-weight;
 }
 li.toc-li-H2 {
     margin: 0 0 0 1em;

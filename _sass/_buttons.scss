@@ -1,0 +1,83 @@
+/* Buttons (Bijou) */
+.alert{
+	padding:15px;
+	margin:10px 0;
+	border-radius:3px;
+	&.primary{
+		background:lighten($primary, 40%);
+		border:1px lighten($primary, 30%) solid;
+	}
+	&.success{
+		background:lighten($success, 40%);
+		border:1px lighten($success, 30%) solid;
+	}
+	&.danger{
+		background:lighten($danger, 40%);
+		border:1px lighten($danger, 30%) solid;
+	}
+}
+.button {
+    color: $off-white;
+    font-family: $sans-font;
+    font-size: $body-size;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border:0;
+	border-radius:4px;
+	outline:0;
+    padding: .5rem .5rem;
+    margin: 0;
+    background: $theme-color;
+    cursor: pointer;
+	&:hover{
+		background: darken($theme-color, 20%)
+	}
+	&.smaller{
+		padding:7px 10px;
+		font-size: $smallest-size;
+		font-weight: $medium-weight;
+	}
+	&.small{
+		padding:7px 20px;
+		font-size: $smaller-size;
+		font-weight: $medium-weight;
+	}
+	&.large{
+		padding:15px 45px;
+		font-size: $large-size;
+	}
+	&.large2{
+		padding:15px 45px;
+		font-size: $larger-size;
+	}
+	&.primary{
+		color:#FFF;
+		background:$theme-color;
+		&:hover{
+			background: darken($theme-color, 3%);
+		}
+	}
+	&.syllabus{
+		margin-top: 1rem;
+		color: $off-white;
+		background: $theme-color;
+		&:hover{
+			background: darken($theme-color, 20%);
+		}
+	}
+	&.success{
+		color:#FFF;
+		background: $success;
+		&:hover{
+			background: darken($success, 3%);
+		}
+	}
+	&.danger{
+		color:#FFF;
+		background: $danger;
+		&:hover{
+			background:darken($danger, 3%);
+		}
+	}
+}

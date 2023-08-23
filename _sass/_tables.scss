@@ -1,0 +1,49 @@
+/* Tables (Bijou) */
+table {
+	font-family: $body-font;
+	text-align:left;
+	max-width: 90%;
+	margin: 2rem auto 4rem auto;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-top: 1px solid $grey;
+	border-bottom: 1px solid $grey;
+}
+table ol, ul {
+	font-size: $smaller-size;
+	margin: .5rem 0 .5rem 0; 
+	padding: 0 0 0 1rem;
+}
+table li {
+	font-size: $smaller-size;
+	margin: 0 0 0 0; 
+}
+th,td{
+	vertical-align: top;
+	padding:8px 12px;
+	text-align: left;
+	}
+th {
+	font-family: $sans-font;
+	font-size: $small-size;
+	background: $pastel-grey1;
+	border-bottom: 1px solid $grey;
+}
+td {
+	font-family: $body-font;
+	font-size: $smaller-size;
+}
+tr td:first-child {
+	font-family: $sans-font;
+	font-weight: 400;
+}
+noheader th {
+	display: none;
+}
+/* Alternating Row Colors */
+.table-striped tbody tr:nth-child(2n+1) {
+	  background-color: $lighter-grey;
+	}
+figure.fullwidth table {
+  width: 90%;
+}

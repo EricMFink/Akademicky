@@ -33,9 +33,9 @@
 }
 .syllabus h5 {
     font-size: $h6;
-    font-style: normal;
-    font-weight: $medium-weight;
-	margin: 1rem 0 .5rem 0;
+    font-style: italic;
+    font-weight: $normal-weight;
+	margin: .5rem 0 .5rem 0;
 }
 .syllabus h6 {
     font-size: $smaller-size;
@@ -55,11 +55,13 @@
 }
 
 .syllabus table {
-	margin: 2rem 0 4rem 0;
+	margin: 2rem 0 1rem 0;
+	max-width: 100%;
 }
 .syllabus th {
 	font-size: $body-size;
+	font-weight: $bold-weight;
 }
 .syllabus td {
-	font-size: $smaller-size;
+	font-size: $small-size;
 }

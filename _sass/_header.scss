@@ -37,12 +37,12 @@
         }
     }
     // hamburger menu on small devices
-	@mixin media-query($device) {
+	@mixin media-query(max-width: $device) {
 	    @media screen and ($device) {
 	        @content;
 	    }
 	}
-    @include media-query($on-palm) {
+    @include media-query(max-width: $on-palm) {
         position: absolute;
         top: 9px;
         right: 10%;

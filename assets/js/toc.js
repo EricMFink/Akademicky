@@ -1,8 +1,9 @@
 anchors.options = {
     placement: 'right',
     visible: 'hover',
+	truncate: 30,
   };
-anchors.add('h1, h2, h3, h4');
+anchors.add('h1, h2, h3');
 generateTableOfContents(anchors.elements);
 
 // External code for generating a simple dynamic Table of Contents
