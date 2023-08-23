@@ -5,8 +5,8 @@
 		margin-bottom: 8mm;
 		margin-left: 0;
 		margin-right: 0;
-		margin-inside: 10mm;
-		margin-outside: 20mm;
+		margin-inside: 5mm;
+		margin-outside: 10mm;
 		padding: 0;
 		size: letter portrait;
 		background-color: transparent;
@@ -78,6 +78,11 @@
 	page-container {
 		padding: 0;
 	}
+	.casebook {
+		padding: 0; 
+		width: 60%;
+	}
+	
 	section {
 		padding: 0;
 	}
