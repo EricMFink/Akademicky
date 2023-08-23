@@ -5,34 +5,24 @@
 
 /* Headings */
 .casebook h1 {
-	color: $dull-red;
-	font-family: $sans-font;
-	font-size: $h1;
-	font-weight: $medium-weight;
-	font-style: normal;
-	margin: 0 0 4rem 0;
-	padding: 2rem 0 0 10px;
-    border-left: 2px solid $theme-color;
-}
-.casebook h2 {
-	font-size: $h2;
+	font-size: $h1casebook;
 	font-weight: $medium-weight;
 	font-style: normal;
 	color: $dull-red;
 	margin: 5rem 0 0 2.5rem;
 }
-.casebook h2 + h3 {
+.casebook h1 + h2 {
   margin-top: 1rem;
 }
-.casebook h3 {
-	font-size: $h3;
+.casebook h2 {
+	font-size: $h2casebook;
 	font-weight: $normal-weight;
 	color: $dull-red;
 	margin: 3rem 0 0 3rem;
 }
 /* title and cite of incorporated materials */
-.casebook h4 {
-	font-size: $h4;
+.casebook h3 {
+	font-size: $h3casebook;
 	font-weight: $medium-weight;
 	font-style: normal;
 	color: $dull-red;
@@ -40,44 +30,44 @@
 	border-bottom: 2px solid $dull-red;
 }
 /* internal subheadings for incorporated materials */
-.casebook h5 {
-  font-size: $h5;
+.casebook h4 {
+  font-size: $h4casebook;
   font-weight: $medium-weight;
   font-style: normal;
   margin-top: 1.5rem;
   margin-bottom: 0rem;
 }
+.casebook h5 {
+	font-size: $h5casebook;
+	font-weight: $medium-weight;
+	font-style: normal;
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
 .casebook h6 {
-	font-size: $h6;
+	font-size: $h6casebook;
 	font-weight: $normal-weight;
 	font-style: italic;
-	margin-top: 1.5rem;
+	margin-top: 1.25rem;
 	margin-bottom: 0.5rem;
 }
 /* auto-numbered section & subsections */
 .casebook h1:before {
-    counter-increment: chapter;  /* Add 1 to chapter */
-}
-.casebook h1 {
-    counter-reset: section;      /* Set section to 0 */
-}
-.casebook h2:before {
-    content: counter(section) ". ";
-    counter-increment: section;
+	content: counter(section) ". ";
+    counter-increment: section;  /* Add 1 to section */
 	float: left;
 	margin-left: -2.5rem;
 }
-.casebook h2 {
-    counter-reset: subsection;
+.casebook h1 {
+    counter-reset: subsection;      /* Set subsection to 0 */
 }
-.casebook h3::before {
-	font-style: normal;
+.casebook h2:before {
     counter-increment: subsection;
     content: counter(section) '.' counter(subsection);
 	float: left;
 	margin-left: -3rem;
 }
-.casebook h3 {
+.casebook h2 {
     counter-reset: subsubsection;
 }
 
@@ -85,21 +75,34 @@
 .frontmatter {
     border-top: 2px solid $theme-color;
 }
+
+.chapter-title {
+	padding: 10px 0 0 10px;
+	margin: 0 0 3rem 0;
+    border-left: 2px solid $theme-color;
+    border-top: 2px solid $theme-color;
+	}
 .chapter-number {
 	color: $dull-red;
 	font-family: $sans-font;
-	font-size: $h3;
+	font-size: $subtitle-size;
 	font-weight: $medium-weight;
 	line-height: $single-line-height;
 	font-style: normal;
 	margin-bottom: 0;
-	padding: 10px 0 0 10px;
-    border-left: 2px solid $theme-color;
-    border-top: 2px solid $theme-color;
 	}
 .chapter-number p {
 	margin-bottom: 0;
 	}
+.chapter-name {
+	color: #b03a2e;
+	font-family: adelle-sans, sans-serif;
+	font-size: $title-size;
+	font-weight: 600;
+	font-style: normal;
+	margin: 0 0 0 0;
+	padding: 2rem 0 0 0;
+}
 	
 /* Blockquotes */
 .casebook blockquote p {
@@ -209,11 +212,11 @@
 #toc-header {
 	font-family: $sans-font;
     font-weight: $medium-weight;
-    font-size: $smaller-size;
+    font-size: $smallest-size;
 }
 #table-of-contents li, #table-of-contents ul, #table-of-contents ul li {
 	font-family: $sans-font;
-	font-size: $smaller-size;
+	font-size: $smallest-size;
     list-style: outside none none !important;
 	width: auto;
 	padding: 0 0 0 0;

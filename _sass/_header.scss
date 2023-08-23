@@ -127,12 +127,13 @@
 }
 /* Dropdown button */
 .dropdown .dropbtn {
-    border: none;
-    outline: none;
-    color: $theme-color;
     background: transparent;
     font-family: inherit; /* Important for vertical align on mobile phones */
+	font-size: $body-size;
+    color: $theme-color;
     margin: 0 0 0 30px; /* Important for vertical align on mobile phones */
+    border: none;
+    outline: none;
 }
 /* Dropdown Arrow Icon */
 .fa-caret-down {

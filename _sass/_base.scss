@@ -26,23 +26,20 @@ body {
     color: $text-color;
 	width: 85%;
     margin: 0 0 0 12.5%;
-    padding: 0 5%;
     counter-reset: sidenote-counter; 
 	}
 body.casebook {
 	font-family: $body-font;
 	background-color: $off-white;
 	color: $text-color;
-	width: 100%;
-	margin: 0 auto 0 auto;
-	padding: 0 0 0 12.5%; 
-	counter-reset: chapter sidenote-counter;
+	width: 85%;
+	margin: 0 0 0 12.5%;
+	counter-reset: section sidenote-counter;
 }
 body.fullwidth {
 	width: 90%;
 	max-width: 100%;
 	margin: 0 auto 0 auto;
-	padding: 0 5%;
     counter-reset: sidenote-counter; 
 }
 
@@ -130,7 +127,7 @@ blockquote {
 	font-weight: $normal-weight;
 	display: block;
 	width: inherit;
-	margin: 1rem 0 0 1rem;
+	margin: 1rem 0 1rem 0;
 	padding: 0 1.5rem 0 1.5rem;
 }
 blockquote p {
