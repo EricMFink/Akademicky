@@ -42,7 +42,7 @@
 	        @content;
 	    }
 	}
-    @include media-query(@device) {
+    @include media-query($device) {
         position: absolute;
         top: 9px;
         right: 10%;
