@@ -21,6 +21,7 @@ output:
     latex_engine: xelatex
     template: master.tex
     path: Casebook.pdf
+    pandoc_args: ["--filter=pandoc-sidenote"]
 
 ---
 
@@ -45,39 +46,39 @@ Following the typographical style of [Edward Tufte](https://www.edwardtufte.com/
 
 ##### Links 
 
-The PDF version of this casebook contains links (indicated by red-colored text, e.g. [U.S. Department of Labor](https://www.dol.gov/)) to cross-referenced pages or external online material---. 
+The PDF version of this casebook contains links (indicated by red-colored text, e.g. [U.S. Department of Labor](https://www.dol.gov/)) to cross-referenced pages or external online material. 
 
 \mainmatter
 
 \chapter{Introduction}
 
-@import "../chap1.md"
+@import "chap1.md"
 
 \chapter{Parties \& Claims}
 
-@import "../chap2.md"
+@import "chap2.md"
 
 \chapter{Personal Jurisdiction}
 
-@import "../chap3.md"
+@import "chap3.md"
 
 \chapter{Subject Matter Jurisdiction}
 
-@import "../chap4.md"
+@import "chap4.md"
 
 \chapter{Choice of Law in Federal Court}
 
-@import "../chap5.md"
+@import "chap5.md"
 
 \chapter{Pleading}
 
-@import "../chap6.md"
+@import "chap6.md"
 
 \chapter{Claim \& Issue Preclusion}
 
-@import "../chap7.md"
+@import "chap7.md"
 
 \chapter{Summary Judgment}
 
-@import "../chap8.md"
+@import "chap8.md"
 
