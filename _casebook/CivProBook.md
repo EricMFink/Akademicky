@@ -48,7 +48,7 @@ Following the typographical style of [Edward Tufte](https://www.edwardtufte.com/
 
 ##### Links 
 
-The PDF version of this casebook contains links (indicated by red-colored text, e.g. [U.S. Department of Labor](https://www.dol.gov/)) to cross-referenced pages or external online material---. 
+The PDF version of this casebook contains links (indicated by red-colored text, e.g. [U.S. Department of Labor](https://www.dol.gov/)) to cross-referenced pages or external online material. 
 
 <!-- CHAPTER 1 -->
 
