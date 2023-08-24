@@ -12,7 +12,7 @@
 <div class="casebook">
 
 	<!-- COVER & FRONTMATTER -->
-	<!-- Omit cover and frontmatter 
+	<!-- 
 		<div class="book-cover">
 			<p class="book-author">{{ site.author.name }}</p>
 			<div class="title-block">
@@ -24,21 +24,20 @@
 			<p class="book-date">{{ site.course.term }}</p>
 			</div>
 		</div>
+	-->
 
-		{% include colophon.html %}
+	<!-- {% include colophon.html %} -->
 
-		{% include prince-contents.html %}
+	<!-- {% include prince-contents.html %} -->
 
-		{% if page.epigraph %}
-		<div class="epigraph">
+	<!-- {% if page.epigraph %} -->
+	<!-- 	<div class="epigraph">
 			<span class="epigraph-quote">{{ page.epigraph }}</span>
 			<div class="epigraph-cite">
 			&#128614; {{ page.epigraph-author }}, <span class="epigraph-source">{{ page.epigraph-source }}</span><p>
 			</div>
-		</div>
-		{% endif %}
-
-	-->
+		</div> -->
+	<!-- {% endif %} -->
 
 {{ content }}
 
