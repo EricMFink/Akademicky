@@ -171,7 +171,7 @@
 	}
 	.chapter {
 		padding: 0 0 0 0; 
-		page-break-after: right;
+		page-break-before: recto;
 	}
 	h1, h2, h3, h4, h5, h6{
 		hyphens: none;
@@ -180,7 +180,6 @@
 	h1 {
 		font-size: 20pt;
 		string-set: chapter_title content();
-		break-before: recto;
 	}
 	h2 {
 		font-size: 18pt;
