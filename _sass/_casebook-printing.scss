@@ -80,19 +80,16 @@
 	}
 	.casebook {
 		padding: 0; 
-		width: 60%;
+		width: 66%;
 	}
-	
 	section {
 		padding: 0;
 	}
-
 	p {
 		font-size: 10pt;
         text-align-all: justify;
         text-align-last: left;
 	}
-
 	.site-title {
 		hyphens: none;
 		font-size: 20pt;
@@ -133,6 +130,7 @@
 	}
 	.chapter {
 		padding: 0 0 0 0; 
+		page-break-after: right;
 	}
 	h1, h2, h3, h4, h5, h6{
 		hyphens: none;
@@ -156,8 +154,8 @@
 		font-size: 12pt;
 	}
 	h6 {
-		margin-top: 1.5rem;
 		font-size: 11pt;
+		margin-top: 1.5rem;
 	}
 	ol, ul {
 		text-align: justify;

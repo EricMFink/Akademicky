@@ -34,7 +34,7 @@ body.casebook {
 	color: $text-color;
 	width: 85%;
 	margin: 0 0 0 12.5%;
-	counter-reset: section sidenote-counter;
+	counter-reset: chapter sidenote-counter;
 }
 body.fullwidth {
 	width: 90%;
@@ -44,6 +44,10 @@ body.fullwidth {
 }
 
 /* Headings */
+
+h1 h2 h3 h4 h5 h6 {
+	line-height: single-line-height;
+}
 h1 { 
 	color: $dull-red;
 	font-family: $sans-font;

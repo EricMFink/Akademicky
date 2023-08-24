@@ -2,27 +2,50 @@
     padding: 75px 0; 
 	width: 50vw;
 }
-
-/* Headings */
+.chapter {
+	padding: 100px 0 0 0;
+}
+.chapter-number {
+	color: $dull-red;
+	font-family: $sans-font;
+	font-size: $subtitle-size;
+	font-weight: $normal-weight;
+	line-height: $single-line-height;
+	font-style: normal;
+	margin: 0 0 2rem 0;
+}
+.chapter-number p {
+	margin-bottom: 0;
+}
+/* HEADINGS */
+/* Chapter */
 .casebook h1 {
-	font-size: $h1casebook;
+	color: #b03a2e;
+	font-family: adelle-sans, sans-serif;
+	font-size: $h1;
+	font-weight: 400;
+	line-height: $single-line-height;
+	font-style: normal;
+	margin: 0 0 0 0;
+}
+/* Section */
+.casebook h2 {
+	font-size: $h2;
 	font-weight: $normal-weight;
 	font-style: normal;
 	color: $dull-red;
 	margin: 5rem 0 0 2.5rem;
 }
-.casebook h1 + h2 {
-  margin-top: 1rem;
-}
-.casebook h2 {
-	font-size: $h2casebook;
+/* Subsection */
+.casebook h3 {
+	font-size: $h3;
 	font-weight: $normal-weight;
 	color: $dull-red;
 	margin: 3rem 0 0 3rem;
 }
-/* title and cite of incorporated materials */
-.casebook h3 {
-	font-size: $h3casebook;
+/* Title and cite of incorporated materials */
+.casebook h4 {
+	font-size: $h4;
 	font-weight: $normal-weight;
 	font-style: normal;
 	color: $dull-red;
@@ -36,74 +59,69 @@
   font-style: normal;
   margin: 2rem 0 0 0;
 }
-.casebook h4 + p {
-	margin: 0.5rem 0 1rem 0;
-  }
-.casebook h5 {
-	font-size: $h5casebook;
-	font-weight: $medium-weight;
-	font-style: normal;
-	margin: 1.5rem 0 0 0;
-}
-.casebook h5 + p {
-	margin: 0.5rem 0 1rem 0;
-  }
-.casebook h6 {
-	font-size: $h6casebook;
-	font-weight: $normal-weight;
-	font-style: italic;
-	margin: 1.5rem 0 0 0;
-}
-.casebook h6 + p {
-	margin: 0.5rem 0 1rem 0;
-  }
 /* auto-numbered section & subsections */
 .casebook h1:before {
+	counter-increment: chapter;  /* Add 1 to chapter */
+}
+.casebook h1 {
+    counter-reset: section;      /* Set section to 0 */
+}
+.casebook h2:before {
 	content: counter(section) ". ";
     counter-increment: section;  /* Add 1 to section */
 	float: left;
 	margin-left: -2.5rem;
 }
-.casebook h1 {
+.casebook h2 {
     counter-reset: subsection;      /* Set subsection to 0 */
 }
-.casebook h2:before {
-    counter-increment: subsection;
+.casebook h3:before {
+    counter-increment: subsection;	/* Add 1 to section */
     content: counter(section) '.' counter(subsection);
 	float: left;
 	margin-left: -3rem;
 }
-.casebook h2 {
+.casebook h3 {
     counter-reset: subsubsection;
 }
-
-/* Chapter Headings */
-.frontmatter {
-    border-top: 2px solid $theme-color;
-}
-
-.chapter-number {
-	color: $dull-red;
-	font-family: $sans-font;
-	font-size: $subtitle-size;
+/* PARAGRAPH-LEVEL HEADINGS */
+/* top-level = h4 */
+.largest-bold {
+	font-size: $largest-size;
+	font-weight: $medium-weight;
+	margin: 2rem 0 0 0;
+	}
+.largest-italic {
+	font-size: $largest-size;
 	font-weight: $normal-weight;
-	line-height: $single-line-height;
-	font-style: normal;
-	margin: 0 0 2rem 0;
+	font-style: italic;
+	margin: 2rem 0 0 0;
 	}
-.chapter-number p {
-	margin-bottom: 0;
+/* second-level = h5 */
+.larger-bold {
+	font-size: $larger-size;
+	font-weight: $medium-weight;
+	margin: 1.5rem 0 0 0;
 	}
-.chapter-title {
-	color: #b03a2e;
-	font-family: adelle-sans, sans-serif;
-	font-size: $title-size;
-	font-weight: 400;
-	line-height: $single-line-height;
-	font-style: normal;
-	margin: 0 0 0 0;
-}
-	
+.larger-italic {
+	font-size: $larger-size;
+	font-weight: $normal-weight;
+	font-style: italic;
+	margin: 1.5rem 0 0 0;
+	}
+/* third-level = h6 */
+.large-bold {
+	font-size: $large-size;
+	font-weight: $medium-weight;
+	margin: 1.5rem 0 0 0;
+	}
+.large-italic {
+	font-size: $large-size;
+	font-weight: $normal-weight;
+	font-style: italic;
+	margin: 1.5rem 0 0 0;
+	}
+
 /* Blockquotes */
 .casebook blockquote p {
 	font-style: normal;
@@ -120,7 +138,7 @@
 	margin: 500px 0 0 0;
 }
 
-/* explanatory comments */
+/* EXPLANATIONS & COMMENTS */
 .comment {
 	font-family: $sans-font;
 	font-size: $smaller-size;
@@ -149,8 +167,7 @@
 	font-style: italic;
 	margin-top: 1rem;
 }
-
-/* Legal Code: Indented subsections in statutes, etc. */
+/* LEGAL CODE: Indented subsections in statutes, etc. */
 .legal-code h5 {
 	font-style: normal;
 }
@@ -165,8 +182,7 @@
 .legal-code blockquote p {
 	font-size: $body-size;
 }
-
-/* Figures & Images */
+/* FIGURES & IMAGES */
 .casebook figure {
     padding: 0;
     border: 0;
@@ -198,8 +214,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	}
-
-/* Table of Contents Dropdown */
+/* PAGE-NAV TOC */
 #table-of-contents {
     float: left;
     background: #f9f9f9 none repeat scroll 0 0;
@@ -242,7 +257,7 @@ li.toc-li-H4 {
 	scroll-margin-top: 80px;
 }
 
-/* Casebook Cover Page */ 
+/* CASEBOOK COVER PAGE */ 
 .cover-block {
 	width: 100%;
 	color: white;
@@ -315,7 +330,7 @@ li.toc-li-H4 {
     font-style: normal;
 	position: relative;
 }
-/* Publication and design information */
+/* PUBLICATION INFO */
 .colophon {
 	font-size: $smaller-size;
 	margin: 3rem 0 0 0;
@@ -328,8 +343,4 @@ li.toc-li-H4 {
 .colophon li {
 	font-size: $smaller-size;
 	width: 50%;
-}
-/* White space between chapters */
-.chapter {
-	padding: 100px 0 0 0;
 }
