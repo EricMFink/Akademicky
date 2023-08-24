@@ -79,7 +79,7 @@
 		padding: 0 0 0 0;
 	}
 	.casebook {
-		width: 75vw;
+		width: 66%;
 		padding: 0 0 0 0;
 	}
 	section {
@@ -105,7 +105,7 @@
 		margin: 15mm 0 0 0;
 	}
 	.title-block{
-		margin: 30mm 0 0 0;
+		margin: 60mm 0 0 0;
 	}
 	.book-title {
 		string-set: book_title content();
@@ -119,10 +119,10 @@
 		font-size: 20pt;
         text-align: left;
 		hyphens: none;
-		margin: 15mm 0 0 0;
+		margin: 0 0 0 0;
 	}
 	.publication-block{
-		margin: 0 0 0 0;
+		margin: 0 0 22mm 0;
 		-prince-float: page bottom;
 	}
 	.book-affiliation {
@@ -156,7 +156,7 @@
 		width: 60%;
         text-align: left;
 		hyphens: none;
-		margin: 0 0 0 0;
+		margin: 0 0 22mm 0;
 		padding: 0 0 0 0;
 		-prince-float: page bottom;
 		page-break-after: right;
