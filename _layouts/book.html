@@ -9,37 +9,30 @@
 
 <article class="group">
 
+<div class="casebook">
+
 	<!-- COVER & FRONTMATTER -->
 		<div class="book-cover">
 			<p class="book-author">{{ site.author.name }}</p>
-			<p class="book-title">{{ site.casebook.title}}</p>
-			<p class="book-subtitle">{{ site.casebook.subtitle }}</p>
+			<p class="book-title">{{ site.coursebook.title}}</p>
+			<p class="book-subtitle">{{ site.coursebook.subtitle }}</p>
 			<p class="book-affiliation">{{ site.author.affiliation }}</p>
 			<p class="book-date">{{ site.course.term }}</p>
 		</div>
 
-		<div class="colophon">
-			{% include colophon.html %}
-		</div>
 
-		<div class="contents">
-			<script type="text/javascript" src="{{ site.baseurl }}/assets/js/princexml-charms.js"></script>
-			<body onload="toc('h1, h2, h3, h4')">
-			<span class="largest-bold">Table of Contents</span>
-			<ol id=toc></ol>
-		</div>
+		{% include colophon.html %}
 
+		{% include prince-contents.html %}
+
+		{% if page.epigraph %}
 		<div class="epigraph">
-			<p>{{ page.epigraph }}<p>
+			<span class="epigraph-quote">{{ page.epigraph }}</span>
 			<div class="epigraph-cite">
-			&#128614; {{ page.epigraph-source }}, {{ page.epigraph-author }}<p>
+			&#128614; {{ page.epigraph-author }}, <span class="epigraph-source">{{ page.epigraph-source }}</span><p>
 			</div>
 		</div>
-
-	</div>
-
-
-<div class="casebook">
+		{% endif %}
 
 {{ content }}
 

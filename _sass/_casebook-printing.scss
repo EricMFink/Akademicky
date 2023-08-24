@@ -76,14 +76,14 @@
 		background-color: transparent;
 	}
 	page-container {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 	.casebook {
-		padding: 0; 
-		width: 66%;
+		width: 100%;
+		padding: 0 0 0 0;
 	}
 	section {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 	p {
 		font-size: 10pt;
@@ -94,6 +94,7 @@
 		width: 90%;
         text-align: left;
 		hyphens: none;
+		padding: 0 0 0 0;
 		page-break-after: left;
 	}
 	.book-author {
@@ -132,16 +133,19 @@
 		margin: 0.5rem 0 0 0;
 	}
 	.contents{
-		width: 90%;
+		width: 100%;
 		hyphens: none;
 		text-align: left;
+		padding: 0 0 0 0;
 		page-break-after: right;
 	}
 	.colophon {
 		width: 60%;
         text-align: left;
 		hyphens: none;
-		margin: 120mm 0 0 0;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		-prince-float: page bottom;
 		page-break-after: right;
 	}
 	.epigraph {
@@ -149,6 +153,7 @@
 		hyphens: none;
         text-align: left;
 		margin: 90mm 0 0 0;
+		padding: 0 0 0 0;
 		page-break-after: right;
 	}
 	.chapter {
@@ -164,7 +169,6 @@
 		string-set: chapter_title content();
 		break-before: recto;
 	}
-	h1.toc:before {content: "Chapter " counter(chapter) ": ";}
 	h2 {
 		font-size: 18pt;
 	}

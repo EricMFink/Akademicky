@@ -3,7 +3,7 @@ layout: casebook
 title: Preface
 ---
 
-<h1>{{ page.chapter-title}}</h1>
+# Preface
 
 This book presents material for use in a first-year law school Civil Procedure course. Topics covered include the scope of a lawsuit (Party & Claim Joinder), selection of an appropriate forum (Personal & Subject Matter Jurisdiction), presentation of claims and defenses (Pleadings), choice of applicable law (the _Erie_ doctrine & the Rules Enabling Act), disposition without a trial (Summary Judgment), and the effect of judgments on future litigation (Claim & Issue Preclusion).
 

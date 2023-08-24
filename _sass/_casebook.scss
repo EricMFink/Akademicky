@@ -3,16 +3,16 @@
 	width: 50vw;
 }
 .chapter {
-	padding: 100px 0 0 0;
+	padding: 250px 0 0 0;
 }
 .chapter-number {
 	color: $dull-red;
 	font-family: $sans-font;
-	font-size: $subtitle-size;
+	font-size: $largest-size;
 	font-weight: $normal-weight;
 	line-height: $single-line-height;
 	font-style: normal;
-	margin: 0 0 2rem 0;
+	margin: 0 0 1rem 0;
 }
 .chapter-number p {
 	margin-bottom: 0;
@@ -30,15 +30,13 @@
 	counter-increment: chapter;  /* Add 1 to chapter */
     counter-reset: section;      /* Set section to 0 */
 }
-.casebook h1:before {
-	content: "Chapter " counter(section) " \A";
-	color: $dull-red;
-	font-family: $sans-font;
+/*
+.casebook h1::before {
+	content: "Chapter " counter(chapter) " \A";
+	white-space: pre-wrap;
 	font-size: $subtitle-size;
-	font-weight: $normal-weight;
-	line-height: $single-line-height;
-	font-style: normal;
 }
+*/
 /* Section */
 .casebook h2 {
 	font-size: $h2;
@@ -259,7 +257,8 @@ li.toc-li-H4 {
 
 /* CASEBOOK COVER PAGE */ 
 .book-cover {
-    width: 90%;
+    width: 100%;
+	padding: 0 0 500px 0;
 }
 .book-author {
     color: $theme-color;
@@ -269,6 +268,7 @@ li.toc-li-H4 {
 	text-transform: uppercase;
     font-style: normal;
 	margin: 3rem 0 0 0;
+}
 .book-title {
     color: $theme-color;
     font-family: $heading-font;
@@ -281,13 +281,13 @@ li.toc-li-H4 {
 .book-subtitle {
     color: $theme-color;
     font-family: $heading-font;
-    font-size: $subtitle-size;
+    font-size: $larger-size;
 	text-align: left;
 	text-transform: uppercase;
     font-style: normal;
 	margin: 3rem 0 0 0;
 }
-}.book-affiliation {
+.book-affiliation {
     color: $theme-color;
     font-family: $heading-font;
     font-size: $large-size;
@@ -309,33 +309,40 @@ li.toc-li-H4 {
     font-family: $body-font;
 	font-size: $smaller-size;
 	text-align: left;
-	width: 60%;
+	width: 100%;
 	margin: 3rem 0 0 0;
+	padding: 0 0 500px 0;
 }
 .colophon p {
 	font-size: $smaller-size;
 	text-align: left;
-	line-height: $shorter-line-height;
+	line-height: $short-line-height;
 	margin: 0 0 0 0;
 }
 .colophon li {
 	font-size: $smaller-size;
 	text-align: left;
 }
+.contents {
+	width: 90%;
+	padding: 0 0 500px 0;
+}
 .epigraph { 
     font-family: $body-font;
 	font-size: $smaller-size;
 	text-align: left;
 	width: 60%;
+	padding: 0 0 500px 0;
 	}
 .epigraph-quote { 
 	font-style: italic; 
 	text-align: left;
+	line-height: $taller-line-height;
 	margin: 0 0 0 0;
   	}
 .epigraph-cite {
-	text-align: left;
-	margin: 2rem 0 0 33%;
+	text-align: right;
+	margin: 1rem 0 0 0;
 	}
 .epigraph-source { 
 	font-style: italic; 

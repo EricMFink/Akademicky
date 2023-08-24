@@ -5,7 +5,9 @@ chapter-number: 1
 
 ---
 
-<h1>{{ page.chapter-title}}</h1>
+<p class="chapter-number">Chapter 1</p>
+
+# Introduction
 
 ## The Judicial System
 

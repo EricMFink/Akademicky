@@ -5,7 +5,9 @@ chapter-number: 4
 
 ---
 
-<h1>{{ page.chapter-title}}</h1>
+<p class="chapter-number">Chapter 4</p>
+
+# Subject Matter Jurisdiction
 
 ## Federal Question Jurisdiction
 

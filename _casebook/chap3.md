@@ -5,7 +5,9 @@ chapter-number: 3
 
 ---
 
-<h1>{{ page.chapter-title}}</h1>
+<p class="chapter-number">Chapter 3</p>
+
+# Personal Jurisdiction
 
 ## Constitutional Limits: Due Process 
 

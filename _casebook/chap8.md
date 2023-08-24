@@ -5,7 +5,9 @@ chapter-number: 8
 
 ---
 
-<h1>{{ page.chapter-title}}</h1>
+<p class="chapter-number">Chapter 8</p>
+
+# Summary Judgment
 
 ## Standard for Summary Judgment 
 

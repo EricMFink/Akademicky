@@ -5,7 +5,9 @@ chapter-number: 7
 
 ---
 
-<h1>{{ page.chapter-title}}</h1>
+<p class="chapter-number">Chapter 7</p>
+
+# Claim & Issue Preclusion
 
 ## General Principles
 

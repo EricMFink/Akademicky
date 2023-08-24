@@ -5,7 +5,9 @@ chapter-number: 5
 
 ---
 
-<h1>{{ page.chapter-title}}</h1>
+<p class="chapter-number">Chapter 5</p>
+
+# Choice of Law in Federal Court
 
 ## The Rules of Decision Act
 
