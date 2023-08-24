@@ -70,8 +70,8 @@
 		margin-bottom: 0mm;
 		margin-left: 0mm;
 		margin-right: 0mm;
-		margin-inside: 10mm;
-		margin-outside: 20mm;
+		margin-inside: 15mm;
+		margin-outside: 30mm;
 		padding: 0;
 		background-color: transparent;
 	}
@@ -90,43 +90,61 @@
         text-align-all: justify;
         text-align-last: left;
 	}
-	.site-title {
-		hyphens: none;
-		font-size: 20pt;
-		line-height: $line-height;
-		margin-left: 10mm;
-		margin-bottom: 10pt;
+	.book-cover {
+		width: 100%;
         text-align: left;
-	}
-	.book-title {
 		hyphens: none;
-		string-set: book_title content();
-		font-size: 18pt;
-        text-align: left;
-	}
-	.book-subtitle {
-		hyphens: none;
-		string-set: book_subtitle content();
-		font-size: 16pt;
-        text-align: left;
+		margin: 0 auto 0 auto;
+		page-break-after: left;
 	}
 	.book-author {
-		hyphens: none;
 		string-set: book_author content();
-		font-size: 14pt;
+		font-size: 18pt;
         text-align: left;
+		hyphens: none;
+		margin: 30mm 0 0 0;
+	}
+	.book-title {
+		string-set: book_title content();
+		font-size: 36pt;
+        text-align: left;
+		hyphens: none;
+		margin: 60mm 0 0 0;
+	}
+	.book-subtitle {
+		string-set: book_subtitle content();
+		font-size: 20pt;
+        text-align: left;
+		hyphens: none;
+		margin: 30mm 0 0 0;
 	}
 	.book-affiliation {
-		hyphens: none;
 		string-set: book_affiliation content();
-		font-size: 12pt;
+		font-size: 14pt
         text-align: left;
+		hyphens: none;
+		margin: 90mm 0 0 0;
 	}
 	.book-date {
-		hyphens: none;
 		string-set: book_date content();
-		font-size: 12pt;
+		font-size: 14pt;
         text-align: left;
+		hyphens: none;
+		margin: 0.5rem 0 0 0;
+	}
+	.colophon {
+		width: 60%;
+        text-align: left;
+		hyphens: none;
+		margin: 120mm 0 0 0;
+		page-break-after: right;
+	}
+	.epigraph {
+		width: 60%;
+		hyphens: none;
+        text-align: left;
+		margin: 90mm 0 0 0;
+		page-break-after: right;
 	}
 	.chapter {
 		padding: 0 0 0 0; 
@@ -206,7 +224,7 @@
 	  orphans: 4;
 	  widows: 4;
 	}
-	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
+	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5, large-bold, large-italic, larger-bold, larger-italic, largest-bold, largest-italic {
 	  page-break-after: avoid;
 	}
 	.break {

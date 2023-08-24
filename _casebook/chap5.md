@@ -1,23 +1,26 @@
 ---
 layout: casebook
-title: Choice of Law in Federal Court
-chapter: 5
+chapter-title: Choice of Law in Federal Court
+chapter-number: 5
 
 ---
 
-# The Rules of Decision Act
+<p class="chapter-number">Chapter {{ page.chapter-number}}</p>
+<h1>{{ page.chapter-title}}</h1>
+
+## The Rules of Decision Act
 
 <div class="legal-code">
 
-### 28 U.S.C. § 1652
+#### 28 U.S.C. § 1652
 
-#### State laws as rules of decision
+<span class="larger-bold">State laws as rules of decision</span>
 
 The laws of the several states, except where the Constitution or treaties of the United States or Acts of Congress otherwise require or provide, shall be regarded as rules of decision in civil actions in the courts of the United States, in cases where they apply.
 
 </div>
 
-## "The Laws of the Several States"
+### "The Laws of the Several States"
 
 <div class="comment">
 
@@ -26,7 +29,7 @@ The Rules of Decision Act applies to cases in which federal courts hear claims t
 </div>
 
 
-### Swift v. Tyson, 41 U.S. 1 (1842)
+#### Swift v. Tyson, 41 U.S. 1 (1842)
 
 <div class="comment">
 
@@ -50,7 +53,7 @@ Swift then sought payment on the bill of exchange from Tyson, who refused on the
 
 </div>
 
-#### Justice STORY delivered the opinion of the Court.
+<span class="larger-bold">Justice STORY delivered the opinion of the Court.</span>
 
 There is no doubt, that a bonâ fide holder of a negotiable instrument for a valuable consideration, without any notice of facts which impeach its validity as between the antecedent parties, if he takes it under an endorsement made before the same becomes due, holds the title unaffected by these facts, and may recover thereon, although as between the antecedent parties the transaction may be without any legal validity. This is a doctrine so long and so well established, and so essential to the security of negotiable paper, that it is laid up among the fundamentals of the law, and requires no authority or reasoning to be now brought in its support. As little doubt is there, that the holder of any negotiable paper, before it is due, is not bound to prove that he is a bonâ fide holder for a valuable consideration, without notice; for the law will presume that, in the absence of all rebutting proofs, and therefore it is incumbent upon the defendant to establish by way of defence satisfactory proofs of the contrary, and thus to overcome the primâ facie title of the plaintiff.
 
@@ -67,7 +70,7 @@ It becomes necessary for us, therefore, upon the present occasion to express our
 
 <div class="comment">
 
-### Note: _Swift_ and Its Discontents
+#### Note: _Swift_ and Its Discontents
 
 Justice Story's opinion quotes the Roman statesman and philosopher Cicero for the proposition that the common law cannot differ from state to state. The cited passage[^6f7b] summarizes the natural law paradigm:
 
@@ -122,9 +125,9 @@ Holmes stepped down from the Court in 1932 and died in 1935. Three years later, 
 
 </div> 
 
-### Erie R.R. Co. v. Tompkins, 304 U.S. 64 (1938)
+#### Erie R.R. Co. v. Tompkins, 304 U.S. 64 (1938)
 
-#### Justice BRANDEIS delivered the opinion of the Court.
+<span class="larger-bold">Justice BRANDEIS delivered the opinion of the Court.</span>
 
 The question for decision is whether the oft-challenged doctrine of _Swift v. Tyson_ shall now be disapproved.
 
@@ -176,7 +179,7 @@ _Fourth_. The defendant contended that by the common law of Pennsylvania as decl
 
 <div class="comment">
 
-### Note on _Erie_
+#### Note on _Erie_
 
 On remand, the Court of Appeals concluded that, "Under the Pennsylvania law, the defendant owed no duty to the plaintiff except to refrain from wanton or wilful injury." Because Tompkins neither alleged nor proved that the Railroad acted wantonly or wilfully, the case was remanded to the trial court with directions to enter judgment in favor of the Railroad. 98 F.2d 49 (2d Cir. 1938).
 
@@ -184,7 +187,7 @@ For a more detailed account of the incident (including photos of Tompkins before
 
 </div>
 
-## Substance and Procedure under _Erie_
+### Substance and Procedure under _Erie_
 
 <div class="comment">
 
@@ -194,7 +197,7 @@ The underlying issue in _Erie_ was one of substantive law: the standard of care 
 
 In the aftermath of _Erie_, the Court sought to provide an answer to the question of how to draw the line between substance and procedure.
 
-#### Guaranty Trust Co. of New York v. York, 326 U.S. 99 (1945)
+<span class="larger-bold">Guaranty Trust Co. of New York v. York, 326 U.S. 99 (1945)</span>
 
 York sued Guaranty Trust for breach of fiduciary duty. The issue was whether, "in a suit brought on the equity side[^85d4] of a federal district court that court is required to apply the State statute of limitations that would govern like suits in the courts of a State where the federal court is sitting even though the exclusive basis of federal jurisdiction is diversity of citizenship." If so, the suit would be dismissed as untimely. This turned on whether application of the state statute of limitations to bar "a claim created by the States is a matter of 'substantive rights' to be respected by a federal court of equity when that court's jurisdiction is dependent on the fact that there is a State-created right, or is such statute of 'a mere remedial character, which a federal court may disregard?"
 
@@ -210,22 +213,22 @@ Rather than mechanically applying the labels "substance" and "procedure", the Co
 
 > Plainly enough, a statute that would completely bar recovery in a suit if brought in a State court bears on a State-created right vitally and not merely formally or negligibly. As to consequences that so intimately affect recovery or non-recovery a federal court in a diversity case should follow State law.
 
-#### Ragan v. Merchants Transfer & Warehouse Co., 337 U.S. 530 (1949)
+<span class="larger-bold">Ragan v. Merchants Transfer & Warehouse Co., 337 U.S. 530 (1949)</span>
 
 Ragan sued Merchants Transfer for injuries resulting from a traffic accident. A two-year statute of limitations under state law applied. The plaintiff filed the complaint in federal court less than two years after the accident, but did not serve the complaint on the defendant until more than two years had passed. Relying on Fed. R. Civ. P. Rule 3 ("A civil action is commenced by filing a complaint with the court."), the plaintiff argued that filing the complaint was sufficient to satisfy the statute of limitations. The defendant argued that the federal court must follow state law, under which the statute of limitations was not satisfied unless the suit was both filed and served within the allotted time.
 
 As in _Guaranty Trust_, the Court focused on whether applying different rules in state and federal court would yield different outcomes. Once again, the Court held that the federal court must follow state law, under which the plaintiff's right to relief would be extinguished.
 
 
-#### Woods v. Interstate Realty, 337 U.S. 535 (1949) and Cohen v. Beneficial Indust. Loan Corp, 337 U.S. 541 (1949)
+<span class="larger-bold">Woods v. Interstate Realty, 337 U.S. 535 (1949) and Cohen v. Beneficial Indust. Loan Corp, 337 U.S. 541 (1949)</span>
 
 In these two cases, decided together with _Ragan_, the Court likewise held that the federal court must apply state law rules where a contrary federal rule would have yielded different outcomes. _Woods v. Interstate Realty_ (State rule, barring unqualified business from appearing in state court, applies in federal diversity action); _Cohen v. Beneficial Indust. Loan Corp_, (State rule, requiring bond in shareholder derivative suit, applies in federal diversity action, despite lack of bond requirement in FRCP Rule 23.1).
 
 </div>
 
-### Byrd v. Blue Ridge Rural Electric Cooperative, Inc., 356 U.S. 525 (1958)
+#### Byrd v. Blue Ridge Rural Electric Cooperative, Inc., 356 U.S. 525 (1958)
 
-#### Justice BRENNAN delivered the opinion of the Court.
+<span class="larger-bold">Justice BRENNAN delivered the opinion of the Court.</span>
 
 This case was brought in the District Court for the Western District of South Carolina. Jurisdiction was based on diversity of citizenship. 28 U. S. C. § 1332. The petitioner, a resident of North Carolina, sued respondent, a South Carolina corporation, for damages for injuries allegedly caused by the respondent's negligence. He had judgment on a jury verdict. The Court of Appeals for the Fourth Circuit reversed and directed the entry of judgment for the respondent. We granted certiorari and subsequently ordered reargument.
 
@@ -233,7 +236,7 @@ The respondent is in the business of selling electric power to subscribers in ru
 
 One of respondent's affirmative defenses was that, under the South Carolina Workmen's Compensation Act, the petitioner---because the work contracted to be done by his employer was work of the kind also done by the respondent's own construction and maintenance crews---had the status of a statutory employee of the respondent and was therefore barred from suing the respondent at law because obliged to accept statutory compensation benefits as the exclusive remedy for his injuries. Two questions concerning this defense are before us: (1) whether the Court of Appeals erred in directing judgment for respondent without a remand to give petitioner an opportunity to introduce further evidence; and (2) whether petitioner, state practice notwithstanding, is entitled to a jury determination of the factual issues raised by this defense.
 
-#### I.
+<span class="larger-bold">I.</span>
 
 The Supreme Court of South Carolina has held that there is no particular formula by which to determine whether an owner is a statutory employer under [the South Carolina workers' compensation statute]:
 
@@ -251,7 +254,7 @@ We believe that the Court of Appeals erred. The petitioner is entitled to have t
 
 At all events, the petitioner is plainly entitled to have an opportunity to try the issue under the Court of Appeals' interpretation.
 
-#### II.
+<span class="larger-bold">II.</span>
 
 A question is also presented as to whether on remand the factual issue is to be decided by the judge or by the jury. The respondent argues on the basis of the decision of the Supreme Court of South Carolina in _Adams v. Davison-Paxon Co._ that the issue of immunity should be decided by the judge and not by the jury. That was a negligence action brought in the state trial court against a store owner by an employee of an independent contractor who operated the store's millinery department. The trial judge denied the store owner's motion for a directed verdict made upon the ground that [the workers' compensation statute] barred the plaintiff's action. The jury returned a verdict for the plaintiff. The South Carolina Supreme Court reversed, holding that it was for the judge and not the jury to decide on the evidence whether the owner was a statutory employer, and that the store owner had sustained his defense. The court rested its holding on decisions involving judicial review of the Industrial Commission.
 
@@ -269,13 +272,13 @@ We think that in the circumstances of this case the federal court should not fol
 
 _Third_. We have discussed the problem upon the assumption that the outcome of the litigation may be substantially affected by whether the issue of immunity is decided by a judge or a jury. But clearly there is not present here the certainty that a different result would follow, or even the strong possibility that this would be the case. There are factors present here which might reduce that possibility. The trial judge in the federal system has powers denied the judges of many States to comment on the weight of evidence and credibility of witnesses, and discretion to grant a new trial if the verdict appears to him to be against the weight of the evidence. We do not think the likelihood of a different result is so strong as to require the federal practice of jury determination of disputed factual issues to yield to the state rule in the interest of uniformity of outcome.
 
-# The Rules Enabling Act
+## The Rules Enabling Act
 
 <div class="legal-code">
 
-### 28 U.S.C. § 2071
+#### 28 U.S.C. § 2071
 
-#### Rule-making power generally
+<span class="larger-bold">Rule-making power generally</span>
 
 (a) The Supreme Court and all courts established by Act of Congress may from time to time prescribe rules for the conduct of their business. Such rules shall be consistent with Acts of Congress and rules of practice and procedure prescribed under section 2072 of this title.
 
@@ -297,9 +300,9 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 <div class="legal-code">
 
-### 28 U.S.C. § 2072
+#### 28 U.S.C. § 2072
 
-#### Rules of procedure and evidence; power to prescribe
+<span class="larger-bold">Rules of procedure and evidence; power to prescribe</span>
 
 (a) The Supreme Court shall have the power to prescribe general rules of practice and procedure and rules of evidence for cases in the United States district courts (including proceedings before magistrate judges thereof) and courts of appeals.
 
@@ -311,9 +314,9 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 <div class="legal-code">
 
-### 28 U.S.C. § 2073
+#### 28 U.S.C. § 2073
 
-#### Rules of procedure and evidence; method of prescribing
+<span class="larger-bold">Rules of procedure and evidence; method of prescribing</span>
 
 (a) 
 
@@ -337,9 +340,9 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 <div class="legal-code">
 
-### 28 U.S.C. § 2074
+#### 28 U.S.C. § 2074
 
-#### Rules of procedure and evidence; submission to Congress; effective date
+<span class="larger-bold">Rules of procedure and evidence; submission to Congress; effective date</span>
 
 (a) The Supreme Court shall transmit to the Congress not later than May 1 of the year in which a rule prescribed under section 2072 is to become effective a copy of the proposed rule. Such rule shall take effect no earlier than December 1 of the year in which such rule is so transmitted unless otherwise provided by law. The Supreme Court may fix the extent such rule shall apply to proceedings then pending, except that the Supreme Court shall not require the application of such rule to further proceedings then pending to the extent that, in the opinion of the court in which such proceedings are pending, the application of such rule in such proceedings would not be feasible or would work injustice, in which event the former rule applies.
 
@@ -347,9 +350,9 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 </div>
 
-### Hanna v. Plumer, 380 U.S. 460 (1965)
+#### Hanna v. Plumer, 380 U.S. 460 (1965)
 
-#### Chief Justice WARREN delivered the opinion of the Court.
+<span class="larger-bold">Chief Justice WARREN delivered the opinion of the Court.</span>
 
 The question to be decided is whether, in a civil action where the jurisdiction of the United States district court is based upon diversity of citizenship between the parties, service of process shall be made in the manner prescribed by state law or that set forth in Rule 4(d)(1) of the Federal Rules of Civil Procedure.
 
@@ -415,7 +418,7 @@ We are reminded by the _Erie_ opinion that neither Congress nor the federal cour
 
 _Erie_ and its offspring cast no doubt on the long-recognized power of Congress to prescribe housekeeping rules for federal courts even though some of those rules will inevitably differ from comparable state rules. "When, because the plaintiff happens to be a non-resident, such a right is enforceable in a federal as well as in a State court, the forms and mode of enforcing the right may at times, naturally enough, vary because the two judicial systems are not identic." _Guaranty Trust Co. v. York, supra_, at 108; _Cohen v. Beneficial Loan Corp._, 337 U. S. 541, 555. Thus, though a court, in measuring a Federal Rule against the standards contained in the Enabling Act and the Constitution, need not wholly blind itself to the degree to which the Rule makes the character and result of the federal litigation stray from the course it would follow in state courts, it cannot be forgotten that the _Erie_ rule, and the guidelines suggested in _York_, were created to serve another purpose altogether. To hold that a Federal Rule of Civil Procedure must cease to function whenever it alters the mode of enforcing state-created rights would be to disembowel either the Constitution's grant of power over federal procedure or Congress' attempt to exercise that power in the Enabling Act. Rule 4(d)(1) is valid and controls the instant case.
 
-#### Justice HARLAN, concurring.
+<span class="larger-bold">Justice HARLAN, concurring.</span>
 
 It is unquestionably true that up to now _Erie_ and the cases following it have not succeeded in articulating a workable doctrine governing choice of law in diversity actions. I respect the Court's effort to clarify the situation in today's opinion.[^Harlan1] However, in doing so I think it has misconceived the constitutional premises of _Erie_ and has failed to deal adequately with those past decisions upon which the courts below relied.
 
@@ -446,13 +449,13 @@ _Cohen v. Beneficial Loan Corp._ held that a federal diversity court must apply 
 It remains to apply what has been said to the present case. The Massachusetts rule provides that an executor need not answer suits unless in-hand service was made upon him or notice of the action was filed in the proper registry of probate within one year of his giving bond. The evident intent of this statute is to permit an executor to distribute the estate which he is administering without fear that further liabilities may be outstanding for which he could be held personally liable. If the Federal District Court in Massachusetts applies Rule 4(d)(1) of the Federal Rules of Civil Procedure instead of the Massachusetts service rule, what effect would that have on the speed and assurance with which estates are distributed? As I see it, the effect would not be substantial. It would mean simply that an executor would have to check at his own house or the federal courthouse as well as the registry of probate before he could distribute the estate with impunity. As this does not seem enough to give rise to any real impingement on the vitality of the state policy which the Massachusetts rule is intended to serve, I concur in the judgment of the Court.
 
 
-### Dolphin Kickboxing Co. v. Franchoice, Inc., No. 19-cv-1477 (D. Minn. May 6, 2020)
+#### Dolphin Kickboxing Co. v. Franchoice, Inc., No. 19-cv-1477 (D. Minn. May 6, 2020)
 
-#### ELIZABETH COWAN WRIGHT, Magistrate Judge.
+<span class="larger-bold">ELIZABETH COWAN WRIGHT, Magistrate Judge.</span>
 
 This matter is before the Court on Plaintiffs' Motion to Amend Complaint. For the reasons stated below, the Motion is granted in part and denied in part.
 
-#### I. FACTUAL AND PROCEDURAL BACKGROUND
+<span class="larger-bold">I. FACTUAL AND PROCEDURAL BACKGROUND</span>
 
 The "Facts" section of the proposed amended complaint is exactly the same as found in the original Complaint. For the sake of brevity, the Court incorporates the "Facts" section found in its Report and Recommendation into this Order. The proposed amended complaint also contained the same claim for fraud as found in the original Complaint. Defendants did not move to dismiss the common law fraud claim as part of their Motion to Dismiss. The claim alleged that Defendants committed fraud by knowingly making false representations to Plaintiffs for the purpose of inducing them to purchase an ILKB franchise.In addition, the fraud claim alleges that these representations proved to be untrue; Plaintiffs reasonably relied on this information in deciding to purchase an ILKB franchise, and as a result Plaintiffs have suffered damages of no less than $500,000.
 
@@ -474,7 +477,7 @@ The only substantive addition to the proposed amended complaint is Count V seeki
 
 According to the proposed amended complaint, as a result of Defendants' deliberate disregard of Plaintiffs' rights, Plaintiffs are entitled to punitive damages.
 
-#### II. LEGAL STANDARD
+<span class="larger-bold">II. LEGAL STANDARD</span>
 
 The Court held oral argument during which it sua sponte raised the issue of the appropriate standard for adding punitive damages claims. Both parties had initially addressed in their written submissions the appropriateness of amending the Complaint to add a claim for punitive damages under Minnesota Statutes Sections 549.191 and 549.20. The Court ordered the parties to file supplemental pleadings with respect to their positions regarding whether Minn. Stat. § 549.191, or Rule 15 of the Federal Rules of Civil Procedure, applies to a motion to amend to add a claim for punitive damages. Both parties filed supplemental briefs and agree, based on recent decisions within this District, that Rule 15, and not Minn. Stat. § 549 applies to the present motion to amend. That said, the parties disagree about whether the proposed amended complaint plausibly sets forth a claim for punitive damages under Minn. Stat. § 549.20.
 
@@ -530,14 +533,14 @@ Here, the fact that the Minnesota procedural law setting forth how to bring a mo
 Accordingly, the Court will apply the Rule 15 standard in determining whether to grant Plaintiffs' motion to amend to add a claim for punitive damages based on the allegations in the proposed amended complaint.
 
 
-# Erie-Hanna Diagram 
+## Erie-Hanna Diagram 
 
 ![Erie-Hanna Analysis](../img/Erie-Hanna.png)
 
 
-# Review Questions 
+## Review Questions 
 
-#### Question 1
+<span class="larger-bold">Question 1</span>
 
 Peggy was employed by Sterling Cooper, P.C. She had a written employment contract specifying a three year term of employment, during which Sterling Cooper could not terminate Peggy's employment except for cause. The contract specifies that "cause for termination includes, but is not limited to, employee misconduct, dishonesty, or unsatisfactory performance of assigned duties." 
 
@@ -559,7 +562,7 @@ Under Hudson state law, a complaint for breach of contract must include an itemi
 
 _Which rule should the federal court apply in this case?_
 
-#### Question 2
+<span class="larger-bold">Question 2</span>
 
 The Carbolic Smoke Ball Company ("Carbolic") runs an ad in the Pall Mall Gazette. The ad claims that the company's Carbolic Smoke Ball is "clinically proven to prevent colds and flu when used as directed." In fact, the product does nothing at all, other than emit foul-smelling smoke, and the company never conducted any tests, clinical or otherwise. 
 

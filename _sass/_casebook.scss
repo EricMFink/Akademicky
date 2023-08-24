@@ -89,36 +89,42 @@
 .largest-bold {
 	font-size: $largest-size;
 	font-weight: $medium-weight;
+	text-align: left;
 	margin: 2rem 0 0 0;
 	}
 .largest-italic {
 	font-size: $largest-size;
 	font-weight: $normal-weight;
 	font-style: italic;
+	text-align: left;
 	margin: 2rem 0 0 0;
 	}
 /* second-level = h5 */
 .larger-bold {
 	font-size: $larger-size;
 	font-weight: $medium-weight;
+	text-align: left;
 	margin: 1.5rem 0 0 0;
 	}
 .larger-italic {
 	font-size: $larger-size;
 	font-weight: $normal-weight;
 	font-style: italic;
+	text-align: left;
 	margin: 1.5rem 0 0 0;
 	}
 /* third-level = h6 */
 .large-bold {
 	font-size: $large-size;
 	font-weight: $medium-weight;
+	text-align: left;
 	margin: 1.5rem 0 0 0;
 	}
 .large-italic {
 	font-size: $large-size;
 	font-weight: $normal-weight;
 	font-style: italic;
+	text-align: left;
 	margin: 1.5rem 0 0 0;
 	}
 
@@ -258,89 +264,90 @@ li.toc-li-H4 {
 }
 
 /* CASEBOOK COVER PAGE */ 
-.cover-block {
-	width: 100%;
-	color: white;
-	padding: 20px 20px;
-}
 .book-cover {
-    position: relative; 
-    height: 85lvh;
     width: 100%;
-	padding: 10px 20px 10px 20px;
-}
-.book-cover::before {    
-	content: "";
-	background-image: url("../img/cover.png");
-	background-size: cover;
-    background-repeat: no-repeat;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
-	opacity: 0.7;
-}
-.book-title {
-    color: $theme-color;
-    font-family: $heading-font;
-    font-size: $title-size;
-	text-transform: uppercase;
-    line-height: 1;
-	font-weight: $normal-weight;
-    font-style: normal;
-	position: relative;
-}
-.book-subtitle {
-    color: $theme-color;
-    font-family: $heading-font;
-    font-size: $subtitle-size;
-	text-transform: uppercase;
-    line-height: 1;
-	font-weight: $normal-weight;
-    font-style: normal;
-	position: relative;
+	padding: 0 0 0 0;
+	margin: 0 auto 0 auto;
 }
 .book-author {
     color: $theme-color;
     font-family: $heading-font;
     font-size: $larger-size;
+	text-align: left;
 	text-transform: uppercase;
-    line-height: 1;
-	font-weight: $normal-weight;
     font-style: normal;
-	position: relative;
-	margin-top: 3rem;
+	margin: 3rem 0 0 0;
+.book-title {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $title-size;
+	text-align: left;
+	text-transform: uppercase;
+    font-style: normal;
+	margin: 6rem 0 0 0;
+}
+.book-subtitle {
+    color: $theme-color;
+    font-family: $heading-font;
+    font-size: $subtitle-size;
+	text-align: left;
+	text-transform: uppercase;
+    font-style: normal;
+	margin: 3rem 0 0 0;
+}
 }.book-affiliation {
     color: $theme-color;
     font-family: $heading-font;
     font-size: $large-size;
+	text-align: left;
 	text-transform: uppercase;
-	font-weight: $normal-weight;
-    line-height: 1;
     font-style: normal;
-	position: relative;
+	margin: 9rem 0 0 0;
 }
 .book-date {
     color: $theme-color;
     font-family: $heading-font;
     font-size: $large-size;
+	text-align: left;
 	text-transform: uppercase;
-    line-height: 1;
     font-style: normal;
-	position: relative;
+	margin: 0 0 0 0;
 }
-/* PUBLICATION INFO */
 .colophon {
+    font-family: $body-font;
 	font-size: $smaller-size;
+	text-align: left;
+	width: 60%
 	margin: 3rem 0 0 0;
-    border-top: 1px solid $theme-color;
 }
 .colophon p {
 	font-size: $smaller-size;
-	width: 50%;
+	text-align: left;
+	line-height: $shorter-line-height;
+	margin: 0 0 0 0;
 }
 .colophon li {
 	font-size: $smaller-size;
-	width: 50%;
+	text-align: left;
 }
+.epigraph { 
+    font-family: $body-font;
+	font-size: $smaller-size;
+	text-align: left;
+	width: 60%;
+	}
+.epigraph-quote { 
+	font-style: italic; 
+	text-align: left;
+	margin: 0 0 0 0;
+  	}
+.epigraph-cite {
+	text-align: left;
+	margin: 2rem 0 0 33%;
+	}
+.epigraph-source { 
+	font-style: italic; 
+	}
+.epigraph-author {  
+	font-style: normal;
+	}

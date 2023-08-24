@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body class="casebook">
+<body>
 
 {% include casebook-header.html %}
 
@@ -11,10 +11,12 @@
 
 <div class="casebook">
 
-{% if page.chapter %}
-<p class="chapter-number">Chapter {{ page.chapter}}</p>
+<!--
+{% if page.chapter-number %}
+<p class="chapter-number">Chapter {{ page.chapter-number}}</p>
 {% endif %}
-<h1>{{ page.title}}</h1>
+<h1>{{ page.chapter-title}}</h1>
+-->
 
 {{ content }}
 

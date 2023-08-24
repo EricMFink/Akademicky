@@ -3,11 +3,34 @@
 
 {% include head.html %}
 
-<body class="casebook">
+<body>
 
 {% include casebook-header.html %}
 
 <article class="group">
+
+	<!-- COVER & FRONTMATTER -->
+		<div class="book-cover">
+			<p class="book-author">{{ site.author.name }}</p>
+			<p class="book-title">{{ site.casebook.title}}</p>
+			<p class="book-subtitle">{{ site.casebook.subtitle }}</p>
+			<p class="book-affiliation">{{ site.author.affiliation }}</p>
+			<p class="book-date">{{ site.course.term }}</p>
+		</div>
+
+		<div class="colophon">
+			{% include colophon.html %}
+		</div>
+
+		<div class="epigraph">
+			<p>{{ page.epigraph }}<p>
+			<div class="epigraph-cite">
+			&#128614; {{ page.epigraph-source }}, {{ page.epigraph-author }}<p>
+			</div>
+		</div>
+
+	</div>
+
 
 <div class="casebook">
 

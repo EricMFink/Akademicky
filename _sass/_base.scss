@@ -26,21 +26,13 @@ body {
     color: $text-color;
 	width: 85%;
     margin: 0 0 0 12.5%;
-    counter-reset: sidenote-counter; 
+    counter-reset: chapter sidenote-counter; 
 	}
-body.casebook {
-	font-family: $body-font;
-	background-color: $off-white;
-	color: $text-color;
-	width: 85%;
-	margin: 0 0 0 12.5%;
-	counter-reset: chapter sidenote-counter;
-}
 body.fullwidth {
 	width: 90%;
 	max-width: 100%;
 	margin: 0 auto 0 auto;
-    counter-reset: sidenote-counter; 
+    counter-reset: chapter sidenote-counter; 
 }
 
 /* Headings */
