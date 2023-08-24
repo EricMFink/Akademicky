@@ -22,6 +22,13 @@
 			{% include colophon.html %}
 		</div>
 
+		<div class="contents">
+			<script type="text/javascript" src="{{ site.baseurl }}/assets/js/princexml-charms.js"></script>
+			<body onload="toc('h1, h2, h3, h4')">
+			<span class="largest-bold">Table of Contents</span>
+			<ol id=toc></ol>
+		</div>
+
 		<div class="epigraph">
 			<p>{{ page.epigraph }}<p>
 			<div class="epigraph-cite">

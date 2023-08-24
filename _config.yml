@@ -27,7 +27,7 @@ course:
   repository: /akademicky
 
 coursebook:
-  title: Civil Procedure
+  title: Trials & Tribulations
   subtitle: An Open-Source Casebook
   version: '2.0'
   date: August 2023
@@ -41,6 +41,16 @@ collections:
 # -----------------------------------------------------------------------------
 
 # Build settings
+
+# deployment
+host: localhost
+port: 4000
+
+theme: tufte-pandoc-jekyll
+
+gems:
+  - jekyll-pandoc
+
 markdown: Pandoc
 pandoc:
   extensions:
@@ -49,7 +59,6 @@ pandoc:
     - filter: 'pandoc-sidenote'
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 permalink: /:categories/:year/:month/:day/:title/
 timezone: America/New_York
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
@@ -71,23 +80,13 @@ transfer:
   source: _site/
   destination: ~/Git/EricMFink.github.com/
 
-# js versions 
 jquery_version: "1.12.4"
 anchorjs_version: "3.2.2"
 
-# deployment
-host: localhost
-port: 4000
-
-# theme
-theme: tufte-pandoc-jekyll
-
-# gems & plugins
-gems:
-  - jekyll-pandoc
 plugins:
-  - jekyll-toc
   - jekyll-spaceship
+
+# Where things are
 jekyll-spaceship:
   # default enabled processors
   processors:
@@ -120,4 +119,3 @@ jekyll-spaceship:
     css:
       class: emoji
     src: https://github.githubassets.com/images/icons/emoji/
-

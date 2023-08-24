@@ -91,10 +91,9 @@
         text-align-last: left;
 	}
 	.book-cover {
-		width: 100%;
+		width: 90%;
         text-align: left;
 		hyphens: none;
-		margin: 0 auto 0 auto;
 		page-break-after: left;
 	}
 	.book-author {
@@ -132,6 +131,12 @@
 		hyphens: none;
 		margin: 0.5rem 0 0 0;
 	}
+	.contents{
+		width: 90%;
+		hyphens: none;
+		text-align: left;
+		page-break-after: right;
+	}
 	.colophon {
 		width: 60%;
         text-align: left;
@@ -159,6 +164,7 @@
 		string-set: chapter_title content();
 		break-before: recto;
 	}
+	h1.toc:before {content: "Chapter " counter(chapter) ": ";}
 	h2 {
 		font-size: 18pt;
 	}

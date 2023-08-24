@@ -24,9 +24,20 @@
 	font-family: adelle-sans, sans-serif;
 	font-size: $h1;
 	font-weight: 400;
-	line-height: $single-line-height;
+	line-height: $line-height;
 	font-style: normal;
 	margin: 0 0 0 0;
+	counter-increment: chapter;  /* Add 1 to chapter */
+    counter-reset: section;      /* Set section to 0 */
+}
+.casebook h1:before {
+	content: "Chapter " counter(section) " \A";
+	color: $dull-red;
+	font-family: $sans-font;
+	font-size: $subtitle-size;
+	font-weight: $normal-weight;
+	line-height: $single-line-height;
+	font-style: normal;
 }
 /* Section */
 .casebook h2 {
@@ -35,6 +46,13 @@
 	font-style: normal;
 	color: $dull-red;
 	margin: 5rem 0 0 2.5rem;
+    counter-increment: section;  /* Add 1 to section */
+    counter-reset: subsection;      /* Set subsection to 0 */
+}
+.casebook h2:before {
+	content: counter(section) ". ";
+	float: left;
+	margin-left: -2.5rem;
 }
 /* Subsection */
 .casebook h3 {
@@ -42,6 +60,13 @@
 	font-weight: $normal-weight;
 	color: $dull-red;
 	margin: 3rem 0 0 3rem;
+    counter-increment: subsection;	/* Add 1 to section */
+    counter-reset: subsubsection;
+}
+.casebook h3:before {
+    content: counter(section) '.' counter(subsection);
+	float: left;
+	margin-left: -3rem;
 }
 /* Title and cite of incorporated materials */
 .casebook h4 {
@@ -52,38 +77,7 @@
 	margin: 2rem 0 0rem 0;
 	border-bottom: 1px solid $dull-red;
 }
-/* internal subheadings for incorporated materials */
-.casebook h4 {
-  font-size: $h4;
-  font-weight: $medium-weight;
-  font-style: normal;
-  margin: 2rem 0 0 0;
-}
-/* auto-numbered section & subsections */
-.casebook h1:before {
-	counter-increment: chapter;  /* Add 1 to chapter */
-}
-.casebook h1 {
-    counter-reset: section;      /* Set section to 0 */
-}
-.casebook h2:before {
-	content: counter(section) ". ";
-    counter-increment: section;  /* Add 1 to section */
-	float: left;
-	margin-left: -2.5rem;
-}
-.casebook h2 {
-    counter-reset: subsection;      /* Set subsection to 0 */
-}
-.casebook h3:before {
-    counter-increment: subsection;	/* Add 1 to section */
-    content: counter(section) '.' counter(subsection);
-	float: left;
-	margin-left: -3rem;
-}
-.casebook h3 {
-    counter-reset: subsubsection;
-}
+
 /* PARAGRAPH-LEVEL HEADINGS */
 /* top-level = h4 */
 .largest-bold {
@@ -265,9 +259,7 @@ li.toc-li-H4 {
 
 /* CASEBOOK COVER PAGE */ 
 .book-cover {
-    width: 100%;
-	padding: 0 0 0 0;
-	margin: 0 auto 0 auto;
+    width: 90%;
 }
 .book-author {
     color: $theme-color;

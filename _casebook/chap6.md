@@ -5,7 +5,6 @@ chapter-number: 6
 
 ---
 
-<p class="chapter-number">Chapter {{ page.chapter-number}}</p>
 <h1>{{ page.chapter-title}}</h1>
 
 ## Notice Pleading under the FRCP

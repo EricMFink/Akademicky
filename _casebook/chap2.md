@@ -5,7 +5,6 @@ chapter-number: 2
 
 ---
 
-<p class="chapter-number">Chapter {{ page.chapter-number}}</p>
 <h1>{{ page.chapter-title}}</h1>
 
 ## Permissive Joinder of Claims
