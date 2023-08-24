@@ -14,12 +14,15 @@
 	<!-- COVER & FRONTMATTER -->
 		<div class="book-cover">
 			<p class="book-author">{{ site.author.name }}</p>
+			<div class="title-block">
 			<p class="book-title">{{ site.coursebook.title}}</p>
 			<p class="book-subtitle">{{ site.coursebook.subtitle }}</p>
+			</div>
+			<div class="publication-block">
 			<p class="book-affiliation">{{ site.author.affiliation }}</p>
 			<p class="book-date">{{ site.course.term }}</p>
+			</div>
 		</div>
-
 
 		{% include colophon.html %}
 

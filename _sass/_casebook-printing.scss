@@ -79,7 +79,7 @@
 		padding: 0 0 0 0;
 	}
 	.casebook {
-		width: 100%;
+		width: 75vw;
 		padding: 0 0 0 0;
 	}
 	section {
@@ -91,17 +91,20 @@
         text-align-last: left;
 	}
 	.book-cover {
-		width: 90%;
+		width: 100%;
         text-align: left;
 		hyphens: none;
 		padding: 0 0 0 0;
-		page-break-after: left;
+		page-break-after: right;
 	}
 	.book-author {
 		string-set: book_author content();
 		font-size: 18pt;
         text-align: left;
 		hyphens: none;
+		margin: 15mm 0 0 0;
+	}
+	.title-block{
 		margin: 30mm 0 0 0;
 	}
 	.book-title {
@@ -109,28 +112,32 @@
 		font-size: 36pt;
         text-align: left;
 		hyphens: none;
-		margin: 60mm 0 0 0;
+		margin: 0 0 0 0;
 	}
 	.book-subtitle {
 		string-set: book_subtitle content();
 		font-size: 20pt;
         text-align: left;
 		hyphens: none;
-		margin: 30mm 0 0 0;
+		margin: 15mm 0 0 0;
+	}
+	.publication-block{
+		margin: 0 0 0 0;
+		-prince-float: page bottom;
 	}
 	.book-affiliation {
 		string-set: book_affiliation content();
 		font-size: 14pt;
         text-align: left;
 		hyphens: none;
-		margin: 90mm 0 0 0;
+		margin: 0 0 0 0;
 	}
 	.book-date {
 		string-set: book_date content();
 		font-size: 14pt;
         text-align: left;
 		hyphens: none;
-		margin: 0.5rem 0 0 0;
+		margin: 0 0 0 0;
 	}
 	.contents{
 		width: 100%;
@@ -138,6 +145,12 @@
 		text-align: left;
 		padding: 0 0 0 0;
 		page-break-after: right;
+	}
+	#toc li { 
+		list-style-type: none 
+	}
+	#toc a:after { 
+		content: leader('. ') target-counter(attr(href), page) 
 	}
 	.colophon {
 		width: 60%;

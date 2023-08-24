@@ -269,6 +269,9 @@ li.toc-li-H4 {
     font-style: normal;
 	margin: 3rem 0 0 0;
 }
+.title-block{
+	margin: 3rem 0 0 0;
+}
 .book-title {
     color: $theme-color;
     font-family: $heading-font;
@@ -276,7 +279,7 @@ li.toc-li-H4 {
 	text-align: left;
 	text-transform: uppercase;
     font-style: normal;
-	margin: 6rem 0 0 0;
+	margin: 0 0 0 0;
 }
 .book-subtitle {
     color: $theme-color;
@@ -285,6 +288,9 @@ li.toc-li-H4 {
 	text-align: left;
 	text-transform: uppercase;
     font-style: normal;
+	margin: 1em 0 0 0;
+}
+.publication-block{
 	margin: 3rem 0 0 0;
 }
 .book-affiliation {
@@ -294,7 +300,7 @@ li.toc-li-H4 {
 	text-align: left;
 	text-transform: uppercase;
     font-style: normal;
-	margin: 9rem 0 0 0;
+	margin: 0 0 0 0;
 }
 .book-date {
     color: $theme-color;
