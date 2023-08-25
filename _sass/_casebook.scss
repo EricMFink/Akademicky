@@ -79,35 +79,34 @@
 /* PARAGRAPH-LEVEL HEADINGS */
 
 
-case-h1 {
+p.case-h1 {
 	font-size: $larger-size;
     font-style: normal;
     font-weight: $medium-weight;
     margin: 0 0 0 0;
 	list-style: outside none none !important;
 }
-case-h2 {
+p.case-h2 {
 	font-size: $larger-size;
     font-style: italic;
     font-weight: $normal-weight;
     margin: 0 0 0 0;
 	list-style: outside none none !important;
 }
-case-h3 {
+p.case-h3 {
 	font-size: $large-size;
     font-style: normal;
     font-weight: $medium-weight;
     margin: 0 0 0 0;
 	list-style: outside none none !important;
 }
-case-h4 {
+p.case-h4 {
 	font-size: $large-size;
     font-style: italic;
     font-weight: $normal-weight;
     margin: 0 0 0 0;
 	list-style: outside none none !important;
 }
-
 
 /* top-level = h4 */
 .largest-bold {
