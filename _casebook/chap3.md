@@ -394,7 +394,7 @@ On April 24, 2021, Plaintiff Samuel Johnson ("Johnson") was at a local hotel res
 
 Kathy Griffin, a comedian who lives in California, tweeted about the incident on April 26, 2021. Her first tweet shared another user's video of the Clip, with that user's caption reading: "Homophobic POS in Tennessee harasses a teenager for wearing a dress to prom." Griffin's added commentary to the quoted tweet read:
 
-> If this is Sam Johnson in Nashville, Tennessee, the CEO of @VisuWell, healthcare-tech-growth strategist, married to Jill Johnson where they may reside in Franklin, Tennessee, it seems like he's dying to be online famous.  `¯\_(ツ)_/¯ ` 🏳️‍🌈 `¯\_(ツ)_/¯` 
+> If this is Sam Johnson in Nashville, Tennessee, the CEO of @VisuWell, healthcare-tech-growth strategist, married to Jill Johnson where they may reside in Franklin, Tennessee, it seems like he's dying to be online famous.  <span class="japanese">`¯\_(ツ)_/¯`</span> 🏳️‍🌈 <span class="japanese">`¯\_(ツ)_/¯`</span>
 
 Later that morning, Griffin tweeted a screen shot of google image search results for "ceo visuwell" showing two headshots of Johnson along with the caption: "Who is? THIS Sam Johnson of Franklin Tennessee?" That evening, VisuWell tweeted four times via its official Twitter account about the incident:
 
