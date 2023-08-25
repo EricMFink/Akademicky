@@ -202,6 +202,8 @@
 	}
 	li {
 		text-align: justify;
+	}li.case-li-H1, li.case-li-H2, li.case-li-H3, li.case-li-H4, li.case-li-H5, li.case-li-H6 {
+		list-style: none;
 	}
 	.sidenote, .marginnote {
 		float: none;
