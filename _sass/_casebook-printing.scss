@@ -153,7 +153,8 @@
 		content: leader('. ') target-counter(attr(href), page) 
 	}
 	.colophon {
-		width: 60%;
+		page: blank;
+		width: 100%;
         text-align: left;
 		hyphens: none;
 		margin: 0 0 22mm 0;
@@ -162,6 +163,7 @@
 		page-break-after: right;
 	}
 	.epigraph {
+		page: blank;
 		width: 60%;
 		hyphens: none;
         text-align: left;
@@ -178,16 +180,20 @@
         text-align: left;
 	}
 	h1 {
+		width: 100%;
 		font-size: 20pt;
 		string-set: chapter_title content();
 	}
 	h2 {
+		width: 100%;
 		font-size: 18pt;
 	}
 	h3 {
+		width: 100%;
 		font-size: 16pt;
 	}
 	h4 {
+		width: 100%;
 		font-size: 14pt;
 	}
 	h5 {
@@ -202,7 +208,7 @@
 	}
 	li {
 		text-align: justify;
-	}li.case-li-H1, li.case-li-H2, li.case-li-H3, li.case-li-H4, li.case-li-H5, li.case-li-H6 {
+	}p.case-h1, p.case-h2, p.case-h3, p.case-h4, p.case-h5, p.case-h6 {
 		list-style: none;
 	}
 	.sidenote, .marginnote {
@@ -248,10 +254,10 @@
 	  orphans: 4;
 	  widows: 4;
 	}
-	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5, large-bold, large-italic, larger-bold, larger-italic, largest-bold, largest-italic {
+	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
 	  page-break-after: avoid;
 	}
-	li.case-li-H1, li.case-li-H2, li.case-li-H3, li.case-li-H4, li.case-li-H5, li.case-li-H6 {
+	p.case-h1, p.case-h2, p.case-h3, p.case-h4 {
 		page-break-after: avoid;
 	}
 	.break {

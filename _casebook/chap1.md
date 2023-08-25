@@ -35,7 +35,7 @@ There are two special trial courts that have nationwide jurisdiction over certai
 
 Three territories of the United States— the Virgin Islands, Guam, and the Northern Mariana Islands—have U.S. district courts that hear federal cases, including bankruptcy cases.
 
-![Fig. 1.3](../img/FederalCourtsMap.png){width="45rem"}
+![Fig. 1.3](../img/FederalCourtsMap.png){width="90%"}
 
 <p class="case-h2">Appellate Courts</p>
 
@@ -196,6 +196,6 @@ If the case is not dismissed at the pleadings stage, the parties will then produ
 
 If the case is not fully decided on summary judgment, it will then proceed to trial, at the end of which the court will enter judgment in favor of the plaintiff(s) or defendant(s). After a final judgment has been entered, the losing party may appeal to a higher court. A final judgment may also have consequences for other lawsuits involving the same parties (Claim and Issue Preclusion). 
 
-![Fig. 1.2](../img/CivilAction1.png){width="100%"}
+![Fig. 1.2](../img/CivilAction1.png){width="90%"}
 
-![Fig. 1.3](../img/CivilAction2.png){width="100%"}
+![Fig. 1.3](../img/CivilAction2.png){width="90%"}

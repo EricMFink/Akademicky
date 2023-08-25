@@ -959,7 +959,7 @@ Critics of Daimler and Goodyear may be happy to see them go. And make no mistake
 
 Within the outer bounds allowed under the constitutional due process standard, the exercise of personal jurisdiction are subject to additional limits under state "long-arm" statutes. There are two types of long-arm statute.
 
-![Robert Wadlow, the tallest human in history, visiting Folsom Prison in 1939 as a spokesman for the International Shoe Company. ](../img/Long-Arm.jpg){width="60%"}
+![Robert Wadlow, the tallest human in history, visiting Folsom Prison in 1939 as a spokesman for the International Shoe Company. ](../img/Long-Arm.jpg)
 
 ### Enumerated Statutes 
 

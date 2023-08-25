@@ -447,7 +447,7 @@ Although the Federal Rules do not themselves address when a co-defendant becomes
 
 </div>
 
-![Fig. 2.1: Third Party Claims Under Rule 14](../img/Rule14.png){width="100%"}
+![Fig. 2.1: Third Party Claims Under Rule 14](../img/Rule14.png){width="90%"}
 
 <div class="comment">
 
@@ -465,7 +465,7 @@ FRCP Rules 13(g) and 14(a) both permit joinder of claims by a party seeking to h
 
 These provisions refer to claims for _indemnification_ and _contribution_. They arise where a party to a suit (D1) seeks to hold someone else (D2) responsible for all (indemnification) or part (contribution) of the amount of a judgment against D1 in favor of another party (P1).
 
-![Fig. 2.2: Indemnification & Contribution](../img/Indemnification_Contribution.png){width="100%"}
+![Fig. 2.2: Indemnification & Contribution](../img/Indemnification_Contribution.png){width="90%"}
 
 In Fig. 2.2, P1 asserts a claim against D1. D1 then asserts a claim against D2, contending that, if P1 prevails against D1, D2 must cover all or part of D1's liability to P1.
 
