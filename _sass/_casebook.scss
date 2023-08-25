@@ -77,6 +77,34 @@
 }
 
 /* PARAGRAPH-LEVEL HEADINGS */
+
+
+li.case-li-H1 {
+	font-size: $larger-size;
+    font-style: normal;
+    font-weight: $medium-weight;
+    margin: 0 0 0 0;
+}
+li.case-li-H2 {
+	font-size: $larger-size;
+    font-style: italic;
+    font-weight: $normal-weight;
+    margin: 0 0 0 1em;
+}
+li.case-li-H3 {
+	font-size: $large-size;
+    font-style: normal;
+    font-weight: $medium-weight;
+    margin: 0 0 0 2em;
+}
+li.case-li-H4 {
+	font-size: $large-size;
+    font-style: italic;
+    font-weight: $normal-weight;
+    margin: 0 0 0 3em;
+}
+
+
 /* top-level = h4 */
 .largest-bold {
 	font-size: $largest-size;

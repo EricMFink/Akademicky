@@ -146,23 +146,8 @@ blockquote p {
 	color: $dull-red;
 	}
 
-/* No-section Heading at Top of Page */
-.largest  {
-	font-size: $largest-size;
-	font-weight: $normal-weight;
-	line-height: $line-height;
-	margin: 3rem 0 1rem 0;
-	}
-.largest-bold {
-	font-size: $largest-size;
-	font-weight: $medium-weight;
-	line-height: $line-height;
-	margin: 3rem 0 1rem 0;
-	}
-.largest-italic {
-	font-size: $largest-size;
-	font-weight: $normal-weight;
-	font-style: italic;
-	line-height: $line-height;
-	margin: 3rem 0 1rem 0;
-	}
+.japanese {
+	font-family: $japanese-font;
+	font-weight: 400;
+	font-style: normal;
+}
