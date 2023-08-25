@@ -129,7 +129,7 @@ A civil action is commenced by filing a complaint with the court.
 
 #### Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2013)
 
-<p class="larger-bold">ED CARNES, Chief Judge</p>
+<span class="larger-bold">ED CARNES, Chief Judge</span>
 
 Nearly one hundred and thirty years ago, one of Georgia's greatest judges described the ideal in pleading:
 
@@ -141,7 +141,7 @@ The story that Christopher Weiland's complaint tells is about two Palm Beach Cou
 
 [^ba9f]: (n.1 in opinion) The Baker Act is a Florida law that permits a person to be "involuntarily examined" by a mental health facility "if there is reason to believe that the person has a mental illness and because of his or her mental illness there is a substantial likelihood that without care or treatment the person will cause serious bodily harm to himself or herself or others."
 
-<p class="larger-bold">I.</p>
+<span class="larger-bold">I.</span>
 
 The allegations in Weiland's third amended complaint, which we accept as true for present purposes, are as follows.
 
@@ -159,7 +159,7 @@ Weiland was charged with two counts of aggravated assault on a law enforcement o
 
 The jury acquitted Weiland of the charges against him.
 
-<p class="larger-bold">II.</p>
+<span class="larger-bold">II.</span>
 
 Weiland filed this lawsuit in state court on January 12, 2011. His original complaint and first amended complaint asserted only state law claims. On December 17, 2012, Weiland filed a second amended complaint that added multiple claims under 42 U.S.C. § 1983. The defendants removed the case to the Southern District of Florida and filed a motion to dismiss.
 
@@ -179,9 +179,9 @@ As an alternative ground for the dismissal of the part of count three that invol
 
 Finally, the court concluded that sovereign immunity barred Weiland's state law claims for intentional infliction of emotional distress and malicious prosecution and dismissed them for that reason. The court, however, took "no position" on whether Weiland had stated a claim under Florida law for excessive force; instead, it declined to exercise supplemental jurisdiction and remanded that claim to state court.
 
-<p class="larger-bold">III.</p>
+<span class="larger-bold">III.</span>
 
-<p class="larger-italic">A.</p>
+<span class="larger-italic">A.</span>
 
 We first address whether the district court abused its discretion when it dismissed Weiland's constitutional claims against Johnson and Fleming in counts one and three of the complaint for failure to comply with Federal Rules of Civil Procedure 8(a)(2) and 10(b).
 
@@ -296,7 +296,7 @@ Applying that standard to Iqbal's complaint, the majority concluded that the all
 
 #### Woods v. City of Greensboro, 855 F.3d 639 (4th Cir. 2017)
 
-<p class="larger-bold">DAVIS, Senior Circuit Judge:</p>
+<span class="larger-bold">DAVIS, Senior Circuit Judge:</span>
 
 Racial stigmas and stereotypes are not impairing unless we internalize them. And there is no reason for us to do that when we know that the history of black culture in America is rich and reaffirming. We may live in a society that will only grudgingly and inconsistently acknowledge our equality, but that does not mean that we must live as if we are victims. I understand that avoiding the effects of racial stigmas and stereotyping is not always easy because many studies have shown that most people harbor implicit biases and even well-intentioned people unknowingly act on racist attitudes. However, this merely confirms that we alone cannot carry the burden of ameliorating racism in our country. This responsibility must be assumed by all good people without regard to race, sex, and ethnicity.
 
@@ -306,9 +306,9 @@ In April 2013, Black Network Television Ad Agency, LLC ("BNT"), a minority-owned
 
 We hold that the district court's crabbed plausibility analysis misinterpreted and misapplied the controlling pleading standard. The key issue in this case is not whether the City would contract with a minority-owned business, but whether the City would contract with BNT on the same conditions and under substantially the same circumstances as it would with a nonminority-owned business. Because BNT has plausibly pled that the conditions under which the City was willing to grant it a loan were more stringent than those the City applied to similarly situated white-owned applicants, we conclude that the district court erred in dismissing BNT's claim of discrimination at the pleading stage. Accordingly, for the reasons explained within, we reverse the district court's order dismissing this action and remand for further proceedings.
 
-<p class="larger-bold">I.</p>
+<span class="larger-bold">I.</span>
 
-<p class="larger-italic">A.</p>
+<span class="larger-italic">A.</span>
 
 We begin by summarizing the cardinal facts surrounding BNT's application for, and the City's ultimate denial of, the economic development loan. Throughout, we consider as true all well-pleaded allegations in the complaint, matters of public record, and documents attached to the motion to dismiss that are integral to the complaint and of unquestioned authenticity.
 
@@ -348,7 +348,7 @@ As it turned out, in addition to a first mortgage, the Woods had a home equity l
 
 The City Council then voted not to modify the Resolution to make a loan secured by a third-position lien, but left in effect the original Resolution and its terms. Subsequently, on February 18, 2014, the City Council officially revoked the Resolution authorizing the City to enter into a loan agreement with BNT.
 
-<p class="larger-italic">B.</p>
+<span class="larger-italic">B.</span>
 
 The Woods and BNT filed suit in federal district court alleging violations of 42 U.S.C. §§ 1981, 1983, and 1986, the Equal Protection and Due Process clauses of the Fourteenth Amendment and the North Carolina Constitution, as well as state law claims for breach of contract, civil conspiracy, and unfair and deceptive trade practices. The district court dismissed all of the Woods' and BNT's claims. The court dismissed all claims asserted against the City and the Councilmembers in their individual capacities on the basis of legislative immunity. The court dismissed the breach of contract, due process, conspiracy, and § 1986 claim for failure to state a cause of action.
 
@@ -356,9 +356,9 @@ The court considered together the plaintiffs' claims that the City discriminated
 
 BNT, alone, timely appealed the court's dismissal of its claim that the City discriminated against it in violation of § 1981.
 
-<p class="larger-bold">II.</p>
+<span class="larger-bold">II.</span>
 
-<p class="larger-italic">B.</p>
+<span class="larger-italic">B.</span>
 
 We next review the district court's dismissal for failure to state a claim upon which relief can be granted. _See_ Fed. R. Civ. P. 12(b)(6). We review dismissals under Federal Rule of Civil Procedure 12(b)(6) de novo.
 
@@ -414,11 +414,11 @@ In reaching our conclusion, we note that discrimination claims are particularly 
 
 "A well-pleaded complaint may proceed even if it strikes a savvy judge that actual proof of those facts is improbable, and 'that a recovery is very remote and unlikely.'" Manifestly, the rule of _Iqbal/Twombly_ was not intended to serve as a federal court door-closing mechanism for arguably weak cases, even assuming this case fits the description of "arguably weak." Whether BNT will have a difficult time establishing the merits of its claim is of little import now. The question before us is "'not whether [the defendant] will ultimately prevail' but whether the complaint was sufficient to cross the federal court's threshold." We conclude simply that BNT has alleged sufficient factual matter, accepted as true, to "state a claim to relief that is plausible on its face." No more was required of BNT to state a claim, and no more is required of us to so hold.
 
-<p class="larger-bold">WILKINSON, Circuit Judge, dissenting:</p>
+<span class="larger-bold">WILKINSON, Circuit Judge, dissenting:</span>
 
 If ever there were a case that failed to satisfy the plausibility standard on a Rule 12(b)(6) motion to dismiss, it is this one. BNT presents nothing more than bare speculation that racial discrimination influenced the City's treatment of its loan application. To the contrary, the minority-owned status of the business motivated the City to extend the loan in the first place. The complaint manifests that nothing but prudent, neutral, non-racial lending practices were at issue here. The dismissal was absolutely justified and I would affirm the district court.
 
-<p class="larger-bold">I.</p>
+<span class="larger-bold">I.</span>
 
 The majority ignores the whole point of _Bell Atlantic Corp. v. Twombly,_ and _Ashcroft v. Iqbal_. Those two decisions make clear that a well-pleaded complaint must allege "enough facts to state a claim to relief that is plausible on its face." In other words, "factual allegations must be enough to raise a right to relief above the speculative level." This "requires more than labels and conclusions," because the court must be able to "draw the reasonable inference that the defendant is liable of the misconduct alleged," And as relevant here, a claim may fail to reach this threshold if some "obvious alternative explanation" exists.
 
@@ -426,7 +426,7 @@ The distinction that _Twombly_ and _Iqbal_ draw between plausibility and mere po
 
 BNT has not met even the most permissive reading of these pleading requirements.
 
-<p class="larger-bold">II.</p>
+<span class="larger-bold">II.</span>
 
 There can be no mistake that the City in fact approved BNT's request for a loan. Michael and Ramona Woods, the owners of BNT, "discussed with various City of Greensboro officials what a successful minority owned Greensboro-based television network would mean to the Greensboro community." It is undisputed that City officials actually "suggested and recommended" that BNT apply for funding to facilitate production of its situational comedy, "Whatcha Cookin." City officials then assisted BNT in framing the loan application, and the City Council later discussed "the desire to support minority owned small businesses." In both word and deed, the City encouraged BNT's endeavor.
 
@@ -446,7 +446,7 @@ But BNT forgets that the Kotis loan was part of a new incentive program offered 
 
 The majority surmises that BNT just might somehow conceivably manage to prevail. Yet the complaint itself makes clear that basic, elemental lending prudence was at work here. "As between that 'obvious alternative explanation' and the purposeful, invidious discrimination [the plaintiff] asks us to infer, discrimination is not a plausible conclusion." _Iqbal,_ 556 U.S. at 682. BNT has therefore "not nudged its claims across the line from conceivable to plausible." Even assuming all the facts alleged, BNT "stops short of the line between possibility and plausibility," and fails to present "more than a sheer possibility that a defendant has acted unlawfully".
 
-<p class="larger-bold">III.</p>
+<span class="larger-bold">III.</span>
 
 The majority is certainly right that racial prejudice in this society is persistent and that its modern incarnation may take more subtle forms. There is another side to this story, however, which _Twombly_ and _Iqbal_ serve to underscore. Promiscuous accusations of racial prejudice, as exemplified by this complaint, are diminishing the perceived gravity of those unfortunate situations where racial discrimination must be confronted and still does occur. Careless racial accusations carry a distinctive sting and visit an especial hurt that serves only to estrange and separate: Americans will eschew racial interactions that carry a risk of accusation when no unlawful animus is afoot. Allowing complaints such as this to go forward trivializes, sadly, the imperishable values our civil rights laws embody. A separatism born of unfounded accusations and pervasive racial attributions cannot be the society to which I or my fine colleagues in the majority aspire.
 
@@ -612,13 +612,13 @@ A motion asserting any of these defenses must be made before pleading if a respo
 
 #### Reis Robotics, USA, Inc. v. Concept Industries, Inc., 462 F.Supp.2d 897 (N.D. Ill. 2006)
 
-<p class="larger-bold">CASTILLO, District Court.</p>
+<span class="larger-bold">CASTILLO, District Court.</span>
 
 This is a diversity action governed by Illinois law in which Plaintiff Reis Robotics USA, Inc. ("Reis") filed a complaint against Defendant Concept Industries, Inc. ("Concept"), seeking redress for breach of contract. Concept has answered the complaint, asserted six affirmative defenses, and brought seven counterclaims against Reis. Reis now moves to strike and dismiss Concept's affirmative defenses; strike portions of Concept's answer; and dismiss Concept's counterclaims. For the reasons set forth below, Reis's motions are granted in part and denied in part.
 
-<p class="larger-bold">BACKGROUND</p>
+<span class="larger-bold">BACKGROUND</span>
 
-<p class="large-bold">1. Reis's Allegations</p>
+<span class="large-bold">1. Reis's Allegations</span>
 
 The following facts are taken from Reis's complaint. Reis, an Illinois corporation, manufactures and supplies industrial robotics equipment. Concept, a Michigan corporation, manufactures and supplies automotive parts. On or about February 24, 2005, the parties entered into a contractual arrangement for Concept to purchase from Reis a robotic laser cutting machine (the "Laser") and associated fixtures for trimming three separate automotive parts: the Hush Panel, JS Dash Silencer, and JS Dash Close Out Panel. The pertinent contract documents are an "Order Acknowledgment" executed by Reis and an "Amended Purchase Order" executed by Concept. For ease of reference, we refer to these documents collectively as "the Agreement."
 
@@ -632,7 +632,7 @@ In November 2005, Concept informed Reis that Concept had terminated the JS Dash 
 
 The parties agree that Concept has paid' Reis $588,600 to date. Reis asserts that Concept has breached the Agreement by failing to pay a remaining balance of $264,300 plus interest. Concept denies that it owes Reis any additional money under the Agreement. 
 
-<p class="large-bold">2. Concept's Allegations</p>
+<span class="large-bold">2. Concept's Allegations</span>
 
 The following additional facts are gleaned from Concept's "Answer, Affirmative Defenses and Counterclaim." Concept alleges that prior to entering the Agreement, the parties engaged in extensive negotiations regarding the specifications of the Laser, particularly the Laser's cutting speed, also called "cycle time," meaning the time required to complete one part. Throughout the negotiations, Reis, through its sales manager Dino Chece, allegedly made various oral and written promises to Concept indicating that the Laser would trim the JS Dash Silencer parts at a cycle time of 60-70 seconds per part or faster. Relying on these promises by Reis, Concept entered into the Agreement. 
 
@@ -650,11 +650,11 @@ As for the JS Dash Silencer fixtures, Concept alleges that it only authorized Re
 
 Concept also raises counterclaims against Reis for: (1) fraudulent inducement; (2) misrepresentation; (3) unjust enrichment; (4) promissory estoppel; (5) breach of contract; (6) breach of express warranty; and (7) overpayment. All of the claims are premised on the Laser's inability to achieve the cycle time allegedly discussed by the parties. 
 
-<p class="larger-bold">MOTION TO STRIKE AND DISMISS AFFIRMATIVE DEFENSES</p>
+<span class="larger-bold">MOTION TO STRIKE AND DISMISS AFFIRMATIVE DEFENSES</span>
 
 We turn first to Reis's motion to strike and dismiss various portions of Concept's affirmative defenses.
 
-<p class="larger-bold">I. Legal Standard</p>
+<span class="larger-bold">I. Legal Standard</span>
 
 Federal Rule of Civil Procedure 12(f) permits the Court to strike "any insufficient defense or any redundant, immaterial, impertinent or scandalous matter." Fed.R.Civ.P. 12(f). Motions to strike are generally disfavored because of their potential to delay proceedings. Nonetheless, a motion to strike can be a useful means of removing "unnecessary clutter" from a case, which will in effect expedite the proceedings. 
 
@@ -662,7 +662,7 @@ Affirmative defenses are pleadings and, as such, are subject to all the same ple
 
 This Court applies a three-part test for examining the sufficiency of an affirmative defense. First, we determine whether the matter is appropriately pled as an affirmative defense Second, we determine whether the defense is adequately pled under Federal Rules of Civil Procedure 8 and 9. _Id._ Third, we evaluate the sufficiency of the defense pursuant to a standard identical to Federal Rule of Civil Procedure 12(b)(6). Before granting a motion to strike an affirmative defense, the Court must be convinced that there are no unresolved questions of fact, that any questions of law are clear, and that under no set of circumstances could the defense succeed. Additionally, in a case premised on diversity jurisdiction, "the legal and factual sufficiency of an affirmative defense is examined with reference to state law." With these principles in mind, we turn to the specific arguments raised in the motion.
 
-<p class="larger-bold">II. Analysis</p>
+<span class="larger-bold">II. Analysis</span>
 
 For its first affirmative defense Concept asserts: "The complaint fails to state a claim upon which relief can be granted." Reis argues that this is not a proper affirmative defense. There is some debate in this District regarding whether "failure to state a claim" may be raised as an affirmative defense or instead must be raised by separate motion. Notably, as one court in this District has observed, although failure to state a claim, may not meet the technical definition of an affirmative defense, Form 20 of the Federal Rules of Civil Procedure's Appendix of Forms lists "failure to state a claim" as a model defense. Rule 84 specifically authorizes the use of the model defenses contained in the Forms. Fed.R.Civ.P. 84. In light of Rule 84 and Form 20, we find authority under the Federal Rules to permit an affirmative defense based on failure to state a claim.
 
@@ -678,7 +678,7 @@ Concept's fifth affirmative defense states: "Reis's claims are barred or limited
 
 Concept's sixth affirmative defense states: "Concept reserves the right to add additional affirmative defenses as they become known through discovery." This is not a proper affirmative defense. If at some later point in the litigation Concept believes that the addition of another affirmative defense is warranted, it may seek leave to amend its pleadings pursuant to Rule 15(a); such a request will be judged by the appropriate standards, including the limitations set forth in Rule 12(b) and (h). Accordingly, Concept's sixth affirmative defense is stricken with prejudice.
 
-<p class="larger-bold">MOTION TO STRIKE PORTIONS OF DEFENDANT'S ANSWER</p>
+<span class="larger-bold">MOTION TO STRIKE PORTIONS OF DEFENDANT'S ANSWER</span>
 
 Reis next moves to strike various portions of Concept's answer for failing to comply with Rule 8. Rule 8 provides in relevant part:
 
@@ -738,11 +738,11 @@ Reis also seeks to strike Concept's prayer for attorneys fees and costs. As a ge
 
 #### Shiflet v. Allstate Ins. Co., 233 F.R.D. 465 (D.S.C. 2006)
 
-<p class="larger-bold">DUFFY, District Judge.</p>
+<span class="larger-bold">DUFFY, District Judge.</span>
 
 This matter is before the court on Defendant Allstate Insurance Company’s Motion to Amend the Answer. Plaintiff Kathryn Shiflet opposes this motion. For the reasons set forth herein, Defendant’s motion is granted.
 
-<p class="larger-bold">BACKGROUND</p>
+<span class="larger-bold">BACKGROUND</span>
 
 On January 4, 2004, Plaintiff Kathryn Shiflet’s mobile home and personal belongings were destroyed by fire. At the time of the fire, Plaintiff’s mobile home was covered under an insurance policy provided by Allstate Insurance. On November 3, 2004, Plaintiff initiated this action against Defendant Allstate Insurance for breach of contract, bad faith, and violation of [the S.C. insurance claims practices statute], after Allstate allegedly wrongfully denied Plaintiff’s claim.
 
@@ -750,7 +750,7 @@ Defendant Allstate originally filed its answer to the original complaint on Dece
 
 On January 13, 2006, Plaintiff filed her response in opposition to Defendant’s motion to amend its answer. Plaintiff argues that the proposed amendment should be denied because it is prejudicial to Plaintiff, in bad faith, and would be futile.
 
-<p class="larger-bold">DISCUSSION</p>
+<span class="larger-bold">DISCUSSION</span>
 
 Rule 15(a) of the Federal Rules of Civil Procedure provides that “a party may amend the party’s pleading only by leave of court or by written consent of the adverse party; and leave shall be freely given when justice so requires.” While the decision to grant a party leave to amend a pleading is within the sound discretion of the trial court, that discretion is limited by the general policy favoring the resolution of cases on the merits.
 
@@ -760,18 +760,18 @@ Here, the court believes that Defendant’s motion for leave to amend its answer
 
 Further, because the proposed additional defense of arson is a complete defense to Plaintiff’s claims, the court believes that allowing amendment will aid in resolving the case on the merits. Despite Plaintiff’s arguments to the contrary, the court does not believe that Defendant’s amendment is futile, as Defendant seeks to raise a potentially viable complete defense. In short, the court finds that Defendant’s proposed amendment is not prejudicial to Plaintiff, not in bad faith, and not obviously futile. Accordingly, the court grants Defendant’s motion, and directs Plaintiff to file appropriate responsive pleadings to the First Amended Answer.
 
-<p class="larger-bold">CONCLUSION</p>
+<span class="larger-bold">CONCLUSION</span>
 
 It is therefore ORDERED, for the foregoing reasons, that Defendant’s Motion to Amend Answer is GRANTED.
 
 
 #### Dolphin Kickboxing Co. v. Franchoice, Inc., No. 19-cv-1477 (D. Minn. May 6, 2020)
 
-<p class="larger-bold">ELIZABETH COWAN WRIGHT, Magistrate Judge.</p>
+<span class="larger-bold">ELIZABETH COWAN WRIGHT, Magistrate Judge.</span>
 
 This matter is before the Court on Plaintiffs' Motion to Amend Complaint. For the reasons stated below, the Motion is granted in part and denied in part.
 
-<p class="larger-bold">I. FACTUAL AND PROCEDURAL BACKGROUND</p>
+<span class="larger-bold">I. FACTUAL AND PROCEDURAL BACKGROUND</span>
 
 The "Facts" section of the proposed amended complaint is exactly the same as found in the original Complaint. For the sake of brevity, the Court incorporates the "Facts" section found in its Report and Recommendation into this Order. The proposed amended complaint also contained the same claim for fraud as found in the original Complaint. Defendants did not move to dismiss the common law fraud claim as part of their Motion to Dismiss. The claim alleged that Defendants committed fraud by knowingly making false representations to Plaintiffs for the purpose of inducing them to purchase an ILKB franchise.In addition, the fraud claim alleges that these representations proved to be untrue; Plaintiffs reasonably relied on this information in deciding to purchase an ILKB franchise, and as a result Plaintiffs have suffered damages of no less than $500,000.
 
@@ -793,7 +793,7 @@ The only substantive addition to the proposed amended complaint is Count V seeki
 
 According to the proposed amended complaint, as a result of Defendants' deliberate disregard of Plaintiffs' rights, Plaintiffs are entitled to punitive damages.
 
-<p class="larger-bold">II. LEGAL STANDARD</p>
+<span class="larger-bold">II. LEGAL STANDARD</span>
 
 Rule 15(a) sets the general standard for amending pleadings in Federal court. Fed. R. Civ. P. 15. Rule 15(a) provides that leave to amend "shall be freely given when justice so requires." The determination as to whether to grant leave to amend is entrusted to the sound discretion of the trial court.The Eighth Circuit has held that although amendment of a pleading "should be allowed liberally to ensure that a case is decided on its merits there is no absolute right to amend."
 
@@ -809,7 +809,7 @@ The relevant legal basis for punitive damages under Minnesota law provides:
 >
 > > (2) deliberately proceeds to act with indifference to the high probability of injury to the rights or safety of others.
 
-<p class="larger-bold">III. ANALYSIS</p>
+<span class="larger-bold">III. ANALYSIS</span>
 
 With respect to Rule 15, Defendants argue that the Motion should be denied because it is futile. Plaintiffs' amendment is not futile if the proposed amended complaint contains "sufficient factual matter, accepted as true, to 'state a claim to relief that is plausible on its face.'" Here, the question is whether the proposed amended complaint plausibly alleges facts showing that the acts of Defendants show deliberate disregard for the rights or safety of others where:
 
@@ -837,11 +837,11 @@ In sum, Plaintiffs' Motion is granted only to the extent that it seeks to add a 
 
 #### Moore v. Baker, 989 F.2d 1129 (11th Cir. 1993)
 
-<p class="larger-bold">MORGAN, Senior Circuit Judge:</p>
+<span class="larger-bold">MORGAN, Senior Circuit Judge:</span>
 
 Appellant contends that her doctor violated Georgia's informed consent law by failing to advise her that ethylene diamine tetra acetic acide chelation (EDTA) therapy was available as an alternative to surgery. The district court granted summary judgment in favor of defendants/appellees on the ground that EDTA therapy is not a "generally recognized or accepted" alternative treatment for coronary surgery. We AFFIRM.
 
-<p class="larger-bold">FACTUAL AND PROCEDURAL BACKGROUND</p>
+<span class="larger-bold">FACTUAL AND PROCEDURAL BACKGROUND</span>
 
 Appellant, Judith Moore, was suffering from a partial blockage of her left common carotid artery, which impeded the flow of oxygen to her brain and caused her to feel dizzy and tired. In April of 1989, she consulted with appellee Dr. Roy Baker, an employee of the Neurological Institute of Savannah, P.C. (NIS), about her symptoms. Dr. Baker diagnosed a blockage of her left carotid artery due to artherosclerotic plaque and recommended that she undergo a neurosurgical procedure known as a carotid endarterectomy to correct her medical problem.
 
@@ -851,7 +851,7 @@ On April 8, 1991, the last day permitted by the statute of limitations, Moore fi
 
 On August 6, 1991 Dr. Baker filed a motion for summary judgment on the issue of informed consent. On August 26, 1991, Moore moved to amend her complaint to assert allegations of negligence by Dr. Baker in the performance of the surgery and in his post-operative care of Moore. Originally, on September 3, 1991, the district court granted Moore's motion to amend her complaint. Shortly thereafter, the district court granted Dr. Baker's motion for summary judgment on the informed consent issue, finding that EDTA therapy is not a "generally recognized or accepted" alternative treatment for coronary surgery. One month later, the district court vacated its September 3rd order and denied Moore's motion to amend her complaint, thus terminating all of Moore's outstanding claims. Moore now appeals the denial of her motion to amend her complaint as well as the grant of summary judgment in favor of Dr. Baker and NIS.
 
-<p class="larger-bold">I.</p>
+<span class="larger-bold">I.</span>
 
 Moore claims that the district court abused its discretion by vacating it's earlier order and denying Moore's motion to amend her complaint. Leave to amend a complaint "shall be freely given when justice so requires." Fed.R.Civ.P. 15(a). While a decision whether to grant leave to amend is clearly within the discretion of the district court, a justifying reason must be apparent for denial of a motion to amend. In the instant case, the lower court denied leave to amend on the ground that the newly-asserted claim was barred by the applicable statute of limitations and that allowing the amendment would, therefore, be futile. If correct, the district court's rationale would be sufficient to support a denial of leave to amend the complaint.
 
@@ -870,15 +870,15 @@ We must conclude that Moore's new claim does not arise out of the same conduct, 
 
 #### Palacio v. City of Springfield, 25 F.Supp.3d 163 (D. Mass 2014)
 
-<p class="larger-bold">NEIMAN, United States Magistrate Judge </p>
+<span class="larger-bold">NEIMAN, United States Magistrate Judge </span>
 
 Carlos A. Palacio, Sidney G. Gaviria Orrego and Carlos D. Palacio ("Plaintiffs") seek to amend their complaint to substitute the names of five police officers---Greg Bigda, Clayton Roberson, Steven Kent, Sean Arpin, and Barry Delameter---for the four "John Does" originally named as defendants with the City of Springfield and William Fitchet, Springfield's Police Commissioner. The City and Fitchet oppose the motion not only as untimely but as failing the "relation-back" provision set forth in Fed.R.Civ.P. 15(c)(1)(C). For the reasons which follow, the court will allow the motion, as Plaintiffs seek, pursuant to another subdivision of Rule 15, namely, (c)(1)(A).
 
-<p class="larger-bold">I. Background</p>
+<span class="larger-bold">I. Background</span>
 
 Plaintiffs filed their complaint in the Hampden County Superior Court on July 31, 2013, against the City, Fitchet and certain "John Does" who were employed by the City as police officers. Plaintiffs' complaint asserted claims against all these defendants under 42 U.S.C. §§ 1983 and 1985, Mass. Gen. Laws ch. 12, §§ 11H and 11I (Massachusetts Civil Rights Act), and Chapter 214, § 1B (Massachusetts Right to Privacy Act), arising out of what Plaintiffs claim was an unjustified, unconstitutional, warrantless breaking and entering into and search of their home starting in the evening of August 4 through to the early morning of August 5, 2010. On August 14, 2013, the City and Fitchet filed their Notice of Removal of the action to this federal forum. The court thereafter entered a scheduling order on November 25, 2013, establishing February 25, 2014, as the deadline for filing motions to amend pleadings or join additional parties. This latter deadline was subsequently extended to April 15, 2014. Plaintiffs filed their instant motion for leave to amend on April 14, 2014.
 
-<p class="larger-bold">II. Discussion</p>
+<span class="larger-bold">II. Discussion</span>
 
 As the parties are well aware, leave to amend a complaint under Rule 15(a) is to be "freely given when justice so requires" absent an adequate basis to deny the amendment, such as futility, bad faith, undue delay or dilatory motive. In this vein, as Plaintiffs assert, the addition of new defendants or the assertion of new claims closely related to the original claims are the types of amendments that are generally permissible under the rule. Without more, therefore, the substitution of the true names of the John Doe defendants in the case at bar would be relatively commonplace. The amendment would be timely, i.e., not long after suit was filed and within the deadline set by the court, and none of the recently-identified John Does would appear to suffer undue prejudice were the amendment allowed; discovery is not scheduled to close until August 25, 2014, and, apparently, no depositions have yet been taken. The fact that Plaintiffs wish to substitute five named individuals for four John Does is immaterial.
 
@@ -924,7 +924,7 @@ The only factor which might call for a denial of Plaintiffs' motion is possible 
 
 #### Fed. R. Civ. P. Rule 11 {#rule11}
 
-<p class="larger-bold">Signing Pleadings, Motions, and Other Papers; Representations to the Court; Sanctions</p>
+<span class="larger-bold">Signing Pleadings, Motions, and Other Papers; Representations to the Court; Sanctions</span>
 
 (a) Signature. Every pleading, written motion, and other paper must be signed by at least one attorney of record in the attorney's name—or by a party personally if the party is unrepresented. The paper must state the signer's address, e-mail address, and telephone number. Unless a rule or statute specifically states otherwise, a pleading need not be verified or accompanied by an affidavit. The court must strike an unsigned paper unless the omission is promptly corrected after being called to the attorney's or party's attention.
 
@@ -964,11 +964,11 @@ The only factor which might call for a denial of Plaintiffs' motion is possible 
 
 #### Turton v. Virginia Dept. of Education, No. 3:14cv446 (E.D. Va. Jan. 15, 2015)
 
-<p class="larger-bold">ROBERT E. PAYNE, Senior District Judge.</p>
+<span class="larger-bold">ROBERT E. PAYNE, Senior District Judge.</span>
 
 This matter is before the Court on DEFENDANT PATRICK T. ANDRIANO'S MOTION FOR SANCTIONS TO RULE 11. For the reasons set forth herein, the motion will be granted.
 
-<p class="larger-bold">FACTUAL AND PROCEDURAL BACKGROUND</p>
+<span class="larger-bold">FACTUAL AND PROCEDURAL BACKGROUND</span>
 
 Counsel for the 28 plaintiffs in this case filed the Amended Complaint on July 11, 2014. The Complaint generally alleges various incidents of discrimination against black and special education students in a number of local school divisions and includes both federal and state law claims. The Virginia Department of Education, Chesterfield, Essex, Henrico, and Nottoway County Public Schools, specific principals and teachers, and two attorneys, including Patrick T. Andriano ("Andriano"), the proponent of the current Motion for Rule 11 Sanctions, are among those named as defendants in the suit.
 
@@ -994,7 +994,7 @@ After considering these motions, this Court entered an Order dismissing the Amen
 
 Andriano filed his Motion for Rule 11 Sanctions on September 9, 2014, before the Order dismissing the Amended Complaint was entered, and the Order provides that: "the Court retains jurisdiction to decide Defendant Patrick T. Andriano's Motion for Sanctions pursuant to Rule 11."
 
-<p class="larger-bold">LEGAL STANDARD UNDER RULE 11</p>
+<span class="larger-bold">LEGAL STANDARD UNDER RULE 11</span>
 
 Fed. R. Civ. P. 11 provides in relevant part:
 
@@ -1016,11 +1016,11 @@ When a sanction is sought under Rule 11(b) (1), the assessment is made using an 
 
 The text of Rule 11 teaches that "to harass or to cause unnecessary delay or needless increase in the costs of litigation" are all examples of improper purposes. However, those examples are not exclusive. The governing principle is that a complaint must be filed with the sincere and central purpose of vindicating rights in court. If not, its purpose is improper under Rule 11. When a complaint is filed for the proper purpose of vindicating rights _and_ one or more other purposes of which the Court "does not approve," sanctions are only appropriate if "the added purpose is undertaken in bad faith or is so excessive as to eliminate a proper purpose." 
 
-<p class="larger-bold">DISCUSSION</p>
+<span class="larger-bold">DISCUSSION</span>
 
 Andriano argues that the claims against him: (1) lack legal basis; (2) lack factual basis; and (3) were filed for an improper purpose. He also notes that Plaintiffs and their counsel were put on notice after the Amended Complaint was filed that their claims against him lacked factual and legal support, but that they nevertheless continued to pursue those claims. Andriano now seeks Rule 11 Sanctions, asking this Court to "enter an order imposing the maximum sanctions permitted by law against plaintiffs and their counsel." 
 
-<p class="larger-italic">A. Alleged Lack of Legal Basis</p>
+<span class="larger-italic">A. Alleged Lack of Legal Basis</span>
 
 Andriano argues that the claims against him lacked legal basis because: (1) the Court lacks subject matter jurisdiction over the claims against him; and (2) the claims are "fatally flawed as a matter of law." 
 
@@ -1036,7 +1036,7 @@ Andriano also correctly asserts that, "at no point have plaintiffs identified wh
 
 The law of Virginia is quite clear on this subject. Plaintiff's counsel has not shown that any prefiling legal research was undertaken in an effort to find legal support for the "special relationship" assertions in the Amended Complaint. And, given the clear and settled nature of Virginia law on the subject, it is difficult to conclude that any such research was undertaken. On this record then, the Court finds that there was no prefiling inquiry into the law that applies to the special relationship assertions in the Amended Complaint.
 
-<p class="larger-italic">B. Factual Basis</p>
+<span class="larger-italic">B. Factual Basis</span>
 
 Next, Andriano asserts that Plaintiffs' claims against him are factually unsupported. In short, Andriano argues that the "Complaint fails to set forth specific factual allegations supporting Plaintiffs' purported claims" and Plaintiffs' counsel failed to make an effort to determine that their claims are factually supported. Andriano argues that it is not enough that Plaintiffs allege that Mr. Andriano was "present at certain unspecified meetings and that he provided legal advice to his clients." 
 
@@ -1044,7 +1044,7 @@ In response, Plaintiffs' counsel asserts that counsel attended fifty or more IEP
 
 That record shows a substantial basis for the allegations about Adriano's presence at, and his observed conduct during, some of the meetings alleged in the Amended Complaint. However, the record now shows that the allegation that Adriano was not counsel for the School Board of Essex and Nottoway Counties. Thus, "even a cursory investigation" would have revealed that Adriano did not represent the school boards for either Nottoway County or Essex County and that he was not involved in the development of IEPs for the student-plaintiffs attending schools in those counties. In sum, there was not an adequate investigation into the factual basis for allegations to the contrary.
 
-<p class="larger-italic">C. Improper Purpose</p>
+<span class="larger-italic">C. Improper Purpose</span>
 
 Finally, Andriano argues that Plaintiff's claims against him are not asserted for any proper purpose. In support, Andriano cites the fact that plaintiffs sought monetary damages in excess of $20,000,000.00 based on "putative claims that do not contain common factual issues or common questions of law." Additionally, Andriano suggests that, if Plaintiffs truly had a proper purpose in filing their Complaint, they would not have failed to exhaust administrative remedies, would not have waited until some of the student-plaintiffs failed to be enrolled in the defendant school systems, and would not have sought such an exorbitant sum of money. Id.
 
@@ -1054,11 +1054,11 @@ Andriano cites Kunstler as an example of a similar case where the "primary motiv
 
 As discussed above, the subjective views of Andriano about Plaintiffs' purpose in filing the suit are irrelevant to the analysis. Rather, the Court must determine Plaintiff's purpose based on objective or otherwise reliable evidence. There is no direct evidence on which to make such a finding. However, the Court's findings on the existence of reasonable factual and legal support for claims can affect the analysis under this prong of Rule 11. In that regard, where "counsel willfully files a baseless complaint, a court may properly infer that it was filed. . .for some purpose other than to vindicate rights through the judicial process."
 
-<p class="larger-italic">D. Are Sanctions Appropriate?</p>
+<span class="larger-italic">D. Are Sanctions Appropriate?</span>
 
 Given the findings that there was a lack of legal support for, and a lack of legal inquiry into, the special relationship theory that lies at the core of claims against Adriano, and considering the public statements of Plaintiffs' counsel, the Court concludes that sanctions are appropriate.
 
-<p class="larger-italic">E. Appropriate Sanction(s) and Possible Need for a Hearing</p>
+<span class="larger-italic">E. Appropriate Sanction(s) and Possible Need for a Hearing</span>
 
 Sanctions under Rule 11 may be monetary or nonmonetary, and only "the least severe sanction adequate to serve the purposes of Rule 11 Should be imposed. The case law makes clear that the primary purpose of Rule 11 is to deter improper litigation rather than to compensate the opposing party for the costs of defending the lawsuit. In fashioning a sanction, the court should consider: (1) the reasonableness of the opposing party's attorney's fees; (2) the minimum to deter; (3) ability to pay; and (4) factors related to the severity of the Rule 11 violation. The court may also "consider factors such as the offending party's history, experience, and ability, the severity of the violation, the degree to which malice or bad faith contributed to the violation, the risk of chilling, the type of litigation involved, and other factors as deemed appropriate in individual circumstances." 
 
@@ -1068,11 +1068,11 @@ There is not a sufficient record on which to make the determination of what a re
 
 #### Hunter v. Earthgrains Co. Bakery, 281 F.3d 144 (4th CIr. 2002)
 
-<p class="larger-bold">KING, Circuit Judge.</p>
+<span class="larger-bold">KING, Circuit Judge.</span>
 
 By Order of October 23, 2000, appellant Pamela A. Hunter, a practicing attorney in Charlotte, North Carolina, and an active member of the North Carolina State Bar, was suspended from practice in the Western District of North Carolina for five years. Ms. Hunter appeals this suspension, imposed upon her pursuant to Rule 11 of the Federal Rules of Civil Procedure. As explained below, we conclude that her appeal has merit, and we vacate her suspension from practice by the district court.
 
-<p class="larger-bold">I.</p>
+<span class="larger-bold">I.</span>
 
 Ms. Hunter, along with her co-counsel N. Clifton Cannon and Charlene E. Bell, represented a group of workers at a Charlotte, North Carolina, bakery owned by appellee Earthgrains Company Bakery ("Earthgrains"). These three lawyers filed a class action lawsuit against Earthgrains on February 24, 1997, in the Superior Court of Mecklenburg County (the "First Lawsuit"). The class action complaint, verified by the three named plaintiffs, alleged violations of Title VII of the Civil Rights Act of 1964, and it also asserted fraudulent misrepresentation on the part of Earthgrains in the closing of its Charlotte bakery. Earthgrains promptly removed the First Lawsuit to the Western District of North Carolina.
 
@@ -1098,17 +1098,17 @@ On October 23, 2000, the district court entered the order we are called upon to 
 
 Ms. Hunter has timely appealed the suspension imposed upon her, maintaining that Rule 11 sanctions are unwarranted and that her suspension from practice was an overly severe penalty. We possess jurisdiction under 28 U.S.C. § 1291.
 
-<p class="larger-bold">II.</p>
+<span class="larger-bold">II.</span>
 
-<p class="larger-italic">B.</p>
+<span class="larger-italic">B.</span>
 
 Although Rule 11 does not specify the sanction to be imposed for any particular violation of its provisions, the Advisory Committee Note to the Rule's 1993 amendments provides guidance with an illustrative list. A court may, for example, strike a document, admonish a lawyer, require the lawyer to undergo education, or refer an allegation to appropriate disciplinary authorities. While a reviewing court owes "substantial deference" to a district court's decision to suspend or disbar, it is axiomatic that asserting a _losing_ legal position, even one that fails to survive summary judgment, is not of itself sanctionable conduct.
 
 Under Rule 11, the primary purpose of sanctions against counsel is not to compensate the prevailing party, but to "deter future litigation abuse."[^hunter7] Importantly, a sua sponte show cause order deprives a lawyer against whom it is directed of the mandatory twenty-one day "safe harbor" provision provided by the 1993 amendments to Rule 11.[^hunter8] In such circumstances, a court is obliged to use extra care in imposing sanctions on offending lawyers. The Advisory Committee contemplated that a sua sponte show cause order would only be used "in situations that are akin to a contempt of court," and thus it was unnecessary for Rule 11's "safe harbor" to apply to sua sponte sanctions. Furthermore, when imposing sanctions under Rule 11, a court must limit the penalty to "what is sufficient to deter repetition of such conduct," and "shall describe the conduct determined to constitute a violation of this rule and explain the basis for the sanction imposed." Fed.R.Civ.P. 11(c).[^hunter9]
 
-<p class="larger-bold">III.</p>
+<span class="larger-bold">III.</span>
 
-<p class="larger-italic">B.</p>
+<span class="larger-italic">B.</span>
 
 The primary basis for the suspension of Ms. Hunter is that she advanced a frivolous legal position in the First Lawsuit. By presentation of a pleading to a court, an attorney is certifying, under Rule 11(b)(2), that the claims and legal contentions made therein "are warranted by existing law or by a nonfrivolous argument for the extension, modification, or reversal of existing law or the establishment of new law." In its Sanctions Order, the district court found the legal assertions of Ms. Hunter to be "utter nonsense" that were "paradigmatic of a frivolous legal contention."
 
@@ -1152,21 +1152,21 @@ This astute observation of Judge Wilkinson is especially pertinent in the contex
 
 #### Sussman v. Bank of Israel, 56 F.3d 450 (2d Cir. 1995)
 
-<p class="larger-bold">KEARSE, Circuit Judge</p>
+<span class="larger-bold">KEARSE, Circuit Judge</span>
 
 Nathan Lewin, Esq., an attorney for the plaintiffs herein whose complaint was dismissed on the ground of forum non conveniens, appeals from so much of a judgment of the United States District Court for the Southern District of New York, as imposed a $50,000 sanction against Lewin pursuant to Fed. R.Civ.P. 11 and the court's inherent power on the ground that the complaint, signed by Lewin, had been filed in part for an improper purpose. The court held that, although plaintiffs were also motivated in part by a proper purpose, the presence of an improper purpose warranted the imposition of sanctions. On appeal, Lewin contends principally (1) that the criticized purpose was not improper, and (2) that sanctions could not properly be imposed because the claims asserted in the complaint were not frivolous. Defendants cross-appeal, contending that the sanctions should have been more severe. For the reasons that follow, we agree with Lewin that the award of sanctions was an abuse of discretion. We therefore reverse the judgment and dismiss the cross-appeal.
 
-<p class="larger-bold">I. BACKGROUND</p>
+<span class="larger-bold">I. BACKGROUND</span>
 
 For the purposes of this appeal, the events are not in dispute. The plaintiffs are Erwin Sussman and the estate of Ira Guilden (Guilden and/or the estate referred to as "Guilden"), who died in 1984. Sussman, a Swedish citizen who lives in the United States, and Guilden, a United States citizen who resided in New York, were founders, directors, and shareholders of North American Bank Ltd. ("NAB"), an Israeli bank. Defendants are the Bank of Israel ("BOI"), which insured deposits in Israeli banks, and several other Israeli entities and individuals.
 
-<p class="larger-italic">A. The Collapse of NAB and the Litigation in Israel</p>
+<span class="larger-italic">A. The Collapse of NAB and the Litigation in Israel</span>
 
 In 1985, NAB collapsed after years of fraud, embezzlement, and mismanagement by its senior managers in Israel. BOI made payments to NAB depositors and obtained the appointment of the Official Receiver of the State of Israel (the "Receiver") to liquidate NAB's remaining assets. In 1989, the Receiver commenced a civil action in Israel in the name of the State of Israel (the "Israeli action"), naming as defendants Sussman, Guilden, and several other officers and directors of NAB, and alleging, _inter alia,_ that the NAB directors had been negligent and had breached their fiduciary duties by failing to monitor adequately the management of NAB and to ensure that NAB operated in compliance with Israeli banking regulations. The Receiver's complaint sought recovery from the defendants, jointly and severally, of more than $100 million dollars to compensate for losses allegedly incurred by BOI as a result of NAB's collapse.
 
 Sussman and Guilden, represented by Israeli counsel, raised affirmative defenses to the Receiver's claims and asserted third-party claims against BOI and two of its officials. In addition to alleging that BOI and the officials had been negligent in failing to carry out their supervisory duties with respect to NAB, the third-party claims alleged that BOI and the officials had deliberately misrepresented NAB's financial condition and concealed from NAB's non-Israeli directors certain financial transactions stemming from a 1983 banking scandal in Israel, which came to be known as the "Bank Shares Crisis" following revelations that many Israeli banks were artificially and unlawfully inflating the market prices of their respective shares. The third-party claims alleged that BOI and the Israeli Ministry of Finance (the "Ministry") had sought to avert the financial collapse of NAB by extending it a secret $10 million loan in order to allow NAB's senior managers to continue their manipulation of NAB's stock price; that the third-party-defendant officials, despite learning of the NAB managers' improper activities, had continued to misrepresent NAB's situation to its nonresident directors and sought to prevent public disclosure of BOI's role in the NAB stock-manipulation scheme; and that NAB would not have collapsed but for the actions of BOI and the defendant officials. Sussman and Guilden sought contribution and indemnification for any amounts that they might be required to pay in the Israeli action.
 
-<p class="larger-italic">B. The Preparation and Filing of the New York Complaint</p>
+<span class="larger-italic">B. The Preparation and Filing of the New York Complaint</span>
 
 Thereafter, Sussman and Guilden retained Lewin, a partner in the Washington, D.C. law firm of Miller, Cassidy, Larroca & Lewin, to investigate the circumstances underlying the Israeli suit and to evaluate the prospects for further litigation against BOI and other Israeli officials involved in the events at NAB. In 1991, as the Israeli action was nearing its scheduled trial date, Lewin drafted a complaint to be filed in New York (the "New York complaint"), naming as defendants BOI; the Ministry; three BOI officials, including the two named as third-party defendants in the Israeli action; and Bank Hapoalim, Ltd. ("Bank Hapoalim"), an Israeli bank with a branch office in New York.
 
@@ -1194,7 +1194,7 @@ The letter further asserted that Sussman and Guilden "were, at most, honorary di
 
 In response to the letter, Amihud Ben-Porath, an Israeli attorney representing BOI, telephoned Lewin and requested a copy of the draft complaint. Lewin sent a copy with a June 3, 1991 covering letter stating, "I have not, in our conversation, overstated my clients' anger at how shabbily they have been treated in Israel, and I hope you appreciate it and are able to communicate this feeling. Maybe we can save both our clients much travail." Ben-Porath thereafter met with Lewin, Sussman, and Guilden in New York and talked with Lewin several times by telephone. After Ben-Porath advised Lewin that Israeli officials were unwilling to settle the dispute and withdraw the Israeli action, Lewin filed the New York complaint on June 17, 1991.
 
-<p class="larger-italic">C. The District Court Proceedings</p>
+<span class="larger-italic">C. The District Court Proceedings</span>
 
 _1. The Dismissal of the New York Complaint_
 
@@ -1224,7 +1224,7 @@ After noting that the decision as to where an action is to be filed is "essentia
 
 Lewin has appealed the award of sanctions. Defendants have cross-appealed, contending that the amount of the award should have been higher.
 
-<p class="larger-bold">II. DISCUSSION</p>
+<span class="larger-bold">II. DISCUSSION</span>
 
 On appeal, Lewin contends that the sanctions award should be overturned because (1) the goal of pressuring BOI to withdraw or settle the Israeli action was not an improper purpose, and (2) even if such a purpose were improper, the filing of a complaint that is well grounded in fact and warranted by existing law cannot, as a matter of law, furnish a valid basis for the imposition of sanctions. Defendants seek to have sanctions upheld not only on the basis adopted by the district court but also on the grounds that the claims asserted in the complaint were frivolous; that the choice of New York as a forum was likewise frivolous because it "lacked any legitimate reason,"; and that the court should have awarded sanctions under 28 U.S.C. § 1927 on the ground that the filing of the New York complaint unreasonably and vexatiously multiplied litigation. They also argue that the award of sanctions should have been higher.
 
@@ -1232,7 +1232,7 @@ We review all aspects of a district court's award of sanctions under an abuse-of
 
 Under this standard of review, we find that the imposition of sanctions in the present case constituted an abuse of discretion. The district court erred as a matter of law (a) in concluding that it is improper for an attorney to file a nonfrivolous complaint in a new and proper forum partly as a means of enhancing his client's chances of obtaining the settlement of another pending action, and (b) in concluding that sanctions may be imposed for the filing of a complaint that not only is not found to be frivolous but also wins for the plaintiff a measure of judicially imposed relief.
 
-<p class="larger-italic">A. Rule 11 Sanctions</p>
+<span class="larger-italic">A. Rule 11 Sanctions</span>
 
 The pre-1993 version of Rule 11, which is applicable to the present case, provided that an attorney's signature on a "pleading, motion, or other paper" constituted a certification that
 
@@ -1268,7 +1268,7 @@ Finally, we turn to the question of whether the finding that there was an improp
 
 Nor do we think it was appropriate for the district court to find that Lewin's prelitigation letters were evidence that the New York complaint was filed for an improper purpose. It is hardly unusual for a would-be plaintiff to seek to resolve disputes without resorting to legal action; prelitigation letters airing grievances and threatening litigation if they are not resolved are commonplace, sometimes with salutary results, and do not suffice to show an improper purpose if nonfrivolous litigation is eventually commenced. Indeed, it would be ironic to hold that Rule 11 sanctions may be awarded based solely on evidence that the plaintiff has given the defendant a warning that the complaint will be filed unless an allegedly tortious lawsuit is withdrawn, in light of the fact that the current version of Rule 11 itself, _see_ Fed. R.Civ.P. 11(c)(1) (effective Dec. 1, 1993), essentially forbids the filing of a motion for sanctions unless the movant has given his opponent a warning that such a motion will be filed if the allegedly sanctionable paper is not withdrawn.
 
-<p class="larger-italic">B. Inherent Power</p>
+<span class="larger-italic">B. Inherent Power</span>
 
 A court has the inherent power to supervise and control its own proceedings and to sanction counsel or a litigant for bad-faith conduct. While Rule 11 extends only to papers filed with the court, the court's inherent power is broader and would permit the court to impose sanctions on the basis of related bad-faith conduct prior to the commencement of the litigation. Though the imposition of sanctions for bad faith obviously entails an inquiry that is at least in part subjective, we conclude that the court's use of its inherent power in the present case constituted an abuse of discretion, for the court's expressed goal of deterrence was inappropriate with respect to a complaint whose merits were not addressed and whose filing properly led the court to grant some relief to the plaintiffs.
 
@@ -1276,7 +1276,7 @@ We note that the award of sanctions would have been no more supportable if it ha
 
 Finally, we note that though defendants sought sanctions under 28 U.S.C. § 1927 as well as under Rule 11 and the court's inherent power, arguing that the filing of the complaint had needlessly and vexatiously multiplied the litigation, the court plainly did not treat the present action as congruent with the Israeli action, for it refused to dismiss the New York action unconditionally and instead granted plaintiffs relief that they had previously been unable to obtain from defendants. In the circumstances, it cannot be concluded that the filing of the New York complaint either was in bad faith or caused "delay that was _unnecessary_" or initiated "litigation that was _needless_" or without "_any_ apparent legitimate purpose." The court properly denied defendants' request for an award of sanctions under § 1927.
 
-<p class="larger-bold">CONCLUSION</p>
+<span class="larger-bold">CONCLUSION</span>
 
 We have considered all of defendants' arguments in support of sanctions and have found them to be without merit. In light of our conclusion that an award of sanctions was improper on any of the bases proffered below, defendants' cross-appeal, arguing that the sanctions should have been more severe, is moot.
 
@@ -1284,7 +1284,7 @@ So much of the judgment as imposed sanctions against Lewin is reversed. The cros
 
 ## Review Questions 
 
-<p class="larger-bold">Question 1 </p>
+<span class="larger-bold">Question 1 </span>
 
 Guy Mackendrick was injured while attending a party at the office of Sterling Cooper, P.C., a New York advertising agency that handles advertising for Mackendrick’s business. During the party, a Sterling Cooper employee named Lois Sadler, who was drunk, drove over Mackendrick’s foot with a John Deere riding lawnmower. 
 
@@ -1298,7 +1298,7 @@ b. A claim against Sterling Cooper seeking to hold them vicariously liable for S
 
 What facts must you allege in the complaint to satisfy the pleading requirements under the FRCP? Are there any additional facts, beyond those provided above, that you would need? 
 
-<p class="larger-bold">Question 2</p>
+<span class="larger-bold">Question 2</span>
 
 After working at the Sterling Cooper advertising agency for about 18 months, Peggy Olson was very much surprised when her boss, Don Draper, called her into his office and told her she was being fired for poor performance. Olson believes the real reason was her rejection of Don's repeated and unwelcome advances. 
 
@@ -1333,7 +1333,7 @@ Sterling Cooper moves to dismiss for failure to state a claim under FRCP Rule 12
 _Should the court grant the motion to dismiss?_
 
 
-<p class="larger-bold">Question 3</p>
+<span class="larger-bold">Question 3</span>
 
 Frank Sobotka, a dockworker at the Port of Baltimore, was injured in a collision with a forklift operated by another dockworker, Vernon Motley. Sobotka sued Baltimore Piers, Inc. (BPI), contending that the company was liable because it owned the forklift and that Motley was their employee. 
 

@@ -5,8 +5,8 @@
 		margin-bottom: 8mm;
 		margin-left: 0;
 		margin-right: 0;
-		margin-inside: 15mm;
-		margin-outside: 30mm;
+		margin-inside: 5mm;
+		margin-outside: 10mm;
 		padding: 0;
 		size: letter portrait;
 		background-color: transparent;
@@ -159,23 +159,19 @@
 		margin: 0 0 22mm 0;
 		padding: 0 0 0 0;
 		-prince-float: page bottom;
-		page-break-after: recto;
+		page-break-after: right;
 	}
 	.epigraph {
 		width: 60%;
 		hyphens: none;
         text-align: left;
-		margin: 40mm auto 0 auto;
+		margin: 90mm 0 0 0;
 		padding: 0 0 0 0;
-		page-break-after: recto;
+		page-break-after: right;
 	}
 	.chapter {
 		padding: 0 0 0 0; 
 		page-break-before: recto;
-	}
-	.chapter-number {
-		font-size: 10pt;
-		margin: 40mm 0 0 0;
 	}
 	h1, h2, h3, h4, h5, h6{
 		hyphens: none;
@@ -229,7 +225,7 @@
 	}
 	tr,
 	img {
-		break-inside: avoid;
+		page-break-inside: avoid;
 	}
 	header {
 		display: none;
@@ -250,26 +246,8 @@
 	  orphans: 4;
 	  widows: 4;
 	}
-	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
-		break-after: avoid;
-	}
-	.large-bold, .large-bold p {
-		break-after: avoid;
-	}
-	.large-italic, .large-italic p {
-		break-after: avoid;
-	}
-	.larger-bold, .larger-bold p {
-		break-after: avoid;
-	}
-	.larger-italic, .larger-italic p {
-		break-after: avoid;
-	}
-	.largest-bold, .largest-bold p {
-		break-after: avoid;
-	}
-	.largest-italic, .largest-italic p {
-		break-after: avoid;
+	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5, large-bold, large-italic, larger-bold, larger-italic, largest-bold, largest-italic {
+	  page-break-after: avoid;
 	}
 	.break {
 		margin: 0 0 0 0;
