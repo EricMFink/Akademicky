@@ -84,24 +84,28 @@ li.case-li-H1 {
     font-style: normal;
     font-weight: $medium-weight;
     margin: 0 0 0 0;
+	list-style: outside none none !important;
 }
 li.case-li-H2 {
 	font-size: $larger-size;
     font-style: italic;
     font-weight: $normal-weight;
-    margin: 0 0 0 1em;
+    margin: 0 0 0 0;
+	list-style: outside none none !important;
 }
 li.case-li-H3 {
 	font-size: $large-size;
     font-style: normal;
     font-weight: $medium-weight;
-    margin: 0 0 0 2em;
+    margin: 0 0 0 0;
+	list-style: outside none none !important;
 }
 li.case-li-H4 {
 	font-size: $large-size;
     font-style: italic;
     font-weight: $normal-weight;
-    margin: 0 0 0 3em;
+    margin: 0 0 0 0;
+	list-style: outside none none !important;
 }
 
 

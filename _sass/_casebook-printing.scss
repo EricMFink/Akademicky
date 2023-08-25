@@ -249,6 +249,9 @@
 	article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5, large-bold, large-italic, larger-bold, larger-italic, largest-bold, largest-italic {
 	  page-break-after: avoid;
 	}
+	li.case-li-H1, li.case-li-H2, li.case-li-H3, li.case-li-H4, li.case-li-H5, li.case-li-H6 {
+		page-break-after: avoid;
+	}
 	.break {
 		margin: 0 0 0 0;
 		break-before: page;

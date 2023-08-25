@@ -23,12 +23,12 @@ chapter-number: 8
 
 #### Scott v. Harris, 550 U.S. 372 (2007){#scott-v-harris}
 
-<p class="larger-bold">Justice SCALIA delivered the opinion of the Court.</p>
+<ul><li class="case-li-H1">Justice SCALIA delivered the opinion of the Court.</li></ul>
 
 We consider whether a law enforcement official can, consistent with the Fourth Amendment, attempt to stop a fleeing motorist from continuing his public-endangering flight by ramming the motorist's car from behind. Put another way: Can an officer take actions that place a fleeing motorist at risk of serious injury or death in order to stop the motorist's flight from endangering the lives of innocent bystanders?
 
 
-<p class="larger-bold">I</p>
+<ul><li class="case-li-H1">I</li></ul>
 
 In March 2001, a Georgia county deputy clocked respondent's vehicle traveling at 73 miles per hour on a road with a 55-mile-per-hour speed limit. The deputy activated his blue flashing lights indicating that respondent should pull over. Instead, respondent sped away, initiating a chase down what is in most portions a two-lane road, at speeds exceeding 85 miles per hour. The deputy radioed his dispatch to report that he was pursuing a fleeing vehicle, and broadcast its license plate number. Petitioner, Deputy Timothy Scott, heard the radio communication and joined the pursuit along with other officers. In the midst of the chase, respondent pulled into the parking lot of a shopping center and was nearly boxed in by the various police vehicles. Respondent evaded the trap by making a sharp turn, colliding with Scott's police car, exiting the parking lot, and speeding off once again down a two-lane highway.
 
@@ -39,13 +39,13 @@ Respondent filed suit against Deputy Scott and others under 42 U.S.C. § 1983, 
 Accordingly, a reasonable jury could find that Scott violated respondent's Fourth Amendment rights." The Court of Appeals further concluded that "the law as it existed at the time of the incident, was sufficiently clear to give reasonable law enforcement officers 'fair notice' that ramming a vehicle under these circumstances was unlawful." The Court of Appeals thus concluded that Scott was not entitled to qualified immunity. We granted certiorari and now reverse.
 
 
-<p class="larger-bold">II</p>
+<ul><li class="case-li-H1">II</li></ul>
 
 In resolving questions of qualified immunity, courts are required to resolve a "threshold question: Taken in the light most favorable to the party asserting the injury, do the facts alleged show the officer's conduct violated a constitutional right? This must be the initial inquiry." If, and only if, the court finds a violation of a constitutional right, "the next, sequential step is to ask whether the right was clearly established in light of the specific context of the case." We therefore turn to the threshold inquiry: whether Deputy Scott's actions violated the Fourth Amendment.
 
-<p class="larger-bold">III</p>
+<ul><li class="case-li-H1">III</li></ul>
 
-<p class="larger-italic">A</p>
+<ul><li class="case-li-H2">A</li></ul>
 
 The first step in assessing the constitutionality of Scott's actions is to determine the relevant facts. As this case was decided on summary judgment, there have not yet been factual findings by a judge or jury, and respondent's version of events (unsurprisingly) differs substantially from Scott's version. When things are in such a posture, courts are required to view the facts and draw reasonable inferences "in the light most favorable to the party opposing the summary judgment motion." In qualified immunity cases, this usually means adopting (as the Court of Appeals did here) the plaintiff's version of the facts.
 
@@ -63,11 +63,11 @@ At the summary judgment stage, facts must be viewed in the light most favorable 
 
 That was the case here with regard to the factual issue whether respondent was driving in such fashion as to endanger human life. Respondent's version of events is so utterly discredited by the record that no reasonable jury could have believed him. The Court of Appeals should not have relied on such visible fiction; it should have viewed the facts in the light depicted by the videotape.
 
-<p class="larger-italic">B</p>
+<ul><li class="case-li-H2">B</li></ul>
 
 Judging the matter on that basis, we think it is quite clear that Deputy Scott did not violate the Fourth Amendment. Scott does not contest that his decision to terminate the car chase by ramming his bumper into respondent's vehicle constituted a "seizure." The question we need to answer is whether Scott's actions were objectively reasonable.
 
-<p class="large-bold">2</p>
+<ul><li class="case-li-H3">2</li></ul>
 
 In determining the reasonableness of the manner in which a seizure is effected, "we must balance the nature and quality of the intrusion on the individual's Fourth Amendment interests against the importance of the governmental interests alleged to justify the intrusion." Scott defends his actions by pointing to the paramount governmental interest in ensuring public safety, and respondent nowhere suggests this was not the purpose motivating Scott's behavior. Thus, in judging whether Scott's actions were reasonable, we must consider the risk of bodily harm that Scott's actions posed to respondent in light of the threat to the public that Scott was trying to eliminate. Although there is no obvious way to quantify the risks on either side, it is clear from the videotape that respondent posed an actual and imminent threat to the lives of any pedestrians who might have been present, to other civilian motorists, and to the officers involved in the chase. It is equally clear that Scott's actions posed a high likelihood of serious injury or death to respondent---though not the near _certainty_ of death posed by, say, shooting a fleeing felon in the back of the head, or pulling alongside a fleeing motorist's car and shooting the motorist. So how does a court go about weighing the perhaps lesser probability of injuring or killing numerous bystanders against the perhaps larger probability of injuring or killing a single person? We think it appropriate in this process to take into account not only the number of lives at risk, but also their relative culpability. It was respondent, after all, who intentionally placed himself and the public in danger by unlawfully engaging in the reckless, high-speed flight that ultimately produced the choice between two evils that Scott confronted. Multiple police cars, with blue lights flashing and sirens blaring, had been chasing respondent for nearly 10 miles, but he ignored their warning to stop. By contrast, those who might have been harmed had Scott not taken the action he did were entirely innocent. We have little difficulty in concluding it was reasonable for Scott to take the action that he did.
 
@@ -78,7 +78,7 @@ Second, we are loath to lay down a rule requiring the police to allow fleeing su
 The car chase that respondent initiated in this case posed a substantial and immediate risk of serious physical injury to others; no reasonable jury could conclude otherwise. Scott's attempt to terminate the chase by forcing respondent off the road was reasonable, and Scott is entitled to summary judgment. The Court of Appeals' judgment to the contrary is reversed.
 
 
-<p class="larger-bold">Justice STEVENS, dissenting.</p>
+<ul><li class="case-li-H1">Justice STEVENS, dissenting.</li></ul>
 
 Today, the Court asks whether an officer may "take actions that place a fleeing motorist at risk of serious injury or death in order to stop the motorist's flight from endangering the lives of innocent bystanders." Depending on the circumstances, the answer may be an obvious "yes," an obvious "no," or sufficiently doubtful that the question of the reasonableness of the officer's actions should be decided by a jury, after a review of the degree of danger and the alternatives available to the officer. A high-speed chase in a desert in Nevada is, after all, quite different from one that travels through the heart of Las Vegas.
 
@@ -199,11 +199,11 @@ The record may also include stipulations by the parties, i.e. agreements as to c
 
 #### Stout v. Vincent, 717 Fed. Appx. 468 (5th Cir. 2018)
 
-<p class="larger-bold">Per Curiam </p>
+<ul><li class="case-li-H1">Per Curiam </li></ul>
 
 We decide whether the district court erred when granting summary judgment in favor of a police officer on the racial profiling claims of a black couple. The district court found that the couple failed to raise any genuine issue of material fact showing that the officer violated their equal protection rights under the Fourteenth Amendment. We affirm.
 
-<p class="larger-bold">Facts and Proceedings</p>
+<ul><li class="case-li-H1">Facts and Proceedings</li></ul>
 
 Cathryn Scott Stout and Raymond Montgomery, Jr., who are black, were travelling together from Memphis, Tennessee in a Lexus sport utility vehicle ("SUV") on Interstate 55 through central Mississippi. Montgomery noticed Mississippi Highway Safety Patrol ("MHSP") cars parked on the median. Soon after they passed the cars, Trooper Patrick Wall drove up along the side of their SUV in the left lane and looked at them. He then dropped behind their vehicle and turned on his lights and siren. Montgomery, who was driving, pulled over, but he did not feel nervous because he was not speeding and he believed he had done nothing wrong.
 
@@ -225,14 +225,14 @@ Officer Vincent called for a K-9 officer, and Deputy Joseph Mangino soon arrived
 
 Stout and Montgomery sued Officer Vincent, seeking injunctive relief and damages for violation of their Fourteenth Amendment rights under 42 U.S.C. § 1983. Specifically, they alleged that impermissible considerations of race motivated their extended detention by Officer Vincent. Officer Vincent moved for summary judgment on the basis of qualified immunity, and the district court granted his motion, concluding Appellants "have not presented any evidence" in support of their claim that Officer Vincent's conduct "was at least partially based on their race." Stout and Montgomery appealed.
 
-<p class="larger-bold">Discussion</p>
+<ul><li class="case-li-H1">Discussion</li></ul>
 
 On appeal, Stout and Montgomery raise only one issue: whether the district court erred when concluding there was no genuine issue of material fact that Officer Vincent's actions were impermissibly motivated by race.
 
 
-<p class="larger-bold">I. Legal Standard</p>
+<ul><li class="case-li-H1">I. Legal Standard</li></ul>
 
-<p class="larger-italic">A. Summary Judgment</p>
+<ul><li class="case-li-H2">A. Summary Judgment</li></ul>
 
 Under Federal Rule of Civil Procedure 56, a "court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law." FED. R. CIV. P. 56(a). The Supreme Court has explained that "a party seeking summary judgment always bears the initial responsibility of informing the district court of the basis for its motion, and identifying those portions of the record which it believes demonstrate the absence of a genuine issue of material fact." _Celotex Corp. v. Catrett_. But the moving party has no need to negate its opponents' claims.
 
@@ -241,7 +241,7 @@ If the moving party meets its burden, "the nonmovant must go beyond the pleading
 A court must view all evidence "in the light most favorable to the opposing party." In _Tolan v. Cotton_, the Supreme Court stressed "the importance of drawing inferences in favor of the nonmovant" in qualified immunity cases.If a district court credits evidence of the party seeking summary judgment but fails to properly acknowledge key evidence offered by the nonmoving party, it misapprehends the summary judgment standard.
 
 
-<p class="larger-italic">C. Fourteenth Amendment Racial Profiling</p>
+<ul><li class="case-li-H2">C. Fourteenth Amendment Racial Profiling</li></ul>
 
 "The Constitution prohibits selective enforcement of the law based on considerations such as race." "The constitutional basis for objecting to intentionally discriminatory application of laws is the Equal Protection Clause." 
 
@@ -251,7 +251,7 @@ In another context, we have said that a plaintiff's "subjective belief of discri
 
 Finally, "discriminatory intent of one official may not be imputed to another for purposes of imposing individual liability under the civil rights laws."
 
-<p class="larger-bold">II. Lack of Evidence of Fourteenth Amendment Violation</p>
+<ul><li class="case-li-H1">II. Lack of Evidence of Fourteenth Amendment Violation</li></ul>
 
 The district court concluded that Montgomery and Stout "have not presented any evidence to support their claim" that Officer Vincent's decision to detain them was "at least partially based on their race." The district court further concluded that Montgomery and Stout "have likewise not shown that their race played any role whatsoever in Vincent's formulation of a reasonable Montgomery have failed to produce _any_ material evidence showing that race motivated Officer Vincent's conduct, we need not address the issue. suspicion or wrongdoing, or in the actions that were taken by him to dispel that suspicion."
 
@@ -293,17 +293,17 @@ Sally Schlimazel (domiciled in Florida), was injured when she cut her foot on a 
 
 The evidentiary record based on discovery includes the following evidence: 
 
-<p class="larger-bold">Summary Sally Schlimazel Deposition Testimony</p>
+<ul><li class="case-li-H1">Summary Sally Schlimazel Deposition Testimony</li></ul>
 
 Schlimazel testified in her deposition that she cut her bare foot on the “outside bottom edge of the chair where the base meets the sides,” resulting in severe lacerations. She later examined the chair and determined that the edge was “razor sharp, sharp enough that if you were to rub your finger across the bottom outside edge of the chair, you would shave skin off your finger.” The chrome was flush with the plywood but the edge was sharp all the way around the 360 degrees of the base.
 
 Schlimazel went to the emergency room, where a doctor found that Schlimazel had a severed tendon. Following the doctor’s advice, Schlimazel underwent surgery, followed by six months of physical therapy. 
 
-<p class="larger-bold">Summary of Freddie Frankel Affidavit </p>
+<ul><li class="case-li-H1">Summary of Freddie Frankel Affidavit </li></ul>
 
 Schlimazel submitted a sworn affidavit from her neighbor. Freddie Frankel. Frankel stated in the affidavit that he bought the chair at a Miami furniture store a few years before the incident. He’d never noticed the sharp edge on the chair, and as far as he knew, nobody had ever been injured by it before. 
 
-<p class="larger-bold">Summary of Milo Mebelmacher Deposition Testimony:</p>
+<ul><li class="case-li-H1">Summary of Milo Mebelmacher Deposition Testimony:</li></ul>
 
 Milo Mebelmacher, founder and president of Mebelmacher Designs, testified in his deposition that he designed the Swivel Tub Chair. Mebelmacher licensed the design to Hahn, Inc., which is the exclusive licensed manufacturer of the chairs. 
 
@@ -319,7 +319,7 @@ If the chair were manufactured with the chrome veneer extending beyond the plywo
 
 A designer’s role is to make a conceptual sketch, to provide a full-sized detail and working sketch, and to supervise the making of a model. The purpose of the supervision is to assure that the finished product looks right. The designer’s responsibilities are “aesthetic and not engineering.” The manufacturer’s inspectors occasionally “let something go through that isn’t exactly right.” In all factories some quality problems get through. Other than the present action, Mebelmacher has not received a single complaint of injury involving any of its furniture designs.
 
-<p class="larger-bold">Summary of Julius Hahn Deposition Testimony</p>
+<ul><li class="case-li-H1">Summary of Julius Hahn Deposition Testimony</li></ul>
 
 Julius Hahn, founder and president of Hahn, Inc., testified that his company manufactures the Swivel Tub Chair at its High Point, North Carolina factory. Hahn distributes the chairs to various retailers around the country, including the Miami store where Mr. Frankel bought the chair allegedly responsible for Schlimazel’s injury. 
 
