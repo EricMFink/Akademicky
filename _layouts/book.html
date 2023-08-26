@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+{% include book-head.html %}
 
-<body>
+{% include book-js.html %}
 
-{% include casebook-header.html %}
-
-<!-- <article class="group"> -->
+<body onload="toc('h1, h2, h3, h4')">
 
 	<div class="book-cover">
 		<p class="book-author">{{ site.author.name}}</p>
@@ -24,14 +22,12 @@
 	{% include colophon.html %}
 
 	<div class="contents">
-		<script type="text/javascript" src="{{ site.baseurl }}/assets/js/princexml-charms.js"></script>
-		<body onload="toc('h1, h2, h3, h4')">
 		<h2>Table of Contents</h2>
 		<ol id=toc></ol>
 	</div>
 
 	{% if page.epigraph %}
-	{% include epigraph.html %}
+		{% include epigraph.html %}
 	{% endif %}
 
 	<div class="casebook">
@@ -39,8 +35,6 @@
 		{% include anchor_headings.html html=content anchorBody="#" %}
 
 	</div>
-	
-<!-- </article> -->
 
 </body>
 

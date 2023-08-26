@@ -107,49 +107,6 @@ p.case-h4 {
 	list-style: outside none none !important;
 }
 
-/* top-level = h4 */
-.largest-bold {
-	font-size: $largest-size;
-	font-weight: $medium-weight;
-	text-align: left;
-	margin: 2rem 0 0 0;
-	}
-.largest-italic {
-	font-size: $largest-size;
-	font-weight: $normal-weight;
-	font-style: italic;
-	text-align: left;
-	margin: 2rem 0 0 0;
-	}
-/* second-level = h5 */
-.larger-bold {
-	font-size: $larger-size;
-	font-weight: $medium-weight;
-	text-align: left;
-	margin: 1.5rem 0 0 0;
-	}
-.larger-italic {
-	font-size: $larger-size;
-	font-weight: $normal-weight;
-	font-style: italic;
-	text-align: left;
-	margin: 1.5rem 0 0 0;
-	}
-/* third-level = h6 */
-.large-bold {
-	font-size: $large-size;
-	font-weight: $medium-weight;
-	text-align: left;
-	margin: 1.5rem 0 0 0;
-	}
-.large-italic {
-	font-size: $large-size;
-	font-weight: $normal-weight;
-	font-style: italic;
-	text-align: left;
-	margin: 1.5rem 0 0 0;
-	}
-
 /* Blockquotes */
 .casebook blockquote p {
 	font-style: normal;

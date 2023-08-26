@@ -26,7 +26,7 @@ body {
     color: $text-color;
 	width: 85%;
     margin: 0 0 0 12.5%;
-    counter-reset: sidenote-counter; 
+    counter-reset: chapter sidenote-counter; 
 	}
 body.fullwidth {
 	width: 90%;

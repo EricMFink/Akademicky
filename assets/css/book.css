@@ -1,0 +1,839 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+/* clearfix hack */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* HTML & Body */
+html {
+  font-size: 10pt;
+}
+body {
+	font-family: portada, serif;
+	color: #191919;
+	background-color: transparent;
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	counter-reset: chapter sidenote-counter;
+}
+
+/* HEADINGS */
+h1 h2 h3 {
+	color: #b03a2e;
+	font-family: adelle-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1;
+	width: 100%;
+	padding: 0 0 0 0;
+	hyphens: none;
+	text-align: left;
+  }
+/* Chapter */
+h1 {
+	font-size: 20pt;
+	font-weight: 400;
+	font-style: normal;
+	string-set: chapter_title content();
+	counter-increment: chapter;  /* Add 1 to chapter */
+    counter-reset: section;      /* Set section to 0 */
+}
+/* Section */
+h2 {
+	font-size: 16pt;
+	margin: 5rem 0 0 2.5rem;
+    counter-increment: section;  /* Add 1 to section */
+    counter-reset: subsection;      /* Set subsection to 0 */
+}
+h2:before {
+	content: counter(section) ". ";
+	float: left;
+	margin-left: -2.5rem;
+}
+/* Subsection */
+h3 {
+	font-size: 14pt;
+	margin: 3rem 0 0 3rem;
+    counter-increment: subsection;	/* Add 1 to section */
+    counter-reset: subsubsection;
+}
+h3:before {
+    content: counter(section) '.' counter(subsection);
+	float: left;
+	margin-left: -3rem;
+}
+/* Title and cite of cases, etc. */
+h4 {
+	color: #b03a2e;
+	font-family: portada, serif;
+	font-size: 12pt;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1;
+	width: 100%;
+	padding: 0 0 0 0;
+	margin: 2rem 0 0rem 0;
+	border-bottom: 1px solid #b03a2e;
+}
+
+/* Not Used in Casebook */
+h5 h6 {
+	font-family: portada, serif;
+	line-height: 1;
+	padding: 0 0 0 0;
+	margin: 1.5rem 0 0 0;
+	hyphens: none;
+	text-align: left;
+}
+h5 {
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0 0 0 0;
+}
+h6 {
+  font-size: 10pt;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Internal headings in cases, etc. */
+p.case-h1 {
+	font-size: 14pt;
+    font-style: normal;
+    font-weight: 600;
+    margin: 2.5rem 0 0 0;
+	list-style: outside none none !important;
+}
+p.case-h2 {
+	font-size: 12pt;
+    font-style: italic;
+    font-weight: 400;
+    margin: 1.5rem 0 0 0;
+	list-style: outside none none !important;
+}
+p.case-h3 {
+	font-size: 11pt;
+    font-style: normal;
+    font-weight: 600;
+    margin: 1.5rem 0 0 0;
+	list-style: outside none none !important;
+}
+p.case-h4 {
+	font-size: 11pt;
+    font-style: italic;
+    font-weight: 400;
+    margin: 1.5rem 0 0 0;
+	list-style: outside none none !important;
+}
+
+/* Body Text */
+p {
+	font-size: 10pt;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 1rem 0 1rem 0;
+	text-align-all: justify;
+	text-align-last: left;
+}
+
+/* Links */
+a {
+  color: #b03a2e;
+  text-decoration: none;
+}
+p > a, cite > a, span > a {
+  color: #b03a2e;
+  text-decoration: none;
+}
+
+/* Lists */
+ol, ul {
+  font-size: 9pt;
+  font-weight: 400;
+  text-align: justify;
+  margin: 0.5rem 0 0.5rem 2rem;
+  padding: 0 0 0 0;
+  width: inherit;
+}
+li {
+  font-size: 9pt;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* Blockquotes */
+blockquote {
+  font-size: 9pt;
+  font-weight: 400;
+  display: block;
+  width: inherit;
+  margin: 1rem 0 1rem 0;
+  padding: 0 1.5rem 0 1.5rem;
+}
+blockquote p {
+  font-size: 9pt;
+  font-weight: 400;
+  font-style: normal;
+  width: inherit;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+/* Styled text */
+.sans-green { /* emulates marginnote */
+  font-family: adelle-sans, sans-serif;
+  color: #006400;
+}
+.dullred { /* emulates link */
+  color: #b03a2e;
+}
+.japanese {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contrast {
+  color: #b03a2e;
+}
+.small {
+  font-size: 0.9rem;
+}
+.smaller {
+  font-size: 0.8rem;
+}
+.contrast {
+  color: #b03a2e;
+}
+
+/* Sidenotes */
+.sidenote, .marginnote {
+	float: none;
+	clear: none;
+	margin: 0 0 12pt 0;
+	width: inherit;
+	hyphens: auto;
+	hyphenate-lines: 1;
+	-prince-float: outsidenote;
+}
+.sidenote {
+  font-family: portada, serif;
+  font-size: 8pt;
+  font-weight: 400;
+  line-height: 1.2;
+  position: relative;
+}
+.sidenote hr {
+  border: none;
+  opacity: 0;
+  height: 2px;
+}
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+.sidenote-number:after, .sidenote:before {
+  content: counter(sidenote-counter) " ";
+  font-family: portada, serif;
+  color: #b03a2e;
+  position: relative;
+}
+.sidenote-number:after {
+  content: "[" counter(sidenote-counter) "] ";
+  font-size: 8pt;
+  top: -0.5rem;
+  left: 0.1rem;
+}
+.sidenote:before {
+  content: counter(sidenote-counter) ". ";
+  color: #b03a2e;
+  top: 0rem;
+}
+.marginnote {
+  font-family: adelle-sans, sans-serif;
+  font-size: 8pt;
+  font-weight: 400;
+  color: #006400;
+  line-height: 1.2;
+  position: relative;
+  text-indent: 0em;
+}
+.marginnote hr {
+  border: none;
+  opacity: 0;
+  height: 2px;
+}
+li .sidenote, li .marginnote {
+  margin-right: -80%;
+}
+blockquote .sidenote, blockquote .marginnote {
+  margin-right: -79%;
+}
+div.table-wrapper {
+  width: 55%;
+}
+div.table-wrapper, table {
+  overflow: auto;
+}
+.marginnote code, .sidenote code {
+  font-size: 0.6rem;
+}
+pre {
+  width: 52.5%;
+  padding-left: 2.5%;
+  overflow: auto;
+}
+.fullwidth, li.listing div {
+  max-width: 90%;
+}
+.fullwidth .sidenote, .fullwidth .sidenote-number, .fullwidth .marginnote {
+  display: none;
+}
+span.newthought {
+  font-variant: small-caps;
+  font-size: 1.2em;
+  letter-spacing: 0.05rem;
+}
+input.margin-toggle {
+  display: none;
+}
+label.sidenote-number {
+  display: inline;
+}
+label.margin-toggle:not(.sidenote-number) {
+  display: none;
+}
+
+/* CASEBOOK SECTIONS */
+div.casebook {
+	display: block;
+	counter-reset: page 1;
+	width: 125mm;
+	padding: 0 0 0 0;
+}
+div.chapter {
+	padding: 0 0 0 0; 
+	page: chapter;
+	break-before: right;
+	-prince-page-group: start;
+}
+.chapter-number {
+  color: #b03a2e;
+  font-family: adelle-sans, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1;
+  font-style: normal;
+  margin: 30mm 0 10mm 0;
+}
+.chapter-number p {
+  margin-bottom: 0;
+}
+
+/* EXPLANATIONS & COMMENTS */
+.comment {
+  font-family: adelle-sans, sans-serif;
+  font-size: 0.8rem;
+  margin: 2rem 0 2rem 0;
+  padding: 1px 2% 10px 2%;
+  background-color: #FFFFF0;
+  border: 1px solid #efcc00;
+}
+.comment p {
+  font-family: adelle-sans, sans-serif;
+  font-size: 0.8rem;
+}
+.comment h4 {
+  font-family: adelle-sans, sans-serif;
+  border: none;
+}
+.comment h5 {
+  font-family: adelle-sans, sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.comment h6 {
+  font-family: adelle-sans, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 1rem;
+}
+/* LEGAL CODE: Indented subsections in statutes, etc. */
+.legal-code h5 {
+  font-style: normal;
+}
+/* Heading for Official Comments */
+.legal-code h6 {
+  font-style: normal;
+}
+.legal-code blockquote {
+  font-size: 1rem;
+  padding: 0 0 0 1.5rem;
+}
+
+.legal-code blockquote p {
+  font-size: 1rem;
+}
+
+/* FIGURES & IMAGES */
+figure {
+  padding: 0;
+  border: 0;
+  margin: 2em 0 2em 0;
+}
+.marginnote figure {
+  padding: 0;
+  border: 0;
+  margin: 1em 0 1em 0;
+}
+figcaption {
+  float: none;
+  font-family: adelle-sans, sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.marginnote figcaption, .sidenote figcaption {
+  font-size: 0.7rem;
+}
+figure > img {
+  display: block;
+}
+figure.fullwidth figcaption {
+  float: none;
+  margin: 1rem 0 2rem 0;
+}
+img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* TOC */
+
+
+.contents{
+	display: block;
+	page: table-of-contents;
+	counter-reset: page 1;
+	width: 100%;
+	hyphens: none;
+	text-align: left;
+	padding: 0 0 0 0;
+	break-after: right;
+}
+
+
+#table-of-contents {
+  float: left;
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  display: table;
+  margin: 0 0 0 0;
+  padding: 10px 10px 10px 0;
+  width: auto;
+}
+#toc li { 
+	list-style-type: none; 
+}
+#toc a:after { 
+	content: leader('. ') target-counter(attr(href), page);
+}
+li.toc-li-H1 {
+  margin: 0 0 0 0;
+}
+li.toc-li-H2 {
+  margin: 0 0 0 10mm;
+}
+li.toc-li-H3 {
+  margin: 0 0 0 20mm;
+}
+li.toc-li-H4 {
+  margin: 0 0 0 30mm;
+}
+
+/* COVER PAGE */
+.book-cover {
+	width: 100%;
+	text-align: left;
+	hyphens: none;
+	padding: 0 0 0 0;
+}
+.book-author {
+	string-set: book_author content();
+	color: #b03a2e;
+	font-family: adelle-sans, sans-serif;
+	text-transform: uppercase;
+	font-size: 18pt;
+	text-align: left;
+	hyphens: none;
+	margin: 15mm 0 0 0;
+}
+.title-block {
+	margin: 60mm 0 0 0;
+}
+.book-title {
+	string-set: book_title content();
+	color: #b03a2e;
+	font-family: adelle-sans, sans-serif;
+	text-transform: uppercase;
+	font-size: 36pt;
+	text-align: left;
+	hyphens: none;
+	margin: 0 0 0 0;
+}
+.book-subtitle {
+	string-set: book_subtitle content();
+	color: #b03a2e;
+	font-family: adelle-sans, sans-serif;
+	text-transform: uppercase;
+	font-size: 20pt;
+	text-align: left;
+	hyphens: none;
+	margin: 0 0 0 0;
+}
+.publication-block {
+	margin: 0 0 22mm 0;
+	-prince-float: page bottom;
+}
+.book-affiliation {
+	string-set: book_affiliation content();
+	color: #b03a2e;
+	font-family: adelle-sans, sans-serif;
+	text-transform: uppercase;
+	font-size: 14pt;
+	text-align: left;
+	hyphens: none;
+	margin: 0 0 0 0;
+}
+.book-date {
+	string-set: book_date content();
+	color: #b03a2e;
+	font-family: adelle-sans, sans-serif;
+	text-transform: uppercase;
+	font-size: 14pt;
+	text-align: left;
+	hyphens: none;
+	margin: 0 0 0 0;
+}
+
+/* COLOPHON */
+.colophon {
+	display: block;
+	page: colophon;
+	font-family: portada, serif;
+	font-size: 0.8rem;
+	text-align: left;
+	hyphens: none;
+	width: 100%;
+	margin: 0 0 22mm 0;
+	padding: 0 0 0 0;
+	-prince-float: page bottom;
+	break-after: right;
+}
+.colophon p {
+  font-size: 0.8rem;
+  text-align: left;
+  line-height: 1.3;
+  margin: 0 0 0 0;
+}
+.colophon li {
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.contents {
+  width: 90%;
+  padding: 0 0 500px 0;
+}
+
+/* EPIGRAPH */
+.epigraph {
+	display: block;
+	page: frontmatter;
+	font-family: portada, serif;
+	font-size: 0.8rem;
+	text-align: left;
+	hyphens: none;
+	text-align: left;
+	width: 90%;
+	margin: 30mm auto 0 auto;
+	padding: 0 0 0 0;
+	break-after: right;
+}
+.epigraph-quote {
+  font-style: italic;
+  text-align: left;
+  line-height: 1.7;
+  margin: 0 0 0 0;
+}
+.epigraph-cite {
+  text-align: right;
+  margin: 1rem 0 0 0;
+}
+.epigraph-source {
+  font-style: italic;
+}
+.epigraph-author {
+  font-style: normal;
+}
+
+/* TABLES (Bijou) */
+table {
+  font-family: portada, serif;
+  text-align: left;
+  max-width: 90%;
+  margin: 2rem auto 4rem auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-top: 1px solid #828282;
+  border-bottom: 1px solid #828282;
+}
+table ol, ul {
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0 0 0 1rem;
+}
+table li {
+  font-size: 0.8rem;
+  margin: 0 0 0 0;
+}
+th, td {
+  vertical-align: top;
+  padding: 8px 12px;
+  text-align: left;
+}
+th {
+  font-family: adelle-sans, sans-serif;
+  font-size: 0.9rem;
+  background: #D4CFBD;
+  border-bottom: 1px solid #828282;
+}
+td {
+  font-family: portada, serif;
+  font-size: 0.8rem;
+}
+tr td:first-child {
+  font-family: adelle-sans, sans-serif;
+  font-weight: 400;
+}
+noheader th {
+  display: none;
+}
+/* Alternating Row Colors */
+.table-striped tbody tr:nth-child(2n+1) {
+  background-color: #eeeeee;
+}
+figure.fullwidth table {
+  width: 90%;
+}
+thead {
+	display: table-header-group;
+}
+tr,
+img {
+	break-inside: avoid;
+}
+img {
+	max-width: 90% !important;
+}
+
+/* MISC STYLES */
+section {
+  padding: 0 0 0 0;
+}
+page-container {
+	padding: 0 0 0 0;
+}
+.leftalign {
+	hyphens: none;
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+hr {
+	border-top: 2px solid #b03a2e;
+	width: 1em;
+	margin: 4em auto 4em auto;
+}
+.illustration {
+	padding-top: 2rem;
+	padding-top: 2rem;
+	height: auto;
+	width: 100%;
+  }
+header {
+	display: none;
+}
+.button {
+	display: none;
+}
+
+/* PRINCE XML PAGE LAYOUT */
+
+@page {
+	margin-top: 15mm;
+	margin-bottom: 8mm;
+	margin-left: 22mm;
+	margin-right: 22mm;
+	padding: 0;
+	size: letter portrait;
+	background-color: transparent;
+	orphans: 4;
+	widows: 2;
+	font-size: 10pt;
+	@leftnote { width: 0;}
+	@rightnote { width: 35mm; padding-left: 10mm;}
+}
+@page :left {
+	border-top: thin black solid;
+	@top-left { 
+		font-size: 9pt; 
+		content: counter(page); 
+		vertical-align: bottom; 
+		padding-bottom: 10mm;
+	}
+	@top-center { 
+		font-size: 9pt; 
+		content: string(book_title); 
+		vertical-align: bottom; 
+		padding-bottom: 10mm;
+	}
+	@top-right { 
+		content: normal;
+		padding-bottom: 10mm;
+	}
+		@leftnote { width: 0;}
+		@rightnote { width: 35mm; padding-left: 10mm;}
+}
+@page :right {
+	border-top: thin black solid;
+	@top-left { 
+		content: normal; 
+		padding-bottom: 10mm;
+	}
+	@top-center {
+		font-size: 9pt;
+		content: string(chapter_title);
+		vertical-align: bottom;
+		padding-bottom: 10mm;
+	}
+	@top-right {
+		font-size: 9pt;
+		content: counter(page);
+		vertical-align: bottom;
+		padding-bottom: 10mm;
+	}
+	@leftnote { width: 0mm;}
+	@rightnote { width: 35mm;}
+}
+@page :first {
+	border: none;
+	@top-left { content: normal; padding-bottom: 10mm; }
+	@top-center { content: normal; padding-bottom: 10mm; }
+	@top-right { content: normal; padding-bottom: 10mm; }
+}
+@page :blank {
+	border: none;
+	@top-left { content: normal; padding-bottom: 10mm; }
+	@top-center { content: normal; padding-bottom: 10mm; }
+	@top-right { content: normal; padding-bottom: 10mm; }
+}
+@page colophon {
+	border: none;
+	@top-left { content: normal; padding-bottom: 10mm; }
+	@top-center { content: normal; padding-bottom: 10mm; }
+	@top-right { content: normal; padding-bottom: 10mm; }
+	@leftnote { width: 0mm; }
+	@rightnote { width: 0mm; }
+}
+@page table-of-contents {
+	border-top: thin black solid;
+	@top-left { content: normal; }
+	@top-center { content: "Table of Contents" }
+	@top-right { content: normal; }
+}
+@page frontmatter {
+	border: none;
+	@top-left { content: normal; padding-bottom: 10mm; }
+	@top-center { content: normal; padding-bottom: 10mm; }
+	@top-right { content: normal; padding-bottom: 10mm; }
+	@leftnote { width: 0mm; }
+	@rightnote { width: 0mm; }
+}
+
+
+
+/* Chapters */
+@page chapter {
+	border-top: thin black solid;
+	@page chapter {
+		@bottom-center {
+			content: counter(page);
+		}
+	}
+}
+@page chapter:left {
+	@top-center { 
+		font-size: 9pt; 
+		content: string(book_title); 
+		vertical-align: bottom; 
+		padding-bottom: 10mm;
+	}
+		@leftnote { width: 0;}
+		@rightnote { width: 35mm; padding-left: 10mm;}
+}
+@page chapter:right {
+	@top-left { 
+		content: normal;
+		padding-bottom: 10mm;
+		.leftalign {
+			hyphens: none;
+			text-align: left;
+		}
+	}
+	@top-center {
+		font-size: 9pt;
+		content: string(chapter_title);
+		vertical-align: bottom;
+		padding-bottom: 10mm;
+	}
+	@top-right {
+		font-size: 9pt;
+		content: counter(page);
+		vertical-align: bottom;
+		padding-bottom: 10mm;
+	}
+	@leftnote { width: 0;}
+	@rightnote { width: 35mm; padding-left: 10mm;}
+}
+@page chapter:first {
+	@bottom-center {
+		content: normal;
+	}
+}
+/* Page break control */
+p,
+h2,
+h3 {
+	orphans: 4;
+	widows: 4;
+}
+article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 {
+	break-after: avoid;
+}
+p.case-h1, p.case-h2, p.case-h3, p.case-h4 {
+	break-after: avoid;
+}
+.break {
+	margin: 0 0 0 0;
+	break-before: page;
+}
