@@ -13,8 +13,8 @@
 		orphans: 4;
 		widows: 2;
 		font-size: 10pt;
-        @leftnote { width: 20vw; padding-right: 1em;}
-        @rightnote { width: 20vw; padding-left: 1em;}
+        @leftnote { width: 35mm; padding-right: 10mm;}
+        @rightnote { width: 35mm; padding-left: 10mm;}
 	}
 	@page :left {
 		border-top: thin black solid;
@@ -29,8 +29,8 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
-		@leftnote { width: 20vw;}
-		@rightnote { width: 0vw;}
+		@leftnote { width: 35mm;}
+		@rightnote { width: 0mm;}
 	}
 	@page :right {
         border-top: thin black solid;
@@ -45,8 +45,8 @@
 			content: counter(page);
             vertical-align: bottom;
 		}
-		@leftnote { width: 0vw; }
-		@rightnote { width: 20vw; }
+		@leftnote { width: 0mm;}
+		@rightnote { width: 35mm;}
 	}
   	@page :first {
         border: none;
@@ -59,6 +59,46 @@
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
+    }
+    @page body {
+        border-top: thin black solid;
+    }
+	@page body:left {
+		@top-left { 
+			font-size: 9pt; 
+			content: counter(page); 
+			vertical-align: bottom; 
+		}
+	  	@top-center { 
+			font-size: 9pt; 
+			content: string(book_title); 
+			vertical-align: bottom; 
+		}
+	  	@top-right { content: normal;}
+		@leftnote { width: 35mm;}
+		@rightnote { width: 0mm;}
+	}
+	@page body:right {
+		@top-left { content: normal;}
+	  	@top-center {
+			font-size: 9pt;
+			content: string(chapter_title);
+            vertical-align: bottom;
+	  	}
+		@top-right {
+			font-size: 9pt;
+			content: counter(page);
+            vertical-align: bottom;
+		}
+		@leftnote { width: 0mm; }
+		@rightnote { width: 35mm; }
+	}
+    @page body:first {
+        margin-top: 25%;
+        @top-left { content: normal; }
+        @top-center { content: normal; }
+        @top-right { content: normal; }
+        border: none;
     }
 	html {
 		font-size: 10pt;
@@ -74,10 +114,6 @@
 		background-color: transparent;
 	}
 	page-container {
-		padding: 0 0 0 0;
-	}
-	.casebook {
-		width: 66%;
 		padding: 0 0 0 0;
 	}
 	section {
@@ -137,19 +173,6 @@
 		hyphens: none;
 		margin: 0 0 0 0;
 	}
-	.contents{
-		width: 100%;
-		hyphens: none;
-		text-align: left;
-		padding: 0 0 0 0;
-		page-break-after: right;
-	}
-	#toc li { 
-		list-style-type: none 
-	}
-	#toc a:after { 
-		content: leader('. ') target-counter(attr(href), page) 
-	}
 	.colophon {
 		page: blank;
 		width: 100%;
@@ -160,7 +183,34 @@
 		-prince-float: page bottom;
 		page-break-after: right;
 	}
+	.contents{
+        display: block;
+        page: table-of-contents;
+        counter-reset: page 1
+		width: 100%;
+		hyphens: none;
+		text-align: left;
+		padding: 0 0 0 0;
+		page-break-after: right;
+	}
+    @page table-of-contents:left {
+		@top-left { content: normal; }
+        @top-center { content: "Table of Contents" }
+		@top-right { content: normal; }
+    }
+    @page table-of-contents:right {
+		@top-left { content: normal; }
+        @top-center { content: "Table of Contents" }
+		@top-right { content: normal; }
+    }
+	#toc li { 
+		list-style-type: none 
+	}
+	#toc a:after { 
+		content: leader('. ') target-counter(attr(href), page) 
+	}
 	.epigraph {
+        display: block;
 		page: blank;
 		width: 60%;
 		hyphens: none;
@@ -169,7 +219,15 @@
 		padding: 0 0 0 0;
 		page-break-after: right;
 	}
+	.casebook {
+        display: block;
+        page: main;
+        counter-reset: page 1
+		width: 125mm;
+		padding: 0 0 0 0;
+	}
 	.chapter {
+		page: main;
 		padding: 0 0 0 0; 
 		page-break-before: recto;
 	}
