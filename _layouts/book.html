@@ -7,45 +7,40 @@
 
 {% include casebook-header.html %}
 
-<article class="group">
+<!-- <article class="group"> -->
 
-<div class="book-cover">
-	<p class="book-author">{{ site.author.name}}</p>
-	<div class="title-block">
-		<p class="book-title">{{ site.coursebook.title}}</p>
-		<p class="book-subtitle">{{ site.coursebook.subtitle}}</p>
+	<div class="book-cover">
+		<p class="book-author">{{ site.author.name}}</p>
+		<div class="title-block">
+			<p class="book-title">{{ site.coursebook.title}}</p>
+			<p class="book-subtitle">{{ site.coursebook.subtitle}}</p>
+		</div>
+		<div class="publication-block">
+			<p class="book-subtitle">{{ site.author.affiliation}}</p>
+			<p class="book-subtitle">{{ site.coursebook.date}}</p>
+		</div>
 	</div>
-	<div class="publication-block">
-		<p class="book-subtitle">{{ site.author.affiliation}}</p>
-		<p class="book-subtitle">{{ site.coursebook.date}}</p>
+
+	{% include colophon.html %}
+
+	<div class="contents">
+		<script type="text/javascript" src="{{ site.baseurl }}/assets/js/prince-xmlcharms.js"></script>
+		<body onload="toc('h1, h2, h3, h4')">
+		<h2>Table of Contents</h2>
+		<ol id=toc></ol>
 	</div>
-</div>
 
-{% include colophon.html %}
+	{% if page.epigraph %}
+	{% include epigraph.html %}
+	{% endif %}
 
-<div class="contents">
-	<script type="text/javascript" src="https://princexml.com/howcome/2021/guides/charms.js"></script>
-	<body onload="toc('h1, h2, h3, h4')">
-	<h2>Table of Contents</h2>
-	<ol id=toc></ol>
-</div>
+	<div class="casebook">
 
-<div class="epigraph">
-	<span class="epigraph-quote">{{ page.epigraph }}</span>
-	<div class="epigraph-cite">
-		{{ page.epigraph-author }}, <i>{{ page.epigraph-source }}</i>
+		{% include anchor_headings.html html=content anchorBody="#" %}
+
 	</div>
-</div>
-
-<div class="casebook">
-
-{{ content }}
-
-</article>
-
-</div>
-
-{% include hemline.html %}
+	
+<!-- </article> -->
 
 </body>
 
