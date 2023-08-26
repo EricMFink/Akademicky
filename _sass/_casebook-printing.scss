@@ -65,6 +65,8 @@
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
+        @leftnote { width: 0mm; padding-right: 0mm;}
+        @rightnote { width: 0mm; padding-left: 0mm;}
     }
     @page body {
         border-top: thin black solid;
@@ -182,7 +184,7 @@
 	.colophon {
 		display: block;
 		page: frontmatter;
-		width: 100%;
+		width: 170mm;
         text-align: left;
 		hyphens: none;
 		margin: 0 0 22mm 0;
