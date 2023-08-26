@@ -186,7 +186,7 @@
 	.contents{
         display: block;
         page: table-of-contents;
-        counter-reset: page 1
+        counter-reset: page 1;
 		width: 100%;
 		hyphens: none;
 		text-align: left;
@@ -204,10 +204,10 @@
 		@top-right { content: normal; }
     }
 	#toc li { 
-		list-style-type: none 
+		list-style-type: none; 
 	}
 	#toc a:after { 
-		content: leader('. ') target-counter(attr(href), page) 
+		content: leader('. ') target-counter(attr(href), page);
 	}
 	.epigraph {
         display: block;
@@ -222,7 +222,7 @@
 	.casebook {
         display: block;
         page: main;
-        counter-reset: page 1
+        counter-reset: page 1;
 		width: 125mm;
 		padding: 0 0 0 0;
 	}
