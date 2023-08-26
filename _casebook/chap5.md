@@ -13,7 +13,7 @@ chapter-number: 5
 
 <div class="legal-code">
 
-#### 28 U.S.C. § 1652
+#### 28 U.S.C. § 1652
 
 <p class="case-h1">State laws as rules of decision</p>
 
@@ -40,7 +40,7 @@ The defendant, George Tysen[^Swift1] purchased some land from Nathaniel Norton a
 
 [^Swift1]: 
 
-  {-} The spelling of his name in the Supreme Court's opinion appears to have been an error. _See_ Alfred B. Teton, The Story of Swift v. Tyson, 35 Illinois Law Review 519, 530 n.59 (1940).
+  {-} The spelling of his name in the Supreme Court's opinion appears to have been an error. _See_ Alfred B. Teton, The Story of Swift v. Tyson, 35 Illinois Law Review 519, 530 n.59 (1940).
 
 [^Swift2]: 
 
@@ -83,7 +83,7 @@ During the late 19th and early 20th centuries, the legal field experienced a par
 
 [^f392]: A paradigm shift is a transformation in the fundamental assumptions, theories, and practice of a scientific or professional community. "When the transition is completed, the profession will have changed its view of the field, its methods, and its goals." Thomas S. Kuhn, The Structure of Scientific Revolutions, 84-85 (4th ed. 2012).
 
-[^02ef]: See, e.g. George Rutherglen, International Shoe and the Legacy of Legal Realism, 2001 Supreme Court Review 347  (2001); Logan E. Sawyer III, Jurisdiction, Jurisprudence and Legal Change: Sociological Jurisprudence and the Road to International Shoe, 10 George Mason Law Review 39 (2001); David Marcus, The Federal Rules of Civil Procedure and Legal Realism as a Jurisprudence of Law Reform, 44 Georgia Law Review 433 (2009); William R. Casto, The Erie Doctrine and the Structure of Constitutional Revolutions, 62 Tulane Law Review 56 (1987).
+[^02ef]: See, e.g. George Rutherglen, International Shoe and the Legacy of Legal Realism, 2001 Supreme Court Review 347  (2001); Logan E. Sawyer III, Jurisdiction, Jurisprudence and Legal Change: Sociological Jurisprudence and the Road to International Shoe, 10 George Mason Law Review 39 (2001); David Marcus, The Federal Rules of Civil Procedure and Legal Realism as a Jurisprudence of Law Reform, 44 Georgia Law Review 433 (2009); William R. Casto, The Erie Doctrine and the Structure of Constitutional Revolutions, 62 Tulane Law Review 56 (1987).
 
 Among those leading the charge was Oliver Wendell Holmes, Jr., whose work as a legal scholar and opinions as a Supreme Court Justice advanced a positivist understanding of law and pragmatist approach to judicial decision-making, and laid the groundwork for overturning _Swift_.  
 
@@ -231,7 +231,7 @@ In these two cases, decided together with _Ragan_, the Court likewise held that 
 
 <p class="case-h1">Justice BRENNAN delivered the opinion of the Court.</p>
 
-This case was brought in the District Court for the Western District of South Carolina. Jurisdiction was based on diversity of citizenship. 28 U. S. C. § 1332. The petitioner, a resident of North Carolina, sued respondent, a South Carolina corporation, for damages for injuries allegedly caused by the respondent's negligence. He had judgment on a jury verdict. The Court of Appeals for the Fourth Circuit reversed and directed the entry of judgment for the respondent. We granted certiorari and subsequently ordered reargument.
+This case was brought in the District Court for the Western District of South Carolina. Jurisdiction was based on diversity of citizenship. 28 U. S. C. § 1332. The petitioner, a resident of North Carolina, sued respondent, a South Carolina corporation, for damages for injuries allegedly caused by the respondent's negligence. He had judgment on a jury verdict. The Court of Appeals for the Fourth Circuit reversed and directed the entry of judgment for the respondent. We granted certiorari and subsequently ordered reargument.
 
 The respondent is in the business of selling electric power to subscribers in rural sections of South Carolina. The petitioner was employed as a lineman in the construction crew of a construction contractor. The contractor, R. H. Bouligny, Inc., held a contract with the respondent in the amount of $334,300 for the building of some 24 miles of new power lines, the reconversion to higher capacities of about 88 miles of existing lines, and the construction of 2 new substations and a breaker station. The petitioner was injured while connecting power lines to one of the new substations.
 
@@ -277,7 +277,7 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 <div class="legal-code">
 
-#### 28 U.S.C. § 2071
+#### 28 U.S.C. § 2071
 
 <p class="case-h1">Rule-making power generally</p>
 
@@ -301,7 +301,7 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 <div class="legal-code">
 
-#### 28 U.S.C. § 2072
+#### 28 U.S.C. § 2072
 
 <p class="case-h1">Rules of procedure and evidence; power to prescribe</p>
 
@@ -315,7 +315,7 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 <div class="legal-code">
 
-#### 28 U.S.C. § 2073
+#### 28 U.S.C. § 2073
 
 <p class="case-h1">Rules of procedure and evidence; method of prescribing</p>
 
@@ -341,7 +341,7 @@ _Third_. We have discussed the problem upon the assumption that the outcome of t
 
 <div class="legal-code">
 
-#### 28 U.S.C. § 2074
+#### 28 U.S.C. § 2074
 
 <p class="case-h1">Rules of procedure and evidence; submission to Congress; effective date</p>
 
@@ -371,7 +371,7 @@ On October 17, 1963, the District Court granted respondent's motion for summary 
 
 We conclude that the adoption of Rule 4(d)(1), designed to control service of process in diversity actions, neither exceeded the congressional mandate embodied in the Rules Enabling Act nor transgressed constitutional bounds, and that the Rule is therefore the standard against which the District Court should have measured the adequacy of the service. Accordingly, we reverse the decision of the Court of Appeals.
 
-The Rules Enabling Act, 28 U.S.C. § 2072, provides, in pertinent part:
+The Rules Enabling Act, 28 U.S.C. § 2072, provides, in pertinent part:
 
 > The Supreme Court shall have the power to prescribe, by general rules, the forms of process, writs, pleadings, and motions, and the practice and procedure of the district courts of the United States in civil actions.
 >
@@ -450,13 +450,13 @@ _Cohen v. Beneficial Loan Corp._ held that a federal diversity court must apply 
 It remains to apply what has been said to the present case. The Massachusetts rule provides that an executor need not answer suits unless in-hand service was made upon him or notice of the action was filed in the proper registry of probate within one year of his giving bond. The evident intent of this statute is to permit an executor to distribute the estate which he is administering without fear that further liabilities may be outstanding for which he could be held personally liable. If the Federal District Court in Massachusetts applies Rule 4(d)(1) of the Federal Rules of Civil Procedure instead of the Massachusetts service rule, what effect would that have on the speed and assurance with which estates are distributed? As I see it, the effect would not be substantial. It would mean simply that an executor would have to check at his own house or the federal courthouse as well as the registry of probate before he could distribute the estate with impunity. As this does not seem enough to give rise to any real impingement on the vitality of the state policy which the Massachusetts rule is intended to serve, I concur in the judgment of the Court.
 
 
-#### Dolphin Kickboxing Co. v. Franchoice, Inc., No. 19-cv-1477 (D. Minn. May 6, 2020)
+#### Dolphin Kickboxing Co. v. Franchoice, Inc., No. 19-cv-1477 (D. Minn. May 6, 2020)
 
 <p class="case-h1">ELIZABETH COWAN WRIGHT, Magistrate Judge.</p>
 
 This matter is before the Court on Plaintiffs' Motion to Amend Complaint. For the reasons stated below, the Motion is granted in part and denied in part.
 
-<p class="case-h1">I. FACTUAL AND PROCEDURAL BACKGROUND</p>
+<p class="case-h1">I. FACTUAL AND PROCEDURAL BACKGROUND</p>
 
 The "Facts" section of the proposed amended complaint is exactly the same as found in the original Complaint. For the sake of brevity, the Court incorporates the "Facts" section found in its Report and Recommendation into this Order. The proposed amended complaint also contained the same claim for fraud as found in the original Complaint. Defendants did not move to dismiss the common law fraud claim as part of their Motion to Dismiss. The claim alleged that Defendants committed fraud by knowingly making false representations to Plaintiffs for the purpose of inducing them to purchase an ILKB franchise.In addition, the fraud claim alleges that these representations proved to be untrue; Plaintiffs reasonably relied on this information in deciding to purchase an ILKB franchise, and as a result Plaintiffs have suffered damages of no less than $500,000.
 
@@ -478,7 +478,7 @@ The only substantive addition to the proposed amended complaint is Count V seeki
 
 According to the proposed amended complaint, as a result of Defendants' deliberate disregard of Plaintiffs' rights, Plaintiffs are entitled to punitive damages.
 
-<p class="case-h1">II. LEGAL STANDARD</p>
+<p class="case-h1">II. LEGAL STANDARD</p>
 
 The Court held oral argument during which it sua sponte raised the issue of the appropriate standard for adding punitive damages claims. Both parties had initially addressed in their written submissions the appropriateness of amending the Complaint to add a claim for punitive damages under Minnesota Statutes Sections 549.191 and 549.20. The Court ordered the parties to file supplemental pleadings with respect to their positions regarding whether Minn. Stat. § 549.191, or Rule 15 of the Federal Rules of Civil Procedure, applies to a motion to amend to add a claim for punitive damages. Both parties filed supplemental briefs and agree, based on recent decisions within this District, that Rule 15, and not Minn. Stat. § 549 applies to the present motion to amend. That said, the parties disagree about whether the proposed amended complaint plausibly sets forth a claim for punitive damages under Minn. Stat. § 549.20.
 
@@ -507,7 +507,7 @@ The relevant legal basis for punitive damages under Minnesota law provides:
 
 Courts in the District of Minnesota have historically applied the state statute, Minn. Stat. § 549.191, rather than Rule 15, to motions to amend to add a claim for punitive damages, in diversity actions, such as the present action. However, this practice has come under scrutiny over the last couple years in light of the apparent conflict between the Minnesota statute and Rule 15.
 
-Indeed, courts have recently taken another look at the practice and analyzed whether Rule 15 or Minn. Stat. § 549.191 should be applied in view of the 2010 United States Supreme Court's decision in _Shady Grove Assocs., P.A. v. Allstate Ins. Co._, 559 U.S. 393 (2010). The large majority of these courts now apply Rule 15 instead of Minn. Stat. § 549.191 when considering motions to add punitive damage claims.
+Indeed, courts have recently taken another look at the practice and analyzed whether Rule 15 or Minn. Stat. § 549.191 should be applied in view of the 2010 United States Supreme Court's decision in _Shady Grove Assocs., P.A. v. Allstate Ins. Co._, 559 U.S. 393 (2010). The large majority of these courts now apply Rule 15 instead of Minn. Stat. § 549.191 when considering motions to add punitive damage claims.
 
 "_Shady Grove_ instructs that 'a federal court exercising diversity jurisdiction should not apply a state law or rule if (1) a Federal Rule of Civil Procedure 'answers the same question' as the state law or rule and (2) the Federal Rule does not violate the Rules Enabling Act.'" Five of the Supreme Court justices in _Shady Grove_ concluded that the first step in the analysis looks to whether the federal rule directly conflicts with the state law, which occurs where the federal rule "answers the question in dispute." If it does, Rule 15 applies---Minn. Stat. § 549.191 notwithstanding--- "unless it exceeds statutory authorization or Congress's rulemaking power."
 
@@ -515,7 +515,7 @@ In _Shady Grove_, the Supreme Court examined the applicability in a diversity ac
 
 Here, Rule 15 provides a "one-size-fits-all-formula" for amendments. Rule 15 does not set forth an evidentiary requirement. Instead, as set forth above, the focus as to the viability of the proposed amendment under Rule 15 with respect to all claims and requests for relief focuses on futility; that is, whether an amended complaint alleges sufficient factual matter, accepted as true, to state a claim to relief that is plausible on its face under Rule 8 (in conjunction with the particularity requirements of Rule 9 with respect to allegations of fraud), so as to withstand a motion to dismiss under Rule 12(b)(6). On the other hand, a motion to amend to add punitive damages under § 549.191 requires in part "one or more affidavits showing the factual basis for the claim" outside of the proposed amended pleading and only allows the amendment if "the Court finds prima facie evidence in the support of the motion." Because Minn. Stat. § 549.191 attempts to answer the same question as Rule 15 regarding when an amendment should be permitted, § 549.191 cannot apply in diversity actions unless Rule 15 violates the Enabling Act.
 
-The Enabling Act provides that the Federal Rules of Civil Procedure "shall not abridge, enlarge or modify any substantive right. All laws in conflict with such rules shall be of no further force or effect after such rules have taken effect." 28 U.S.C. § 2072(b). In _Shady Grove_, Justice Scalia, writing for the plurality, held:
+The Enabling Act provides that the Federal Rules of Civil Procedure "shall not abridge, enlarge or modify any substantive right. All laws in conflict with such rules shall be of no further force or effect after such rules have taken effect." 28 U.S.C. § 2072(b). In _Shady Grove_, Justice Scalia, writing for the plurality, held:
 
 > In sum, it is not the substantive or procedural nature or purpose of the affected state law that matters, but the substantive or procedural nature of the Federal Rule. We have held since _Sibbach_, and reaffirmed repeatedly, that the validity of a Federal Rule depends entirely upon whether it regulates procedure. If it does, it is authorized by § 2072 and is valid in all jurisdictions, with respect to all claims, regardless of its incidental effect upon state-created rights.
 
@@ -543,7 +543,7 @@ Accordingly, the Court will apply the Rule 15 standard in determining whether to
 
 <p class="case-h1">Question 1</p>
 
-Peggy was employed by Sterling Cooper, P.C. She had a written employment contract specifying a three year term of employment, during which Sterling Cooper could not terminate Peggy's employment except for cause. The contract specifies that "cause for termination includes, but is not limited to, employee misconduct, dishonesty, or unsatisfactory performance of assigned duties." 
+Peggy was employed by Sterling Cooper, P.C. She had a written employment contract specifying a three year term of employment, during which Sterling Cooper could not terminate Peggy's employment except for cause. The contract specifies that "cause for termination includes, but is not limited to, employee misconduct, dishonesty, or unsatisfactory performance of assigned duties." 
 
 Before the contract term ended, Peggy was fired. Her boss, Don, told her the reason was poor performance, but Peggy believes the real reason was her rejection of Don's repeated and unwelcome advances. 
 

@@ -37,11 +37,11 @@ chapter-number: 2
 
 </div>
 
-#### Burdine v. Metropolitan Direct Property and Casualty Ins. Co., No. 3:17-cv-00093-GFVT. (E.D. Ky. Nov. 1, 2018)
+#### Burdine v. Metropolitan Direct Property and Casualty Ins. Co., No. 3:17-cv-00093-GFVT. (E.D. Ky. Nov. 1, 2018)
 
 <p class="case-h1">GREGORY F. VAN TATENHOVE, District Judge</p>
 
-Plaintiff Paulina Brooke Burdine originally filed this lawsuit against defendant Metropolitan Direct Property and Casualty Insurance Company (hereinafter "MetDirect") in Franklin Circuit Court. MetDirect removed the proceedings to this Court pursuant to 28 U.S.C. § 1332. Ms. Burdine asserts two claims against MetDirect stemming from two separate automobile accidents. MetDirect moved to sever these claims or, in the alternative, bifurcate the proceedings. For the following reasons, MetDirect's Motion to Sever or Bifurcate is DENIED.
+Plaintiff Paulina Brooke Burdine originally filed this lawsuit against defendant Metropolitan Direct Property and Casualty Insurance Company (hereinafter "MetDirect") in Franklin Circuit Court. MetDirect removed the proceedings to this Court pursuant to 28 U.S.C. § 1332. Ms. Burdine asserts two claims against MetDirect stemming from two separate automobile accidents. MetDirect moved to sever these claims or, in the alternative, bifurcate the proceedings. For the following reasons, MetDirect's Motion to Sever or Bifurcate is DENIED.
 
 <p class="case-h1">I</p>
 
@@ -108,13 +108,13 @@ In sum, Ms. Burdine has properly joined her claims, which sound in contract, aga
 
 <p class="case-h1">ROSS, Circuit Judge</p>
 
-Nathaniel Mosley and nine other persons joined in bringing this action individually and as class representatives alleging that their rights guaranteed under 42 U.S.C. § 2000e et seq. and 42 U.S.C. § 1981 were denied by General Motors and Local 25, United Automobile, Aerospace and Agriculture Implement Workers of America Union by reason of their color and race. Each of the ten named plaintiffs had, prior to the filing of the complaint, filed a charge with the Equal Employment Opportunity Commission EEOC asserting the facts underlying these claims. Pursuant thereto, the EEOC made a reasonable cause finding that General Motors, Fisher Body Division and Chevrolet Division, and the Union had engaged in unlawful employment practices in violation of Title VII of the Civil Rights Act of 1964. Accordingly, the charging parties were notified by EEOC of their right to institute a civil action in the appropriate federal district court, pursuant to § 706(e) of Title VII, 42 U.S.C. § 2000e-5(e).
+Nathaniel Mosley and nine other persons joined in bringing this action individually and as class representatives alleging that their rights guaranteed under 42 U.S.C. § 2000e et seq. and 42 U.S.C. § 1981 were denied by General Motors and Local 25, United Automobile, Aerospace and Agriculture Implement Workers of America Union by reason of their color and race. Each of the ten named plaintiffs had, prior to the filing of the complaint, filed a charge with the Equal Employment Opportunity Commission EEOC asserting the facts underlying these claims. Pursuant thereto, the EEOC made a reasonable cause finding that General Motors, Fisher Body Division and Chevrolet Division, and the Union had engaged in unlawful employment practices in violation of Title VII of the Civil Rights Act of 1964. Accordingly, the charging parties were notified by EEOC of their right to institute a civil action in the appropriate federal district court, pursuant to § 706(e) of Title VII, 42 U.S.C. § 2000e-5(e).
 
 In each of the first eight counts of the twelve-count complaint, eight of the ten plaintiffs alleged that General Motors, Chevrolet Division, had engaged in unlawful employment practices by: "discriminating against Negroes as regards promotions, terms and conditions of employment"; "retaliating against Negro employees who protested actions made unlawful by Title VII of the Act and by discharging some because they protested said unlawful acts"; "failing to hire Negro employees as a class on the basis of race"; "failing to hire females as a class on the basis of sex"; "discharging Negro employees on the basis of race"; and "discriminating against Negroes and females in the granting of relief time." Each additionally charged that the defendant Union had engaged in unlawful employment practices "with respect to the granting of relief time to Negro and female employees" and "by failing to pursue 6a grievances." The remaining two plaintiffs made similar allegations against General Motors, Fisher Body Division. All of the individual plaintiffs requested injunctive relief, back pay, attorneys fees and costs.
 
 The district court ordered that "insofar as the first ten counts are concerned, those ten counts shall be severed into ten separate causes of action," and each plaintiff was directed to bring a separate action based upon his complaint, duly and separately filed.
 
-In reaching this conclusion on joinder, the district court followed the reasoning of _Smith v. North American Rockwell Corp.,_ 50 F.R.D. 515 (N.D.Okla.1970), which, in a somewhat analogous situation, found there was no right to relief arising out of the same transaction, occurrence or series of transactions or occurrences, and that there was no question of law or fact common to all plaintiffs sufficient to sustain joinder under Federal Rule of Civil Procedure 20(a). Similarly, the district court here felt that the plaintiffs' joint actions against General Motors and the Union presented a variety of issues having little relationship to one another; that they had only one common problem, i. e. the defendant; and that as pleaded the joint actions were completely unmanageable. Upon entering the order, and upon application of the plaintiffs, the district court found that its decision involved a controlling question of law as to which there is a substantial ground for difference of opinion and that any of the parties might make application for appeal under 28 U.S.C. § 1292(b). We granted the application to permit this interlocutory appeal and for the following reasons we affirm in part and reverse in part.
+In reaching this conclusion on joinder, the district court followed the reasoning of _Smith v. North American Rockwell Corp.,_ 50 F.R.D. 515 (N.D.Okla.1970), which, in a somewhat analogous situation, found there was no right to relief arising out of the same transaction, occurrence or series of transactions or occurrences, and that there was no question of law or fact common to all plaintiffs sufficient to sustain joinder under Federal Rule of Civil Procedure 20(a). Similarly, the district court here felt that the plaintiffs' joint actions against General Motors and the Union presented a variety of issues having little relationship to one another; that they had only one common problem, i. e. the defendant; and that as pleaded the joint actions were completely unmanageable. Upon entering the order, and upon application of the plaintiffs, the district court found that its decision involved a controlling question of law as to which there is a substantial ground for difference of opinion and that any of the parties might make application for appeal under 28 U.S.C. § 1292(b). We granted the application to permit this interlocutory appeal and for the following reasons we affirm in part and reverse in part.
 
 Rule 20(a) of the Federal Rules of Civil Procedure provides:
 
@@ -186,11 +186,11 @@ The judgment of the district court disallowing joinder of the plaintiffs' indivi
 
 <p class="case-h1">NEWMAN, Circuit Judge</p>
 
-This appeal concerns the availability of subject matter jurisdiction for permissive counterclaims. It also demonstrates the normal utility of early decision of a motion for class certification. Defendant-Appellant Ford Motor Credit Company ("Ford Credit") appeals from the June 14, 2002, judgment of the United States District Court for the Southern District of New York (Lawrence M. McKenna, District Judge) dismissing for lack of jurisdiction its permissive counterclaims against three of the four Plaintiffs-Appellees and its conditional counterclaims against members of the putative class that the Plaintiffs-Appellees seek to certify. We conclude that supplemental jurisdiction authorized by 28 U.S.C. § 1367 may be available for the permissive counterclaims, but that the District Court's discretion under subsection 1367(c) should not be exercised in this case until a ruling on the Plaintiffs' motion for class certification. We therefore vacate and remand.
+This appeal concerns the availability of subject matter jurisdiction for permissive counterclaims. It also demonstrates the normal utility of early decision of a motion for class certification. Defendant-Appellant Ford Motor Credit Company ("Ford Credit") appeals from the June 14, 2002, judgment of the United States District Court for the Southern District of New York (Lawrence M. McKenna, District Judge) dismissing for lack of jurisdiction its permissive counterclaims against three of the four Plaintiffs-Appellees and its conditional counterclaims against members of the putative class that the Plaintiffs-Appellees seek to certify. We conclude that supplemental jurisdiction authorized by 28 U.S.C. § 1367 may be available for the permissive counterclaims, but that the District Court's discretion under subsection 1367(c) should not be exercised in this case until a ruling on the Plaintiffs' motion for class certification. We therefore vacate and remand.
 
 <p class="case-h1">Background</p>
 
-Plaintiffs-Appellees Joyce Jones, Martha L. Edwards, Lou Cooper, and Vincent E. Jackson ("Plaintiffs"), individually and as class representatives, sued Ford Credit alleging racial discrimination under the Equal Credit Opportunity Act ("ECOA"), 15 U.S.C. § 1691 _et seq_. (2003). They had purchased Ford vehicles under Ford Credit's financing plan. They alleged that the financing plan discriminated against African-Americans. Although the financing rate was primarily based on objective criteria, Ford Credit permitted its dealers to mark up the rate, using subjective criteria to assess non-risk charges. The Plaintiffs alleged that the mark-up policy penalized African-American customers with higher rates than those imposed on similarly situated Caucasian customers.
+Plaintiffs-Appellees Joyce Jones, Martha L. Edwards, Lou Cooper, and Vincent E. Jackson ("Plaintiffs"), individually and as class representatives, sued Ford Credit alleging racial discrimination under the Equal Credit Opportunity Act ("ECOA"), 15 U.S.C. § 1691 _et seq_. (2003). They had purchased Ford vehicles under Ford Credit's financing plan. They alleged that the financing plan discriminated against African-Americans. Although the financing rate was primarily based on objective criteria, Ford Credit permitted its dealers to mark up the rate, using subjective criteria to assess non-risk charges. The Plaintiffs alleged that the mark-up policy penalized African-American customers with higher rates than those imposed on similarly situated Caucasian customers.
 
 In its Answer, Ford Credit denied the charges of racial discrimination and also asserted state-law counterclaims against Jones, Edwards, and Cooper for the amounts of their unpaid car loans. Ford Credit alleged that Jones was in default on her obligations under her contract for the purchase of a 1995 Ford Windstar, and that Edwards and Cooper were in default on payments for their joint purchase of a 1995 Mercury Cougar. Additionally, in the event that a class was certified, Ford Credit asserted conditional counterclaims against any member of that class who was in default on a car loan from Ford Credit. The Plaintiffs moved to dismiss Ford Credit's counterclaims for lack of subject matter jurisdiction, Fed.R.Civ.P. 12(b)(1), lack of personal jurisdiction, Fed.R.Civ.P. 12(b)(2), improper venue, Fed.R.Civ.P. 12(b)(3), and failure to state a claim upon which relief could be granted, Fed.R.Civ.P. 12(b)(6).
 
@@ -204,7 +204,7 @@ On March 27, 2003, the District Court entered judgment pursuant to Fed.R.Civ.P. 
 
 <p class="case-h1">Discussion</p>
 
-<p class="case-h1">I. Are Ford Credit's Counterclaims Permissive?</p>
+<p class="case-h1">I. Are Ford Credit's Counterclaims Permissive?</p>
 
 Fed.R.Civ.P. 13(a) defines a compulsory counterclaim as
 
@@ -220,11 +220,11 @@ We agree with the District Court that the debt collection counterclaims were per
 
 
 
-#### Ginwright v. Exeter Finance, No. TDC-16-0565 (D. Md. 2016)
+#### Ginwright v. Exeter Finance, No. TDC-16-0565 (D. Md. 2016)
 
 <p class="case-h1">CHUANG, District Judge</p>
 
-On February 26, 2016, Plaintiff Billy Ginwright filed this action against Defendant Exeter Finance Corporation ("Exeter") for violations of the Telephone Consumer Protection Act ("TCPA"), 47 U.S.C. § 227 (2012), and the Maryland Telephone Consumer Protection Act ("MTCPA"), Md. Code Ann., Com. Law §§ 14-3201 to -3202 (West 2013). On May 11, 2016, Exeter filed its Amended Answer and Counterclaim, alleging that Ginwright breached the contract that led Exeter to seek to collect a debt by telephone. Pending before the Court is Ginwright's Motion to Dismiss Exeter's Counterclaim. For the following reasons, the Motion is granted.
+On February 26, 2016, Plaintiff Billy Ginwright filed this action against Defendant Exeter Finance Corporation ("Exeter") for violations of the Telephone Consumer Protection Act ("TCPA"), 47 U.S.C. § 227 (2012), and the Maryland Telephone Consumer Protection Act ("MTCPA"), Md. Code Ann., Com. Law §§ 14-3201 to -3202 (West 2013). On May 11, 2016, Exeter filed its Amended Answer and Counterclaim, alleging that Ginwright breached the contract that led Exeter to seek to collect a debt by telephone. Pending before the Court is Ginwright's Motion to Dismiss Exeter's Counterclaim. For the following reasons, the Motion is granted.
 
 <p class="case-h1">Background</p>
 
@@ -234,9 +234,9 @@ In its Counterclaim, Exeter alleges that Ginwright breached the original contrac
 
 <p class="case-h1">Discussion</p>
 
-Ginwright is seeking dismissal of the counterclaim pursuant to Federal Rule of Civil Procedure 12(b)(1) for lack of subject matter jurisdiction. Ginwright asserts that Exeter has failed to assert any independent basis for jurisdiction over the counterclaim and that this Court may not exercise supplemental jurisdiction over the counterclaim because it is a permissive counterclaim. Exeter counters that, since the enactment of 28 U.S.C. § 1367, a court, may exercise supplemental jurisdiction over a permissive counterclaim, and that, in any event, its counterclaim is compulsory.
+Ginwright is seeking dismissal of the counterclaim pursuant to Federal Rule of Civil Procedure 12(b)(1) for lack of subject matter jurisdiction. Ginwright asserts that Exeter has failed to assert any independent basis for jurisdiction over the counterclaim and that this Court may not exercise supplemental jurisdiction over the counterclaim because it is a permissive counterclaim. Exeter counters that, since the enactment of 28 U.S.C. § 1367, a court, may exercise supplemental jurisdiction over a permissive counterclaim, and that, in any event, its counterclaim is compulsory.
 
-<p class="case-h1">III. Permissive Counterclaim</p>
+<p class="case-h1">III. Permissive Counterclaim</p>
 
 In assessing whether a counterclaim is compulsory or permissive, courts consider four inquiries:
 
@@ -250,7 +250,7 @@ In assessing whether a counterclaim is compulsory or permissive, courts consider
 
 These inquiries are more akin to a set of guidelines than a rigid test, such that a "court need not answer all these questions in the affirmative for the counterclaim to be compulsory."
 
-Applying the four inquiries here, the Court concludes that Exeter's counterclaim is permissive. First, the issues of fact and law raised in the TCPA claim and breach of contract counterclaim are largely dissimilar. The TCPA bars "any call (other than a call made for emergency purposes or made with the prior express consent of the called party) using any automatic telephone dialing system or an artificial or prerecorded voice" to any telephone number assigned to a cellular telephone service. 47 U.S.C. § 227(b)(1)(A)(iii). Thus, to prevail on this claim, Ginwright must establish that Exeter made calls to the plaintiffs cellular phone, by means of an automatic dialing system, without Ginwright's express consent or an emergency purpose. There is no requirement to show any underlying contractual dispute or debt that led to such phone calls. Meanwhile, the breach of contract counterclaim requires proof of an agreement between the parties and a failure by Ginwright to honor the terms of that agreement to make timely car payments. According to Ginwright, his defense may be based on the assertion that Exeter did not comply with the statutorily required repossession and resale procedures contained in the Creditor Grantor Closed End Credit ("CLEC") provisions of the Maryland Commercial Law Article, which must be satisfied in order for a lender to collect a deficiency judgment for an unpaid car loan. There is no requirement to show any use or lack of use of telephone calls to the borrower. Thus, there is little overlap between the two sets of legal and factual issues.
+Applying the four inquiries here, the Court concludes that Exeter's counterclaim is permissive. First, the issues of fact and law raised in the TCPA claim and breach of contract counterclaim are largely dissimilar. The TCPA bars "any call (other than a call made for emergency purposes or made with the prior express consent of the called party) using any automatic telephone dialing system or an artificial or prerecorded voice" to any telephone number assigned to a cellular telephone service. 47 U.S.C. § 227(b)(1)(A)(iii). Thus, to prevail on this claim, Ginwright must establish that Exeter made calls to the plaintiffs cellular phone, by means of an automatic dialing system, without Ginwright's express consent or an emergency purpose. There is no requirement to show any underlying contractual dispute or debt that led to such phone calls. Meanwhile, the breach of contract counterclaim requires proof of an agreement between the parties and a failure by Ginwright to honor the terms of that agreement to make timely car payments. According to Ginwright, his defense may be based on the assertion that Exeter did not comply with the statutorily required repossession and resale procedures contained in the Creditor Grantor Closed End Credit ("CLEC") provisions of the Maryland Commercial Law Article, which must be satisfied in order for a lender to collect a deficiency judgment for an unpaid car loan. There is no requirement to show any use or lack of use of telephone calls to the borrower. Thus, there is little overlap between the two sets of legal and factual issues.
 
 Second, because the legal and factual issues are different, the evidence would not be "substantially the same." While the alleged contract underlying the counterclaim might be admissible on the TCPA claim to the extent that it is relevant to establishing prior express consent for phone calls or the lack thereof, the evidence on the TCPA claim will primarily consist of records and testimony about the number of calls received and the use of the automatic dialing system, which would be of no relevance to the breach of contract counterclaim. Likewise, Exeter's counterclaim, which contains no allegations relating to phone calls or an automatic dialing system, will rely primarily on evidence that does not pertain to the TCPA claim, such as proof of Ginwright's failure to make car payments and evidence that Exeter did or did not repossess the car and resell it in accordance with Maryland's CLEC requirements.
 
@@ -262,11 +262,11 @@ Claims "based upon the same cause of action" are those which "arise out of the s
 
 Fourth, any logical relationship between the TCPA claim and the breach of contract counterclaim is a loose one. Although the TCPA claim would likely not have arisen in the absence of the original contract at issue on the counterclaim, there is little or no connection between a claim concerning the misuse of an automatic dialing system and a counterclaim alleging the failure to pay back a loan.
 
-Considering all of the factors, the Court concludes that Exeter's counterclaim is permissive. Although the Fourth Circuit has not addressed this precise issue, it has held that where a plaintiff alleged a violation of the disclosure requirements of the Truth-in-Lending Act ("TILA"), 15 U.S.C. §§ 1601-1667(f) (2012), a counterclaim seeking payment of the undeflying debt was permissive. In _Whigham,_ the court concluded that the counterclaim raised "significantly different" issues of law and fact than those presented by the TILA claim and that evidence on the two claims differed because only the counterclaim depended on verification of the debt and proof of default. It also concluded that the claims were "not logically related" because although the federal claim involved the same loan, it did not "arise from the obligations created by the contractual transaction." These same conclusions apply here, where Ginwright's TCPA claim involves different issues of fact and law, relies on different evidence, and is no more logically related to the counterclaim than the TILA claim in _Whigham_ was to its counterclaim.
+Considering all of the factors, the Court concludes that Exeter's counterclaim is permissive. Although the Fourth Circuit has not addressed this precise issue, it has held that where a plaintiff alleged a violation of the disclosure requirements of the Truth-in-Lending Act ("TILA"), 15 U.S.C. §§ 1601-1667(f) (2012), a counterclaim seeking payment of the undeflying debt was permissive. In _Whigham,_ the court concluded that the counterclaim raised "significantly different" issues of law and fact than those presented by the TILA claim and that evidence on the two claims differed because only the counterclaim depended on verification of the debt and proof of default. It also concluded that the claims were "not logically related" because although the federal claim involved the same loan, it did not "arise from the obligations created by the contractual transaction." These same conclusions apply here, where Ginwright's TCPA claim involves different issues of fact and law, relies on different evidence, and is no more logically related to the counterclaim than the TILA claim in _Whigham_ was to its counterclaim.
 
 The Court's conclusion is consistent with those of several district courts that have held that, in the case of a TCPA claim, a counterclaim alleging a failure to pay the debt that was the subject of the telephone calls was permissive.
 
-Exeter's citation to a single district court case reaching the contrary conclusion, _Horton v. Calvary Portfolio Servs.,_ (S.D. Cal. 2014), is unpersuasive. In _Horton,_ the court applied the "logical relationship" test, followed by the United States Court of Appeals for the Ninth Circuit in determining whether a counterclaim is compulsory or permissive, which differs from the Fourth Circuit's four-part inquiry. Moreover, other courts applying a logical relationship test have concluded that a breach of contract counterclaim to a TCPA claim is permissive.
+Exeter's citation to a single district court case reaching the contrary conclusion, _Horton v. Calvary Portfolio Servs.,_ (S.D. Cal. 2014), is unpersuasive. In _Horton,_ the court applied the "logical relationship" test, followed by the United States Court of Appeals for the Ninth Circuit in determining whether a counterclaim is compulsory or permissive, which differs from the Fourth Circuit's four-part inquiry. Moreover, other courts applying a logical relationship test have concluded that a breach of contract counterclaim to a TCPA claim is permissive.
 
 
 #### Pace v. Timmermann's Ranch, 795 F.3d 748 (7th Cir. 2015)
@@ -281,7 +281,7 @@ Ms. Pace filed a motion to consolidate these two actions. The court granted the 
 
 We hold that Ms. Pace's claims against parties other than Timmermann's were not compulsory counterclaims because Federal Rules of Civil Procedure 13 and 20, in combination, do not compel a litigant to join additional parties to bring what would otherwise be a compulsory counterclaim. We also hold that because Ms. Pace's claim for abuse of process against Timmermann's arose prior to the filing of her counterclaim, it was a mandatory counterclaim. We therefore affirm in part and reverse in part the judgment of the district court and remand the case for further proceedings.
 
-<p class="case-h1">I. Background</p>
+<p class="case-h1">I. Background</p>
 
 <p class="case-h2">A.</p>
 
@@ -319,7 +319,7 @@ On May 2, 2013, Timmermann's and the individual defendants moved to dismiss Ms. 
 
 In December 2013, the district court granted the company's motion to dismiss. The court concluded that Ms. Pace's separate claims were barred because they were compulsory counterclaims that should have been brought in the 2011 action because the claims arose out of the same transaction or occurrence. Noting that her 2013 complaint had indicated that the fear of being indicted caused her emotional distress, the court held that Ms. Pace's claims were in existence when the 2011 action was filed; it therefore rejected Ms. Pace's argument that her abuse-of-process claim was not in existence until she was charged. In the district court's view, the absence of Mr. Pace and the individual defendants from the 2011 action did not preclude the court's conclusion that Ms. Pace's claims were compulsory counterclaims because Mr. Pace and the individual defendants could have been joined in the 2011 action under Federal Rule of Civil Procedure 20.
 
-<p class="case-h1">II. Discussion</p>
+<p class="case-h1">II. Discussion</p>
 
 The Paces now appeal the dismissal of the 2013 action. They concede that Ms. Pace's false arrest and emotional distress claims against Timmermann's were compulsory counterclaims and therefore properly dismissed. They contend, however, that Ms. Pace's claims against the individual defendants and Mr. Pace's claims for loss of consortium were not compulsory counterclaims. They also submit that Ms. Pace's abuse of process claim against Timmermann's did not "exist" when the 2011 action was filed and therefore could not have been a compulsory counterclaim.
 
@@ -373,17 +373,17 @@ We conclude that the district court erred in dismissing the Paces' 2013 complain
 
 </div>
 
-#### Kirkcaldy v. Richmond County Bd. of Ed., 212 F.R.D. 289 (M.D.N.C. 2002) 
+#### Kirkcaldy v. Richmond County Bd. of Ed., 212 F.R.D. 289 (M.D.N.C. 2002) 
 
 <p class="case-h1">BEATY, District Judge.</p>
 
 This case comes before the Court on Defendant Richmond County Board of Education's ("Board") and Third-party Defendants Bruce Stanback, Sandy Lampley, Herman Williams, Myrtle Stogner, Mary Carroll, Jackson Dawkins, Carlene Hill, and Larry K. Weatherly's ("Individual School Defendants") Motion to Dismiss Defendant Marcus Smith's ("Smith") Cross-claim and Third-party Complaint. For the reasons stated below, the Motion to Dismiss is hereby GRANTED.
 
-<p class="case-h1">I. FACTUAL BACKGROUND</p>
+<p class="case-h1">I. FACTUAL BACKGROUND</p>
 
-Until August of 2000, Smith served as a principal of the Leak Street Alternative School, part of the Richmond County School System overseen by the Board. On September 14, 2001, Plaintiff Elizabeth Kirkcaldy ("Kirkcaldy"), who had worked as a secretary at the Leak Street Alternative School, filed a lawsuit against Smith and the Board. Kirkcaldy's Complaint alleges that from approximately July 20, 1999 to June 12, 2000, she was subjected to sexual harassment by Smith, who served as her direct supervisor during that time. Kirkcaldy claims that during this time, Smith repeatedly made unwelcome sexual contact with Kirkcaldy. Kirkcaldy also asserts that Smith frequently made comments of a sexual nature to her. Based on these facts, Kirkcaldy asserts the following claims: hostile work environment pursuant to 42 U.S.C. § 2000e et seq., intentional and negligent infliction of emotional distress against both the Board and Smith, and a claim for negligent supervision, retention and hiring against the Board.
+Until August of 2000, Smith served as a principal of the Leak Street Alternative School, part of the Richmond County School System overseen by the Board. On September 14, 2001, Plaintiff Elizabeth Kirkcaldy ("Kirkcaldy"), who had worked as a secretary at the Leak Street Alternative School, filed a lawsuit against Smith and the Board. Kirkcaldy's Complaint alleges that from approximately July 20, 1999 to June 12, 2000, she was subjected to sexual harassment by Smith, who served as her direct supervisor during that time. Kirkcaldy claims that during this time, Smith repeatedly made unwelcome sexual contact with Kirkcaldy. Kirkcaldy also asserts that Smith frequently made comments of a sexual nature to her. Based on these facts, Kirkcaldy asserts the following claims: hostile work environment pursuant to 42 U.S.C. § 2000e et seq., intentional and negligent infliction of emotional distress against both the Board and Smith, and a claim for negligent supervision, retention and hiring against the Board.
 
-In his Answer to Kirkcaldy's Complaint, Smith brings a cross-claim against the Board and a third-party complaint against the Superintendent of the Richmond County School System, Larry K. Weatherly ("Weatherly"), and Board members Bruce Stanback, Sandy Lampley, Herman Williams, Myrtle Stogner, Mary Carroll, Jackson Dawkins, and Carlene Hill, all in their individual and official capacities. Smith's claim against these Defendants is filed pursuant to 42 U.S.C. § 1983 based on the Individual School Defendants and the Board's (together, "School Defendants") alleged violation of Smith's due process rights. It is this Section 1983 claim that the School Defendants now move to dismiss.
+In his Answer to Kirkcaldy's Complaint, Smith brings a cross-claim against the Board and a third-party complaint against the Superintendent of the Richmond County School System, Larry K. Weatherly ("Weatherly"), and Board members Bruce Stanback, Sandy Lampley, Herman Williams, Myrtle Stogner, Mary Carroll, Jackson Dawkins, and Carlene Hill, all in their individual and official capacities. Smith's claim against these Defendants is filed pursuant to 42 U.S.C. § 1983 based on the Individual School Defendants and the Board's (together, "School Defendants") alleged violation of Smith's due process rights. It is this Section 1983 claim that the School Defendants now move to dismiss.
 
 In support of his claim, Smith asserts the following alleged facts. On June 20, 2000, Weatherly informed Smith that he was being suspended with pay while Weatherly investigated the allegations of sexual harassment made by Kirkcaldy and another school employee, Sharon Renee Peek ("Peek"). Based upon the results of this investigation, on July 25, 2000, Weatherly changed Smith's suspension with pay to suspension without pay. Weatherly also informed Smith that a hearing before the Board regarding Smith's employment would be held in August of 2000. Weatherly further advised Smith that it would be recommended to the Board members that they terminate Smith from his position.
 
@@ -395,7 +395,7 @@ At the conclusion of the August 24, 2000 hearing, the Board entered an order dis
 
 Smith's present cross-claim and third-party complaint filed pursuant to Section 1983 claims that the School Defendants violated his due process rights by denying him a fair hearing prior to his dismissal. In response, the School Defendants have filed the Motion to Dismiss now before the Court, asserting that dismissal of Smith's cross-claim and third-party complaint is proper pursuant to Rule 12(b)(6) for failure to state a claim and Rule 12(b)(1) for lack of subject-matter jurisdiction.
 
-<p class="case-h1">II. DISCUSSION OF DEFENDANTS' MOTION TO DISMISS</p>
+<p class="case-h1">II. DISCUSSION OF DEFENDANTS' MOTION TO DISMISS</p>
 
 When a co-defendant asserts a cross-claim against a co-defendant, as Smith now asserts against the Board, the co-defendant's cross-claim must meet the requirements of Rule 13(g). In relevant part, Rule 13(g) specifies that "a pleading may state as a cross-claim any claim by one party against a co-party arising out of the transaction or occurrence that is the subject matter either of the original action or of a counterclaim therein." The Board asserts that Smith's cross-claim does not qualify for joinder because the cross-claim does not arise out of the transaction or occurrence that is the subject of Kirkcaldy's suit, namely, the incidents of harassment that she allegedly suffered, which ended on June 12, 2000. Rather, the Board maintains that Smith's claim of a due process violation is based on the separate and different transaction or occurrence which involved the Board and Individual School Defendants' conduct in preparing and conducting the August 24, 2000 hearing that resulted in Smith's dismissal.
 
@@ -403,7 +403,7 @@ To determine whether Smith's cross-claim arises out of the same transaction and 
 
 To determine if a cross-claim arose out of the same transaction or occurrence as the complaint, the _Painter_ decision suggests conducting the following inquiries: (1) Are the issues of fact and law raised in the complaint and cross-claim largely the same? (2) Will substantially the same evidence support or refute the complaint as well as the cross-claim? (3) Is there any logical relationship between the complaint and the cross-claim? In considering these questions, the Court is mindful that these inquiries are guidelines and that it " need not answer all these questions in the affirmative" in order to find that the claims alleged in Kirkcaldy's Complaint and Smith's cross-claim arise from the same transaction and occurrence.
 
-Turning now to the first inquiry, which considers the identity of the issues of fact and law between the Complaint and the cross-claim, the Court recounts again that Kirkcaldy's Complaint alleges the following causes of action: sexual harassment during the period of July 20, 1999 and June 12, 2000 in violation of 42 U.S.C. § 2000e-2(a), intentional and negligent infliction of emotional distress, and a claim of negligent supervision, retention, and hiring against the Board. In comparison, Smith asserts in his cross-claim that the Board violated his property interest in his employment and his reputation for honesty and morality when it terminated him without providing him with the due process required by law. More specifically, Smith asserts that his due process rights were violated because the Board members were biased against him and thus could not serve as impartial decision-makers. Smith further asserts that Weatherly, prior to the hearing, improperly presented the Board members with evidence gathered against Smith. Finally, Smith also alleges that the evidence used by Weatherly wrongly included references to Kirkcaldy and Peek's polygraph results, which Smith alleges is prohibited by North Carolina law.
+Turning now to the first inquiry, which considers the identity of the issues of fact and law between the Complaint and the cross-claim, the Court recounts again that Kirkcaldy's Complaint alleges the following causes of action: sexual harassment during the period of July 20, 1999 and June 12, 2000 in violation of 42 U.S.C. § 2000e-2(a), intentional and negligent infliction of emotional distress, and a claim of negligent supervision, retention, and hiring against the Board. In comparison, Smith asserts in his cross-claim that the Board violated his property interest in his employment and his reputation for honesty and morality when it terminated him without providing him with the due process required by law. More specifically, Smith asserts that his due process rights were violated because the Board members were biased against him and thus could not serve as impartial decision-makers. Smith further asserts that Weatherly, prior to the hearing, improperly presented the Board members with evidence gathered against Smith. Finally, Smith also alleges that the evidence used by Weatherly wrongly included references to Kirkcaldy and Peek's polygraph results, which Smith alleges is prohibited by North Carolina law.
 
 As the summary of the different counts asserted by Smith and Kirkcaldy demonstrate, Smith's Section 1983 claim against the Board and the Individual School Defendants does not involve the same questions of fact and law as Kirkcaldy's claims. With respect to the legal issues involved, Kirkcaldy's claims will focus on the legal questions of whether Smith engaged in conduct that qualified as sexual harassment and intentional or negligent infliction of emotional distress and whether the Board, as Smith's employer, should be held responsible for Smith's actions. Smith's claim, however, focuses on whether the Board violated his due process rights during his suspension hearing. The legal questions presented by Smith's claim therefore would overlap very little, if at all, with Kirkcaldy's claims. With respect to whether there are common questions of fact, Kirkcaldy's claims and Smith's claim again would diverge. While the factfinder in Kirkcaldy's action will be asked to determine whether Smith actually sexually harassed Kirkcaldy during her employment from July 20, 1999 through June 12, 2000, the factfinder for Smith's claims must decide whether the Board's actions at the August 24, 2000 hearing, based on the information known to the Board at that time, violated Smith's due process rights. Although it is true that the same persons might be witnesses in both cases, Smith and Kirkcaldy's use of these witnesses will differ because their questions will be focused on different periods of time and different legal theories. This inquiry therefore suggests that Kirkcaldy and Smith's claims are not part of the same transaction or occurrence.
 
@@ -518,9 +518,9 @@ A right of contribution allows a joint tortfeasor who pays damages beyond their 
 
 <p class="case-h1">SELYA, Circuit Judge</p>
 
-This appeal grows out of a triangular 1987 financial transaction that involved the Farm Street Trust (the Trust), its beneficiaries (Barry Lehman and Stuart A. Roffman), and First Mutual Bank for Savings (the Bank). In the ensuing eleven years, the transaction imploded, litigation commenced, the Bank and Lehman became insolvent, parties came and went, and the case was closed and partially reopened. In the end, only a third-party complaint proved ripe for adjudication. Even then, the district court dismissed two of its three counts, but entered summary judgment on the remaining count. The third-party defendant, Roffman, now appeals. After sorting through the muddled record and the case's serpentine procedural history, we affirm.
+This appeal grows out of a triangular 1987 financial transaction that involved the Farm Street Trust (the Trust), its beneficiaries (Barry Lehman and Stuart A. Roffman), and First Mutual Bank for Savings (the Bank). In the ensuing eleven years, the transaction imploded, litigation commenced, the Bank and Lehman became insolvent, parties came and went, and the case was closed and partially reopened. In the end, only a third-party complaint proved ripe for adjudication. Even then, the district court dismissed two of its three counts, but entered summary judgment on the remaining count. The third-party defendant, Roffman, now appeals. After sorting through the muddled record and the case's serpentine procedural history, we affirm.
 
-<p class="case-h1">I. BACKGROUND</p>
+<p class="case-h1">I. BACKGROUND</p>
 
 The historical facts are not seriously disputed. On or about October 19, 1987, the Trust, acting through its trustee, executed a promissory note for $2,800,000 in favor of the Bank in order to fund the purchase of property in Dover, Massachusetts. Lehman and Roffman, each of whom enjoyed a 50% beneficial interest in the Trust, personally guaranteed the note, and Lehman proffered two parcels of real estate as additional collateral. In short order, the Trust defaulted on the loan and the Bank foreclosed on Lehman's properties. Lehman responded by suing the Bank seeking restraint or rescission of the imminent sale of his real estate. The gravamen of his suit was a claim that Roffman had fraudulently introduced a sham investor to the Bank in order to gull it into making the loan, and that the Bank, in swallowing this spurious bait hook, line, and sinker, had failed to exercise due diligence.
 
@@ -530,7 +530,7 @@ The FDIC's third-party complaint contained three counts. The first two sought in
 
 [_Roffman moved to strike the third-party complaint. The trial court denied that motion and Roffman appealed. Meanwhile, Revolution Portfolio LLC ("RP"), to which the FDIC had assigned its interest in the Farm Street Trust debt, replaced the FDIC as the real party in interest._]
 
-<p class="case-h1">II. Discussion</p>
+<p class="case-h1">II. Discussion</p>
 
 We must answer the question whether the FDIC's deployment of a third-party complaint against Roffman was proper. In this regard, Roffman asserts that the district court should not have entertained the impleader, and that, therefore, the joined claim on the guaranty should fall of its own weight. We review a district court's decision to permit the filing of a third-party complaint under Fed.R.Civ.P. 14(a) for abuse of discretion.
 
@@ -548,22 +548,22 @@ Against this backdrop, the court properly assumed jurisdiction over count 3 of t
 
 In this instance, Roffman signed an unconditional personal guaranty of a loan, and the borrower later defaulted. As a holder in due course of the note, the FDIC had an independent claim for the outstanding balance against Roffman. There is absolutely no reason why the FDIC could not append its independent claim on the guaranty to its other claims against Roffman.
 
-As a fallback position, Roffman suggests that the third-party complaint against him should have been dismissed because the FDIC had a complete defense under 12 U.S.C. § 1823(e) (1994) to the claims brought by Lehman. We do not agree. Even if section 1823(e) offered the FDIC a potentially strong defense against Lehman's claims, the record fails to show that the mere existence of that statute rendered Lehman's complaint a nullity.
+As a fallback position, Roffman suggests that the third-party complaint against him should have been dismissed because the FDIC had a complete defense under 12 U.S.C. § 1823(e) (1994) to the claims brought by Lehman. We do not agree. Even if section 1823(e) offered the FDIC a potentially strong defense against Lehman's claims, the record fails to show that the mere existence of that statute rendered Lehman's complaint a nullity.
 
 There is, moreover, a broader point. A district court must oversee third-party practice with the core purpose of Rule 14(a) in mind: avoiding unnecessary duplication and circuity of action. Requiring a district court to determine the merits of all defenses potentially available to the original defendant as a precondition to allowing that defendant to file a third-party complaint would frustrate this purpose and countervail the efficient allocation of judicial resources. Thus, as long as a third-party action falls within the general contours limned by Rule 14(a), does not contravene customary jurisdictional and venue requirements, and will not work unfair prejudice, a district court should not preclude its prosecution. So here.
 
 
-#### Kirkcaldy v. Richmond County Bd. of Ed., 212 F.R.D. 289 (M.D.N.C. 2002)
+#### Kirkcaldy v. Richmond County Bd. of Ed., 212 F.R.D. 289 (M.D.N.C. 2002)
 
 <p class="case-h1">BEATY, District Judge.</p>
 
 This case comes before the Court on Defendant Richmond County Board of Education's ("Board") and Third-party Defendants Bruce Stanback, Sandy Lampley, Herman Williams, Myrtle Stogner, Mary Carroll, Jackson Dawkins, Carlene Hill, and Larry K. Weatherly's ("Individual School Defendants") Motion to Dismiss Defendant Marcus Smith's ("Smith") Cross-claim and Third-party Complaint. For the reasons stated below, the Motion to Dismiss is hereby GRANTED.
 
-<p class="case-h1">I. FACTUAL BACKGROUND</p>
+<p class="case-h1">I. FACTUAL BACKGROUND</p>
 
-Until August of 2000, Smith served as a principal of the Leak Street Alternative School, part of the Richmond County School System overseen by the Board. On September 14, 2001, Plaintiff Elizabeth Kirkcaldy ("Kirkcaldy"), who had worked as a secretary at the Leak Street Alternative School, filed a lawsuit against Smith and the Board. Kirkcaldy's Complaint alleges that from approximately July 20, 1999 to June 12, 2000, she was subjected to sexual harassment by Smith, who served as her direct supervisor during that time. Kirkcaldy claims that during this time, Smith repeatedly made unwelcome sexual contact with Kirkcaldy. Kirkcaldy also asserts that Smith frequently made comments of a sexual nature to her. Based on these facts, Kirkcaldy asserts the following claims: hostile work environment pursuant to 42 U.S.C. § 2000e et seq., intentional and negligent infliction of emotional distress against both the Board and Smith, and a claim for negligent supervision, retention and hiring against the Board.
+Until August of 2000, Smith served as a principal of the Leak Street Alternative School, part of the Richmond County School System overseen by the Board. On September 14, 2001, Plaintiff Elizabeth Kirkcaldy ("Kirkcaldy"), who had worked as a secretary at the Leak Street Alternative School, filed a lawsuit against Smith and the Board. Kirkcaldy's Complaint alleges that from approximately July 20, 1999 to June 12, 2000, she was subjected to sexual harassment by Smith, who served as her direct supervisor during that time. Kirkcaldy claims that during this time, Smith repeatedly made unwelcome sexual contact with Kirkcaldy. Kirkcaldy also asserts that Smith frequently made comments of a sexual nature to her. Based on these facts, Kirkcaldy asserts the following claims: hostile work environment pursuant to 42 U.S.C. § 2000e et seq., intentional and negligent infliction of emotional distress against both the Board and Smith, and a claim for negligent supervision, retention and hiring against the Board.
 
-In his Answer to Kirkcaldy's Complaint, Smith brings a cross-claim against the Board and a third-party complaint against the Superintendent of the Richmond County School System, Larry K. Weatherly ("Weatherly"), and Board members Bruce Stanback, Sandy Lampley, Herman Williams, Myrtle Stogner, Mary Carroll, Jackson Dawkins, and Carlene Hill, all in their individual and official capacities. Smith's claim against these Defendants is filed pursuant to 42 U.S.C. § 1983 based on the Individual School Defendants and the Board's (together, "School Defendants") alleged violation of Smith's due process rights. It is this Section 1983 claim that the School Defendants now move to dismiss.
+In his Answer to Kirkcaldy's Complaint, Smith brings a cross-claim against the Board and a third-party complaint against the Superintendent of the Richmond County School System, Larry K. Weatherly ("Weatherly"), and Board members Bruce Stanback, Sandy Lampley, Herman Williams, Myrtle Stogner, Mary Carroll, Jackson Dawkins, and Carlene Hill, all in their individual and official capacities. Smith's claim against these Defendants is filed pursuant to 42 U.S.C. § 1983 based on the Individual School Defendants and the Board's (together, "School Defendants") alleged violation of Smith's due process rights. It is this Section 1983 claim that the School Defendants now move to dismiss.
 
 In support of his claim, Smith asserts the following alleged facts. On June 20, 2000, Weatherly informed Smith that he was being suspended with pay while Weatherly investigated the allegations of sexual harassment made by Kirkcaldy and another school employee, Sharon Renee Peek ("Peek"). Based upon the results of this investigation, on July 25, 2000, Weatherly changed Smith's suspension with pay to suspension without pay. Weatherly also informed Smith that a hearing before the Board regarding Smith's employment would be held in August of 2000. Weatherly further advised Smith that it would be recommended to the Board members that they terminate Smith from his position.
 
@@ -575,7 +575,7 @@ At the conclusion of the August 24, 2000 hearing, the Board entered an order dis
 
 Smith's present cross-claim and third-party complaint filed pursuant to Section 1983 claims that the School Defendants violated his due process rights by denying him a fair hearing prior to his dismissal. In response, the School Defendants have filed the Motion to Dismiss now before the Court, asserting that dismissal of Smith's cross-claim and third-party complaint is proper pursuant to Rule 12(b)(6) for failure to state a claim and Rule 12(b)(1) for lack of subject-matter jurisdiction.
 
-<p class="case-h1">II. DISCUSSION OF DEFENDANTS' MOTION TO DISMISS</p>
+<p class="case-h1">II. DISCUSSION OF DEFENDANTS' MOTION TO DISMISS</p>
 
 In addition to the Board's argument for dismissal of Smith's claim against it, the School Defendants' Motion to Dismiss also requests that the Court dismiss Smith's claim against the Individual School Defendants because Smith's third-party complaint does not satisfy the jurisdictional requirements of the Federal Rules of Civil Procedure. As the Individual School Defendants, unlike the School Board itself, were not parties to Kirkcaldy's original action, Smith's joinder of the Individual School Defendants must meet the requirements of one of the two Rules that allow the joinder of non-parties by a party defendant: Rule 14(a), which governs the impleader of non-parties as third-party defendants, or Rule 13(h), which governs the joinder of non-parties in certain other situations.
 
@@ -630,7 +630,7 @@ In light of the Court's holding that Smith has not satisfied the third-party pra
 
 </div>
 
-#### Camacho v. Major League Baseball, 297 F.R.D. 457 (S.D. Cal. 2013)
+#### Camacho v. Major League Baseball, 297 F.R.D. 457 (S.D. Cal. 2013)
 
 <p class="case-h1">LORENZ, District Judge</p>
 
@@ -638,7 +638,7 @@ On November 30, 2012, Plaintiffs David Gonzalez Camacho and Daniel Arrellano Pes
 
 The Court found this motion suitable for determination on the papers submitted and without oral argument. For the following reasons, the Court GRANTS Defendants' motion to dismiss.
 
-<p class="case-h1">I. Background [^10b3]</p>
+<p class="case-h1">I. Background [^10b3]</p>
 
 [^10b3]: (n.3 in opinion) In the complaint, David Gonzalez Camacho is referred to as 'Gonzalez,' and Daniel Arrellano Pesqueira, who is also once mentioned as 'Daniel Pesqueira Arellano,' is referred to as 'Pesqueira.' The Court will follow the same naming convention, and refer to the plaintiffs as Mr. Gonzalez and Mr. Pesqueira.
 
@@ -658,21 +658,21 @@ Plaintiffs continued their investigation. Either during or after the investigati
 
 Plaintiffs commenced this action on November 30, 2012. They subsequently amended their complaint after it was dismissed without prejudice for lack of subject-matter jurisdiction. They assert the following claims against all of the defendants for: (1) intentional interference with economic relations; (2) intentional interference with prospective economic advantage; (3) negligent interference with economic relations; (4) negligent interference with prospective economic relations; (5) declaratory relief; (6) negligence; and (7) unfair business practices. Defendants now move to dismiss under Rule 12(b)(7). Plaintiffs oppose.
 
-<p class="case-h1">II. Legal Standard</p>
+<p class="case-h1">II. Legal Standard</p>
 
 A party may move to dismiss a case for "failure to join a party under Rule 19." Fed. R. Civ. P. 12(b)(7). Rule 19 imposes a three-step inquiry: (1) Is the absent party necessary (i.e., required to be joined if feasible) under Rule 19(a)?; (2) If so, is it feasible to order that absent party to be joined?; and (3) If joinder is not feasible, can the case proceed without the absent party, or is the absent party indispensable such that the action must be dismissed? The terms "necessary" and "feasible" are "terms of art in Rule 19 jurisprudence": "Necessary" refers to a party who should be joined if feasible; and "indispensable" refers to "a party whose participation is so important to the resolution of the case that, if the joinder of the party is not feasible, the suit must be dismissed." The failure to join a party under Rule 19 can only lead to dismissal of a suit where the court cannot obtain jurisdiction over the necessary party and that party is determined to be indispensable to the action. _See_ Fed. R .Civ. P. 19(a).
 
 "The Ninth Circuit has held that a court should grant a 12(b)(7) motion to dismiss only if the court determines that joinder would destroy jurisdiction and the nonjoined party is necessary and indispensable." "A motion to dismiss for failure to join an indispensable party requires the moving party to bear the burden in producing evidence in support of the motion." "A Rule 12(b)(7) motion for failure to join an indispensable party demands a fact specific and practical inquiry." "To determine whether Rule 19 requires the joinder of additional parties, the court may consider evidence outside the pleadings."
 
 
-<p class="case-h1">III. Discussion</p>
+<p class="case-h1">III. Discussion</p>
 
 Defendants argue that both the Red Devils and the Mexican League are necessary parties that cannot be feasibly joined to this action because (1) a determination of the validity of Mr. Pesqueira's alleged contracts with the Red Devils is necessary, and (2) joining the parties would vitiate this Court's subject-matter jurisdiction and Plaintiffs cannot establish personal jurisdiction over these absent parties in this Court. Plaintiffs present their claims very differently in their opposition brief compared to the allegations in the complaint. In a disingenuous early-inning strategic shift, they direct the focus of this action on Mr. Gonzalez's agency contract with Mr. Pesqueira, arguing that the Red Devils and Mexican League are "joint tortfeasors" that are not necessary parties to litigate the claims asserted in this action. Plaintiffs swing for the fences, but ultimately come up short.
 
 Upon reviewing the allegations in the complaint, it is clear that the threshold issue in this action is the validity of the alleged contracts entered into between Mr. Pesqueira and the Red Devils. Plaintiffs proceed with their action under the presumption that those contracts are invalid---because Mr. Pesqueira was a minor at the time the contracts were executed, or because the signatures were "fraudulently lifted from another document and transferred onto these documents." These allegations in the complaint overwhelmingly demonstrate that this entire action hinges on one game-winning issue---the validity of the Red Devils contracts. The Court emphasizes that determining the validity of the alleged contracts between Mr. Pesqueira and the Red Devils is outside the scope of this series. Therefore, the Court rejects the disingenuous shifted premise that Plaintiffs present in their opposition brief, and shall proceed analyzing Defendants' motion while recognizing that the validity of the alleged contracts entered into between Mr. Pesqueira and the Red Devils is the go-ahead run.
 
 
-<p class="case-h2">A. The Red Devils and the Mexican League Are Necessary Parties.</p>
+<p class="case-h2">A. The Red Devils and the Mexican League Are Necessary Parties.</p>
 
 A party is necessary if: (1) complete relief cannot be granted in the party's absence; or (2) the district court determines that "the absent party's participation is necessary to protect its legally cognizable interests or to protect other parties from a substantial risk of incurring multiple or inconsistent obligations because of those interests." Such a legally cognizable interest must be more than a financial stake in the outcome of the litigation. Defendants demonstrate that the Red Devils and the Mexican League are necessary parties under the latter of the two aforementioned definitions.
 
@@ -690,13 +690,13 @@ Defendants argue that "the Red Devils could still sue others in the Mexican cour
 
 Swing and a miss---strike one.
 
-<p class="case-h2">B. Joining the Red Devils and the Mexican League Is Not Feasible.</p>
+<p class="case-h2">B. Joining the Red Devils and the Mexican League Is Not Feasible.</p>
 
 "If an absentee is a necessary party under Rule 19(a), the second stage is for the court to determine whether it is feasible to order that the absentee be joined." Rule 19(a) sets forth three circumstances in which joinder is not feasible: (1) when venue is improper; (2) when the absentee is not subject to personal jurisdiction; and (3) when joinder would destroy subject matter jurisdiction.
 
 Defendants argue that "the Red Devils and the Mexican League cannot be joined both because their joinder would destroy this Court's subject-matter jurisdiction, and because Plaintiffs cannot establish personal jurisdiction over them in this Court." Plaintiffs do not address feasibility in their opposition brief. In fact, the words "feasible" and "feasibility" do not appear anywhere in their brief. Consequently, Plaintiffs concede that joining the Red Devils and the Mexican League is not feasible under the second and third circumstances that Rule 19 enumerates. They took this pitch and it went right down the middle---strike two.
 
-<p class="case-h2">C. The Red Devils and Mexican League Are Indispensable Parties.</p>
+<p class="case-h2">C. The Red Devils and Mexican League Are Indispensable Parties.</p>
 
 If the necessary party cannot be joined, the court must then determine whether the party is indispensable. Under Rule 19(b), indispensable parties are "persons who not only have an interest in the controversy, but an interest of such a nature that a final decree cannot be made without either affecting that interest, or leaving the controversy in such a condition that its final termination may be wholly inconsistent with equity and good conscience." Rule 19(b) provides the factors that courts should consider in determining if an action should be dismissed because an absent party is indispensable: (1) prejudice to any party or to the absent party; (2) whether relief can be shaped to lessen prejudice; (3) whether an adequate remedy, even if not complete, can be awarded without the absent party; and (4) whether there exists an alternative forum. Furthermore, "no procedural principle is more deeply imbedded in the common law than that, in an action to set aside a lease or a contract, all parties who may be affected by the determination of the action are indispensable." 
 
@@ -822,7 +822,7 @@ District courts are afforded wide latitude to determine whether a party with a c
 
 
 
-#### Amador County v. U.S. Dept. of the Interior, 772 F.3d 901 (D.C. Cir. 2014)
+#### Amador County v. U.S. Dept. of the Interior, 772 F.3d 901 (D.C. Cir. 2014)
 
 <p class="case-h1">SENTELLE, Senior Circuit Judge</p>
 
@@ -832,7 +832,7 @@ In 2005, Amador County, California brought suit against the Department of Interi
 
 The Buena Vista Rancheria of Me-Wuk Indians is a federally recognized Indian tribe that occupies a 67-acre parcel of land located entirely within Amador County, California. In 1999, the Tribe negotiated a gaming compact with the State of California under the Indian Gaming Regulatory Act ("IGRA"), and submitted the compact to the Secretary of the Interior for approval. Under the IGRA, once the Tribe submits a gaming compact to the Secretary, the Secretary can either approve the compact; disapprove the compact, if it violates certain federal laws; or do nothing. If the Secretary does nothing, the compact is deemed approved after forty-five days. In 2000, the Secretary approved the compact. In 2004, the Tribe submitted an amended gaming compact to the Secretary. This time, the Secretary took no action on the amended compact for forty-five days, at which point the compact was deemed approved by operation of law.
 
-In April 2005, Amador County challenged the Secretary's "no-action" approval of the amended compact, arguing that the Tribe's land fails to qualify as "Indian lands"—a statutory requirement for gaming under the IGRA. On July 22, 2005, Interior filed a motion to dismiss the case, arguing that the County's claims were not subject to judicial review under the Administrative Procedure Act ("APA"). Shortly thereafter, the Tribe sought leave to participate in the case as amicus curiae. The Tribe argued that the suit had to be dismissed under Rule 19 of the Federal Rules of Civil Procedure because the Tribe was an indispensable party to the litigation, and the Tribe is protected by sovereign immunity so that the litigation could not proceed. The Tribe also claimed that Interior did not adequately represent the Tribe's interests. The district court denied the Tribe's motion without explanation.
+In April 2005, Amador County challenged the Secretary's "no-action" approval of the amended compact, arguing that the Tribe's land fails to qualify as "Indian lands"—a statutory requirement for gaming under the IGRA. On July 22, 2005, Interior filed a motion to dismiss the case, arguing that the County's claims were not subject to judicial review under the Administrative Procedure Act ("APA"). Shortly thereafter, the Tribe sought leave to participate in the case as amicus curiae. The Tribe argued that the suit had to be dismissed under Rule 19 of the Federal Rules of Civil Procedure because the Tribe was an indispensable party to the litigation, and the Tribe is protected by sovereign immunity so that the litigation could not proceed. The Tribe also claimed that Interior did not adequately represent the Tribe's interests. The district court denied the Tribe's motion without explanation.
 
 In 2008, while Interior's motion to dismiss was still pending, Amador County filed an amended complaint, and Interior again moved to dismiss. The district court granted Interior's motion, finding that the Secretary's "no action" approval was "unreviewable," as the decision to approve a gaming compact is committed to agency discretion.  Amador County appealed to this court. We reversed.
 
@@ -906,13 +906,13 @@ The strategy was clever but it would not have worked. The Tribe's interest in it
 
 > (2) By a Defendant. A defendant exposed to similar liability may seek interpleader through a crossclaim or counterclaim.
 
-(b) Relation to Other Rules and Statutes. This rule supplements---and does not limit---the joinder of parties allowed by Rule 20. The remedy this rule provides is in addition to---and does not supersede or limit---the remedy provided by 28 U.S.C. §§1335, 1397, and 2361. An action under those statutes must be conducted under these rules.
+(b) Relation to Other Rules and Statutes. This rule supplements---and does not limit---the joinder of parties allowed by Rule 20. The remedy this rule provides is in addition to---and does not supersede or limit---the remedy provided by 28 U.S.C. §§1335, 1397, and 2361. An action under those statutes must be conducted under these rules.
 
 </div>
 
 <div class="legal-code">
 
-#### 28 U.S.C. § 1335
+#### 28 U.S.C. § 1335
 
 (a) The district courts shall have original jurisdiction of any civil action of interpleader or in the nature of interpleader filed by any person, firm, or corporation, association, or society having in his or its custody or possession money or property of the value of $500 or more, or having issued a note, bond, certificate, policy of insurance, or other instrument of value or amount of $500 or more, or providing for the delivery or payment or the loan of money or property of such amount or value, or being under any obligation written or unwritten to the amount of $500 or more, if
 
@@ -926,7 +926,7 @@ The strategy was clever but it would not have worked. The Tribe's interest in it
 
 #### Rule and Statutory Interpleader
 
-Rule 22 and 28 U.S.C. § 1335 provide two alternate ways of bringing an interpleader suit. Both involve the same type of dispute, where one party (the interpleader plaintiff) has possession of money or property in which two or more other parties (the interpleader defendants) assert adverse claims of ownership or other legal interest.
+Rule 22 and 28 U.S.C. § 1335 provide two alternate ways of bringing an interpleader suit. Both involve the same type of dispute, where one party (the interpleader plaintiff) has possession of money or property in which two or more other parties (the interpleader defendants) assert adverse claims of ownership or other legal interest.
 
 But there are some procedural differences between rule interpleader and statutory interpleader (see Fig. 2.3). An interpleader plaintiff may proceed under either Rule 22 or § 1335, provided they meet the applicable jurisdictional and other requirements.
 
@@ -935,7 +935,7 @@ But there are some procedural differences between rule interpleader and statutor
 <tr>
 <th style="width:20%" coli="1" rowspan="1"></th>
 <th style="width:40%" coli="1" rowspan="1">Rule 22</th>
-<th style="width:40%" coli="1" rowspan="1">28 U.S.C. § 1335</th>
+<th style="width:40%" coli="1" rowspan="1">28 U.S.C. § 1335</th>
 </tr>
 <tr>
 <td coli="1" rowspan="1">Diversity Jurisdiction</td>
@@ -968,7 +968,7 @@ But there are some procedural differences between rule interpleader and statutor
 <tr>
 <td coli="1" rowspan="1">Service of Process</td>
 <td coli="1" rowspan="1">Normal standard under Rule 4(k)</td>
-<td coli="1" rowspan="1">Relaxed standard under 28 U.S.C. § 2361
+<td coli="1" rowspan="1">Relaxed standard under 28 U.S.C. § 2361
 <ul>
 <li>Nationwide service authorized</li>
 </ul>
@@ -976,8 +976,8 @@ But there are some procedural differences between rule interpleader and statutor
 </tr>
 <tr>
 <td coli="1" rowspan="1">Venue</td>
-<td coli="1" rowspan="1">Normal standard under 28 U.S.C. § 1391</td>
-<td coli="1" rowspan="1">Relaxed standard under 28 U.S.C. § 1397
+<td coli="1" rowspan="1">Normal standard under 28 U.S.C. § 1391</td>
+<td coli="1" rowspan="1">Relaxed standard under 28 U.S.C. § 1397
 <ul>
 <li>Any judicial district where any claimant resides</li>
 </ul>
@@ -990,15 +990,15 @@ But there are some procedural differences between rule interpleader and statutor
 </tr>
 <tr>
 <td coli="1" rowspan="1">Enjoining Other Actions Affecting Funds or Property</td>
-<td coli="1" rowspan="1">Subject to restrictions under FRCP Rule 65 &amp; 28 U.S.C. § 2283 (Anti-Injunction Act)</td>
-<td coli="1" rowspan="1">Authorized by 28 U.S.C. § 2361</td>
+<td coli="1" rowspan="1">Subject to restrictions under FRCP Rule 65 &amp; 28 U.S.C. § 2283 (Anti-Injunction Act)</td>
+<td coli="1" rowspan="1">Authorized by 28 U.S.C. § 2361</td>
 </tr>
 </tbody>
 </table>
 
 </div>
 
-#### Deutsch v. Schoelkopf, No. 3:16-CV-05561-RBL (W.D. Wash. 2016)
+#### Deutsch v. Schoelkopf, No. 3:16-CV-05561-RBL (W.D. Wash. 2016)
 
 <p class="case-h1">LEIGHTON, District Judge</p>
 
@@ -1024,9 +1024,9 @@ In October 2015, Carberry wrote a letter to Deutsch on behalf of the Storrs Esta
 
 <p class="case-h1">Discussion</p>
 
-<p class="case-h2">A. Standard of Review</p>
+<p class="case-h2">A. Standard of Review</p>
 
-Interpleader is a procedure authorized by 28 U.S.C. §§ 1335 and Federal Rule of Civil Procedure 22 that allows a party holding property to join in a single suit two or more defendant-claimants asserting mutually exclusive claims to the property. The main purpose of interpleader is to protect the stakeholder from the expenses of multiple lawsuits and from having to contend with inconsistent or multiple determinations of liability. While rule and statutory interpleader have different requirements for subject matter jurisdiction, venue, process service, invoking either type requires meeting certain criteria.
+Interpleader is a procedure authorized by 28 U.S.C. §§ 1335 and Federal Rule of Civil Procedure 22 that allows a party holding property to join in a single suit two or more defendant-claimants asserting mutually exclusive claims to the property. The main purpose of interpleader is to protect the stakeholder from the expenses of multiple lawsuits and from having to contend with inconsistent or multiple determinations of liability. While rule and statutory interpleader have different requirements for subject matter jurisdiction, venue, process service, invoking either type requires meeting certain criteria.
 
 First, multiple adverse claims or potential adverse claims must be made to that same property. Additionally, the plaintiff stakeholder must have a reasonable fear of multiple liability. The stakeholder is not required to determine the validity of the competing claims or wait to be actually sued by one or more of the claimants. However, the stakeholder must have "a good faith belief that there are or may be colorable competing claims to the stake," based on "a real and reasonable belief."
 
@@ -1034,7 +1034,7 @@ An interpleader action proceeds in two stages. In the first stage, a court evalu
 
 During the first phase, the party seeking interpleader bears the burden of demonstrating she is or may be subject to adverse claims. Adverse claims or potentially adverse claims exist when at least two defendants lay claim to the property held by the stakeholder. Sustaining an interpleader based on potential claims requires a "real and reasonable belief" that the interpleaded parties could have a colorable claim to the stake.
 
-<p class="case-h2">B. Deutsch has not shown sufficient adverse claims to invoke interpleader.</p>
+<p class="case-h2">B. Deutsch has not shown sufficient adverse claims to invoke interpleader.</p>
 
 Deutsch's interpleader action necessarily depends on her claim that all of the named defendants possess adverse claims to the sculpture. But only Andrew Schoelkopf claims any interest in _Industrial Forms_---the other defendants all agree that Andrew is the only legitimate claimant, and each affirmatively renounces any claim. This leaves Andrew as the only _actual_ claimant to the sculpture. Deutsch cannot maintain her interpleader action based on current adverse claims.
 
@@ -1046,27 +1046,27 @@ In an effort to save her interpleader claim in the face of overwhelming evidence
 
 Therefore, defendants' motion is GRANTED and plaintiff's complaint and request for deposit is DISMISSED without prejudice.
 
-#### Meyer v. Anderson, No. 2:19-cv-640-DCN (D.S.C. May 14, 2019)
+#### Meyer v. Anderson, No. 2:19-cv-640-DCN (D.S.C. May 14, 2019)
 
 <p class="case-h1">NORTON, District Judge</p>
 
-<p class="case-h1">I. Background</p>
+<p class="case-h1">I. Background</p>
 
-Defendants formed an attorney-client relationship with Meyer in 2014. Anderson is an attorney who own and operates JAA. Without providing any additional context beyond her relationship with defendants, Meyer generally alleges that defendants "chose to invent, and chose to publicize, false and derogatory information about Meyer, falsely purporting to claim intimate knowledge of Meyer to do so." Defendants allegedly did so without Meyer's permission and "without a proper investigation." Meyer explicitly states that the allegedly false information is not repeated in the complaint, but that defendants' statements containing the false information were made under oath and in public documents. Meyer then alleges that in 2017, she was publicly attacked based on the false information spread by defendants. Meyer does not allege in what way she was publicly attacked or by whom. When Meyer realized that the source of the information was defendants, she alleged asked defendants about their conduct, and defendants denied making any false or derogatory statements about Meyer. Meyer "responded to Anderson's blatant lying by confronting him about having lied to her" and sought more information from him about the statements, but defendants did not respond to Meyer. Meyer alleges that as a result of defendants' spreading false information about her, Meyer was forced to "compromise her cases at a deep discount rather than run the risk of trying her cases" when allegedly defendants had previously believed that Meyer's cases "were each seven figure cases."
+Defendants formed an attorney-client relationship with Meyer in 2014. Anderson is an attorney who own and operates JAA. Without providing any additional context beyond her relationship with defendants, Meyer generally alleges that defendants "chose to invent, and chose to publicize, false and derogatory information about Meyer, falsely purporting to claim intimate knowledge of Meyer to do so." Defendants allegedly did so without Meyer's permission and "without a proper investigation." Meyer explicitly states that the allegedly false information is not repeated in the complaint, but that defendants' statements containing the false information were made under oath and in public documents. Meyer then alleges that in 2017, she was publicly attacked based on the false information spread by defendants. Meyer does not allege in what way she was publicly attacked or by whom. When Meyer realized that the source of the information was defendants, she alleged asked defendants about their conduct, and defendants denied making any false or derogatory statements about Meyer. Meyer "responded to Anderson's blatant lying by confronting him about having lied to her" and sought more information from him about the statements, but defendants did not respond to Meyer. Meyer alleges that as a result of defendants' spreading false information about her, Meyer was forced to "compromise her cases at a deep discount rather than run the risk of trying her cases" when allegedly defendants had previously believed that Meyer's cases "were each seven figure cases."
 
 Meyer brought claims against defendants for breach of fiduciary duty and professional negligence and against JAA for aiding and abetting breach of fiduciary duty. Meyer also brought an interpleader claim against defendants. Pursuant to the interpleader claim, Meyer filed a motion to deposit funds and restrain defendants.
 
-<p class="case-h1">II. Discussion</p>
+<p class="case-h1">II. Discussion</p>
 
-<p class="case-h2">A. Motion to Deposit Funds and Restrain Defendants</p>
+<p class="case-h2">A. Motion to Deposit Funds and Restrain Defendants</p>
 
-According to Meyer, defendants are claiming a fee interest in Meyer's personal litigation to which they are not entitled based on the conduct alleged in this case. Meyer's current counsel holds in his trust account the fee to which defendants claim interest, and Meyer wants the court to hold these funds and prevent their distribution to defendants until this case is resolved. As such, Meyer asks the court to enter an order (1) authorizing the clerk of court to accept the contested funds that will be under control of the court pending the court's determination of the parties' rights and obligations pursuant to 28 U.S.C. § 1335, and (2) restraining defendants from instituting any proceeding affecting the funds involved in this suit pursuant to 28 U.S.C. § 2361.
+According to Meyer, defendants are claiming a fee interest in Meyer's personal litigation to which they are not entitled based on the conduct alleged in this case. Meyer's current counsel holds in his trust account the fee to which defendants claim interest, and Meyer wants the court to hold these funds and prevent their distribution to defendants until this case is resolved. As such, Meyer asks the court to enter an order (1) authorizing the clerk of court to accept the contested funds that will be under control of the court pending the court's determination of the parties' rights and obligations pursuant to 28 U.S.C. § 1335, and (2) restraining defendants from instituting any proceeding affecting the funds involved in this suit pursuant to 28 U.S.C. § 2361.
 
 Defendants provide further context to Meyer's request in their response. They explain that when Meyer hired defendants to represent her, the parties entered into a contingency fee agreement. During Meyer's litigation, one of JAA's former attorneys, Gregg Meyers ("Meyers"), left JAA, and Meyer independently retained him as her counsel. Meyers is also Meyer's counsel in this case. Pursuant to Minnesota and South Carolina settlement agreements, defendants and Meyers allegedly agreed to equally split any fees earned during the representation of Meyer. However, Meyer has only paid legal fees to Meyers and not to defendants. Defendants argue that Meyer is simply seeking to avoid paying defendants and is not entitled to her requested interpleader relief because this is not a proper interpleader action. Specifically, they argue that this is not a proper interpleader action because: (1) there is no risk of inconsistent judgments or multiple litigation over the funds; (2) there are not two or more diverse, adverse claimants to the funds; and (3) Meyer is not in control of the funds. Defendants also argue that Meyer is not entitled to the injunctive relief under § 2361 because she has not brought a proper interpleader action.
 
 "Interpleader is a procedural device that allows a disinterested stakeholder to bring a single action joining two or more adverse claimants to a single fund." It "is an equitable remedy designed to protect the stakeholder from multiple, inconsistent judgments and to relieve it of the obligation of determining which claimant is entitled to the fund." Interpleaders are used when multiple parties claim stake in a single fund, and the party in control of the fund asks the court to retain control of the fund while the court determines which party is entitled to the fund.
 
-There are two types of interpleader: statutory and rule-based. A statutory interpleader exists pursuant to 28 U.S.C. § 1335, which provides that:
+There are two types of interpleader: statutory and rule-based. A statutory interpleader exists pursuant to 28 U.S.C. § 1335, which provides that:
 
 > (a) The district courts shall have original jurisdiction of any civil action of interpleader or in the nature of interpleader filed by any person, firm, or corporation, association, or society having in his or its custody or possession money or property of the value of $500 or more if
 > 
@@ -1076,11 +1076,11 @@ There are two types of interpleader: statutory and rule-based. A statutory inter
 
 Rule 22 of the Federal Rules of Civil Procedure also allows interpleader, permitting "persons with claims that may expose a plaintiff to double or multiple liability" to "be joined as defendants and required to interplead." Rule 22 goes on to clarify that "joinder for interpleader is proper even though the claims of several claimants lack common origin or are adverse." Here, Meyer seeks to establish an interpleader action under both § 1335 and Rule 22. The statute and Rule 22 "differ in jurisdictional requirements but not in substance." Therefore, the substantive requirements for interpleader, namely, a risk of multiple or inconsistent judgments and adverse claimants, are the same under § 1335 and Rule 22.
 
-The factual scenario presented in this case is not one that meets the requirements of an interpleader. First, Meyer is not at risk for multiple or inconsistent judgments. The only parties claiming right to Meyer's funds are defendants. The only other party involved in this dispute who could be entitled to the funds is Meyer's current counsel, Meyers, but Meyer clarified that her counsel has no claim to the funds. Therefore, either defendants are entitled to the funds or they are not, leaving no opportunity for multiple or inconsistent judgments. Moreover, there are not multiple, adverse parties that are claiming a right to Meyer's funds. While Meyer has technically named multiple defendants here, Anderson is the owner of JAA. Therefore, Anderson and JAA are not adverse parties.
+The factual scenario presented in this case is not one that meets the requirements of an interpleader. First, Meyer is not at risk for multiple or inconsistent judgments. The only parties claiming right to Meyer's funds are defendants. The only other party involved in this dispute who could be entitled to the funds is Meyer's current counsel, Meyers, but Meyer clarified that her counsel has no claim to the funds. Therefore, either defendants are entitled to the funds or they are not, leaving no opportunity for multiple or inconsistent judgments. Moreover, there are not multiple, adverse parties that are claiming a right to Meyer's funds. While Meyer has technically named multiple defendants here, Anderson is the owner of JAA. Therefore, Anderson and JAA are not adverse parties.
 
-In addition, a statutory interpleader also requires that the multiple, adverse claimants are diverse. Here, the two named defendants are Anderson and JAA. Even if they were adverse parties, both parties are citizens of Minnesota; therefore, they are not diverse. In conclusion, Meyer has not pleaded a proper interpleader action under § 1335 or Rule 22.
+In addition, a statutory interpleader also requires that the multiple, adverse claimants are diverse. Here, the two named defendants are Anderson and JAA. Even if they were adverse parties, both parties are citizens of Minnesota; therefore, they are not diverse. In conclusion, Meyer has not pleaded a proper interpleader action under § 1335 or Rule 22.
 
-Because Meyer has not properly brought an interpleader action, she is not entitled to an order that restrains defendants from bringing an action related to the funds. In an interpleader action, a district court may "enter its order restraining claimants from instituting or prosecuting any proceeding in any State or United States court affecting the property in the interpleader action until further order of the court." 28 U.S.C. § 2361. Because this action is not a proper interpleader action, the court cannot grant this relief.
+Because Meyer has not properly brought an interpleader action, she is not entitled to an order that restrains defendants from bringing an action related to the funds. In an interpleader action, a district court may "enter its order restraining claimants from instituting or prosecuting any proceeding in any State or United States court affecting the property in the interpleader action until further order of the court." 28 U.S.C. § 2361. Because this action is not a proper interpleader action, the court cannot grant this relief.
 
 In response to defendants' arguments, Meyer only states that "defendants are simply incorrect when they contend there are not competing claims from diverse parties to the funds proposed to be interpleaded, and are properly restrained from initiating competing claims in any other court." Meyer does not substantively argue how she has properly pleaded an interpleader action, nor does she cite to any case law in support of her motion. Meyer briefly mentions that her counsel cannot disburse the fund without her approval, citing to Rule 1.5 of the Rules of Professional Responsibility; however, any ethical obligations belonging to Meyer's counsel play no role in the court's determination of whether Meyer has properly pleaded an interpleader action. Therefore, the court denies Meyer's motion to transfer funds and restrain defendants.
 

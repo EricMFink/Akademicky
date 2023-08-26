@@ -23,7 +23,7 @@ The judicial power shall extend to all cases, in law and equity, arising under t
 
 <div class="legal-code">
 
-#### 28 U.S.C. § 1331
+#### 28 U.S.C. § 1331
 
 The district courts shall have original jurisdiction of all civil actions arising under the Constitution, laws, or treaties of the United States.
 
@@ -39,7 +39,7 @@ The appellees (husband and wife), being residents and citizens of Kentucky, brou
 
 > Louisville, Ky., Oct. 2d, 1871.
 >
-> The Louisville & Nashville Railroad Company, in consideration that E. L. Mottley and wife, Annie E. Mottley, have this day released company from all damages or claims for damages for injuries received by them on the 7th of September, 1871, in consequence of a collision of trains on the railroad of said company at Randolph's Station, Jefferson County, Kentucky, hereby agrees to issue free passes on said railroad and branches now existing or to exist, to said E. L. & Annie E. Mottley for the remainder of the present year, and thereafter to renew said passes annually during the lives of said Mottley and wife or either of them.
+> The Louisville & Nashville Railroad Company, in consideration that E. L. Mottley and wife, Annie E. Mottley, have this day released company from all damages or claims for damages for injuries received by them on the 7th of September, 1871, in consequence of a collision of trains on the railroad of said company at Randolph's Station, Jefferson County, Kentucky, hereby agrees to issue free passes on said railroad and branches now existing or to exist, to said E. L. & Annie E. Mottley for the remainder of the present year, and thereafter to renew said passes annually during the lives of said Mottley and wife or either of them.
 
 The bill[^Mottley1] alleged that in September, 1871, plaintiffs, while passengers upon the defendant railroad, were injured by the defendant's negligence, and released their respective claims for damages in consideration of the agreement for transportation during their lives, expressed in the contract. It is alleged that the contract was performed by the defendant up to January 1, 1907, when the defendant declined to renew the passes. The bill then alleges that the refusal to comply with the contract was based solely upon that part of the act of Congress of June 29, 1906,[^Mottley1a] which forbids the giving of free passes or free transportation. The bill further alleges: First, that the act of Congress referred to does not prohibit the giving of passes under the circumstances of this case; and, second, that, if the law is to be construed as prohibiting such passes, it is in conflict with the 5th Amendment of the Constitution, because it deprives the plaintiffs of their property without due process of law. The defendant demurred to the bill. The judge of the circuit court overruled the demurrer, entered a decree for the relief prayed for, and the defendant appealed directly to this court.
 
@@ -84,7 +84,7 @@ The question is whether want of a federal cause of action to try claims of title
 
 <p class="case-h1">I</p>
 
-In 1994, the Internal Revenue Service seized Michigan real property belonging to petitioner Grable & Sons Metal Products, Inc., to satisfy Grable's federal tax delinquency. Title 26 U.S.C. § 6335 required the IRS to give notice of the seizure, and there is no dispute that Grable received actual notice by certified mail before the IRS sold the property to respondent Darue Engineering & Manufacturing. Although Grable also received notice of the sale itself, it did not exercise its statutory right to redeem the property within 180 days of the sale, and after that period had passed, the Government gave Darue a quitclaim deed.[^Grable1] 
+In 1994, the Internal Revenue Service seized Michigan real property belonging to petitioner Grable & Sons Metal Products, Inc., to satisfy Grable's federal tax delinquency. Title 26 U.S.C. § 6335 required the IRS to give notice of the seizure, and there is no dispute that Grable received actual notice by certified mail before the IRS sold the property to respondent Darue Engineering & Manufacturing. Although Grable also received notice of the sale itself, it did not exercise its statutory right to redeem the property within 180 days of the sale, and after that period had passed, the Government gave Darue a quitclaim deed.[^Grable1] 
 
 [^Grable1]:
 
@@ -102,7 +102,7 @@ The Court of Appeals for the Sixth Circuit affirmed. On the jurisdictional quest
 
 <p class="case-h1">II</p>
 
-Darue was entitled to remove the quiet title action if Grable could have brought it in federal district court originally, 28 U.S.C. § 1441(a), as a civil action "arising under the Constitution, laws, or treaties of the United States," § 1331. This provision for federal-question jurisdiction is invoked by and large by plaintiffs pleading a cause of action created by federal law. There is, however, another longstanding, if less frequently encountered, variety of federal "arising under" jurisdiction, this Court having recognized for nearly 100 years that in certain cases federal-question jurisdiction will lie over state-law claims that implicate significant federal issues. The doctrine captures the commonsense notion that a federal court ought to be able to hear claims recognized under state law that nonetheless turn on substantial questions of federal law, and thus justify resort to the experience, solicitude, and hope of uniformity that a federal forum offers on federal issues.
+Darue was entitled to remove the quiet title action if Grable could have brought it in federal district court originally, 28 U.S.C. § 1441(a), as a civil action "arising under the Constitution, laws, or treaties of the United States," § 1331. This provision for federal-question jurisdiction is invoked by and large by plaintiffs pleading a cause of action created by federal law. There is, however, another longstanding, if less frequently encountered, variety of federal "arising under" jurisdiction, this Court having recognized for nearly 100 years that in certain cases federal-question jurisdiction will lie over state-law claims that implicate significant federal issues. The doctrine captures the commonsense notion that a federal court ought to be able to hear claims recognized under state law that nonetheless turn on substantial questions of federal law, and thus justify resort to the experience, solicitude, and hope of uniformity that a federal forum offers on federal issues.
 
 The classic example is [_Smith v. Kansas City Title \& Trust Co._](https://scholar.google.com/scholar_case?case=5823303748841046877), 255 U.S. 180 (1921),  a suit by a shareholder claiming that the defendant corporation could not lawfully buy certain bonds of the National Government because their issuance was unconstitutional. Although Missouri law provided the cause of action, the Court recognized federal-question jurisdiction because the principal issue in the case was the federal constitutionality of the bond issue.[^Grable3] _Smith_ thus held, in a somewhat generous statement of the scope of the doctrine, that a state-law claim could give rise to federal-question jurisdiction so long as it "appears from the complaint that the right to relief depends upon the construction or application of [federal law]."
 
@@ -248,7 +248,7 @@ The judicial power shall extend to all cases;--between citizens of different sta
 
 <div class="legal-code">
 
-#### 28 U.S.C. §  1332
+#### 28 U.S.C. §  1332
 
 (a) The district courts shall have original jurisdiction of all civil actions where the matter in controversy exceeds the sum or value of $75,000, exclusive of interest and costs, and is between---
 
@@ -272,21 +272,21 @@ The judicial power shall extend to all cases;--between citizens of different sta
 
 ### State of Citizenship 
 
-#### Hanks v. Coan, No. 1:99CV00119 (M.D.N.C. Aug. 17, 1999)
+#### Hanks v. Coan, No. 1:99CV00119 (M.D.N.C. Aug. 17, 1999)
 
 <p class="case-h1">OSTEEN, J.</p>
 
 This matter comes before the court on Defendant Frances Coan's motion to dismiss Plaintiff's complaint and Defendant John Coan, III's, motion to dismiss, pursuant to Fed.R.Civ.P. 12(b)(1), for lack of subject matter jurisdiction. For the reasons discussed herein, the court will grant Defendants' motions to dismiss.
 
-<p class="case-h1">I. FACTUAL AND PROCEDURAL BACKGROUND</p>
+<p class="case-h1">I. FACTUAL AND PROCEDURAL BACKGROUND</p>
 
 Plaintiff filed this action asserting claims arising out of the same transactions and occurrences that are the subject matter of the companion case, Coan v. Hanks. Defendant Frances Coan (F. Coan) and Defendant John Coan, III, (J. Coan) independently filed motions to dismiss the complaint, pursuant to Fed.R.Civ.P. 12(b)(1), on the ground that complete diversity of citizenship does not exist. On April 26, 1999, the court held a hearing solely on the diversity jurisdiction issue. The two motions to dismiss are the matters now pending before the court.
 
-<p class="case-h1">II. DISCUSSION</p>
+<p class="case-h1">II. DISCUSSION</p>
 
-<p class="case-h2">A. Citizens of Different States</p>
+<p class="case-h2">A. Citizens of Different States</p>
 
-It has long been held that federal courts are courts of limited jurisdiction and can only entertain actions over which they possess subject matter jurisdiction. The parties agree that Plaintiff's basis for jurisdiction in this federal court is diversity of citizenship pursuant to 28 U.S.C. § 1332. The parties dispute, however, whether there is complete diversity among the parties such that subject matter jurisdiction exists in this forum.
+It has long been held that federal courts are courts of limited jurisdiction and can only entertain actions over which they possess subject matter jurisdiction. The parties agree that Plaintiff's basis for jurisdiction in this federal court is diversity of citizenship pursuant to 28 U.S.C. § 1332. The parties dispute, however, whether there is complete diversity among the parties such that subject matter jurisdiction exists in this forum.
 
 Plaintiff asserts that since she is a citizen of Utah and Defendants are citizens of North Carolina, complete diversity exists among the parties. Defendants contend that both Plaintiff and Defendants are citizens of North Carolina. Giving due regard to the fact that the "jurisdiction [of federal courts] will not be presumed," the court turns to the law with regard to diversity jurisdiction.
 
@@ -333,16 +333,16 @@ Therefore, absent complete diversity of citizenship between Plaintiff and Defend
 
 <p class="case-h1">Citizenship of Organizational Parties</p>
 
-Under the diversity jurisdiction statute, a corporation is a citizen of both the state or country in which it is incorporated and the state or country where it has its principal place of business. 28 U.S.C. § 1332(c)(1). In _Hertz Corp. v. Friend_, 559 US 77 (2010), the Supreme Court held that a corporation's "principal place of business" is "the place where the corporation's high level officers direct, control, and coordinate the corporation's activities." Under this "nerve center" test, the principal place of business "will typically be found at a corporation's headquarters."
+Under the diversity jurisdiction statute, a corporation is a citizen of both the state or country in which it is incorporated and the state or country where it has its principal place of business. 28 U.S.C. § 1332(c)(1). In _Hertz Corp. v. Friend_, 559 US 77 (2010), the Supreme Court held that a corporation's "principal place of business" is "the place where the corporation's high level officers direct, control, and coordinate the corporation's activities." Under this "nerve center" test, the principal place of business "will typically be found at a corporation's headquarters."
 
-For unincorporated associations (e.g. a business partnership, labor union, or other organization formed for some common purpose), the traditional rule is that "an unincorporated association's citizenship is that of each of its members." _United Steelworkers of America v. R.H. Bouligny, Inc._ 382 U.S. 145 (1965); _Carden v. Arkoma Associates_, 494 U.S. 185 (1990). But in cases under the "Class Action Fairness Act", an unincorporated association is treated like a corporation, as a citizen of both the state under whose law it is organized and the state of its principal place of business. 28 U.S.C. § 1332(d)(10).
+For unincorporated associations (e.g. a business partnership, labor union, or other organization formed for some common purpose), the traditional rule is that "an unincorporated association's citizenship is that of each of its members." _United Steelworkers of America v. R.H. Bouligny, Inc._ 382 U.S. 145 (1965); _Carden v. Arkoma Associates_, 494 U.S. 185 (1990). But in cases under the "Class Action Fairness Act", an unincorporated association is treated like a corporation, as a citizen of both the state under whose law it is organized and the state of its principal place of business. 28 U.S.C. § 1332(d)(10).
 
 </div>
 
 
 ### Amount in Controversy
 
-#### Ottawa Township Board of Trustees v. New Par, No. 3:17CV228 (N.D. Ohio July 10, 2017)
+#### Ottawa Township Board of Trustees v. New Par, No. 3:17CV228 (N.D. Ohio July 10, 2017)
 
 <p class="case-h1">CARR, Senior District Judge</p>
 
@@ -370,13 +370,13 @@ For the reasons that follow, I agree that the defendants' counterclaim damages d
 
 <p class="case-h1">Discussion</p>
 
-"\[A\]ny civil action brought in a State court of which the district courts of the United States have original jurisdiction, may be removed by the defendant or the defendants, to the district court of the United States for the district and division embracing the place where such action is pending." 28 U.S.C. § 1441(a).
+"\[A\]ny civil action brought in a State court of which the district courts of the United States have original jurisdiction, may be removed by the defendant or the defendants, to the district court of the United States for the district and division embracing the place where such action is pending." 28 U.S.C. § 1441(a).
 
-District courts have original jurisdiction over civil cases between citizens of different states where the amount in controversy, exclusive of costs and interest, exceeds $75,000. 28 U.S.C. § 1332(a)(1).
+District courts have original jurisdiction over civil cases between citizens of different states where the amount in controversy, exclusive of costs and interest, exceeds $75,000. 28 U.S.C. § 1332(a)(1).
 
 In cases that a defendant has removed from state court, "the existence of subject matter jurisdiction is determined by examining the complaint as it existed at the time of removal." "The burden of showing that the district court has original jurisdiction is on the party seeking removal." 
 
-<p class="case-h2">A. Defendants' Counterclaim Damages</p>
+<p class="case-h2">A. Defendants' Counterclaim Damages</p>
 
 Neither the United States Supreme Court nor the United States Court of Appeals for the Sixth Circuit has decided whether a defendant's counterclaim damages count toward the amount-in-controversy requirement.
 
@@ -402,7 +402,7 @@ Here, STC and New Par did not file their counterclaim until after they removed t
 
 For these reasons, defendants' counterclaim damages cannot and do not satisfy the amount-in-controversy requirement.2
 
-<p class="case-h2">B. Value of Declaratory Relief</p>
+<p class="case-h2">B. Value of Declaratory Relief</p>
 
 "In actions seeking declaratory or injunctive relief, it is well established that the amount in controversy is measured by the value of the object of the litigation." "Where a party seeks a declaratory judgment, the amount in controversy is not necessarily the money judgment sought or recovered, but rather the value of the consequences which may result from the litigation."
 
@@ -424,7 +424,7 @@ The Trustees seek a declaratory judgment that the defendants must construct the 
 
 Because the record is silent on these issues, the parties must submit additional briefs and supporting evidence so that I can determine whether this court has subject-matter jurisdiction.
 
-#### Ottawa Township Board of Trustees v. New Par, No. 3:17CV228 (N.D. Ohio Oct. 10, 2017)
+#### Ottawa Township Board of Trustees v. New Par, No. 3:17CV228 (N.D. Ohio Oct. 10, 2017)
 
 <p class="case-h1">CARR, Senior District Judge</p>
 
@@ -464,10 +464,10 @@ Nevertheless, the Trustees have not explained---in practical, let alone plausibl
 
 Moreover, given the Trustees' claim that the defendants are building the tower in a district not zoned for such a use, I agree with the defendants that, should the Trustees prevail, it is possible that the defendants will have to abandon the project, thereby losing more than $75,000.
 
-Accordingly, the only evidence in the record establishes that the value of the injunctive relief the Trustees seek exceeds $75,000. I therefore have subject-matter jurisdiction under 28 U.S.C. § 1332(a)(1), and I will deny the Trustees' motion to remand.
+Accordingly, the only evidence in the record establishes that the value of the injunctive relief the Trustees seek exceeds $75,000. I therefore have subject-matter jurisdiction under 28 U.S.C. § 1332(a)(1), and I will deny the Trustees' motion to remand.
 
 
-#### Complete Business Solutions Group, Inc. v. Annie's Pooch Pops, No. 20-724 (E.D. Pa. 2020)
+#### Complete Business Solutions Group, Inc. v. Annie's Pooch Pops, No. 20-724 (E.D. Pa. 2020)
 
 <p class="case-h1">PRATTER, District Judge</p>
 
@@ -495,13 +495,13 @@ However, if the Court questions or the plaintiff contests the amount-in-controve
 
 <p class="case-h1">Discussion</p>
 
-<p class="case-h1">I. The parties' respective arguments.</p>
+<p class="case-h1">I. The parties' respective arguments.</p>
 
 The dispute hinges on the defendant's assertion concerning attorneys' fees. As an initial note, attorneys' fees may be considered as part of the amount-in-controversy if available to plaintiff's under their cause of action, and the parties agree that Complete Business Group may seek attorneys' fees under Pennsylvania law.
 
 The parties' dispute centers on whether the value of the attorneys' fees is speculative or not. Annie's Pooch Pops specifically contends that the amount-in-controversy is met because Complete Business Group has left the question of fees open in its complaint, and because they believe, in good faith, that the litigation will develop in such a way that fees will inevitably reach the threshold requirement. Complete Business Group emphatically asserts that it has specifically averred the amount-in-controversy in the amount of $41,371.78. Because its fees are static, any additional right to fees is based on future events not yet knowable at the time of the filing of the complaint or removal.
 
-<p class="case-h1">II. Annie's Pooch Pops have not met their burden.</p>
+<p class="case-h1">II. Annie's Pooch Pops have not met their burden.</p>
 
 Annie's Pooch Pops have not met their burden in showing the amount-in-controversy meets the federal requirement. While Complete Business Group reserves the right to pursue attorneys' fees should Defendants challenge the confessed judgment, ultimately, the Court is left to guess, one way or another, as to whether the amount-in-controversy will reach the required minimum. Indeed, the Court has no basis, nor has Annie's Pooch Pops provided one,[^4d01] for the expectation that the amount-in-controversy will have almost doubled from Complete Business Group's current monetary demand of about $41,000, or in other words, the attorneys' fees will be valued at almost the same value of that present demand. Because the Court must rely on such guesswork, Annie's Pooch Pops cannot establish federal subject matter jurisdiction.
 
@@ -552,7 +552,7 @@ The question of power will ordinarily be resolved on the pleadings. But the issu
 
 <div class="legal-code">
 
-#### 28 U.S.C. §  1367
+#### 28 U.S.C. §  1367
 
 (a) Except as provided in subsections (b) and (c) or as expressly provided otherwise by Federal statute, in any civil action of which the district courts have original jurisdiction, the district courts shall have supplemental jurisdiction over all other claims that are so related to claims in the action within such original jurisdiction that they form part of the same case or controversy under Article III of the United States Constitution. Such supplemental jurisdiction shall include claims that involve the joinder or intervention of additional parties.
 
@@ -580,11 +580,11 @@ The question of power will ordinarily be resolved on the pleadings. But the issu
 
 <p class="case-h1">NEWMAN, Circuit Judge</p>
 
-This appeal concerns the availability of subject matter jurisdiction for permissive counterclaims. It also demonstrates the normal utility of early decision of a motion for class certification. Defendant-Appellant Ford Motor Credit Company ("Ford Credit") appeals from the June 14, 2002, judgment of the United States District Court for the Southern District of New York (Lawrence M. McKenna, District Judge) dismissing for lack of jurisdiction its permissive counterclaims against three of the four Plaintiffs-Appellees and its conditional counterclaims against members of the putative class that the Plaintiffs-Appellees seek to certify. We conclude that supplemental jurisdiction authorized by 28 U.S.C. § 1367 may be available for the permissive counterclaims, but that the District Court's discretion under subsection 1367(c) should not be exercised in this case until a ruling on the Plaintiffs' motion for class certification. We therefore vacate and remand.
+This appeal concerns the availability of subject matter jurisdiction for permissive counterclaims. It also demonstrates the normal utility of early decision of a motion for class certification. Defendant-Appellant Ford Motor Credit Company ("Ford Credit") appeals from the June 14, 2002, judgment of the United States District Court for the Southern District of New York (Lawrence M. McKenna, District Judge) dismissing for lack of jurisdiction its permissive counterclaims against three of the four Plaintiffs-Appellees and its conditional counterclaims against members of the putative class that the Plaintiffs-Appellees seek to certify. We conclude that supplemental jurisdiction authorized by 28 U.S.C. § 1367 may be available for the permissive counterclaims, but that the District Court's discretion under subsection 1367(c) should not be exercised in this case until a ruling on the Plaintiffs' motion for class certification. We therefore vacate and remand.
 
 <p class="case-h1">Background</p>
 
-Plaintiffs-Appellees Joyce Jones, Martha L. Edwards, Lou Cooper, and Vincent E. Jackson ("Plaintiffs"), individually and as class representatives, sued Ford Credit alleging racial discrimination under the Equal Credit Opportunity Act ("ECOA"). They had purchased Ford vehicles under Ford Credit's financing plan. They alleged that the financing plan discriminated against African-Americans. Although the financing rate was primarily based on objective criteria, Ford Credit permitted its dealers to mark up the rate, using subjective criteria to assess non-risk charges. The Plaintiffs alleged that the mark-up policy penalized African-American customers with higher rates than those imposed on similarly situated Caucasian customers.
+Plaintiffs-Appellees Joyce Jones, Martha L. Edwards, Lou Cooper, and Vincent E. Jackson ("Plaintiffs"), individually and as class representatives, sued Ford Credit alleging racial discrimination under the Equal Credit Opportunity Act ("ECOA"). They had purchased Ford vehicles under Ford Credit's financing plan. They alleged that the financing plan discriminated against African-Americans. Although the financing rate was primarily based on objective criteria, Ford Credit permitted its dealers to mark up the rate, using subjective criteria to assess non-risk charges. The Plaintiffs alleged that the mark-up policy penalized African-American customers with higher rates than those imposed on similarly situated Caucasian customers.
 
 In its Answer, Ford Credit denied the charges of racial discrimination and also asserted state-law counterclaims against Jones, Edwards, and Cooper for the amounts of their unpaid car loans. Ford Credit alleged that Jones was in default on her obligations under her contract for the purchase of a 1995 Ford Windstar, and that Edwards and Cooper were in default on payments for their joint purchase of a 1995 Mercury Cougar. Additionally, in the event that a class was certified, Ford Credit asserted conditional counterclaims against any member of that class who was in default on a car loan from Ford Credit. The Plaintiffs moved to dismiss Ford Credit's counterclaims for lack of subject matter jurisdiction, lack of personal jurisdiction, improper venue, and failure to state a claim upon which relief could be granted.
 
@@ -598,7 +598,7 @@ On March 27, 2003, the District Court entered judgment pursuant to Fed.R.Civ.P. 
 
 <p class="case-h1">Discussion</p>
 
-<p class="case-h1">II. Is There Jurisdiction over the Permissive Counterclaims?</p>
+<p class="case-h1">II. Is There Jurisdiction over the Permissive Counterclaims?</p>
 
 For several decades federal courts have asserted that permissive counterclaims require an independent basis of jurisdiction, _i.e_., that the counterclaim must be maintainable in a federal district court on some jurisdictional basis that would have sufficed had it been brought in a separate action. The origin of this proposition, the questioning of it before the statutory authorization of supplemental jurisdiction in section 1367, and the impact of that provision upon the proposition all merit careful consideration.
 
@@ -608,7 +608,7 @@ The explicit extension to the limit of Article III of a federal court's jurisdic
 
 We share the view that section 1367 has displaced, rather than codified, whatever validity inhered in the earlier view that a permissive counterclaim requires independent jurisdiction (in the sense of federal question or diversity jurisdiction). The issue in this case therefore becomes whether supplemental jurisdiction is available for Ford Credit's counterclaims.
 
-<p class="case-h1">III. Application of Section 1367's Standards for Supplemental Jurisdiction</p>
+<p class="case-h1">III. Application of Section 1367's Standards for Supplemental Jurisdiction</p>
 
 Whether or not the Gibbs "common nucleus" standard provides the outer limit of an Article III "case," and is therefore a requirement for entertaining a permissive counterclaim that otherwise lacks a jurisdictional basis, the facts of Ford Credit's counterclaims and those of the Plaintiffs' ECOA claims satisfy that standard, even though the relationship is not such as would make the counterclaims compulsory. The counterclaims and the underlying claim bear a sufficient factual relationship (if one is necessary) to constitute the same "case" within the meaning of Article III and hence of section 1367. Both the ECOA claim and the debt collection claims originate from the Plaintiffs' decisions to purchase Ford cars.
 
@@ -633,11 +633,11 @@ Whether Ford Credit's counterclaims "predominate" over the Plaintiffs' claims an
 Accordingly, we remand this case with directions to rule on the class certification motion, and then, in light of that ruling, to proceed to determine whether to exercise or decline supplemental jurisdiction.
 
 
-#### Ginwright v. Exeter Finance Corp., No. TDC-16-0565 (D. Md. 2016)
+#### Ginwright v. Exeter Finance Corp., No. TDC-16-0565 (D. Md. 2016)
 
 <p class="case-h1">CHUANG, District Judge</p>
 
-On February 26, 2016, Plaintiff Billy Ginwright filed this action against Defendant Exeter Finance Corporation ("Exeter") for violations of the Telephone Consumer Protection Act ("TCPA"), 47 U.S.C. § 227 (2012), and the Maryland Telephone Consumer Protection Act ("MTCPA"). On May 11, 2016, Exeter filed its Amended Answer and Counterclaim, alleging that Ginwright breached the contract that led Exeter to seek to collect a debt by telephone. Pending before the Court is Ginwright's Motion to Dismiss Exeter's Counterclaim. For the following reasons, the Motion is granted.
+On February 26, 2016, Plaintiff Billy Ginwright filed this action against Defendant Exeter Finance Corporation ("Exeter") for violations of the Telephone Consumer Protection Act ("TCPA"), 47 U.S.C. § 227 (2012), and the Maryland Telephone Consumer Protection Act ("MTCPA"). On May 11, 2016, Exeter filed its Amended Answer and Counterclaim, alleging that Ginwright breached the contract that led Exeter to seek to collect a debt by telephone. Pending before the Court is Ginwright's Motion to Dismiss Exeter's Counterclaim. For the following reasons, the Motion is granted.
 
 <p class="case-h1">Background</p>
 
@@ -647,25 +647,25 @@ In its Counterclaim, Exeter alleges that Ginwright breached the original contrac
 
 <p class="case-h1">Discussion</p>
 
-Ginwright is seeking dismissal of the counterclaim pursuant to Federal Rule of Civil Procedure 12(b)(1) for lack of subject matter jurisdiction. Ginwright asserts that Exeter has failed to assert any independent basis for jurisdiction over the counterclaim and that this Court may not exercise supplemental jurisdiction over the counterclaim because it is a permissive counterclaim. Exeter counters that, since the enactment of 28 U.S.C. § 1367, a court, may exercise supplemental jurisdiction over a permissive counterclaim, and that, in any event, its counterclaim is compulsory.
+Ginwright is seeking dismissal of the counterclaim pursuant to Federal Rule of Civil Procedure 12(b)(1) for lack of subject matter jurisdiction. Ginwright asserts that Exeter has failed to assert any independent basis for jurisdiction over the counterclaim and that this Court may not exercise supplemental jurisdiction over the counterclaim because it is a permissive counterclaim. Exeter counters that, since the enactment of 28 U.S.C. § 1367, a court, may exercise supplemental jurisdiction over a permissive counterclaim, and that, in any event, its counterclaim is compulsory.
 
-<p class="case-h1">I. Legal Standard</p>
+<p class="case-h1">I. Legal Standard</p>
 
 It is the burden of the party asserting jurisdiction to show that subject matter jurisdiction exists. Rule 12(b)(1) allows a party to move for dismissal when it believes that the claimant has failed to make that showing. When a plaintiff asserts that the facts alleged in a counterclaim are not sufficient to establish subject matter jurisdiction, the allegations in the counterclaim are assumed to be true under the same standard as in a Rule 12(b)(6) motion, and the motion must be denied if the counterclaim alleges sufficient facts to invoke subject matter jurisdiction.
 
-<p class="case-h1">II. Supplemental Jurisdiction</p>
+<p class="case-h1">II. Supplemental Jurisdiction</p>
 
-In asserting its counterclaim, Exeter does not allege that the Court has federal question jurisdiction or diversity jurisdiction. Rather, Exeter asserts that jurisdiction is proper under the supplemental jurisdiction statute, 28 U.S.C. § 1367. In determining whether a court has supplemental jurisdiction over a counterclaim, the United States Court of Appeals for the Fourth Circuit has traditionally distinguished between compulsory counterclaims, which must be stated by a defendant in its answer, and permissive counterclaims, which need not be. The Fourth Circuit has held that, absent an independent basis of jurisdiction, a federal court has supplemental jurisdiction over a compulsory counterclaim but not a permissive counterclaim.
+In asserting its counterclaim, Exeter does not allege that the Court has federal question jurisdiction or diversity jurisdiction. Rather, Exeter asserts that jurisdiction is proper under the supplemental jurisdiction statute, 28 U.S.C. § 1367. In determining whether a court has supplemental jurisdiction over a counterclaim, the United States Court of Appeals for the Fourth Circuit has traditionally distinguished between compulsory counterclaims, which must be stated by a defendant in its answer, and permissive counterclaims, which need not be. The Fourth Circuit has held that, absent an independent basis of jurisdiction, a federal court has supplemental jurisdiction over a compulsory counterclaim but not a permissive counterclaim.
 
-Exeter argues that the Fourth Circuit rule has been superseded by the 1990 enactment of the supplemental jurisdiction statute, which provides that "in any civil action of which the district courts have original jurisdiction, the district courts shall have supplemental jurisdiction over all other claims that are so related to" claims already within the court's jurisdiction "that they form part of the same case or controversy under Article III of the United. States Constitution." 28 U.S.C. § 1367(a). Exeter contends that the "all other claims" language encompasses counterclaims and that the "same case or controversy" language encompasses at least certain types of permissive counterclaims.
+Exeter argues that the Fourth Circuit rule has been superseded by the 1990 enactment of the supplemental jurisdiction statute, which provides that "in any civil action of which the district courts have original jurisdiction, the district courts shall have supplemental jurisdiction over all other claims that are so related to" claims already within the court's jurisdiction "that they form part of the same case or controversy under Article III of the United. States Constitution." 28 U.S.C. § 1367(a). Exeter contends that the "all other claims" language encompasses counterclaims and that the "same case or controversy" language encompasses at least certain types of permissive counterclaims.
 
 Several courts of appeals have agreed with this view and have interpreted § 1367 to permit the exercise of supplemental jurisdiction over "at least some permissive counterclaims." Within the Fourth Circuit, however, district courts have continued to follow the binding precedent of _Painter_ and limit supplemental jurisdiction to compulsory counterclaims.
 
 In _Williams,_ the court offered a rationale for the continuing applicability of the Fourth Circuit rule based on the premise that § 1367 did not materially alter the jurisdictional landscape applicable to this issue. The United States Supreme Court has stated that § 1367 "codified" existing common law doctrines of pendent and ancillary jurisdiction "under a common heading" of supplemental jurisdiction. The pre-§ 1367 doctrine of pendent jurisdiction provided federal jurisdiction over claims that "derive from a common nucleus of operative fact" such that "the entire action before the court comprises but one constitutional 'case.'" In _International College of Surgeons,_ when the Court applied the "common nucleus of operative fact" test to conclude that there was supplemental jurisdiction under the "same case or controversy" requirement of § 1367, it effectively equated the two tests. In _Williams,_ the court concluded that because the "common nucleus of operative fact" standard remains applicable after § 1367, the Fourth Circuit rule of providing supplemental jurisdiction over compulsory counterclaims only, which was premised on that pre-§ 1367 standard, remains intact. Where the Fourth Circuit has not addressed whether § 1367 altered the rule articulated in _Whigham_ and _Painter,_ the district courts within this circuit continue to adhere to that rule, and a principled basis exists for doing so, the Court declines to deviate from Fourth Circuit precedent and will continue to apply the rule that a federal court has supplemental jurisdiction over compulsory counterclaims only.
 
-<p class="case-h1">IV. 28 U.S.C. § 1367(c)</p>
+<p class="case-h1">IV. 28 U.S.C. § 1367(c)</p>
 
-Even if the Court could exercise supplemental jurisdiction over a permissive counterclaim, the Court may decline to do so under certain circumstances. 28 U.S.C. § 1367(c). Among those circumstances are where the "claim substantially predominates over the claims over which the court has original jurisdiction" and where, "in exceptional circumstances, there are other compelling reasons for declining jurisdiction." Here, the more fact-intensive breach of contract counterclaim, which may involve analysis of whether Exeter following state law requirements for repossession and resale, is likely to substantially predominate over the TCPA claim centered on whether Ginwright consented to receive telephone calls from Exeter on his cellular phone.
+Even if the Court could exercise supplemental jurisdiction over a permissive counterclaim, the Court may decline to do so under certain circumstances. 28 U.S.C. § 1367(c). Among those circumstances are where the "claim substantially predominates over the claims over which the court has original jurisdiction" and where, "in exceptional circumstances, there are other compelling reasons for declining jurisdiction." Here, the more fact-intensive breach of contract counterclaim, which may involve analysis of whether Exeter following state law requirements for repossession and resale, is likely to substantially predominate over the TCPA claim centered on whether Ginwright consented to receive telephone calls from Exeter on his cellular phone.
 
 Moreover, public policy concerns support declining jurisdiction. Federal consumer protection statutes seek to protect consumers from unscrupulous practices "regardless of whether a valid debt actually exists." In the context of TILA, the Fourth Circuit has cautioned that "to let the lender use the federal proceedings as an opportunity to pursue private claims against the borrower would impede expeditious enforcement of the federal penalty and involve the district courts in debt collection matters having no federal significance." This same concern applies here. Accordingly, having concluded that Exeter's counterclaim would substantially predominate over the TCPA claim, the Court, even if authorized to exercise supplemental jurisdiction over that counterclaim, would decline to do so.
 
@@ -692,7 +692,7 @@ The contrary view is that the "same case or controversy" requirement under § 1
 
 <p class="case-h1">JUSTICE KENNEDY delivered the opinion of the Court.</p>
 
-These consolidated cases[^Allapattah1] present the question whether a federal court in a diversity action may exercise supplemental jurisdiction over additional plaintiffs whose claims do not satisfy the minimum amount-in-controversy requirement, provided the claims are part of the same case or controversy as the claims of plaintiffs who do allege a sufficient amount in controversy. Our decision turns on the correct interpretation of 28 U.S.C. § 1367. The question has divided the Courts of Appeals, and we granted certiorari to resolve the conflict.
+These consolidated cases[^Allapattah1] present the question whether a federal court in a diversity action may exercise supplemental jurisdiction over additional plaintiffs whose claims do not satisfy the minimum amount-in-controversy requirement, provided the claims are part of the same case or controversy as the claims of plaintiffs who do allege a sufficient amount in controversy. Our decision turns on the correct interpretation of 28 U.S.C. § 1367. The question has divided the Courts of Appeals, and we granted certiorari to resolve the conflict.
 
 [^Allapattah1]:
 
@@ -710,7 +710,7 @@ The Court of Appeals then addressed whether, in light of the fact that one plain
 
 <p class="case-h2">A</p>
 
-The district courts of the United States, as we have said many times, are "courts of limited jurisdiction. They possess only that power authorized by Constitution and statute," In order to provide a federal forum for plaintiffs who seek to vindicate federal rights, Congress has conferred on the district courts original jurisdiction in federal-question cases---civil actions that arise under the Constitution, laws, or treaties of the United States. 28 U.S.C. § 1331. In order to provide a neutral forum for what have come to be known as diversity cases, Congress also has granted district courts original jurisdiction in civil actions between citizens of different States, between U. S. citizens and foreign citizens, or by foreign states against U. S. citizens. § 1332. To ensure that diversity jurisdiction does not flood the federal courts with minor disputes, § 1332(a) requires that the matter in controversy in a diversity case exceed a specified amount, currently $75,000.
+The district courts of the United States, as we have said many times, are "courts of limited jurisdiction. They possess only that power authorized by Constitution and statute," In order to provide a federal forum for plaintiffs who seek to vindicate federal rights, Congress has conferred on the district courts original jurisdiction in federal-question cases---civil actions that arise under the Constitution, laws, or treaties of the United States. 28 U.S.C. § 1331. In order to provide a neutral forum for what have come to be known as diversity cases, Congress also has granted district courts original jurisdiction in civil actions between citizens of different States, between U. S. citizens and foreign citizens, or by foreign states against U. S. citizens. § 1332. To ensure that diversity jurisdiction does not flood the federal courts with minor disputes, § 1332(a) requires that the matter in controversy in a diversity case exceed a specified amount, currently $75,000.
 
 Although the district courts may not exercise jurisdiction absent a statutory basis, it is well established---in certain classes of cases---that, once a court has original jurisdiction over some claims in the action, it may exercise supplemental jurisdiction over additional claims that are part of the same case or controversy. The leading modern case for this principle is _Mine Workers v. Gibbs_. In _Gibbs,_ the plaintiff alleged the defendant's conduct violated both federal and state law. The District Court, _Gibbs_ held, had original jurisdiction over the action based on the federal claims. _Gibbs_ confirmed that the District Court had the additional power (though not the obligation) to exercise supplemental jurisdiction over related state claims that arose from the same Article III case or controversy. 
 
@@ -762,7 +762,7 @@ It follows from this conclusion that the threshold requirement of § 1367(a) is
 
 <div class="legal-code">
 
-#### 28 U.S.C. §  1441
+#### 28 U.S.C. §  1441
 
 <p class="case-h1">Removal of civil actions</p>
 
@@ -774,7 +774,7 @@ It follows from this conclusion that the threshold requirement of § 1367(a) is
 
 <div class="legal-code">
 
-#### 28 U.S.C. §  1447
+#### 28 U.S.C. §  1447
 
 <p class="case-h1">Procedure after removal generally</p>
 
@@ -788,15 +788,15 @@ It follows from this conclusion that the threshold requirement of § 1367(a) is
 
 <div class="legal-code">
 
-#### 28 U.S.C. §  1445
+#### 28 U.S.C. §  1445
 
 <p class="case-h1">Nonremovable actions [^Removal1]</p>
 
 [^Removal1]:
 
-  {-} Interestingly, of the four types of action that are not removable, three involve suits arising under federal statutes. 45 U.S.C. § 56; 49 U.S.C. § 11706(d)(1); 34 U.S.C, § 12361(e)(3). Those statutes expressly allow suits to be brought in either federal or state court. But, if the plaintiff opts to sue in state court, the defendant may not remove, even though the federal court would have original jurisdiction under § 1331.
+  {-} Interestingly, of the four types of action that are not removable, three involve suits arising under federal statutes. 45 U.S.C. § 56; 49 U.S.C. § 11706(d)(1); 34 U.S.C, § 12361(e)(3). Those statutes expressly allow suits to be brought in either federal or state court. But, if the plaintiff opts to sue in state court, the defendant may not remove, even though the federal court would have original jurisdiction under § 1331.
 
-(a) A civil action in any State court against a railroad or its receivers or trustees, arising under sections 1–4 and 5–10 of the Act of April 22, 1908 (45 U.S.C. 51–54, 55–60), may not be removed to any district court of the United States.
+(a) A civil action in any State court against a railroad or its receivers or trustees, arising under sections 1–4 and 5–10 of the Act of April 22, 1908 (45 U.S.C. 51–54, 55–60), may not be removed to any district court of the United States.
 
 (b) A civil action in any State court against a carrier or its receivers or trustees to recover damages for delay, loss, or injury of shipments, arising under section 11706 or 14706 of title 49, may not be removed to any district court of the United States unless the matter in controversy exceeds $10,000, exclusive of interest and costs.
 

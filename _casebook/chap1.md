@@ -15,13 +15,13 @@ chapter-number: 1
 
 <div class="legal-code">
 
-####  U.S. Constitution, Art. III, sec. 1
+#### U.S. Constitution, Art. III, sec. 1
 
 The judicial power of the United States, shall be vested in one Supreme Court, and in such inferior courts as the Congress may from time to time ordain and establish. The judges, both of the supreme and inferior courts, shall hold their offices during good behaviour, and shall, at stated times, receive for their services, a compensation, which shall not be diminished during their continuance in office.
 
 </div>
 
-####  Administrative Office of the U.S. Courts, _Understanding the Federal Courts_ (n.d.)
+#### Administrative Office of the U.S. Courts, _Understanding the Federal Courts_ (n.d.)
 
 <p class="case-h1">Structure of the Federal Courts</p>
 
@@ -94,13 +94,13 @@ Within state judicial systems, original jurisdiction over certain types of cases
 
 ### Turning Disputes into Lawsuits
 
-####  William L.F. Felstiner, Richard L. Abel, & Austin Sarat, "The Emergence \& Transformation of Disputes: Naming, Blaming, Claiming ...", 15 Law & Society Review 631 (1980)
+#### William L.F. Felstiner, Richard L. Abel, & Austin Sarat, "The Emergence \& Transformation of Disputes: Naming, Blaming, Claiming ...", 15 Law & Society Review 631 (1980)
 
-<p class="case-h1">I. Introduction</p>
+<p class="case-h1">I. Introduction</p>
 
 The sociology of law has been dominated by studies of officials and formal institutions and their work products. This agenda has shaped the way disputes are understood and portrayed. Institutions reify cases by reducing them to records; they embody disputes in a concrete form that can be studied retrospectively by attending to the words used by lay persons and officials and by examining the economic and legal context in which cases occur. But disputes are not things: they are social constructs. Their shapes reflect whatever definition the observer gives to the concept. Moreover, a significant portion of any dispute exists only in the minds of the disputants.
 
-<p class="case-h1">II. Where Disputes Come From and How They Develop</p>
+<p class="case-h1">II. Where Disputes Come From and How They Develop</p>
 
  Assume a population living downwind from a nuclear test site. Some portion of that population has developed cancer as a result of the exposure and some has not. Some of those stricken know that they are sick and some do not. In order for disputes to emerge and remedial action to be taken, an unperceived injurious experience (unPIE, for short) must be transformed into a perceived injurious experience (PIE). The uninformed cancer victims must learn that they are sick. The transformation perspective directs our attention to the differential transformation of unPIEs into PIEs. It urges us to examine, in this case, differences in class, education, work situation, social networks, etc. between those who become aware of their cancer and those who do not, as well as attend to the possible manipulation of information by those responsible for the radiation.
 
@@ -114,7 +114,7 @@ We know that only a small fraction of injurious experiences ever mature into dis
 
 The early stages of naming, blaming, and claiming are significant, not only because of the high attrition they reflect, but also because the range of behavior they encompass is greater than that involved in the later stages of disputes, where institutional patterns restrict the options open to disputants. Examination of this behavior will help us identify the social structure of disputing. Transformations reflect social structural variables, as well as personality traits. People do---or do not---perceive an experience as an injury, blame someone else, claim redress, or get their claims accepted because of their _social position_ as well as their individual characteristics. The transformation perspective points as much to the study of social stratification as to the exploration of social psychology.
 
-<p class="case-h1">III. The Characteristics of Transformation</p>
+<p class="case-h1">III. The Characteristics of Transformation</p>
 
 PIEs, grievances, and disputes have the following characteristics: they are subjective, unstable, reactive, complicated, and incomplete. They are _subjective_ in the sense that transformations need not be accompanied by any observable behavior. A disputant discusses his problem with a lawyer and consequently reappraises the behavior of the opposing party. The disputant now believes that his opponent was not just mistaken but acted in bad faith. The content of the dispute has been transformed in the mind of the disputant, although neither the lawyer nor the opposing party necessarily knows about the shift.
 
@@ -122,7 +122,7 @@ Since transformations may be nothing more than changes in feelings, and feelings
 
 Even in ordinary understanding, disputing is a _complicated_ process involving ambiguous behavior, faulty recall, uncertain norms, conflicting objectives, inconsistent values, and complex institutions. It is complicated still further by attention to changes in disputant feelings and objectives over time. Take the stereotypical case of personal injury arising out of an automobile accident. A conventional analysis (e.g., the one often borrowed from economics) assumes that the goals of the defendant driver are to minimize his responsibility and limit the complainant's recovery. A transformation view, on the other hand, suggests that the defendant's objectives may be both less clear and less stable. Depending on his insurance position, his own experience, his empathy for, relationship to, and interaction with the injured person, and the tenor of discussions he may have with others about the accident and its aftermath, the defendant may at various times wish to maximize rather than minimize both his own fault and the complainant's recovery or to take some intermediate position. A transformation approach would seek to identify these activities and their effects in order to account for such shifts in objective.
 
-<p class="case-h1">IV. Subjects and Agents of Transformation</p>
+<p class="case-h1">IV. Subjects and Agents of Transformation</p>
 
 One way to organize the study of the transformations of PIEs, grievances, and disputes is to identify what is being transformed (the subjects of transformation) and what does the transforming (the agents of transformation).
 

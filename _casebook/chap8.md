@@ -34,7 +34,7 @@ In March 2001, a Georgia county deputy clocked respondent's vehicle traveling at
 
 Following respondent's shopping center maneuvering, which resulted in slight damage to Scott's police car, Scott took over as the lead pursuit vehicle. Six minutes and nearly 10 miles after the chase had begun, Scott decided to attempt to terminate the episode by employing a "Precision Intervention Technique ('PIT') maneuver, which causes the fleeing vehicle to spin to a stop." Having radioed his supervisor for permission, Scott was told to "'go ahead and take him out.'" Instead, Scott applied his push bumper to the rear of respondent's vehicle. As a result, respondent lost control of his vehicle, which left the roadway, ran down an embankment, overturned, and crashed. Respondent was badly injured and was rendered a quadriplegic.
 
-Respondent filed suit against Deputy Scott and others under 42 U.S.C. § 1983, alleging, _inter alia,_ a violation of his federal constitutional rights, viz. use of excessive force resulting in an unreasonable seizure under the Fourth Amendment. In response, Scott filed a motion for summary judgment based on an assertion of qualified immunity. The District Court denied the motion, finding that "there are material issues of fact on which the issue of qualified immunity turns which present sufficient disagreement to require submission to a jury." On interlocutory appeal, the United States Court of Appeals for the Eleventh Circuit affirmed the District Court's decision to allow respondent's Fourth Amendment claim against Scott to proceed to trial. Taking respondent's view of the facts as given, the Court of Appeals concluded that Scott's actions could constitute "deadly force" under _Tennessee v. Garner,_ and that the use of such force in this context "would violate respondent's constitutional right to be free from excessive force during a seizure.
+Respondent filed suit against Deputy Scott and others under 42 U.S.C. § 1983, alleging, _inter alia,_ a violation of his federal constitutional rights, viz. use of excessive force resulting in an unreasonable seizure under the Fourth Amendment. In response, Scott filed a motion for summary judgment based on an assertion of qualified immunity. The District Court denied the motion, finding that "there are material issues of fact on which the issue of qualified immunity turns which present sufficient disagreement to require submission to a jury." On interlocutory appeal, the United States Court of Appeals for the Eleventh Circuit affirmed the District Court's decision to allow respondent's Fourth Amendment claim against Scott to proceed to trial. Taking respondent's view of the facts as given, the Court of Appeals concluded that Scott's actions could constitute "deadly force" under _Tennessee v. Garner,_ and that the use of such force in this context "would violate respondent's constitutional right to be free from excessive force during a seizure.
 
 Accordingly, a reasonable jury could find that Scott violated respondent's Fourth Amendment rights." The Court of Appeals further concluded that "the law as it existed at the time of the incident, was sufficiently clear to give reasonable law enforcement officers 'fair notice' that ramming a vehicle under these circumstances was unlawful." The Court of Appeals thus concluded that Scott was not entitled to qualified immunity. We granted certiorari and now reverse.
 
@@ -223,25 +223,25 @@ Officer Vincent called for a K-9 officer, and Deputy Joseph Mangino soon arrived
 
 [^stout3]: (n.3 in opinion) The parties' accounts of the search differ. Stout and Montgomery insist that no drugs were found in the vehicle. Officer Vincent claims he found marijuana residue on the floorboard of the vehicle and a piece large enough to be easily identified as marijuana. Because the quantity of the marijuana was small, the officers did not issue a citation. We reiterate that we view all factual disputes in a light most favorable to Appellants
 
-Stout and Montgomery sued Officer Vincent, seeking injunctive relief and damages for violation of their Fourteenth Amendment rights under 42 U.S.C. § 1983. Specifically, they alleged that impermissible considerations of race motivated their extended detention by Officer Vincent. Officer Vincent moved for summary judgment on the basis of qualified immunity, and the district court granted his motion, concluding Appellants "have not presented any evidence" in support of their claim that Officer Vincent's conduct "was at least partially based on their race." Stout and Montgomery appealed.
+Stout and Montgomery sued Officer Vincent, seeking injunctive relief and damages for violation of their Fourteenth Amendment rights under 42 U.S.C. § 1983. Specifically, they alleged that impermissible considerations of race motivated their extended detention by Officer Vincent. Officer Vincent moved for summary judgment on the basis of qualified immunity, and the district court granted his motion, concluding Appellants "have not presented any evidence" in support of their claim that Officer Vincent's conduct "was at least partially based on their race." Stout and Montgomery appealed.
 
 <p class="case-h1">Discussion</p>
 
 On appeal, Stout and Montgomery raise only one issue: whether the district court erred when concluding there was no genuine issue of material fact that Officer Vincent's actions were impermissibly motivated by race.
 
 
-<p class="case-h1">I. Legal Standard</p>
+<p class="case-h1">I. Legal Standard</p>
 
-<p class="case-h2">A. Summary Judgment</p>
+<p class="case-h2">A. Summary Judgment</p>
 
-Under Federal Rule of Civil Procedure 56, a "court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law." FED. R. CIV. P. 56(a). The Supreme Court has explained that "a party seeking summary judgment always bears the initial responsibility of informing the district court of the basis for its motion, and identifying those portions of the record which it believes demonstrate the absence of a genuine issue of material fact." _Celotex Corp. v. Catrett_. But the moving party has no need to negate its opponents' claims.
+Under Federal Rule of Civil Procedure 56, a "court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law." FED. R. CIV. P. 56(a). The Supreme Court has explained that "a party seeking summary judgment always bears the initial responsibility of informing the district court of the basis for its motion, and identifying those portions of the record which it believes demonstrate the absence of a genuine issue of material fact." _Celotex Corp. v. Catrett_. But the moving party has no need to negate its opponents' claims.
 
 If the moving party meets its burden, "the nonmovant must go beyond the pleadings and designate specific facts showing that there is a genuine issue for trial." The nonmovant's "burden is not satisfied with some metaphysical doubt as to the material facts, by conclusory allegations, by unsubstantiated assertions, or by only a scintilla of evidence."
 
 A court must view all evidence "in the light most favorable to the opposing party." In _Tolan v. Cotton_, the Supreme Court stressed "the importance of drawing inferences in favor of the nonmovant" in qualified immunity cases.If a district court credits evidence of the party seeking summary judgment but fails to properly acknowledge key evidence offered by the nonmoving party, it misapprehends the summary judgment standard.
 
 
-<p class="case-h2">C. Fourteenth Amendment Racial Profiling</p>
+<p class="case-h2">C. Fourteenth Amendment Racial Profiling</p>
 
 "The Constitution prohibits selective enforcement of the law based on considerations such as race." "The constitutional basis for objecting to intentionally discriminatory application of laws is the Equal Protection Clause." 
 
@@ -251,7 +251,7 @@ In another context, we have said that a plaintiff's "subjective belief of discri
 
 Finally, "discriminatory intent of one official may not be imputed to another for purposes of imposing individual liability under the civil rights laws."
 
-<p class="case-h1">II. Lack of Evidence of Fourteenth Amendment Violation</p>
+<p class="case-h1">II. Lack of Evidence of Fourteenth Amendment Violation</p>
 
 The district court concluded that Montgomery and Stout "have not presented any evidence to support their claim" that Officer Vincent's decision to detain them was "at least partially based on their race." The district court further concluded that Montgomery and Stout "have likewise not shown that their race played any role whatsoever in Vincent's formulation of a reasonable Montgomery have failed to produce _any_ material evidence showing that race motivated Officer Vincent's conduct, we need not address the issue. suspicion or wrongdoing, or in the actions that were taken by him to dispel that suspicion."
 

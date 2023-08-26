@@ -13,7 +13,7 @@ chapter-number: 3
 
 <div class="legal-code">
 
-####  U.S. Constitution 
+#### U.S. Constitution 
 
 <p class="case-h1">Amendment V</p>
 
@@ -112,7 +112,7 @@ The authority of the salesmen is limited to exhibiting their samples and solicit
 
 [^Shoe1]:
 
-  {-} F.O.B. ("free on board") is a commercial law term indicating the point at which responsibility for goods shifts from the seller to the buyer. In this case, International Shoe shipped its shoes "F.O.B. Origin", meaning it was no longer responsible for the shoes once they left the point of shipment outside Washington. The company relied on this legal formality to contend it engaged in no activity within Washington.
+  {-} F.O.B. ("free on board") is a commercial law term indicating the point at which responsibility for goods shifts from the seller to the buyer. In this case, International Shoe shipped its shoes "F.O.B. Origin", meaning it was no longer responsible for the shoes once they left the point of shipment outside Washington. The company relied on this legal formality to contend it engaged in no activity within Washington.
 
 Historically the jurisdiction of courts to render judgment _in personam_ is grounded on their de facto power over the defendant's person. Hence his presence within the territorial jurisdiction of a court was prerequisite to its rendition of a judgment personally binding him. _Pennoyer v. Neff,_ 95 U.S. 714, 733. But due process requires only that in order to subject a defendant to a judgment _in personam,_ if he be not present within the territory of the forum, he have certain minimum contacts with it such that the maintenance of the suit does not offend "traditional notions of fair play and substantial justice."
 
@@ -168,7 +168,7 @@ In this case, there has been service of process, but the suit does not arise out
 
 <p class="case-h1">Opinion of the Court by Justice BLACK, announced by Justice DOUGLAS.</p>
 
-Petitioner, Lulu B. McGee, recovered a judgment in a California state court against respondent, International Life Insurance Company, on a contract of insurance. Respondent was not served with process in California but by registered mail at its principal place of business in Texas. The California court based its jurisdiction on a state statute which subjects foreign corporations to suit in California on insurance contracts with residents of that State even though such corporations cannot be served with process within its borders.
+Petitioner, Lulu B. McGee, recovered a judgment in a California state court against respondent, International Life Insurance Company, on a contract of insurance. Respondent was not served with process in California but by registered mail at its principal place of business in Texas. The California court based its jurisdiction on a state statute which subjects foreign corporations to suit in California on insurance contracts with residents of that State even though such corporations cannot be served with process within its borders.
 
 Unable to collect the judgment in California petitioner went to Texas where she filed suit on the judgment in a Texas court. But the Texas courts refused to enforce her judgment holding it was void under the Fourteenth Amendment because service of process outside California could not give the courts of that State jurisdiction over respondent. Since the case raised important questions, not only to California but to other States which have similar laws, we granted certiorari. It is not controverted that if the California court properly exercised jurisdiction over respondent the Texas courts erred in refusing to give its judgment full faith and credit.
 
@@ -384,11 +384,11 @@ Larry Flynt's colorful life and encounters with the law are the subject of a mov
 
 </div>
 
-#### Johnson v. Griffin, No. 3:22-cv-000295 (M.D. Tenn. March 3, 2023) 
+#### Johnson v. Griffin, No. 3:22-cv-000295 (M.D. Tenn. March 3, 2023) 
 
 <p class="case-h1">WILLIAM L. CAMPBELL, JR., District Judge.</p>
 
-<p class="case-h1">I. FACTUAL AND PROCEDURAL BACKGROUND</p>
+<p class="case-h1">I. FACTUAL AND PROCEDURAL BACKGROUND</p>
 
 On April 24, 2021, Plaintiff Samuel Johnson ("Johnson") was at a local hotel restaurant for dinner. An incident occurred at the hotel between Johnson and some teenagers dressed for prom. One of the teenagers took a video of the incident on their cell phone and published an edited version (the "Clip") to their personal TikTok account. The complaint alleges that the Clip had limited public exposure between April 24 and April 25, 2021. 
 
@@ -416,13 +416,13 @@ VisuWell replied to Griffin minutes later, tweeting: "terminated." The complaint
 
 Plaintiffs filed the present suit against Griffin on April 25, 2022, based on diversity of citizenship and an amount in controversy exceeding $75,000.00. Plaintiffs bring state law claims for tortious interference with employment relations, common law and statutory tortious interference with contractual relations, intentional infliction of emotional distress, invasion of privacy — intrusion upon seclusion, prima facie tort, and negligence _per se._ Griffin filed the pending motion to dismiss for lack of personal jurisdiction under Federal Rule of Civil Procedure 12(b)(2) and for failure to state a claim under Rule 12(b)(6). (Doc. No. 18).
 
-<p class="case-h1">II. PERSONAL JURISDICTION</p>
+<p class="case-h1">II. PERSONAL JURISDICTION</p>
 
-<p class="case-h2">A. Legal Standard</p>
+<p class="case-h2">A. Legal Standard</p>
 
 "Motions to dismiss under Rule 12(b)(2) involve burden shifting." "The plaintiff must first make a prima facie case, which can be done merely through the complaint." "The burden then shifts to the defendant, whose motion to dismiss must be properly supported with evidence." "Once the defendant has met the burden, it returns to the plaintiff, who may no longer stand on his pleadings but must, by affidavit or otherwise, set forth specific facts showing that the court has jurisdiction." "The court must view the pleadings and affidavits in a light most favorable to the plaintiff and not weigh the controverting assertions of the party seeking dismissal." 
 
-<p class="case-h2">B. Analysis</p>
+<p class="case-h2">B. Analysis</p>
 
 "A federal court sitting in diversity may not exercise jurisdiction over a defendant unless courts of the forum state would be authorized to do so by state law—and any such exercise of jurisdiction must be compatible with the due process requirements of the United States Constitution." "Due process requires that an out-of-state defendant have 'minimum contacts' with the forum state sufficient to comport with 'traditional notions of fair play and substantial justice.'" Tennessee's long-arm statute "extends its jurisdiction to due process's limits, so due process is all the court must address."
 
@@ -432,7 +432,7 @@ Here, Plaintiffs argue the following factual allegations make the requisite prim
 
 Even viewing the factual allegations in the light most favorable to Plaintiffs and drawing all reasonable inferences in their favor, the factual allegations in the complaint do not demonstrate that Griffin has sufficient minimum contacts with Tennessee such that jurisdiction over her would be reasonable. While Griffin's tweets expressly named Tennessee residents, a Tennessee business, and Tennessee cities, there are no allegations in the complaint that Griffin's tweets were directed at Tennessee readers, as opposed to the residents of other states, or that Griffin posted her tweets hoping to reach Tennessee specifically as opposed to her two million Twitter followers generally. Nor does the complaint allege that Griffin has any Twitter followers in Tennessee or that Tennessee was the focal point of Griffin's tweets. While Plaintiffs allege that Griffin's tweets caused third parties to threaten and dox them in Tennessee, "the Supreme Court has "consistently rejected attempts to satisfy the defendant-focused 'minimum contacts' inquiry by demonstrating contacts between third parties and the forum State." Finally, Griffin's two previous live performances in Tennessee are insufficient contacts to form the basis for this Court to exercise personal jurisdiction over Griffin in the present case because Plaintiffs' causes of action do not arise from those alleged contacts. 
 
-<p class="case-h1">III. CONCLUSION</p>
+<p class="case-h1">III. CONCLUSION</p>
 
 For the foregoing reasons, the exercise of jurisdiction over Griffin would offend due process. Accordingly, Griffin's motion to dismiss will be GRANTED for lack of personal jurisdiction.
 
@@ -518,7 +518,7 @@ That standard is easily met here. Ford has long had a heavy presence in Minnesot
 
 Well, Ford makes that argument. It would send the plaintiffs packing to the jurisdictions where the vehicles in question were assembled (Kentucky and Canada), designed (Michigan), or first sold (Washington and North Dakota) or where Ford is incorporated (Delaware) or has its principal place of business (Michigan).
 
-As might have been predicted, the Court unanimously rejects this understanding of "traditional notions of fair play and substantial justice." And in doing so, we merely follow what we said in _World-Wide Volkswagen Corp. v. Woodson_, which was essentially this: If a car manufacturer makes substantial efforts to sell vehicles in States A and B (and other States), and a defect in a vehicle first sold in State A causes injuries in an accident in State B, the manufacturer can be sued in State B. That rule decides these cases.
+As might have been predicted, the Court unanimously rejects this understanding of "traditional notions of fair play and substantial justice." And in doing so, we merely follow what we said in _World-Wide Volkswagen Corp. v. Woodson_, which was essentially this: If a car manufacturer makes substantial efforts to sell vehicles in States A and B (and other States), and a defect in a vehicle first sold in State A causes injuries in an accident in State B, the manufacturer can be sued in State B. That rule decides these cases.
 
 Ford, however, asks us to adopt an unprecedented rule under which a defendant's contacts with the forum State must be proven to have been a but-for cause of the tort plaintiff's injury. The Court properly rejects that argument, and I agree with the main thrust of the Court's opinion. My only quibble is with the new gloss that the Court puts on our case law. Several of our opinions have said that a plaintiff's claims "'must arise out of or relate to the defendant's contacts'" with the forum. The Court parses this phrase "as though we were dealing with language of a statute," and because this phrase is cast in the disjunctive, the Court recognizes a new category of cases in which personal jurisdiction is permitted: those in which the claims do not "arise out of" (_i.e._, are not caused by) the defendant's contacts but nevertheless sufficiently "relate to" those contacts in some undefined way.
 
@@ -580,11 +580,11 @@ This case concerns the authority of a court in the United States to entertain a 
 
 The question presented is whether the Due Process Clause of the Fourteenth Amendment precludes the District Court from exercising jurisdiction over Daimler in this case, given the absence of any California connection to the atrocities, perpetrators, or victims described in the complaint. Plaintiffs invoked the court's general or all-purpose jurisdiction. California, they urge, is a place where Daimler may be sued on any and all claims against it, wherever in the world the claims may arise. For example, as plaintiffs' counsel affirmed, under the proffered jurisdictional theory, if a Daimler-manufactured vehicle overturned in Poland, injuring a Polish driver and passenger, the injured parties could maintain a design defect suit in California. Exercises of personal jurisdiction so exorbitant, we hold, are barred by due process constraints on the assertion of adjudicatory authority.
 
-In _Goodyear Dunlop Tires Operations, S.A. v. Brown_,we addressed the distinction between general or all-purpose jurisdiction, and specific or conduct-linked jurisdiction. As to the former, we held that a court may assert jurisdiction over a foreign corporation "to hear any and all claims against it" only when the corporation's affiliations with the State in which suit is brought are so constant and pervasive "as to render it essentially at home in the forum State." Instructed by _Goodyear,_ we conclude Daimler is not "at home" in California, and cannot be sued there for injuries plaintiffs attribute to MB Argentina's conduct in Argentina.
+In _Goodyear Dunlop Tires Operations, S.A. v. Brown_,we addressed the distinction between general or all-purpose jurisdiction, and specific or conduct-linked jurisdiction. As to the former, we held that a court may assert jurisdiction over a foreign corporation "to hear any and all claims against it" only when the corporation's affiliations with the State in which suit is brought are so constant and pervasive "as to render it essentially at home in the forum State." Instructed by _Goodyear,_ we conclude Daimler is not "at home" in California, and cannot be sued there for injuries plaintiffs attribute to MB Argentina's conduct in Argentina.
 
 <p class="case-h1">I</p>
 
-In 2004, plaintiffs (respondents here) filed suit in the United States District Court for the Northern District of California, alleging that MB Argentina collaborated with Argentinian state security forces to kidnap, detain, torture, and kill plaintiffs and their relatives during the military dictatorship in place there from 1976 through 1983, a period known as Argentina's "Dirty War." Based on those allegations, plaintiffs asserted claims under the Alien Tort Statute,[^Daimler1] 28 U.S.C. § 1350, and the Torture Victim Protection Act of 1991, as well as claims for wrongful death and intentional infliction of emotional distress under the laws of California and Argentina. The incidents recounted in the complaint center on MB Argentina's plant in Gonzalez Catan, Argentina; no part of MB Argentina's alleged collaboration with Argentinian authorities took place in California or anywhere else in the United States.
+In 2004, plaintiffs (respondents here) filed suit in the United States District Court for the Northern District of California, alleging that MB Argentina collaborated with Argentinian state security forces to kidnap, detain, torture, and kill plaintiffs and their relatives during the military dictatorship in place there from 1976 through 1983, a period known as Argentina's "Dirty War." Based on those allegations, plaintiffs asserted claims under the Alien Tort Statute,[^Daimler1] 28 U.S.C. § 1350, and the Torture Victim Protection Act of 1991, as well as claims for wrongful death and intentional infliction of emotional distress under the laws of California and Argentina. The incidents recounted in the complaint center on MB Argentina's plant in Gonzalez Catan, Argentina; no part of MB Argentina's alleged collaboration with Argentinian authorities took place in California or anywhere else in the United States.
 
 [^Daimler1]:
 
@@ -628,7 +628,7 @@ As is evident from _Perkins_, _Helicopteros,_ and _Goodyear,_ general and specif
 
 With this background, we turn directly to the question whether Daimler's affiliations with California are sufficient to subject it to the general (all-purpose) personal jurisdiction of that State's courts. In the proceedings below, the parties agreed on, or failed to contest, certain points we now take as given. Plaintiffs have never attempted to fit this case into the _specific_ jurisdiction category. Nor did plaintiffs challenge on appeal the District Court's holding that Daimler's own contacts with California were, by themselves, too sporadic to justify the exercise of general jurisdiction. While plaintiffs ultimately persuaded the Ninth Circuit to impute MBUSA's California contacts to Daimler on an agency theory, at no point have they maintained that MBUSA is an alter ego of Daimler.
 
-Daimler, on the other hand, failed to object below to plaintiffs' assertion that the California courts could exercise all-purpose jurisdiction over MBUSA. We will assume then, for purposes of this decision only, that MBUSA qualifies as at home in California.
+Daimler, on the other hand, failed to object below to plaintiffs' assertion that the California courts could exercise all-purpose jurisdiction over MBUSA. We will assume then, for purposes of this decision only, that MBUSA qualifies as at home in California.
 
 <p class="case-h2">A</p>
 
@@ -1034,7 +1034,7 @@ A court of this state may exercise jurisdiction on any basis not inconsistent wi
 
 Under this type of long-arm statute, the same analysis (i.e. does the defendant have minimum contacts with the forum state?) answers both the statutory and constitutional question.
 
-Some enumerated long-arm statutes have been interpreted as authorizing the exercise of jurisdiction to the full extent permitted under the constitution. See, e.g., _Dillon v. Numismatic Funding Corp._, 291 N.C. 674, 676 (1977) ("By the enactment of [G.S. 1-75.4(1)(d)](https://bit.ly/3Li9KAB), it is apparent that the General Assembly intended to make available to the North Carolina courts the full jurisdictional powers permissible under federal due process.") 
+Some enumerated long-arm statutes have been interpreted as authorizing the exercise of jurisdiction to the full extent permitted under the constitution. See, e.g., _Dillon v. Numismatic Funding Corp._, 291 N.C. 674, 676 (1977) ("By the enactment of [G.S. 1-75.4(1)(d)](https://bit.ly/3Li9KAB), it is apparent that the General Assembly intended to make available to the North Carolina courts the full jurisdictional powers permissible under federal due process.") 
 
 </div>
 
