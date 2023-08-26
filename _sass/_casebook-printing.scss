@@ -60,6 +60,12 @@
 		@top-center { content: normal; }
 		@top-right { content: normal; }
     }
+	@page frontmatter {
+        border: none;
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+    }
     @page body {
         border-top: thin black solid;
     }
@@ -75,8 +81,8 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
-		@leftnote { width: 35mm;}
-		@rightnote { width: 0mm;}
+		@leftnote { width: 35mm; padding-right: 10mm;}
+		@rightnote { width: 0mm; padding-left: 0mm;}
 	}
 	@page body:right {
 		@top-left { content: normal;}
@@ -90,8 +96,8 @@
 			content: counter(page);
             vertical-align: bottom;
 		}
-		@leftnote { width: 0mm; }
-		@rightnote { width: 35mm; }
+		@leftnote { width: 0mm; padding-right: 0mm; }
+		@rightnote { width: 35mm; padding-leftt: 10mm; }
 	}
     @page body:first {
         margin-top: 25%;
@@ -129,7 +135,7 @@
         text-align: left;
 		hyphens: none;
 		padding: 0 0 0 0;
-		page-break-after: right;
+		page-break-after: verso;
 	}
 	.book-author {
 		string-set: book_author content();
@@ -174,14 +180,15 @@
 		margin: 0 0 0 0;
 	}
 	.colophon {
-		page: blank;
+		display: block;
+		page: frontmatter;
 		width: 100%;
         text-align: left;
 		hyphens: none;
 		margin: 0 0 22mm 0;
 		padding: 0 0 0 0;
 		-prince-float: page bottom;
-		page-break-after: right;
+		page-break-after: recto;
 	}
 	.contents{
         display: block;
@@ -191,7 +198,10 @@
 		hyphens: none;
 		text-align: left;
 		padding: 0 0 0 0;
-		page-break-after: right;
+		page-break-after: recto;
+	}
+	@page table-of-contents {
+        border-top: thin black solid;
 	}
     @page table-of-contents:left {
 		@top-left { content: normal; }
@@ -211,25 +221,28 @@
 	}
 	.epigraph {
         display: block;
-		page: blank;
-		width: 60%;
+		page: frontmatter;
+		width: 100%;
 		hyphens: none;
         text-align: left;
-		margin: 90mm 0 0 0;
+		margin: 30mm 0 0 0;
 		padding: 0 0 0 0;
-		page-break-after: right;
+		page-break-after: recto;
 	}
 	.casebook {
         display: block;
-        page: main;
+        page: body;
         counter-reset: page 1;
 		width: 125mm;
 		padding: 0 0 0 0;
 	}
 	.chapter {
-		page: main;
+		page: body;
 		padding: 0 0 0 0; 
 		page-break-before: recto;
+	}
+	.chapter-number {
+		margin-top: 30mm;
 	}
 	h1, h2, h3, h4, h5, h6{
 		hyphens: none;
