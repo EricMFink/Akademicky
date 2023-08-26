@@ -13,7 +13,7 @@
 		orphans: 4;
 		widows: 2;
 		font-size: 10pt;
-        @leftnote { width: 35mm; padding-right: 10mm;}
+        @leftnote { width: 0;}
         @rightnote { width: 35mm; padding-left: 10mm;}
 	}
 	@page :left {
@@ -29,8 +29,8 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
-		@leftnote { width: 35mm;}
-		@rightnote { width: 0mm;}
+		  @leftnote { width: 0;}
+		  @rightnote { width: 35mm; padding-left: 10mm;}
 	}
 	@page :right {
         border-top: thin black solid;
@@ -65,8 +65,8 @@
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-        @leftnote { width: 0mm; padding-right: 0mm;}
-        @rightnote { width: 0mm; padding-left: 0mm;}
+        @leftnote { width: 0mm; }
+        @rightnote { width: 0mm; }
     }
     @page chapter {
         border-top: thin black solid;
@@ -83,8 +83,8 @@
 			vertical-align: bottom; 
 		}
 	  	@top-right { content: normal;}
-		@leftnote { width: 35mm; padding-right: 10mm;}
-		@rightnote { width: 0mm; padding-left: 0mm;}
+		  @leftnote { width: 0;}
+		  @rightnote { width: 35mm; padding-left: 10mm;}
 	}
 	@page chapter:right {
 		@top-left { content: normal;}
@@ -98,8 +98,8 @@
 			content: counter(page);
             vertical-align: bottom;
 		}
-		@leftnote { width: 0mm; padding-right: 0mm; }
-		@rightnote { width: 35mm; padding-left: 10mm; }
+        @leftnote { width: 0;}
+        @rightnote { width: 35mm; padding-left: 10mm;}
 	}
     @page chapter:first {
         margin-top: 25%;
