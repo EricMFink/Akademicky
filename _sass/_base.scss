@@ -137,7 +137,7 @@ blockquote p {
 }
 
 
-/* Colored text */
+/* Styled text */
 .sans-green {				/* emulates marginnote */
 	font-family: $sans-font;
 	color: $dark-green;
@@ -151,3 +151,13 @@ blockquote p {
 	font-weight: 400;
 	font-style: normal;
 }
+.contrast { color: $contrast-color;}
+.small {
+	font-size: $small-size;
+	}
+.smaller {
+	font-size: $smaller-size;
+	}
+.contrast {
+	color: $contrast-color;
+	}

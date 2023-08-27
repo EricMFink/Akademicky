@@ -20,11 +20,9 @@
     margin-bottom: 2rem;
     margin-top: 0;
     list-style-type: none;
-
     li {
         margin: 0 0 1.5rem 0;
         position: relative;
-
         span { display: block; }
         .title { font-weight: $normal-weight; }
         .author {
@@ -55,7 +53,6 @@
             -ms-transition: 0.15s ease;
             -o-transition: 0.15s ease;
             transition: all 0.15s ease;
-
             p {
                 line-height: 1.4em;
                 margin: 10px;
