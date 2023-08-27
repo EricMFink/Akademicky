@@ -142,10 +142,8 @@
 		margin: 0 0 0 0;
 	}
 	div.colophon {
-		margin: 0 0 0 0;
 		page: colophon;
-		break-after: right;
-		-prince-float: bottom;
+        -prince-float: bottom;
 	}
 	p.colophon {
 		font-size: 9pt;
@@ -153,11 +151,11 @@
 		margin: 0 0 0 0;
 	}
 	div.epigraph {
-		margin: 25% 0 0 0;
 		page: epigraph;
 	}
 	p.epigraph-quote {
 		font-style: italic;
+		margin: 25% 0 0 0;
 	}
 	p.epigraph-cite {
 		text-align: right;
