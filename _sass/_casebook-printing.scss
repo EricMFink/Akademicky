@@ -26,19 +26,24 @@
 		@top-right { content: normal; }
     }
 	@page chapter {
+		padding: 10mm 0 10mm 0;
 		@bottom-center {
+			font-family: $sans-font;
 			content: counter(page);
 			vertical-align: bottom;
+			padding-bottom: 5mm;
 		}
 	}
 	@page chapter:left {
 		@top-center {
+			font-family: $sans-font;
 			font-size: 9pt;
 			content: string(book_title);
 			vertical-align: bottom;
 		}
 	}
 	@page chapter:right {
+		font-family: $sans-font;
 		@top-center {
 			font-size: 9pt;
 			content: string(chapter_title);
