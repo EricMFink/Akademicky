@@ -26,9 +26,15 @@
 <body>
 
 	<div class="title-page">
+		<p class="book-author">{{ page.author }}</p>
+		<div class="title-block" group>
 		<p class="book-title">{{ page.title }}</p>
 		<p class="book-subtitle">{{ page.subtitle }}</p>
-		<p class="book-author">{{ page.author }}</p>
+		</div>
+		<div class="publication-block" group>
+			<p class="book-affiliation">{{ page.affiliation }}</p>
+			<p class="book-date">{{ page.term }}</p>
+		</div>
 	</div>
 
 	<div class="casebook">

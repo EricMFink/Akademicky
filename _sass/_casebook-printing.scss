@@ -1,11 +1,13 @@
    
 @media print {
 	@page {
-		margin-top: 21mm;
-		margin-bottom: 42mm;
-		margin-left: 21;
-		margin-right: 21;
-		padding: 0;
+		margin-top: .4in;
+		margin-bottom: 1.25in;
+		margin-left: 0;
+		margin-right: 0;
+		margin-inside: .4in;
+		margin-outside: .8in;
+		padding: 0 0 0 0;
 		size: letter portrait;
 		background-color: transparent;
         border: none;
@@ -13,7 +15,7 @@
 		widows: 2;
 		font-size: 10pt;
 		@leftnote { width: 0;}
-		@rightnote { width: 40mm; padding-left: 9mm;}
+		@rightnote { width: 1.5in; padding-left: .5in;}
 	}
   	@page :first {
 		@top-left { content: normal; }
@@ -26,7 +28,7 @@
 		@top-right { content: normal; }
     }
 	@page chapter {
-		padding: 10mm 0 10mm 0;
+		padding: .2in 0 0 0;
 		}
 	@page chapter:left {
 		@top-left {
@@ -116,7 +118,7 @@
 	}
 	div.casebook {
 		display: block;
-		width: 125mm;
+		width: 5in;
 		padding: 0 0 0 0;
 		counter-reset: page 1;
 	}
