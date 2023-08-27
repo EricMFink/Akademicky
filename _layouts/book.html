@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,38 +17,13 @@
 
 	<link rel="stylesheet" type="text/css" href="{{ "https://emfink.net/akademicky/assets/css/book-style.css" }}">
 
-	<script type="text/javascript" src="https://princexml.com/howcome/2021/guides/charms.js"></script>
-
 </head>
 
-<body onload="toc('h1, h2, h3, h4')">
-
-	<div class="book-cover">
-		<p class="book-author">{{ site.author.name}}</p>
-		<div class="title-block">
-			<p class="book-title">{{ site.coursebook.title}}</p>
-			<p class="book-subtitle">{{ site.coursebook.subtitle}}</p>
-		</div>
-		<div class="publication-block">
-			<p class="book-subtitle">{{ site.author.affiliation}}</p>
-			<p class="book-subtitle">{{ site.coursebook.date}}</p>
-		</div>
-	</div>
-
-	{% include colophon.html %}
-
-	<div class="contents">
-		<h2>Table of Contents</h2>
-		<ol id=toc></ol>
-	</div>
-
-	{% if page.epigraph %}
-		{% include epigraph.html %}
-	{% endif %}
+<body>
 
 	<div class="casebook">
 
-		{% include anchor_headings.html html=content anchorBody="#" %}
+		{{ content }}
 
 	</div>
 
