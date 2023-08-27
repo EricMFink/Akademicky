@@ -1,107 +1,34 @@
-- id: Fink2018
-  type: article
-  author: Eric M. Fink & Stuart Lichten 
-  title: "'Just When I Thought I was Out …': Post-Employment Repayment Obligations"
-  journal: Washington & Lee Journal of Civil Rights & Social Justice
-  page: 51
-  volume: 25
-  date: 2018
-  pdf: Fink2018
+- id: Benjamin1999
+  author:
+    - family: Benjamin
+      given: Walter
+  citation-key: Benjamin1999
+  ISBN: 978-0-674-04326-8
+  issued:
+    - year: 1999
+  language: en
+  number-of-pages: '1100'
+  publisher: Harvard University Press
+  title: The Arcades Project
+  type: book
+  pdf: Benjamin1999
 
-- id: Fink2016
-  type: article
-  author: Eric M. Fink
-  title: "Union Organizing & Collective Bargaining for Incarcerated Workers"
-  journal: Idaho Law Review
-  page: 953
-  volume: 52
-  date: 2016
-  pdf: Fink2016
-
-- id: Fink2014
-  type: article
-  author: Eric M. Fink
-  title: "Sewer Syndicalism: Worker Control in Public Services"
-  journal: Nevada Law Journal
-  page: 444
-  volume: 14
-  date: 2014
-  pdf: Fink2014
-
-- id: Fink2014a
-  type: report
-  author: Eric M. Fink & Roland Zullo
-  title: "Federal Student Loan Servicing: Contract Problems and Public Solutions"
-  institution: Jobs With Justice Educational Fund
-  date: 2014
-  pdf: Fink2014a
-
-- id: Fink2013
-  type: article
-  author: Eric M. Fink
-  title: "No Money, Mo’ Problems: Why Unpaid Law Firm Internships Are Illegal and Unethical"
-  journal: University of San Francisco Law Review
-  page: 435
-  volume: 47
-  date: 2013
-  pdf: Fink2013
-
-- id: Fink2011
-  type: article
-  author: Eric M. Fink
-  title: "The Virtual Construction of Legality: 'Griefing' and Normative Order in Second Life"
-  journal: Journal of Law, Information, and Science
-  issue: 1
-  page: 89
-  volume: 21
-  date: 2011
-  pdf: Fink2011
-
-- id: Fink2010
-  type: article
-  author: Eric M. Fink
-  title: "Law School and The Web of Group Affiliation: Socializing, Socialization, and Social Network Site Use Among Law Students"
-  journal: John Marshall Journal of Computer and Information Law
-  page: 325
-  volume: 27
-  date: 2010
-  pdf: Fink2010
-
-- id: Fink2008
-  type: article
-  author: Eric M. Fink
-  title: "Liars and Terrorists and Judges, Oh My: Moral Panic and the Symbolic
-    Politics of Appellate Review in Asylum Cases"
-  journal: Notre Dame Law Review
-  page: 2019
-  volume: 83
-  date: 2008
-  pdf: Fink2008
-
-- id: Fink2004
-  type: article
-  author: Eric M. Fink
-  title: "Post-Realism, or the Jurisprudential Logic of Late Capitalism: A Socio-Legal Analysis of the Rise and Diffusion of Law and Economics"
-  journal: Hastings Law Journal
-  page: 31
-  volume: 55
-  date: 2004
-  pdf: Fink2004
-
-- id: Fink2001
-  type: chapter
-  author: Stuart W. Davidson & Eric M. Fink
-  title: "Union and Employee Access to Employer E-mail Systems Under Federal Labor Law"
-  book: "The CyberUnion Handbook: Transforming Labor Through Computer Technology"
-  editor: Arthur Shostak, ed.
-  pages: 98-103
-  date: 2001
-
-- id: Fink1996
-  type: article 
-  author: Eric M. Fink
-  title: "Book Note, The Caribbean: New Dynamics in Trade and Political Economy"
-  journal: NYU Journal of International Law and Politics
-  volume: 28 
-  page: 644 
-  date: 1996
+- id: Benjamin1985
+  author:
+    - family: Benjamin
+      given: Walter
+    - family: Spencer
+      given: Lloyd
+    - family: Harrington
+      given: Mark
+  citation-key: Benjamin1985
+  container-title: New German Critique
+  DOI: 10.2307/488338
+  ISSN: 0094-033X
+  issue: '34'
+  issued:
+    - year: 1985
+  page: 32-58
+  publisher: '[New German Critique, Duke University Press]'
+  title: Central Park
+  type: article-journal

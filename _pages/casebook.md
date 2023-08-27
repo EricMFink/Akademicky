@@ -1,5 +1,5 @@
 ---
-layout: casebook-cover
+layout: page
 title: Casebook
-permalink: /casebook/
+permalink: /casebook/contents/
 ---
