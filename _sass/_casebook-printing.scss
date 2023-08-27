@@ -26,17 +26,14 @@
 		@top-right { content: normal; }
     }
 	@page chapter {
-		border-top: thin black solid;
-		@page chapter {
-			@top-center {
-				font-size: 9pt;
-				content: string(chapter_title);
-				vertical-align: bottom;
-				padding-bottom: 10mm;
-			}
-			@bottom-center {
-				content: counter(page);
-			}
+		@top-center {
+			font-size: 9pt;
+			content: string(chapter_title);
+			vertical-align: bottom;
+			padding-bottom: 10mm;
+		}
+		@bottom-center {
+			content: counter(page);
 		}
 	}
 	@page chapter:first {
@@ -83,26 +80,22 @@
 		break-before: right;
 		-prince-page-group: start;
 	}
-	h1, h2, h3, h4, h5, h6{
+	h1, h2, h3, h4, h5, h6 {
 		hyphens: none;
         text-align: left;
 		break-after: avoid;
 	}
 	h1 {
-		width: 100%;
 		font-size: 20pt;
 		string-set: chapter_title content();
 	}
 	h2 {
-		width: 100%;
 		font-size: 18pt;
 	}
 	h3 {
-		width: 100%;
 		font-size: 16pt;
 	}
 	h4 {
-		width: 100%;
 		font-size: 14pt;
 	}
 	h5 {
@@ -187,7 +180,6 @@
 }
 // Hide print header/footer in screen display
 @media screen {
-
 	.print-header {
 		display: none;
 	}
