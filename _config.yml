@@ -46,7 +46,7 @@ collections:
 host: localhost
 port: 4000
 
-theme: tufte-pandoc-jekyll
+remote_theme: EricMFink/akademicky
 
 gems:
   - jekyll-pandoc

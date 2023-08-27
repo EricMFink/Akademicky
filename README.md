@@ -4,6 +4,12 @@
 
 Created by [Eric M. Fink](https://github.com/LuckyJimJD), based on [alshedivat/al-folio](https://github.com/alshedivat/al-folio), using elements from [clayh53/tufte-jekyll](https://github.com/clayh53/tufte-jekyll) (figures, and side/margin notes in the style of [Edward Tufte](https://www.edwardtufte.com/tufte/) and [andhart/bijou](https://github.com/andhart/bijou) (table and button styles)
 
+To use this theme in GitHub Pages, add this line to your site's `_config.yml` file:
+
+```
+remote_theme: EricMFink/akademicky
+```
+
 ### Typography 
 
 [Portada](https://www.type-together.com/portada-font) and [Adelle Sans](https://www.type-together.com/adelle-sans-font) by [Veronika Burian](https://www.type-together.com/veronika-burian) & [José Scaglione](https://www.type-together.com/jose-scaglione)
