@@ -1,21 +1,20 @@
    
 @media print {
 	@page {
-		margin-top: .5in;
-		margin-bottom: 1.5in;
+		margin-top: 20mm;
+		margin-bottom: 60mm;
 		margin-left: 0;
 		margin-right: 0;
-		margin-inside: .75in;
-		margin-outside: .75in;
+		margin-inside: 20mm;
+		margin-outside: 40mm;
 		padding: 0 0 0 0;
 		size: letter portrait;
 		background-color: transparent;
-        border: none;
 		orphans: 4;
 		widows: 2;
 		font-size: 10pt;
 		@leftnote { width: 0;}
-		@rightnote { width: 1.5in; padding-left: .5in;}
+		@rightnote { width: 40mm; padding-left: 8mm;}
 	}
   	@page :first {
 		@top-left { content: normal; }
@@ -28,7 +27,7 @@
 		@top-right { content: normal; }
     }
 	@page chapter {
-		padding: .2in 0 0 0;
+		border-top: thin black solid;
 		}
 	@page chapter:left {
 		@top-left {
@@ -72,17 +71,18 @@
 			content: normal;
 		}
 	}
+	@page chapter:blank {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+    }
 	html {
 		font-size: 10pt;
 	}
 	body {
 		width: 100%;
-		max-width: 100%;
-		margin-top: 0mm;
-		margin-bottom: 0mm;
-		margin-left: 0mm;
-		margin-right: 0mm;
-		padding: 0;
+		margin: 0 0 0 0;
+		padding: 5mm 0 0 0;
 		background-color: transparent;
 	}
 	page-container {
@@ -130,7 +130,7 @@
 	}
 	div.casebook {
 		display: block;
-		width: 5in;
+		width: 108mm;
 		padding: 0 0 0 0;
 		counter-reset: page 1;
 	}
@@ -183,6 +183,10 @@
 	li {
 		text-align: justify;
 	}
+	.casebook figure.fullwidth figcaption { 
+		float: none;
+		margin: .125in 0 .25in 0; 
+		}
 	.sidenote, .marginnote {
 		float: none;
 		clear: none;
