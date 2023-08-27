@@ -1,10 +1,10 @@
-  
+   
 @media print {
 	@page {
-		margin-top: 16mm;
-		margin-bottom: 8mm;
-		margin-left: 24;
-		margin-right: 24;
+		margin-top: 21mm;
+		margin-bottom: 42mm;
+		margin-left: 21;
+		margin-right: 21;
 		padding: 0;
 		size: letter portrait;
 		background-color: transparent;
@@ -13,7 +13,7 @@
 		widows: 2;
 		font-size: 10pt;
 		@leftnote { width: 0;}
-		@rightnote { width: 35mm; padding-left: 10mm;}
+		@rightnote { width: 40mm; padding-left: 9mm;}
 	}
   	@page :first {
 		@top-left { content: normal; }
@@ -26,18 +26,27 @@
 		@top-right { content: normal; }
     }
 	@page chapter {
+		@bottom-center {
+			content: counter(page);
+			vertical-align: bottom;
+		}
+	}
+	@page chapter:left {
+		@top-center {
+			font-size: 9pt;
+			content: string(book_title);
+			vertical-align: bottom;
+		}
+	}
+	@page chapter:right {
 		@top-center {
 			font-size: 9pt;
 			content: string(chapter_title);
 			vertical-align: bottom;
-			padding-bottom: 10mm;
-		}
-		@bottom-center {
-			content: counter(page);
 		}
 	}
 	@page chapter:first {
-		margin-top: 30mm;
+		margin-top: 42mm;
 		@top-center {
 			content: normal;
 		}
