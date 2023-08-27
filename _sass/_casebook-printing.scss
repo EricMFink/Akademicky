@@ -1,12 +1,12 @@
    
 @media print {
 	@page {
-		margin-top: 20mm;
-		margin-bottom: 60mm;
+		margin-top: 2cm;
+		margin-bottom: 6cm;
 		margin-left: 0;
 		margin-right: 0;
-		margin-inside: 20mm;
-		margin-outside: 40mm;
+		margin-inside: 2cm;
+		margin-outside: 4cm;
 		padding: 0 0 0 0;
 		size: letter portrait;
 		background-color: transparent;
@@ -14,7 +14,7 @@
 		widows: 2;
 		font-size: 10pt;
 		@leftnote { width: 0;}
-		@rightnote { width: 40mm; padding-left: 8mm;}
+		@rightnote { width: 4cm; padding-left: .8cm;}
 	}
   	@page :first {
 		@top-left { content: normal; }
@@ -93,7 +93,7 @@
 	body {
 		width: 100%;
 		margin: 0 0 0 0;
-		padding: 5mm 0 0 0;
+		padding: .5cm 0 0 0;
 		background-color: transparent;
 	}
 	page-container {
@@ -108,10 +108,12 @@
         text-align-last: left;
 	}
 	div.book-cover {
+		display: block;
 		page: cover;
+		break-after: left;
 	}
 	div.title-block {
-		margin: 2.5in 0 0 0;
+		margin: 4cm 0 0 0;
 	}
 	p.book-title {
 		font-size: 36pt;
@@ -134,8 +136,9 @@
 		font-size: 14pt;
 	}
 	div.colophon {
+		display: block;
 		page: colophon;
-		-prince-page-group: start;
+		break-after: right;
         -prince-float: bottom;
 	}
 	p.colophon {
@@ -144,8 +147,9 @@
 		margin: 0 0 0 0;
 	}
 	div.epigraph {
+		display: block;
 		page: epigraph;
-		-prince-page-group: start;
+		break-after: right;
 	}
 	p.epigraph-quote {
 		font-style: italic;
@@ -156,7 +160,7 @@
 	}
 	div.casebook {
 		display: block;
-		width: 108mm;
+		width: 10.8cm;
 		padding: 0 0 0 0;
 		break-before: right;
 		counter-reset: page 1;
@@ -233,7 +237,7 @@
 	}
 	.casebook figure.fullwidth figcaption { 
 		float: none;
-		margin: .125in 0 .25in 0; 
+		margin: .3cm 0 .6cm 0; 
 		}
 	.sidenote, .marginnote {
 		float: none;
@@ -286,10 +290,6 @@
 		orphans: 4;
 		widows: 4;
 		break-after: avoid;
-	}
-	.break {
-		margin: 0 0 0 0;
-		break-before: page;
 	}
 	.leftalign {
 		hyphens: none;
