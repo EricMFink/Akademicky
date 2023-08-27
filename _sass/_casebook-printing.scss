@@ -25,19 +25,16 @@
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-		@rightnote { width: 0mm; padding-left: 0mm;}
     }
 	@page colophon {
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-		@rightnote { width: 0mm; padding-left: 0mm;}
     }
 	@page epigraph {
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-		@rightnote { width: 0mm; padding-left: 0mm;}
     }
 	@page chapter {
 		border-top: thin black solid;
@@ -111,9 +108,7 @@
         text-align-last: left;
 	}
 	div.book-cover {
-		margin: 0 0 0 0;
 		page: cover;
-		break-after: right;
 	}
 	div.title-block {
 		margin: 2.5in 0 0 0;
@@ -129,20 +124,18 @@
 		font-size: 14pt;
 		string-set: book_author content();
 	}
-	.publication-block{
-		margin: 0 0 0 0;
+	div.publication-block{
 		-prince-float: bottom;
 	}
 	p.book-affiliation {
 		font-size: 14pt;
-		margin: 0 0 0 0;
 	}
 	p.book-date {
 		font-size: 14pt;
-		margin: 0 0 0 0;
 	}
 	div.colophon {
 		page: colophon;
+		-prince-page-group: start;
         -prince-float: bottom;
 	}
 	p.colophon {
@@ -152,6 +145,7 @@
 	}
 	div.epigraph {
 		page: epigraph;
+		-prince-page-group: start;
 	}
 	p.epigraph-quote {
 		font-style: italic;
@@ -278,7 +272,10 @@
 		margin-top: 4em;
 		margin-bottom: 4em;
 	}
-	p,
+	p {
+	  orphans: 4;
+	  widows: 2;
+	}
 	h2,
 	h3,
 	h4 {
