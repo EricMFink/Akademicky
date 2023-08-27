@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 // Global Resets
 * { 
 	margin: 0; 
@@ -158,7 +160,7 @@ blockquote p {
 	color: $contrast-color;
 	}
 .japanese {
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: $japanese-font;
 	font-weight: 400;
 	font-style: normal;
 }
