@@ -145,13 +145,9 @@ blockquote p {
 .dullred {					/* emulates link */
 	color: $dull-red;
 	}
-
-.japanese {
-	font-family: 'Noto Sans JP', sans-serif;;
-	font-weight: 400;
-	font-style: normal;
-}
-.contrast { color: $contrast-color;}
+.contrast { 
+	color: $contrast-color;
+	}
 .small {
 	font-size: $small-size;
 	}
@@ -161,3 +157,8 @@ blockquote p {
 .contrast {
 	color: $contrast-color;
 	}
+.japanese {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
