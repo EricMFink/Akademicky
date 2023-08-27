@@ -155,7 +155,6 @@
 	div.epigraph {
 		margin: 25% 0 0 0;
 		page: epigraph;
-		break-after: right;
 	}
 	p.epigraph-quote {
 		font-style: italic;
@@ -167,6 +166,7 @@
 		display: block;
 		width: 108mm;
 		padding: 0 0 0 0;
+		break-before: right;
 		counter-reset: page 1;
 	}
 	div.chapter {
