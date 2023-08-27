@@ -83,10 +83,31 @@
         text-align-all: justify;
         text-align-last: left;
 	}
+	div.title {
+		page: blank;
+		break-before: right;
+
+	}
+	p.book-title {
+		font-size: 24pt;
+		string-set: book_title content();
+		break-after: right;
+	}
+	p.book-subtitle {
+		font-size: 16pt;
+		string-set: book_title content();
+		break-after: right;
+	}
+	p.book-subtitle {
+		font-size: 14pt;
+		string-set: book_author content();
+		break-after: right;
+	}
 	div.casebook {
 		display: block;
 		width: 125mm;
 		padding: 0 0 0 0;
+		counter-reset: page 1;
 	}
 	div.chapter {
 		padding: 0 0 0 0; 
