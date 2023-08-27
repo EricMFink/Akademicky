@@ -9,13 +9,11 @@ repo: akademicky
 version: 1.0
 term: Fall 2023
 
-epigraph: "But I’m not guilty, said K." "there’s been a mistake. How is it even possible for someone to be guilty? We’re all human beings here, one like the other." "That is true" said the priest "but that is how the guilty speak".
+epigraph: "Before the Law stands a doorkeeper on guard. To this doorkeeper there comes a man from the country who begs for admittance to the Law. But the doorkeeper says that he cannot admit the man at the moment. The man, on reflection, asks if he will be allowed, then, to enter later. 'It is possible,' answers the doorkeeper, 'but not at this moment.' Since the door leading into the Law stands open as usual and the doorkeeper steps to one side, the man bends down to peer through the entrance. When the doorkeeper sees that, he laughs and says: 'If you are so strongly tempted, try to get in without my permission. But note that I am powerful. And I am only the lowest doorkeeper. From hall to hall keepers stand at every door, one more powerful than the other. Even the third of these has an aspect that even I cannot bear to look at.'"
 epigraph-author: Franz Kafka
 epigraph-source: Der Prozess
 
 ---
-
-<!-- PREFACE -->
 
 <div class="chapter">
 
