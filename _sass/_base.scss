@@ -159,6 +159,11 @@ blockquote p {
 .contrast {
 	color: $contrast-color;
 	}
+.mono-face {
+	font-family: $mono-font;
+	font-weight: 400;
+	font-style: normal;
+}
 .japanese {
 	font-family: $japanese-font;
 	font-weight: 400;

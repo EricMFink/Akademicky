@@ -25,6 +25,19 @@
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
+		@rightnote { width: 0mm; padding-left: 0mm;}
+    }
+	@page colophon {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+		@rightnote { width: 0mm; padding-left: 0mm;}
+    }
+	@page epigraph {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+		@rightnote { width: 0mm; padding-left: 0mm;}
     }
 	@page chapter {
 		border-top: thin black solid;
@@ -60,6 +73,7 @@
 		}
 	}
 	@page chapter:first {
+		border-top: none;
 		margin-top: 25%;
 		@top-left {
 			content: normal;
@@ -98,19 +112,18 @@
 	}
 	div.book-cover {
 		margin: 0 0 0 0;
-		page: blank;
+		page: cover;
 		break-after: right;
 	}
 	div.title-block {
 		margin: 2.5in 0 0 0;
 	}
 	p.book-title {
-		font-size: 24pt;
+		font-size: 36pt;
 		string-set: book_title content();
 	}
 	p.book-subtitle {
-		font-size: 16pt;
-		string-set: book_title content();
+		font-size: 18pt;
 	}
 	p.book-author {
 		font-size: 14pt;
@@ -127,6 +140,28 @@
 	p.book-date {
 		font-size: 14pt;
 		margin: 0 0 0 0;
+	}
+	div.colophon {
+		margin: 0 0 0 0;
+		page: colophon;
+		break-after: right;
+		-prince-float: bottom;
+	}
+	p.colophon {
+		font-size: 9pt;
+		line-height: $short-line-height;
+		margin: 0 0 0 0;
+	}
+	div.epigraph {
+		margin: 25% 0 0 0;
+		page: epigraph;
+		break-after: right;
+	}
+	p.epigraph-quote {
+		font-style: italic;
+	}
+	p.epigraph-cite {
+		text-align: right;
 	}
 	div.casebook {
 		display: block;
