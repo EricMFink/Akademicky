@@ -1,12 +1,12 @@
    
 @media print {
 	@page {
-		margin-top: .4in;
-		margin-bottom: 1.25in;
+		margin-top: .5in;
+		margin-bottom: 1.5in;
 		margin-left: 0;
 		margin-right: 0;
-		margin-inside: .4in;
-		margin-outside: .8in;
+		margin-inside: .75in;
+		margin-outside: .75in;
 		padding: 0 0 0 0;
 		size: letter portrait;
 		background-color: transparent;
@@ -96,25 +96,37 @@
         text-align-all: justify;
         text-align-last: left;
 	}
-	div.title {
+	div.book-cover {
+		margin: 0 0 0 0;
 		page: blank;
-		break-before: right;
-
+		break-after: right;
+	}
+	div.title-block {
+		margin: 2.5in 0 0 0;
 	}
 	p.book-title {
 		font-size: 24pt;
 		string-set: book_title content();
-		break-after: right;
 	}
 	p.book-subtitle {
 		font-size: 16pt;
 		string-set: book_title content();
-		break-after: right;
 	}
-	p.book-subtitle {
+	p.book-author {
 		font-size: 14pt;
 		string-set: book_author content();
-		break-after: right;
+	}
+	.publication-block{
+		margin: 0 0 0 0;
+		-prince-float: bottom;
+	}
+	p.book-affiliation {
+		font-size: 14pt;
+		margin: 0 0 0 0;
+	}
+	p.book-date {
+		font-size: 14pt;
+		margin: 0 0 0 0;
 	}
 	div.casebook {
 		display: block;
