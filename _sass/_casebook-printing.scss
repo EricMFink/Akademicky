@@ -1,0 +1,200 @@
+  
+@media print {
+	@page {
+		margin-top: 16mm;
+		margin-bottom: 8mm;
+		margin-left: 24;
+		margin-right: 24;
+		padding: 0;
+		size: letter portrait;
+		background-color: transparent;
+        border: none;
+		orphans: 4;
+		widows: 2;
+		font-size: 10pt;
+		@leftnote { width: 0;}
+		@rightnote { width: 35mm; padding-left: 10mm;}
+	}
+  	@page :first {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+	}
+	@page :blank {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+    }
+	@page chapter {
+		border-top: thin black solid;
+		@page chapter {
+			@top-center {
+				font-size: 9pt;
+				content: string(chapter_title);
+				vertical-align: bottom;
+				padding-bottom: 10mm;
+			}
+			@bottom-center {
+				content: counter(page);
+			}
+		}
+	}
+	@page chapter:first {
+		margin-top: 30mm;
+		@top-center {
+			content: normal;
+		}
+		@bottom-center {
+			content: normal;
+		}
+	}
+	html {
+		font-size: 10pt;
+	}
+	body {
+		width: 100%;
+		max-width: 100%;
+		margin-top: 0mm;
+		margin-bottom: 0mm;
+		margin-left: 0mm;
+		margin-right: 0mm;
+		padding: 0;
+		background-color: transparent;
+	}
+	page-container {
+		padding: 0 0 0 0;
+	}
+	section {
+		padding: 0 0 0 0;
+	}
+	p {
+		font-size: 10pt;
+        text-align-all: justify;
+        text-align-last: left;
+	}
+	div.casebook {
+		display: block;
+		width: 125mm;
+		padding: 0 0 0 0;
+	}
+	div.chapter {
+		padding: 0 0 0 0; 
+		page: chapter;
+		break-before: right;
+		-prince-page-group: start;
+	}
+	h1, h2, h3, h4, h5, h6{
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	h1 {
+		width: 100%;
+		font-size: 20pt;
+		string-set: chapter_title content();
+	}
+	h2 {
+		width: 100%;
+		font-size: 18pt;
+	}
+	h3 {
+		width: 100%;
+		font-size: 16pt;
+	}
+	h4 {
+		width: 100%;
+		font-size: 14pt;
+	}
+	h5 {
+		font-size: 12pt;
+	}
+	h6 {
+		font-size: 11pt;
+		margin-top: 1.5rem;
+	}
+	p.case-h1 {
+		font-size: 14pt;
+	}
+	p.case-h2 {
+		font-size: 12pt;
+	}
+	p.case-h3 {
+		font-size: 11pt;
+	}
+	p.case-h4 {
+		font-size: 11pt;
+	}
+	ol, ul {
+		text-align: justify;
+	}
+	li {
+		text-align: justify;
+	}
+	.sidenote, .marginnote {
+		float: none;
+		clear: none;
+		margin: 0 0 12pt 0;
+		width: inherit;
+		hyphens: auto;
+		hyphenate-lines: 1;
+		-prince-float: rightnote;
+	}
+	.sidenote { 
+		font-size: 8pt;
+		font-weight: $normal-weight;
+	}
+	.marginnote {
+		font-size: 8pt;
+		font-weight: $normal-weight;
+	}
+	thead {
+		display: table-header-group;
+	}
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+	header {
+		display: none;
+	}
+	.button {
+		display: none;
+	}
+	img {
+		max-width: 90% !important;
+	}
+	hr {
+		margin-top: 4em;
+		margin-bottom: 4em;
+	}
+	p,
+	h2,
+	h3 {
+	  orphans: 4;
+	  widows: 4;
+	}
+	p.case-h1, p.case-h2, p.case-h3, p.case-h4 {
+		break-after: avoid;
+	}
+	.break {
+		margin: 0 0 0 0;
+		break-before: page;
+	}
+	.leftalign {
+		hyphens: none;
+        text-align: left;
+	}
+}
+// Hide print header/footer in screen display
+@media screen {
+
+	.print-header {
+		display: none;
+	}
+	.print-footer {
+		display: none;
+	}
+	.print-headfoot-block {
+		display: none;
+	}
+}

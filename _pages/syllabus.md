@@ -26,28 +26,28 @@ output:
 
 ---
 
-## Description
+# Description
 
 In this course, you will learn about the procedures for civil suits. Topics to be covered include the scope of a lawsuit, selection of an appropriate forum, presentation of claims and defenses, choice of applicable law, disposition without a trial, and the effect of judgments on future litigation. Other aspects of civil litigation (e.g., discovery, trials, & appeals) are covered in upper-level elective courses. While the course will focus on federal courts, the rules of civil procedure in many states (including North Carolina) are similar.
 
 This course is intended to prepare you for legal practice by developing the knowledge and skill required to recognize and analyze procedural issues in civil litigation, advise clients on those issues and the available options, and draft pleadings and motions.
 
-## Required Materials
+# Required Materials
 
 [Civil Procedure: An Open-Source Casebook (Fink 2023)](../casebook) ("Casebook"). The casebook is posted online as part of the course website: [emfink.net/CivilProcedure](http://www.emfink.net/CivilProcedure). PDF copies of each chapter are available for download on the [Table of Contents](https://www.emfink.net/CivilProcedure/casebook/contents/) page. 
 
 Kevin M. Clermont, Principles of Civil Procedure (6th ed. 2021) ("Hornbook"). The digital version is available at no cost through the [West Academic Online Study Aids Collection](https://subscription-westacademic-com.ezproxy.elon.edu/).
 
-## Policies
+# Policies
 
-### Grading
+## Grading
 
 Your final grade for the term will be based on interim quizzes (30%) and a final exam (70%):
 
 - There will be three quizzes (open-book/open-notes), consisting of multiple-choice questions. You will take the quizzes online outside of class, any time during the dates indicated in the course schedule below. The quizzes are intended to help you assess your understanding of the material and identify topics for further review. The quiz portion of your final grade will be based on your two best quiz results. 
 - The final exam (closed-book/closed-note) will consist of essay and short-answer questions. You will take the final exam at the Law School on the date indicated in the course schedule below. 
 
-### Attendance
+## Attendance
 
 Elon Law School has adopted the following attendance policy for all courses:
 
@@ -57,15 +57,15 @@ Elon Law School has adopted the following attendance policy for all courses:
 
 You should let me know (in advance if feasible) if you are unable to attend class, will arrive late, or must leave early. I do not require an explanation of the reason, nor do I require a doctor's note or other documentation. 
 
-### Disability Accommodations
+## Disability Accommodations
 
 For disability accommodation requests, contact the Elon Law [Registrar's Office](https://www.elon.edu/e/law/academics/registrar-office/index.html).  
 
-### Honor Code
+## Honor Code
 
 The Law School [honor code](https://www.elon.edu/e/law/student-experience/honor-code.html) applies to all activities related to your law school study, including conduct during class and examinations.
 
-## Schedule & Assignments
+# Schedule & Assignments
 
 <div class="fullwidth">
 

@@ -15,27 +15,13 @@
 .syllabus h2 {
 	font-family: $sans-font;
 	color: $theme-color;
-    font-size: $h2;
     font-style: normal;
     font-weight:$normal-weight;
 	margin: 2rem 0 0 0;
 }
 .syllabus h3 {
-    font-size: $h4;
 	font-weight: $normal-weight;
 	margin: 2rem 0 .5rem 0;
-}
-.syllabus h4 {
-    font-size: $h5;
-    font-weight:$normal-weight;
-    font-style: italic;
-	margin: .5rem 0 .5rem 0;
-}
-.syllabus h5 {
-    font-size: $h6;
-    font-style: italic;
-    font-weight: $normal-weight;
-	margin: .5rem 0 .5rem 0;
 }
 .syllabus h6 {
     font-size: $smaller-size;
