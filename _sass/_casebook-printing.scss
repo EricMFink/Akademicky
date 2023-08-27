@@ -175,42 +175,63 @@
 		break-before: right;
 		-prince-page-group: start;
 	}
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		font-size: 20pt;
 		hyphens: none;
         text-align: left;
 		break-after: avoid;
-	}
-	h1 {
-		font-size: 20pt;
 		string-set: chapter_title content();
 	}
 	h2 {
 		font-size: 18pt;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
 	}
 	h3 {
 		font-size: 16pt;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
 	}
 	h4 {
 		font-size: 14pt;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
 	}
 	h5 {
 		font-size: 12pt;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
 	}
 	h6 {
 		font-size: 11pt;
 		margin-top: 1.5rem;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
 	}
 	p.case-h1 {
 		font-size: 14pt;
+		hyphens: none;
+        text-align: left;
 	}
 	p.case-h2 {
 		font-size: 12pt;
+		hyphens: none;
+        text-align: left;
 	}
 	p.case-h3 {
 		font-size: 11pt;
+		hyphens: none;
+        text-align: left;
 	}
 	p.case-h4 {
 		font-size: 11pt;
+		hyphens: none;
+        text-align: left;
 	}
 	ol, ul {
 		text-align: justify;
@@ -261,11 +282,14 @@
 	}
 	p,
 	h2,
-	h3 {
+	h3,
+	h4 {
 	  orphans: 4;
 	  widows: 4;
 	}
 	p.case-h1, p.case-h2, p.case-h3, p.case-h4 {
+		orphans: 4;
+		widows: 4;
 		break-after: avoid;
 	}
 	.break {
