@@ -2,7 +2,7 @@
 @media print {
 	@page {
 		margin-top: 2cm;
-		margin-bottom: 6cm;
+		margin-bottom: 4cm;
 		margin-left: 0;
 		margin-right: 0;
 		margin-inside: 2cm;
@@ -141,7 +141,7 @@
 	}
 	p.colophon {
 		font-size: 9pt;
-		line-height: $short-line-height;
+		line-height: $shortest-line-height;
 		margin: 0 0 0 0;
 	}
 	div.epigraph {
