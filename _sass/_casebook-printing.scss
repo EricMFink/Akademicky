@@ -136,6 +136,9 @@
 	}
 	div.colophon {
 		display: block;
+		line-height: $shortest-line-height;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
 		break-after: right;
         -prince-float: bottom;
 	}
@@ -143,6 +146,7 @@
 		font-size: 9pt;
 		line-height: $shortest-line-height;
 		margin: 0 0 0 0;
+		padding: 0 0 0 0;
 	}
 	div.epigraph {
 		display: block;
