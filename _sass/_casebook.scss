@@ -233,7 +233,6 @@ li.toc-li-H4 {
 
 /* CASEBOOK COVER PAGE */ 
 .book-cover {
-    width: 100%;
 	padding: 0 0 0 0;
 }
 .book-author {
@@ -243,10 +242,9 @@ li.toc-li-H4 {
 	text-align: left;
 	text-transform: uppercase;
     font-style: normal;
-	margin: 3rem 0 0 0;
 }
 .title-block{
-	margin: 3rem 0 0 0;
+	margin: 2rem 0 0 0;
 }
 .book-title {
     color: $theme-color;
@@ -255,7 +253,6 @@ li.toc-li-H4 {
 	text-align: left;
 	text-transform: uppercase;
     font-style: normal;
-	margin: 0 0 0 0;
 }
 .book-subtitle {
     color: $theme-color;
@@ -264,10 +261,9 @@ li.toc-li-H4 {
 	text-align: left;
 	text-transform: uppercase;
     font-style: normal;
-	margin: 1em 0 0 0;
 }
 .publication-block{
-	margin: 3rem 0 0 0;
+	margin: 2rem 0 0 0;
 }
 .book-affiliation {
     color: $theme-color;
@@ -276,7 +272,6 @@ li.toc-li-H4 {
 	text-align: left;
 	text-transform: uppercase;
     font-style: normal;
-	margin: 0 0 0 0;
 }
 .book-date {
     color: $theme-color;
@@ -285,50 +280,38 @@ li.toc-li-H4 {
 	text-align: left;
 	text-transform: uppercase;
     font-style: normal;
-	margin: 0 0 0 0;
 }
 .colophon {
     font-family: $body-font;
 	font-size: $smaller-size;
 	text-align: left;
-	width: 100%;
-	margin: 3rem 0 0 0;
-	padding: 0 0 500px 0;
 }
 .colophon p {
 	font-size: $smaller-size;
 	text-align: left;
 	line-height: $short-line-height;
-	margin: 0 0 0 0;
 }
 .colophon li {
 	font-size: $smaller-size;
 	text-align: left;
 }
-.contents {
-	width: 90%;
-	padding: 0 0 500px 0;
-}
 .epigraph { 
     font-family: $body-font;
 	font-size: $smaller-size;
 	text-align: left;
-	width: 60%;
-	padding: 0 0 500px 0;
 	}
 .epigraph-quote { 
 	font-style: italic; 
 	text-align: left;
 	line-height: $taller-line-height;
-	margin: 0 0 0 0;
   	}
 .epigraph-cite {
 	text-align: right;
-	margin: 1rem 0 0 0;
-	}
-.epigraph-source { 
-	font-style: italic; 
+	margin: 2rem 0 0 0;
 	}
 .epigraph-author {  
 	font-style: normal;
+	}
+.epigraph-source { 
+	font-style: italic; 
 	}
