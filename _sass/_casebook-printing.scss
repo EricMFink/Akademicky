@@ -238,8 +238,9 @@
 		text-align: justify;
 	}
 	.casebook figure.fullwidth figcaption { 
-		float: none;
 		margin: .3cm 0 .6cm 0; 
+        -prince-float: bottom;
+        -prince-float-policy: in-order;
 		}
 	.sidenote, .marginnote {
 		float: none;
