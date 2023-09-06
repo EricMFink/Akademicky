@@ -83,6 +83,7 @@
 		}
 	}
 	@page chapter:blank {
+		border-top: none;
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
