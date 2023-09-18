@@ -51,6 +51,7 @@
 /* Subsection */
 .casebook h3 {
 	color: $dull-red;
+	font-weight: $normal-weight;
 	font-style: normal;
 	margin: 3rem 0 0 3rem;
     counter-increment: subsection;	/* Add 1 to section */

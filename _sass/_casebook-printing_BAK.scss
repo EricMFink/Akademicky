@@ -174,29 +174,26 @@
 		-prince-page-group: start;
 	}
 	h1 {
-		font-size: 22pt;
+		font-size: 20pt;
 		hyphens: none;
         text-align: left;
 		break-after: avoid;
 		string-set: chapter_title content();
 	}
 	h2 {
-		font-size: 20pt;
-		font-weight: $normal-weight;
+		font-size: 18pt;
 		hyphens: none;
         text-align: left;
 		break-after: avoid;
 	}
 	h3 {
-		font-size: 18pt;
-		font-weight: $normal-weight;
+		font-size: 16pt;
 		hyphens: none;
         text-align: left;
 		break-after: avoid;
 	}
 	h4 {
-		font-size: 16pt;
-		font-weight: $normal-weight;
+		font-size: 14pt;
 		hyphens: none;
         text-align: left;
 		break-after: avoid;
