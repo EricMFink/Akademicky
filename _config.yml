@@ -46,7 +46,7 @@ collections:
 host: localhost
 port: 4000
 
-remote_theme: EricMFink/akademicky
+remote_theme: EricMFink/Akademicky
 
 gems:
   - jekyll-pandoc
