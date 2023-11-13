@@ -143,6 +143,15 @@ p.case-h4 {
 	margin-top: 1rem;
 }
 /* LEGAL CODE: Indented subsections in statutes, etc. */
+
+/* Title and cite of incorporated materials */
+.legal-code h4 {
+	color: $dull-red;
+	font-weight: $normal-weight;
+	margin: 2rem 0 0rem 0;
+	border-bottom: 1px solid $dull-red;
+}
+
 .legal-code h5 {
 	font-style: normal;
 }
