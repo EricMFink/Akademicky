@@ -47,6 +47,8 @@ Saul Goodman, Devil's Advocate: How I Represented the Devil without Losing my So
 
 Your final grade for the term will be based on a midterm (40% total) and a final exam (60%).
 
+\pagebreak
+
 ## Schedule & Assignments
 
 <div class="fullwidth">
