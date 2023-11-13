@@ -30,15 +30,15 @@
 					<p class="course-info">{{ site.course.meets }}</p>
 
 					<br>
-					<h6>Professor: {{ site.author.name }}</h6>
-					<h6><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></h6>
-					<h6>{{ site.author.phone }}</h6>
-					<h6>Office hours <a href=https://calendly.com/emfink />by appointment</a></h6>
+					<p class="course-info">Professor: {{ site.author.name }}</p>
+						<p class="course-info"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+							<p class="course-info">{{ site.author.phone }}</p>
+								<p class="course-info">Office hours <a href=https://calendly.com/emfink />by appointment</a></p>
 
 					{% if site.ta %}
 					<br>
-					<h6>Teaching Assistant: {{ site.ta.name }}</h6>
-					<h6><a href="mailto:{{ site.ta.email }}">{{ site.ta.email }}</a></h6>
+					<p class="course-info">Teaching Assistant: {{ site.ta.name }}</p>
+					<p class="course-info"><a href="mailto:{{ site.ta.email }}">{{ site.ta.email }}</a></p>
 					{% endif %}
 
 				</div>
