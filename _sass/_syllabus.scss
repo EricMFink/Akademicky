@@ -2,8 +2,16 @@
     padding-top: .5rem;
 }
 
-.syllabus-header {
+.course-info {
 	margin-bottom: 2rem;
+}
+
+.course-info p {
+    font-size: $smaller-size;
+	font-family: $sans-font;
+    font-weight: $normal-weight;
+    font-style: normal;
+    margin: .2rem 0 0rem 0;
 }
 
 .syllabus h1 {
@@ -30,6 +38,8 @@
     font-style: normal;
     margin: .2rem 0 0rem 0;
 }
+
+
 
 .syllabus a {
     color: $theme-color;
