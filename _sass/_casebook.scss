@@ -70,7 +70,22 @@
 	border-bottom: 1px solid $dull-red;
 }
 
-/* PARAGRAPH-LEVEL HEADINGS */
+/* Section headings within incorporated materials */
+
+.casebook h5 {
+	font-size: $largest-size;
+    font-style: normal;
+    font-weight: $medium-weight;
+    margin: 2.5rem 0 0 0;
+	list-style: outside none none !important;
+}
+.casebook h6 {
+	font-size: $larger-size;
+    font-style: italic;
+    font-weight: $normal-weight;
+    margin: 1.5rem 0 0 0;
+	list-style: outside none none !important;
+}
 
 p.case-h1 {
 	font-size: $largest-size;
