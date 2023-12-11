@@ -118,6 +118,7 @@ ol, ul {
 li { 
 	font-size: $small-size;
 	line-height: $line-height;
+	margin-bottom: 0.5rem;
 }
 
 /* Blockquotes */
@@ -134,7 +135,7 @@ blockquote p {
 	font-weight: $normal-weight;
 	font-style: italic;
 	width: inherit;
-	margin: 0 0 0 0;
+	margin: 0 0 0.5rem 0;
 	padding: 0 0 0 0;
 }
 
