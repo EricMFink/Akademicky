@@ -121,6 +121,22 @@ p.case-h4 {
 	font-style: normal;
 }
 
+
+/* List Items */
+
+.casebook ol {
+	font-size: inherit;
+}
+
+.casebook ul {
+	font-size: inherit;
+}
+
+.casebook li {
+	font-size: inherit;
+	margin-bottom: 0.5rem;
+}
+
 /* Divider */
 .casebook hr {
 	border-top: 2px solid $theme-color;
