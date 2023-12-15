@@ -39,28 +39,24 @@
 	color: $dull-red;
 	font-weight: $normal-weight;
 	font-style: normal;
-	margin: 5rem 0 0 2.5rem;
+	margin: 5rem 0 0 0;
     counter-increment: section;  /* Add 1 to section */
     counter-reset: subsection;      /* Set subsection to 0 */
 }
 .casebook h2:before {
 	content: counter(section) ". ";
-	float: left;
-	margin-left: -2.5rem;
 }
 /* Subsection */
 .casebook h3 {
 	color: $dull-red;
 	font-weight: $normal-weight;
 	font-style: normal;
-	margin: 3rem 0 0 3rem;
+	margin: 3rem 0 0 0;
     counter-increment: subsection;	/* Add 1 to section */
     counter-reset: subsubsection;
 }
 .casebook h3:before {
-    content: counter(section) '.' counter(subsection);
-	float: left;
-	margin-left: -3rem;
+    content: counter(section) '.' counter(subsection) " ";
 }
 /* Title and cite of incorporated materials */
 .casebook h4 {
