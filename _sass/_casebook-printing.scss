@@ -17,13 +17,8 @@
 		@rightnote { width: 4cm; padding-left: .79cm;}
 	}
 	@page :left {
-		border-top: thin black solid;
 		@top-left { content: normal; }
-		@top-center {
-			font-family: $sans-font;
-			content: string(book_title);
-			vertical-align: bottom;
-		}
+		@top-center {  content: normal; }
 		@top-right { content: normal; }
 	}
 	@page :right {
@@ -37,15 +32,35 @@
 		@top-right { content: normal; }
 	}
 	@page colophon {
+		border-top: thin black solid;
+		@top-left { content: normal; }
+		@top-center {
+			font-family: $sans-font;
+			content: string(book_title);
+			vertical-align: bottom;
+		}
+		@top-right { content: normal; }
+    }
+	@page colophon:first {
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
     }
 	@page epigraph {
+		border-top: thin black solid;
+		@top-left { content: normal; }
+		@top-center {
+			font-family: $sans-font;
+			content: string(book_title);
+			vertical-align: bottom;
+		}
+		@top-right { content: normal; }
+	}
+	@page epigraph:first {
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
-    }
+	}
 	@page preface {
 		border-top: thin black solid;
 		}
