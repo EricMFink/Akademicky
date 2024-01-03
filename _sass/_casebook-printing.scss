@@ -17,6 +17,7 @@
 		@rightnote { width: 4cm; padding-left: .79cm;}
 	}
 	@page :left {
+		border-top: thin black solid;
 		@top-left { content: normal; }
 		@top-center {
 			font-family: $sans-font;
