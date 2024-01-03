@@ -229,8 +229,12 @@
 		padding: 0 0 0 0; 
 		page: chapter;
 		break-before: right;
-		break-after: right;
 		-prince-page-group: start;
+	}
+	p.chapter-number {
+		margin-bottom: 0;
+		break-before: right;
+		break-after: avoid;
 	}
 	h1 {
 		font-size: 22pt;
