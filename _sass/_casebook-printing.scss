@@ -21,11 +21,6 @@
 		@top-center { content: normal; }
 		@top-right { content: normal; }
 	}
-	@page :blank {
-		@top-left { content: normal; }
-		@top-center { content: normal; }
-		@top-right { content: normal; }
-    }
 	@page colophon {
 		@top-left { content: normal; }
 		@top-center { content: normal; }
@@ -82,12 +77,6 @@
 			content: normal;
 		}
 	}
-	@page preface:blank {
-		border-top: none;
-		@top-left { content: normal; }
-		@top-center { content: normal; }
-		@top-right { content: normal; }
-    }
 	@page chapter {
 		border-top: thin black solid;
 		}
@@ -134,12 +123,7 @@
 			content: normal;
 		}
 	}
-	@page chapter:blank {
-		border-top: none;
-		@top-left { content: normal; }
-		@top-center { content: normal; }
-		@top-right { content: normal; }
-    }
+
 	html {
 		font-size: 10pt;
 	}
