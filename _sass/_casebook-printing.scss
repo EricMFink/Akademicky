@@ -36,6 +36,58 @@
 		@top-center { content: normal; }
 		@top-right { content: normal; }
     }
+	@page preface {
+		border-top: thin black solid;
+		}
+	@page preface:left {
+		@top-left {
+			font-family: $sans-font;
+			content: counter(page);
+			vertical-align: bottom;
+		}
+		@top-center {
+			font-family: $sans-font;
+			content: string(book_title);
+			vertical-align: bottom;
+		}
+		@top-right {
+			content: normal;
+		}
+	}
+	@page preface:right {
+		@top-left {
+			content: normal;
+		}
+		@top-center {
+			font-family: $sans-font;
+			content: string(chapter_title);
+			vertical-align: bottom;
+		}
+		@top-right {
+			font-family: $sans-font;
+			content: counter(page);
+			vertical-align: bottom;
+		}
+	}
+	@page preface:first {
+		border-top: none;
+		margin-top: 3cm;
+		@top-left {
+			content: normal;
+		}
+		@top-center {
+			content: normal;
+		}
+		@top-right {
+			content: normal;
+		}
+	}
+	@page preface:blank {
+		border-top: none;
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+    }
 	@page chapter {
 		border-top: thin black solid;
 		}
@@ -166,6 +218,12 @@
 		padding: 0 0 0 0;
 		break-before: right;
 		counter-reset: page 1;
+	}
+	div.preface {
+		padding: 0 0 0 0; 
+		page: preface;
+		break-before: right;
+		-prince-page-group: start;
 	}
 	div.chapter {
 		padding: 0 0 0 0; 

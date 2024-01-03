@@ -15,7 +15,7 @@ epigraph-source: Der Prozess
 
 ---
 
-<div class="chapter">
+<div class="preface">
 
 # Preface
 
