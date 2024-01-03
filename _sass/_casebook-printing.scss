@@ -16,6 +16,20 @@
 		@leftnote { width: 0;}
 		@rightnote { width: 4cm; padding-left: .79cm;}
 	}
+	@page :left {
+		@top-left { content: normal; }
+		@top-center {
+			font-family: $sans-font;
+			content: string(book_title);
+			vertical-align: bottom;
+		}
+		@top-right { content: normal; }
+	}
+	@page :right {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+	}
   	@page :first {
 		@top-left { content: normal; }
 		@top-center { content: normal; }
