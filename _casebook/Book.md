@@ -18,12 +18,20 @@ preface: "This book presents cases and other material for use in a course on the
 
 <div class="chapter">
 
+<article class="group">
+
 {% include_relative chap1.md %}
+
+</article>
 
 </div>
 
 <div class="chapter">
 
-{% include_relative chap8.md %}
+<article class="group">
+
+{% include_relative chap2.md %}
+
+</article>
 
 </div>
