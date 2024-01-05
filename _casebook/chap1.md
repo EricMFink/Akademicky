@@ -5,9 +5,9 @@ chapter-title: Devilish Advocacy
 
 # Devilish Advocacy
 
-## Serving Satan 
+## Serving Satan  {#serving-satan}
 
-#### U.S. ex rel. Mayo v. Satan and His Staff, 54 F.R.D. 282 (W.D. Pa. 1971)
+#### U.S. ex rel. Mayo v. Satan and His Staff, 54 F.R.D. 282 (W.D. Pa. 1971) {#mayo-v-satan}
 
 ##### Weber, District Judge
 
@@ -36,9 +36,11 @@ For the foregoing reasons we must exercise our discretion to refuse the prayer o
 
 It is ordered that the complaint be given a miscellaneous docket number and leave to proceed in forma pauperis be denied.
 
-## Cases affecting ambassadors, other public ministers and consuls
+## Cases affecting ambassadors, other public ministers and consul {#cases-affecting-ambassadors}
 
-#### Stephen Vincent Benet, "The Devil & Daniel Webster", Saturday Evening Post (Oct. 24, 1936)
+#### The Devil & Daniel Webster {#devil-and-daniel-webster}
+
+##### Stephen Vincent Benet, Saturday Evening Post (Oct. 24, 1936)
 
 It's a story they tell in the border country, where Massachusetts joins Vermont and New Hampshire.
 
