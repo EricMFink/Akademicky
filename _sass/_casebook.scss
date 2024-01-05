@@ -26,6 +26,9 @@
 	counter-increment: chapter;  /* Add 1 to chapter */
     counter-reset: section;      /* Set section to 0 */
 }
+.casebook h1:before {
+	content: "Chapter " counter(chapter) ": ";
+}
 /* Section */
 .casebook h2 {
 	color: $dull-red;
