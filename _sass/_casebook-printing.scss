@@ -152,7 +152,6 @@
 		margin: 0 0 0 0;
 		padding: 0 0 0 0;
 		break-after: right;
-		counter-reset: page 1;
 	}
 	@page epigraph {
         @bottom-center { content: normal; }
@@ -177,7 +176,7 @@
     @page contents {
         @bottom-center { content: counter(page, lower-roman); }
     }
-    @page frontmatter:blank {
+    @page contents:blank {
         @bottom-center { content: counter(page, lower-roman); }
     }
 	#toc ol, ul { 
@@ -206,14 +205,18 @@
 		margin-left: 4em;
 	}
 	div.preface {
-		display: block;
-		page: chapter;
+		page: preface;
 		width: 11.8cm;
 		margin: 0 0 0 0;
 		padding: 0 0 0 0;
-		break-after: right;
-		counter-reset: page 1;
+        break-before: right;
 	}
+    @page preface {
+        @bottom-center { content: counter(page, lower-roman); }
+    }
+    @page preface:blank {
+        @bottom-center { content: counter(page, lower-roman); }
+    }
 	div.chapter {
 		width: 11.8cm;
 		padding: 0 0 0 0;
