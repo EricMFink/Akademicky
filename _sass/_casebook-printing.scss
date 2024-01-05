@@ -213,7 +213,7 @@
         break-before: right;
 		counter-reset: page 1;
 	}
-    @page preface {
+    @page preface:left {
         @bottom-center { content: counter(page); }
     }
 	@page preface:first {
