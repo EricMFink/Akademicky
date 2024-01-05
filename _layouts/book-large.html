@@ -16,32 +16,39 @@
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+	{% include prince-toc.js %}
+
 </head>
 
-<body>
+<body onload="toc('h1, h2, h3')">
 
-	<div class="book-cover" group>
-		<p class="book-author">{{ page.author }}</p>
-			<div class="title-block" group>
-				<p class="book-title">{{ page.title }}</p>
-				<p class="book-subtitle">{{ page.subtitle }}</p>
-			</div>
-			<div class="publication-block" group>
-				<p class="book-affiliation">{{ page.affiliation }}</p>
-				<p class="book-date">{{ page.term }}</p>
-			</div>
-	</div>
+<div class="book-cover" group>
+	<p class="book-author">{{ page.author }}</p>
+		<div class="title-block" group>
+			<p class="book-title">{{ page.title }}</p>
+			<p class="book-subtitle">{{ page.subtitle }}</p>
+		</div>
+		<div class="publication-block" group>
+			<p class="book-affiliation">{{ page.affiliation }}</p>
+			<p class="book-date">{{ page.term }}</p>
+		</div>
+</div>
 
-	{% include colophon.html %}
+{% include colophon.html %}
 
-	{% include epigraph.html %}
+{% include epigraph.html %}
 
-	<div class="casebook">
+{% include toc.html %}
 
-		{{ content }}
+{% include preface.html %}
 
-	</div>
+<div class="casebook">
+
+{{ content }}
+
+</div>
 
 </body>
 
 </html>
+	
