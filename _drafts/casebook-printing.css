@@ -1,0 +1,371 @@
+   
+@media print {
+	@page {
+		margin-top: 2cm;
+		margin-bottom: 3cm;
+		margin-left: 0;
+		margin-right: 0;
+		-prince-margin-inside: 2cm;
+		-prince-margin-outside: 2cm;
+		padding: 0 0 0 0;
+		size: letter portrait;
+		background-color: transparent;
+		orphans: 4;
+		widows: 2;
+		font-size: 10pt;
+		@leftnote { width: 0;}
+		@rightnote { width: 4cm; padding-left: .79cm;}
+	}
+	@page :left {
+		@top-left { content: normal; }
+		@top-center {  content: normal; }
+		@top-right { content: normal; }
+	}
+	@page :right {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+	}
+  	@page :first {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+	}
+	@page cover {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+    }
+    @page frontmatter {
+        @bottom-center { content: counter(page, lower-roman); }
+    }
+	@page frontmatter:first {
+        @bottom-center { content: normal; }
+    }
+    @page frontmatter:blank {
+        @bottom-center { content: counter(page, lower-roman); }
+    }
+	@page chapter {
+		border-top: thin black solid;
+		}
+	@page chapter:left {
+		@top-left {
+			font-family: $sans-font;
+			content: counter(page);
+			vertical-align: bottom;
+		}
+		@top-center {
+			font-family: $sans-font;
+			content: string(book_title);
+			vertical-align: bottom;
+		}
+		@top-right {
+			content: normal;
+		}
+	}
+	@page chapter:right {
+		@top-left {
+			content: normal;
+		}
+		@top-center {
+			font-family: $sans-font;
+			content: string(chapter_title);
+			vertical-align: bottom;
+		}
+		@top-right {
+			font-family: $sans-font;
+			content: counter(page);
+			vertical-align: bottom;
+		}
+	}
+	@page chapter:first {
+		border-top: none;
+		margin-top: 15%;
+		@top-left {
+			content: normal;
+		}
+		@top-center {
+			content: normal;
+		}
+		@top-right {
+			content: normal;
+		}
+	}
+
+	html {
+		font-size: 10pt;
+	}
+	body {
+		width: 100%;
+		margin: 0 0 0 0;
+		padding: .5cm 0 0 0;
+		background-color: transparent;
+	}
+	page-container {
+		padding: 0 0 0 0;
+	}
+	section {
+		padding: 0 0 0 0;
+	}
+	p {
+		font-size: 10pt;
+        text-align-all: justify;
+        text-align-last: left;
+	}
+	div.book-cover {
+		display: block;
+		padding: 0 0 0 0; 
+		page: cover;
+		break-after: left;
+	}
+	div.title-block {
+		margin: 4cm 0 0 0;
+	}
+	p.book-title {
+		font-size: 36pt;
+		string-set: book_title content();
+	}
+	p.book-subtitle {
+		font-size: 18pt;
+	}
+	p.book-author {
+		font-size: 14pt;
+		string-set: book_author content();
+	}
+	div.publication-block{
+		-prince-float: bottom;
+	}
+	p.book-affiliation {
+		font-size: 14pt;
+	}
+	p.book-date {
+		font-size: 14pt;
+	}
+	div.colophon {
+		display: block;
+		page: cover;
+		line-height: $shortest-line-height;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		break-after: right;
+        -prince-float: bottom;
+	}
+	p.colophon {
+		font-size: 9pt;
+		line-height: $shortest-line-height;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
+	div.epigraph {
+		display: block;
+		page: frontmatter;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		break-before: right;
+	}
+	p.epigraph-quote {
+		font-style: italic;
+		margin: 25% 0 0 0;
+	}
+	p.epigraph-cite {
+		text-align: right;
+	}
+	div.contents {
+		display: block;
+		page: frontmatter;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		break-before: right;
+	}
+	#toc ol, ul { 
+		list-style-type: none; 
+		font-size: $large-size;
+		font-weight: $normal-weight;
+		}
+	#toc, #ix, li { 
+		margin-top: 1rem; 
+	}
+	#toc a::after {
+		content: leader('.') target-counter(attr(href), page);
+	}
+	#toc li.h1 { 
+		font-size: $large-size;
+		margin-left: 0;
+		break-after: avoid;
+	}
+	#toc li.h2 { 
+		font-size: $body-size;
+		margin-left: 2em;
+	}
+	#toc li.h3 { 
+		font-size: $body-size;
+		font-style: italic;
+		margin-left: 4em;
+	}
+	div.preface {
+		display: block;
+		page: frontmatter;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		break-before: right;
+	}
+	div.casebook {
+		display: block;
+		width: 11.8cm;
+		padding: 0 0 0 0;
+		break-before: right;
+		counter-reset: page 1;
+	}
+	div.chapter {
+		padding: 0 0 0 0; 
+		page: chapter;
+		break-before: right;
+		-prince-page-group: start;
+	}
+	p.chapter-number {
+		margin-bottom: 0;
+		break-before: right;
+		break-after: avoid;
+	}
+	.casebook h1 {
+		font-size: 22pt;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+		string-set: chapter_title content();
+	}
+	.casebook h2 {
+		font-size: 20pt;
+		font-weight: $normal-weight;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	.casebook h3 {
+		font-size: 18pt;
+		font-weight: $normal-weight;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	.casebook h4 {
+		font-size: 16pt;
+		font-weight: $normal-weight;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	.casebook h5 {
+		font-size: 14pt;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	.casebook h6 {
+		font-size: 12pt;
+		margin-top: 1.5rem;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+
+	p.case-h1 {
+		font-size: 14pt;
+		hyphens: none;
+        text-align: left;
+	}
+	p.case-h2 {
+		font-size: 12pt;
+		hyphens: none;
+        text-align: left;
+	}
+	p.case-h3 {
+		font-size: 11pt;
+		hyphens: none;
+        text-align: left;
+	}
+	p.case-h4 {
+		font-size: 11pt;
+		hyphens: none;
+        text-align: left;
+	}
+	ol, ul {
+		text-align: justify;
+	}
+	li {
+		text-align: justify;
+	}
+	.casebook figure.fullwidth figcaption { 
+		margin: .3cm 0 .6cm 0; 
+        -prince-float: bottom;
+        -prince-float-policy: in-order;
+		}
+	.sidenote, .marginnote {
+		float: none;
+		clear: none;
+		margin: 0 0 12pt 0;
+		width: inherit;
+		hyphens: auto;
+		hyphenate-lines: 1;
+		-prince-float: rightnote;
+	}
+	.sidenote { 
+		font-size: 8pt;
+		font-weight: $normal-weight;
+	}
+	.marginnote {
+		font-size: 8pt;
+		font-weight: $normal-weight;
+	}
+	thead {
+		display: table-header-group;
+	}
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+	header {
+		display: none;
+	}
+	.button {
+		display: none;
+	}
+	img {
+		max-width: 90% !important;
+	}
+	hr {
+		margin-top: 4em;
+		margin-bottom: 4em;
+	}
+	p {
+	  orphans: 4;
+	  widows: 2;
+	}
+	h2,
+	h3,
+	h4 {
+	  orphans: 4;
+	  widows: 4;
+	}
+	p.case-h1, p.case-h2, p.case-h3, p.case-h4 {
+		orphans: 4;
+		widows: 4;
+		break-after: avoid;
+	}
+	.leftalign {
+		hyphens: none;
+        text-align: left;
+	}
+}
+// Hide print header/footer in screen display
+@media screen {
+	.print-header {
+		display: none;
+	}
+	.print-footer {
+		display: none;
+	}
+	.print-headfoot-block {
+		display: none;
+	}
+}

@@ -6,7 +6,7 @@
 		margin-left: 0;
 		margin-right: 0;
 		margin-inside: 2cm;
-		margin-outside: 3cm;
+		margin-outside: 2cm;
 		padding: 0 0 0 0;
 		size: letter portrait;
 		background-color: transparent;
@@ -16,96 +16,211 @@
 		@leftnote { width: 0;}
 		@rightnote { width: 4cm; padding-left: .79cm;}
 	}
-	@page :left {
+	@page:left {
 		@top-left { content: normal; }
 		@top-center {  content: normal; }
 		@top-right { content: normal; }
 	}
-	@page :right {
+	@page:right {
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
 	}
-  	@page :first {
+  	@page:first {
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
+	}
+	html {
+		font-size: 10pt;
+	}
+	body {
+		width: 100%;
+		margin: 0 0 0 0;
+		padding: .5cm 0 0 0;
+		background-color: transparent;
+	}
+	page-container {
+		padding: 0 0 0 0;
+	}
+	section {
+		padding: 0 0 0 0;
+	}
+	p {
+		font-size: 10pt;
+        text-align-all: justify;
+        text-align-last: left;
+	}
+
+	h1 {
+		font-size: 22pt;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+		string-set: chapter_title content();
+	}
+	h2 {
+		font-size: 20pt;
+		font-weight: $normal-weight;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	h3 {
+		font-size: 18pt;
+		font-weight: $normal-weight;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	h4 {
+		font-size: 16pt;
+		font-weight: $normal-weight;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	h5 {
+		font-size: 14pt;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	h6 {
+		font-size: 12pt;
+		margin-top: 1.5rem;
+		hyphens: none;
+        text-align: left;
+		break-after: avoid;
+	}
+	div.book-cover {
+		display: block;
+		page: cover;
+		break-after: left;
+	}
+	@page cover {
+		@top-left { content: normal; }
+		@top-center { content: normal; }
+		@top-right { content: normal; }
+    }
+	div.title-block {
+		margin: 4cm 0 0 0;
+	}
+	p.book-title {
+		font-size: 36pt;
+		string-set: book_title content();
+	}
+	p.book-subtitle {
+		font-size: 18pt;
+	}
+	p.book-author {
+		font-size: 14pt;
+		string-set: book_author content();
+	}
+	div.publication-block{
+		-prince-float: bottom;
+	}
+	p.book-affiliation {
+		font-size: 14pt;
+	}
+	p.book-date {
+		font-size: 14pt;
+	}
+	div.colophon {
+		display: block;
+		page: colophon;
+		line-height: $shortest-line-height;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		break-after: right;
+        -prince-float: bottom;
 	}
 	@page colophon {
-		border-top: thin black solid;
-		@top-left { content: normal; }
-		@top-center {
-			font-family: $sans-font;
-			content: string(book_title);
-			vertical-align: bottom;
-		}
-		@top-right { content: normal; }
-    }
-	@page colophon:first {
 		@top-left { content: normal; }
 		@top-center { content: normal; }
 		@top-right { content: normal; }
     }
+	p.colophon {
+		font-size: 9pt;
+		line-height: $shortest-line-height;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
+	div.epigraph {
+		display: block;
+		page: epigraph;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		break-after: right;
+		counter-reset: page 1;
+	}
 	@page epigraph {
-		border-top: thin black solid;
-		@top-left { content: normal; }
-		@top-center {
-			font-family: $sans-font;
-			content: string(book_title);
-			vertical-align: bottom;
-		}
-		@top-right { content: normal; }
+        @bottom-center { content: normal; }
 	}
-	@page epigraph:first {
-		@top-left { content: normal; }
-		@top-center { content: normal; }
-		@top-right { content: normal; }
+    @page epigraph:blank {
+        @bottom-center { content: counter(page, lower-roman); }
+    }
+	p.epigraph-quote {
+		font-style: italic;
+		margin: 25% 0 0 0;
 	}
-	@page preface {
-		border-top: thin black solid;
-		}
-	@page preface:left {
-		@top-left {
-			font-family: $sans-font;
-			content: counter(page);
-			vertical-align: bottom;
-		}
-		@top-center {
-			font-family: $sans-font;
-			content: string(book_title);
-			vertical-align: bottom;
-		}
-		@top-right {
-			content: normal;
-		}
+	p.epigraph-cite {
+		text-align: right;
 	}
-	@page preface:right {
-		@top-left {
-			content: normal;
-		}
-		@top-center {
-			font-family: $sans-font;
-			content: string(chapter_title);
-			vertical-align: bottom;
-		}
-		@top-right {
-			font-family: $sans-font;
-			content: counter(page);
-			vertical-align: bottom;
-		}
+	div.contents {
+		display: block;
+		page: contents;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		break-after: right;
 	}
-	@page preface:first {
-		border-top: none;
-		margin-top: 3cm;
-		@top-left {
-			content: normal;
+    @page contents {
+        @bottom-center { content: counter(page, lower-roman); }
+    }
+    @page frontmatter:blank {
+        @bottom-center { content: counter(page, lower-roman); }
+    }
+	#toc ol, ul { 
+		list-style-type: none; 
+		font-size: $large-size;
+		font-weight: $normal-weight;
 		}
-		@top-center {
-			content: normal;
-		}
-		@top-right {
-			content: normal;
-		}
+	#toc, #ix, li { 
+		margin-top: 1rem; 
+	}
+	#toc a::after {
+		content: leader('.') target-counter(attr(href), page);
+	}
+	#toc li.h1 { 
+		font-size: $large-size;
+		margin-left: 0;
+		break-after: avoid;
+	}
+	#toc li.h2 { 
+		font-size: $body-size;
+		margin-left: 2em;
+	}
+	#toc li.h3 { 
+		font-size: $body-size;
+		font-style: italic;
+		margin-left: 4em;
+	}
+	div.preface {
+		display: block;
+		page: chapter;
+		width: 11.8cm;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		break-after: right;
+		counter-reset: page 1;
+	}
+	div.chapter {
+		width: 11.8cm;
+		padding: 0 0 0 0;
+		padding: 0 0 0 0; 
+		page: chapter;
+        break-before: right;
+        -prince-page-group: start;
 	}
 	@page chapter {
 		border-top: thin black solid;
@@ -153,142 +268,9 @@
 			content: normal;
 		}
 	}
-
-	html {
-		font-size: 10pt;
-	}
-	body {
-		width: 100%;
-		margin: 0 0 0 0;
-		padding: .5cm 0 0 0;
-		background-color: transparent;
-	}
-	page-container {
-		padding: 0 0 0 0;
-	}
-	section {
-		padding: 0 0 0 0;
-	}
-	p {
-		font-size: 10pt;
-        text-align-all: justify;
-        text-align-last: left;
-	}
-	div.book-cover {
-		display: block;
-		break-after: left;
-	}
-	div.title-block {
-		margin: 4cm 0 0 0;
-	}
-	p.book-title {
-		font-size: 36pt;
-		string-set: book_title content();
-	}
-	p.book-subtitle {
-		font-size: 18pt;
-	}
-	p.book-author {
-		font-size: 14pt;
-		string-set: book_author content();
-	}
-	div.publication-block{
-		-prince-float: bottom;
-	}
-	p.book-affiliation {
-		font-size: 14pt;
-	}
-	p.book-date {
-		font-size: 14pt;
-	}
-	div.colophon {
-		display: block;
-		line-height: $shortest-line-height;
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
-		break-after: right;
-        -prince-float: bottom;
-	}
-	p.colophon {
-		font-size: 9pt;
-		line-height: $shortest-line-height;
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
-	}
-	div.epigraph {
-		display: block;
-		break-after: right;
-	}
-	p.epigraph-quote {
-		font-style: italic;
-		margin: 25% 0 0 0;
-	}
-	p.epigraph-cite {
-		text-align: right;
-	}
-	div.casebook {
-		display: block;
-		width: 11.8cm;
-		padding: 0 0 0 0;
-		break-before: right;
-		counter-reset: page 1;
-	}
-	div.preface {
-		padding: 0 0 0 0; 
-		page: preface;
-		break-before: right;
-		-prince-page-group: start;
-	}
-	div.chapter {
-		padding: 0 0 0 0; 
-		page: chapter;
-		break-before: right;
-		-prince-page-group: start;
-	}
 	p.chapter-number {
 		margin-bottom: 0;
 		break-before: right;
-		break-after: avoid;
-	}
-	h1 {
-		font-size: 22pt;
-		hyphens: none;
-        text-align: left;
-		break-after: avoid;
-		string-set: chapter_title content();
-	}
-	h2 {
-		font-size: 20pt;
-		font-weight: $normal-weight;
-		hyphens: none;
-        text-align: left;
-		break-after: avoid;
-	}
-	h3 {
-		font-size: 18pt;
-		font-weight: $normal-weight;
-		hyphens: none;
-        text-align: left;
-		break-after: avoid;
-	}
-	h4 {
-		font-size: 16pt;
-		font-weight: $normal-weight;
-		hyphens: none;
-        text-align: left;
-		break-after: avoid;
-	}
-	h5 {
-		font-size: 14pt;
-		hyphens: none;
-        text-align: left;
-		break-after: avoid;
-	}
-	h6 {
-		font-size: 12pt;
-		margin-top: 1.5rem;
-		hyphens: none;
-        text-align: left;
 		break-after: avoid;
 	}
 	p.case-h1 {

@@ -1,23 +1,22 @@
-.casebook {
+.preface {
     padding: 75px 0; 
 	width: 50vw;
 }
+
 .chapter {
-	padding: 250px 0 0 0;
+    padding: 75px 0; 
+	width: 50vw;
 }
-.chapter-number {
-	color: $dull-red;
-	font-family: $sans-font;
-	font-size: $largest-size;
-	font-weight: $normal-weight;
-	line-height: $single-line-height;
-	font-style: normal;
-	margin: 0 0 1rem 0;
-}
-.chapter-number p {
-	margin-bottom: 0;
-}
+
 /* HEADINGS */
+
+/* Preface */
+.preface h1 {
+	color: $dull-red;
+	font-family: adelle-sans, sans-serif;
+	font-weight: $normal-weight;
+	line-height: $line-height;
+}
 /* Chapter */
 .casebook h1 {
 	color: $dull-red;
@@ -27,13 +26,9 @@
 	counter-increment: chapter;  /* Add 1 to chapter */
     counter-reset: section;      /* Set section to 0 */
 }
-/*
-.casebook h1::before {
-	content: "Chapter " counter(chapter) " \A";
-	white-space: pre-wrap;
-	font-size: $subtitle-size;
+.casebook h1:before { 
+	content: "Chapter " counter(chapter) ": "; 
 }
-*/
 /* Section */
 .casebook h2 {
 	color: $dull-red;
@@ -67,7 +62,6 @@
 }
 
 /* Section headings within incorporated materials */
-
 .casebook h5 {
 	font-size: $larger-size;
     font-style: normal;
@@ -115,17 +109,13 @@ p.case-h4 {
 	font-style: normal;
 }
 
-
 /* List Items */
-
 .casebook ol {
 	font-size: inherit;
 }
-
 .casebook ul {
 	font-size: inherit;
 }
-
 .casebook li {
 	font-size: inherit;
 }
@@ -175,7 +165,6 @@ p.case-h4 {
 	margin: 2rem 0 0rem 0;
 	border-bottom: 1px solid $dull-red;
 }
-
 .legal-code h5 {
 	font-style: normal;
 }

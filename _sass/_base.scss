@@ -148,6 +148,15 @@ blockquote p {
 .contrast { 
 	color: $contrast-color;
 	}
+.large {
+	font-size: $large-size;
+}
+.larger {
+	font-size: $larger-size;
+}
+.largest {
+	font-size: $largest-size;
+}
 .small {
 	font-size: $small-size;
 	}
