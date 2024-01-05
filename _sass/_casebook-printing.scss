@@ -216,6 +216,9 @@
     @page preface {
         @bottom-center { content: counter(page); }
     }
+	@page preface:first {
+        @bottom-center { content: normal; }
+	}
     @page preface:blank {
         @bottom-center { content: counter(page); }
     }
