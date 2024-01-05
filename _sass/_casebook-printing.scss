@@ -205,6 +205,7 @@
 		margin-left: 4em;
 	}
 	div.preface {
+		display: block;
 		page: preface;
 		width: 11.8cm;
 		margin: 0 0 0 0;
@@ -217,7 +218,15 @@
     @page preface:blank {
         @bottom-center { content: counter(page, lower-roman); }
     }
+	div.casebook {
+		display: block;
+		width: 11.8cm;
+		padding: 0 0 0 0;
+		padding: 0 0 0 0; 
+        break-before: right;
+	}
 	div.chapter {
+		display: block;
 		width: 11.8cm;
 		padding: 0 0 0 0;
 		padding: 0 0 0 0; 
