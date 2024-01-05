@@ -1,12 +1,11 @@
 ---
 layout: casebook
-chapter-title: Introduction
-
+chapter-title: Devilish Advocacy
 ---
 
-# Introduction
+# Devilish Advocacy
 
-## Devil's Advocacy 
+## Serving Satan 
 
 #### U.S. ex rel. Mayo v. Satan and His Staff, 54 F.R.D. 282 (W.D. Pa. 1971)
 
@@ -36,6 +35,8 @@ We note that the plaintiff has failed to include with his complaint the required
 For the foregoing reasons we must exercise our discretion to refuse the prayer of plaintiff to proceed in forma pauperis.
 
 It is ordered that the complaint be given a miscellaneous docket number and leave to proceed in forma pauperis be denied.
+
+## Cases affecting ambassadors, other public ministers and consuls
 
 #### Stephen Vincent Benet, "The Devil & Daniel Webster", Saturday Evening Post (Oct. 24, 1936)
 
