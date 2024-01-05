@@ -24,11 +24,6 @@
 	font-weight: $normal-weight;
 	line-height: $line-height;
 	counter-increment: chapter;  /* Add 1 to chapter */
-}
-.casebook h1:before { 
-	content: "Chapter " counter(chapter) ": "; 
-}
-.casebook h1:after { 
     counter-reset: section;      /* Set section to 0 */
 }
 /* Section */
