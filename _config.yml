@@ -54,7 +54,6 @@ gems:
 markdown: Pandoc
 pandoc:
   extensions:
-    - section-divs
     - from: 'markdown+tex_math_single_backslash'
     - filter: 'pandoc-sidenote'
 
