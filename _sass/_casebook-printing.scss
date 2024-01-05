@@ -213,6 +213,9 @@
         break-before: right;
 		counter-reset: page 1;
 	}
+	@page preface {
+        @bottom-center { content: normal; }
+	}
     @page preface:left {
         @bottom-center { content: counter(page); }
     }
