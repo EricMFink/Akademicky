@@ -121,19 +121,15 @@ li {
 }
 
 /* Blockquotes */
+
 blockquote {
-	font-size: $small-size;
-	font-weight: $normal-weight;
-	display: block;
 	margin: 1rem 0 1rem 0;
-	padding: 0 1.5rem 0 1.5rem;
+	padding: 0 5% 0 5%;
 }
+
 blockquote p {
 	font-size: $small-size;
-	font-weight: $normal-weight;
 	font-style: italic;
-	margin: 0 0 0.5rem 0;
-	padding: 0 0 0 0;
 }
 
 

@@ -130,15 +130,28 @@ p.case-h4 {
 /* EXPLANATIONS & COMMENTS */
 .comment {
 	font-family: $sans-font;
-	font-size: $smaller-size;
-	margin: 2rem 0 2rem 0;
-	padding: 1px 2% 10px 2%;
-    background-color: $text-box-color;
-	border: 1px solid $yellow;
+	margin: 5rem 0;
+	padding-bottom: 1rem;
+	border-top: 2px solid $theme-color;
+	border-bottom: 2px solid $theme-color;
 }
 .comment p {
 	font-family: $sans-font;
+}
+.comment blockquote {
+	margin: 1rem 0 1rem 2.5%;
+	padding: 0 5% 0 2.5%;
+	border-left: 3px solid $theme-color;
+}
+.comment blockquote blockquote {
+	border: none;
+}
+.comment blockquote p {
+	font-style: italic;
+}
+.comment blockquote blockquote p {
 	font-size: $smaller-size;
+	font-style: normal;
 }
 .comment h4 {
 	font-family: $sans-font;
@@ -146,15 +159,9 @@ p.case-h4 {
 }
 .comment h5 {
 	font-family: $sans-font;
-	font-size: $h6;
-	margin-top: 1rem;
 }
 .comment h6 {
 	font-family: $sans-font;
-	font-size: $small-size;
-	font-weight: $normal-weight;
-	font-style: italic;
-	margin-top: 1rem;
 }
 /* LEGAL CODE: Indented subsections in statutes, etc. */
 
@@ -171,6 +178,20 @@ p.case-h4 {
 /* Heading for Official Comments */
 .legal-code h6 {
 	font-style: normal;
+}
+/* Use for indented sections in statutes, etc. */
+.legal-code ul { 
+	list-style-type: none;
+	font-size: $body-size;
+	font-weight: $normal-weight;
+	margin: .5rem 0 .5rem 2rem; 
+	padding: 0 0 0 0;
+}
+
+.legal-code li { 
+	font-size: $body-size;
+	line-height: $line-height;
+	margin-bottom: 0.5rem;
 }
 .legal-code blockquote {
 	font-size: $body-size;

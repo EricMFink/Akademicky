@@ -35,3 +35,63 @@ preface: "This book presents cases and other material for use in a course on the
 </article>
 
 </div>
+
+<div class="chapter">
+
+<article class="group">
+
+{% include_relative chap3.md %}
+
+</article>
+
+</div>
+
+<div class="chapter">
+
+<article class="group">
+
+{% include_relative chap4.md %}
+
+</article>
+
+</div>
+
+<div class="chapter">
+
+<article class="group">
+
+{% include_relative chap5.md %}
+
+</article>
+
+</div>
+
+<div class="chapter">
+
+<article class="group">
+
+{% include_relative chap6.md %}
+
+</article>
+
+</div>
+
+<div class="chapter">
+
+<article class="group">
+
+{% include_relative chap7.md %}
+
+</article>
+
+</div>
+
+<div class="chapter">
+
+<article class="group">
+
+{% include_relative chap8.md %}
+
+</article>
+
+</div>
