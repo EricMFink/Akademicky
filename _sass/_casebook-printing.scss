@@ -321,6 +321,9 @@
 		border-top: none;
 		border-bottom: none;
 	}
+	.comment blockquote {
+		border-left: none;
+	}
 	.casebook figure.fullwidth figcaption { 
 		margin: .3cm 0 .6cm 0; 
         -prince-float: bottom;
