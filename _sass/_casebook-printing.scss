@@ -317,6 +317,10 @@
 	li {
 		text-align: justify;
 	}
+	.comment {
+		border-top: none;
+		border-bottom: none;
+	}
 	.casebook figure.fullwidth figcaption { 
 		margin: .3cm 0 .6cm 0; 
         -prince-float: bottom;
@@ -325,8 +329,8 @@
 	.sidenote, .marginnote {
 		float: none;
 		clear: none;
-		margin: 0 0 12pt 0;
-		width: inherit;
+		margin: 0 0 4pt 0;
+		width: 3,75cm;
 		hyphens: auto;
 		hyphenate-lines: 1;
 		-prince-float: rightnote;
@@ -338,6 +342,13 @@
 	.marginnote {
 		font-size: 8pt;
 		font-weight: $normal-weight;
+	}
+	blockquote .sidenote, blockquote .marginnote {
+		margin: 0 0 4pt 0;
+		width: 3,75cm;
+		hyphens: auto;
+		hyphenate-lines: 1;
+		-prince-float: rightnote;
 	}
 	thead {
 		display: table-header-group;
