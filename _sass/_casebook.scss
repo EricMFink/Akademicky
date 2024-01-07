@@ -18,6 +18,9 @@
 	line-height: $line-height;
 }
 /* Chapter */
+.chapter {
+	counter-reset: sidenote-counter;
+}
 .casebook h1 {
 	color: $dull-red;
 	font-family: adelle-sans, sans-serif;
