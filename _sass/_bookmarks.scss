@@ -1,11 +1,10 @@
 .bookmarks-container {
-	padding: 0 0;
+	padding: 75px 0;
+	background: rgba(0,0,0,0.1);
 	height: 100%;
-	background: rgba(0,0,0,0.4);
 }
 
 .bookmarks-block {
-	margin-top: 50px;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -32,10 +31,12 @@
     color: $off-white;
     text-decoration: none;
     &:hover {
-		color:$theme-color;
+		color:$link-hover-color;
     }
 }
-.bookmarks-column h4 {
+.bookmarks-column h5 {
+	font-family: $sans-font;
+	font-style: normal;
 	font-weight: $normal-weight;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
@@ -52,7 +53,7 @@
 		margin-left: 2%;
 		margin-right: 2%;
 	}
-	.bookmarks-column h4 {
-		font-size: $h5;
+	.bookmarks-column h5 {
+		font-size: $h6;
 	}
 }

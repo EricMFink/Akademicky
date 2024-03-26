@@ -1,21 +1,22 @@
 ---
-date: Fall 2023
+date: Fall 2024
 layout: syllabus
 title: Syllabus
 permalink: /syllabus/
 
 course: Trials and Tribulations
-author: Eric M. Fink
-affiliation: Elon Law School
-email: efink@elon.edu
-phone: 336-279-9334
-address1: 201 North Greene Street
-address2: Greensboro, North Carolina 27401
-term: 'Fall 2023'
+author: Prof. Saul Goodman
+affiliation: University of American Samoa School of Law
+email: sgoodman@uasslaw.edu
+phone: 684-555-1234
+address1: Pago Plaza
+address2: Pago Pago, American Samoa 96799
+term: 'Fall 2024'
 days: 'Monday, Wednesday, & Friday 1:30–3:15 pm'
 room: 'Room 207'
+officehours: By appointment
 ta: Sue DeMoll
-ta-email: sdemoll@elon.edu
+ta-email: sdemoll@uasslaw.edu
 
 syllabus: true
 
@@ -35,11 +36,11 @@ In this course, you will learn about the difficulties of practicing law. This co
 
 ### Required 
 
-Trials & Tribulations: An Adsurdist Casebook. Available online via the course site [`emfink.net/akademicy`](https://www.emfink.net/akademicky).
+Saul Goodman, _Trials & Tribulations: An Absurdist Casebook_ (2d ed. 2024)
 
 ### Suggested 
 
-Saul Goodman, Devil's Advocate: How I Represented the Devil without Losing my Soul (2023)
+Saul Goodman, _Devil's Advocate: How I Represented the Devil without Losing my Soul_ (2023)
 
 ## Policies
 
@@ -56,8 +57,8 @@ Your final grade for the term will be based on a midterm (40% total) and a final
  **Date** | **Topic**  | **Assignment**
 --|---|--
  &nbsp; | &nbsp; | &nbsp;
- &nbsp; | **Introduction** | Clermont, Chapter 1
- August 28 | Devil's Advocacy | Casebook, Chapter 1 §1
+ &nbsp; | **Introduction** | Casebook, Chapter 1
+ August 28 | Devil's Advocacy | Casebook, Chapter 2
   &nbsp; |  &nbsp; |  &nbsp;
  October 4 | **Midterm** | &nbsp; 
   &nbsp; |  &nbsp; |  &nbsp;

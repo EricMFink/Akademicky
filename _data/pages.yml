@@ -1,18 +1,14 @@
+- title: Publications
+  url: /publications/
+
+- title: Teaching
+  url: /teaching/
+
 # Default pages for teaching site
 
-- title: Syllabus
-  url: /syllabus/
+#- title: Syllabus
+#  url: /syllabus/
 
-- title: Casebook
-  url: /casebook/contents/
+#- title: Links
+#  url: /links/
 
-- title: Links
-  url: /links/
-
-# Additional pages
-
-# - title: Publications
-#   url: /publications/
-
-# - title: Teaching
-#   url: /teaching/

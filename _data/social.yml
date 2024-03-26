@@ -2,6 +2,11 @@
   url: 'mailto:name@institution.edu'
   label: Email
 
+- title: ai ai-cv
+  url: vita
+  label: CV
+
+
 - title: fab fa-github
   url: https://github.com/username
   label: GitHub
@@ -19,5 +24,5 @@
   label: Orcid
 
 - title: ai ai-zotero
-  url: https://www.zotero.org/NAME/items
+  url: https://www.zotero.org/NAME/library
   label: Zotero
