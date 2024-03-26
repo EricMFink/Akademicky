@@ -64,7 +64,7 @@ timezone: America/New_York
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 include: ['_pages']
 exclude: ['Gemfile']
-keep_files: [.admin]
+keep_files: []
 post:
   template: _post.txt
   extension: md

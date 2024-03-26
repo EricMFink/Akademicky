@@ -23,6 +23,34 @@
 	color: white;
 }
 
+.profile-block-left {
+	width: 100%;
+    text-align: left;
+	position: absolute;
+    top: 0;
+    left: 0;
+	margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 0;
+}
+
+.profile h1 {
+    font-size: 1.6rem;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.profile h2 {
+    font-size: 1.2rem;
+	font-weight: $normal-weight;
+    color: $off-white;
+    line-height: 1;
+    margin: 0 0 2rem 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
 .profile1 {
     font-size: $title-size;
     line-height: $line-height;
@@ -98,6 +126,25 @@
 
 .list-inline-item {
     display: inline-block;
+}
+
+.social-left {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    line-height: 2.5;
+}
+
+.list-inline-left {
+    list-style: none;
+    font-size: 28px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.list-inline-left>li {
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding: 0 25px 0 0;
 }
 
 .social-icons-left, .social-icons-right {

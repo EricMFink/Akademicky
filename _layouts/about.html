@@ -4,23 +4,16 @@
 
 <body class="fullwidth">
 	<div class="profile-image" style="background-image: url('cover.png');">
-
-		{% include header.html %}
-
 		<div class="page-container">
-		
 			<div class="profile">
-				<div class="profile-block">
+				<div class="profile-block-left">
 					{{ content }}
-					{% include social.html %}
+					{% include social-left.html %}
 				</div>
-
-
 			</div>
+		{% include footer.html %}
 		</div>
 	</div>
-
-	{% include footer.html %}
 </body>
 
 </html>

@@ -1,39 +1,33 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<title>{{ site.title }}</title>
+	<meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="shortcut icon" href="https://www.emfink.net/assets/img/favicon.ico">
 
-  <title>{{ site.title }}</title>
-  <meta name="description" content={{ site.description }}>
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="https://www.emfink.net/Akademicky/assets/img/favicon.ico">
+  <!-- Main CSS -->
+	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/main.css" >
 
   <!-- Custom Icons -->
 	
-  <link rel="stylesheet" type="text/css" href="https://www.emfink.net/Akademicky/assets/css/academicons.css">
-  <link rel="stylesheet" type="text/css" href="https://www.emfink.net/Akademicky/assets/css/academicons.min.css">
-  <link rel="stylesheet" type="text/css" href="https://www.emfink.net/Akademicky/assets/fontawesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="https://www.emfink.net/Akademicky/assets/fontawesome/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="https://www.emfink.net/Akademicky/assets/fontawesome/css/brands.css">  
-  <link rel="stylesheet" type="text/css" href="https://www.emfink.net/Akademicky/assets/fontawesome/css/solid.css">
+	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/academicons.css">
+	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/academicons.min.css">
+	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/brands.css">  
+	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/fontawesome/css/solid.css">
 
   <!-- Portada, Adelle, LFT Etica Mono -->
-  <link rel="stylesheet" href="https://use.typekit.net/viv2jun.css">
+	<link rel="stylesheet" href="https://use.typekit.net/viv2jun.css">
 
-  <!-- Google Fonts -->
-  <!--
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap">
-  -->
-  
-  <!-- Main CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ "https://emfink.net/Akademicky/assets/css/main.css" }}">
-  <!--<link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}"> -->
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- <link rel="stylesheet" type="text/css" href="{{ "/css/print.css" | prepend: site.baseurl }}" media="print"> -->
-
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <!-- Amplitude JS -->
+	<script type="text/javascript" src="https://www.emfink.net/assets/js/amplitude.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://www.emfink.net/assets/css/amplitudejs.css" />
 
 </head>

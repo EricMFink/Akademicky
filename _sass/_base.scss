@@ -36,6 +36,13 @@ body.fullwidth {
 	margin: 0 auto 0 auto;
     counter-reset: chapter sidenote-counter; 
 }
+body.centered {
+	width: 85%;
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 2.5rem 0 2.5rem;
+}
 
 /* Headings */
 

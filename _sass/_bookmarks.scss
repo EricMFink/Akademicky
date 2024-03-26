@@ -1,0 +1,58 @@
+.bookmarks-container {
+	padding: 0 0;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+}
+
+.bookmarks-block {
+	margin-top: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* container */
+.three-columns-grid {
+	display: grid;
+	grid-auto-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.bookmarks-column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+}
+
+.bookmarks-column a {
+    color: $off-white;
+    text-decoration: none;
+    &:hover {
+		color:$theme-color;
+    }
+}
+.bookmarks-column h4 {
+	font-weight: $normal-weight;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+  
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 699px) {
+	.bookmarks-block {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.bookmarks-column h4 {
+		font-size: $h5;
+	}
+}

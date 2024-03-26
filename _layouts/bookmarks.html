@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="fullwidth">
+	<div class="profile-image" style="background-image: url('../cover.png');">
+		{% include header-nonav.html %}
+		<div class="bookmarks-container">
+			<div class="bookmarks-block">
+				<div class="row">
+					<div class="bookmarks-column">
+						{% for bookmark in site.data.bookmarks-personal %}
+							<h5><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h5>
+						{% endfor %}
+					</div>
+
+					<div class="bookmarks-column">
+						{% for bookmark in site.data.bookmarks-work %}
+							<h5><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h5>
+						{% endfor %}
+					</div>
+
+					<div class="bookmarks-column">
+						{% for bookmark in site.data.bookmarks-teaching %}
+							<h5><a href="{{ bookmark.url }}">{{ bookmark.title }}</a></h5>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
