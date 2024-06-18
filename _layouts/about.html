@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="fullwidth">
+	<div class="profile-image" style="background-image: url('cover.png');">
+		<div class="page-container">
+			<div class="profile">
+				<div class="profile-block-left">
+					{{ content }}
+					{% include social-left.html %}
+				</div>
+			</div>
+		{% include footer.html %}
+		</div>
+	</div>
+</body>
+
+</html>

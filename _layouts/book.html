@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ page.title }}</title>
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+<!-- Fonts -->
+<link rel="stylesheet" href="https://use.typekit.net/viv2jun.css">
+
+<link rel="stylesheet" type="text/css" href="https://emfink.net/assets/css/main.css">
+
+<!-- <link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}"> -->
+
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+{% include prince-toc.js %}
+
+</head>
+
+<body onload="toc('h1, h2, h3')">
+
+<div class="book-cover" group>
+	<p class="book-author">{{ page.author }}</p>
+		<div class="title-block" group>
+			<p class="book-title">{{ page.title }}</p>
+			<p class="book-subtitle">{{ page.subtitle }}</p>
+		</div>
+		<div class="publication-block" group>
+			<p class="book-affiliation">{{ page.affiliation }}</p>
+			<p class="book-date">{{ page.term }}</p>
+		</div>
+</div>
+
+{% include colophon.html %}
+
+{% include epigraph.html %}
+
+{% include toc.html %}
+
+{% include preface.html %}
+
+<div class="casebook">
+
+{{ content }}
+
+</div>
+
+</body>
+
+</html>

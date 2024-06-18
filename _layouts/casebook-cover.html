@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="fullwidth">
+	<div class="profile-image" style="background-image: url('img/cover.png');">
+
+		<div class="page-container">
+		
+			<div class="cover">
+				<div class="cover-block">
+					<p class="book-title">{{ site.coursebook.title }}</p>
+					<p class="book-subtitle">{{ site.coursebook.subtitle }}</p>
+					<br>
+					<p class="book-author">{{ site.author.name }}</p>
+					<p class="book-affiliation">{{ site.author.affiliation }}</p>
+
+					{{ content }}
+
+				<div class="social">
+					<span class="contacticon">
+					<a title="Table of Contents"href="{{ site.baseurl }}/casebook/contents/"><i class="fa-solid fa-book-bookmark"></i></a>
+					</span>
+				</div>
+
+				</div>
+
+			{% include footer.html %}
+			{% include hemline.html %}
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
