@@ -14,12 +14,12 @@ Created by [Eric M. Fink](https://github.com/EricMFink), based on [alshedivat/al
 ### Configuration
 
 1. Edit ```_config.yml```: 
-- Replace ```url:```, ```baseurl:```, ```title:```, and ```description:``` with the applicable information for your site.
-- Replace information in ```author:``` block with your name, institutional affiliation, job title, and contact details. 
-- Replace information in ```course:``` block with relevant information for your course
-- Replace ```~/Git/EricMFink.github.com/``` (in ```transfer:destination```, under ```#deployment```) with your GitHub account. This is used by the ```rakefile``` when building your site and pushing it to the GitHubPages branch. 
+- Edit the ```url:```, ```baseurl:```, ```title:```, and ```description:``` with the applicable information for your site.
+- Edit the ```author:``` block with your name, institutional affiliation, job title, and contact details. 
+- Edit the ```course:``` block with the relevant information for your course (if applicable). You can delete this block if you are not making a course website. 
+- In the ```transfer:``` block of the ```#deployment``` settings, edit the ```destination``` to use your GitHub Pages username instead of ```EricMFink```. This is used by the ```rakefile``` when building your site and pushing it to the GitHubPages branch. 
 
-2. Edit ```.yml``` files in ```_data directory``` with the appropriate information for your classes, publications, social networks, and site pages you want to be listed in the navigation menu.
+2. Edit ```.yml``` files in ```_data directory``` with the appropriate information for your classes, publications, social networks, and pages you want to be listed in your site's navigation menu.
 
 3. Edit files in ```_pages``` directory with the appropriate content for your site. 
 

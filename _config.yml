@@ -18,7 +18,7 @@ author:
   web: sgoodman.net
   github: ProfessorSaulGoodman
 
-# change to your course information 
+# For a course website, enter the relevant information for your course. You can delete this block if you are not making a course website. 
 course:
   subject: Trials & Tribulations
   term: Winter 2024

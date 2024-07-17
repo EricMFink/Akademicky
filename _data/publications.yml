@@ -1,15 +1,14 @@
+- id: Goodman2023
+  book: true
+  author: Saul Goodman
+  title: "Devil's Advocate: How I Represented the Devil without Losing my Soul"
+  publisher: Univ. of American Samoa Press
+  date: 2023
+
 - id: Goodman2022
-  type: article
   author: Saul Goodman
   title: "Ethics, Shmethics: Confessions of a Criminal Lawyer"
   journal: American Samoa Law Review
   page: 1
   volume: 10
   date: 2022
-
-- id: Goodman2023
-  type: book
-  author: Saul Goodman
-  title: "Devil's Advocate: How I Represented the Devil without Losing my Soul"
-  publisher: Univ. of American Samoa Press
-  date: 2023

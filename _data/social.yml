@@ -6,14 +6,9 @@
   url: vita
   label: CV
 
-
 - title: fab fa-github
   url: https://github.com/username
   label: GitHub
-
-- title: ai ai-osf
-  url: https://osf.io/12345/
-  label: OSF
 
 - title: ai ai-google-scholar
   url: https://scholar.google.com/citations?user=ID
@@ -22,7 +17,3 @@
 - title: ai ai-orcid
   url: https://orcid.org/0000-0000-0000-0000
   label: Orcid
-
-- title: ai ai-zotero
-  url: https://www.zotero.org/NAME/library
-  label: Zotero
