@@ -3,27 +3,6 @@ date: Fall 2024
 layout: syllabus
 title: Syllabus
 permalink: /syllabus/
-
-course: Trials and Tribulations
-author: Prof. Saul Goodman
-affiliation: University of American Samoa School of Law
-email: sgoodman@uasslaw.edu
-phone: 684-555-1234
-address1: Pago Plaza
-address2: Pago Pago, American Samoa 96799
-term: 'Fall 2024'
-days: 'Monday, Wednesday, & Friday 1:30–3:15 pm'
-room: 'Room 207'
-officehours: By appointment
-
-syllabus: true
-
-output:
-  pdf_document:
-    latex_engine: xelatex
-    template: master.tex
-    path: /assets/pdf/syllabus.pdf
-
 ---
 
 ## Description
@@ -45,8 +24,6 @@ Saul Goodman, _Devil's Advocate: How I Represented the Devil without Losing my S
 ### Grading
 
 Your final grade for the term will be based on a midterm (40% total) and a final exam (60%).
-
-\pagebreak
 
 ## Schedule & Assignments
 

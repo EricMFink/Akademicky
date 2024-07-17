@@ -1,34 +1,15 @@
-- id: Benjamin1999
-  author:
-    - family: Benjamin
-      given: Walter
-  citation-key: Benjamin1999
-  ISBN: 978-0-674-04326-8
-  issued:
-    - year: 1999
-  language: en
-  number-of-pages: '1100'
-  publisher: Harvard University Press
-  title: The Arcades Project
-  type: book
-  pdf: Benjamin1999
+- id: Goodman2022
+  type: article
+  author: Saul Goodman
+  title: "Ethics, Shmethics: Confessions of a Criminal Lawyer"
+  journal: American Samoa Law Review
+  page: 1
+  volume: 10
+  date: 2022
 
-- id: Benjamin1985
-  author:
-    - family: Benjamin
-      given: Walter
-    - family: Spencer
-      given: Lloyd
-    - family: Harrington
-      given: Mark
-  citation-key: Benjamin1985
-  container-title: New German Critique
-  DOI: 10.2307/488338
-  ISSN: 0094-033X
-  issue: '34'
-  issued:
-    - year: 1985
-  page: 32-58
-  publisher: '[New German Critique, Duke University Press]'
-  title: Central Park
-  type: article-journal
+- id: Goodman2023
+  type: book
+  author: Saul Goodman
+  title: "Devil's Advocate: How I Represented the Devil without Losing my Soul"
+  publisher: Univ. of American Samoa Press
+  date: 2023

@@ -1,26 +1,30 @@
-url: https://www.emfink.net
-baseurl: /Akademicky
-title: Akademický
-description:  # leave blank if you don't want to display a description
+url: https://www.emfink.net # change to your site's url 
+baseurl: /Akademicky # change to your repository 
+title: Akademický # Change to your site's title
+description: # leave blank if you don't want to display a description
 
 last_updated: 17 July 2024 # leave blank if you don't want to display last updated
 
-author:
-  name: Author Name
-  positition: Author Title
-  affiliation: Author Institution
-  address: Street Address
-  city-state-zip: 'City, ST 12345'
-  email: author@institution.edu
-  phone: 123-246-7890
-  web: author.net
 
+# Change to your name and contact information
+author:
+  name: Saul Goodman
+  positition: Professor of Law
+  affiliation: University of American Samoa School of Law
+  address: Pago Plaza
+  city-state-zip: 'Pago Pago, American Samoa 96799'
+  email: sgoodman@uasslaw.edu
+  phone: 684-555-1234
+  web: sgoodman.net
+  github: ProfessorSaulGoodman
+
+# change to your course information 
 course:
   subject: Trials & Tribulations
   term: Winter 2024
   room: Room 207
   meets: 'Monday & Wednesday 10:00–11:30 am'
-  repository: /akademicky
+  repository: /Trials&Tribulations
 
 
 # -----------------------------------------------------------------------------
@@ -33,7 +37,7 @@ course:
 host: localhost
 port: 4000
 
-remote_theme: EricMFink/Akademicky
+# remote_theme: EricMFink/Akademicky #uncomment to use EricMFink/Akademicky as remote theme
 
 gems:
   - jekyll-pandoc
@@ -48,7 +52,7 @@ pandoc:
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /:categories/:year/:month/:day/:title/
 timezone: America/New_York
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+excerpt_separator: <!--more-->  # you can specify your own separator
 include: ['_pages']
 exclude: ['Gemfile']
 keep_files: []
@@ -65,7 +69,7 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/EricMFink.github.com/
+  destination: ~/Git/EricMFink.github.com/ #change to your GitHub account
 
 jquery_version: "1.12.4"
 anchorjs_version: "3.2.2"

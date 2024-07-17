@@ -5,7 +5,7 @@
 
 <body>
 
-{% include syllabus-header.html %}
+{% include header.html %}
 
 	<article class="group">
 		<div class="page-container">
@@ -16,7 +16,7 @@
 				{% if page.subtitle %}
 				<h2 class="page-subtitle">{{ page.subtitle }}</h2>
 				{% endif %}
-				<a href='{{ site.baseurl }}/assets/pdf/syllabus.pdf'><button class='button syllabus smaller'>PDF</button></a>
+				<!-- uncomment to include button for pdf download --> <!-- <a href='{{ site.baseurl }}/assets/pdf/syllabus.pdf'><button class='button syllabus smaller'>PDF</button></a> -->
 			</div>
 
 			<div class="syllabus">
