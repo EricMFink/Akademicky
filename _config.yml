@@ -3,21 +3,17 @@ baseurl: /Akademicky
 title: Akademický
 description:  # leave blank if you don't want to display a description
 
-last_updated: 18 June 2024 # leave blank if you don't want to display last updated
+last_updated: 17 July 2024 # leave blank if you don't want to display last updated
 
 author:
-  name: Eric M. Fink
-  positition: Associate Professor
-  affiliation: Elon Law School
-  address: 201 North Greene Street
-  city-state-zip: 'Greensboro, North Carolina 27408'
-  email: efink@elon.edu
-  phone: 336-279-9334
-  web: emfink.net/ElonLaw
-
-ta:
-  name: TA Name
-  email: ta123@elon.edu
+  name: Author Name
+  positition: Author Title
+  affiliation: Author Institution
+  address: Street Address
+  city-state-zip: 'City, ST 12345'
+  email: author@institution.edu
+  phone: 123-246-7890
+  web: author.net
 
 course:
   subject: Trials & Tribulations
@@ -26,15 +22,6 @@ course:
   meets: 'Monday & Wednesday 10:00–11:30 am'
   repository: /akademicky
 
-coursebook:
-  title: Trials & Tribulations
-  subtitle: An Open-Source Casebook
-  version: '2.0'
-  date: January 2024
-
-collections:
-  casebook:
-    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

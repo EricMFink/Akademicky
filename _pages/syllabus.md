@@ -15,8 +15,6 @@ term: 'Fall 2024'
 days: 'Monday, Wednesday, & Friday 1:30–3:15 pm'
 room: 'Room 207'
 officehours: By appointment
-ta: Sue DeMoll
-ta-email: sdemoll@uasslaw.edu
 
 syllabus: true
 

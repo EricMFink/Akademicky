@@ -1,13 +1,13 @@
-$serif-font: portada, serif;
-$sans-font:  adelle-sans, sans-serif;
+$serif-font: 'Cormorant Garamond', serif;
+$sans-font:  'Proza Libre', sans-serif;
 $body-font: $serif-font;
 $heading-font: $sans-font;
-$serif-heading-font: portada, serif;
-$sidenotes-font: portada, serif;
-$marginnotes-font: adelle-sans, sans-serif;
-$japanese-font: TakaoPGothic, "Noto Sans CJK JP", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
-$mono-font: lft-etica-mono,Inconsolata,Consolas,Courier, monospace;
-$vita-font: "athelas", serif;
+$serif-heading-font: $serif-font;
+$sidenotes-font: $serif-font;
+$marginnotes-font: $sans-font;
+$japanese-font: 'Noto Sans JP',sans-serif;
+$mono-font: 'Source Code Pro',Inconsolata,Consolas,Courier,monospace;
+$vita-font: $serif-font;
 
 // Font Sizes 
 $base-size: 16px !default;
